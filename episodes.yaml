@@ -1,0 +1,917 @@
+- guid: deephci.podbean.com/9240eb6a-d826-5c10-9d19-6f70f65cd721
+  title: 'AHs 2025 texTENG: Fabricating Wearable Textile-Based Triboelectric Nanogenerators'
+  slug: ahs-2025-texteng-fabricating-wearable-textile-based-triboelectric-nanogenerators
+  published: '2026-03-06T09:37:32+09:00'
+  episode: 70
+  duration: 701
+  audio_file: Making_Clothes_Power_Triboelectric_Nanogenerators.m4a
+  audio_length: 22583764
+  audio_type: audio/x-m4a
+  image: 76c6d08b0a38ed7c164421a3d8d92c20ef4f1d0a131fa56e3eb1b1e658628795.jpg
+  description: |-
+    <p>What if your clothes could power your wearable devices? texTENG introduces a maker-friendly framework for creating textile-based triboelectric nanogenerators (TENGs)—fabrics that harvest energy from everyday human motion like walking, arm swings, or even breathing. While TENGs have shown promise for sustainable wearable power, adoption has been slow due to hard-to-find materials and complex fabrication. texTENG solves this with accessible techniques using common textiles and conductive threads that makers can replicate. The system demonstrates versatile applications: from self-powered touch sensors that detect gestures without batteries, to energy-harvesting patches that can charge small devices. Technical evaluations confirm the devices can reliably detect touch input and store harvested energy efficiently. This work opens the door for HCI researchers and makers to explore battery-free wearable computing.</p>
+
+    <p>Ritik Batra, Narjes Pourjafarian, Samantha Chang, Margaret Tsai, Jacob Revelo, and Cindy Hsin-Liu Kao. 2025. texTENG: Fabricating Wearable Textile-Based Triboelectric Nanogenerators. In Augmented Humans International Conference 2025 (AHs '25). ACM, New York, NY, USA. <a href='https://doi.org/10.1145/3745900.3746071'>https://doi.org/10.1145/3745900.3746071</a></p>
+- guid: deep-hci.org/6e03f967-ead6-44a8-a6f2-f54dede3c340
+  title: 'IEEE VR 2025 Blind VR: Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying
+    Spatial Information to Blind VR Users'
+  slug: ieee-vr-2025-blind-vr-comparing-vibrotactile-and-skin-stretch-haptic-feedback-for-conveyin
+  published: '2026-02-12T23:00:00+00:00'
+  episode: 78
+  duration: 855
+  audio_file: Skin_Stretch_Beats_Vibration_for_Blind_VR.m4a
+  audio_length: 27519694
+  audio_type: audio/x-m4a
+  image: blind.jpg
+  description: |-
+    <p>How can blind users navigate and understand virtual environments? This paper compares two haptic approaches for conveying where virtual objects are located: vibrotactile feedback (buzzing sensations) versus skin-stretch feedback (gentle pulling on the skin). The researchers tested both methods with blind participants to see which better communicated the position and movement of objects in VR space. The results show that skin-stretch feedback significantly outperformed vibration for spatial accuracy—blind users could more precisely understand where objects were and how they moved when feeling directional skin stretch rather than vibration patterns. This finding has important implications for making VR accessible, suggesting that skin-stretch devices may be more effective than the vibration motors common in today's controllers for helping blind users build mental maps of virtual spaces.</p>
+
+    <p>Jiasheng Li, Zining Zhang, Zeyu Yan, Yuhang Zhao, and Huaishu Peng. 2025. Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying Spatial Information of Virtual Objects to Blind VR Users. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00091">https://doi.org/10.1109/VR59515.2025.00091</a></p>
+  draft: true
+- guid: deep-hci.org/acefcdb8-e49d-4824-831e-868a42cf2845
+  title: 'IEEE VR 2025 Tingling Aftereffects: Presenting Tingling Aftereffects Using Vibro-Thermal Feedback
+    to Enhance Impact Sensation in Virtual Reality'
+  slug: ieee-vr-2025-tingling-aftereffects-presenting-tingling-aftereffects-using-vibro-thermal-fe
+  published: '2026-02-07T23:00:00+00:00'
+  episode: 76
+  duration: 980
+  audio_file: Hacking_VR_Impact_with_Tingling_Aftereffects.m4a
+  audio_length: 31567163
+  audio_type: audio/x-m4a
+  image: impact.jpg
+  description: |-
+    <p>When you hit a baseball hard, you don't just feel the moment of impact—there's a lingering tingle that follows. This paper explores how to recreate that aftereffect in VR to make impacts feel more realistic. The researchers built a VR baseball bat that delivers not just the initial hit, but also vibrotactile and thermal feedback that simulates the tingling sensation after a strong swing. In a study with 24 participants, both vibration and temperature changes as aftereffects significantly enhanced how realistic the impact felt, with high-frequency vibrotactile stimuli being particularly effective. This work shows that realism in haptic VR isn't just about the moment of contact—the sensations that linger afterward matter just as much for creating convincing physical experiences.</p>
+
+    <p>Hikaru Fujita, Juro Hosoi, Yuki Ban, and Shin'ichi Warisawa. 2025. Presenting Tingling Aftereffects Using Vibro-Thermal Feedback to Enhance Impact Sensation in Virtual Reality. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00074">https://doi.org/10.1109/VR59515.2025.00074</a></p>
+  draft: true
+- guid: deep-hci.org/d57beb10-bfad-44ad-8988-2c88aada6df0
+  title: 'IEEE VR 2025 Cognitive Load: Cognitive Load Inference Using Physiological Markers in Virtual
+    Reality'
+  slug: ieee-vr-2025-cognitive-load-cognitive-load-inference-using-physiological-markers-in-virtua
+  published: '2026-02-02T23:00:00+00:00'
+  episode: 74
+  duration: 791
+  audio_file: Predicting_VR_Cognitive_Load_in_Real_Time.m4a
+  audio_length: 25487053
+  audio_type: audio/x-m4a
+  image: 9b40f6267fb4ad09bfce0c930e68641055a499a0a7170b696b8a969f48019768.jpg
+  description: |-
+    <p>How hard is your brain working in VR? This paper presents a machine learning system that predicts cognitive load in real time using behavioral and physiological signals collected through VR headsets. Trained on data from 738 participants across various VR experiences, the model achieves remarkably low error (MAE of 0.11) in predicting mental workload. The system analyzes markers like eye movements, head motion, and physiological responses to infer how cognitively demanding a VR experience is for users. This has significant implications for adaptive VR systems that could automatically adjust difficulty, pacing, or complexity based on the user's mental state. The researchers also release a test dataset from 100 participants to enable further research in this area.</p>
+
+    <p>Jishang Wei, Erika Siegel, Prahalathan Sundaramoorthy, Antônio Gomes, Shibo Zhang, Mithra Vankipuram, Kevin Smathers, Sarthak Ghosh, Hiroshi Horii, Jeremy Bailenson, and Rafael Ballagas. 2025. Cognitive Load Inference Using Physiological Markers in Virtual Reality. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00098">https://doi.org/10.1109/VR59515.2025.00098</a></p>
+  draft: true
+- guid: deep-hci.org/14d6ba2d-3c9b-4324-8c78-6e60b4cc4f37
+  title: 'IEEE VR 2025 Haptic Dance: Automatic Generation of Haptic Motion Effects Expressing Human Dance'
+  slug: ieee-vr-2025-haptic-dance-automatic-generation-of-haptic-motion-effects-expressing-human-d
+  published: '2026-01-28T23:00:00+00:00'
+  episode: 72
+  duration: 915
+  audio_file: Feeling_the_Dancer_Haptic_Motion_Algorithm.m4a
+  audio_length: 29479872
+  audio_type: audio/x-m4a
+  image: 069466369875a557a400b341fa814ccd64b2d3976f6ca8844c732146ee567ace.jpg
+  description: |-
+    <p>Watching a dance performance engages your eyes and ears—but what if you could also feel the dancer's movements? This paper presents algorithms that automatically convert motion capture data from human dance into haptic feedback, letting viewers physically experience the performer's movements through vibrotactile devices. The approach cleverly separates external movements (the dancer traveling through space) from internal movements (limb gestures and body rotations), processing each optimally for haptic rendering. Internal movements are decomposed into segments to maximize clarity and expressiveness, then all components are merged with appropriate scaling and weights. The result is a system that can take any dance motion capture and automatically generate compelling haptic effects—no manual authoring required. This opens new possibilities for immersive dance experiences in VR and beyond.</p>
+
+    <p>Jaehyeok Ahn and Seungmoon Choi. 2025. Automatic Generation of Haptic Motion Effects Expressing Human Dance. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00058">https://doi.org/10.1109/VR59515.2025.00058</a></p>
+  draft: true
+- guid: deephci.podbean.com/d7fda749-6b5e-5727-b7be-25756b62fdbc
+  title: 'TAFFC 2025 Micro-Expressions: Could Micro-Expressions Be Quantified? Electromyography Gives
+    Affirmative Evidence'
+  slug: taffc-2024-micro-expressions-could-micro-expressions-be-quantified-electromyography-gives-affirmative-evidence
+  published: '2026-01-27T09:10:25+09:00'
+  episode: 66
+  duration: 842
+  audio_file: EMG_proves_micro-expressions_are_involuntary_leaks.m4a
+  audio_length: 27129624
+  audio_type: audio/x-m4a
+  image: micro.jpg
+  description: |-
+    <p>Micro-expressions are fleeting facial movements lasting just 40-200 milliseconds that are believed to reveal concealed emotions. But can these subtle expressions actually be measured objectively? This study provides the first direct electromyographic (EMG) evidence that micro-expressions are real, quantifiable muscle activations—not just visual artifacts. By placing electrodes on participants' faces while they attempted to suppress genuine emotions, researchers captured the electrical activity of facial muscles during both macro-expressions and micro-expressions. The results show that micro-expressions involve significantly smaller muscle contractions than regular expressions, explaining why they're so hard to detect visually. The findings also reveal that micro-expressions are truly involuntary "leakage"—participants couldn't fully suppress their emotional responses even when trying. This research has important implications for lie detection, clinical assessment, and understanding the fundamental nature of emotional expression.</p>
+
+    <p>Jingting Li, Shaoyuan Lu, Yan Wang, Zizhao Dong, Su-Jing Wang, and Xiaolan Fu. 2024. Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence. IEEE Transactions on Affective Computing, vol. 16, no. 4, 2024. <a href='https://doi.org/10.1109/TAFFC.2025.3575127'>https://doi.org/10.1109/TAFFC.2025.3575127</a></p>
+- guid: deephci.podbean.com/00f2e5df-3b65-5849-9193-bce853d6963b
+  title: 'TAFFC 2025 Music Emotion: Are We There Yet? A Brief Survey of Music Emotion Prediction Datasets,
+    Models and Outstanding Challenges'
+  slug: taffc-2024-music-emotion-are-we-there-yet-a-brief-survey-of-music-emotion-prediction-datasets-models-and-outstanding-challenges
+  published: '2026-01-20T21:00:48+09:00'
+  episode: 64
+  duration: 697
+  audio_file: Deep_Learning_for_Music_Emotion_Recognition.m4a
+  audio_length: 22449929
+  audio_type: audio/x-m4a
+  image: music.jpg
+  description: |-
+    <p>Music has long been known to evoke powerful emotions, but can machines truly understand and predict these emotional responses? This survey paper takes stock of the field of music emotion recognition (MER), examining the datasets, computational models, and persistent challenges that shape this research area. The authors review how emotion is represented—from categorical labels to dimensional models like valence-arousal—and analyze the most widely used datasets including the Million Song Dataset and MediaEval benchmarks. They trace the evolution from traditional machine learning approaches using hand-crafted audio features to modern deep learning architectures. Despite significant progress, the paper identifies fundamental challenges: the subjective nature of emotional responses to music, the difficulty of obtaining reliable ground truth labels, and the gap between controlled laboratory studies and real-world listening contexts.</p>
+
+    <p>Jaeyong Kang and Dorien Herremans. 2024. Are We There Yet? A Brief Survey of Music Emotion Prediction Datasets, Models and Outstanding Challenges. IEEE Transactions on Affective Computing, vol. 16, no. 4, 2024. <a href='https://doi.org/10.1109/TAFFC.2025.3583505'>https://doi.org/10.1109/TAFFC.2025.3583505</a></p>
+- guid: deep-hci.org/4c81586f-80d0-41d6-8ec0-02a3e2bcad50
+  title: 'MUC 2025 MindSpace: Improving Relaxation Break and Performance Using Deep Touch Pressure on
+    Users’ Upper Chest Area'
+  slug: muc-2025-mindspace-improving-relaxation-break-and-performance-using-deep-touch-pressure-on
+  published: '2026-01-17T23:00:00+00:00'
+  episode: 68
+  duration: 887
+  audio_file: Deep_Touch_Pressure_Restores_Focus_Quickly.m4a
+  audio_length: 28558426
+  audio_type: audio/x-m4a
+  image: chair.jpg
+  description: |-
+    <p>Taking a break at work should leave you refreshed—but often it doesn't. MindSpace is a pneumatically controlled haptic device worn on the upper chest that combines two calming sensations: gentle breathing-like movements and deep touch pressure similar to a hug. In a study with 24 participants performing demanding cognitive tasks, those who used MindSpace during their breaks showed significantly faster recovery of focus compared to those who simply rested. The device simulates the comforting sensation of being held while breathing together with someone, activating the parasympathetic nervous system to reduce stress. Participants reported feeling more relaxed and ready to return to work. This research suggests that active haptic interventions during breaks could be more effective than passive rest for restoring cognitive performance.</p>
+
+    <p>Masaki Kikuchi, Kaining Chen, Robert Panskus, Dingding Chen, Kazuki Okawa, and Kai Kunze. 2025. MindSpace: Improving Relaxation Break and Performance Using a Device Exerting Tactile Sensation of Life-like Breathing Movement with Squeeze-like Deep Touch Pressure on Users' Upper Chest Area. In Proceedings of Mensch und Computer 2025 (MUC '25). ACM, New York, NY, USA, 255-269. <a href="https://doi.org/10.1145/3743049.3743054">https://doi.org/10.1145/3743049.3743054</a></p>
+  draft: true
+- guid: deephci.podbean.com/344e8c63-8b7b-52b1-9045-802f350d98f6
+  title: 'UIST 2025 Imaginary Joint: Proprioceptive Feedback for Virtual Body Extensions via Skin Stretch'
+  slug: uist-2025-imaginary-joint-proprioceptive-feedback-for-virtual-body-extensions-via-skin-stretch
+  published: '2026-01-16T21:37:58+09:00'
+  episode: 62
+  duration: 823
+  audio_file: Skin_Stretch_Creates_the_Imaginary_Joint.m4a
+  audio_length: 26498891
+  audio_type: audio/x-m4a
+  image: tail.jpg
+  description: |-
+    <p>Virtual body extensions like wings or tails offer exciting new experiences in VR, but using them naturally—especially parts you can't see, like a tail—requires proprioceptive feedback to sense position and force without relying on vision. This paper introduces the "Imaginary Joint," a novel approach that uses skin-stretch feedback at the interface between your body and a virtual extension. A wearable device stretches and compresses skin on both sides of the waist to convey joint angle and torque from a virtual tail. The system simultaneously communicates both rotation and force by superimposing skin deformations. In controlled experiments, skin-stretch feedback significantly outperformed vibrotactile feedback in perceptual accuracy, sense of embodiment, and naturalness—with participants reporting the sensation felt remarkably like having an actual tail.</p>
+
+    <p>Shuto Takashita, Jürgen Steimle, and Masahiko Inami. 2025. Imaginary Joint: Proprioceptive Feedback for Virtual Body Extensions via Skin Stretch. In The 38th Annual ACM Symposium on User Interface Software and Technology (UIST '25), September 28–October 01, 2025, Busan, Republic of Korea. ACM, New York, NY, USA, 15 pages. <a href='https://doi.org/10.1145/3746059.3747800'>https://doi.org/10.1145/3746059.3747800</a></p>
+- guid: deephci.podbean.com/6d4e6748-5c42-51b8-8d19-caa56f089fe7
+  title: 'UIST 2025 eTactileKit: An Open-Source Toolkit for Electro-Tactile Haptic Design'
+  slug: uist-2025-etactilekit-an-open-source-toolkit-for-electro-tactile-haptic-design
+  published: '2026-01-08T00:18:15+09:00'
+  episode: 60
+  duration: 803
+  audio_file: Open_Source_Tool_for_Haptic_Design.m4a
+  audio_length: 25848736
+  audio_type: audio/x-m4a
+  image: toolkit.jpg
+  description: |-
+    <p>Electro-tactile interfaces—which deliver tactile sensations through electrical stimulation of skin nerves—offer unique advantages like fast response times, thin flexible form factors, and the ability to simulate textures, softness, and even coldness. But designing them has been notoriously difficult, requiring deep electronics expertise and custom hardware. eTactileKit changes that. This open-source toolkit provides end-to-end support: modular hardware that scales from 8 to 128+ electrodes, design tools for creating 2D and 3D electrode layouts, a Processing-based pattern creator with visual simulation, a GUI for real-time testing and calibration, and APIs for Python and Unity. A three-week study with both novice and experienced designers showed the toolkit significantly lowered the barrier to entry while improving design workflows—enabling rapid prototyping of applications from VR haptic buttons to 3D-printed interactive toys.</p>
+
+    <p>Praneeth Bimsara Perera, Ravindu Madhushan Pushpakumara, Hiroyuki Kajimoto, Arata Jingu, Jürgen Steimle, and Anusha Withana. 2025. eTactileKit: A Toolkit for Design Exploration and Rapid Prototyping of Electro-Tactile Interfaces. In The 38th Annual ACM Symposium on User Interface Software and Technology (UIST '25). Association for Computing Machinery, New York, NY, USA, 17 pages. <a href='https://doi.org/10.1145/3746059.3747796'>https://doi.org/10.1145/3746059.3747796</a></p>
+- guid: deephci.podbean.com/26236708-d6ec-5d37-bac7-5bad5daa1635
+  title: 'VRST 2025 Self-Confrontation in VR: How Seeing Yourself Shapes Motor Skill Reflection'
+  slug: vrst-2025-self-confrontation-in-vr-how-seeing-yourself-shapes-motor-skill-reflection
+  published: '2026-01-05T16:33:13+09:00'
+  episode: 58
+  duration: 866
+  audio_file: Self-Confrontation_Drives_VR_Skill_Learning.m4a
+  audio_length: 27882871
+  audio_type: audio/x-m4a
+  image: 2x2.jpg
+  description: |-
+    <p>What happens when you watch yourself perform in VR—and then have to critique that performance? This study explored self-reflection in motor skill learning using a Karate training task. Participants were embodied as a "trainer" avatar and asked to give verbal feedback on a "trainee"—which was either their own 3D-scanned appearance or a stranger, performing either their own recorded movements or an expert's. The results revealed a psychological "role conflict": participants felt split between being the evaluator and being evaluated. Seeing their own appearance triggered deeper, more emotional reflection, while recognizing their own movements created bodily connection even in a stranger's avatar. The findings suggest VR embodiment isn't binary but multi-faceted, with implications for training and therapy.</p>
+
+    <p>Dennis Dietz, Samuel Benjamin Rogers, Julian Rasch, Sophia Sakel, Nadine Wagener, Andreas Martin Butz, and Matthias Hoppe. 2025. The 2×2 of Being Me and You: How the Combination of Self and Other Avatars and Movements Alters How We Reflect on Ourselves in VR. In Proceedings of the 31st ACM Symposium on Virtual Reality Software and Technology (VRST '25). Association for Computing Machinery, New York, NY, USA, 11 pages. <a href='https://doi.org/10.1145/3756884.3765986'>https://doi.org/10.1145/3756884.3765986</a></p>
+- guid: deephci.podbean.com/8404ca7f-b4f2-5529-9ccc-cc2d9a448cb2
+  title: AHs 2025 Pseudo-Heartbeat Feedback for Meditation Support
+  slug: ahs-2025-pseudo-heartbeat-feedback-for-meditation-support
+  published: '2026-01-02T20:31:06+09:00'
+  episode: 54
+  duration: 746
+  audio_file: Why_Fake_Heartbeats_Still_Make_You_Calm.m4a
+  audio_length: 24014060
+  audio_type: audio/x-m4a
+  image: meditation.jpg
+  description: |-
+    <p>Can fake heartbeat sounds trick your body into relaxing? This system generates pseudo-heartbeat audio at rates slightly slower than your actual heart rate to induce calm and support meditation. Using a contactless radar sensor to detect real heartbeats, it creates slower auditory feedback (10-30% below actual BPM). Tested with 120 participants at SIGGRAPH Asia 2024, results showed that hearing slower heartbeats made people feel their heart rate was decreasing—even when they knew the sounds were manipulated. The findings suggest potential for non-pharmacological treatment of insomnia through enhanced interoceptive awareness.</p>
+
+    <p>Akari Shimabukuro, Seioh Ezaki, and Keiichi Zempo. 2025. Meditation Support System Utilizing Pseudo-Heartbeat Auditory Feedback to Enhance Cardiac Interoceptive Awareness. In Proceedings of the Augmented Humans International Conference 2025 (AHs '25). Association for Computing Machinery, New York, NY, USA, 4 pages. <a href='https://doi.org/10.1145/3745900.3746096'>https://doi.org/10.1145/3745900.3746096</a></p>
+- guid: deephci.podbean.com/2531677b-3695-5971-8413-9e4edab3b561
+  title: 'AHs 2025 Purrfect Pitch: Learning Musical Intervals through Audio-Haptic Feedback'
+  slug: ahs-2025-purrfect-pitch-learning-musical-intervals-through-audio-haptic-feedback
+  published: '2025-12-30T07:19:12+09:00'
+  episode: 56
+  duration: 815
+  audio_file: Pitch_Vest_Boosts_Performance_But_Not_Skill.m4a
+  audio_length: 26233577
+  audio_type: audio/x-m4a
+  image: purrfect.jpg
+  description: |-
+    <p>Learning to identify musical pitch intervals usually requires tedious rote practice. Purrfect Pitch offers a new approach: a wearable haptic vest that translates sound into touch. When users hear two musical notes, they simultaneously feel vibrations at corresponding vertical positions on their back—leveraging our natural "high/low" pitch metaphor. In a study with 18 participants, those using the audio-haptic system identified intervals 20% more accurately and 1.67 seconds faster than audio-only learners. However, the performance boost didn't persist after removing the haptic feedback, suggesting the vest enhances task performance but doesn't accelerate long-term skill acquisition.</p>
+
+    <p>Sam Chin, Cathy Mengying Fang, Nikhil Singh, Ibrahim Ibrahim, Joe Paradiso, and Pattie Maes. 2025. Purrfect Pitch: Exploring Pitch Interval Learning through an Audio-Haptic Interface. In Proceedings of the Augmented Humans International Conference 2025 (AHs '25). Association for Computing Machinery, New York, NY, USA, 12 pages. <a href='https://doi.org/10.1145/3745900.3746079'>https://doi.org/10.1145/3745900.3746079</a></p>
+- guid: deephci.podbean.com/fe94930e-b443-5bf6-9255-090c0bc1871b
+  title: 'AHs 2025 GazeLLM: Multimodal LLMs incorporating Human Visual Attention'
+  slug: ahs-2025-gazellm-multimodal-llms-incorporating-human-visual-attention
+  published: '2025-12-27T11:28:37+09:00'
+  episode: 52
+  duration: 741
+  audio_file: AI_efficiency_using_human_gaze_data.m4a
+  audio_length: 23876605
+  audio_type: audio/x-m4a
+  image: eyes.jpg
+  description: |-
+    <p>Processing high-resolution video with AI requires massive computational resources. GazeLLM offers an elegant solution inspired by human vision: use eye-tracking to focus only on what matters. By cropping first-person video to a small region around the user's gaze point, the system reduces pixel input to just one-tenth while achieving task comprehension equal to or better than full-resolution video. User evaluations across six real-world activities—cooking, bike repair, first aid, and sports—showed that gaze-focused video produces higher quality task descriptions than both full videos and center-cropped alternatives.</p>
+
+    <p>Jun Rekimoto. 2025. GazeLLM: Multimodal LLMs incorporating Human Visual Attention. In Proceedings of the Augmented Humans International Conference 2025 (AHs '25). Association for Computing Machinery, New York, NY, USA, 10 pages. <a href='https://doi.org/10.1145/3745900.3746075'>https://doi.org/10.1145/3745900.3746075</a></p>
+- guid: deephci.podbean.com/f0c12fef-9489-5d8b-9dd9-1852a94cf205
+  title: 'AHS 2025 Cuddle-Fish: Flying Robots That Are Safe, Huggable Companions'
+  slug: cuddle-fish-flying-robots-that-are-safe-huggable-companions
+  published: '2025-12-13T14:07:33+09:00'
+  duration: 811
+  audio_file: Flying_Robots_That_Are_Safe_Huggable_Companions.m4a
+  audio_length: 26123762
+  audio_type: audio/x-m4a
+  image: episode_logo.jpg
+  description: |-
+    <p>Traditional quadrotor drones pose safety concerns with their spinning blades. Cuddle-Fish takes a different approach: a helium-filled soft robot with bio-inspired flapping wings that's safe enough to touch, hug, and interact with physically. In testing with 24 participants, people spontaneously engaged in affective behaviors like patting, stroking, and even hugging the robot. Users reported positive emotional responses and felt safe during interactions, with some participants touching the robot to their cheeks, demonstrating trust and comfort.</p>
+
+    <p>Mingyang Xu, Jiayi Shao, Yulan Ju, Ximing Shen, Qingyuan Gao, Weijen Chen, Qing Zhang, Yun Suen Pai, Giulia Barbareschi, Matthias Hoppe, Kouta Minamizawa, and Kai Kunze. 2025. Cuddle-Fish: Exploring a Soft Floating Robot with Flapping Wings for Physical Interactions. In Proceedings of the Augmented Humans International Conference 2025 (AHs '25). Association for Computing Machinery, New York, NY, USA, 14 pages. <a href='https://doi.org/10.1145/3745900.3746080'>https://doi.org/10.1145/3745900.3746080</a></p>
+- guid: deephci.podbean.com/4816170e-17e5-3750-bb0f-47a35f3e26bc
+  title: 'UIST 2025 Kinethreads: Soft Full-Body Haptic Exosuit using Low-Cost Motor-Pulley Mechanisms'
+  slug: uist-2025-kinethreads-soft-full-body-haptic-exosuit-using-low-cost-motor-pulley-mechanisms
+  published: '2025-10-01T14:20:05+09:00'
+  episode: 48
+  duration: 906
+  audio_file: Kinethreads_Unpacked_The_400_VR_Suit_That_Uses_Pulleys_and_St9m5qz.m4a
+  audio_length: 29160771
+  audio_type: audio/x-m4a
+  image: Gemini_Generated_Image_iakaraiakaraiaka.png
+  description: |-
+    <p>Our bodies experience a wide variety of kinesthetic forces as we go about our daily lives, including the weight of held objects, contact with surfaces, gravitational loads, and acceleration and centripetal forces while driving, to name just a few. These forces are crucial to realism, yet simply cannot be rendered with today’s consumer haptic suits, which primarily rely on arrays of vibration actuators built into vests. Rigid exoskeletons have more kinesthetic capability to apply forces directly to users’ joints, but are generally cumbersome to wear and cost many thousands of dollars. In this work, we present Kinethreads: a new full-body haptic exosuit design built around string-based motor-pulley mechanisms, which keeps our suit lightweight (&lt;5kg), soft and flexible, quick-to-wear (&lt;30 seconds), comparatively low-cost (~$400), and yet capable of rendering expressive, distributed, and forceful (up to 120N) effects. We detail our system design, implementation, and results from a multi-part performance evaluation and user study.<br>
+    <br>
+    Vivian Shen and Chris Harrison. 2025. Kinethreads: Soft Full-Body Haptic Exosuit using Low-Cost Motor-Pulley Mechanisms. In Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST '25). Association for Computing Machinery, New York, NY, USA, Article 1, 1–16. <a href='https://doi.org/10.1145/3746059.3747755'>https://doi.org/10.1145/3746059.3747755</a></p>
+- guid: deephci.podbean.com/8e733e33-5a15-3c52-b987-f32a05327347
+  title: 'CHI 2025 A Placebo Concert: The Placebo Effect for Visualization of Physiological Audience Data
+    during Experience Recreation in Virtual Reality'
+  slug: chi-2025-a-placebo-concert-the-placebo-effect-for-visualization-of-physiological-audience-data-during-experience-recreation-in-virtual-reality
+  published: '2025-08-20T12:01:31+09:00'
+  episode: 47
+  duration: 690
+  audio_file: A_Placebo_Concert_The_Placebo_Effect_in_Virtual_Realityb7a3x.mp3
+  audio_length: 2763692
+  audio_type: audio/mpeg
+  image: placebo-concert.jpg
+  description: |-
+    <p>Xiaru Meng, Yulan Ju, Christopher Changmok Kim, Yan He, Giulia Barbareschi, Kouta Minamizawa, Kai Kunze, and Matthias Hoppe. 2025. A Placebo Concert: The Placebo Effect for Visualization of Physiological Audience Data during Experience Recreation in Virtual Reality. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 807, 1–16. https://doi.org/10.1145/3706598.3713594</p>
+    <p>A core use case for Virtual Reality applications is recreating real-life scenarios for training or entertainment. Promoting physiological responses for users in VR that match those of real-life spectators can maximize engagement and contribute to more co-presence. Current research focuses on visualizations and measurements of physiological data to ensure experience accuracy. However, placebo effects are known to influence performance and self-perception in HCI studies, creating a need to investigate the effect of visualizing different types of data (real, unmatched, and fake) on user perception during event recreation in VR. We investigate these conditions through a balanced between-groups study (n=44) of uninformed and informed participants. The informed group was provided with the information that the data visualizations represented previously recorded human physiological data. Our findings reveal a placebo effect, where the informed group demonstrated enhanced engagement and co-presence. Additionally, the fake data condition in the informed group evoked a positive emotional response.</p>
+    <p><a href='https://doi.org/10.1145/3706598.3713594'>https://doi.org/10.1145/3706598.3713594</a></p>
+- guid: deephci.podbean.com/510821c8-9d16-3b4a-8c4b-81b94fc34296
+  title: 'CHI2025 Heartbeat Resonance: Inducing Non-contact Heartbeat Sensations in the Chest'
+  slug: chi2025-heartbeat-resonance-inducing-non-contact-heartbeat-sensations-in-the-chest
+  published: '2025-08-08T13:57:24+09:00'
+  episode: 46
+  duration: 786
+  audio_file: Heartbeat_Resonance_Non-Contact_Heartbeat_Sensations7ydy2.mp3
+  audio_length: 3146060
+  audio_type: audio/mpeg
+  image: resonance.jpg
+  description: |-
+    <p>Perceiving and altering the sensation of internal physiological states, such as heartbeats, is key for biofeedback and interoception. Yet, wearable devices used for this purpose can feel intrusive and typically fail to deliver stimuli aligned with the heart’s location in the chest. To address this, we introduce Heartbeat Resonance, which uses low-frequency sound waves to create <em>non-contact</em> haptic sensations in the chest cavity, mimicking heartbeats. We conduct two experiments to evaluate the system’s effectiveness. The first experiment shows that the system created realistic heartbeat sensations in the chest, with 78.05 Hz being the most effective frequency. In the second experiment, we evaluate the effects of entrainment by simulating faster and slower heart rates. Participants perceived the intended changes and reported high confidence in their perceptions for +15% and -30% heart rates. This system offers a non-intrusive solution for biofeedback while creating new possibilities for immersive VR environments.</p>
+    <p>Waseem Hassan, Liyue Da, Sonia Elizondo, and Kasper Hornbæk. 2025. Heartbeat Resonance: Inducing Non-contact Heartbeat Sensations in the Chest. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 913, 1–22. https://doi.org/10.1145/3706598.3713959</p>
+- guid: deephci.podbean.com/83b46206-b38c-398f-84dc-6f382092a257
+  title: 'CHI 2025 Living Bento: Heartbeat-Driven Noodles for Enriched Dining Dynamics'
+  slug: chi-2025-living-bento-heartbeat-driven-noodles-for-enriched-dining-dynamics
+  published: '2025-08-01T14:08:00+09:00'
+  episode: 45
+  duration: 932
+  audio_file: Living_Bento_Heartbeat-Driven_Noodles_for_Enriched_Dining_Dynamics95t5l.mp3
+  audio_length: 3730028
+  audio_type: audio/mpeg
+  image: Living_Bento_Heartbeat-Driven_Noodles_for_Enriched_Dining_Dynamicsb4l1f.jpg
+  description: |-
+    <p>To enhance focused eating and dining socialization, previous Human-Food Interaction research has indicated that external devices can support these dining objectives and immersion. However, methods that focus on the food itself and the diners themselves have remained underdeveloped. In this study, we integrated biofeedback with food, utilizing diners’ heart rates as a source of the food’s appearance to promote focused eating and dining socialization. By employing LED lights, we dynamically displayed diners’ real-time physiological signals through the transparency of the food. Results revealed significant effects on various aspects of dining immersion, such as awareness perceptions, attractiveness, attentiveness to each bite, and emotional bonds with the food. Furthermore, to promote dining socialization, we established a “Sharing Bio-Sync Food” dining system to strengthen emotional connections between diners. Based on these findings, we developed tableware that integrates biofeedback into the culinary experience.</p>
+    Weijen Chen, Qingyuan Gao, Zheng Hu, Kouta Minamizawa, and Yun Suen Pai. 2025. Living Bento: Heartbeat-Driven Noodles for Enriched Dining Dynamics. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 353, 1–18. https://doi.org/10.1145/3706598.3713108
+    <p> </p>
+- guid: deephci.podbean.com/16280dc2-dc06-3995-ba42-90e1daa5d444
+  title: 'CHI 2025 NeuResonance: Exploring Feedback Experiences for Fostering the Inter-brain Synchronization'
+  slug: chi-2025-neuresonance-exploring-feedback-experiences-for-fostering-the-inter-brain-synchronization
+  published: '2025-07-25T16:56:09+09:00'
+  episode: 44
+  duration: 1065
+  audio_file: NeuResonance_Feedback_for_Inter-brain_Synchronizationapwd9.mp3
+  audio_length: 4264172
+  audio_type: audio/mpeg
+  image: ress.jpg
+  description: |-
+    <p>When several individuals collaborate on a shared task, their brain activities often synchronize. This phenomenon, known as Inter-brain Synchronization (IBS), is notable for inducing prosocial outcomes such as enhanced interpersonal feelings, including closeness, trust, empathy, and more. Further strengthening the IBS with the aid of external feedback would be beneficial for scenarios where those prosocial feelings play a vital role in interpersonal communication, such as rehabilitation between a therapist and a patient, motor skill learning between a teacher and a student, and group performance art. This paper investigates whether visual, auditory, and haptic feedback of the IBS level can further enhance its intensity, offering design recommendations for feedback systems in IBS. We report findings when three different types of feedback were provided: IBS level feedback by means of on-body projection mapping, sonification using chords, and vibration bands attached to the wrist.</p>
+    <p> </p>
+    Jamie Ngoc Dinh, Snehesh Shrestha, You-Jin Kim, Jun Nishida, and Myungin Lee. 2025. NeuResonance: Exploring Feedback Experiences for Fostering the Inter-brain Synchronization. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 363, 1–16. https://doi.org/10.1145/3706598.3713872
+    <p> </p>
+- guid: deephci.podbean.com/80b269ab-dbb1-3592-a606-5708683c66b9
+  title: 'CHI2025 Haptic Empathy: Investigating Individual Differences in Affective Haptic Communications'
+  slug: haptic-empathy-investigating-individual-differences-in-affective-haptic-communications
+  published: '2025-07-14T15:46:43+09:00'
+  episode: 43
+  duration: 1597
+  audio_file: Haptic_Empathy_Understanding_Affective_Touch_Communication60npi.mp3
+  audio_length: 6389612
+  audio_type: audio/mpeg
+  image: haptics.jpg
+  description: |-
+    <p>Yulan Ju, Xiaru Meng, Harunobu Taguchi, Tamil Selvan Gunasekaran, Matthias Hoppe, Hironori Ishikawa, Yoshihiro Tanaka, Yun Suen Pai, and Kouta Minamizawa. 2025. Haptic Empathy: Investigating Individual Differences in Affective Haptic Communications. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 501, 1–25. https://doi.org/10.1145/3706598.3714139</p>
+    <p>Nowadays, touch remains essential for emotional conveyance and interpersonal communication as more interactions are mediated remotely. While many studies have discussed the effectiveness of using haptics to communicate emotions, incorporating affect into haptic design still faces challenges due to individual user tactile acuity and preferences. We assessed the conveying of emotions using a two-channel haptic display, emphasizing individual differences. First, 24 participants generated 187 haptic messages reflecting their immediate sentiments after watching 8 emotionally charged film clips. Afterwards, 19 participants were asked to identify emotions from haptic messages designed by themselves and others, yielding 593 samples. Our findings suggest potential links between haptic message decoding ability and emotional traits, particularly Emotional Competence (EC) and Affect Intensity Measure (AIM). Additionally, qualitative analysis revealed three strategies participants used to create touch messages: perceptive, empathetic, and metaphorical expression.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3706598.3714139'>https://dl.acm.org/doi/10.1145/3706598.3714139</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/287e2a49-9014-333a-ba77-83df106b6d24
+  title: 'TEI 2025 : Ambient Display Utilizing Anisotropy of Tatami'
+  slug: ambient-display-utilizing-anisotropy-of-tatami
+  published: '2025-03-30T15:25:00+09:00'
+  episode: 42
+  duration: 1511
+  audio_file: Tatami_Ambient_Display_Anisotropic_Information_Presentation9bdfo.mp3
+  audio_length: 6046988
+  audio_type: audio/mpeg
+  image: Screenshot_2025-03-29_at_180941aoaup.png
+  description: |-
+    Riku Kitamura, Kenji Yamada, Takumi Yamamoto, and Yuta Sugiura. 2025. Ambient Display Utilizing Anisotropy of Tatami. In Proceedings of the Nineteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '25). Association for Computing Machinery, New York, NY, USA, Article 3, 1–15. https://doi.org/10.1145/3689050.3704924
+    <p> </p>
+    <p>Recently, digital displays such as liquid crystal displays and projectors have enabled high-resolution and high-speed information transmission. However, their artificial appearance can sometimes detract from natural environments and landscapes. In contrast, ambient displays, which transfer information to the entire physical environment, have gained attention for their ability to blend seamlessly into living spaces. This study aims to develop an ambient display that harmonizes with traditional Japanese tatami rooms by proposing an information presentation method using tatami mats. By leveraging the anisotropic properties of tatami, which change their reflective characteristics according to viewing angles and light source positions, various images and animations can be represented. We quantitatively evaluated the color change of tatami using color difference. Additionally, we created both static and dynamic displays as information presentation methods using tatami.</p>
+    <p><a href='https://doi.org/10.1145/3689050.3704924'>https://doi.org/10.1145/3689050.3704924</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/2c0686e2-8eff-3310-b453-ac50995d07ea
+  title: 'DIS 2025  ELEGNT: Expressive and Functional Movement Design for Non-anthropomorphic Robot'
+  slug: dis-2025-elegnt-expressive-and-functional-movement-design-for-non-anthropomorphic-robot
+  published: '2025-02-20T18:19:15+09:00'
+  episode: 41
+  duration: 732
+  audio_file: 2501.mp3
+  audio_length: 2931020
+  audio_type: audio/mpeg
+  image: episode42.jpg
+  description: |-
+    <p class="p1">Hu, Yuhan, Peide Huang, Mouli Sivapurapu, and Jian Zhang. "ELEGNT: Expressive and Functional Movement Design for Non-anthropomorphic Robot." <em>arXiv preprint arXiv:2501.12493</em>(2025).</p>
+    <p class="p1"><a href='https://arxiv.org/abs/2501.12493'>https://arxiv.org/abs/2501.12493</a></p>
+    <p class="p1">Nonverbal behaviors such as posture, gestures, and gaze are essential for conveying internal states, both consciously and unconsciously, in human interaction. For robots to interact more naturally with humans, robot movement design should likewise integrate expressive qualities—such as intention, attention, and emotions—alongside traditional functional considerations like task fulfillment, spatial constraints, and time efficiency. In this paper, we present the design and prototyping of a lamp-like robot that explores the interplay between functional and expressive objectives in movement design. Using a research-through-design methodology, we document the hardware design process, define expressive movement primitives, and outline a set of interaction scenario storyboards. We propose a framework that incorporates both functional and expressive utilities during movement generation, and implement the robot behavior sequences in different function- and social-oriented tasks. Through a user study comparing expression-driven versus function-driven movements across six task scenarios, our findings indicate that expression-driven movements significantly enhance user engagement and perceived robot qualities. This effect is especially pronounced in social-oriented tasks.</p>
+- guid: deephci.podbean.com/39aba202-50ee-3883-913c-aeaae4a02fa3
+  title: ISMAR 2024 Do you read me? (E)motion Legibility of Virtual Reality Character Representations
+  slug: ismar-2024-do-you-read-me-emotion-legibility-of-virtual-reality-character-representations
+  published: '2025-02-07T16:49:00+09:00'
+  episode: 39
+  duration: 635
+  audio_file: 164700a299.mp3
+  audio_length: 2543468
+  audio_type: audio/mpeg
+  image: episode40.jpg
+  description: |-
+    <p>K. Brandstätter, B. J. Congdon and A. Steed, "Do you read me? (E)motion Legibility of Virtual Reality Character Representations," <em>2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</em>, Bellevue, WA, USA, 2024, pp. 299-308, doi: 10.1109/ISMAR62088.2024.00044.</p>
+    <p> </p>
+    <p>We compared the body movements of five virtual reality (VR) avatar representations in a user study (N=53) to ascertain how well these representations could convey body motions associated with different emotions: one head-and-hands representation using only tracking data, one upper-body representation using inverse kinematics (IK), and three full-body representations using IK, motioncapture, and the state-of-the-art deep-learning model AGRoL. Participants’ emotion detection accuracies were similar for the IK and AGRoL representations, highest for the full-body motion-capture representation and lowest for the head-and-hands representation. Our findings suggest that from the perspective of emotion expressivity, connected upper-body parts that provide visual continuity improve clarity, and that current techniques for algorithmically animating the lower-body are ineffective. In particular, the deep-learning technique studied did not produce more expressive results, suggesting the need for training data specifically made for social VR applications.</p>
+    <p><a href='https://ieeexplore.ieee.org/document/10765392'>https://ieeexplore.ieee.org/document/10765392</a></p>
+- guid: deephci.podbean.com/7390d7bd-8452-3e76-b4ae-14698bb8da01
+  title: A Conversation with Thad Starner on Mobile Sign Language Recognition
+  slug: a-conversation-thad-starner-on-mobile-sign-language-recognition
+  published: '2025-02-07T16:36:03+09:00'
+  episode: 40
+  duration: 899
+  audio_file: thad-cut.m4a
+  audio_length: 14779337
+  audio_type: audio/x-m4a
+  image: episode41.jpg
+  description: |-
+    <p>The Oscar best picture winning movie CODA has helped introduce Deaf culture to many in the hearing community. The capital "D" in Deaf is used when referring to the Deaf culture, whereas small "d" deaf refers to the medical condition. In the Deaf community, sign language is used to communicate, and sign has a rich history in film, the arts, and education. Learning about the Deaf culture in the United States and the importance of American Sign Language in that culture has been key to choosing projects that are useful and usable for the Deaf. </p>
+    <p> </p>
+- guid: deephci.podbean.com/29fd913e-e37f-32d0-a63f-35c182f4a28e
+  title: 'ISMAR 2024 Whirling Interface: Hand-based Motion Matching Selection for Small Target on XR Displays'
+  slug: ismar-2024-whirling-interface-hand-based-motion-matching-selection-for-small-target-on-xr-displays
+  published: '2025-02-05T15:58:00+09:00'
+  episode: 38
+  duration: 1060
+  audio_file: 164700a319.mp3
+  audio_length: 4240652
+  audio_type: audio/mpeg
+  image: episode39.jpg
+  description: |-
+    <p>J. Lee <em>et al</em>., "Whirling Interface: Hand-based Motion Matching Selection for Small Target on XR Displays," <em>2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</em>, Bellevue, WA, USA, 2024, pp. 319-328, doi: 10.1109/ISMAR62088.2024.00046.</p>
+    <p>We introduce “Whirling Interface,” a selection method for XR displays using bare-hand motion matching gestures as an input technique. We extend the motion matching input method, by introducing different input states to provide visual feedback and guidance to the users. Using the wrist joint as the primary input modality, our technique reduces user fatigue and improves performance while selecting small and distant targets. In a study with 16 participants, we compared the whirling interface with a standard ray casting method using hand gestures. The results demonstrate that the Whirling Interface consistently achieves high success rates, especially for distant targets, averaging 95.58% with a completion time of 5.58 seconds. Notably, it requires a smaller camera sensing field of view of only 21.45° horizontally and 24.7° vertically. Participants reported lower workloads on distant conditions and expressed a higher preference for the Whirling Interface in general. These findings suggest that the Whirling Interface could be a useful alternative input method for XR displays with a small camera sensing FOV or when interacting with small targets.</p>
+    <p><a href='https://ieeexplore.ieee.org/abstract/document/10765156'>https://ieeexplore.ieee.org/abstract/document/10765156</a></p>
+- guid: deephci.podbean.com/4c79b7dc-2286-352e-9a4d-481e8b060804
+  title: 'ISMAR 2024 Perceived Empathy in Mixed Reality: Assessing the Impact of Empathic Agents’ Awareness
+    of User Physiological States'
+  slug: ismar-2024-perceived-empathy-in-mixed-reality-assessing-the-impact-of-empathic-agents-awareness-of-user-physiological-states
+  published: '2025-02-03T15:31:11+09:00'
+  episode: 37
+  duration: 890
+  audio_file: 164700a406.mp3
+  audio_length: 3562892
+  audio_type: audio/mpeg
+  image: episode38.jpg
+  description: |-
+    <p>Z. Chang <em>et al</em>., "Perceived Empathy in Mixed Reality: Assessing the Impact of Empathic Agents’ Awareness of User Physiological States," <em>2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</em>, Bellevue, WA, USA, 2024, pp. 406-415, doi: 10.1109/ISMAR62088.2024.00055. <a href='https://doi.org/10.1109/ISMAR62088.2024.00055'>https://doi.org/10.1109/ISMAR62088.2024.00055</a></p>
+    <p>In human-agent interaction, establishing trust and a social bond with the agent is crucial to improving communication quality and performance in collaborative tasks. This paper investigates how a Mixed Reality Agent’s (MiRA) ability to acknowledge a user’s physiological state affects perceptions such as empathy, social connectedness, presence, and trust. In a within-subject study with 24 subjects, we varied the companion agent’s awareness during a mixed-reality first-person shooting game. Three agents provided feedback based on the users’ physiological states: (1) No Awareness Agent (NAA), which did not acknowledge the user’s physiological state; (2) Random Awareness Agent (RAA), offering feedback with varying accuracy; and (3) Accurate Awareness Agent (AAA), which provided consistently accurate feedback. Subjects reported higher scores on perceived empathy, social connectedness, presence, and trust with AAA compared to RAA and NAA. Interestingly, despite exceeding NAA in perception scores, RAA was the least favored as a companion. The findings and implications for the design of MiRA interfaces are discussed, along with the limitations of the study and directions for future work.</p>
+    <p><a href='https://ieeexplore.ieee.org/document/10765390'>https://ieeexplore.ieee.org/document/10765390</a></p>
+- guid: deephci.podbean.com/781f422a-9cec-3704-85da-53ea63f137be
+  title: 'CSCW 2024: Situating Empathy in HCI/CSCW: A Scoping Review'
+  slug: cscw-2024-situating-empathy-in-hcicscw-a-scoping-review
+  published: '2024-12-02T16:01:22+09:00'
+  episode: 36
+  duration: 2416
+  audio_file: 3687052-2.mp3
+  audio_length: 9664268
+  audio_type: audio/mpeg
+  image: episode37.jpg
+  description: |-
+    <p>Uğur Genç and Himanshu Verma. 2024. Situating Empathy in HCI/CSCW: A Scoping Review. Proc. ACM Hum.-Comput. Interact. 8, CSCW2, Article 513 (November 2024), 37 pages. <a href='https://doi.org/10.1145/3687052'>https://doi.org/10.1145/3687052</a></p>
+    <p> </p>
+    <p>Empathy is considered a crucial construct within HCI and CSCW, yet our understanding of this complex concept remains fragmented and lacks consensus in existing research. In this scoping review of 121 articles from the ACM Digital Library, we synthesize the diverse perspectives on empathy and scrutinize its current conceptualization and operationalization. In particular, we examine the various interpretations and definitions of empathy, its applications, and the methodologies, findings, and trends in the field. Our analysis reveals a lack of consensus on the definitions and theoretical underpinnings of empathy, with interpretations ranging from understanding the experiences of others to an affective response to the other's situation. We observed that despite the variety of methods used to gauge empathy, the predominant approach remains self-assessed instruments, highlighting the lack of novel and rigorously established and validated measures and methods to capture the multifaceted manifestations of empathy. Furthermore, our analysis shows that previous studies have used a variety of approaches to elicit empathy, such as experiential methods and situational awareness. These approaches have demonstrated that shared stressful experiences promote community support and relief, while situational awareness promotes empathy through increased helping behavior. Finally, we discuss a) the potential and drawbacks of leveraging empathy to shape interactions and guide design practices, b) the need to find a balance between the collective focus of empathy and the (existing and dominant) focus on the individual, and c) the careful testing of empathic designs and technologies with real-world applications.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3687052'>https://dl.acm.org/doi/10.1145/3687052</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/5b972980-d70d-3036-becf-faf49d47d1db
+  title: ICMI 2024 Exploring the Alteration and Masking of Everyday Noise Sounds using Auditory Augmented
+    Reality
+  slug: icmi-2024-exploring-the-alteration-and-masking-of-everyday-noise-sounds-using-auditory-augmented-reality
+  published: '2024-11-18T15:20:20+09:00'
+  episode: 35
+  duration: 869
+  audio_file: 3678957-3685750.mp3
+  audio_length: 3476588
+  audio_type: audio/mpeg
+  image: episode36.jpg
+  description: |-
+    <p>Isna Alfi Bustoni, Mark McGill, and Stephen Anthony Brewster. 2024. Exploring the Alteration and Masking of Everyday Noise Sounds using Auditory Augmented Reality. In Proceedings of the 26th International Conference on Multimodal Interaction (ICMI '24). Association for Computing Machinery, New York, NY, USA, 154–163. <a href='https://doi.org/10.1145/3678957.3685750'>https://doi.org/10.1145/3678957.3685750</a></p>
+    <p>While noise-cancelling headphones can block out or mask environmental noise with digital sound, this costs the user situational awareness and information. With the advancement of acoustically transparent personal audio devices (e.g. headphones, open-ear audio frames), Auditory Augmented Reality (AAR), and real-time audio processing, it is feasible to preserve user situational awareness and relevant information whilst diminishing the perception of the noise. Through an online survey (n=124), this research explored users’ attitudes and preferred AAR strategy (keep the noise, make the noise more pleasant, obscure the noise, reduce the noise, remove the noise, and replace the noise) toward different types of noises from a range of categories (living beings, mechanical, and environmental) and varying degrees of relevance. It was discovered that respondents’ degrees of annoyance varied according to the kind of noise and its relevance to them. Additionally, respondents had a strong tendency to reduce irrelevant noise and retain more relevant noise. Based on our findings, we discuss how AAR can assist users in coping with noise whilst retaining relevant information through selectively suppressing or altering the noise, as appropriate.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3678957.3685750'>https://dl.acm.org/doi/10.1145/3678957.3685750</a></p>
+    <p> </p>
+    <p> </p>
+- guid: deephci.podbean.com/92feb8d5-5446-3197-84bd-34734f0cc1aa
+  title: 'ASSETS 2024: SoundHapticVR: Head-Based Spatial Haptic Feedback for Accessible Sounds in Virtual
+    Reality for Deaf and Hard of Hearing Users'
+  slug: assets-2024-soundhapticvr-head-based-spatial-haptic-feedback-for-accessible-sounds-in-virtual-reality-for-deaf-and-hard-of-hearing-users
+  published: '2024-11-09T15:01:00+09:00'
+  episode: 34
+  duration: 806
+  audio_file: 3663548-3675639.mp3
+  audio_length: 3227372
+  audio_type: audio/mpeg
+  image: episode35.jpg
+  description: |-
+    <p>Pratheep Kumar Chelladurai, Ziming Li, Maximilian Weber, Tae Oh, and Roshan L Peiris. 2024. SoundHapticVR: Head-Based Spatial Haptic Feedback for Accessible Sounds in Virtual Reality for Deaf and Hard of Hearing Users. In Proceedings of the 26th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '24). Association for Computing Machinery, New York, NY, USA, Article 31, 1–17. <a href='https://doi.org/10.1145/3663548.3675639'>https://doi.org/10.1145/3663548.3675639</a></p>
+    <p>Virtual Reality (VR) systems use immersive spatial audio to convey critical information, but these audio cues are often inaccessible to Deaf or Hard-of-Hearing (DHH) individuals. To address this, we developed SoundHapticVR, a head-based haptic system that converts audio signals into haptic feedback using multi-channel acoustic haptic actuators. We evaluated SoundHapticVR through three studies: determining the maximum tactile frequency threshold on different head regions for DHH users, identifying the ideal number and arrangement of transducers for sound localization, and assessing participants’ ability to differentiate sound sources with haptic patterns. Findings indicate that tactile perception thresholds vary across head regions, necessitating consistent frequency equalization. Adding a front transducer significantly improved sound localization, and participants could correlate distinct haptic patterns with specific objects. Overall, this system has the potential to make VR applications more accessible to DHH users.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3663548.3675639'>https://dl.acm.org/doi/10.1145/3663548.3675639</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/33a5c56a-b91c-3468-a7bb-d7e0804fa950
+  title: 'ASSETS 2024: SeaHare: An omidirectional electric wheelchair integrating independent, remote
+    and shared control modalities'
+  slug: assets-2024-seahare-an-omidirectional-electric-wheelchair-integrating-independent-remote-and-shared-control-modalities
+  published: '2024-11-09T10:33:04+09:00'
+  episode: 33
+  duration: 794
+  audio_file: 3663548-3675657.mp3
+  audio_length: 3176588
+  audio_type: audio/mpeg
+  image: episode34.jpg
+  description: |-
+    <p>Giulia Barbareschi, Ando Ryoichi, Midori Kawaguchi, Minato Takeda, and Kouta Minamizawa. 2024. SeaHare: An omidirectional electric wheelchair integrating independent, remote and shared control modalities. In Proceedings of the 26th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '24). Association for Computing Machinery, New York, NY, USA, Article 9, 1–16. <a href='https://doi.org/10.1145/3663548.3675657'>https://doi.org/10.1145/3663548.3675657</a></p>
+    <p>Depending on one’s needs electric wheelchairs can feature different interfaces and driving paradigms with control handed to the user, a remote pilot, or shared. However, these systems have generally been implemented on separate wheelchairs, making comparison difficult. We present the design of an omnidirectional electric wheelchair that can be controlled using two sensing seats detecting changes in the centre of gravity. One of the sensing seats is used by the person on the wheelchair, whereas the other is used as a remote control by a second person. We explore the use of the wheelchair using different control paradigms (independent, remote, and shared) from both the wheelchair and the remote control seat with 5 dyads and 1 triad of participants, including wheelchair users and non. Results highlight key advantages and disadvantages of the SeaHare in different paradigms, with participants’ perceptions affected by their skills and lived experiences, and reflections on how different control modes might suit different scenarios.<br>
+    <a href='https://dl.acm.org/doi/10.1145/3663548.3675657'>https://dl.acm.org/doi/10.1145/3663548.3675657</a></p>
+- guid: deephci.podbean.com/a6327bfa-ca67-3c15-8366-a59aef6f02be
+  title: 'ASSETS 2024: Brain Body Jockey project: Transcending Bodily Limitations in Live Performance
+    via Human Augmentation'
+  slug: assets-2024-brain-body-jockey-project-transcending-bodily-limitations-in-live-performance-via-human-augmentation
+  published: '2024-11-07T16:51:16+09:00'
+  episode: 32
+  duration: 854
+  audio_file: 3663548-3675621.mp3
+  audio_length: 3419180
+  audio_type: audio/mpeg
+  image: episode33.jpg
+  description: |-
+    <p>Giulia Barbareschi, Songchen Zhou, Ando Ryoichi, Midori Kawaguchi, Mark Armstrong, Mikito Ogino, Shunsuke Aoiki, Eisaku Ohta, Harunobu Taguchi, Youichi Kamiyama, Masatane Muto, Kentaro Yoshifuji, and Kouta Minamizawa. 2024. Brain Body Jockey project: Transcending Bodily Limitations in Live Performance via Human Augmentation. In Proceedings of the 26th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '24). Association for Computing Machinery, New York, NY, USA, Article 18, 1–14. <a href='https://doi.org/10.1145/3663548.3675621'>https://doi.org/10.1145/3663548.3675621</a></p>
+    <p>Musicians with significant mobility limitations, face unique challenges in being able to use their bodies to interact with fans during live performances. In this paper we present the results of a collaboration between a professional DJ with advanced Amyotrophic Lateral Sclerosis and a group of technologists and researchers culminating in two public live performances leveraging human augmentation technologies to enhance the artist’s stage presence. Our system combines Brain Machine Interface, and accelerometer based trigger, to select pre-programmed moves performed by robotic arms during a live event, as well as for facilitating direct physical interaction during a “Meet the DJ” event. Our evaluation includes ethnographic observations and interviews with the artist and members of the audience. Results show that the system allowed artist and audience to feel a sense of unity, expanded the imagination of creative possibilities, and challenged conventional perceptions of disability in the arts and beyond.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3663548.3675621'>https://dl.acm.org/doi/10.1145/3663548.3675621</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/87955fd4-f112-3b12-95a2-56ebec4b1085
+  title: 'ISMAR 2024: Searching Across Realities: Investigating ERPs and Eye-Tracking Correlates of Visual
+    Search in Mixed Reality'
+  slug: ismar-2024-searching-across-realities-investigating-erps-and-eye-tracking-correlates-of-visual-search-in-mixed-reality
+  published: '2024-11-07T16:17:20+09:00'
+  episode: 31
+  duration: 937
+  audio_file: 10-1109-TVCG-2024-3456172.mp3
+  audio_length: 3751340
+  audio_type: audio/mpeg
+  image: episode32.jpg
+  description: |-
+    <p>F. Chiossi, I. Trautmannsheimer, C. Ou, U. Gruenefeld and S. Mayer, "Searching Across Realities: Investigating ERPs and Eye-Tracking Correlates of Visual Search in Mixed Reality," in IEEE Transactions on Visualization and Computer Graphics, vol. 30, no. 11, pp. 6997-7007, Nov. 2024, doi: 10.1109/TVCG.2024.3456172.</p>
+    <p>Mixed Reality allows us to integrate virtual and physical content into users' environments seamlessly. Yet, how this fusion affects perceptual and cognitive resources and our ability to find virtual or physical objects remains uncertain. Displaying virtual and physical information simultaneously might lead to divided attention and increased visual complexity, impacting users' visual processing, performance, and workload. In a visual search task, we asked participants to locate virtual and physical objects in Augmented Reality and Augmented Virtuality to understand the effects on performance. We evaluated search efficiency and attention allocation for virtual and physical objects using event-related potentials, fixation and saccade metrics, and behavioral measures. We found that users were more efficient in identifying objects in Augmented Virtuality, while virtual objects gained saliency in Augmented Virtuality. This suggests that visual fidelity might increase the perceptual load of the scene. Reduced amplitude in distractor positivity ERP, and fixation patterns supported improved distractor suppression and search efficiency in Augmented Virtuality. We discuss design implications for mixed reality adaptive systems based on physiological inputs for interaction.</p>
+    <p><a href='https://ieeexplore.ieee.org/document/10679197'>https://ieeexplore.ieee.org/document/10679197</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/238b9ccf-9748-3ce0-b3c8-c74c622eabf9
+  title: 'ISMAR 2024: “As if it were my own hand”: inducing the rubber hand illusion through virtual reality
+    for motor imagery enhancement'
+  slug: ismar-2024-as-if-it-were-my-own-hand-inducing-the-rubber-hand-illusion-through-virtual-reality-for-motor-imagery-enhancement
+  published: '2024-11-04T20:52:53+09:00'
+  episode: 30
+  duration: 1166
+  audio_file: 10-1109-TVCG-2024-3456147.mp3
+  audio_length: 4667372
+  audio_type: audio/mpeg
+  image: episode31.jpg
+  description: |-
+    <p>S. Cheng, Y. Liu, Y. Gao and Z. Dong, "“As if it were my own hand”: inducing the rubber hand illusion through virtual reality for motor imagery enhancement," in <em>IEEE Transactions on Visualization and Computer Graphics</em>, vol. 30, no. 11, pp. 7086-7096, Nov. 2024, doi: <a href='https://doi.org/10.1109/tvcg.2024.3456147'>       10.1109/TVCG.2024.3456147 </a></p>
+    <p>Brain-computer interfaces (BCI) are widely used in the field of disability assistance and rehabilitation, and virtual reality (VR) is increasingly used for visual guidance of BCI-MI (motor imagery). Therefore, how to improve the quality of electroencephalogram (EEG) signals for MI in VR has emerged as a critical issue. People can perform MI more easily when they visualize the hand used for visual guidance as their own, and the Rubber Hand Illusion (RHI) can increase people's ownership of the prosthetic hand. We proposed to induce RHI in VR to enhance participants' MI ability and designed five methods of inducing RHI, namely active movement, haptic stimulation, passive movement, active movement mixed with haptic stimulation, and passive movement mixed with haptic stimulation, respectively. We constructed a first-person training scenario to train participants' MI ability through the five induction methods. The experimental results showed that through the training, the participants' feeling of ownership of the virtual hand in VR was enhanced, and the MI ability was improved. Among them, the method of mixing active movement and tactile stimulation proved to have a good effect on enhancing MI. Finally, we developed a BCI system in VR utilizing the above training method, and the performance of the participants improved after the training. This also suggests that our proposed method is promising for future application in BCI rehabilitation systems.</p>
+    <p><a href='https://ieeexplore.ieee.org/document/10669780'>https://ieeexplore.ieee.org/document/10669780</a></p>
+- guid: deephci.podbean.com/9f94db32-09d1-3f34-a849-f45b7363379d
+  title: 'ISMAR 2024: Filtering on the Go: Effect of Filters on Gaze Pointing Accuracy During Physical
+    Locomotion in Extended Reality'
+  slug: ismar-2024-filtering-on-the-go-effect-of-filters-on-gaze-pointing-accuracy-during-physical-locomotion-in-extended-reality
+  published: '2024-11-02T01:20:00+09:00'
+  episode: 29
+  duration: 1226
+  audio_file: 10-1109-TVCG-2024-3456153.mp3
+  audio_length: 4904300
+  audio_type: audio/mpeg
+  image: episode30_9iczgm.jpg
+  description: |-
+    <p>Pavel Manakhov, Ludwig Sidenmark, Ken Pfeuffer, and Hans Gellersen. 2024. Filtering on the Go: Effect of Filters on Gaze Pointing Accuracy During Physical Locomotion in Extended Reality. IEEE Transactions on Visualization and Computer Graphics 30, 11 (Nov. 2024), 7234–7244. https://doi.org/10.1109/TVCG.2024.3456153</p>
+    <p>Eye tracking filters have been shown to improve accuracy of gaze estimation and input for stationary settings. However, their effectiveness during physical movement remains underexplored. In this work, we compare common online filters in the context of physical locomotion in extended reality and propose alterations to improve them for on-the-go settings. We conducted a computational experiment where we simulate performance of the online filters using data on participants attending visual targets located in world-, path-, and two head-based reference frames while standing, walking, and jogging. Our results provide insights into the filters' effectiveness and factors that affect it, such as the amount of noise caused by locomotion and differences in compensatory eye movements, and demonstrate that filters with saccade detection prove most useful for on-the-go settings. We discuss the implications of our findings and conclude with guidance on gaze data filtering for interaction in extended reality.</p>
+    <p><a href='https://ieeexplore.ieee.org/document/10672561'>https://ieeexplore.ieee.org/document/10672561</a></p>
+- guid: deephci.podbean.com/64fcbff8-01c0-3f6d-9932-f709324aa71d
+  title: 'UIST 2024 Best Paper: What''s the Game, then? Opportunities and Challenges for Runtime Behavior
+    Generation'
+  slug: uist-2024-best-paper-whats-the-game-then-opportunities-and-challenges-for-runtime-behavior-generation
+  published: '2024-10-28T02:56:00+09:00'
+  episode: 28
+  duration: 893
+  audio_file: bp-3654777-3676358.mp3
+  audio_length: 3574988
+  audio_type: audio/mpeg
+  image: episode29_9n9mtg.jpg
+  description: |-
+    <p>Nicholas Jennings, Han Wang, Isabel Li, James Smith, and Bjoern Hartmann. 2024. What's the Game, then? Opportunities and Challenges for Runtime Behavior Generation. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24). Association for Computing Machinery, New York, NY, USA, Article 106, 1–13. <a href='https://doi.org/10.1145/3654777.3676358'>https://doi.org/10.1145/3654777.3676358</a></p>
+    <p> </p>
+    <p>Procedural content generation (PCG), the process of algorithmically creating game components instead of manually, has been a common tool of game development for decades. Recent advances in large language models (LLMs) enable the generation of game behaviors based on player input at runtime. Such code generation brings with it the possibility of entirely new gameplay interactions that may be difficult to integrate with typical game development workflows. We explore these implications through GROMIT, a novel LLM-based runtime behavior generation system for Unity. When triggered by a player action, GROMIT generates a relevant behavior which is compiled without developer intervention and incorporated into the game. We create three demonstration scenarios with GROMIT to investigate how such a technology might be used in game development. In a system evaluation we find that our implementation is able to produce behaviors that result in significant downstream impacts to gameplay. We then conduct an interview study with n=13 game developers using GROMIT as a probe to elicit their current opinion on runtime behavior generation tools, and enumerate the specific themes curtailing the wider use of such tools. We find that the main themes of concern are quality considerations, community expectations, and fit with developer workflows, and that several of the subthemes are unique to runtime behavior generation specifically. We outline a future work agenda to address these concerns, including the need for additional guardrail systems for behavior generation.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3654777.3676358'>https://dl.acm.org/doi/10.1145/3654777.3676358</a></p>
+- guid: deephci.podbean.com/b1030347-6cf7-33fe-91d5-33ccd4b52ddc
+  title: 'UIST 2024 Honorable Mention: Can a Smartwatch Move Your Fingers? Compact and Practical Electrical
+    Muscle Stimulation in a Smartwatch'
+  slug: uist-2024-honorable-mention-can-a-smartwatch-move-your-fingers-compact-and-practical-electrical-muscle-stimulation-in-a-smartwatch
+  published: '2024-10-25T04:54:00+09:00'
+  episode: 26
+  duration: 720
+  audio_file: hm-3654777-3676373.mp3
+  audio_length: 2880908
+  audio_type: audio/mpeg
+  image: episode27_6b84ne.jpg
+  description: |-
+    <p>Akifumi Takahashi, Yudai Tanaka, Archit Tamhane, Alan Shen, Shan-Yuan Teng, and Pedro Lopes. 2024. Can a Smartwatch Move Your Fingers? Compact and Practical Electrical Muscle Stimulation in a Smartwatch. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24). Association for Computing Machinery, New York, NY, USA, Article 2, 1–15. <a href='https://doi.org/10.1145/3654777.3676373'>https://doi.org/10.1145/3654777.3676373</a></p>
+    <p>Smartwatches gained popularity in the mainstream, making them into today’s de-facto wearables. Despite advancements in sensing, haptics on smartwatches is still restricted to tactile feedback (e.g., vibration). Most smartwatch-sized actuators cannot render strong force-feedback. Simultaneously, electrical muscle stimulation (EMS) promises compact force-feedback but, to actuate fingers requires users to wear many electrodes on their forearms. While forearm electrodes provide good accuracy, they detract EMS from being a practical force-feedback interface. To address this, we propose moving the electrodes to the wrist—conveniently packing them in the backside of a smartwatch. In our first study, we found that by cross-sectionally stimulating the wrist in 1,728 trials, we can actuate thumb extension, index extension &amp; flexion, middle flexion, pinky flexion, and wrist flexion. Following, we engineered a compact EMS that integrates directly into a smartwatch’s wristband (with a custom stimulator, electrodes, demultiplexers, and communication). In our second study, we found that participants could calibrate our device by themselves &lt;Formula format="inline"&gt;&lt;TexMath&gt;&lt;?TeX $\sim 50 \%$?&gt;&lt;/TexMath&gt;&lt;AltText&gt;Math 1&lt;/AltText&gt;&lt;File name="uist24-51-inline1" type="svg"/&gt;&lt;/Formula&gt; faster than with conventional EMS. Furthermore, all participants preferred the experience of this device, especially for its social acceptability &amp; practicality. We believe that our approach opens new applications for smartwatch-based interactions, such as haptic assistance during everyday tasks.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3654777.3676373'>https://dl.acm.org/doi/10.1145/3654777.3676373</a></p>
+- guid: deephci.podbean.com/7034922e-0eda-3c14-995f-fe9c025a57db
+  title: 'UIST 2024 Honorable Mention: Wheeler: A Three-Wheeled Input Device for Usable, Eficient, and
+    Versatile Non-Visual Interaction'
+  slug: uist-2024-honorable-mention-wheeler-a-three-wheeled-input-device-for-usable-eficient-and-versatile-non-visual-interaction
+  published: '2024-10-25T04:44:00+09:00'
+  episode: 25
+  duration: 719
+  audio_file: hm-3654777-3676396.mp3
+  audio_length: 2877260
+  audio_type: audio/mpeg
+  image: episode26_5wbs5n.jpg
+  description: |-
+    <p>Md Touhidul Islam, Noushad Sojib, Imran Kabir, Ashiqur Rahman Amit, Mohammad Ruhul Amin, and Syed Masum Billah. 2024. Wheeler: A Three-Wheeled Input Device for Usable, Efficient, and Versatile Non-Visual Interaction. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24). Association for Computing Machinery, New York, NY, USA, Article 31, 1–20.  <a href='https://doi.org/10.1145/3654777.3676396'>https://doi.org/10.1145/3654777.3676396</a></p>
+    <p>Blind users rely on keyboards and assistive technologies like screen readers to interact with user interface (UI) elements. In modern applications with complex UI hierarchies, navigating to different UI elements poses a significant accessibility challenge. Users must listen to screen reader audio descriptions and press relevant keyboard keys one at a time. This paper introduces Wheeler, a novel three-wheeled, mouse-shaped stationary input device, to address this issue. Informed by participatory sessions, Wheeler enables blind users to navigate up to three hierarchical levels in an app independently using three wheels instead of navigating just one level at a time using a keyboard. The three wheels also offer versatility, allowing users to repurpose them for other tasks, such as 2D cursor manipulation. A study with 12 blind users indicates a significant reduction (40%) in navigation time compared to using a keyboard. Further, a diary study with our blind co-author highlights Wheeler’s additional benefits, such as accessing UI elements with partial metadata and facilitating mixed-ability collaboration.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3654777.3676396'>https://dl.acm.org/doi/10.1145/3654777.3676396</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/660bb9fe-e68a-3716-9e35-285d59e55df9
+  title: 'UIST 2024 Honorable Mention: BlendScape: Enabling End-User Customization of Video-Conferencing
+    Environments through Generative AI'
+  slug: uist-2024-honorable-mention-blendscape-enabling-end-user-customization-of-video-conferencing-environments-through-generative-ai
+  published: '2024-10-25T01:02:00+09:00'
+  episode: 27
+  duration: 920
+  audio_file: hm-3654777-3676326.mp3
+  audio_length: 3681068
+  audio_type: audio/mpeg
+  image: episode28_vis4j3.jpg
+  description: |-
+    <p>Shwetha Rajaram, Nels Numan, Balasaravanan Thoravi Kumaravel, Nicolai Marquardt, and Andrew D Wilson. 2024. BlendScape: Enabling End-User Customization of Video-Conferencing Environments through Generative AI. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24). Association for Computing Machinery, New York, NY, USA, Article 40, 1–19. <a href='https://doi.org/10.1145/3654777.3676326'>https://doi.org/10.1145/3654777.3676326</a></p>
+    <p>Today’s video-conferencing tools support a rich range of professional and social activities, but their generic meeting environments cannot be dynamically adapted to align with distributed collaborators’ needs. To enable end-user customization, we developed BlendScape, a rendering and composition system for video-conferencing participants to tailor environments to their meeting context by leveraging AI image generation techniques. BlendScape supports flexible representations of task spaces by blending users’ physical or digital backgrounds into unified environments and implements multimodal interaction techniques to steer the generation. Through an exploratory study with 15 end-users, we investigated whether and how they would find value in using generative AI to customize video-conferencing environments. Participants envisioned using a system like BlendScape to facilitate collaborative activities in the future, but required further controls to mitigate distracting or unrealistic visual elements. We implemented scenarios to demonstrate BlendScape’s expressiveness for supporting environment design strategies from prior work and propose composition techniques to improve the quality of environments.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3654777.3676326'>https://dl.acm.org/doi/10.1145/3654777.3676326</a></p>
+- guid: deephci.podbean.com/c9e71e94-8644-355e-8002-8978547f1370
+  title: 'UIST 2024: DexteriSync: A Hand Thermal I/O Exoskeleton for Morphing Finger Dexterity Experience'
+  slug: uist-2024-dexterisync-a-hand-thermal-io-exoskeleton-for-morphing-finger-dexterity-experience
+  published: '2024-10-24T06:40:00+09:00'
+  episode: 24
+  duration: 839
+  audio_file: 3654777-3676422.mp3
+  audio_length: 3357740
+  audio_type: audio/mpeg
+  image: episode25_ybtn5b.jpg
+  description: |-
+    <p>Ximing Shen, Youichi Kamiyama, Kouta Minamizawa, and Jun Nishida. 2024. DexteriSync: A Hand Thermal I/O Exoskeleton for Morphing Finger Dexterity Experience. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24). Association for Computing Machinery, New York, NY, USA, Article 102, 1–12. <a href='https://doi.org/10.1145/3654777.3676422'>https://doi.org/10.1145/3654777.3676422</a></p>
+    <p> </p>
+    <p>Skin temperature is an important physiological factor for human hand dexterity. Leveraging this feature, we engineered an exoskeleton, called DexteriSync, that can dynamically adjust the user’s finger dexterity and induce different thermal perceptions by modulating finger skin temperature. This exoskeleton comprises flexible silicone-copper tube segments, 3D-printed finger sockets, a 3D-printed palm base, a pump system, and a water temperature control with a storage unit. By realising an embodied experience of compromised dexterity, DexteriSync can help product designers understand the lived experience of compromised hand dexterity, such as that of the elderly and/or neurodivergent users, when designing daily necessities for them.<br>
+    We validated DexteriSync via a technical evaluation and two user studies, demonstrating that it can change skin temperature, dexterity, and thermal perception. An exploratory session with design students and an autistic compromised dexterity individual, demonstrated the exoskeleton provided a more realistic experience compared to video education, and allowed them to gain higher confidence in their designs. The results advocated for the efficacy of experiencing embodied compromised finger dexterity, which can promote an understanding of the related physical challenges and lead to a more persuasive design for assistive tools.<br>
+    <a href='https://dl.acm.org/doi/10.1145/3654777.3676422'>https://dl.acm.org/doi/10.1145/3654777.3676422</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/d4b2255e-45fc-3429-bf8e-d88ac4ee1324
+  title: 'UIST 2024: Modulating Heart Activity and Task Performance using Haptic Heartbeat Feedback: A
+    Study Across Four Body Placements'
+  slug: uist-2024-modulating-heart-activity-and-task-performance-using-haptic-heartbeat-feedback-a-study-across-four-body-placements
+  published: '2024-10-23T13:57:33+09:00'
+  episode: 23
+  duration: 675
+  audio_file: 3654777-3676435.mp3
+  audio_length: 2703500
+  audio_type: audio/mpeg
+  image: episode24_ncsk89.jpg
+  description: |-
+    <p>Andreia Valente, Dajin Lee, Seungmoon Choi, Mark Billinghurst, and Augusto Esteves. 2024. Modulating Heart Activity and Task Performance using Haptic Heartbeat Feedback: A Study Across Four Body Placements. In Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24). Association for Computing Machinery, New York, NY, USA, Article 25, 1–13. <a href='https://doi.org/10.1145/3654777.3676435'>https://doi.org/10.1145/3654777.3676435</a></p>
+    <p>This paper explores the impact of vibrotactile haptic feedback on heart activity when the feedback is provided at four different body locations (chest, wrist, neck, and ankle) and with two feedback rates (50 bpm and 110 bpm). A user study found that the neck placement resulted in higher heart rates and lower heart rate variability, and higher frequencies correlated with increased heart rates and decreased heart rate variability. The chest was preferred in self-reported metrics, and neck placement was perceived as less satisfying, harmonious, and immersive. This research contributes to understanding the interplay between psychological experiences and physiological responses when using haptic biofeedback resembling real body signals.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3654777.3676435'>https://dl.acm.org/doi/10.1145/3654777.3676435</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/4339e45b-a816-340b-8ada-c6cc24fd1054
+  title: 'MobileHCI 2024: Visual Noise Cancellation: Exploring Visual Discomfort and Opportunities for
+    Vision Augmentations'
+  slug: mobilehci-2024-visual-noise-cancellation-exploring-visual-discomfort-and-opportunities-for-vision-augmentations
+  published: '2024-10-22T18:09:08+09:00'
+  episode: 22
+  duration: 631
+  audio_file: 10-1145-3634699.mp3
+  audio_length: 2525132
+  audio_type: audio/mpeg
+  image: episode18_cvdb5j.jpg
+  description: |-
+    <p>Junlei Hong, Tobias Langlotz, Jonathan Sutton, and Holger Regenbrecht. 2024. Visual Noise Cancellation: Exploring Visual Discomfort and Opportunities for Vision Augmentations. ACM Trans. Comput.-Hum. Interact. 31, 2, Article 22 (April 2024), 26 pages. <a href='https://doi.org/10.1145/3634699'>https://doi.org/10.1145/3634699</a></p>
+    <p>Acoustic noise control or cancellation (ANC) is a commonplace component of modern audio headphones. ANC aims to actively mitigate disturbing environmental noise for a quieter and improved listening experience. ANC is digitally controlling frequency and amplitude characteristics of sound. Much less explored is visual noise and active visual noise control, which we address here. We first explore visual noise and scenarios in which visual noise arises based on findings from four workshops we conducted. We then introduce the concept of visual noise cancellation (VNC) and how it can be used to reduce identified effects of visual noise. In addition, we developed head-worn demonstration prototypes to practically explore the concept of active VNC with selected scenarios in a user study. Finally, we discuss the application of VNC, including vision augmentations that moderate the user’s view of the environment to address perceptual needs and to provide augmented reality content.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3634699'>https://dl.acm.org/doi/10.1145/3634699</a></p>
+- guid: deephci.podbean.com/40b362dd-6523-3157-a20c-82a800a8f2e1
+  title: 'MobileHCI 2024: Shock Me The Way: Directional Electrotactile Feedback under the Smartwatch as
+    a Navigation Aid for Cyclists'
+  slug: mobilehci-2024-shock-me-the-way-directional-electrotactile-feedback-under-the-smartwatch-as-a-navigation-aid-for-cyclists
+  published: '2024-10-21T20:54:09+09:00'
+  episode: 21
+  duration: 727
+  audio_file: 10-1145-3676521.mp3
+  audio_length: 2911820
+  audio_type: audio/mpeg
+  image: episode23_q7wydp.jpg
+  description: |-
+    <p>Tim Duente, Dennis Stanke, Moritz Klose, Benjamin Simon, Ibraheem Al-Azzawi, and Michael Rohs. 2024. Shock Me The Way: Directional Electrotactile Feedback under the Smartwatch as a Navigation Aid for Cyclists. Proc. ACM Hum.-Comput. Interact. 8, MHCI, Article 274 (September 2024), 25 pages. <a href='https://doi.org/10.1145/3676521'>https://doi.org/10.1145/3676521</a></p>
+    <p>Cycling navigation is a complex and stressful task as the cyclist needs to focus simultaneously on the navigation, the road, and other road users. We propose directional electrotactile feedback at the wrist to reduce the auditory and visual load during navigation-aided cycling. We designed a custom electrotactile grid with 9 electrodes that is clipped under a smartwatch. In a preliminary study we identified suitable calibration settings and gained first insights about a suitable electrode layout. In a subsequent laboratory study we showed that a direction can be encoded with a mean error of 19.28\,° (σ = 42.77°) by combining 2 adjacent electrodes. Additionally, by interpolating with 3 electrodes a direction can be conveyed with a similar mean error of 22.54° (σ = 43.57°). We evaluated our concept of directional electrotactile feedback for cyclists in an outdoor study, in which 98.8% of all junctions were taken correctly by eight study participants. Only one participant deviated substantially from the optimal path, but was successfully navigated back to the original route by our system.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3676521'>https://dl.acm.org/doi/10.1145/3676521</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/d63b10e8-46c9-3cfd-851f-e473e52194f5
+  title: 'MobileHCI 2024: An Examination of Ultrasound Mid-air Haptics for Enhanced Material and Temperature
+    Perception in Virtual Environments'
+  slug: mobilehci-2024-an-examination-of-ultrasound-mid-air-haptics-for-enhanced-material-and-temperature-perception-in-virtual-environments
+  published: '2024-10-20T21:16:07+09:00'
+  episode: 20
+  duration: 572
+  audio_file: 10-1145-3676488.mp3
+  audio_length: 2290892
+  audio_type: audio/mpeg
+  image: episode22_egb5hh.jpg
+  description: |-
+    <p>Steeven Villa, Yannick Weiss, Niklas Hirsch, and Alexander Wiethoff. 2024. An Examination of Ultrasound Mid-air Haptics for Enhanced Material and Temperature Perception in Virtual Environments. Proc. ACM Hum.-Comput. Interact. 8, MHCI, Article 243 (September 2024), 21 pages. https://doi.org/10.1145/3676488</p>
+    <p>Rendering realistic tactile sensations of virtual objects remains a challenge in VR. While haptic interfaces have advanced, particularly with phased arrays, their ability to create realistic object properties like state and temperature remains unclear. This study investigates the potential of Ultrasound Mid-air Haptics (UMH) for enhancing the perceived congruency of virtual objects. In a user study with 30 participants, we assessed how UMH impacts the perceived material state and temperature of virtual objects. We also analyzed EEG data to understand how participants integrate UMH information physiologically. Our results reveal that UMH significantly enhances the perceived congruency of virtual objects, particularly for solid objects, reducing the feeling of mismatch between visual and tactile feedback. Additionally, UMH consistently increases the perceived temperature of virtual objects. These findings offer valuable insights for haptic designers, demonstrating UMH's potential for creating more immersive tactile experiences in VR by addressing key limitations in current haptic technologies.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3676488'>https://dl.acm.org/doi/10.1145/3676488</a></p>
+- guid: deephci.podbean.com/9b66b222-811c-3029-8adf-543ca0db1732
+  title: Linking Audience Physiology to Choreography
+  slug: linking-audience-physiology-to-choreography-1729425720
+  published: '2024-10-20T21:02:00+09:00'
+  episode: 19
+  duration: 640
+  audio_file: han2022linking-2.mp3
+  audio_length: 2562860
+  audio_type: audio/mpeg
+  image: episode21_fq9fia.jpg
+  description: |-
+    <p>The use of wearable sensor technology opens up exciting avenues for both art and HCI research, providing new ways to explore the invisible link between audience and performer. To be effective, such work requires close collaboration between performers and researchers. In this article, we report on the co-design process and research insights from our work integrating physiological sensing and live performance. We explore the connection between the audience’s physiological data and their experience during the performance, analyzing a multi-modal dataset collected from 98 audience members. We identify notable moments based on HRV and EDA, and show how the audience’s physiological responses can be linked to the choreography. The longitudinal changes in HRV features suggest a strong connection to the choreographer’s intended narrative arc, while EDA features appear to correspond with short-term audience responses to dramatic moments. We discuss the physiological phenomena and implications for designing feedback systems and interdisciplinary collaborations.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3557887'>https://dl.acm.org/doi/10.1145/3557887</a></p>
+- guid: deephci.podbean.com/39c39950-4c1f-3b9c-8727-09a363e72866
+  title: 'MobileHCI 2024: Head ’n Shoulder: Gesture-Driven Biking Through Capacitive Sensing Garments
+    to Innovate Hands-Free Interaction'
+  slug: mobilehci-2024-head-n-shoulder-gesture-driven-biking-through-capacitive-sensing-garments-to-innovate-hands-free-interaction
+  published: '2024-10-20T18:36:44+09:00'
+  episode: 18
+  duration: 573
+  audio_file: 10-1145-3676510.mp3
+  audio_length: 2292428
+  audio_type: audio/mpeg
+  image: episode19_copy_asc627.jpeg
+  description: |-
+    <p>Daniel Geißler, Hymalai Bello, Esther Zahn, Emil Woop, Bo Zhou, Paul Lukowicz, and Jakob Karolus. 2024. Head 'n Shoulder: Gesture-Driven Biking Through Capacitive Sensing Garments to Innovate Hands-Free Interaction. Proc. ACM Hum.-Comput. Interact. 8, MHCI, Article 265 (September 2024), 20 pages. https://doi.org/10.1145/3676510</p>
+    <p>Distractions caused by digital devices are increasingly causing dangerous situations on the road, particularly for more vulnerable road users like cyclists. While researchers have been exploring ways to enable richer interaction scenarios on the bike, safety concerns are frequently neglected and compromised. In this work, we propose Head 'n Shoulder, a gesture-driven approach to bike interaction without affecting bike control, based on a wearable garment that allows hands- and eyes-free interaction with digital devices through integrated capacitive sensors. It achieves an average accuracy of 97% in the final iteration, evaluated on 14 participants. Head 'n Shoulder does not rely on direct pressure sensing, allowing users to wear their everyday garments on top or underneath, not affecting recognition accuracy. Our work introduces a promising research direction: easily deployable smart garments with a minimal set of gestures suited for most bike interaction scenarios, sustaining the rider's comfort and safety.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3676510'>https://dl.acm.org/doi/10.1145/3676510</a></p>
+- guid: deephci.podbean.com/42d5b91e-fd23-3395-874a-b79813f79243
+  title: 'ISWC 2024 Best Paper Award: Integrating Force Sensing with Electro-Tactile Feedback in 3D Printed
+    Haptic Interfaces'
+  slug: iswc-2024-best-paper-award-integrating-force-sensing-with-electro-tactile-feedback-in-3d-printed-haptic-interfaces
+  published: '2024-10-13T20:56:00+09:00'
+  episode: 16
+  duration: 546
+  audio_file: 10-1145-3675095-3676612.mp3
+  audio_length: 2186252
+  audio_type: audio/mpeg
+  image: episode17_bae2jb.jpg
+  description: |-
+    <p>We deep dive today into the ISWC 2024 best paper award.</p>
+    <p> </p>
+    <p>Tactile feedback mechanisms enhance the user experience of modern wearables by stimulating the sense of touch and enabling intuitive interactions. Electro-tactile stimulation-based tactile interfaces stand out due to their compact form factor and ability to deliver localized tactile sensations. Integrating force sensing with electro-tactile stimulation creates more responsive bidirectional systems that are beneficial in applications requiring precise control and feedback. However, current research often relies on separate sensors for force sensing, increasing system complexity and raising challenges in system scalability. We propose a novel approach that utilizes 3D-printed modified surfaces as the electro-tactile electrode interface to sense applied force and deliver feedback simultaneously without additional sensors. This method simplifies the system, maintains flexibility, and leverages the rapid prototyping capabilities of 3D printing. The functionality of this approach is validated through a user study (N=10), and two practical applications are proposed, both incorporating simultaneous sensing and tactile feedback.</p>
+    <p>https://dl.acm.org/doi/10.1145/3675095.3676612</p>
+- guid: deephci.podbean.com/54416f58-0737-3ca2-ab70-b25931299edc
+  title: 'ISWC 2024 Honorable Mention: EchoGuide: Active Acoustic Guidance for LLM-Based Eating Event
+    Analysis from Egocentric Videos'
+  slug: iswc-2024-honorable-mention-echoguide-active-acoustic-guidance-for-llm-based-eating-event-analysis-from-egocentric-videos
+  published: '2024-10-13T17:53:13+09:00'
+  episode: 15
+  duration: 768
+  audio_file: 10-1145-3675095-3676611.mp3
+  audio_length: 3073868
+  audio_type: audio/mpeg
+  image: episode16_vu4nzm.jpg
+  description: |-
+    <p>We deep dive today into an ISWC 2024 Honorable Mention.</p>
+    <p>Self-recording eating behaviors is a step towards a healthy lifestyle recommended by many health professionals. However, the current practice of manually recording eating activities using paper records or smartphone apps is often unsustainable and inaccurate. Smart glasses have emerged as a promising wearable form factor for tracking eating behaviors, but existing systems primarily identify when eating occurs without capturing details of the eating activities (E.g., what is being eaten). In this paper, we present EchoGuide, an application and system pipeline that leverages low-power active acoustic sensing to guide head-mounted cameras to capture egocentric videos, enabling efficient and detailed analysis of eating activities. By combining active acoustic sensing for eating detection with video captioning models and large-scale language models for retrieval augmentation, EchoGuide intelligently clips and analyzes videos to create concise, relevant activity records on eating. We evaluated EchoGuide with 9 participants in naturalistic settings involving eating activities, demonstrating high-quality summarization and significant reductions in video data needed, paving the way for practical, scalable eating activity tracking.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3675095.3676611'>https://dl.acm.org/doi/10.1145/3675095.3676611</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/ebde41b1-5f4b-36aa-8e19-d043fd8df1dd
+  title: 'ISWC 2024 Honorable Mention: RetailOpt: Opt-In, Easy-to-Deploy Trajectory Estimation from Smartphone
+    Motion Data and Retail Facility Information'
+  slug: iswc-2024-honorable-mention-retailopt-opt-in-easy-to-deploy-trajectory-estimation-from-smartphone-motion-data-and-retail-facility-information
+  published: '2024-10-13T14:45:00+09:00'
+  episode: 14
+  duration: 503
+  audio_file: 10-1145-3675095-3676623.mp3
+  audio_length: 2014412
+  audio_type: audio/mpeg
+  image: episode15_gwxm7t.jpg
+  description: |-
+    <p>We deep dive today into an ISWC 2024 Honorable Mention.</p>
+    <p>We present RetailOpt, a novel opt-in, easy-to-deploy system for tracking customer movements offline in indoor retail environments. The system uses readily accessible information from customer smartphones and retail apps, including motion data, store maps, and purchase records. This eliminates the need for additional hardware installations/maintenance and ensures customers full data control. Specifically, RetailOpt first uses inertial navigation to recover relative trajectories from smartphone motion data. The store map and purchase records are cross-referenced to identify a list of visited shelves, providing anchors to localize the relative trajectories in a store through continuous and discrete optimization. We demonstrate the effectiveness of our system in five diverse environments. The system, if successful, would produce accurate customer movement data, essential for a broad range of retail applications including customer behavior analysis and in-store navigation.</p>
+    <p>https://dl.acm.org/doi/pdf/10.1145/3675095.3676623</p>
+- guid: deephci.podbean.com/2a25d57c-4d3b-3ae2-8b7c-9707b0223c32
+  title: 'UbiComp 2024 Distinguished Paper Award: SkinLink: On-body Construction and Prototyping of Reconfigurable
+    Epidermal Interfaces'
+  slug: ubicomp-2024-distinguished-paper-award-skinlink-on-body-construction-and-prototyping-of-reconfigurable-epidermal-interfaces
+  published: '2024-10-12T21:13:18+09:00'
+  episode: 13
+  duration: 787
+  audio_file: 10-1145-3596241.mp3
+  audio_length: 3148268
+  audio_type: audio/mpeg
+  image: episode14_kubseb.jpg
+  description: |-
+    <p>Today we deep dive into one publication that received a UbiComp 2024 distinguished paper awards.</p>
+    <p>Applying customized epidermal electronics closely onto the human skin offers the potential for biometric sensing and unique, always-available on-skin interactions. However, iterating designs of an on-skin interface from schematics to physical circuit wiring can be time-consuming, even with tiny modifications; it is also challenging to preserve skin wearability after repeated alteration. We present SkinLink, a reconfigurable on-skin fabrication approach that allows users to intuitively explore and experiment with the circuitry adjustment on the body. We demonstrate SkinLink with a customized on-skin prototyping toolkit comprising tiny distributed circuit modules and a variety of streamlined trace modules that adapt to diverse body surfaces. To evaluate SkinLink's performance, we conducted a 14-participant usability study to compare and contrast the workflows with a benchmark on-skin construction toolkit. Four case studies targeting a film makeup artist, two beauty makeup artists, and a wearable computing designer further demonstrate different application scenarios and usages.</p>
+    <p>https://dl.acm.org/doi/10.1145/3596241</p>
+- guid: deephci.podbean.com/d6d431c0-0b0f-3013-b937-78a7aa4e6a38
+  title: 'UbiComp 2024 Distinguished Paper Award: MoCaPose: Motion Capturing with Textile-integrated Capacitive
+    Sensors in Loose-fitting Smart Garments'
+  slug: ubicomp-2024-distinguished-paper-award-mocapose-motion-capturing-with-textile-integrated-capacitive-sensors-in-loose-fitting-smart-garments
+  published: '2024-10-12T20:53:00+09:00'
+  episode: 12
+  duration: 496
+  audio_file: 10-1145-3580883.mp3
+  audio_length: 1984268
+  audio_type: audio/mpeg
+  image: episode13_z3rdrf.jpg
+  description: |-
+    <p>Today we deep dive into one publication that received a UbiComp 2024 distinguished paper awards.</p>
+    <p>We present MoCaPose, a novel wearable motion capturing (MoCap) approach to continuously track the wearer's upper body's dynamic poses through multi-channel capacitive sensing integrated in fashionable, loose-fitting jackets. Unlike conventional wearable IMU MoCap based on inverse dynamics, MoCaPose decouples the sensor position from the pose system. MoCaPose uses a deep regressor to continuously predict the 3D upper body joints coordinates from 16-channel textile capacitive sensors, unbound by specific applications. The concept is implemented through two prototyping iterations to first solve the technical challenges, then establish the textile integration through fashion-technology co-design towards a design-centric smart garment. A 38-hour dataset of synchronized video and capacitive data from 21 participants was recorded for validation. The motion tracking result was validated on multiple levels from statistics (R2 ~ 0.91) and motion tracking metrics (MP JPE ~ 86mm) to the usability in pose and motion recognition (0.9 F1 for 10-class classification with unsupervised class discovery). The design guidelines impose few technical constraints, allowing the wearable system to be design-centric and usecase-specific. Overall, MoCaPose demonstrates that textile-based capacitive sensing with its unique advantages, can be a promising alternative for wearable motion tracking and other relevant wearable motion recognition applications.</p>
+    <p>https://dl.acm.org/doi/10.1145/3580883</p>
+- guid: deephci.podbean.com/9c84dcb5-5d8a-3285-a6d0-66f066bad23d
+  title: 'atmoSphere: designing cross-modal music experiences using spatial audio with haptic feedback'
+  slug: atmosphere-designing-cross-modal-music-experiences-using-spatial-audio-with-haptic-feedback
+  published: '2024-10-11T16:45:37+09:00'
+  episode: 11
+  duration: 355
+  audio_file: fushimi2017atmosphere.mp3
+  audio_length: 1421900
+  audio_type: audio/mpeg
+  image: episode12_i3fjn7.jpg
+  description: |-
+    <p>We use cross-Modal correspondence -the interaction between two or more sensory modalities- to create an engaging user experience. We present atmoSphere, a system that provides users immersive music experiences using spatial audio and haptic feedback. We focused on cross-modality of auditory and haptic sensations to augment the sound environment. The atmoSphere consists of a spatialized music and a sphere shaped device which provides haptic feedback. It provides users imagination of large sound environment although they feel haptic sensation in their hands. First user feedback is very encouraging. According to participants, atmoSphere creates an engaging experience.</p>
+    <p>https://dl.acm.org/doi/10.1145/3084822.3084845</p>
+- guid: deephci.podbean.com/0ff44e08-e382-3797-becb-05e6fcb4e48a
+  title: 'Armswing: using arm swings for accessible and immersive navigation in AR/VR spaces'
+  slug: armswing-using-arm-swings-for-accessible-and-immersive-navigation-in-arvr-spaces
+  published: '2024-10-11T16:40:12+09:00'
+  episode: 10
+  duration: 459
+  audio_file: pai2017armswing.mp3
+  audio_length: 1837100
+  audio_type: audio/mpeg
+  image: episode11_8zq62i.jpg
+  description: |-
+    <p>Navigating in a natural way in augmented reality (AR) and virtual reality (VR) spaces is a large challenge. To this end, we present ArmSwingVR, a locomotion solution for AR/VR spaces that preserves immersion, while being low profile compared to current solutions, particularly walking-in-place (WIP) methods. The user simply needs to swing their arms naturally to navigate in the direction where the arms are swung, without any feet or head movement. The benefits of ArmSwingVR are that arm swinging feels natural for bipedal organisms second only to leg movement, no additional peripherals or sensors are required, it is less obtrusive to swing our arms as opposed to WIP methods, and requires less energy allowing prolong uses for AR/VR. A conducted user study found that our method does not sacrifice immersion while also being more low profile and less energy consumption compared to WIP.</p>
+    <p>https://dl.acm.org/doi/10.1145/3152832.3152864</p>
+- guid: deephci.podbean.com/597a3d98-97fe-35f1-a926-f497aee156d4
+  title: Shape memory alloy wire actuators for soft, wearable haptic devices
+  slug: shape-memory-alloy-wire-actuators-for-soft-wearable-haptic-devices
+  published: '2024-10-11T14:15:13+09:00'
+  episode: 9
+  duration: 376
+  audio_file: fu2021boiling.mp3
+  audio_length: 1505612
+  audio_type: audio/mpeg
+  image: episode10_kew833.jpg
+  description: |-
+    <p>This paper presents a new approach to implement wearable haptic devices using Shape Memory Alloy (SMA) wires. The proposed concept allows building silent, soft, flexible and lightweight wearable devices, capable of producing the sense of pressure on the skin without any bulky mechanical actuators. We explore possible design considerations and applications for such devices, present user studies proving the feasibility of delivering meaningful information and use nonlinear autoregressive neural networks to compensate for SMA inherent drawbacks, such as delayed onset, enabling us to characterize and predict the physical behavior of the device.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3267242.3267257'>https://dl.acm.org/doi/10.1145/3267242.3267257</a></p>
+- guid: deephci.podbean.com/25422595-2c07-388a-b7b8-4830e5117101
+  title: 'Seeing our Blind Spots: Smart Glasses-based Simulation to Increase Design Students’ Awareness
+    of Visual Impairment'
+  slug: seeing-our-blind-spots-smart-glasses-based-simulation-to-increase-design-students-awareness-of-visual-impairment
+  published: '2024-10-06T18:32:04+09:00'
+  episode: 8
+  duration: 419
+  audio_file: zhang2022seeing.mp3
+  audio_length: 1676300
+  audio_type: audio/mpeg
+  image: episode9_fphdtz.jpg
+  description: |-
+    <p>As the population ages, many will acquire visual impairments. To improve design for these users, it is essential to build awareness of their perspective during everyday routines, especially for design students.<br>
+    Although several visual impairment simulation toolkits exist in both academia and as commercial products, analog, and static visual impairment simulation tools do not simulate effects concerning the user’s eye movements. Meanwhile, VR and video see-through-based AR simulation methods are constrained by smaller fields of view when compared with the natural human visual field and also suffer from vergence-accommodation conflict (VAC) which correlates with visual fatigue, headache, and dizziness.<br>
+    In this paper, we enable an on-the-go, VAC-free, visually impaired experience by leveraging our optical see-through glasses. The FOV of our glasses is approximately 160 degrees for horizontal and 140 degrees for vertical, and participants can experience both losses of central vision and loss of peripheral vision at different severities. Our evaluation (n =14) indicates that the glasses can significantly and effectively reduce visual acuity and visual field without causing typical motion sickness symptoms such as headaches and or visual fatigue. Questionnaires and qualitative feedback also showed how the glasses helped to increase participants’ awareness of visual impairment.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3526113.3545687'>https://dl.acm.org/doi/10.1145/3526113.3545687</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/5c2a5183-bd46-390f-9651-a24c9aa3d04f
+  title: Emolleia – Wearable Kinetic Flower Display for Expressing Emotions
+  slug: emolleia-%e2%80%93-wearable-kinetic-flower-display-for-expressing-emotions
+  published: '2024-10-05T22:30:18+09:00'
+  episode: 7
+  duration: 813
+  audio_file: zhuang2022emolleia.mp3
+  audio_length: 3254252
+  audio_type: audio/mpeg
+  image: episode7_3u6cs4.jpg
+  description: |-
+    <p>What we wear (our clothes and wearable accessories) can represent our mood at the moment. We developed Emolleia to explore how to make aesthetic wears more expressive to become a novel form of non-verbal communication to express our emotional feelings. Emolleia is an open wearable kinetic display in form of three 3D printed flowers that can dynamically open and close at different speeds. With our open-source platform, users can define their own animated motions. In this paper, we described the prototype design, hardware considerations, and user surveys (n=50) to evaluate the expressiveness of 8 pre-defined animated motions of Emolleia. Our initial results showed animated motions are feasible to communicate different emotional feelings especially at the valence and arousal dimensions. Based on the findings, we mapped eight pre-defined animated motions to the reported, user-perceived valence, arousal and dominance and discussed possible directions for future work.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3490149.3505581'>https://dl.acm.org/doi/10.1145/3490149.3505581</a></p>
+- guid: deephci.podbean.com/9c062766-bf2c-38dc-9b07-bd7dbcdbef0b
+  title: “I am both here and there” Parallel Control of Multiple Robotic Avatars by Disabled Workers in
+    a Café
+  slug: i-am-both-here-and-there-parallel-control-of-multiple-robotic-avatars-by-disabled-workers-in-a-cafe
+  published: '2024-10-04T17:23:30+09:00'
+  episode: 6
+  duration: 371
+  audio_file: barbareschi2023both.mp3
+  audio_length: 1484492
+  audio_type: audio/mpeg
+  image: episode6_bryp3a.jpg
+  description: |-
+    <p>Robotic avatars can help disabled people extend their reach in interacting with the world. Technological advances make it possible for individuals to embody multiple avatars simultaneously. However, existing studies have been limited to laboratory conditions and did not involve disabled participants. In this paper, we present a real-world implementation of a parallel control system allowing disabled workers in a café to embody multiple robotic avatars at the same time to carry out different tasks. Our data corpus comprises semi-structured interviews with workers, customer surveys, and videos of café operations. Results indicate that the system increases workers’ agency, enabling them to better manage customer journeys. Parallel embodiment and transitions between avatars create multiple interaction loops where the links between disabled workers and customers remain consistent, but the intermediary avatar changes. Based on our observations, we theorize that disabled individuals possess specific competencies that increase their ability to manage multiple avatar bodies.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3544548.3581124'>https://dl.acm.org/doi/10.1145/3544548.3581124</a></p>
+- guid: deephci.podbean.com/c38bad2a-aa6a-3456-b112-321cb7467dfc
+  title: Movement Quality Visualization for Wheelchair Dance
+  slug: movement-quality-visualization-for-wheelchair-dance
+  published: '2024-10-04T14:56:21+09:00'
+  episode: 5
+  duration: 779
+  audio_file: xie2023movement.mp3
+  audio_length: 3118028
+  audio_type: audio/mpeg
+  image: episode5_yf6f6t.jpg
+  description: |-
+    <p>Wheelchair dance is an important form of disability art that is still subject to significant levels of ableism and art exclusion. Wheelchair dancers face challenges finding teachers and choreographers who can accommodate their needs, documenting and sharing choreographies that suit their body shapes and their assistive technologies. In turn, this hinders their ability to share creative expressions. Accessible resources and communication tools could help address these challenges. The goal of this research is the development of a visualization system grounded on Laban Movement Analysis (LMA) that notates movement quality while opening new horizons on perceptions of disabled bodies and the artistic legitimacy of wheelchair dance. The system uses video to identify the body landmarks of the dancer and wheelchair and extracts key features to create visualizations of expressive qualities from LMA basic effort. The current evaluation includes a pilot study with the general public and an online questionnaire targeting professionals to gain feedback supporting practical implementation and real-world deployment. Results from the general public evaluation showed that the visualization was effective in conveying basic effort movement qualities even to a novice audience. Expert consulted via questionnaire stated that the tool could be employed for reflective evaluation, as well as performance augmentation. The LMA visualization tool can support the artistic legitimization of wheelchair dancing through education, communication, performance, and documentation.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3597628'>https://dl.acm.org/doi/10.1145/3597628</a></p>
+- guid: deephci.podbean.com/6d822958-3bb4-38e6-8889-60c4149d522b
+  title: 'Innermost Echoes: Integrating Real-Time Physiology into Live Music Performances'
+  slug: innermost-echoes-integrating-real-time-physiology-into-live-music-performances
+  published: '2024-10-04T13:07:26+09:00'
+  episode: 4
+  duration: 606
+  audio_file: hynds2024innermost.mp3
+  audio_length: 2428172
+  audio_type: audio/mpeg
+  image: episode4_4ny3ej.jpg
+  description: |-
+    <p>In this paper, we propose a method for utilizing musical artifacts and physiological data as a means for creating a new form of live music experience that is rooted in the physiology of the performers and audience members. By utilizing physiological data (namely Electrodermal Activity (EDA) and Heart Rate Variability (HRV)) and applying this data to musical artifacts including a robotic koto (a traditional 13-string Japanese instrument fitted with solenoids and linear actuators), a Eurorack synthesizer, and Max/MSP software, we aim to develop a new form of semi-improvisational and significantly indeterminate performance practice. It has since evolved into a multi-modal methodology which honors improvisational performance practices and utilizes physiological data which offers both performers and audiences an ever-changing and intimate experience.<br>
+    In our first exploratory phase, we focused on the development of a means for controlling a bespoke robotic koto in conjunction with a Eurorack synthesizer system and Max/MSP software for controlling the incoming data. We integrated a reliance on physiological data to infuse a more directly human elements into this artifact system. This allows a significant portion of the decision-making to be directly controlled by the incoming physiological data in real-time, thereby affording a sense of performativity within this non-living system. Our aim is to continue the development of this method to strike a novel balance between intentionality and impromptu performative results.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3623509.3633356'>https://dl.acm.org/doi/10.1145/3623509.3633356</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/bf8913fb-8601-3cd4-adb3-c605cdf548d5
+  title: '"Speech is Silver, Silence is Golden " Analyzing Micro-communication Strategies between Visually
+    Impaired Runners and their Guides'
+  slug: speech-is-silver-silence-is-golden-analyzing-micro-communication-strategies-between-visually-impaired-runners-and-their-guides
+  published: '2024-10-04T12:34:21+09:00'
+  episode: 3
+  duration: 578
+  audio_file: barbareschi2024speech.mp3
+  audio_length: 2314988
+  audio_type: audio/mpeg
+  image: episode3_6n2jkg.jpg
+  description: |-
+    <p>Running and jogging are popular activities for many visually impaired individuals thanks to the relatively low entry barriers. Research in HCI and beyond has focused primarily on leveraging technology to enable visually impaired people to run independently. However, depending on their residual vision and personal preferences, many chose to run with a sighted guide. This study presents a comprehensive analysis of the partnership between visually impaired runners and sighted guides. Using a combination of interaction and thematic analysis on video and interview data from 6 pairs of runners and guides, we unpack the complexity and directionality of three layers of vocal communication (directive, contextual, and recreational) and distinguish between intentional and unintentional corporeal communication. Building on the understanding of the importance of synchrony we also present some exploratory data looking at physiological synchrony between 2 pairs of runners with different level of experience and articulate recommendations for the HCI community.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3613904.3642388'>https://dl.acm.org/doi/10.1145/3613904.3642388</a></p>
+    <p> </p>
+- guid: deephci.podbean.com/2146c01e-e815-3569-8510-5375b3f94b9e
+  title: Detecting an Offset-Adjusted Similarity Score based on Duchenne Smiles
+  slug: detecting-an-offset-adjusted-similarity-score-based-on-duchenne-smiles
+  published: '2024-10-03T22:41:46+09:00'
+  episode: 2
+  duration: 529
+  audio_file: henneberg2023detecting.mp3
+  audio_length: 2116460
+  audio_type: audio/mpeg
+  image: episode2_evkdgy.jpg
+  description: |-
+    <p>Detecting interpersonal synchrony in the wild through ubiquitous wearable sensing invites promising new social insights as well as the possibility of new interactions between humans-humans and humans-agents. We present the Offset-Adjusted SImilarity Score (OASIS), a real-time method of detecting similarity which we show working on visual detection of Duchenne smile between a pair of users. We conduct a user study survey (N = 27) to measure a user-based interoperability score on smile similarity and compare the user score with OASIS as well as the rolling window Pearson correlation and the Dynamic Time Warping (DTW) method. Ultimately, our results indicate that our algorithm has intrinsic qualities comparable to the user score and measures well to the statistical correlation methods. It takes the temporal offset between the input signals into account with the added benefit of being an algorithm which can be adapted to run in real-time will less computational intensity than traditional time series correlation methods.</p>
+    <p><a href='https://dl.acm.org/doi/10.1145/3544549.3585709'>https://dl.acm.org/doi/10.1145/3544549.3585709</a></p>
+- guid: deephci.podbean.com/f9aa4a45-0bfb-30e0-ae95-08b11c7692e1
+  title: Linking Audience Physiology to Choreography
+  slug: linking-audience-physiology-to-choreography
+  published: '2024-10-03T20:15:11+09:00'
+  episode: 1
+  duration: 504
+  audio_file: han2022linking.mp3
+  audio_length: 2018348
+  audio_type: audio/mpeg
+  image: episode1_4kmuji.jpg
+  description: |-
+    <p>The use of wearable sensor technology opens up exciting avenues for both art and HCI research. To be effective, such work requires close collaboration between performers and researchers. In this article, we report on the co-design process and research insights from our work integrating physiological sensing and live performance. <br>
+    <a href='https://dl.acm.org/doi/10.1145/3557887'>https://dl.acm.org/doi/10.1145/3557887</a></p>

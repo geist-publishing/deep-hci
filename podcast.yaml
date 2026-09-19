@@ -1,0 +1,25 @@
+# Channel metadata for feed.xml and the website.
+title: HCI Deep Dives
+site_url: https://www.deep-hci.org
+feed_path: /feed.xml
+description: >-
+  HCI Deep Dives is your go-to podcast for exploring the latest trends, research,
+  and innovations in Human Computer Interaction (HCI). AI-generated using the latest
+  publications in the field, each episode dives into in-depth discussions on topics
+  like wearable computing, augmented perception, cognitive augmentation, and
+  digitalized emotions. Whether you're a researcher, practitioner, or just curious
+  about the intersection of technology and human senses, this podcast offers
+  thought-provoking insights and ideas to keep you at the forefront of HCI.
+author: Kai Kunze
+owner_name: Kai Kunze
+owner_email: ""  # optional; the Podbean feed had none
+language: en
+copyright: Copyright 2024 All rights reserved.
+categories: [Science, Education]
+explicit: false
+image: img/logo.jpg
+
+# Audio lives in GitHub release assets of this repo, one release per year: audio-<year>
+github_repo: kkai/deep-hci-podcast
+# Free open-source download stats (https://op3.dev). Set to false to disable.
+op3: true
