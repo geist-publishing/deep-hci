@@ -1,3 +1,77 @@
+- guid: deep-hci.org/6e03f967-ead6-44a8-a6f2-f54dede3c340
+  title: 'IEEE VR 2025 Blind VR: Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying
+    Spatial Information to Blind VR Users'
+  slug: ieee-vr-2025-blind-vr-comparing-vibrotactile-and-skin-stretch-haptic-feedback-for-conveyin
+  published: '2026-09-20T09:37:47+00:00'
+  episode: 83
+  duration: 855
+  audio_file: Skin_Stretch_Beats_Vibration_for_Blind_VR.m4a
+  audio_length: 27519694
+  audio_type: audio/x-m4a
+  image: blind.jpg
+  description: |-
+    <p>How can blind users navigate and understand virtual environments? This paper compares two haptic approaches for conveying where virtual objects are located: vibrotactile feedback (buzzing sensations) versus skin-stretch feedback (gentle pulling on the skin). The researchers tested both methods with blind participants to see which better communicated the position and movement of objects in VR space. The results show that skin-stretch feedback significantly outperformed vibration for spatial accuracy—blind users could more precisely understand where objects were and how they moved when feeling directional skin stretch rather than vibration patterns. This finding has important implications for making VR accessible, suggesting that skin-stretch devices may be more effective than the vibration motors common in today's controllers for helping blind users build mental maps of virtual spaces.</p>
+
+    <p>Jiasheng Li, Zining Zhang, Zeyu Yan, Yuhang Zhao, and Huaishu Peng. 2025. Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying Spatial Information of Virtual Objects to Blind VR Users. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00091">https://doi.org/10.1109/VR59515.2025.00091</a></p>
+- guid: deep-hci.org/acefcdb8-e49d-4824-831e-868a42cf2845
+  title: 'IEEE VR 2025 Tingling Aftereffects: Presenting Tingling Aftereffects Using Vibro-Thermal Feedback
+    to Enhance Impact Sensation in Virtual Reality'
+  slug: ieee-vr-2025-tingling-aftereffects-presenting-tingling-aftereffects-using-vibro-thermal-fe
+  published: '2026-09-20T09:36:47+00:00'
+  episode: 82
+  duration: 980
+  audio_file: Hacking_VR_Impact_with_Tingling_Aftereffects.m4a
+  audio_length: 31567163
+  audio_type: audio/x-m4a
+  image: impact.jpg
+  description: |-
+    <p>When you hit a baseball hard, you don't just feel the moment of impact—there's a lingering tingle that follows. This paper explores how to recreate that aftereffect in VR to make impacts feel more realistic. The researchers built a VR baseball bat that delivers not just the initial hit, but also vibrotactile and thermal feedback that simulates the tingling sensation after a strong swing. In a study with 24 participants, both vibration and temperature changes as aftereffects significantly enhanced how realistic the impact felt, with high-frequency vibrotactile stimuli being particularly effective. This work shows that realism in haptic VR isn't just about the moment of contact—the sensations that linger afterward matter just as much for creating convincing physical experiences.</p>
+
+    <p>Hikaru Fujita, Juro Hosoi, Yuki Ban, and Shin'ichi Warisawa. 2025. Presenting Tingling Aftereffects Using Vibro-Thermal Feedback to Enhance Impact Sensation in Virtual Reality. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00074">https://doi.org/10.1109/VR59515.2025.00074</a></p>
+- guid: deep-hci.org/d57beb10-bfad-44ad-8988-2c88aada6df0
+  title: 'IEEE VR 2025 Cognitive Load: Cognitive Load Inference Using Physiological Markers in Virtual
+    Reality'
+  slug: ieee-vr-2025-cognitive-load-cognitive-load-inference-using-physiological-markers-in-virtua
+  published: '2026-09-20T09:35:47+00:00'
+  episode: 81
+  duration: 791
+  audio_file: Predicting_VR_Cognitive_Load_in_Real_Time.m4a
+  audio_length: 25487053
+  audio_type: audio/x-m4a
+  image: 9b40f6267fb4ad09bfce0c930e68641055a499a0a7170b696b8a969f48019768.jpg
+  description: |-
+    <p>How hard is your brain working in VR? This paper presents a machine learning system that predicts cognitive load in real time using behavioral and physiological signals collected through VR headsets. Trained on data from 738 participants across various VR experiences, the model achieves remarkably low error (MAE of 0.11) in predicting mental workload. The system analyzes markers like eye movements, head motion, and physiological responses to infer how cognitively demanding a VR experience is for users. This has significant implications for adaptive VR systems that could automatically adjust difficulty, pacing, or complexity based on the user's mental state. The researchers also release a test dataset from 100 participants to enable further research in this area.</p>
+
+    <p>Jishang Wei, Erika Siegel, Prahalathan Sundaramoorthy, Antônio Gomes, Shibo Zhang, Mithra Vankipuram, Kevin Smathers, Sarthak Ghosh, Hiroshi Horii, Jeremy Bailenson, and Rafael Ballagas. 2025. Cognitive Load Inference Using Physiological Markers in Virtual Reality. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00098">https://doi.org/10.1109/VR59515.2025.00098</a></p>
+- guid: deep-hci.org/14d6ba2d-3c9b-4324-8c78-6e60b4cc4f37
+  title: 'IEEE VR 2025 Haptic Dance: Automatic Generation of Haptic Motion Effects Expressing Human Dance'
+  slug: ieee-vr-2025-haptic-dance-automatic-generation-of-haptic-motion-effects-expressing-human-d
+  published: '2026-09-20T09:34:47+00:00'
+  episode: 80
+  duration: 915
+  audio_file: Feeling_the_Dancer_Haptic_Motion_Algorithm.m4a
+  audio_length: 29479872
+  audio_type: audio/x-m4a
+  image: 069466369875a557a400b341fa814ccd64b2d3976f6ca8844c732146ee567ace.jpg
+  description: |-
+    <p>Watching a dance performance engages your eyes and ears—but what if you could also feel the dancer's movements? This paper presents algorithms that automatically convert motion capture data from human dance into haptic feedback, letting viewers physically experience the performer's movements through vibrotactile devices. The approach cleverly separates external movements (the dancer traveling through space) from internal movements (limb gestures and body rotations), processing each optimally for haptic rendering. Internal movements are decomposed into segments to maximize clarity and expressiveness, then all components are merged with appropriate scaling and weights. The result is a system that can take any dance motion capture and automatically generate compelling haptic effects—no manual authoring required. This opens new possibilities for immersive dance experiences in VR and beyond.</p>
+
+    <p>Jaehyeok Ahn and Seungmoon Choi. 2025. Automatic Generation of Haptic Motion Effects Expressing Human Dance. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00058">https://doi.org/10.1109/VR59515.2025.00058</a></p>
+- guid: deep-hci.org/4c81586f-80d0-41d6-8ec0-02a3e2bcad50
+  title: 'MUC 2025 MindSpace: Improving Relaxation Break and Performance Using Deep Touch Pressure on
+    Users’ Upper Chest Area'
+  slug: muc-2025-mindspace-improving-relaxation-break-and-performance-using-deep-touch-pressure-on
+  published: '2026-09-20T09:33:47+00:00'
+  episode: 79
+  duration: 887
+  audio_file: Deep_Touch_Pressure_Restores_Focus_Quickly.m4a
+  audio_length: 28558426
+  audio_type: audio/x-m4a
+  image: chair.jpg
+  description: |-
+    <p>Taking a break at work should leave you refreshed—but often it doesn't. MindSpace is a pneumatically controlled haptic device worn on the upper chest that combines two calming sensations: gentle breathing-like movements and deep touch pressure similar to a hug. In a study with 24 participants performing demanding cognitive tasks, those who used MindSpace during their breaks showed significantly faster recovery of focus compared to those who simply rested. The device simulates the comforting sensation of being held while breathing together with someone, activating the parasympathetic nervous system to reduce stress. Participants reported feeling more relaxed and ready to return to work. This research suggests that active haptic interventions during breaks could be more effective than passive rest for restoring cognitive performance.</p>
+
+    <p>Masaki Kikuchi, Kaining Chen, Robert Panskus, Dingding Chen, Kazuki Okawa, and Kai Kunze. 2025. MindSpace: Improving Relaxation Break and Performance Using a Device Exerting Tactile Sensation of Life-like Breathing Movement with Squeeze-like Deep Touch Pressure on Users' Upper Chest Area. In Proceedings of Mensch und Computer 2025 (MUC '25). ACM, New York, NY, USA, 255-269. <a href="https://doi.org/10.1145/3743049.3743054">https://doi.org/10.1145/3743049.3743054</a></p>
 - guid: deephci.podbean.com/9240eb6a-d826-5c10-9d19-6f70f65cd721
   title: 'AHs 2025 texTENG: Fabricating Wearable Textile-Based Triboelectric Nanogenerators'
   slug: ahs-2025-texteng-fabricating-wearable-textile-based-triboelectric-nanogenerators
@@ -12,69 +86,6 @@
     <p>What if your clothes could power your wearable devices? texTENG introduces a maker-friendly framework for creating textile-based triboelectric nanogenerators (TENGs)—fabrics that harvest energy from everyday human motion like walking, arm swings, or even breathing. While TENGs have shown promise for sustainable wearable power, adoption has been slow due to hard-to-find materials and complex fabrication. texTENG solves this with accessible techniques using common textiles and conductive threads that makers can replicate. The system demonstrates versatile applications: from self-powered touch sensors that detect gestures without batteries, to energy-harvesting patches that can charge small devices. Technical evaluations confirm the devices can reliably detect touch input and store harvested energy efficiently. This work opens the door for HCI researchers and makers to explore battery-free wearable computing.</p>
 
     <p>Ritik Batra, Narjes Pourjafarian, Samantha Chang, Margaret Tsai, Jacob Revelo, and Cindy Hsin-Liu Kao. 2025. texTENG: Fabricating Wearable Textile-Based Triboelectric Nanogenerators. In Augmented Humans International Conference 2025 (AHs '25). ACM, New York, NY, USA. <a href='https://doi.org/10.1145/3745900.3746071'>https://doi.org/10.1145/3745900.3746071</a></p>
-- guid: deep-hci.org/6e03f967-ead6-44a8-a6f2-f54dede3c340
-  title: 'IEEE VR 2025 Blind VR: Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying
-    Spatial Information to Blind VR Users'
-  slug: ieee-vr-2025-blind-vr-comparing-vibrotactile-and-skin-stretch-haptic-feedback-for-conveyin
-  published: '2026-02-12T23:00:00+00:00'
-  episode: 78
-  duration: 855
-  audio_file: Skin_Stretch_Beats_Vibration_for_Blind_VR.m4a
-  audio_length: 27519694
-  audio_type: audio/x-m4a
-  image: blind.jpg
-  description: |-
-    <p>How can blind users navigate and understand virtual environments? This paper compares two haptic approaches for conveying where virtual objects are located: vibrotactile feedback (buzzing sensations) versus skin-stretch feedback (gentle pulling on the skin). The researchers tested both methods with blind participants to see which better communicated the position and movement of objects in VR space. The results show that skin-stretch feedback significantly outperformed vibration for spatial accuracy—blind users could more precisely understand where objects were and how they moved when feeling directional skin stretch rather than vibration patterns. This finding has important implications for making VR accessible, suggesting that skin-stretch devices may be more effective than the vibration motors common in today's controllers for helping blind users build mental maps of virtual spaces.</p>
-
-    <p>Jiasheng Li, Zining Zhang, Zeyu Yan, Yuhang Zhao, and Huaishu Peng. 2025. Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying Spatial Information of Virtual Objects to Blind VR Users. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00091">https://doi.org/10.1109/VR59515.2025.00091</a></p>
-  draft: true
-- guid: deep-hci.org/acefcdb8-e49d-4824-831e-868a42cf2845
-  title: 'IEEE VR 2025 Tingling Aftereffects: Presenting Tingling Aftereffects Using Vibro-Thermal Feedback
-    to Enhance Impact Sensation in Virtual Reality'
-  slug: ieee-vr-2025-tingling-aftereffects-presenting-tingling-aftereffects-using-vibro-thermal-fe
-  published: '2026-02-07T23:00:00+00:00'
-  episode: 76
-  duration: 980
-  audio_file: Hacking_VR_Impact_with_Tingling_Aftereffects.m4a
-  audio_length: 31567163
-  audio_type: audio/x-m4a
-  image: impact.jpg
-  description: |-
-    <p>When you hit a baseball hard, you don't just feel the moment of impact—there's a lingering tingle that follows. This paper explores how to recreate that aftereffect in VR to make impacts feel more realistic. The researchers built a VR baseball bat that delivers not just the initial hit, but also vibrotactile and thermal feedback that simulates the tingling sensation after a strong swing. In a study with 24 participants, both vibration and temperature changes as aftereffects significantly enhanced how realistic the impact felt, with high-frequency vibrotactile stimuli being particularly effective. This work shows that realism in haptic VR isn't just about the moment of contact—the sensations that linger afterward matter just as much for creating convincing physical experiences.</p>
-
-    <p>Hikaru Fujita, Juro Hosoi, Yuki Ban, and Shin'ichi Warisawa. 2025. Presenting Tingling Aftereffects Using Vibro-Thermal Feedback to Enhance Impact Sensation in Virtual Reality. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00074">https://doi.org/10.1109/VR59515.2025.00074</a></p>
-  draft: true
-- guid: deep-hci.org/d57beb10-bfad-44ad-8988-2c88aada6df0
-  title: 'IEEE VR 2025 Cognitive Load: Cognitive Load Inference Using Physiological Markers in Virtual
-    Reality'
-  slug: ieee-vr-2025-cognitive-load-cognitive-load-inference-using-physiological-markers-in-virtua
-  published: '2026-02-02T23:00:00+00:00'
-  episode: 74
-  duration: 791
-  audio_file: Predicting_VR_Cognitive_Load_in_Real_Time.m4a
-  audio_length: 25487053
-  audio_type: audio/x-m4a
-  image: 9b40f6267fb4ad09bfce0c930e68641055a499a0a7170b696b8a969f48019768.jpg
-  description: |-
-    <p>How hard is your brain working in VR? This paper presents a machine learning system that predicts cognitive load in real time using behavioral and physiological signals collected through VR headsets. Trained on data from 738 participants across various VR experiences, the model achieves remarkably low error (MAE of 0.11) in predicting mental workload. The system analyzes markers like eye movements, head motion, and physiological responses to infer how cognitively demanding a VR experience is for users. This has significant implications for adaptive VR systems that could automatically adjust difficulty, pacing, or complexity based on the user's mental state. The researchers also release a test dataset from 100 participants to enable further research in this area.</p>
-
-    <p>Jishang Wei, Erika Siegel, Prahalathan Sundaramoorthy, Antônio Gomes, Shibo Zhang, Mithra Vankipuram, Kevin Smathers, Sarthak Ghosh, Hiroshi Horii, Jeremy Bailenson, and Rafael Ballagas. 2025. Cognitive Load Inference Using Physiological Markers in Virtual Reality. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00098">https://doi.org/10.1109/VR59515.2025.00098</a></p>
-  draft: true
-- guid: deep-hci.org/14d6ba2d-3c9b-4324-8c78-6e60b4cc4f37
-  title: 'IEEE VR 2025 Haptic Dance: Automatic Generation of Haptic Motion Effects Expressing Human Dance'
-  slug: ieee-vr-2025-haptic-dance-automatic-generation-of-haptic-motion-effects-expressing-human-d
-  published: '2026-01-28T23:00:00+00:00'
-  episode: 72
-  duration: 915
-  audio_file: Feeling_the_Dancer_Haptic_Motion_Algorithm.m4a
-  audio_length: 29479872
-  audio_type: audio/x-m4a
-  image: 069466369875a557a400b341fa814ccd64b2d3976f6ca8844c732146ee567ace.jpg
-  description: |-
-    <p>Watching a dance performance engages your eyes and ears—but what if you could also feel the dancer's movements? This paper presents algorithms that automatically convert motion capture data from human dance into haptic feedback, letting viewers physically experience the performer's movements through vibrotactile devices. The approach cleverly separates external movements (the dancer traveling through space) from internal movements (limb gestures and body rotations), processing each optimally for haptic rendering. Internal movements are decomposed into segments to maximize clarity and expressiveness, then all components are merged with appropriate scaling and weights. The result is a system that can take any dance motion capture and automatically generate compelling haptic effects—no manual authoring required. This opens new possibilities for immersive dance experiences in VR and beyond.</p>
-
-    <p>Jaehyeok Ahn and Seungmoon Choi. 2025. Automatic Generation of Haptic Motion Effects Expressing Human Dance. In 2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR), Saint Malo, France. IEEE. <a href="https://doi.org/10.1109/VR59515.2025.00058">https://doi.org/10.1109/VR59515.2025.00058</a></p>
-  draft: true
 - guid: deephci.podbean.com/d7fda749-6b5e-5727-b7be-25756b62fdbc
   title: 'TAFFC 2025 Micro-Expressions: Could Micro-Expressions Be Quantified? Electromyography Gives
     Affirmative Evidence'
@@ -105,22 +116,6 @@
     <p>Music has long been known to evoke powerful emotions, but can machines truly understand and predict these emotional responses? This survey paper takes stock of the field of music emotion recognition (MER), examining the datasets, computational models, and persistent challenges that shape this research area. The authors review how emotion is represented—from categorical labels to dimensional models like valence-arousal—and analyze the most widely used datasets including the Million Song Dataset and MediaEval benchmarks. They trace the evolution from traditional machine learning approaches using hand-crafted audio features to modern deep learning architectures. Despite significant progress, the paper identifies fundamental challenges: the subjective nature of emotional responses to music, the difficulty of obtaining reliable ground truth labels, and the gap between controlled laboratory studies and real-world listening contexts.</p>
 
     <p>Jaeyong Kang and Dorien Herremans. 2024. Are We There Yet? A Brief Survey of Music Emotion Prediction Datasets, Models and Outstanding Challenges. IEEE Transactions on Affective Computing, vol. 16, no. 4, 2024. <a href='https://doi.org/10.1109/TAFFC.2025.3583505'>https://doi.org/10.1109/TAFFC.2025.3583505</a></p>
-- guid: deep-hci.org/4c81586f-80d0-41d6-8ec0-02a3e2bcad50
-  title: 'MUC 2025 MindSpace: Improving Relaxation Break and Performance Using Deep Touch Pressure on
-    Users’ Upper Chest Area'
-  slug: muc-2025-mindspace-improving-relaxation-break-and-performance-using-deep-touch-pressure-on
-  published: '2026-01-17T23:00:00+00:00'
-  episode: 68
-  duration: 887
-  audio_file: Deep_Touch_Pressure_Restores_Focus_Quickly.m4a
-  audio_length: 28558426
-  audio_type: audio/x-m4a
-  image: chair.jpg
-  description: |-
-    <p>Taking a break at work should leave you refreshed—but often it doesn't. MindSpace is a pneumatically controlled haptic device worn on the upper chest that combines two calming sensations: gentle breathing-like movements and deep touch pressure similar to a hug. In a study with 24 participants performing demanding cognitive tasks, those who used MindSpace during their breaks showed significantly faster recovery of focus compared to those who simply rested. The device simulates the comforting sensation of being held while breathing together with someone, activating the parasympathetic nervous system to reduce stress. Participants reported feeling more relaxed and ready to return to work. This research suggests that active haptic interventions during breaks could be more effective than passive rest for restoring cognitive performance.</p>
-
-    <p>Masaki Kikuchi, Kaining Chen, Robert Panskus, Dingding Chen, Kazuki Okawa, and Kai Kunze. 2025. MindSpace: Improving Relaxation Break and Performance Using a Device Exerting Tactile Sensation of Life-like Breathing Movement with Squeeze-like Deep Touch Pressure on Users' Upper Chest Area. In Proceedings of Mensch und Computer 2025 (MUC '25). ACM, New York, NY, USA, 255-269. <a href="https://doi.org/10.1145/3743049.3743054">https://doi.org/10.1145/3743049.3743054</a></p>
-  draft: true
 - guid: deephci.podbean.com/344e8c63-8b7b-52b1-9045-802f350d98f6
   title: 'UIST 2025 Imaginary Joint: Proprioceptive Feedback for Virtual Body Extensions via Skin Stretch'
   slug: uist-2025-imaginary-joint-proprioceptive-feedback-for-virtual-body-extensions-via-skin-stretch
