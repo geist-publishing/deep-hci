@@ -1,0 +1,25 @@
+<a class="back" href="/">All episodes</a>
+
+<article class="episode" style="--accent: {{accent}}">
+  <div class="head">
+    <img class="cover" src="/img/{{image}}" alt="" width="440" height="440">
+    <h1>{{title}}</h1>
+    <p class="meta">{{date}}{{venue}} — episode {{number}}</p>
+  </div>
+
+  <div class="player">
+    <button class="play" aria-pressed="false" aria-label="Play episode">
+      <svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>
+      <svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h4v13H3zM9 1.5h4v13H9z"/></svg>
+    </button>
+    {{wave}}
+    <div class="times">
+      <span class="timecode now">0:00</span>
+      <span class="timecode">{{duration}}</span>
+    </div>
+  </div>
+
+  <div class="notes">{{notes}}</div>
+
+  <a class="download" href="{{audio}}" download>Download the audio ({{size}})</a>
+</article>

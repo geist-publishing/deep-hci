@@ -86,13 +86,17 @@ def publish(title: str, description: str, audio_path: str, image_path: str | Non
     staged = ROOT / "audio" / episode["published"][:4] / audio_name
     staged.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(audio, staged)
-    upload_audio(podcast["github_repo"], release_tag(episode), staged)
+    upload_audio(podcast["audio_repo"], release_tag(episode), staged)
 
     episodes.insert(0, episode)
     save_episodes(episodes)
 
+    print("Extracting waveform and accent colour ...")
+    import build_visuals
+    build_visuals.main(only=episode["guid"])
+
     if push:
-        run("git", "add", "episodes.yaml", "images")
+        run("git", "add", "episodes.yaml", "visuals.json", "images")
         run("git", "commit", "-m", f"Add episode: {title}")
         run("git", "push")
 

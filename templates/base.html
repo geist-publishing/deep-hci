@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="alternate" type="application/rss+xml" title="{{show}}" href="{{feed_path}}">
+<link rel="icon" href="/img/{{logo}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&family=Geist+Mono:wght@400&family=Source+Serif+4:opsz,wght@8..60,400..600&display=swap">
+<link rel="stylesheet" href="/style.css">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{og_image}}">
+</head>
+<body>
+<div class="wrap">
+{{body}}
+<footer>
+  <p>{{show}} — {{author}}. <a href="{{feed_path}}">RSS</a></p>
+</footer>
+</div>
+<script src="/player.js" defer></script>
+</body>
+</html>

@@ -19,7 +19,13 @@ categories: [Science, Education]
 explicit: false
 image: img/logo.jpg
 
-# Audio lives in GitHub release assets of this repo, one release per year: audio-<year>
-github_repo: kkai/deep-hci-podcast
+# Two repos: the site (this one) and the audio, whose yearly releases
+# (audio-<year>) hold the episode files.
+site_repo: geist-publishing/deep-hci
+audio_repo: geist-publishing/deep-hci-audio
+
+# Shown as subscribe buttons. Add Spotify etc. once you have the URL.
+links:
+  Apple Podcasts: https://podcasts.apple.com/us/podcast/hci-deep-dives/id1772078130
 # Free open-source download stats (https://op3.dev). Set to false to disable.
 op3: true

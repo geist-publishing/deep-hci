@@ -1,5 +1,6 @@
-"""Read/write episodes.yaml and podcast.yaml, with readable multi-line HTML."""
+"""Read/write episodes.yaml, podcast.yaml and visuals.json."""
 
+import json
 from pathlib import Path
 
 import yaml
@@ -7,6 +8,7 @@ import yaml
 ROOT = Path(__file__).parent
 EPISODES_FILE = ROOT / "episodes.yaml"
 PODCAST_FILE = ROOT / "podcast.yaml"
+VISUALS_FILE = ROOT / "visuals.json"
 
 
 class _Dumper(yaml.SafeDumper):
@@ -39,5 +41,21 @@ def save_episodes(episodes: list[dict]):
     )
 
 
+def load_visuals() -> dict:
+    """Waveform peaks and accent colours, keyed by episode guid."""
+    if not VISUALS_FILE.exists():
+        return {}
+    return json.loads(VISUALS_FILE.read_text())
+
+
+def save_visuals(data: dict):
+    # sort_keys keeps diffs readable when an episode is added
+    VISUALS_FILE.write_text(json.dumps(data, indent=1, sort_keys=True) + "\n")
+
+
 def release_tag(episode: dict) -> str:
     return f"audio-{episode['published'][:4]}"
+
+
+def audio_path(episode: dict) -> Path:
+    return ROOT / "audio" / episode["published"][:4] / episode["audio_file"]

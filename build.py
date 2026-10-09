@@ -8,6 +8,7 @@ rebuild (see .github/workflows/pages.yml) releases scheduled episodes.
 """
 
 import email.utils
+import sys
 import html
 import re
 import shutil
@@ -15,17 +16,36 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
-from episodes_io import ROOT, load_episodes, load_podcast, release_tag
+from episodes_io import ROOT, load_episodes, load_podcast, load_visuals, release_tag
 
 OUT = ROOT / "_site"
+ASSETS = ROOT / "assets"
+TEMPLATES = ROOT / "templates"
+
+# Venue prefixes the episode titles carry, e.g. "IEEE VR 2025 Blind VR: ..."
+VENUE_RE = re.compile(r"^((?:[A-Z][A-Za-z&]*\.?\s*){1,3}?)((?:19|20)\d{2})\b[:\s]*")
 
 
-def audio_url(podcast: dict, ep: dict) -> str:
-    url = (f"https://github.com/{podcast['github_repo']}/releases/download/"
+def audio_url(podcast: dict, ep: dict, op3: bool = True) -> str:
+    """Feed enclosures go through OP3 for stats; on-page players link direct."""
+    url = (f"https://github.com/{podcast['audio_repo']}/releases/download/"
            f"{release_tag(ep)}/{ep['audio_file']}")
-    if podcast.get("op3"):
+    if op3 and podcast.get("op3"):
         url = "https://op3.dev/e/" + url.removeprefix("https://")
     return url
+
+
+def venue_of(ep: dict) -> tuple[str, str]:
+    """Split "AHs 2025 texTENG: ..." into ("AHs 2025", "texTENG: ...").
+
+    The feed keeps the full title; only the site shows them apart.
+    """
+    m = VENUE_RE.match(ep["title"])
+    if not m or not m.group(1).strip():
+        return "", ep["title"]
+    venue = re.sub(r"\s+", " ", m.group(1).strip())
+    venue = {"AHS": "AHs", "CHI": "CHI"}.get(venue, venue)
+    return f"{venue} {m.group(2)}", ep["title"][m.end():].strip() or ep["title"]
 
 
 def image_url(podcast: dict, name: str) -> str:
@@ -121,93 +141,163 @@ def build_feed(podcast: dict, eps: list[dict]) -> str:
 """
 
 
-CSS = """
-:root { --bg:#fbfaf7; --fg:#1d1d1f; --muted:#6b6b70; --line:#e4e2dc; --accent:#b4441f; }
-@media (prefers-color-scheme: dark) {
-  :root { --bg:#141414; --fg:#ececec; --muted:#9a9a9f; --line:#2c2c2c; --accent:#f08a5d; }
-}
-* { box-sizing: border-box; }
-body { margin:0; background:var(--bg); color:var(--fg);
-  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
-a { color: var(--accent); }
-header.show { display:flex; gap:20px; align-items:center; margin-bottom:32px; }
-header.show img { width:120px; height:120px; border-radius:12px; flex:none; }
-header.show h1 { margin:0 0 4px; font-size:28px; }
-.muted { color: var(--muted); font-size: 14px; }
-.intro { margin: 0 0 32px; }
-ol.episodes { list-style:none; padding:0; margin:0; }
-ol.episodes li { display:flex; gap:16px; padding:18px 0; border-top:1px solid var(--line); }
-ol.episodes img { width:72px; height:72px; border-radius:8px; object-fit:cover; flex:none; }
-ol.episodes h2 { font-size:17px; margin:0 0 4px; line-height:1.35; }
-ol.episodes h2 a { color: inherit; text-decoration: none; }
-ol.episodes h2 a:hover { text-decoration: underline; }
-article img.cover { width:100%; max-width:360px; border-radius:12px; }
-article h1 { font-size: 26px; line-height: 1.3; }
-audio { width:100%; margin: 16px 0; }
-@media (max-width: 520px) { header.show { flex-direction: column; align-items: flex-start; } }
-"""
+# ---------------------------------------------------------------- templates
+
+_tpl_cache: dict[str, str] = {}
 
 
-def page(podcast: dict, title: str, body: str) -> str:
+def tpl(name: str) -> str:
+    if name not in _tpl_cache:
+        _tpl_cache[name] = (TEMPLATES / name).read_text()
+    return _tpl_cache[name]
+
+
+def render(template: str, **vars: str) -> str:
+    """Replace {{ key }}. Not str.format — CSS and JS are full of braces."""
+    def sub(m):
+        key = m.group(1).strip()
+        if key not in vars:
+            raise KeyError(f"no value for {{{{{key}}}}}")
+        return str(vars[key])
+    return re.sub(r"\{\{\s*([\w_]+)\s*\}\}", sub, template)
+
+
+def page(podcast: dict, title: str, description: str, body: str, og_image: str) -> str:
+    return render(
+        tpl("base.html"),
+        lang=podcast["language"],
+        title=html.escape(title),
+        show=html.escape(podcast["title"]),
+        description=html.escape(plain(description))[:200],
+        feed_path=podcast["feed_path"],
+        logo=Path(podcast["image"]).name,
+        author=html.escape(podcast["author"]),
+        og_image=og_image,
+        body=body,
+    )
+
+
+# ---------------------------------------------------------------- waveform
+
+def wave_svg(peaks: list[int], bars: int) -> str:
+    """Bars drawn twice: once muted, once in the accent and clipped to progress."""
+    if bars < len(peaks):
+        # Average, not max — maxing saturates every bar and flattens the shape
+        step = len(peaks) / bars
+        peaks = [round(sum(chunk) / len(chunk))
+                 for i in range(bars)
+                 if (chunk := peaks[int(i * step):int((i + 1) * step)] or [0])]
+
+    top = max(peaks) or 1
+    peaks = [min(100, round(p * 96 / top)) for p in peaks]
+
+    n = len(peaks)
+    slot = 100 / n
+    width = slot * 0.62
+    rects = []
+    for i, p in enumerate(peaks):
+        h = max(2.0, p)                       # viewBox is 0..100 tall
+        y = (100 - h) / 2
+        rects.append(f'<rect x="{i * slot + (slot - width) / 2:.3f}" y="{y:.2f}" '
+                     f'width="{width:.3f}" height="{h:.2f}" rx="{width / 2:.3f}"/>')
+    body = "".join(rects)
+    return (f'<svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">'
+            f'<g class="bars">{body}</g><g class="played">{body}</g></svg>')
+
+
+def wave(podcast: dict, ep: dict, visuals: dict, bars: int, label: str) -> str:
+    entry = visuals.get("episodes", {}).get(ep["guid"])
+    if not entry:
+        print(f"  no visuals for {ep['slug']} — plain row", file=sys.stderr)
+        return ""
+    accent = entry.get("accent", {}).get("dark", "#61b2d1")
+    return (
+        f'<div class="wave" role="slider" tabindex="0" aria-label="{html.escape(label)}" '
+        f'aria-valuemin="0" aria-valuemax="{ep["duration"]}" aria-valuenow="0" '
+        f'data-src="{html.escape(audio_url(podcast, ep, op3=False))}" '
+        f'data-duration="{ep["duration"]}" data-accent="{accent}">'
+        f'{wave_svg(entry["peaks"], bars)}</div>'
+    )
+
+
+def accent_of(ep: dict, visuals: dict, theme: str = "dark") -> str:
+    entry = visuals.get("episodes", {}).get(ep["guid"], {})
+    return entry.get("accent", {}).get(theme, "#61b2d1")
+
+
+# ---------------------------------------------------------------- pages
+
+def build_index(podcast: dict, eps: list[dict], visuals: dict) -> str:
     esc = html.escape
-    return f"""<!doctype html>
-<html lang="{podcast['language']}">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)}</title>
-<link rel="alternate" type="application/rss+xml" title="{esc(podcast['title'])}" href="{podcast['feed_path']}">
-<link rel="icon" href="/img/{Path(podcast['image']).name}">
-<link rel="stylesheet" href="/style.css">
-</head>
-<body><main>
-{body}
-</main></body>
-</html>
-"""
+    hero = eps[0]
+    _, hero_title = venue_of(hero)
 
-
-def build_index(podcast: dict, eps: list[dict]) -> str:
-    esc = html.escape
-    rows = []
-    for ep in eps:
-        date = datetime.fromisoformat(ep["published"]).strftime("%b %d, %Y")
-        rows.append(f"""<li>
-  <img src="/img/{ep.get('image') or Path(podcast['image']).name}" alt="" loading="lazy">
-  <div><h2><a href="/e/{ep['slug']}/">{esc(ep['title'])}</a></h2>
-  <div class="muted">{date} · {fmt_duration(ep['duration'])}</div></div>
+    years = []
+    for year in sorted({e["published"][:4] for e in eps[1:]}, reverse=True):
+        rows = []
+        for ep in [e for e in eps[1:] if e["published"][:4] == year]:
+            venue, short = venue_of(ep)
+            date = datetime.fromisoformat(ep["published"]).strftime("%b %-d")
+            meta = f"{date} — {venue}" if venue else date
+            rows.append(f"""<li class="row" style="--row-accent: {accent_of(ep, visuals)}">
+  <button class="play" aria-pressed="false" aria-label="Play {esc(short)}">
+    <svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>
+    <svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h4v13H3zM9 1.5h4v13H9z"/></svg>
+  </button>
+  <h3 class="title"><a href="/e/{ep['slug']}/">{esc(short)}</a></h3>
+  <p class="meta">{esc(meta)} — {fmt_duration(ep['duration'])}</p>
+  {wave(podcast, ep, visuals, 128, f"Scrub {short}")}
 </li>""")
-    body = f"""<header class="show">
-  <img src="/img/{Path(podcast['image']).name}" alt="">
-  <div><h1>{esc(podcast['title'])}</h1>
-  <div class="muted">{esc(podcast['author'])} · <a href="{podcast['feed_path']}">RSS feed</a></div></div>
-</header>
-<p class="intro">{esc(podcast['description'])}</p>
-<ol class="episodes">
-{chr(10).join(rows)}
-</ol>"""
-    return page(podcast, podcast["title"], body)
+        years.append(f'<section class="venue reveal"><h2>{year}</h2>'
+                     f'<ul class="episodes">{"".join(rows)}</ul></section>')
+
+    body = render(
+        tpl("index.html"),
+        show=esc(podcast["title"]),
+        description=esc(podcast["description"]),
+        feed_path=podcast["feed_path"],
+        subscribe="".join(
+            [f'<a href="{podcast["feed_path"]}">RSS feed</a>']
+            + [f'<a href="{esc(url)}">{esc(name)}</a>'
+               for name, url in (podcast.get("links") or {}).items()]),
+        hero_accent=accent_of(hero, visuals),
+        hero_slug=hero["slug"],
+        hero_title=esc(hero_title),
+        hero_title_plain=esc(hero_title),
+        hero_duration=fmt_duration(hero["duration"]),
+        hero_wave=wave(podcast, hero, visuals, 180, f"Scrub {hero_title}"),
+        years="".join(years),
+    )
+    return page(podcast, podcast["title"], podcast["description"], body,
+                image_url(podcast, Path(podcast["image"]).name))
 
 
-def build_episode_page(podcast: dict, ep: dict) -> str:
+def build_episode_page(podcast: dict, ep: dict, visuals: dict) -> str:
     esc = html.escape
-    date = datetime.fromisoformat(ep["published"]).strftime("%B %d, %Y")
-    direct = audio_url(podcast, ep)
-    body = f"""<p class="muted"><a href="/">← {esc(podcast['title'])}</a></p>
-<article>
-  <img class="cover" src="/img/{ep.get('image') or Path(podcast['image']).name}" alt="">
-  <h1>{esc(ep['title'])}</h1>
-  <div class="muted">{date} · {fmt_duration(ep['duration'])} · <a href="{esc(direct)}">Download</a></div>
-  <audio controls preload="none" src="{esc(direct)}"></audio>
-  {ep['description']}
-</article>"""
-    return page(podcast, f"{ep['title']} | {podcast['title']}", body)
+    venue, short = venue_of(ep)
+    image = ep.get("image") or Path(podcast["image"]).name
+    body = render(
+        tpl("episode.html"),
+        accent=accent_of(ep, visuals),
+        image=image,
+        title=esc(short),
+        date=datetime.fromisoformat(ep["published"]).strftime("%B %-d, %Y"),
+        venue=f" — {esc(venue)}" if venue else "",
+        number=ep.get("episode") or "—",
+        wave=wave(podcast, ep, visuals, 240, f"Scrub {short}"),
+        duration=fmt_duration(ep["duration"]),
+        notes=ep["description"],
+        audio=esc(audio_url(podcast, ep, op3=False)),
+        size=f"{ep['audio_length'] / 1e6:.0f} MB",
+    )
+    return page(podcast, f"{short} — {podcast['title']}", ep["description"], body,
+                image_url(podcast, image))
 
 
 def main():
     podcast = load_podcast()
     eps = visible_episodes()
+    visuals = load_visuals()
 
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -217,13 +307,15 @@ def main():
     for name in used_images:
         shutil.copy2(ROOT / "images" / name, OUT / "img" / name)
 
+    for asset in ASSETS.iterdir():
+        shutil.copy2(asset, OUT / asset.name)
+
     (OUT / podcast["feed_path"].lstrip("/")).write_text(build_feed(podcast, eps))
-    (OUT / "index.html").write_text(build_index(podcast, eps))
-    (OUT / "style.css").write_text(CSS)
+    (OUT / "index.html").write_text(build_index(podcast, eps, visuals))
     for ep in eps:
         d = OUT / "e" / ep["slug"]
         d.mkdir(parents=True)
-        (d / "index.html").write_text(build_episode_page(podcast, ep))
+        (d / "index.html").write_text(build_episode_page(podcast, ep, visuals))
 
     (OUT / "CNAME").write_text(urlparse(podcast["site_url"]).hostname + "\n")
     (OUT / ".nojekyll").write_text("")
