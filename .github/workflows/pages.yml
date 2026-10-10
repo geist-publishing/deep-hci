@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pyyaml
+      - run: pip install pyyaml "pillow>=10.4,<12"
       - run: python build.py
       - uses: actions/upload-pages-artifact@v3
         with:

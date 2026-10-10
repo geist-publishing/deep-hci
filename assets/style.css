@@ -1,5 +1,11 @@
-/* HCI Deep Dives — the waveform is the interface.
-   Base stays quiet; every episode brings its own accent, sampled from its cover. */
+/* HCI Deep Dives — the artwork leads, the waveform is the interface.
+   The base stays quiet; every episode brings its own accent, sampled from its cover. */
+
+@property --accent {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #61b2d1;
+}
 
 :root {
   --bg: #1a1917;
@@ -8,26 +14,18 @@
   --fg: #edeae4;
   --muted: #a09a90;
   --accent: #61b2d1;
+  --shadow: 0 18px 40px -24px rgb(0 0 0 / 0.75);
 
   --measure: 68ch;
   --gutter: clamp(1rem, 4vw, 2.5rem);
-  --row-gap: clamp(1.5rem, 3vw, 2.25rem);
 
+  --display: "Fraunces", ui-serif, Georgia, serif;
   --sans: "Geist", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --mono: "Geist Mono", ui-monospace, "SF Mono", monospace;
   --serif: "Source Serif 4", Georgia, serif;
 
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
   color-scheme: dark light;
-}
-
-:root[data-theme="light"],
-html:not([data-theme="dark"]) body.light {
-  --bg: #f4f6f8;
-  --surface: #ffffff;
-  --line: #dde3e9;
-  --fg: #16181c;
-  --muted: #5a6775;
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,11 +35,11 @@ html:not([data-theme="dark"]) body.light {
     --line: #dde3e9;
     --fg: #16181c;
     --muted: #5a6775;
+    --shadow: 0 18px 40px -26px rgb(20 30 45 / 0.35);
   }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-
 html { -webkit-text-size-adjust: 100%; }
 
 body {
@@ -53,9 +51,10 @@ body {
   line-height: 1.55;
   font-weight: 350;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
-/* A slow drift of the current accent, barely there */
+/* The page glow takes the colour of whatever is playing and crossfades to it */
 body::before {
   content: "";
   position: fixed;
@@ -63,188 +62,388 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(38vmax 38vmax at 20% 12%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 70%),
-    radial-gradient(30vmax 30vmax at 82% 78%, color-mix(in oklab, var(--accent) 14%, transparent), transparent 70%);
-  opacity: 0.22;
-  animation: drift 48s var(--ease) infinite alternate;
+    radial-gradient(40vmax 40vmax at 18% 8%, color-mix(in oklab, var(--accent) 40%, transparent), transparent 70%),
+    radial-gradient(32vmax 32vmax at 85% 82%, color-mix(in oklab, var(--accent) 26%, transparent), transparent 70%);
+  opacity: 0.35;
+  transition: --accent 900ms var(--ease);
+  animation: drift 42s var(--ease) infinite alternate;
 }
 
 @keyframes drift {
   from { transform: translate3d(-2%, -1%, 0) scale(1); }
-  to   { transform: translate3d(3%, 2%, 0) scale(1.12); }
+  to   { transform: translate3d(3%, 2%, 0) scale(1.14); }
 }
 
 a { color: inherit; }
-a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+
+:is(a, button, [tabindex]):focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
+/* Break-out grid: content is centred, the hero can run full width */
 .wrap {
-  max-width: 62rem;
-  margin: 0 auto;
-  padding: clamp(2rem, 6vw, 4.5rem) var(--gutter) 6rem;
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(var(--gutter), 1fr)
+    [content-start] minmax(0, 64rem) [content-end]
+    minmax(var(--gutter), 1fr) [full-end];
+  padding-bottom: 7rem;
 }
 
-/* ---------- masthead ---------- */
+.wrap > * { grid-column: content; }
+.hero { grid-column: full; }
 
-.masthead { margin-bottom: clamp(2.5rem, 6vw, 4rem); }
+/* ---------------------------------------------------------------- masthead */
+
+.masthead {
+  padding: clamp(2.5rem, 7vw, 5rem) 0 clamp(1.75rem, 4vw, 2.75rem);
+  max-width: 46rem;
+}
 
 .masthead h1 {
-  font-size: clamp(2.1rem, 6vw, 3.4rem);
+  font-family: var(--display);
+  font-optical-sizing: auto;
+  font-size: clamp(2.6rem, 8vw, 5rem);
   font-weight: 600;
-  letter-spacing: -0.03em;
-  line-height: 1.02;
-  margin: 0 0 0.6rem;
+  letter-spacing: -0.028em;
+  line-height: 0.95;
+  margin: 0 0 0.75rem;
   view-transition-name: show-title;
 }
 
 .masthead p {
-  max-width: 54ch;
-  margin: 0 0 1.4rem;
+  max-width: 52ch;
+  margin: 0 0 1.5rem;
   color: var(--muted);
-  font-size: 1.0625rem;
+  font-size: clamp(1rem, 1.6vw, 1.125rem);
 }
 
 .subscribe { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
 .subscribe a {
-  display: inline-block;
-  padding: 0.4rem 0.9rem;
+  padding: 0.45rem 1rem;
   border: 1px solid var(--line);
   border-radius: 999px;
   font-size: 0.875rem;
   text-decoration: none;
-  transition: border-color 0.2s var(--ease), color 0.2s var(--ease);
+  transition: border-color 0.25s var(--ease), color 0.25s var(--ease),
+              background 0.25s var(--ease);
 }
 
-.subscribe a:hover { border-color: var(--accent); color: var(--accent); }
+.subscribe a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in oklab, var(--accent) 10%, transparent);
+}
 
-/* ---------- hero: the newest episode ---------- */
+/* ---------------------------------------------------------------- hero */
 
 .hero {
   --accent: var(--hero-accent, #61b2d1);
+  position: relative;
+  isolation: isolate;
   display: grid;
-  grid-template-columns: auto 1fr;
+  align-content: end;
+  min-height: clamp(26rem, 64vh, 40rem);
+  padding: 0 var(--gutter) clamp(1.75rem, 4vw, 3rem);
+  margin-bottom: clamp(2.5rem, 6vw, 4rem);
+  overflow: hidden;
+}
+
+.hero-media { position: absolute; inset: 0; z-index: -2; }
+
+.hero-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 42%;
+  animation: kenburns 36s var(--ease) infinite alternate;
+}
+
+@keyframes kenburns {
+  from { transform: scale(1) translate3d(0, 0, 0); }
+  to   { transform: scale(1.08) translate3d(-1.5%, -1%, 0); }
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(70% 90% at 15% 85%, color-mix(in oklab, var(--accent) 38%, transparent), transparent 70%),
+    linear-gradient(to top, var(--bg) 3%, color-mix(in oklab, var(--bg) 86%, transparent) 42%, color-mix(in oklab, var(--bg) 25%, transparent) 100%);
+  animation: scrim 900ms var(--ease) backwards;
+}
+
+@keyframes scrim { from { opacity: 0; } }
+
+.hero-inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas:
+    "kicker kicker"
+    "title  title"
+    "play   meta"
+    "wave   wave";
   align-items: center;
   column-gap: 1.25rem;
-  padding: clamp(1.4rem, 3vw, 2rem) 0 clamp(1.8rem, 4vw, 2.6rem);
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  margin-bottom: clamp(2rem, 5vw, 3.5rem);
 }
 
 .hero .kicker {
-  grid-column: 1 / -1;
+  grid-area: kicker;
   color: var(--accent);
   font-size: 0.8125rem;
   font-weight: 500;
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
 }
 
-.hero > div { grid-column: 2; }
-
-.hero .wave { grid-column: 1 / -1; margin-top: 1.25rem; }
-
 .hero h2 {
-  font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+  grid-area: title;
+  font-family: var(--display);
+  font-optical-sizing: auto;
+  font-size: clamp(1.75rem, 4.4vw, 3rem);
   font-weight: 500;
   letter-spacing: -0.02em;
-  line-height: 1.2;
-  margin: 0 0 0.4rem;
-  max-width: 36ch;
+  line-height: 1.05;
+  margin: 0 0 1.25rem;
+  max-width: 18ch;
+  text-wrap: balance;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;        /* long paper titles shouldn't swallow the art */
+  overflow: hidden;
 }
 
 .hero h2 a { text-decoration: none; }
 .hero h2 a:hover { color: var(--accent); }
 
-/* ---------- venue groups ---------- */
+.hero .play { grid-area: play; width: 3.5rem; height: 3.5rem; }
+.hero .meta { grid-area: meta; margin: 0; display: flex; gap: 0.75rem; align-items: center; }
+.hero .wave { grid-area: wave; height: 4.5rem; margin-top: 1.25rem; }
 
-.venue { margin-bottom: clamp(2rem, 5vw, 3rem); }
+/* Title lines wipe up on load */
+.hero h2, .hero .kicker {
+  animation: rise-in 800ms var(--ease) backwards;
+}
+.hero h2 { animation-delay: 120ms; }
+.hero .meta, .hero .play { animation: rise-in 800ms var(--ease) 240ms backwards; }
 
-.venue > h2 {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-size: 0.9375rem;
-  font-weight: 500;
-  color: var(--muted);
-  margin: 0 0 0.5rem;
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(14px); clip-path: inset(0 0 100% 0); }
+  to   { opacity: 1; transform: none; clip-path: inset(0 0 -10% 0); }
 }
 
-.venue > h2::after {
+/* ---------------------------------------------------------------- years */
+
+.year { margin-bottom: clamp(2.5rem, 6vw, 4rem); }
+
+.year > h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  font-family: var(--display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+}
+
+.year > h2::after {
   content: "";
   flex: 1;
   height: 1px;
   background: var(--line);
 }
 
-.episodes { list-style: none; margin: 0; padding: 0; }
-
-.row {
-  --accent: var(--row-accent, #61b2d1);
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  column-gap: 1rem;
-  row-gap: 0.5rem;
-  padding: var(--row-gap) 0;
-  border-bottom: 1px solid var(--line);
+.year .count {
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--muted);
+  order: 1;
 }
 
-.row:last-child { border-bottom: 0; }
+/* ---------------------------------------------------------------- cards */
 
-.row .title {
-  grid-column: 2;
-  font-size: 1.0625rem;
-  font-weight: 450;
-  letter-spacing: -0.01em;
-  line-height: 1.3;
+.episodes {
+  list-style: none;
   margin: 0;
+  padding: 0;
+  display: grid;
+  gap: clamp(1.25rem, 2.4vw, 2rem);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15.5rem), 1fr));
 }
 
-.row .title a { text-decoration: none; }
-.row .title a:hover { color: var(--accent); }
+.card {
+  --accent: var(--card-accent, #61b2d1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.26s var(--ease);
+}
 
-.row .meta {
-  grid-column: 3;
+.card-media {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 14px;
+  overflow: hidden;
+  background: color-mix(in oklab, var(--accent) 28%, var(--surface));
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.26s var(--ease);
+}
+
+.card-media .cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s var(--ease), filter 0.26s var(--ease);
+}
+
+.card:hover { transform: translateY(-5px); }
+.card:hover .card-media .cover,
+.card:focus-within .card-media .cover { transform: scale(1.05); }
+
+.card:hover .card-media,
+.card:focus-within .card-media {
+  box-shadow: 0 20px 44px -20px color-mix(in oklab, var(--accent) 60%, #000);
+}
+
+/* The whole card is the link; the play button sits above it */
+.card .title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+}
+
+.card .play {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  z-index: 1;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: color-mix(in oklab, var(--bg) 72%, transparent);
+  backdrop-filter: blur(8px);
+  border-color: transparent;
+  opacity: 0;
+  transform: translateY(6px) scale(0.92);
+  transition: opacity 0.24s var(--ease), transform 0.24s var(--ease),
+              background 0.24s var(--ease);
+}
+
+.card:hover .play,
+.card:focus-within .play,
+.card.is-active .play { opacity: 1; transform: none; }
+
+@media (hover: none) { .card .play { opacity: 1; transform: none; } }
+
+.card-body { padding-top: 0.9rem; }
+
+.card .title {
+  font-family: var(--display);
+  font-optical-sizing: auto;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  line-height: 1.25;
+  margin: 0 0 0.4rem;
+  text-wrap: pretty;
+}
+
+.card .title a { text-decoration: none; }
+.card:hover .title a { color: var(--accent); }
+
+.card .meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
   color: var(--muted);
   font-size: 0.8125rem;
-  white-space: nowrap;
 }
 
-.row .wave { grid-column: 2 / -1; }
+.venue-tag {
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 20%, transparent);
+  color: color-mix(in oklab, var(--accent) 75%, var(--fg));
+  font-size: 0.75rem;
+  font-weight: 450;
+}
 
-/* ---------- play button ---------- */
+/* The waveform unfurls on the card being played */
+.card .wave-slot {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.42s var(--ease);
+}
+
+.card.is-active .wave-slot { grid-template-rows: 1fr; }
+.card .wave { height: 2.25rem; margin-top: 0.6rem; overflow: hidden; }
+.card:not(.is-active) .wave { visibility: hidden; }
+
+/* Equaliser badge while playing */
+.eq {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  z-index: 1;
+  display: none;
+  gap: 2px;
+  align-items: flex-end;
+  height: 1rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 6px;
+  background: color-mix(in oklab, var(--bg) 70%, transparent);
+  backdrop-filter: blur(8px);
+}
+
+.card.is-playing .eq { display: flex; }
+.eq i { width: 3px; height: 40%; background: var(--accent); border-radius: 2px;
+        animation: bounce 900ms ease-in-out infinite; }
+.eq i:nth-child(2) { animation-delay: 150ms; }
+.eq i:nth-child(3) { animation-delay: 300ms; }
+.eq i:nth-child(4) { animation-delay: 450ms; }
+
+@keyframes bounce { 50% { height: 100%; } }
+
+/* ---------------------------------------------------------------- play button */
 
 .play {
-  grid-row: 1 / span 2;
+  display: grid;
+  place-items: center;
   width: 2.75rem;
   height: 2.75rem;
   flex: none;
-  display: grid;
-  place-items: center;
   padding: 0;
   border: 1px solid var(--line);
   border-radius: 50%;
   background: transparent;
   color: var(--fg);
   cursor: pointer;
-  transition: border-color 0.2s var(--ease), background 0.2s var(--ease),
-              color 0.2s var(--ease), transform 0.2s var(--ease);
+  transition: border-color 0.22s var(--ease), background 0.22s var(--ease),
+              color 0.22s var(--ease), transform 0.22s var(--ease);
 }
 
-.play:hover { border-color: var(--accent); color: var(--accent); transform: scale(1.06); }
+.play:hover { border-color: var(--accent); color: var(--accent); transform: scale(1.07); }
 .play[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
 .play svg { width: 1rem; height: 1rem; fill: currentColor; }
 .play .pause-icon { display: none; }
 .play[aria-pressed="true"] .play-icon { display: none; }
 .play[aria-pressed="true"] .pause-icon { display: block; }
 
-.hero .play { width: 3.5rem; height: 3.5rem; }
+.row .play, .player .play { grid-row: 1 / span 2; }
 
-/* ---------- waveform ---------- */
+/* ---------------------------------------------------------------- waveform */
 
 .wave {
   --progress: 0%;
@@ -256,51 +455,69 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   touch-action: none;
 }
 
-.row .wave { height: 2rem; }
-
-.hero .wave, .episode .wave { height: 5rem; }
-
 .wave svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.wave .bars { fill: var(--muted); opacity: 0.4; }
+.wave .played { fill: var(--accent); clip-path: inset(0 calc(100% - var(--progress)) 0 0); }
+.wave:hover .bars { opacity: 0.55; }
 
-.wave .bars { fill: var(--muted); opacity: 0.38; }
+.hero .wave .bars { fill: var(--fg); opacity: 0.45; }
 
-.wave .played {
-  fill: var(--accent);
-  clip-path: inset(0 calc(100% - var(--progress)) 0 0);
-}
+.wave svg g rect { animation: grow 0.6s var(--ease) backwards; }
 
-.wave:hover .bars { opacity: 0.5; }
+@keyframes grow { from { transform: scaleY(0.05); opacity: 0; } }
 
-.wave .head {
-  fill: var(--accent);
-  opacity: 0;
-  transform: translateX(var(--progress));
-  transition: opacity 0.25s var(--ease);
-}
-
-.wave.is-playing .head { opacity: 1; animation: pulse 1.1s ease-in-out infinite; }
-
-@keyframes pulse { 50% { opacity: 0.35; } }
-
-/* Bars rise into place on load; the index staggers group by group */
 .wave svg rect { transform-origin: center; }
 
-.reveal .wave svg g rect { animation: rise 0.5s var(--ease) backwards; }
+/* ---------------------------------------------------------------- mini player */
 
-@keyframes rise { from { transform: scaleY(0.06); opacity: 0; } }
-
-/* ---------- time readout ---------- */
-
-.timecode {
-  font-family: var(--mono);
-  font-size: 0.8125rem;
-  font-variant-numeric: tabular-nums;
-  color: var(--muted);
+.mini {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  z-index: 20;
+  width: min(44rem, calc(100vw - 2rem));
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.6rem 1rem 0.6rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in oklab, var(--surface) 86%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+  box-shadow: var(--shadow);
+  transform: translate(-50%, 160%);
+  opacity: 0;
+  transition: transform 0.45s var(--ease), opacity 0.3s var(--ease);
 }
 
-/* ---------- episode page ---------- */
+.mini.shown { transform: translate(-50%, 0); opacity: 1; }
+.mini img { width: 2.6rem; height: 2.6rem; border-radius: 8px; object-fit: cover; }
+.mini .play { width: 2.4rem; height: 2.4rem; }
+.mini .mini-title {
+  font-size: 0.875rem;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mini .mini-bar {
+  grid-column: 1 / -1;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--line);
+  overflow: hidden;
+}
+.mini .mini-bar i {
+  display: block;
+  height: 100%;
+  width: var(--progress, 0%);
+  background: var(--accent);
+}
 
-.episode { max-width: var(--measure); }
+/* ---------------------------------------------------------------- episode page */
+
+.episode { max-width: var(--measure); padding-top: clamp(2rem, 5vw, 3.5rem); }
 
 .back {
   display: inline-block;
@@ -327,62 +544,52 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
   view-transition-name: cover;
 }
 
 .episode h1 {
-  font-size: clamp(1.7rem, 4.2vw, 2.6rem);
+  grid-column: 1;
+  font-family: var(--display);
+  font-optical-sizing: auto;
+  font-size: clamp(1.8rem, 4.4vw, 2.8rem);
   font-weight: 550;
-  letter-spacing: -0.025em;
-  line-height: 1.12;
+  letter-spacing: -0.024em;
+  line-height: 1.08;
   margin: 0 0 0.75rem;
+  text-wrap: balance;
   view-transition-name: episode-title;
 }
 
-.episode h1 { grid-column: 1; }
-
-.episode .meta {
-  grid-column: 1;
-  color: var(--muted);
-  font-size: 0.875rem;
-  margin: 0;
-}
+.episode .meta { grid-column: 1; color: var(--muted); font-size: 0.875rem; margin: 0; }
 
 .player {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 1.25rem;
-  clear: both;
   padding: 1.25rem 0 1rem;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   margin-bottom: 2.5rem;
 }
 
-.player .times {
-  grid-column: 2;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 0.5rem;
+.player .wave { height: 5rem; }
+.player .times { grid-column: 2; display: flex; justify-content: space-between; margin-top: 0.5rem; }
+
+.timecode {
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
 }
 
-.notes {
-  font-family: var(--serif);
-  font-size: 1.0625rem;
-  line-height: 1.72;
-}
-
+.notes { font-family: var(--serif); font-size: 1.0625rem; line-height: 1.72; }
 .notes p { margin: 0 0 1.1em; }
 .notes a { color: var(--accent); text-underline-offset: 2px; }
 
-.download {
-  display: inline-block;
-  margin-top: 1rem;
-  color: var(--muted);
-  font-size: 0.875rem;
-}
+.download { display: inline-block; margin-top: 1rem; color: var(--muted); font-size: 0.875rem; }
 
 footer {
   border-top: 1px solid var(--line);
@@ -394,38 +601,38 @@ footer {
 
 footer a { color: var(--muted); }
 
-/* ---------- entrances ---------- */
+/* ---------------------------------------------------------------- entrances */
 
-.reveal {
-  opacity: 0;
-  transform: translateY(10px);
-}
+.reveal { opacity: 0; transform: translateY(12px) scale(0.985); }
 
 .reveal.shown {
   opacity: 1;
   transform: none;
-  transition: opacity 0.55s var(--ease), transform 0.55s var(--ease);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
 }
 
 @view-transition { navigation: auto; }
 
-/* ---------- small screens ---------- */
+/* ---------------------------------------------------------------- small screens */
 
 @media (max-width: 34rem) {
-  .row { grid-template-columns: auto 1fr; }
-  .row .meta { grid-column: 2; grid-row: 2; }
-  .row .wave { grid-column: 1 / -1; grid-row: 3; }
-  .play { grid-row: 1; }
+  .hero-inner { grid-template-areas: "kicker kicker" "title title" "play meta" "wave wave"; }
   .episode .head { grid-template-columns: 1fr; }
   .episode .cover { grid-column: 1; grid-row: 1; width: 9rem; margin-bottom: 1rem; }
-  .player { grid-template-columns: auto 1fr; gap: 1rem; }
+  .mini { gap: 0.6rem; padding: 0.5rem 0.75rem; }
+  .mini img { width: 2.2rem; height: 2.2rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  body::before { animation: none; }
+  body::before,
+  .hero-media img,
+  .eq i { animation: none; }
+  .hero h2, .hero .kicker, .hero .meta, .hero .play, .hero::after { animation: none; }
+  .wave svg g rect { animation: none; }
   .reveal, .reveal.shown { opacity: 1; transform: none; transition: none; }
-  .wave svg g rect, .reveal .wave svg g rect { animation: none; }
-  .wave.is-playing .head { animation: none; }
-  .play:hover { transform: none; }
+  .card, .card .cover, .card .play, .mini { transition: none; }
+  .card:hover { transform: none; }
+  .card:hover .card-media .cover { transform: none; }
+  .mini { transform: translate(-50%, 0); }
   @view-transition { navigation: none; }
 }

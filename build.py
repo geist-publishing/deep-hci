@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+import thumbnails
 from episodes_io import ROOT, load_episodes, load_podcast, load_visuals, release_tag
 
 OUT = ROOT / "_site"
@@ -205,6 +206,16 @@ def wave_svg(peaks: list[int], bars: int) -> str:
             f'<g class="bars">{body}</g><g class="played">{body}</g></svg>')
 
 
+def downsample(peaks: list[int], bars: int) -> list[int]:
+    if bars < len(peaks):
+        step = len(peaks) / bars
+        peaks = [round(sum(chunk) / len(chunk))
+                 for i in range(bars)
+                 if (chunk := peaks[int(i * step):int((i + 1) * step)] or [0])]
+    top = max(peaks) or 1
+    return [min(100, round(p * 96 / top)) for p in peaks]
+
+
 def wave(podcast: dict, ep: dict, visuals: dict, bars: int, label: str) -> str:
     entry = visuals.get("episodes", {}).get(ep["guid"])
     if not entry:
@@ -225,31 +236,91 @@ def accent_of(ep: dict, visuals: dict, theme: str = "dark") -> str:
     return entry.get("accent", {}).get(theme, "#61b2d1")
 
 
+def wave_data(podcast: dict, ep: dict, visuals: dict, bars: int, label: str) -> str:
+    """Same scrubber, but the bars ship as numbers and the player draws them.
+
+    62 inline SVG waveforms cost over a megabyte of markup; this is a few KB.
+    """
+    entry = visuals.get("episodes", {}).get(ep["guid"])
+    if not entry:
+        return ""
+    peaks = ",".join(str(p) for p in downsample(entry["peaks"], bars))
+    return (
+        f'<div class="wave" role="slider" tabindex="0" aria-label="{html.escape(label)}" '
+        f'aria-valuemin="0" aria-valuemax="{ep["duration"]}" aria-valuenow="0" '
+        f'data-src="{html.escape(audio_url(podcast, ep, op3=False))}" '
+        f'data-duration="{ep["duration"]}" data-accent="{accent_of(ep, visuals)}" '
+        f'data-peaks="{peaks}"></div>'
+    )
+
+
+# ---------------------------------------------------------------- images
+
+def img_tag(derivs: list, fallback: str, *, sizes: str, alt: str = "",
+            cls: str = "", eager: bool = False) -> str:
+    """A responsive <img>; falls back to the original when Pillow is absent."""
+    attrs = f' class="{cls}"' if cls else ""
+    loading = ('loading="eager" fetchpriority="high"' if eager
+               else 'loading="lazy" decoding="async"')
+    if not derivs:
+        return f'<img{attrs} src="{fallback}" alt="{html.escape(alt)}" {loading}>'
+    srcset = ", ".join(f"{d.url} {d.width}w" for d in derivs)
+    first = derivs[0]
+    return (f'<img{attrs} src="{first.url}" srcset="{srcset}" sizes="{sizes}" '
+            f'width="{first.width}" height="{first.height}" '
+            f'alt="{html.escape(alt)}" {loading}>')
+
+
+def cover_derivatives(ep: dict, podcast: dict, out_dir: Path, kind: str) -> list:
+    name = ep.get("image") or Path(podcast["image"]).name
+    if not thumbnails.available():
+        return []
+    return thumbnails.derive(ROOT / "images" / name, out_dir, kind)
+
+
 # ---------------------------------------------------------------- pages
 
-def build_index(podcast: dict, eps: list[dict], visuals: dict) -> str:
+PLAY_ICONS = (
+    '<svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>'
+    '<svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h4v13H3zM9 1.5h4v13H9z"/></svg>'
+)
+
+CARD_SIZES = "(min-width: 68rem) 20rem, (min-width: 40rem) 30vw, 46vw"
+
+
+def card(podcast: dict, ep: dict, visuals: dict, out_dir: Path) -> str:
+    esc = html.escape
+    venue, short = venue_of(ep)
+    date = datetime.fromisoformat(ep["published"]).strftime("%b %-d")
+    derivs = cover_derivatives(ep, podcast, out_dir, "card")
+    fallback = f"/img/{ep.get('image') or Path(podcast['image']).name}"
+    tag = f'<span class="venue-tag">{esc(venue)}</span>' if venue else ""
+    return f"""<li class="card reveal" style="--card-accent: {accent_of(ep, visuals)}">
+  <div class="card-media">
+    {img_tag(derivs, fallback, sizes=CARD_SIZES, cls="cover")}
+    <button class="play" aria-pressed="false" aria-label="Play {esc(short)}">{PLAY_ICONS}</button>
+    <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  </div>
+  <div class="card-body">
+    <h3 class="title"><a href="/e/{ep['slug']}/">{esc(short)}</a></h3>
+    <p class="meta">{tag}<span>{esc(date)}</span><span>{fmt_duration(ep['duration'])}</span></p>
+    <div class="wave-slot">{wave_data(podcast, ep, visuals, 96, f"Scrub {short}")}</div>
+  </div>
+</li>"""
+
+
+def build_index(podcast: dict, eps: list[dict], visuals: dict, out_dir: Path) -> str:
     esc = html.escape
     hero = eps[0]
     _, hero_title = venue_of(hero)
 
     years = []
     for year in sorted({e["published"][:4] for e in eps[1:]}, reverse=True):
-        rows = []
-        for ep in [e for e in eps[1:] if e["published"][:4] == year]:
-            venue, short = venue_of(ep)
-            date = datetime.fromisoformat(ep["published"]).strftime("%b %-d")
-            meta = f"{date} — {venue}" if venue else date
-            rows.append(f"""<li class="row" style="--row-accent: {accent_of(ep, visuals)}">
-  <button class="play" aria-pressed="false" aria-label="Play {esc(short)}">
-    <svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>
-    <svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h4v13H3zM9 1.5h4v13H9z"/></svg>
-  </button>
-  <h3 class="title"><a href="/e/{ep['slug']}/">{esc(short)}</a></h3>
-  <p class="meta">{esc(meta)} — {fmt_duration(ep['duration'])}</p>
-  {wave(podcast, ep, visuals, 128, f"Scrub {short}")}
-</li>""")
-        years.append(f'<section class="venue reveal"><h2>{year}</h2>'
-                     f'<ul class="episodes">{"".join(rows)}</ul></section>')
+        cards = [card(podcast, ep, visuals, out_dir)
+                 for ep in eps[1:] if ep["published"][:4] == year]
+        years.append(f'<section class="year"><h2>{year}<span class="count">'
+                     f'{len(cards)} episodes</span></h2>'
+                     f'<ul class="episodes">{"".join(cards)}</ul></section>')
 
     body = render(
         tpl("index.html"),
@@ -264,22 +335,29 @@ def build_index(podcast: dict, eps: list[dict], visuals: dict) -> str:
         hero_slug=hero["slug"],
         hero_title=esc(hero_title),
         hero_title_plain=esc(hero_title),
+        hero_venue=(lambda v: f'<span class="venue-tag">{esc(v)}</span>' if v else "")(venue_of(hero)[0]),
         hero_duration=fmt_duration(hero["duration"]),
-        hero_wave=wave(podcast, hero, visuals, 180, f"Scrub {hero_title}"),
+        hero_image=img_tag(
+            cover_derivatives(hero, podcast, out_dir, "hero"),
+            f"/img/{hero.get('image') or Path(podcast['image']).name}",
+            sizes="100vw", cls="hero-img", eager=True),
+        hero_wave=wave(podcast, hero, visuals, 200, f"Scrub {hero_title}"),
         years="".join(years),
     )
     return page(podcast, podcast["title"], podcast["description"], body,
                 image_url(podcast, Path(podcast["image"]).name))
 
 
-def build_episode_page(podcast: dict, ep: dict, visuals: dict) -> str:
+def build_episode_page(podcast: dict, ep: dict, visuals: dict, out_dir: Path) -> str:
     esc = html.escape
     venue, short = venue_of(ep)
     image = ep.get("image") or Path(podcast["image"]).name
     body = render(
         tpl("episode.html"),
         accent=accent_of(ep, visuals),
-        image=image,
+        cover=img_tag(cover_derivatives(ep, podcast, out_dir, "card"),
+                      f"/img/{image}", sizes="(min-width: 40rem) 10rem, 9rem",
+                      cls="cover", eager=True),
         title=esc(short),
         date=datetime.fromisoformat(ep["published"]).strftime("%B %-d, %Y"),
         venue=f" — {esc(venue)}" if venue else "",
@@ -305,17 +383,23 @@ def main():
 
     used_images = {e["image"] for e in eps if e.get("image")} | {Path(podcast["image"]).name}
     for name in used_images:
+        # The feed's itunes:image needs the full-size original
         shutil.copy2(ROOT / "images" / name, OUT / "img" / name)
+
+    thumbs = OUT / "img" / "t"
+    thumbs.mkdir(parents=True, exist_ok=True)
+    if not thumbnails.available():
+        print("  Pillow missing — serving full-size covers", file=sys.stderr)
 
     for asset in ASSETS.iterdir():
         shutil.copy2(asset, OUT / asset.name)
 
     (OUT / podcast["feed_path"].lstrip("/")).write_text(build_feed(podcast, eps))
-    (OUT / "index.html").write_text(build_index(podcast, eps, visuals))
+    (OUT / "index.html").write_text(build_index(podcast, eps, visuals, thumbs))
     for ep in eps:
         d = OUT / "e" / ep["slug"]
         d.mkdir(parents=True)
-        (d / "index.html").write_text(build_episode_page(podcast, ep, visuals))
+        (d / "index.html").write_text(build_episode_page(podcast, ep, visuals, thumbs))
 
     (OUT / "CNAME").write_text(urlparse(podcast["site_url"]).hostname + "\n")
     (OUT / ".nojekyll").write_text("")

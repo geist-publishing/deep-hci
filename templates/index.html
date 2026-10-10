@@ -4,17 +4,18 @@
   <nav class="subscribe">{{subscribe}}</nav>
 </header>
 
-<section class="hero reveal" style="--hero-accent: {{hero_accent}}">
-  <p class="kicker">Latest episode</p>
-  <button class="play" aria-pressed="false" aria-label="Play {{hero_title_plain}}">
-    <svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>
-    <svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h4v13H3zM9 1.5h4v13H9z"/></svg>
-  </button>
-  <div>
+<section class="hero" style="--hero-accent: {{hero_accent}}">
+  <div class="hero-media">{{hero_image}}</div>
+  <div class="hero-inner">
+    <p class="kicker">Latest episode</p>
     <h2><a href="/e/{{hero_slug}}/">{{hero_title}}</a></h2>
-    <div class="meta timecode"><span class="now">0:00</span> / {{hero_duration}}</div>
+    <p class="meta">{{hero_venue}}<span class="timecode"><span class="now">0:00</span> / {{hero_duration}}</span></p>
+    <button class="play" aria-pressed="false" aria-label="Play {{hero_title_plain}}">
+      <svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z"/></svg>
+      <svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h4v13H3zM9 1.5h4v13H9z"/></svg>
+    </button>
+    {{hero_wave}}
   </div>
-  {{hero_wave}}
 </section>
 
 {{years}}
