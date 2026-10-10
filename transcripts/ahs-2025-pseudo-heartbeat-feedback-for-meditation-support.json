@@ -1,0 +1,860 @@
+{
+ "guid": "deephci.podbean.com/8404ca7f-b4f2-5529-9ccc-cc2d9a448cb2",
+ "slug": "ahs-2025-pseudo-heartbeat-feedback-for-meditation-support",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Why_Fake_Heartbeats_Still_Make_You_Calm.m4a",
+  "version": 1
+ },
+ "duration": 746,
+ "word_count": 2124,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 4.4,
+   "t": "Welcome. This deep dive focuses on the intersection of human physiology,"
+  },
+  {
+   "s": 5.0,
+   "e": 7.82,
+   "t": "cutting-edge technology, and therapeutic support."
+  },
+  {
+   "s": 8.16,
+   "e": 12.08,
+   "t": "And it's all packaged into a system designed to aid meditation, but also"
+  },
+  {
+   "s": 12.08,
+   "e": 15.62,
+   "t": "to tackle a very widespread modern problem."
+  },
+  {
+   "s": 15.76,
+   "e": 22.32,
+   "t": "Precisely. We are analyzing the TAIN system, a tool that uses dynamically generated pseudo-heartbeat"
+  },
+  {
+   "s": 22.32,
+   "e": 26.48,
+   "t": "sounds. Its main goal is to enhance what researchers call interoceptive awareness."
+  },
+  {
+   "s": 26.48,
+   "e": 29.46,
+   "t": "Which is your perception of your own internal bodily states."
+  },
+  {
+   "s": 29.82,
+   "e": 34.72,
+   "t": "Exactly. And the system tries to guide you toward a decelerated, more focused state."
+  },
+  {
+   "s": 35.32,
+   "e": 38.5,
+   "t": "Something suitable for deep meditation or even preparing for sleep."
+  },
+  {
+   "s": 38.76,
+   "e": 42.96,
+   "t": "So the mission for you, the learner, is to extract how this technology operates,"
+  },
+  {
+   "s": 43.16,
+   "e": 48.04,
+   "t": "to understand the experimental findings, and most importantly, to grasp a surprising trade-off"
+  },
+  {
+   "s": 48.04,
+   "e": 52.92,
+   "t": "the researchers found. A trade-off between perceptual manipulation and actual real-time"
+  },
+  {
+   "s": 52.92,
+   "e": 55.64,
+   "t": "physiological synchronicity. Let's unpack this."
+  },
+  {
+   "s": 55.64,
+   "e": 60.24,
+   "t": "Before we delve into the tech, we have to establish the context here. What's the scale of the challenge"
+  },
+  {
+   "s": 60.24,
+   "e": 61.58,
+   "t": "this system is trying to address?"
+  },
+  {
+   "s": 61.9,
+   "e": 65.9,
+   "t": "Well, the source material is quite clear. Insomnia is a major public health concern."
+  },
+  {
+   "s": 66.34,
+   "e": 69.52,
+   "t": "And it affects approximately 10% of the global population."
+  },
+  {
+   "s": 69.64,
+   "e": 76.52,
+   "t": "10%. That number is staggering. And this isn't just about being tired. The disorder diminishes quality"
+  },
+  {
+   "s": 76.52,
+   "e": 81.42,
+   "t": "of life and correlates with some significant physical and mental health risks."
+  },
+  {
+   "s": 81.48,
+   "e": 82.4,
+   "t": "That's a clinical condition."
+  },
+  {
+   "s": 82.4,
+   "e": 85.06,
+   "t": "It is. And it requires robust intervention."
+  },
+  {
+   "s": 85.66,
+   "e": 90.28,
+   "t": "The established goal standard approach for that is cognitive behavioral therapy for insomnia,"
+  },
+  {
+   "s": 90.62,
+   "e": 91.46,
+   "t": "or CBTI."
+  },
+  {
+   "s": 91.9,
+   "e": 96.92,
+   "t": "Yes, but the sources note a major problem with its deployment. There's a global shortage of"
+  },
+  {
+   "s": 96.92,
+   "e": 98.06,
+   "t": "qualified therapists."
+  },
+  {
+   "s": 98.06,
+   "e": 102.68,
+   "t": "A scarcity which creates a powerful incentive to develop other alternatives."
+  },
+  {
+   "s": 103.04,
+   "e": 108.82,
+   "t": "Scalable non-pharmacological alternatives. And that is where meditation comes into the picture."
+  },
+  {
+   "s": 108.82,
+   "e": 114.42,
+   "t": "By training the user to focus on the present moment, they can potentially mitigate those intrusive"
+  },
+  {
+   "s": 114.42,
+   "e": 115.9,
+   "t": "thoughts that disrupt sleep."
+  },
+  {
+   "s": 116.2,
+   "e": 118.8,
+   "t": "And central to that training is the concept of interoception."
+  },
+  {
+   "s": 119.1,
+   "e": 121.9,
+   "t": "For listeners who might be less familiar, could you define that for us?"
+  },
+  {
+   "s": 122.28,
+   "e": 127.56,
+   "t": "Interoception is fundamentally the sense of the internal physiological condition of your body."
+  },
+  {
+   "s": 127.56,
+   "e": 130.62,
+   "t": "So feeling your own heartbeat, your lungs moving."
+  },
+  {
+   "s": 130.92,
+   "e": 136.0,
+   "t": "That's it. Your awareness of those internal states. And previous studies have already shown that if you"
+  },
+  {
+   "s": 136.0,
+   "e": 141.24,
+   "t": "manipulate heartbeat sounds, you can induce certain emotional or psychological effects."
+  },
+  {
+   "s": 141.4,
+   "e": 144.32,
+   "t": "But the challenge with that prior work was in the delivery method, wasn't it?"
+  },
+  {
+   "s": 144.42,
+   "e": 150.06,
+   "t": "It was. Some approaches used visual displays, which can actually disrupt the focus you need for meditation."
+  },
+  {
+   "s": 150.8,
+   "e": 154.78,
+   "t": "Other studies just couldn't agree on the optimal parameters for the manipulation."
+  },
+  {
+   "s": 154.78,
+   "e": 157.24,
+   "t": "So this study makes a distinct shift."
+  },
+  {
+   "s": 157.64,
+   "e": 165.14,
+   "t": "It does. It moves entirely to auditory feedback to create a fully immersive sound environment without those external visual distractions."
+  },
+  {
+   "s": 165.4,
+   "e": 168.66,
+   "t": "Okay. That sets the therapeutic stage. Now for the mechanism itself."
+  },
+  {
+   "s": 168.78,
+   "e": 172.76,
+   "t": "The TA-ion system is built on the principle of operant conditioning."
+  },
+  {
+   "s": 173.16,
+   "e": 180.12,
+   "t": "Correct. Using external cues to condition a physiological response. And that requires instantaneous feedback."
+  },
+  {
+   "s": 180.38,
+   "e": 183.22,
+   "t": "And contactless feedback. So how did they solve that first hurdle,"
+  },
+  {
+   "s": 183.22,
+   "e": 186.32,
+   "t": "measuring heart rate in real time without attaching any sensors?"
+  },
+  {
+   "s": 186.32,
+   "e": 190.7,
+   "t": "They used a contactless millimeter wave radar sensor, the Miradar 8."
+  },
+  {
+   "s": 190.86,
+   "e": 195.94,
+   "t": "A radar sensor. We usually associate that with detecting, you know, much larger objects."
+  },
+  {
+   "s": 196.32,
+   "e": 198.28,
+   "t": "How does it detect something as subtle as a heartbeat?"
+  },
+  {
+   "s": 198.72,
+   "e": 203.8,
+   "t": "It is remarkably precise. The radar detects the microscopic movements on the chest wall."
+  },
+  {
+   "s": 204.32,
+   "e": 205.64,
+   "t": "Caused by the heart contracting."
+  },
+  {
+   "s": 205.88,
+   "e": 211.36,
+   "t": "Yes, the expansion and contraction. This allows it to continuously track the actual heart rate,"
+  },
+  {
+   "s": 211.36,
+   "e": 214.24,
+   "t": "and crucially calculate the RR interval."
+  },
+  {
+   "s": 214.5,
+   "e": 216.98,
+   "t": "And that's the precise time between successive heartbeats."
+  },
+  {
+   "s": 217.1,
+   "e": 222.78,
+   "t": "It is. And that interval becomes the base metric for the entire manipulation they perform."
+  },
+  {
+   "s": 223.18,
+   "e": 227.18,
+   "t": "So we have the precise real-time input. Now let's move to the intricate part."
+  },
+  {
+   "s": 227.96,
+   "e": 229.62,
+   "t": "Generating the pseudo-heartbeat."
+  },
+  {
+   "s": 229.62,
+   "e": 233.22,
+   "t": "This is where the engineering sophistication comes in. It's a sequence of steps."
+  },
+  {
+   "s": 233.72,
+   "e": 238.48,
+   "t": "First, they take that detected RR interval and they apply a manipulation rate, which they call N."
+  },
+  {
+   "s": 238.48,
+   "e": 242.96,
+   "t": "And N is just a fixed percentage reduction. It's what they want the user to perceive."
+  },
+  {
+   "s": 243.1,
+   "e": 246.24,
+   "t": "Right. In this particular study, N was set to four conditions."
+  },
+  {
+   "s": 246.98,
+   "e": 251.7,
+   "t": "Zero percent, which is real-time feedback, and then minus 10, minus 20, and minus 30 percent."
+  },
+  {
+   "s": 252.08,
+   "e": 256.32,
+   "t": "So if my actual heart rate is 70 BPM and I'm in the manic of 30 percent condition,"
+  },
+  {
+   "s": 256.82,
+   "e": 259.34,
+   "t": "the sound rhythm I hear is equivalent to 49 BPM."
+  },
+  {
+   "s": 259.44,
+   "e": 260.0,
+   "t": "That is correct."
+  },
+  {
+   "s": 260.4,
+   "e": 264.72,
+   "t": "But the rhythm is just one part. How do they make the sound itself physiologically convincing?"
+  },
+  {
+   "s": 264.84,
+   "e": 266.06,
+   "t": "It can't just be a simple beat."
+  },
+  {
+   "s": 266.06,
+   "e": 270.24,
+   "t": "And that detail is paramount. A real heartbeat has two distinct sounds."
+  },
+  {
+   "s": 270.82,
+   "e": 273.94,
+   "t": "S1 and S2. The classic lub-dub."
+  },
+  {
+   "s": 274.46,
+   "e": 280.32,
+   "t": "TA-I-ON dynamically generates the pseudo-heartbeat by sequentially playing these S1 and S2 sounds."
+  },
+  {
+   "s": 280.82,
+   "e": 286.68,
+   "t": "The sound texture itself is created by convolving the rhythm with high-fidelity human heart sound recordings."
+  },
+  {
+   "s": 286.88,
+   "e": 288.24,
+   "t": "But the timing has to be perfect."
+  },
+  {
+   "s": 288.38,
+   "e": 288.56,
+   "t": "Yeah."
+  },
+  {
+   "s": 288.66,
+   "e": 294.68,
+   "t": "If you just slow down the overall rhythm, wouldn't the time between S1 and S2 within a single beat sound unnatural?"
+  },
+  {
+   "s": 294.68,
+   "e": 299.12,
+   "t": "That is the precise problem they solved, and they did it using advanced clinical metrics."
+  },
+  {
+   "s": 299.3,
+   "e": 299.7,
+   "t": "How so?"
+  },
+  {
+   "s": 299.86,
+   "e": 305.98,
+   "t": "To ensure that internal accuracy, the interval between S1 and S2 is calculated using the Fried-A-Risha correction formula."
+  },
+  {
+   "s": 306.32,
+   "e": 310.8,
+   "t": "They specifically assumed a corrected QT value, or QTCR, of 0.4."
+  },
+  {
+   "s": 310.96,
+   "e": 315.72,
+   "t": "Wait, why introduce a specialized cardiac formula into a meditation system? What's the purpose of that?"
+  },
+  {
+   "s": 315.72,
+   "e": 320.24,
+   "t": "Because the QT interval relates to the electrical activity of the heart's metricals."
+  },
+  {
+   "s": 320.58,
+   "e": 324.3,
+   "t": "In a healthy person, this interval changes depending on the overall heart rate."
+  },
+  {
+   "s": 324.44,
+   "e": 324.76,
+   "t": "I see."
+  },
+  {
+   "s": 324.96,
+   "e": 334.36,
+   "t": "If they just scaled the rhythm down without adjusting that internal S1-S2 timing, the brain would subconsciously register an impossible sound, and the illusion would break."
+  },
+  {
+   "s": 334.36,
+   "e": 344.18,
+   "t": "So this formula ensures that even though the overall rhythm is fabricated, the internal structure of each individual beat is physically plausible."
+  },
+  {
+   "s": 344.44,
+   "e": 354.28,
+   "t": "It adheres to established cardiovascular physics, and that precision sound is then presented through a woofer, creating a resonant sensation aimed at convincing you your own heart rate is shifting."
+  },
+  {
+   "s": 354.5,
+   "e": 358.28,
+   "t": "Now, the feasibility of T-I-ON wasn't tested in a sterile sleep lab."
+  },
+  {
+   "s": 358.28,
+   "e": 367.5,
+   "t": "No, it was not. The researchers chose a far more dynamic environment, the SIGGRAPH Asia 2024 Art Gallery in Japan. The system was exhibited as an artwork."
+  },
+  {
+   "s": 367.92,
+   "e": 374.56,
+   "t": "That choice seems highly unusual for rigorous research. One have to question the wisdom of that, considering the need for precise measurements."
+  },
+  {
+   "s": 375.04,
+   "e": 384.82,
+   "t": "You raise a valid point. The aim was to gather data in a more relaxed, realistic environment. But that setting introduced some major variables we'll need to discuss."
+  },
+  {
+   "s": 384.82,
+   "e": 389.04,
+   "t": "Okay. So for the study itself, they enrolled 120 adult participants."
+  },
+  {
+   "s": 389.3,
+   "e": 396.84,
+   "t": "Yes. They were asked to lie down inside a specialized Zelkova wood structure, which was designed to help them focus inward."
+  },
+  {
+   "s": 397.44,
+   "e": 400.9,
+   "t": "Walk us through the protocol. It was quite short, only four to five minutes total."
+  },
+  {
+   "s": 400.9,
+   "e": 407.32,
+   "t": "It was standardized. It began with a one-minute warm-up of wind sounds, just to let the heart rate stabilize."
+  },
+  {
+   "s": 407.46,
+   "e": 407.76,
+   "t": "Then what?"
+  },
+  {
+   "s": 407.76,
+   "e": 417.02,
+   "t": "Then came one minute of the zero percent condition. So participants heard their actual unmanipulated heartbeats, a kind of reality check."
+  },
+  {
+   "s": 417.12,
+   "e": 418.68,
+   "t": "And finally, the intervention itself."
+  },
+  {
+   "s": 418.88,
+   "e": 423.8,
+   "t": "Two full minutes of the pseudo-heartbeats, where they were exposed to one of those four manipulation rates."
+  },
+  {
+   "s": 424.12,
+   "e": 428.86,
+   "t": "After the experience, they collected subjective data via a seven-point Likert-scale questionnaire."
+  },
+  {
+   "s": 429.28,
+   "e": 436.08,
+   "t": "Correct. They were measuring two core subjective experiences. First, feeling it is my own heartbeat, which is the synchronization."
+  },
+  {
+   "s": 436.08,
+   "e": 438.52,
+   "t": "And second, the perception of a heart rate decrease."
+  },
+  {
+   "s": 438.62,
+   "e": 443.72,
+   "t": "Yes. And the initial findings did confirm a generalized positive effect."
+  },
+  {
+   "s": 444.34,
+   "e": 450.66,
+   "t": "Participants tended to report feeling a subjective decrease in a state of mindfulness, regardless of which manipulation rate they got."
+  },
+  {
+   "s": 450.76,
+   "e": 455.54,
+   "t": "But the data also presented a major challenge to the system's intended function."
+  },
+  {
+   "s": 456.3,
+   "e": 462.44,
+   "t": "The TAI-ON system did not successfully induce a strong physiological interoceptive illusion."
+  },
+  {
+   "s": 462.7,
+   "e": 465.72,
+   "t": "Meaning people didn't actually believe the sound was their own heartbeat."
+  },
+  {
+   "s": 465.72,
+   "e": 474.2,
+   "t": "For the most part, no. Even in the zero percent condition, hearing their actual rate, the score was only a 4.31, just near the midpoint."
+  },
+  {
+   "s": 474.56,
+   "e": 478.96,
+   "t": "And as soon as the rate was manipulated, that feeling of synchronization dropped significantly."
+  },
+  {
+   "s": 479.32,
+   "e": 483.26,
+   "t": "So the illusion of it being their own internal state failed almost immediately."
+  },
+  {
+   "s": 483.5,
+   "e": 483.88,
+   "t": "It did."
+  },
+  {
+   "s": 484.12,
+   "e": 490.44,
+   "t": "And that failure should have crippled the intervention. Yet participants still felt calmer and perceived a slowing rate."
+  },
+  {
+   "s": 490.74,
+   "e": 492.56,
+   "t": "This is where the complexity emerges."
+  },
+  {
+   "s": 492.56,
+   "e": 495.02,
+   "t": "It is. This is the compelling trade-off."
+  },
+  {
+   "s": 495.16,
+   "e": 500.64,
+   "t": "To understand what was driving that subjective feeling, the researchers used ordinal logistic regression."
+  },
+  {
+   "s": 501.04,
+   "e": 505.04,
+   "t": "A statistical method to isolate which factors were most responsible for the outcome."
+  },
+  {
+   "s": 505.36,
+   "e": 509.12,
+   "t": "Exactly. Let's look at the first one they isolated. The synchronization factor."
+  },
+  {
+   "s": 509.78,
+   "e": 514.94,
+   "t": "So did the feeling that the sound was truly their own heart influence the perception of slowing?"
+  },
+  {
+   "s": 514.94,
+   "e": 529.56,
+   "t": "It certainly did. And significantly so. The data confirmed this with a p-value of .0072. A very strong indication this relationship is not random. The corresponding odds ratio was 1.323."
+  },
+  {
+   "s": 530.12,
+   "e": 535.76,
+   "t": "An odds ratio of 1.323. For those less familiar, can you contextualize what that means for the user?"
+  },
+  {
+   "s": 535.76,
+   "e": 546.68,
+   "t": "It means that for every one unit increase in their reported feeling of synchronization, they became about 32% more likely to also report a subjective perception of a heart rate decrease."
+  },
+  {
+   "s": 546.88,
+   "e": 552.4,
+   "t": "In other words, internal validation feeling that sound belonged to them made the experience of slowing much more powerful."
+  },
+  {
+   "s": 552.52,
+   "e": 556.2,
+   "t": "Much more powerful. But the second factor, the manipulation factor, is the surprising part."
+  },
+  {
+   "s": 556.48,
+   "e": 559.26,
+   "t": "Because this operated independently of that synchronization."
+  },
+  {
+   "s": 559.46,
+   "e": 560.54,
+   "t": "So this is the core trade-off."
+  },
+  {
+   "s": 560.54,
+   "e": 567.62,
+   "t": "It is. Separate from any feeling of ownership, the sheer magnitude of the manipulation also drove the results."
+  },
+  {
+   "s": 568.26,
+   "e": 577.36,
+   "t": "The higher the manipulation rate, the closer they got to that maximum, and a 30% reduction, the more participants tended to perceive a subjective heart rate decrease."
+  },
+  {
+   "s": 577.6,
+   "e": 580.16,
+   "t": "What were the statistical markers for that external influence?"
+  },
+  {
+   "s": 580.8,
+   "e": 585.84,
+   "t": "This relationship was also statistically significant, with a p-value of .0024."
+  },
+  {
+   "s": 585.84,
+   "e": 591.2,
+   "t": "But notice the difference in the magnitude. The odds ratio here was only 1.034."
+  },
+  {
+   "s": 591.52,
+   "e": 592.78,
+   "t": "So a much weaker effect."
+  },
+  {
+   "s": 592.92,
+   "e": 596.46,
+   "t": "The synchronization factor gave a 32% increase in perceived slowing."
+  },
+  {
+   "s": 597.0,
+   "e": 600.56,
+   "t": "But the manipulation factor only provided about a 3.4% increase."
+  },
+  {
+   "s": 600.74,
+   "e": 607.02,
+   "t": "That's the crucial observation. It tells us that the perception of slowing is driven by two distinct mechanisms at the same time."
+  },
+  {
+   "s": 607.24,
+   "e": 610.32,
+   "t": "Internal validation, which is stronger, and external influence."
+  },
+  {
+   "s": 610.32,
+   "e": 616.44,
+   "t": "Yes, the sheer magnitude of the auditory effect, which operates even when the user unconsciously knows the sound isn't real."
+  },
+  {
+   "s": 617.0,
+   "e": 620.16,
+   "t": "The sound itself guides the subjective experience toward calm."
+  },
+  {
+   "s": 620.6,
+   "e": 624.8,
+   "t": "However, we have to come back to the environment. It seems severely compromised."
+  },
+  {
+   "s": 625.9,
+   "e": 630.06,
+   "t": "The sources note ambient noise levels between 80 to 120 decibels."
+  },
+  {
+   "s": 630.46,
+   "e": 632.86,
+   "t": "That's the sound of a heavy truck or a loud concert."
+  },
+  {
+   "s": 632.86,
+   "e": 637.34,
+   "t": "It suggests the results have to be interpreted with extreme caution."
+  },
+  {
+   "s": 637.78,
+   "e": 641.02,
+   "t": "How could anyone achieve deep interoception under those conditions?"
+  },
+  {
+   "s": 641.38,
+   "e": 646.5,
+   "t": "And beyond the noise, the setup involved a woofer that could transmit palpable vibrations."
+  },
+  {
+   "s": 646.86,
+   "e": 653.86,
+   "t": "Right. Those tactile sensations might have been misinterpreted by participants as an internal heart feeling, which would skew the synchronization results."
+  },
+  {
+   "s": 654.56,
+   "e": 659.6,
+   "t": "And the control protocol was limited. Some participants apparently knew the feedback was being manipulated."
+  },
+  {
+   "s": 659.6,
+   "e": 662.96,
+   "t": "Which introduces potential biases about what they should have been feeling."
+  },
+  {
+   "s": 663.16,
+   "e": 666.24,
+   "t": "So what does this all mean for the future of digital health support?"
+  },
+  {
+   "s": 666.68,
+   "e": 672.52,
+   "t": "Well, the research does confirm the feasibility of using this kind of biofeedback to induce a perceived slowing."
+  },
+  {
+   "s": 673.2,
+   "e": 681.32,
+   "t": "Even if true cardiac interoceptive awareness wasn't fully enhanced in this noisy setting, the subjective feeling of decrease still occurred."
+  },
+  {
+   "s": 681.32,
+   "e": 689.72,
+   "t": "And that subjective decrease may be sufficient to produce the desired meditation effects, similar to those that would come from an actual physiological slowing."
+  },
+  {
+   "s": 690.38,
+   "e": 691.84,
+   "t": "The brain seems persuadable."
+  },
+  {
+   "s": 692.24,
+   "e": 697.36,
+   "t": "For TA-ON to evolve into a clinical tool, though, it needs refinement in a strictly controlled setting."
+  },
+  {
+   "s": 697.86,
+   "e": 705.76,
+   "t": "They'd need to collect detailed physiological beta-EEG, ECG, to isolate the auditory effect from all that environmental contamination."
+  },
+  {
+   "s": 706.3,
+   "e": 708.4,
+   "t": "The ultimate promise, though, remains considerable."
+  },
+  {
+   "s": 708.4,
+   "e": 716.8,
+   "t": "The ability to create a felt sensation of calm purely through auditory manipulation holds great potential for non-pharmacological interventions."
+  },
+  {
+   "s": 717.04,
+   "e": 719.74,
+   "t": "Especially for widespread disorders such as insomnia."
+  },
+  {
+   "s": 720.26,
+   "e": 723.84,
+   "t": "This deep dive confirms our subjective reality can be steered by sound."
+  },
+  {
+   "s": 724.12,
+   "e": 726.66,
+   "t": "Which raises an important question for you, the learner."
+  },
+  {
+   "s": 726.66,
+   "e": 740.86,
+   "t": "Given that subjective perception alone resulted in feelings of mindfulness, what are the broader implications if technology can reliably induce the sensation of well-being without necessarily requiring a corresponding measurable physiological change?"
+  },
+  {
+   "s": 741.12,
+   "e": 745.72,
+   "t": "What does that suggest about the hierarchy of the mind over the body when it comes to therapeutic outcomes?"
+  },
+  {
+   "s": 745.72,
+   "e": 750.46,
+   "t": "things that should i read an apparent complexity of affect change in means of moral integrity is definitely true."
+  },
+  {
+   "s": 750.62,
+   "e": 754.6,
+   "t": "Is this hard that makes one answer for almost everything we need to consider or fix it is quite simply if we need to likely adjust that degree we need to improve our notion of nervous word performance?"
+  },
+  {
+   "s": 754.96,
+   "e": 756.22,
+   "t": "..."
+  },
+  {
+   "s": 756.44,
+   "e": 757.92,
+   "t": "..."
+  },
+  {
+   "s": 757.96,
+   "e": 759.68,
+   "t": "..."
+  },
+  {
+   "s": 759.68,
+   "e": 762.2,
+   "t": "..."
+  },
+  {
+   "s": 762.2,
+   "e": 764.4,
+   "t": "..."
+  },
+  {
+   "s": 764.4,
+   "e": 766.18,
+   "t": "..."
+  },
+  {
+   "s": 766.18,
+   "e": 767.26,
+   "t": "..."
+  },
+  {
+   "s": 767.26,
+   "e": 768.5,
+   "t": "..."
+  },
+  {
+   "s": 768.5,
+   "e": 770.08,
+   "t": "..."
+  },
+  {
+   "s": 770.08,
+   "e": 771.32,
+   "t": "..."
+  }
+ ]
+}

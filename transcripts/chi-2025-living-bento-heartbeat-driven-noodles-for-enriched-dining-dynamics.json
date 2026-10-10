@@ -1,0 +1,1335 @@
+{
+ "guid": "deephci.podbean.com/83b46206-b38c-398f-84dc-6f382092a257",
+ "slug": "chi-2025-living-bento-heartbeat-driven-noodles-for-enriched-dining-dynamics",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Living_Bento_Heartbeat-Driven_Noodles_for_Enriched_Dining_Dynamics95t5l.mp3",
+  "version": 1
+ },
+ "duration": 932,
+ "word_count": 2648,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 9.38,
+   "t": "We begin today by examining a common modern challenge, this gradual detachment from the simple yet profound act of eating."
+  },
+  {
+   "s": 9.38,
+   "e": 13.34,
+   "t": "Yes, that feeling of eating without quite paying attention."
+  },
+  {
+   "s": 13.52,
+   "e": 24.18,
+   "t": "Exactly. Have you ever found yourself dining, maybe while looking at a screen, only to realize your plate is empty, with little memory of the flavors or the textures or even feeling satisfied?"
+  },
+  {
+   "s": 24.4,
+   "e": 27.68,
+   "t": "It happens often. Researchers call it mindless eating."
+  },
+  {
+   "s": 27.68,
+   "e": 33.64,
+   "t": "And it's not just about missing out on enjoyment, is it? The sources suggest it can impact digestive health."
+  },
+  {
+   "s": 33.78,
+   "e": 42.76,
+   "t": "Correct. Especially when meals coincide with using screen-based media. The demands of contemporary life, well, they pull our attention in so many directions."
+  },
+  {
+   "s": 43.18,
+   "e": 46.08,
+   "t": "Turning a fundamental human need into almost an afterthought."
+  },
+  {
+   "s": 46.2,
+   "e": 46.68,
+   "t": "Precisely."
+  },
+  {
+   "s": 47.08,
+   "e": 53.68,
+   "t": "So, for this deep dive, we are exploring a truly innovative approach. One designed to, perhaps, revitalize the dining experience."
+  },
+  {
+   "s": 53.68,
+   "e": 59.04,
+   "t": "And involves integrating your own real-time physiological data directly with your food."
+  },
+  {
+   "s": 59.14,
+   "e": 68.14,
+   "t": "We'll be discussing the living bento and the remarkable research behind it presented at the CHI 25 conference. That's a premier venue for human-computer interaction research."
+  },
+  {
+   "s": 68.14,
+   "e": 77.9,
+   "t": "And our mission today is to explore how this works. How dinerically displaying a diner's heart rate through translucent food might foster more focused eating."
+  },
+  {
+   "s": 78.14,
+   "e": 82.1,
+   "t": "And maybe strengthen emotional connections with food, even enhance social dining."
+  },
+  {
+   "s": 82.1,
+   "e": 90.16,
+   "t": "That's the goal. Transforming a basic necessity into something potentially more immersive, more connective. A ritual, perhaps."
+  },
+  {
+   "s": 90.68,
+   "e": 93.48,
+   "t": "Okay, let's unpack this modern dining predicament first."
+  },
+  {
+   "s": 94.42,
+   "e": 101.02,
+   "t": "Philosophers have thought about this. Socrates, for instance, saw drinking as both satisfying a need and a source of pleasure."
+  },
+  {
+   "s": 101.1,
+   "e": 109.12,
+   "t": "And more recently, you have scholars such as Sarah E. Worth emphasizing the idea of savoring food for genuine gestatory pleasure."
+  },
+  {
+   "s": 109.38,
+   "e": 111.68,
+   "t": "Which feels quite different from how many of us eat today."
+  },
+  {
+   "s": 111.68,
+   "e": 115.84,
+   "t": "It stands in significant contrast. Our industrial drive for efficiency."
+  },
+  {
+   "s": 116.5,
+   "e": 122.18,
+   "t": "Wendell Berry called modern eating a degraded, poor, poultry thing. Kitchens becoming fueling stations."
+  },
+  {
+   "s": 122.54,
+   "e": 128.48,
+   "t": "That's a stark image. So if modern life pushes away from deliberate savoring, what are the specific consequences?"
+  },
+  {
+   "s": 128.8,
+   "e": 133.74,
+   "t": "Well, as mentioned, the sources highlight negative impacts on digestive health when eating while distracted by screens."
+  },
+  {
+   "s": 133.92,
+   "e": 137.34,
+   "t": "To counteract this, this idea of immersive dining has emerged."
+  },
+  {
+   "s": 137.34,
+   "e": 143.14,
+   "t": "Yes. Aiming to increase attention and pleasure from meals. We've seen various methods."
+  },
+  {
+   "s": 143.36,
+   "e": 149.18,
+   "t": "Such as things such as incorporating natural sounds with courses or using virtual reality for gastronomic experiences."
+  },
+  {
+   "s": 149.66,
+   "e": 153.48,
+   "t": "Some high-end restaurants use digital projections, complex soundscapes."
+  },
+  {
+   "s": 153.74,
+   "e": 156.94,
+   "t": "Establishments such as ultraviolet or sublimation come to mind."
+  },
+  {
+   "s": 156.94,
+   "e": 159.88,
+   "t": "Correct. But some of these approaches have limitations."
+  },
+  {
+   "s": 160.38,
+   "e": 160.92,
+   "t": "How so?"
+  },
+  {
+   "s": 161.16,
+   "e": 167.38,
+   "t": "Well, VR and AR applications used in mindful eating research can sometimes block the view of the actual food."
+  },
+  {
+   "s": 167.94,
+   "e": 172.96,
+   "t": "And many solutions are standalone systems, requiring significant changes in how people eat."
+  },
+  {
+   "s": 173.14,
+   "e": 180.08,
+   "t": "Which raises the question, how do you foster immersion without disrupting the meal itself or obscuring the food?"
+  },
+  {
+   "s": 180.08,
+   "e": 184.76,
+   "t": "And this is exactly where the living bento concept comes in. The research identified a gap."
+  },
+  {
+   "s": 185.04,
+   "e": 185.54,
+   "t": "Which was?"
+  },
+  {
+   "s": 185.74,
+   "e": 192.7,
+   "t": "A scarcity of methods focusing directly on the food itself and critically on the diner's own physiological states to enhance immersion."
+  },
+  {
+   "s": 193.08,
+   "e": 197.28,
+   "t": "So if traditional methods had drawbacks, what was the key idea here?"
+  },
+  {
+   "s": 197.44,
+   "e": 201.56,
+   "t": "The proposal was quite bold. Integrate biofeedback directly with the food."
+  },
+  {
+   "s": 201.84,
+   "e": 203.08,
+   "t": "Using what kind of biofeedback?"
+  },
+  {
+   "s": 204.2,
+   "e": 208.44,
+   "t": "Specifically, using the diner's heart rate to influence the food's appearance."
+  },
+  {
+   "s": 208.44,
+   "e": 213.64,
+   "t": "Biofeedback? With food? That does sound novel. How does it work in practice?"
+  },
+  {
+   "s": 214.44,
+   "e": 218.48,
+   "t": "The living bento is essentially a dining vessel. It uses LED lights."
+  },
+  {
+   "s": 218.92,
+   "e": 223.92,
+   "t": "And these lights dynamically display the diner's real-time heart rate through the transparency of the food."
+  },
+  {
+   "s": 224.12,
+   "e": 225.94,
+   "t": "Why the heart rate? Why not something else?"
+  },
+  {
+   "s": 226.14,
+   "e": 232.9,
+   "t": "The rationale is quite profound. Your heartbeat is largely unpredictable, difficult to consciously control."
+  },
+  {
+   "s": 233.38,
+   "e": 236.3,
+   "t": "This ensures a genuine physiological response is displayed."
+  },
+  {
+   "s": 236.3,
+   "e": 239.58,
+   "t": "So it keeps the focus on the actual experience of eating."
+  },
+  {
+   "s": 239.78,
+   "e": 247.34,
+   "t": "Precisely. It also aligns with concepts around anthropomorphized food, giving food human-like traits, which can deepen emotional connection."
+  },
+  {
+   "s": 247.5,
+   "e": 255.3,
+   "t": "The goal being to enhance that connection, promote focused eating, maybe even social eating, all while letting people use familiar tableware."
+  },
+  {
+   "s": 255.44,
+   "e": 260.12,
+   "t": "Yes, the sensors are integrated into the tableware, allowing users to maintain existing dining habits."
+  },
+  {
+   "s": 260.5,
+   "e": 263.98,
+   "t": "It's meant to be a seamless integration, bringing the inside out, you could say."
+  },
+  {
+   "s": 263.98,
+   "e": 268.76,
+   "t": "Okay, so how did they test this? Let's talk about user study one, individual immersion."
+  },
+  {
+   "s": 268.86,
+   "e": 275.44,
+   "t": "Right. The objective here was to see how this heartbeat-driven glowing food affected individual dining."
+  },
+  {
+   "s": 276.0,
+   "e": 279.62,
+   "t": "Looking at awareness, emotional connection, sensory appeal."
+  },
+  {
+   "s": 279.88,
+   "e": 280.9,
+   "t": "What did they use for food?"
+  },
+  {
+   "s": 281.12,
+   "e": 282.88,
+   "t": "They selected kudzu jelly noodles."
+  },
+  {
+   "s": 283.02,
+   "e": 283.88,
+   "t": "Kudzu noodles."
+  },
+  {
+   "s": 284.0,
+   "e": 287.66,
+   "t": "Yes, chosen for their translucent properties and their neutral taste and smell."
+  },
+  {
+   "s": 287.66,
+   "e": 290.98,
+   "t": "This helped isolate the effect of the visual stimulus."
+  },
+  {
+   "s": 291.2,
+   "e": 293.4,
+   "t": "Makes sense. And the visual conditions."
+  },
+  {
+   "s": 293.74,
+   "e": 297.02,
+   "t": "Three modes were tested. First, no illumination, that's the baseline."
+  },
+  {
+   "s": 297.42,
+   "e": 302.24,
+   "t": "Second, a randomly glowing mode. And third, the heartbeat-driven glowing mode."
+  },
+  {
+   "s": 302.42,
+   "e": 304.26,
+   "t": "How did the heartbeat mode look?"
+  },
+  {
+   "s": 304.4,
+   "e": 308.46,
+   "t": "The LED would brighten when a heartbeat was detected, then gradually dim."
+  },
+  {
+   "s": 308.86,
+   "e": 311.52,
+   "t": "A sort of pulsing effect synchronized to the individual."
+  },
+  {
+   "s": 311.7,
+   "e": 312.42,
+   "t": "And the participants."
+  },
+  {
+   "s": 312.42,
+   "e": 318.0,
+   "t": "Twenty-six participants. They dined in a dimly lit space, consuming a set amount of noodles in each condition."
+  },
+  {
+   "s": 318.54,
+   "e": 322.26,
+   "t": "Afterwards, they self-assessed their experience using a nine-point Likert scale."
+  },
+  {
+   "s": 322.34,
+   "e": 325.1,
+   "t": "A standard survey method for rating experiences."
+  },
+  {
+   "s": 325.38,
+   "e": 329.24,
+   "t": "Correct. Rating various aspects from not at all to extremely."
+  },
+  {
+   "s": 329.52,
+   "e": 332.76,
+   "t": "So what did the quantitative data show? The numbers."
+  },
+  {
+   "s": 333.2,
+   "e": 334.68,
+   "t": "The findings were quite pronounced."
+  },
+  {
+   "s": 335.46,
+   "e": 340.94,
+   "t": "The heartbeat-driven eliminations significantly boosted awareness and appreciation of the food's appearance."
+  },
+  {
+   "s": 340.94,
+   "e": 342.9,
+   "t": "So people noticed the food more."
+  },
+  {
+   "s": 343.18,
+   "e": 344.92,
+   "t": "Yes. And rated its appearance higher."
+  },
+  {
+   "s": 345.18,
+   "e": 350.26,
+   "t": "It also increased attentiveness to each bite, the perceived emotional influence of the food,"
+  },
+  {
+   "s": 350.62,
+   "e": 354.98,
+   "t": "its overall attractiveness, overall immersion, and the emotional bond felt with the food."
+  },
+  {
+   "s": 355.18,
+   "e": 357.88,
+   "t": "Compared to no light and compared to the random glow."
+  },
+  {
+   "s": 358.26,
+   "e": 362.2,
+   "t": "Yes. While the random glowing mode also improved some visual aspects,"
+  },
+  {
+   "s": 362.76,
+   "e": 366.5,
+   "t": "the heartbeat mode consistently scored higher across these key metrics."
+  },
+  {
+   "s": 366.74,
+   "e": 369.58,
+   "t": "Were there areas where it didn't show a significant improvement?"
+  },
+  {
+   "s": 369.58,
+   "e": 377.1,
+   "t": "There were. Notably, no significant improvement was seen for awareness of subtle flavors or for levels of relaxation."
+  },
+  {
+   "s": 378.06,
+   "e": 381.94,
+   "t": "Okay. What about the qualitative feedback, the participants' comments?"
+  },
+  {
+   "s": 382.3,
+   "e": 386.04,
+   "t": "They added a lot of nuance. Many participants reported heightened focus."
+  },
+  {
+   "s": 386.68,
+   "e": 390.92,
+   "t": "They found it easier to observe the food's appearance, and many perceived it as more attractive."
+  },
+  {
+   "s": 391.36,
+   "e": 392.52,
+   "t": "Any specific examples?"
+  },
+  {
+   "s": 392.8,
+   "e": 396.88,
+   "t": "One participant even noted their chewing frequency seemed to synchronize with the light flashes."
+  },
+  {
+   "s": 396.88,
+   "e": 399.36,
+   "t": "That's quite specific. What about emotions?"
+  },
+  {
+   "s": 400.04,
+   "e": 405.52,
+   "t": "The heartbeat mode was frequently described using words like comfortable, pleasant, relaxing,"
+  },
+  {
+   "s": 406.24,
+   "e": 408.04,
+   "t": "contributing to a greater sense of immersion."
+  },
+  {
+   "s": 408.12,
+   "e": 409.28,
+   "t": "And the random mode."
+  },
+  {
+   "s": 409.5,
+   "e": 414.86,
+   "t": "That elicited more mixed emotional responses. Some felt excitement. Others reported tension."
+  },
+  {
+   "s": 415.36,
+   "e": 417.34,
+   "t": "Less consistent than the heartbeat mode."
+  },
+  {
+   "s": 417.34,
+   "e": 420.82,
+   "t": "So the core finding from study one seems to be..."
+  },
+  {
+   "s": 420.82,
+   "e": 424.98,
+   "t": "That linking your own biological rhythm to the food doesn't just make it look different."
+  },
+  {
+   "s": 425.34,
+   "e": 430.12,
+   "t": "It seems to profoundly enhance your presence and emotional connection to the act of eating."
+  },
+  {
+   "s": 430.28,
+   "e": 432.74,
+   "t": "You feel the food more, in a way."
+  },
+  {
+   "s": 432.88,
+   "e": 437.68,
+   "t": "In a very literal sense. And the comments suggest it fostered a more deliberate engagement."
+  },
+  {
+   "s": 437.88,
+   "e": 439.2,
+   "t": "Did it affect eating speed?"
+  },
+  {
+   "s": 439.2,
+   "e": 442.66,
+   "t": "Some comments suggested faster random flickers could speed up eating."
+  },
+  {
+   "s": 443.44,
+   "e": 447.68,
+   "t": "The heartbeat mode, conversely, sometimes led to slower or deliberate consumption."
+  },
+  {
+   "s": 447.88,
+   "e": 451.2,
+   "t": "And flavor. You mentioned no significant quantitative change."
+  },
+  {
+   "s": 451.24,
+   "e": 456.14,
+   "t": "Correct. Most participants indicated minimal impact on taste perception from the lighting itself."
+  },
+  {
+   "s": 456.26,
+   "e": 458.06,
+   "t": "Was there any follow-up to confirm this?"
+  },
+  {
+   "s": 458.38,
+   "e": 461.04,
+   "t": "Yes. A subsequent study confirmed these findings."
+  },
+  {
+   "s": 461.68,
+   "e": 465.64,
+   "t": "It showed that real-time heartbeat patterns led to higher emotional influence ratings,"
+  },
+  {
+   "s": 465.64,
+   "e": 469.06,
+   "t": "compared to using pre-recorded, synthesized heartbeats."
+  },
+  {
+   "s": 469.2,
+   "e": 471.88,
+   "t": "So the authenticity matters. The life connection."
+  },
+  {
+   "s": 472.14,
+   "e": 473.32,
+   "t": "It appears crucial."
+  },
+  {
+   "s": 473.82,
+   "e": 477.86,
+   "t": "The genuine, unpredictable nature of one's own heartbeat seems key to the effect."
+  },
+  {
+   "s": 478.06,
+   "e": 480.12,
+   "t": "Okay. So that covers the individual experience."
+  },
+  {
+   "s": 480.5,
+   "e": 482.3,
+   "t": "But they also looked at social dining."
+  },
+  {
+   "s": 483.2,
+   "e": 485.04,
+   "t": "Commensal dining, as they term it."
+  },
+  {
+   "s": 485.14,
+   "e": 489.98,
+   "t": "Yes. User study two shifted focus entirely to that social dimension."
+  },
+  {
+   "s": 490.12,
+   "e": 491.0,
+   "t": "The objective being."
+  },
+  {
+   "s": 491.0,
+   "e": 497.16,
+   "t": "To explore how exchanging these glowing heartbeats between dining companions impacts the social experience."
+  },
+  {
+   "s": 497.16,
+   "e": 500.6,
+   "t": "I can picture that being revealing, depending on your dining partner."
+  },
+  {
+   "s": 500.76,
+   "e": 505.7,
+   "t": "Potentially, yes. The methodology involved 20 participants forming 10 pairs. They sat facing each other."
+  },
+  {
+   "s": 505.84,
+   "e": 507.12,
+   "t": "And how did the heartbeats work?"
+  },
+  {
+   "s": 507.38,
+   "e": 509.38,
+   "t": "Each person's food displayed their partner's heartbeat."
+  },
+  {
+   "s": 509.86,
+   "e": 513.94,
+   "t": "Brown sugar sauce was also available, just to simulate a more genuine dining scenario."
+  },
+  {
+   "s": 514.1,
+   "e": 515.9,
+   "t": "An assessment was through interviews."
+  },
+  {
+   "s": 516.04,
+   "e": 517.26,
+   "t": "Semi-structured interviews, yes."
+  },
+  {
+   "s": 517.26,
+   "e": 517.42,
+   "t": "Huh."
+  },
+  {
+   "s": 517.6,
+   "e": 521.1,
+   "t": "Exploring eating speed, emotions, feelings towards the companion, and so on."
+  },
+  {
+   "s": 521.1,
+   "e": 525.28,
+   "t": "What were the main themes that emerged from analyzing those interviews?"
+  },
+  {
+   "s": 525.72,
+   "e": 527.42,
+   "t": "Several powerful themes came through."
+  },
+  {
+   "s": 528.06,
+   "e": 531.4,
+   "t": "First, the sensory appeal of the glowing food was confirmed again."
+  },
+  {
+   "s": 532.1,
+   "e": 533.94,
+   "t": "Visually appealing, attention-grabbing."
+  },
+  {
+   "s": 534.14,
+   "e": 535.78,
+   "t": "But though, did everyone focus on the food?"
+  },
+  {
+   "s": 536.22,
+   "e": 537.56,
+   "t": "Or did they focus on their partner?"
+  },
+  {
+   "s": 537.92,
+   "e": 542.82,
+   "t": "Some participants did focus more on their companions, seeing the glow as just ambient light."
+  },
+  {
+   "s": 543.22,
+   "e": 548.12,
+   "t": "But others confirmed it enhanced their focus on the food, even while deep in conversation."
+  },
+  {
+   "s": 548.12,
+   "e": 550.82,
+   "t": "What about the interaction between people?"
+  },
+  {
+   "s": 551.36,
+   "e": 552.26,
+   "t": "This was a major theme."
+  },
+  {
+   "s": 552.7,
+   "e": 556.32,
+   "t": "The food acted as an additional channel for understanding the partner's emotions."
+  },
+  {
+   "s": 556.64,
+   "e": 558.24,
+   "t": "Because heartbeats are hard to fake."
+  },
+  {
+   "s": 558.36,
+   "e": 558.84,
+   "t": "Precisely."
+  },
+  {
+   "s": 559.36,
+   "e": 562.24,
+   "t": "They offer an extra, less guarded reference point."
+  },
+  {
+   "s": 562.64,
+   "e": 565.16,
+   "t": "Participants noticed heart rate changes during conversations."
+  },
+  {
+   "s": 565.98,
+   "e": 569.38,
+   "t": "Some even tried to influence their partner's heart rate through their interaction."
+  },
+  {
+   "s": 569.68,
+   "e": 572.24,
+   "t": "So people saw it as a natural communication medium."
+  },
+  {
+   "s": 572.36,
+   "e": 574.16,
+   "t": "It was widely perceived that way, yes."
+  },
+  {
+   "s": 574.44,
+   "e": 575.4,
+   "t": "Effective and natural."
+  },
+  {
+   "s": 575.4,
+   "e": 576.6,
+   "t": "That's quite remarkable."
+  },
+  {
+   "s": 576.6,
+   "e": 580.48,
+   "t": "Are heartbeats visible in food becoming a form of communication?"
+  },
+  {
+   "s": 580.78,
+   "e": 581.82,
+   "t": "An honest one, perhaps."
+  },
+  {
+   "s": 582.08,
+   "e": 584.08,
+   "t": "Which leads to the third key theme."
+  },
+  {
+   "s": 584.72,
+   "e": 586.64,
+   "t": "Sensory and emotional modulation."
+  },
+  {
+   "s": 587.0,
+   "e": 587.88,
+   "t": "What did that involve?"
+  },
+  {
+   "s": 588.22,
+   "e": 592.18,
+   "t": "The shared heartbeat glowing food seemed to deepen emotional connections."
+  },
+  {
+   "s": 592.88,
+   "e": 595.1,
+   "t": "It fostered intimacy, enhanced empathy."
+  },
+  {
+   "s": 595.36,
+   "e": 595.9,
+   "t": "How so?"
+  },
+  {
+   "s": 596.04,
+   "e": 600.18,
+   "t": "It apparently helped alleviate awkwardness, made conversations flow more easily."
+  },
+  {
+   "s": 600.98,
+   "e": 603.3,
+   "t": "Participants reported a whole range of emotions."
+  },
+  {
+   "s": 603.3,
+   "e": 606.8,
+   "t": "Romance, excitement, even nervousness."
+  },
+  {
+   "s": 606.8,
+   "e": 609.0,
+   "t": "Did it matter how well the partners knew each other?"
+  },
+  {
+   "s": 609.38,
+   "e": 610.1,
+   "t": "Very much so."
+  },
+  {
+   "s": 610.9,
+   "e": 615.66,
+   "t": "The level of familiarity between the dining partners significantly influenced the emotional impact."
+  },
+  {
+   "s": 615.82,
+   "e": 616.52,
+   "t": "Any other effect?"
+  },
+  {
+   "s": 616.7,
+   "e": 618.88,
+   "t": "It also seemed to increase dining motivation."
+  },
+  {
+   "s": 619.66,
+   "e": 622.4,
+   "t": "Even for foods, participants didn't particularly care for."
+  },
+  {
+   "s": 622.4,
+   "e": 628.46,
+   "t": "And it acted as a sort of proxy for the partner, which some felt alleviated feelings of loneliness."
+  },
+  {
+   "s": 628.78,
+   "e": 629.26,
+   "t": "Loneliness?"
+  },
+  {
+   "s": 629.72,
+   "e": 630.84,
+   "t": "Even when dining together?"
+  },
+  {
+   "s": 631.18,
+   "e": 636.76,
+   "t": "Well, perhaps enhancing the feeling of presence, making the connection feel stronger, more tangible through the food."
+  },
+  {
+   "s": 636.86,
+   "e": 638.22,
+   "t": "What about the novelty effect?"
+  },
+  {
+   "s": 638.42,
+   "e": 639.5,
+   "t": "Did it wear off?"
+  },
+  {
+   "s": 639.58,
+   "e": 640.44,
+   "t": "That was the fourth theme."
+  },
+  {
+   "s": 640.98,
+   "e": 641.86,
+   "t": "Awareness duration."
+  },
+  {
+   "s": 641.86,
+   "e": 649.22,
+   "t": "While it was initially novel, the effect of the glowing food tended to gradually become part of the ambient dining experience."
+  },
+  {
+   "s": 649.66,
+   "e": 650.26,
+   "t": "People adapted."
+  },
+  {
+   "s": 650.5,
+   "e": 653.12,
+   "t": "It became part of the background, but in a comfortable way."
+  },
+  {
+   "s": 653.38,
+   "e": 654.54,
+   "t": "That seems to be the case."
+  },
+  {
+   "s": 655.08,
+   "e": 659.28,
+   "t": "Participants adapted to the stable frequency once the initial novelty passed."
+  },
+  {
+   "s": 659.28,
+   "e": 665.3,
+   "t": "These studies certainly show significant potential, which led to the actual living bento prototype."
+  },
+  {
+   "s": 665.58,
+   "e": 665.9,
+   "t": "Correct."
+  },
+  {
+   "s": 666.4,
+   "e": 668.84,
+   "t": "The studies provided the grounding for its design."
+  },
+  {
+   "s": 669.08,
+   "e": 671.28,
+   "t": "So tell me, how did they actually build this?"
+  },
+  {
+   "s": 671.28,
+   "e": 675.04,
+   "t": "Making food glow with the heartbeat sounds technically challenging."
+  },
+  {
+   "s": 675.68,
+   "e": 677.76,
+   "t": "It involves careful mechanical design."
+  },
+  {
+   "s": 678.32,
+   "e": 682.12,
+   "t": "The living bento draws inspiration from the traditional Japanese jubako."
+  },
+  {
+   "s": 682.4,
+   "e": 683.76,
+   "t": "The multi-layered lunchbox."
+  },
+  {
+   "s": 683.86,
+   "e": 684.36,
+   "t": "Exactly."
+  },
+  {
+   "s": 684.82,
+   "e": 689.18,
+   "t": "That structure provides aesthetic concealment for the tech inside and protects it."
+  },
+  {
+   "s": 689.58,
+   "e": 690.6,
+   "t": "It has three main layers."
+  },
+  {
+   "s": 691.02,
+   "e": 694.28,
+   "t": "The device layer, an isolation layer, and the food layer on top."
+  },
+  {
+   "s": 694.48,
+   "e": 695.14,
+   "t": "And the LEDs."
+  },
+  {
+   "s": 695.58,
+   "e": 696.48,
+   "t": "How are they arranged?"
+  },
+  {
+   "s": 696.84,
+   "e": 697.5,
+   "t": "It's quite clever."
+  },
+  {
+   "s": 697.74,
+   "e": 699.92,
+   "t": "White LEDs are set in three concentric layers."
+  },
+  {
+   "s": 699.92,
+   "e": 704.22,
+   "t": "They light up sequentially based on heart rate zones, low, moderate, or high."
+  },
+  {
+   "s": 704.4,
+   "e": 707.42,
+   "t": "Creating a dynamic visual of the heart rate intensity."
+  },
+  {
+   "s": 707.52,
+   "e": 707.76,
+   "t": "Yes."
+  },
+  {
+   "s": 708.1,
+   "e": 711.24,
+   "t": "And the isolation layer between the device and the food is crucial."
+  },
+  {
+   "s": 711.46,
+   "e": 712.18,
+   "t": "It's double-layered."
+  },
+  {
+   "s": 712.26,
+   "e": 712.86,
+   "t": "Why double-layered?"
+  },
+  {
+   "s": 712.9,
+   "e": 718.46,
+   "t": "To ensure light transmits properly upwards, but also to prevent any liquid seeping down."
+  },
+  {
+   "s": 718.46,
+   "e": 726.2,
+   "t": "It has perforations to secure the food and also blocks light leakage from the sides, enhancing the glow effect within the food."
+  },
+  {
+   "s": 726.6,
+   "e": 727.6,
+   "t": "And the user experience."
+  },
+  {
+   "s": 727.7,
+   "e": 730.4,
+   "t": "You mentioned integrated sensors earlier to avoid disruption."
+  },
+  {
+   "s": 730.78,
+   "e": 731.04,
+   "t": "Yes."
+  },
+  {
+   "s": 731.28,
+   "e": 734.62,
+   "t": "Addressing feedback about inconvenient finger sensors from early tests."
+  },
+  {
+   "s": 735.42,
+   "e": 740.08,
+   "t": "A significant enhancement was integrating the pulse sensor directly into the chopsticks."
+  },
+  {
+   "s": 740.34,
+   "e": 741.38,
+   "t": "Into the chopsticks themselves."
+  },
+  {
+   "s": 741.38,
+   "e": 741.94,
+   "t": "Correct."
+  },
+  {
+   "s": 742.42,
+   "e": 747.6,
+   "t": "It leverages a familiar utensil for seamless, real-time heart rate monitoring while you're eating."
+  },
+  {
+   "s": 747.96,
+   "e": 749.68,
+   "t": "That is a thoughtful design choice."
+  },
+  {
+   "s": 750.12,
+   "e": 751.24,
+   "t": "What about placing the food?"
+  },
+  {
+   "s": 751.56,
+   "e": 755.56,
+   "t": "The food layer itself is designed as a customizable 10x10 grid."
+  },
+  {
+   "s": 755.68,
+   "e": 756.26,
+   "t": "A grid."
+  },
+  {
+   "s": 756.44,
+   "e": 756.68,
+   "t": "Yes."
+  },
+  {
+   "s": 757.0,
+   "e": 760.44,
+   "t": "It allows users to wheeze patterns with translucent ingredients."
+  },
+  {
+   "s": 760.64,
+   "e": 762.34,
+   "t": "Something like vermicelli, for instance."
+  },
+  {
+   "s": 762.58,
+   "e": 764.14,
+   "t": "Letting people get creative with it."
+  },
+  {
+   "s": 764.22,
+   "e": 764.62,
+   "t": "Exactly."
+  },
+  {
+   "s": 764.62,
+   "e": 768.72,
+   "t": "It reinforces what researchers call the self-prioritization effect."
+  },
+  {
+   "s": 769.3,
+   "e": 772.8,
+   "t": "Enabling personal customization makes the experience more meaningful."
+  },
+  {
+   "s": 773.24,
+   "e": 777.42,
+   "t": "Now, despite all this promise, the researchers themselves acknowledged limitations, didn't they?"
+  },
+  {
+   "s": 777.78,
+   "e": 778.28,
+   "t": "They did."
+  },
+  {
+   "s": 778.6,
+   "e": 779.66,
+   "t": "It's important to note them."
+  },
+  {
+   "s": 780.44,
+   "e": 785.0,
+   "t": "Generalizability is one the findings currently apply mainly to specific translucent foods."
+  },
+  {
+   "s": 785.84,
+   "e": 787.74,
+   "t": "More research is needed with different food types."
+  },
+  {
+   "s": 787.82,
+   "e": 788.6,
+   "t": "Sample sizes, too."
+  },
+  {
+   "s": 788.78,
+   "e": 789.04,
+   "t": "Yes."
+  },
+  {
+   "s": 789.04,
+   "e": 795.92,
+   "t": "The need for larger sample sizes in some studies, particularly the follow-up on real versus synthesized heartbeats, was noted."
+  },
+  {
+   "s": 796.12,
+   "e": 798.4,
+   "t": "And the influence of intimacy between partners."
+  },
+  {
+   "s": 798.8,
+   "e": 799.9,
+   "t": "That also became clear."
+  },
+  {
+   "s": 800.32,
+   "e": 804.3,
+   "t": "The effectiveness might vary depending on the existing relationship between diners."
+  },
+  {
+   "s": 804.56,
+   "e": 806.76,
+   "t": "There was also an ethical consideration mentioned."
+  },
+  {
+   "s": 806.9,
+   "e": 807.16,
+   "t": "Yes."
+  },
+  {
+   "s": 807.32,
+   "e": 808.04,
+   "t": "An important point."
+  },
+  {
+   "s": 808.46,
+   "e": 813.0,
+   "t": "The potential for unintended manipulation based on perceived emotional outcomes."
+  },
+  {
+   "s": 813.0,
+   "e": 823.08,
+   "t": "Since heartbeats convey unfiltered emotional cues, there's a need to consider power dynamics between dining partners in future studies, mitigating potential risks."
+  },
+  {
+   "s": 823.08,
+   "e": 826.46,
+   "t": "So acknowledging those limitations, what are the bigger design implications?"
+  },
+  {
+   "s": 826.7,
+   "e": 828.18,
+   "t": "Where could this technology lead?"
+  },
+  {
+   "s": 828.68,
+   "e": 830.04,
+   "t": "The implications are quite compelling."
+  },
+  {
+   "s": 830.5,
+   "e": 835.16,
+   "t": "The sharing biosync food aspect holds potential for bridging cultural divides."
+  },
+  {
+   "s": 835.16,
+   "e": 845.16,
+   "t": "By fostering connections between individuals who don't know each other well, perhaps alleviating barriers between diverse cultures through this shared embodied experience."
+  },
+  {
+   "s": 846.0,
+   "e": 847.6,
+   "t": "And you mentioned remote dining earlier."
+  },
+  {
+   "s": 847.88,
+   "e": 848.02,
+   "t": "Yes."
+  },
+  {
+   "s": 848.12,
+   "e": 849.86,
+   "t": "It presents a novel direction there."
+  },
+  {
+   "s": 850.44,
+   "e": 855.16,
+   "t": "Participants felt it provided companionship, reducing loneliness when dining remotely."
+  },
+  {
+   "s": 855.84,
+   "e": 859.42,
+   "t": "Seeing their partner's heartbeat in their food created a sense of presence."
+  },
+  {
+   "s": 859.58,
+   "e": 861.54,
+   "t": "A feeling that their companion was nearby."
+  },
+  {
+   "s": 862.18,
+   "e": 862.82,
+   "t": "Exactly."
+  },
+  {
+   "s": 862.82,
+   "e": 869.38,
+   "t": "Beyond dining, the broader application of heartbeat-driven interaction could extend to other areas."
+  },
+  {
+   "s": 869.52,
+   "e": 869.9,
+   "t": "Such as?"
+  },
+  {
+   "s": 870.18,
+   "e": 877.2,
+   "t": "Enhancing emotional modulation, well-being, perhaps in stress management tools, or even collaborative work settings."
+  },
+  {
+   "s": 877.34,
+   "e": 878.8,
+   "t": "And future technical developments."
+  },
+  {
+   "s": 878.98,
+   "e": 887.3,
+   "t": "Future work includes creating wireless versions of a living bento, making it more practical, and exploring other convenient utensil forms to improve generalizability."
+  },
+  {
+   "s": 887.3,
+   "e": 896.08,
+   "t": "So, to summarize this deep dive, we've looked at considerable evidence suggesting that heartbeat-driven glowing food can enhance dining in various ways."
+  },
+  {
+   "s": 896.44,
+   "e": 899.16,
+   "t": "Addressing mindless eating, strengthening that human food relationship."
+  },
+  {
+   "s": 899.66,
+   "e": 906.3,
+   "t": "The living bento prototype really embodies this concept of, well, eating glowing heartbeats in a real-world setting."
+  },
+  {
+   "s": 906.64,
+   "e": 910.4,
+   "t": "Jean-Anthelme Briassavarin, the famous gastronome, once said,"
+  },
+  {
+   "s": 910.8,
+   "e": 913.56,
+   "t": "Tell me what you eat, and I shall tell you what you are."
+  },
+  {
+   "s": 913.64,
+   "e": 915.62,
+   "t": "A classic statement on identity in food."
+  },
+  {
+   "s": 915.62,
+   "e": 917.08,
+   "t": "So we leave you with this thought."
+  },
+  {
+   "s": 917.58,
+   "e": 926.1,
+   "t": "How might this very physical embodiment of our internal state in our food becoming, quite literally, what we eat, reshape our relationship with sustenance?"
+  },
+  {
+   "s": 926.46,
+   "e": 932.14,
+   "t": "And perhaps reshape our relationship with each other, fostering deeper connections that extend far beyond the plate."
+  },
+  {
+   "s": 932.14,
+   "e": 935.98,
+   "t": "How might this guide with respect to these consumers?"
+  },
+  {
+   "s": 936.1,
+   "e": 939.82,
+   "t": "How might this guide at home by remaining Covid-19 coverings in our food jak 23 hours in its phones?"
+  },
+  {
+   "s": 940.02,
+   "e": 942.52,
+   "t": "How might this guide get through that journey in order to prevent smell as well?"
+  },
+  {
+   "s": 942.92,
+   "e": 946.02,
+   "t": "How might this guide get through that journey in order to prevent damage from light using services in our products to appreciate that they need to provide control of our bodies?"
+  },
+  {
+   "s": 946.26,
+   "e": 948.32,
+   "t": "How might this guide get through that purpose of development's powers that certainly create with reference means that if we use this guide in order to achieve our awareness of better patterns in light using text problems in light light by 지금 in order to affect our factory core homes that will address our lighting needs to enjoy our lighting works to allow longerreens how many units ofalaண Top colors on power supply chain products of creating culture that did take care about experiencen health threat program for equipment we actually took place for healthy memories of Here if we use this guide onм variation with mic website really welcome back into vision that take care but also mentioned information about natural interaction call"
+  }
+ ]
+}

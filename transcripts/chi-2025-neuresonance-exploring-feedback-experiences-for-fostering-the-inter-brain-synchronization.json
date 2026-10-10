@@ -1,0 +1,2110 @@
+{
+ "guid": "deephci.podbean.com/16280dc2-dc06-3995-ba42-90e1daa5d444",
+ "slug": "chi-2025-neuresonance-exploring-feedback-experiences-for-fostering-the-inter-brain-synchronization",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "NeuResonance_Feedback_for_Inter-brain_Synchronizationapwd9.mp3",
+  "version": 1
+ },
+ "duration": 1065,
+ "word_count": 3070,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 3.82,
+   "t": "Ever been so perfectly aligned with someone you know, a friend, finishing your sentence?"
+  },
+  {
+   "s": 4.26,
+   "e": 6.44,
+   "t": "Or maybe a bandmate hitting the exact same note."
+  },
+  {
+   "s": 6.46,
+   "e": 7.32,
+   "t": "Oh, yeah, absolutely."
+  },
+  {
+   "s": 7.46,
+   "e": 10.26,
+   "t": "Or like teammates just moving in perfect sync on the field."
+  },
+  {
+   "s": 10.38,
+   "e": 11.42,
+   "t": "Exactly, that feeling."
+  },
+  {
+   "s": 11.6,
+   "e": 14.66,
+   "t": "It's almost like your brains are literally connected, right?"
+  },
+  {
+   "s": 14.82,
+   "e": 15.16,
+   "t": "Oh."
+  },
+  {
+   "s": 15.54,
+   "e": 19.8,
+   "t": "Well, science is increasingly showing that's not just a feeling."
+  },
+  {
+   "s": 20.14,
+   "e": 21.52,
+   "t": "It's actually measurable."
+  },
+  {
+   "s": 21.8,
+   "e": 22.16,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 23.52,
+   "e": 24.9,
+   "t": "Welcome to the deep dive."
+  },
+  {
+   "s": 25.02,
+   "e": 27.94,
+   "t": "Today we're not just talking about being on the same wavelength."
+  },
+  {
+   "s": 27.94,
+   "e": 34.32,
+   "t": "We're really diving into the science of interbrain synchronization, IBS for short."
+  },
+  {
+   "s": 34.38,
+   "e": 34.88,
+   "t": "Oh, right."
+  },
+  {
+   "s": 35.18,
+   "e": 40.2,
+   "t": "And specifically how new technology is trying to, well, maybe amplify that connection."
+  },
+  {
+   "s": 40.34,
+   "e": 43.64,
+   "t": "For this deep dive, we've really zeroed in on a specific research paper."
+  },
+  {
+   "s": 44.22,
+   "e": 45.26,
+   "t": "Pretty groundbreaking stuff."
+  },
+  {
+   "s": 45.36,
+   "e": 50.44,
+   "t": "Yeah, it's called NERR Resonance, exploring feedback experiences for fostering the interbrain synchronization."
+  },
+  {
+   "s": 50.72,
+   "e": 53.7,
+   "t": "Comes from researchers at the University of Maryland and Texas A&M."
+  },
+  {
+   "s": 54.22,
+   "e": 55.22,
+   "t": "So our mission today?"
+  },
+  {
+   "s": 55.34,
+   "e": 55.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 55.58,
+   "e": 57.52,
+   "t": "Figure out what IBS actually is."
+  },
+  {
+   "s": 57.52,
+   "e": 62.94,
+   "t": "And then how these scientists tried to boost it using different kinds of feedback, like visual, audio, even touch."
+  },
+  {
+   "s": 63.18,
+   "e": 65.46,
+   "t": "And crucially, what could this all mean?"
+  },
+  {
+   "s": 65.82,
+   "e": 69.56,
+   "t": "For teamwork, communication, maybe even physical therapy."
+  },
+  {
+   "s": 69.76,
+   "e": 70.58,
+   "t": "That's the plan."
+  },
+  {
+   "s": 71.0,
+   "e": 78.74,
+   "t": "So the big question we're tackling is, can we genuinely get a shortcut to being in sync with someone?"
+  },
+  {
+   "s": 78.96,
+   "e": 81.32,
+   "t": "And, you know, if we can, which way works best?"
+  },
+  {
+   "s": 82.1,
+   "e": 84.7,
+   "t": "Visual, audio, haptic."
+  },
+  {
+   "s": 84.7,
+   "e": 87.14,
+   "t": "The answers might actually surprise you."
+  },
+  {
+   "s": 87.22,
+   "e": 87.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 87.7,
+   "e": 87.96,
+   "t": "Okay."
+  },
+  {
+   "s": 88.18,
+   "e": 89.5,
+   "t": "Let's get into it."
+  },
+  {
+   "s": 89.58,
+   "e": 90.0,
+   "t": "Let's do it."
+  },
+  {
+   "s": 90.0,
+   "e": 92.12,
+   "t": "So interbrain synchronization."
+  },
+  {
+   "s": 92.68,
+   "e": 93.2,
+   "t": "IBS."
+  },
+  {
+   "s": 93.86,
+   "e": 98.24,
+   "t": "When we talk about this phenomenon, what exactly are we talking about?"
+  },
+  {
+   "s": 98.3,
+   "e": 100.38,
+   "t": "Are our brains literally syncing up?"
+  },
+  {
+   "s": 100.68,
+   "e": 101.64,
+   "t": "Yeah, pretty much."
+  },
+  {
+   "s": 101.76,
+   "e": 107.66,
+   "t": "When people work together on something, a shared task, their brain activity patterns often start to mirror each other."
+  },
+  {
+   "s": 107.74,
+   "e": 108.46,
+   "t": "They synchronize."
+  },
+  {
+   "s": 108.46,
+   "e": 108.82,
+   "t": "Wow."
+  },
+  {
+   "s": 109.06,
+   "e": 111.62,
+   "t": "And it's not just, you know, a coincidence or some kind of metaphor."
+  },
+  {
+   "s": 111.88,
+   "e": 113.66,
+   "t": "It's a real measurable neural thing."
+  },
+  {
+   "s": 113.78,
+   "e": 117.78,
+   "t": "We've seen these shared patterns in, well, all sorts of cooperative activities."
+  },
+  {
+   "s": 117.94,
+   "e": 119.4,
+   "t": "Like what kind of activities show this?"
+  },
+  {
+   "s": 119.48,
+   "e": 122.48,
+   "t": "My mind jumps to musicians playing together, obviously."
+  },
+  {
+   "s": 122.7,
+   "e": 122.88,
+   "t": "Sure."
+  },
+  {
+   "s": 122.94,
+   "e": 124.28,
+   "t": "Musicians are a classic example."
+  },
+  {
+   "s": 124.62,
+   "e": 125.86,
+   "t": "But it's actually much broader."
+  },
+  {
+   "s": 126.22,
+   "e": 128.58,
+   "t": "Studies have seen it when people watch the same movie together."
+  },
+  {
+   "s": 128.68,
+   "e": 128.82,
+   "t": "Oh."
+  },
+  {
+   "s": 128.82,
+   "e": 129.34,
+   "t": "Yeah."
+  },
+  {
+   "s": 129.54,
+   "e": 137.9,
+   "t": "Or perform coordinated hand gestures, play online games together, even simple things like just holding hands or working on a puzzle together."
+  },
+  {
+   "s": 138.1,
+   "e": 141.3,
+   "t": "Or I think I read collaboratively typing something."
+  },
+  {
+   "s": 141.38,
+   "e": 141.94,
+   "t": "Exactly."
+  },
+  {
+   "s": 142.34,
+   "e": 144.06,
+   "t": "Collaboratively typing passages."
+  },
+  {
+   "s": 144.4,
+   "e": 150.82,
+   "t": "It really shows how our brains kind of automatically try to find a rhythm with another person when we're focused on the same goal."
+  },
+  {
+   "s": 151.06,
+   "e": 152.08,
+   "t": "That's pretty amazing."
+  },
+  {
+   "s": 152.44,
+   "e": 153.9,
+   "t": "But, okay, why does it matter?"
+  },
+  {
+   "s": 153.9,
+   "e": 159.86,
+   "t": "Is it just a cool scientific observation or does this brain sync actually have an impact?"
+  },
+  {
+   "s": 160.1,
+   "e": 161.26,
+   "t": "Oh, it definitely has an impact."
+  },
+  {
+   "s": 161.4,
+   "e": 163.14,
+   "t": "This is where it gets really interesting, I think."
+  },
+  {
+   "s": 164.0,
+   "e": 167.96,
+   "t": "Past research shows pretty clearly that IBS isn't just happening in the background."
+  },
+  {
+   "s": 168.14,
+   "e": 171.54,
+   "t": "It's deeply connected to positive social stuff."
+  },
+  {
+   "s": 171.9,
+   "e": 172.74,
+   "t": "Positive social stuff."
+  },
+  {
+   "s": 172.88,
+   "e": 173.08,
+   "t": "Like what?"
+  },
+  {
+   "s": 173.14,
+   "e": 176.82,
+   "t": "Like stronger feelings of closeness, trust between people, even empathy."
+  },
+  {
+   "s": 177.08,
+   "e": 180.68,
+   "t": "It seems to foster what researchers call behavioral coordination."
+  },
+  {
+   "s": 180.78,
+   "e": 181.02,
+   "t": "Okay."
+  },
+  {
+   "s": 181.08,
+   "e": 182.32,
+   "t": "Like moving together smoothly."
+  },
+  {
+   "s": 182.32,
+   "e": 182.74,
+   "t": "Exactly."
+  },
+  {
+   "s": 182.74,
+   "e": 184.46,
+   "t": "Think of dancers or rowers."
+  },
+  {
+   "s": 184.64,
+   "e": 187.52,
+   "t": "And it boosts the sense of joint agency."
+  },
+  {
+   "s": 187.86,
+   "e": 191.18,
+   "t": "That feeling of we're doing this together as a single unit."
+  },
+  {
+   "s": 191.26,
+   "e": 191.46,
+   "t": "Right."
+  },
+  {
+   "s": 191.54,
+   "e": 192.08,
+   "t": "That we're feeling."
+  },
+  {
+   "s": 192.48,
+   "e": 197.3,
+   "t": "And being able to measure this sync, it might even help predict how well a collaboration will go."
+  },
+  {
+   "s": 197.38,
+   "e": 200.76,
+   "t": "It helps us understand those, you know, subjective parts of working together."
+  },
+  {
+   "s": 200.92,
+   "e": 201.08,
+   "t": "Okay."
+  },
+  {
+   "s": 201.16,
+   "e": 202.82,
+   "t": "So brain sync is definitely a good thing."
+  },
+  {
+   "s": 203.18,
+   "e": 203.76,
+   "t": "Makes sense."
+  },
+  {
+   "s": 204.48,
+   "e": 206.56,
+   "t": "Which naturally leads to the next question."
+  },
+  {
+   "s": 206.72,
+   "e": 206.96,
+   "t": "Yeah."
+  },
+  {
+   "s": 207.42,
+   "e": 210.22,
+   "t": "Can we, like, make it happen more?"
+  },
+  {
+   "s": 210.56,
+   "e": 211.62,
+   "t": "Can we boost it?"
+  },
+  {
+   "s": 211.62,
+   "e": 212.62,
+   "t": "Oh, yes."
+  },
+  {
+   "s": 212.62,
+   "e": 213.3,
+   "t": "Yes."
+  },
+  {
+   "s": 213.34,
+   "e": 218.54,
+   "t": "Especially using ways that, you know, everyday people could potentially access, not just lab equipment."
+  },
+  {
+   "s": 218.74,
+   "e": 222.74,
+   "t": "That is precisely the big question this new resonance paper dives into."
+  },
+  {
+   "s": 223.24,
+   "e": 228.14,
+   "t": "We've known for a while that IBS correlates with good outcomes, but actively enhancing it."
+  },
+  {
+   "s": 228.26,
+   "e": 230.24,
+   "t": "That's been relatively unexplored territory."
+  },
+  {
+   "s": 230.46,
+   "e": 231.54,
+   "t": "Especially with external feedback."
+  },
+  {
+   "s": 231.54,
+   "e": 231.94,
+   "t": "Exactly."
+  },
+  {
+   "s": 232.22,
+   "e": 236.96,
+   "t": "There's been some work using things like magnetic brain stimulation, which is not exactly user-friendly."
+  },
+  {
+   "s": 237.2,
+   "e": 237.58,
+   "t": "No kidding."
+  },
+  {
+   "s": 237.7,
+   "e": 242.12,
+   "t": "So this study focused on things like visuals, sounds, vibrations, much more accessible."
+  },
+  {
+   "s": 242.52,
+   "e": 245.6,
+   "t": "So if we could reliably strengthen this sync with feedback."
+  },
+  {
+   "s": 245.84,
+   "e": 246.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 246.96,
+   "e": 247.32,
+   "t": "Wow."
+  },
+  {
+   "s": 247.96,
+   "e": 249.46,
+   "t": "What are the potential implications there?"
+  },
+  {
+   "s": 249.52,
+   "e": 250.5,
+   "t": "Oh, that could be huge."
+  },
+  {
+   "s": 250.74,
+   "e": 251.3,
+   "t": "Really huge."
+  },
+  {
+   "s": 251.3,
+   "e": 255.58,
+   "t": "It could lead to totally new ways of working together in teams, creating synergies that maybe"
+  },
+  {
+   "s": 255.58,
+   "e": 257.62,
+   "t": "go beyond what individuals can do alone."
+  },
+  {
+   "s": 258.04,
+   "e": 261.52,
+   "t": "Think about education students tackling complex problems together."
+  },
+  {
+   "s": 261.96,
+   "e": 266.02,
+   "t": "Or in companies, improving teamwork and communication."
+  },
+  {
+   "s": 266.38,
+   "e": 267.14,
+   "t": "Or even therapy."
+  },
+  {
+   "s": 267.3,
+   "e": 268.14,
+   "t": "You mentioned that earlier."
+  },
+  {
+   "s": 268.4,
+   "e": 269.4,
+   "t": "Yes, definitely."
+  },
+  {
+   "s": 269.62,
+   "e": 275.04,
+   "t": "Imagine strengthening the connection, the rapport between a therapist and a patient."
+  },
+  {
+   "s": 275.04,
+   "e": 278.46,
+   "t": "It could really open up some new possibilities for connection and collaboration."
+  },
+  {
+   "s": 278.46,
+   "e": 279.14,
+   "t": "Okay."
+  },
+  {
+   "s": 279.3,
+   "e": 280.14,
+   "t": "So that's the potential."
+  },
+  {
+   "s": 280.34,
+   "e": 282.26,
+   "t": "Let's get into the experiment itself."
+  },
+  {
+   "s": 282.98,
+   "e": 283.42,
+   "t": "New resonance."
+  },
+  {
+   "s": 283.76,
+   "e": 286.88,
+   "t": "How did they actually try to sync people's brains?"
+  },
+  {
+   "s": 287.0,
+   "e": 288.24,
+   "t": "What was their main hypothesis?"
+  },
+  {
+   "s": 288.82,
+   "e": 294.24,
+   "t": "Well, their central idea, their hypothesis was basically, if we give people real-time feedback"
+  },
+  {
+   "s": 294.24,
+   "e": 300.16,
+   "t": "about how in sync their brains are using visual, sound, or touch, will that feedback itself"
+  },
+  {
+   "s": 300.16,
+   "e": 301.86,
+   "t": "increase the level of synchrony?"
+  },
+  {
+   "s": 301.98,
+   "e": 306.28,
+   "t": "So can these external cues actively push the brains to sync up more?"
+  },
+  {
+   "s": 306.5,
+   "e": 308.4,
+   "t": "That's the core question they wanted to answer."
+  },
+  {
+   "s": 308.46,
+   "e": 310.54,
+   "t": "And measuring brain zinc in real time."
+  },
+  {
+   "s": 311.46,
+   "e": 312.62,
+   "t": "That sounds incredibly difficult."
+  },
+  {
+   "s": 312.72,
+   "e": 313.52,
+   "t": "How do they pull that off?"
+  },
+  {
+   "s": 313.54,
+   "e": 314.48,
+   "t": "It is complex, yeah."
+  },
+  {
+   "s": 314.56,
+   "e": 315.84,
+   "t": "But they had a pretty smart setup."
+  },
+  {
+   "s": 315.96,
+   "e": 317.22,
+   "t": "They used dual EG."
+  },
+  {
+   "s": 317.48,
+   "e": 318.96,
+   "t": "EG, like the caps with electrodes."
+  },
+  {
+   "s": 319.5,
+   "e": 319.94,
+   "t": "Exactly."
+  },
+  {
+   "s": 320.16,
+   "e": 321.18,
+   "t": "Electroencephalography."
+  },
+  {
+   "s": 321.94,
+   "e": 323.64,
+   "t": "Reading the brain's electrical activity."
+  },
+  {
+   "s": 324.18,
+   "e": 330.36,
+   "t": "They used these specific headsets, Emotive Epoxy X, on two participants at the same time."
+  },
+  {
+   "s": 330.36,
+   "e": 330.76,
+   "t": "Okay."
+  },
+  {
+   "s": 330.92,
+   "e": 333.76,
+   "t": "And to make sure the signals were clean, because people move, right?"
+  },
+  {
+   "s": 334.7,
+   "e": 337.32,
+   "t": "They used a Vicon motion capture system."
+  },
+  {
+   "s": 337.46,
+   "e": 337.7,
+   "t": "Ah."
+  },
+  {
+   "s": 337.82,
+   "e": 338.8,
+   "t": "Like for movie CGI?"
+  },
+  {
+   "s": 339.14,
+   "e": 339.82,
+   "t": "Kind of, yeah."
+  },
+  {
+   "s": 340.04,
+   "e": 343.32,
+   "t": "It helped remove the noise from physical movements, so they were getting cleaner brain"
+  },
+  {
+   "s": 343.32,
+   "e": 343.64,
+   "t": "data."
+  },
+  {
+   "s": 344.0,
+   "e": 344.3,
+   "t": "Clever."
+  },
+  {
+   "s": 344.76,
+   "e": 347.6,
+   "t": "And then how did they calculate the actual sync level?"
+  },
+  {
+   "s": 347.76,
+   "e": 352.06,
+   "t": "They used a measure called the Circular Correlation Coefficient, or C-Core."
+  },
+  {
+   "s": 352.06,
+   "e": 357.26,
+   "t": "You can think of it as a way to measure how well the phases of the brainwaves from the two"
+  },
+  {
+   "s": 357.26,
+   "e": 358.04,
+   "t": "people line up."
+  },
+  {
+   "s": 358.12,
+   "e": 358.72,
+   "t": "Phase angles."
+  },
+  {
+   "s": 359.02,
+   "e": 360.52,
+   "t": "Like the peaks and troughs matching up."
+  },
+  {
+   "s": 360.58,
+   "e": 361.06,
+   "t": "Precisely."
+  },
+  {
+   "s": 361.3,
+   "e": 366.42,
+   "t": "A higher C-Core value, closer to one, meant the brainwaves were more aligned, more in sync,"
+  },
+  {
+   "s": 366.72,
+   "e": 368.0,
+   "t": "and the system was pretty fast."
+  },
+  {
+   "s": 368.08,
+   "e": 371.6,
+   "t": "It could calculate and output a new C-Core value every one and a half seconds."
+  },
+  {
+   "s": 371.76,
+   "e": 371.98,
+   "t": "Wow."
+  },
+  {
+   "s": 372.34,
+   "e": 373.16,
+   "t": "New real time, then."
+  },
+  {
+   "s": 373.5,
+   "e": 375.22,
+   "t": "So they've got this number representing sync."
+  },
+  {
+   "s": 375.94,
+   "e": 379.14,
+   "t": "How did they turn that into feedback people could actually perceive?"
+  },
+  {
+   "s": 379.6,
+   "e": 379.8,
+   "t": "Right."
+  },
+  {
+   "s": 379.86,
+   "e": 380.96,
+   "t": "That was the next challenge."
+  },
+  {
+   "s": 380.96,
+   "e": 386.94,
+   "t": "They designed three different feedback systems, all dynamically changing based on that C-Core"
+  },
+  {
+   "s": 386.94,
+   "e": 389.08,
+   "t": "score with five levels of intensity."
+  },
+  {
+   "s": 389.22,
+   "e": 389.36,
+   "t": "Okay."
+  },
+  {
+   "s": 389.46,
+   "e": 390.12,
+   "t": "What was the first one?"
+  },
+  {
+   "s": 390.62,
+   "e": 391.02,
+   "t": "Visual."
+  },
+  {
+   "s": 391.24,
+   "e": 391.44,
+   "t": "Yep."
+  },
+  {
+   "s": 391.56,
+   "e": 392.14,
+   "t": "Visual feedback."
+  },
+  {
+   "s": 392.58,
+   "e": 394.44,
+   "t": "They used projection mapping for this."
+  },
+  {
+   "s": 394.94,
+   "e": 400.0,
+   "t": "They projected an abstract image, an oscillating orange circle directly onto the participants'"
+  },
+  {
+   "s": 400.24,
+   "e": 400.52,
+   "t": "bodies."
+  },
+  {
+   "s": 400.66,
+   "e": 401.58,
+   "t": "Onto their bodies."
+  },
+  {
+   "s": 402.14,
+   "e": 402.56,
+   "t": "Interesting."
+  },
+  {
+   "s": 402.7,
+   "e": 403.36,
+   "t": "How did it work?"
+  },
+  {
+   "s": 403.36,
+   "e": 410.04,
+   "t": "The idea was, as the IBS, the brain sync, increased, the wobbling or oscillation of that"
+  },
+  {
+   "s": 410.04,
+   "e": 411.56,
+   "t": "orange circle decreased."
+  },
+  {
+   "s": 412.06,
+   "e": 412.28,
+   "t": "Ah."
+  },
+  {
+   "s": 412.4,
+   "e": 414.36,
+   "t": "So more sync meant a calmer circle."
+  },
+  {
+   "s": 414.44,
+   "e": 414.88,
+   "t": "Exactly."
+  },
+  {
+   "s": 415.26,
+   "e": 418.86,
+   "t": "The goal was a perfectly still circle when they were at maximum synchrony."
+  },
+  {
+   "s": 418.98,
+   "e": 423.08,
+   "t": "It was designed to be, you know, spatially there with them and hopefully not require too"
+  },
+  {
+   "s": 423.08,
+   "e": 424.5,
+   "t": "much mental effort to understand."
+  },
+  {
+   "s": 424.64,
+   "e": 424.82,
+   "t": "Okay."
+  },
+  {
+   "s": 424.92,
+   "e": 425.9,
+   "t": "Sounds fairly intuitive."
+  },
+  {
+   "s": 426.02,
+   "e": 428.28,
+   "t": "Like a visual gauge for calmness or alignment."
+  },
+  {
+   "s": 428.58,
+   "e": 429.38,
+   "t": "What about the sound?"
+  },
+  {
+   "s": 429.38,
+   "e": 430.98,
+   "t": "How do you make brain sync audible?"
+  },
+  {
+   "s": 431.26,
+   "e": 436.28,
+   "t": "For the auditory feedback, they mapped the IBS score to the pitch, the frequency of one"
+  },
+  {
+   "s": 436.28,
+   "e": 437.58,
+   "t": "note within a musical chord."
+  },
+  {
+   "s": 437.76,
+   "e": 438.16,
+   "t": "A chord."
+  },
+  {
+   "s": 438.38,
+   "e": 438.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 438.92,
+   "e": 442.56,
+   "t": "They used a major triad, typically a stable, pleasant sound."
+  },
+  {
+   "s": 443.14,
+   "e": 445.88,
+   "t": "Two notes of the chord stayed the same, the root and the fifth."
+  },
+  {
+   "s": 446.42,
+   "e": 450.44,
+   "t": "But the middle note, its pitch would shift based on the sync level."
+  },
+  {
+   "s": 450.72,
+   "e": 452.14,
+   "t": "So if you were out of sync."
+  },
+  {
+   "s": 452.14,
+   "e": 457.04,
+   "t": "If your synchrony dropped, the frequency of that middle note would decrease slightly, just"
+  },
+  {
+   "s": 457.04,
+   "e": 459.46,
+   "t": "a 5% shift for one level down."
+  },
+  {
+   "s": 459.74,
+   "e": 463.54,
+   "t": "This made the chord sound a bit off, less harmonious."
+  },
+  {
+   "s": 463.74,
+   "e": 464.0,
+   "t": "Hmm."
+  },
+  {
+   "s": 464.26,
+   "e": 467.2,
+   "t": "Like instruments tuning, but maybe going out of tune if you weren't synced."
+  },
+  {
+   "s": 467.36,
+   "e": 468.1,
+   "t": "Kind of like that."
+  },
+  {
+   "s": 468.16,
+   "e": 468.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 468.6,
+   "e": 472.26,
+   "t": "The idea was to guide people using relative pitch, even if they weren't musicians."
+  },
+  {
+   "s": 472.26,
+   "e": 473.82,
+   "t": "It was played through stereo speakers."
+  },
+  {
+   "s": 474.04,
+   "e": 475.04,
+   "t": "But yeah, the question remained."
+  },
+  {
+   "s": 475.56,
+   "e": 477.94,
+   "t": "How easy is that for non-musicians to pick up on?"
+  },
+  {
+   "s": 478.12,
+   "e": 478.72,
+   "t": "Good question."
+  },
+  {
+   "s": 478.86,
+   "e": 479.02,
+   "t": "Okay."
+  },
+  {
+   "s": 479.14,
+   "e": 480.8,
+   "t": "Visual auditory was the third one."
+  },
+  {
+   "s": 480.98,
+   "e": 481.36,
+   "t": "Haptic."
+  },
+  {
+   "s": 481.36,
+   "e": 482.56,
+   "t": "Haptic feedback, yes."
+  },
+  {
+   "s": 482.82,
+   "e": 486.32,
+   "t": "Using vibration, they had participants wear vibration bands on their wrists."
+  },
+  {
+   "s": 486.36,
+   "e": 487.4,
+   "t": "Like a smartwatch vibrating."
+  },
+  {
+   "s": 487.66,
+   "e": 488.28,
+   "t": "Sort of, yeah."
+  },
+  {
+   "s": 488.8,
+   "e": 491.6,
+   "t": "The feedback here was based on rhythm and intensity."
+  },
+  {
+   "s": 492.18,
+   "e": 497.56,
+   "t": "Lower synchrony, more dissonance meant faster beats per minute, faster pulsing, and stronger"
+  },
+  {
+   "s": 497.56,
+   "e": 498.08,
+   "t": "vibration."
+  },
+  {
+   "s": 498.28,
+   "e": 499.1,
+   "t": "And higher synchrony."
+  },
+  {
+   "s": 499.18,
+   "e": 501.84,
+   "t": "Higher synchrony meant slower, gentler vibrations."
+  },
+  {
+   "s": 502.48,
+   "e": 504.2,
+   "t": "Slower BPM, lower intensity."
+  },
+  {
+   "s": 504.42,
+   "e": 506.72,
+   "t": "What's interesting about haptics, does it have advantages?"
+  },
+  {
+   "s": 507.02,
+   "e": 508.64,
+   "t": "Well, one big advantage is speed."
+  },
+  {
+   "s": 508.64,
+   "e": 512.76,
+   "t": "You feel vibrations almost instantly, like within 150 to 200 milliseconds."
+  },
+  {
+   "s": 512.94,
+   "e": 514.76,
+   "t": "So it's quick, glabs your attention."
+  },
+  {
+   "s": 515.02,
+   "e": 515.12,
+   "t": "Right."
+  },
+  {
+   "s": 515.28,
+   "e": 519.5,
+   "t": "And it does that without necessarily pulling your visual focus away from a task."
+  },
+  {
+   "s": 519.64,
+   "e": 521.74,
+   "t": "And it's silent, so it maintains privacy."
+  },
+  {
+   "s": 522.06,
+   "e": 522.28,
+   "t": "Okay."
+  },
+  {
+   "s": 522.62,
+   "e": 524.98,
+   "t": "Three very different ways to feel the sync."
+  },
+  {
+   "s": 524.98,
+   "e": 527.0,
+   "t": "So how did they test these out?"
+  },
+  {
+   "s": 527.1,
+   "e": 529.14,
+   "t": "What did the actual user study involve?"
+  },
+  {
+   "s": 529.6,
+   "e": 535.12,
+   "t": "They recruited 34 people, put them into 17 pairs, mostly strangers to each other."
+  },
+  {
+   "s": 535.22,
+   "e": 535.48,
+   "t": "Okay."
+  },
+  {
+   "s": 535.6,
+   "e": 538.06,
+   "t": "And these pairs did two different tasks together."
+  },
+  {
+   "s": 538.34,
+   "e": 542.52,
+   "t": "One was simple, hand mimicry, just copying each other's hand movements."
+  },
+  {
+   "s": 542.52,
+   "e": 549.3,
+   "t": "The other was trickier, the cup and string task, you know, where you have multiple strings attached"
+  },
+  {
+   "s": 549.3,
+   "e": 554.24,
+   "t": "to a rubber band and you have to work together to pick up and move cups using only the strings."
+  },
+  {
+   "s": 554.38,
+   "e": 554.96,
+   "t": "Oh, I know those."
+  },
+  {
+   "s": 555.02,
+   "e": 559.12,
+   "t": "They require serious cooperation, like building IKEA furniture with someone, but maybe harder."
+  },
+  {
+   "s": 559.38,
+   "e": 559.84,
+   "t": "Exactly."
+  },
+  {
+   "s": 560.2,
+   "e": 565.26,
+   "t": "Both tasks were chosen because they really demanded cooperation, coordination, and paying attention"
+  },
+  {
+   "s": 565.26,
+   "e": 566.5,
+   "t": "to each other, joint attention."
+  },
+  {
+   "s": 567.0,
+   "e": 567.5,
+   "t": "Makes sense."
+  },
+  {
+   "s": 567.7,
+   "e": 569.26,
+   "t": "So what conditions did they compare?"
+  },
+  {
+   "s": 569.26,
+   "e": 574.68,
+   "t": "They had a baseline non-sync condition where people just watched a video, expected low IBS"
+  },
+  {
+   "s": 574.68,
+   "e": 574.94,
+   "t": "there."
+  },
+  {
+   "s": 575.26,
+   "e": 579.98,
+   "t": "Then they had the collaborative tasks with four variations, no feedback at all."
+  },
+  {
+   "s": 580.34,
+   "e": 584.56,
+   "t": "Then with visual feedback, auditory feedback, and haptic feedback."
+  },
+  {
+   "s": 585.12,
+   "e": 586.88,
+   "t": "And they measured more than just the brainwaves."
+  },
+  {
+   "s": 587.0,
+   "e": 587.58,
+   "t": "Oh yeah."
+  },
+  {
+   "s": 587.98,
+   "e": 593.9,
+   "t": "They used questionnaires after each trial asking about trust, how helpful the feedback felt if"
+  },
+  {
+   "s": 593.9,
+   "e": 597.74,
+   "t": "they understood it, and then longer interviews and surveys at the very end."
+  },
+  {
+   "s": 597.74,
+   "e": 598.84,
+   "t": "Or the moment of truth."
+  },
+  {
+   "s": 599.26,
+   "e": 603.22,
+   "t": "After all that setup, all that data, what actually worked?"
+  },
+  {
+   "s": 603.58,
+   "e": 606.26,
+   "t": "Did any of this feedback actually boost brain sync?"
+  },
+  {
+   "s": 606.48,
+   "e": 607.96,
+   "t": "First off, they checked their basics."
+  },
+  {
+   "s": 608.26,
+   "e": 609.52,
+   "t": "And yes, their setup worked."
+  },
+  {
+   "s": 609.8,
+   "e": 613.36,
+   "t": "IBS levels were definitely higher during the collaborative tasks compared to just watching"
+  },
+  {
+   "s": 613.36,
+   "e": 616.26,
+   "t": "a video, so they could measure the effect reliably."
+  },
+  {
+   "s": 616.52,
+   "e": 617.08,
+   "t": "Good start."
+  },
+  {
+   "s": 617.2,
+   "e": 619.94,
+   "t": "Then the hypotheses about the feedback, well, visual feedback."
+  },
+  {
+   "s": 620.24,
+   "e": 622.58,
+   "t": "Hypothesis one was that it would increase IBS."
+  },
+  {
+   "s": 622.76,
+   "e": 623.38,
+   "t": "That was false."
+  },
+  {
+   "s": 623.48,
+   "e": 623.74,
+   "t": "Really?"
+  },
+  {
+   "s": 624.06,
+   "e": 624.78,
+   "t": "It didn't work."
+  },
+  {
+   "s": 624.78,
+   "e": 625.88,
+   "t": "Quantitatively, no."
+  },
+  {
+   "s": 625.96,
+   "e": 629.24,
+   "t": "It didn't show a significant improvement over getting no feedback at all."
+  },
+  {
+   "s": 629.46,
+   "e": 630.46,
+   "t": "Kind of surprising, maybe."
+  },
+  {
+   "s": 630.86,
+   "e": 631.1,
+   "t": "Huh."
+  },
+  {
+   "s": 631.36,
+   "e": 631.62,
+   "t": "Okay."
+  },
+  {
+   "s": 631.66,
+   "e": 632.66,
+   "t": "What about auditory?"
+  },
+  {
+   "s": 632.96,
+   "e": 633.96,
+   "t": "Auditory feedback."
+  },
+  {
+   "s": 634.6,
+   "e": 635.46,
+   "t": "Hypothesis two."
+  },
+  {
+   "s": 636.14,
+   "e": 637.7,
+   "t": "It increases IBS."
+  },
+  {
+   "s": 637.96,
+   "e": 638.64,
+   "t": "That was true."
+  },
+  {
+   "s": 639.3,
+   "e": 641.3,
+   "t": "This one was actually the clearest winner."
+  },
+  {
+   "s": 641.56,
+   "e": 645.88,
+   "t": "It had the most substantial, most consistent positive effect on boosting synchrony."
+  },
+  {
+   "s": 645.96,
+   "e": 646.3,
+   "t": "Interesting."
+  },
+  {
+   "s": 646.66,
+   "e": 646.9,
+   "t": "Okay."
+  },
+  {
+   "s": 646.94,
+   "e": 647.38,
+   "t": "And haptic."
+  },
+  {
+   "s": 647.56,
+   "e": 648.4,
+   "t": "Haptic feedback."
+  },
+  {
+   "s": 648.56,
+   "e": 648.74,
+   "t": "Yeah."
+  },
+  {
+   "s": 648.9,
+   "e": 649.76,
+   "t": "Hypothesis three."
+  },
+  {
+   "s": 649.76,
+   "e": 651.34,
+   "t": "It increases IBS."
+  },
+  {
+   "s": 651.34,
+   "e": 651.82,
+   "t": "Yes."
+  },
+  {
+   "s": 652.12,
+   "e": 652.82,
+   "t": "Also true."
+  },
+  {
+   "s": 653.2,
+   "e": 657.58,
+   "t": "Haptic feedback did positively influence the intensity of the brain sync."
+  },
+  {
+   "s": 657.76,
+   "e": 661.08,
+   "t": "So visual was a bust, but auditory and haptic both helped."
+  },
+  {
+   "s": 661.22,
+   "e": 661.78,
+   "t": "Pretty much."
+  },
+  {
+   "s": 662.26,
+   "e": 667.34,
+   "t": "And the overall hypothesis, H4, that external feedback in general can augment IBS."
+  },
+  {
+   "s": 667.5,
+   "e": 668.2,
+   "t": "That was also true."
+  },
+  {
+   "s": 668.3,
+   "e": 671.2,
+   "t": "Having some kind of feedback was generally better than none."
+  },
+  {
+   "s": 671.2,
+   "e": 675.22,
+   "t": "So, yes, you can nudge brains into syncing better with external cues."
+  },
+  {
+   "s": 675.42,
+   "e": 676.36,
+   "t": "That's a big finding."
+  },
+  {
+   "s": 676.48,
+   "e": 677.12,
+   "t": "It really is."
+  },
+  {
+   "s": 677.3,
+   "e": 678.7,
+   "t": "But, you know, the numbers are one thing."
+  },
+  {
+   "s": 679.04,
+   "e": 680.38,
+   "t": "What did the people actually think?"
+  },
+  {
+   "s": 680.5,
+   "e": 681.92,
+   "t": "How did it feel to get this feedback?"
+  },
+  {
+   "s": 682.24,
+   "e": 682.48,
+   "t": "Yeah."
+  },
+  {
+   "s": 682.56,
+   "e": 685.98,
+   "t": "The qualitative stuff, the interviews, that added a lot of important nuance."
+  },
+  {
+   "s": 686.1,
+   "e": 687.9,
+   "t": "For visual feedback, remember the orange circle?"
+  },
+  {
+   "s": 687.98,
+   "e": 688.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 688.2,
+   "e": 691.48,
+   "t": "A lot of people, 20 out of the 34, actually found it distracting."
+  },
+  {
+   "s": 692.04,
+   "e": 692.44,
+   "t": "Distracting."
+  },
+  {
+   "s": 692.72,
+   "e": 693.2,
+   "t": "How so."
+  },
+  {
+   "s": 693.2,
+   "e": 699.06,
+   "t": "Well, they felt they had to split their attention visually between doing the task and watching the feedback projection."
+  },
+  {
+   "s": 699.74,
+   "e": 706.4,
+   "t": "And often, if they got really focused on the task itself, the visual feedback just sort of faded into the background."
+  },
+  {
+   "s": 706.52,
+   "e": 707.44,
+   "t": "They stopped noticing it."
+  },
+  {
+   "s": 707.52,
+   "e": 707.94,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 708.32,
+   "e": 711.98,
+   "t": "So maybe okay for simple stuff, but not when you really need to concentrate."
+  },
+  {
+   "s": 712.28,
+   "e": 713.58,
+   "t": "That seems to be the case."
+  },
+  {
+   "s": 714.08,
+   "e": 718.86,
+   "t": "Some found it clear for simple movements, but less helpful for the complex cut task."
+  },
+  {
+   "s": 718.98,
+   "e": 719.24,
+   "t": "Right."
+  },
+  {
+   "s": 719.24,
+   "e": 723.72,
+   "t": "And haptic, the vibrations, you said that also worked quantitatively."
+  },
+  {
+   "s": 723.86,
+   "e": 726.46,
+   "t": "It did, but it was really polarizing subjectively."
+  },
+  {
+   "s": 726.58,
+   "e": 728.2,
+   "t": "People seemed to either love it or hate it."
+  },
+  {
+   "s": 728.32,
+   "e": 728.54,
+   "t": "Oh."
+  },
+  {
+   "s": 728.96,
+   "e": 733.62,
+   "t": "Yeah, it was the most favorite for 13 participants, but the least favorite for 14 others."
+  },
+  {
+   "s": 733.74,
+   "e": 734.36,
+   "t": "Pretty split."
+  },
+  {
+   "s": 734.54,
+   "e": 735.56,
+   "t": "Why the strong reactions?"
+  },
+  {
+   "s": 736.12,
+   "e": 741.24,
+   "t": "Well, those who liked it initially described it as calming, intuitive, less stressful."
+  },
+  {
+   "s": 741.78,
+   "e": 743.72,
+   "t": "Some felt it helped them trust their partner more."
+  },
+  {
+   "s": 743.9,
+   "e": 748.64,
+   "t": "One person specifically said it helped them focus more on watching their partner, which helped them sync up."
+  },
+  {
+   "s": 748.64,
+   "e": 749.66,
+   "t": "Okay, that sounds positive."
+  },
+  {
+   "s": 749.8,
+   "e": 751.32,
+   "t": "So why did others dislike it?"
+  },
+  {
+   "s": 751.5,
+   "e": 755.24,
+   "t": "The main complaints were that the effect could wear off, like, sensory adaptation."
+  },
+  {
+   "s": 755.74,
+   "e": 756.9,
+   "t": "You just get used to the buzzing."
+  },
+  {
+   "s": 757.02,
+   "e": 758.54,
+   "t": "Yeah, like tuning out your phone vibration."
+  },
+  {
+   "s": 758.64,
+   "e": 759.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 759.42,
+   "e": 768.48,
+   "t": "Or they found it too intrusive or actually hard to notice the changes in vibration, especially if the baseline intensity felt too strong to begin with."
+  },
+  {
+   "s": 768.6,
+   "e": 768.86,
+   "t": "Hmm."
+  },
+  {
+   "s": 769.3,
+   "e": 770.78,
+   "t": "Tricky to get that balance right."
+  },
+  {
+   "s": 771.02,
+   "e": 771.22,
+   "t": "Hmm."
+  },
+  {
+   "s": 771.22,
+   "e": 774.84,
+   "t": "Okay, so that leaves auditory, the quantitative winner."
+  },
+  {
+   "s": 775.08,
+   "e": 777.02,
+   "t": "How did that land with participants?"
+  },
+  {
+   "s": 777.02,
+   "e": 781.46,
+   "t": "Auditory was, um, much less polarizing."
+  },
+  {
+   "s": 781.98,
+   "e": 783.38,
+   "t": "Generally, people preferred it."
+  },
+  {
+   "s": 783.58,
+   "e": 786.06,
+   "t": "They described it as distinct, beneficial."
+  },
+  {
+   "s": 786.48,
+   "e": 789.72,
+   "t": "They liked that it gave instant, delay-free responses."
+  },
+  {
+   "s": 790.06,
+   "e": 791.9,
+   "t": "Ah, the immediacy was key."
+  },
+  {
+   "s": 792.02,
+   "e": 792.78,
+   "t": "It seemed so."
+  },
+  {
+   "s": 793.04,
+   "e": 796.3,
+   "t": "It let them keep their visual focus entirely on the task and their partner."
+  },
+  {
+   "s": 796.58,
+   "e": 800.74,
+   "t": "And people with some musical background often found it especially easy to understand."
+  },
+  {
+   "s": 800.86,
+   "e": 801.38,
+   "t": "Makes sense."
+  },
+  {
+   "s": 801.64,
+   "e": 802.4,
+   "t": "Any downsides?"
+  },
+  {
+   "s": 802.4,
+   "e": 805.64,
+   "t": "A few people found it a bit intrusive or sometimes confusing."
+  },
+  {
+   "s": 805.86,
+   "e": 810.34,
+   "t": "Like, if the sound indicated they were out of sync, but they felt like they were perfectly in sync with their partner."
+  },
+  {
+   "s": 810.56,
+   "e": 812.5,
+   "t": "Ah, that could mess with your confidence a bit."
+  },
+  {
+   "s": 812.54,
+   "e": 816.6,
+   "t": "Right, it could reduce confidence momentarily if the feedback didn't match their own perception."
+  },
+  {
+   "s": 817.04,
+   "e": 818.2,
+   "t": "That brings up trust again."
+  },
+  {
+   "s": 818.96,
+   "e": 823.22,
+   "t": "Do they look at which feedback type people trusted the most to be accurate?"
+  },
+  {
+   "s": 823.22,
+   "e": 823.9,
+   "t": "They did."
+  },
+  {
+   "s": 824.08,
+   "e": 826.18,
+   "t": "And this was another really key finding."
+  },
+  {
+   "s": 826.88,
+   "e": 831.38,
+   "t": "Auditory feedback came out on top as the most trusted signal for synchrony."
+  },
+  {
+   "s": 831.54,
+   "e": 831.8,
+   "t": "Okay."
+  },
+  {
+   "s": 832.0,
+   "e": 835.38,
+   "t": "Followed by haptic, and then visual was seen as the least trustworthy."
+  },
+  {
+   "s": 835.84,
+   "e": 836.2,
+   "t": "Interesting."
+  },
+  {
+   "s": 836.2,
+   "e": 838.32,
+   "t": "But here's something even more fascinating."
+  },
+  {
+   "s": 839.44,
+   "e": 844.8,
+   "t": "Pairs, where both people happened to share the same top preference for a feedback type."
+  },
+  {
+   "s": 844.98,
+   "e": 845.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 845.4,
+   "e": 849.94,
+   "t": "They actually showed significantly stronger synchrony when using that preferred feedback."
+  },
+  {
+   "s": 850.66,
+   "e": 857.44,
+   "t": "Their IBS scores, the C-Core values went up by an average of 14% compared to the no feedback condition."
+  },
+  {
+   "s": 857.62,
+   "e": 857.98,
+   "t": "Wow."
+  },
+  {
+   "s": 858.16,
+   "e": 859.88,
+   "t": "So personal preference really matters here."
+  },
+  {
+   "s": 859.96,
+   "e": 861.5,
+   "t": "It's not just about the modality itself."
+  },
+  {
+   "s": 861.5,
+   "e": 861.98,
+   "t": "Exactly."
+  },
+  {
+   "s": 862.16,
+   "e": 868.62,
+   "t": "It highlights how important user preference and maybe even shared expectations could be when you're designing systems for connection."
+  },
+  {
+   "s": 868.94,
+   "e": 872.22,
+   "t": "That's a massive takeaway for anyone building collaborative tools or experiences."
+  },
+  {
+   "s": 872.62,
+   "e": 876.68,
+   "t": "So pulling this all together, how should we think about using this feedback?"
+  },
+  {
+   "s": 876.78,
+   "e": 877.64,
+   "t": "How do we tailor it?"
+  },
+  {
+   "s": 877.98,
+   "e": 880.0,
+   "t": "Well, the results give us some pretty clear pointers."
+  },
+  {
+   "s": 880.68,
+   "e": 889.4,
+   "t": "Auditory IBS feedback seems like a really good general purpose choice, especially for tasks involving movement, because it doesn't really interfere with your eyes or hands."
+  },
+  {
+   "s": 889.4,
+   "e": 889.72,
+   "t": "Right."
+  },
+  {
+   "s": 889.72,
+   "e": 898.14,
+   "t": "But obviously it's not great if you're in a noisy place or if the task itself involves critical listening, like playing music or having a conversation."
+  },
+  {
+   "s": 898.36,
+   "e": 898.52,
+   "t": "Okay."
+  },
+  {
+   "s": 898.62,
+   "e": 901.34,
+   "t": "So where auditory doesn't fit, haptic comes in."
+  },
+  {
+   "s": 901.5,
+   "e": 901.98,
+   "t": "Exactly."
+  },
+  {
+   "s": 902.2,
+   "e": 905.12,
+   "t": "Haptic IBS feedback is a fantastic alternative then."
+  },
+  {
+   "s": 905.58,
+   "e": 911.18,
+   "t": "It's silent, not bothered by noise, keeps things private, doesn't interrupt conversation."
+  },
+  {
+   "s": 911.4,
+   "e": 913.14,
+   "t": "You need to be careful about the task, right?"
+  },
+  {
+   "s": 913.24,
+   "e": 913.6,
+   "t": "Definitely."
+  },
+  {
+   "s": 913.6,
+   "e": 922.7,
+   "t": "You wouldn't want it interfering if the task itself relies heavily on fine-tuned feelings in your hands or fingers, like intricate crafting, maybe surgery."
+  },
+  {
+   "s": 922.9,
+   "e": 924.92,
+   "t": "Yeah, buzzing during surgery seems like a bad idea."
+  },
+  {
+   "s": 925.04,
+   "e": 926.16,
+   "t": "Probably not ideal, no."
+  },
+  {
+   "s": 926.38,
+   "e": 932.16,
+   "t": "So thinking about real-world applications, where could we see this being used effectively?"
+  },
+  {
+   "s": 932.74,
+   "e": 934.46,
+   "t": "Well, you mentioned physical therapy earlier."
+  },
+  {
+   "s": 934.54,
+   "e": 935.48,
+   "t": "I think that's a great example."
+  },
+  {
+   "s": 935.48,
+   "e": 942.98,
+   "t": "Imagine using auditory feedback to help strengthen that connection, that therapeutic alliance between a therapist and patient."
+  },
+  {
+   "s": 943.26,
+   "e": 947.96,
+   "t": "Yeah, it could boost motivation, maybe make it feel less clinical, more like a team effort."
+  },
+  {
+   "s": 948.42,
+   "e": 948.94,
+   "t": "Precisely."
+  },
+  {
+   "s": 949.28,
+   "e": 954.64,
+   "t": "Enhancing comfort, that sense of togetherness, while the patient can still focus on the physical task."
+  },
+  {
+   "s": 955.22,
+   "e": 956.92,
+   "t": "What about something like brainstorming?"
+  },
+  {
+   "s": 957.66,
+   "e": 959.82,
+   "t": "Could this help teams gel better?"
+  },
+  {
+   "s": 959.82,
+   "e": 964.16,
+   "t": "That's another really interesting possibility, maybe using haptic feedback there."
+  },
+  {
+   "s": 964.28,
+   "e": 964.76,
+   "t": "Why haptic?"
+  },
+  {
+   "s": 965.08,
+   "e": 974.06,
+   "t": "Because it could subtly enhance those feelings of closeness and trust, maybe make people feel more agreeable, without getting in the way of the actual talking and idea sharing."
+  },
+  {
+   "s": 974.2,
+   "e": 975.1,
+   "t": "Hmm, that's clever."
+  },
+  {
+   "s": 975.34,
+   "e": 977.78,
+   "t": "Could that even work remotely, like over video calls?"
+  },
+  {
+   "s": 978.1,
+   "e": 978.9,
+   "t": "Potentially, yeah."
+  },
+  {
+   "s": 979.3,
+   "e": 988.42,
+   "t": "Imagine using shared haptic feedback to create a sense of shared presence, of immersion, even when people are physically apart, fostering that we're feeling across distances."
+  },
+  {
+   "s": 988.42,
+   "e": 994.0,
+   "t": "Okay, so wrapping this up, it seems like we've uncovered something pretty profound here about brain sync."
+  },
+  {
+   "s": 994.54,
+   "e": 997.66,
+   "t": "Yeah, we really took a deep dive into interbrain synchronization today."
+  },
+  {
+   "s": 997.88,
+   "e": 1003.42,
+   "t": "It's this amazing thing where our brains literally get on the same wavelength when we collaborate."
+  },
+  {
+   "s": 1003.86,
+   "e": 1010.18,
+   "t": "And this research showed pretty convincingly that, yes, we can actually enhance that connection using external feedback."
+  },
+  {
+   "s": 1010.42,
+   "e": 1013.74,
+   "t": "With auditory seeming to be the most consistently effective overall."
+  },
+  {
+   "s": 1013.74,
+   "e": 1020.84,
+   "t": "Great, but haptic, showing its own unique strengths too, especially for privacy or when audio isn't suitable, and visual."
+  },
+  {
+   "s": 1021.88,
+   "e": 1023.36,
+   "t": "Well, maybe needing a rethink."
+  },
+  {
+   "s": 1023.7,
+   "e": 1025.2,
+   "t": "It really makes you wonder, doesn't it?"
+  },
+  {
+   "s": 1025.4,
+   "e": 1028.62,
+   "t": "What a future tech could truly personalize this."
+  },
+  {
+   "s": 1028.98,
+   "e": 1035.74,
+   "t": "Like, feedback that adapts not just to the task, but to your specific sensory preferences, maybe even your partner's."
+  },
+  {
+   "s": 1035.78,
+   "e": 1036.64,
+   "t": "Imagine that."
+  },
+  {
+   "s": 1036.64,
+   "e": 1043.5,
+   "t": "A future where you don't just feel like you're in sync, you have this subtle, unobtrusive feedback confirming that you are."
+  },
+  {
+   "s": 1044.32,
+   "e": 1044.72,
+   "t": "Measurably."
+  },
+  {
+   "s": 1045.14,
+   "e": 1046.5,
+   "t": "How different would collaboration be?"
+  },
+  {
+   "s": 1046.6,
+   "e": 1046.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 1046.94,
+   "e": 1047.44,
+   "t": "Or learning."
+  },
+  {
+   "s": 1047.78,
+   "e": 1051.52,
+   "t": "We're just connecting with people, whether they're right next to you or, you know, on the other side of the world."
+  },
+  {
+   "s": 1051.74,
+   "e": 1053.42,
+   "t": "It definitely gives you something to think about."
+  },
+  {
+   "s": 1053.98,
+   "e": 1057.6,
+   "t": "A future where we're consciously, technologically enhancing our connections."
+  },
+  {
+   "s": 1058.26,
+   "e": 1060.18,
+   "t": "Well, thank you for joining us on this deep dive."
+  },
+  {
+   "s": 1060.18,
+   "e": 1065.56,
+   "t": "We hope it's given you a bit of a shortcut to understanding IBS and maybe spark some new thoughts."
+  }
+ ]
+}

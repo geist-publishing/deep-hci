@@ -1,0 +1,870 @@
+{
+ "guid": "deephci.podbean.com/87955fd4-f112-3b12-95a2-56ebec4b1085",
+ "slug": "ismar-2024-searching-across-realities-investigating-erps-and-eye-tracking-correlates-of-visual-search-in-mixed-reality",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1109-TVCG-2024-3456172.mp3",
+  "version": 1
+ },
+ "duration": 937,
+ "word_count": 2645,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 9.76,
+   "t": "Welcome back, everyone. We're diving into mixed reality today, specifically how our brains handle the complex task of finding objects when the digital and physical worlds blend together."
+  },
+  {
+   "s": 10.24,
+   "e": 18.72,
+   "t": "You sent us some fascinating research titled Searching Across Realities, Investigating ERPs and Eye-Tracking Correlates of Visual Search and Mixed Reality."
+  },
+  {
+   "s": 18.72,
+   "e": 23.44,
+   "t": "Yes, this paper delves into the very essence of human perception and attention."
+  },
+  {
+   "s": 23.44,
+   "e": 29.64,
+   "t": "It is quite remarkable the way we can effortlessly locate a coffee cup, say, on a cluttered desk."
+  },
+  {
+   "s": 30.06,
+   "e": 36.04,
+   "t": "However, when virtual objects are introduced into the equation, the process becomes significantly more intricate."
+  },
+  {
+   "s": 36.36,
+   "e": 46.2,
+   "t": "So let's break this down for our listeners. The paper centers around two distinct forms of mixed reality, augmented reality or AR, where virtual objects are superimposed onto our view of the real world."
+  },
+  {
+   "s": 46.2,
+   "e": 51.48,
+   "t": "And augmented virtuality or AV, which essentially embeds real objects into a digital environment."
+  },
+  {
+   "s": 51.48,
+   "e": 58.02,
+   "t": "These two realities, AR and AV, exist on what we refer to as the reality-virtuality continuum."
+  },
+  {
+   "s": 58.44,
+   "e": 64.86,
+   "t": "It's helpful to think of this continuum as a spectrum with pure reality at one end and complete virtuality at the other."
+  },
+  {
+   "s": 65.72,
+   "e": 71.54,
+   "t": "And AR and AV represent points along this spectrum where those digital and physical elements converge."
+  },
+  {
+   "s": 71.54,
+   "e": 74.16,
+   "t": "Precisely. It is a matter of varying proportions."
+  },
+  {
+   "s": 74.16,
+   "e": 81.94,
+   "t": "And this study aims to understand how effectively users can locate both physical and virtual objects within these unique MR environments."
+  },
+  {
+   "s": 82.46,
+   "e": 85.86,
+   "t": "Can you elaborate on that for us? What were the researchers hoping to discover?"
+  },
+  {
+   "s": 86.28,
+   "e": 96.74,
+   "t": "Certainly. At its core, they sought to understand how the human brain processes visual information when confronted with these hybrid spaces, particularly during visual search tasks."
+  },
+  {
+   "s": 96.74,
+   "e": 109.14,
+   "t": "To accomplish this, they collected a variety of data, behavioral data, which is simply how well participants performed on the task, EEG readings to track brain activity during the search, and eye tracking data to observe gaze patterns."
+  },
+  {
+   "s": 109.14,
+   "e": 118.28,
+   "t": "And to ensure a fair comparison between AR and AV, the researchers constructed a physical lab as well as a virtual counterpart specifically designed to minimize distractions."
+  },
+  {
+   "s": 118.6,
+   "e": 125.14,
+   "t": "That's correct. The physical lab was quite minimalistic, actually. Just a plain gray shelf holding a selection of physical objects."
+  },
+  {
+   "s": 125.14,
+   "e": 133.38,
+   "t": "I understand they chose these objects very carefully to avoid any unintended biases or influences on the results. What kind of objects were they using?"
+  },
+  {
+   "s": 133.38,
+   "e": 147.34,
+   "t": "They included a variety of everyday items. A soccer ball, a soda can, dice, and a set of building blocks. This careful selection ensured that the objects themselves would not become extraneous variables in the experiment."
+  },
+  {
+   "s": 147.76,
+   "e": 152.06,
+   "t": "And how did they go about mirroring this physical setup in the virtual world?"
+  },
+  {
+   "s": 152.06,
+   "e": 159.74,
+   "t": "Meticulously. They digitally recreated the room, ensuring the lighting and object placement precisely match the physical space."
+  },
+  {
+   "s": 159.74,
+   "e": 164.38,
+   "t": "They even went so far as to measure the luminance of both settings to guarantee consistency."
+  },
+  {
+   "s": 164.9,
+   "e": 172.9,
+   "t": "This was particularly important for obtaining accurate eye tracking data, especially when studying pupil dilation as an indicator of cognitive load."
+  },
+  {
+   "s": 172.9,
+   "e": 179.04,
+   "t": "You mentioned the challenges of blending the real and virtual in the physical setup. How did they overcome those challenges?"
+  },
+  {
+   "s": 179.04,
+   "e": 185.0,
+   "t": "For the AR condition, they utilized high-resolution photographs of the physical objects arranged on the shelves."
+  },
+  {
+   "s": 185.52,
+   "e": 189.06,
+   "t": "This allowed them to superimpose virtual objects onto this backdrop."
+  },
+  {
+   "s": 189.58,
+   "e": 197.38,
+   "t": "Maintaining visual consistency was key here, and this approach ensured that variations in transparency or other visual artifacts wouldn't affect the results."
+  },
+  {
+   "s": 197.72,
+   "e": 207.44,
+   "t": "So in AR, participants viewed a faithful digital representation of the real world through the headset, with those additional virtual objects seamlessly blended in."
+  },
+  {
+   "s": 207.44,
+   "e": 216.14,
+   "t": "Precisely. The opposite was true in AV. They rendered the entire virtual room digitally and integrated real-world objects using a specialized shader."
+  },
+  {
+   "s": 216.56,
+   "e": 223.22,
+   "t": "This technique allowed them to preserve the objects' natural appearance while seamlessly integrating them into the virtual environment."
+  },
+  {
+   "s": 224.0,
+   "e": 231.68,
+   "t": "Conceptually, it's similar to cutting out precisely shaped holes in a virtual wall and filling those spaces with live video feeds of the real objects."
+  },
+  {
+   "s": 231.68,
+   "e": 239.76,
+   "t": "It sounds like they went to great lengths to create these immersive and comparable environments, and they were equally meticulous in their participant selection process, I understand."
+  },
+  {
+   "s": 240.22,
+   "e": 246.54,
+   "t": "Yes. 20 volunteers participated in the study, all of whom were familiar with AR, AV, and VR technologies."
+  },
+  {
+   "s": 247.16,
+   "e": 253.06,
+   "t": "They even assessed the participants' familiarity levels to establish a baseline level of comfort with these technologies."
+  },
+  {
+   "s": 253.58,
+   "e": 258.0,
+   "t": "This helped minimize any potential discomfort or confusion during the experiment."
+  },
+  {
+   "s": 258.0,
+   "e": 262.58,
+   "t": "So what did the actual visual search task entail for these participants?"
+  },
+  {
+   "s": 263.12,
+   "e": 270.4,
+   "t": "Participants wore the HTC Vive Pro-i headset and were presented with a virtual shelf containing a mix of 24 objects."
+  },
+  {
+   "s": 270.94,
+   "e": 276.68,
+   "t": "Some of these were physical objects incorporated into the virtual world, and some were purely virtual objects."
+  },
+  {
+   "s": 277.06,
+   "e": 281.8,
+   "t": "Their task was to locate a specific target object as rapidly and accurately as possible."
+  },
+  {
+   "s": 282.06,
+   "e": 284.9,
+   "t": "But they weren't shown a picture of the target object beforehand."
+  },
+  {
+   "s": 284.9,
+   "e": 290.56,
+   "t": "That's an important point. The target was identified solely by name. This decision was made to prevent bias."
+  },
+  {
+   "s": 290.98,
+   "e": 298.9,
+   "t": "It makes sense that if participants had seen a picture, they would have known whether to search for a real object integrated into the virtual world or a purely virtual object."
+  },
+  {
+   "s": 299.74,
+   "e": 310.78,
+   "t": "Exactly. By providing only the name, the researchers ensure participants had to consider all possibilities, making the search more challenging, and revealing how the brain handles those blended realities."
+  },
+  {
+   "s": 310.78,
+   "e": 315.06,
+   "t": "That's a crucial detail. Now, can you walk us through a typical trial?"
+  },
+  {
+   "s": 315.38,
+   "e": 320.16,
+   "t": "Each trial started with participants focusing on a red cross in their field of view."
+  },
+  {
+   "s": 320.7,
+   "e": 324.64,
+   "t": "This acted as a baseline measurement for the EEG and eye tracking."
+  },
+  {
+   "s": 325.24,
+   "e": 331.46,
+   "t": "Then the cross would disappear, and the objects on the shelf would suddenly appear, marking the beginning of the visual search."
+  },
+  {
+   "s": 332.14,
+   "e": 338.02,
+   "t": "Participants had five seconds to locate and select the target object using the controller's raycast."
+  },
+  {
+   "s": 338.02,
+   "e": 341.36,
+   "t": "What happened if they couldn't find the object within that time frame?"
+  },
+  {
+   "s": 341.64,
+   "e": 349.3,
+   "t": "The trial was marked as a miss. And as we'll discuss later, this data point provides valuable insights into the differences between searching in AR and AV."
+  },
+  {
+   "s": 349.64,
+   "e": 354.66,
+   "t": "So they were looking at the nuances of the search process, not just whether the participants got it right or wrong."
+  },
+  {
+   "s": 355.06,
+   "e": 358.1,
+   "t": "And I understand they collected quite a bit of data during each of these trials."
+  },
+  {
+   "s": 358.24,
+   "e": 365.04,
+   "t": "Yes. They recorded accuracy, of course, which is how often participants correctly identified the target and reaction time."
+  },
+  {
+   "s": 365.46,
+   "e": 367.68,
+   "t": "Which measures how long it took them to find the target."
+  },
+  {
+   "s": 367.68,
+   "e": 373.12,
+   "t": "Precisely. But they also kept track of the number of missed targets, offering insights into search efficiency."
+  },
+  {
+   "s": 373.64,
+   "e": 382.5,
+   "t": "They even went further by recording EEG data, specifically to analyze what is called the distractor positivity component, which is a brainwave pattern."
+  },
+  {
+   "s": 382.76,
+   "e": 386.66,
+   "t": "Ah, so they could see how the brain was working to filter out that visual clutter."
+  },
+  {
+   "s": 386.66,
+   "e": 403.86,
+   "t": "Exactly. And they used eye tracking to measure fixation duration or how long participants focused on a specific object, fixation count, meaning how many times they fixated on different objects, saccade frequency, which tells us how often their eyes jumped between points, and the index of pupillary activity."
+  },
+  {
+   "s": 403.86,
+   "e": 405.4,
+   "t": "Wow, that's a lot of data."
+  },
+  {
+   "s": 405.4,
+   "e": 405.92,
+   "t": "Yeah."
+  },
+  {
+   "s": 406.12,
+   "e": 409.24,
+   "t": "I'm curious, what can the index of pupillary activity tell us?"
+  },
+  {
+   "s": 409.24,
+   "e": 417.4,
+   "t": "It measures pupil dilation, which is directly correlated to cognitive load. The greater the mental effort required, the more our pupils tend to dilate."
+  },
+  {
+   "s": 417.4,
+   "e": 429.46,
+   "t": "So by combining all of these measures, the researchers could see not only what people were doing during the task, but also get a glimpse into how their brains were handling the demands of searching in AR and AV. Fascinating."
+  },
+  {
+   "s": 429.8,
+   "e": 433.76,
+   "t": "Indeed. And as we'll discover, the results are quite revealing."
+  },
+  {
+   "s": 434.04,
+   "e": 440.54,
+   "t": "Well, I'm on the edge of my seat. What did they find regarding how people performed in these different mixed reality setups?"
+  },
+  {
+   "s": 440.54,
+   "e": 442.22,
+   "t": "That's what we'll explore next."
+  },
+  {
+   "s": 442.22,
+   "e": 463.6,
+   "t": "Let's dive into the performance data. The paper mentions that overall, accuracy was comparable across all conditions. This suggests that participants were generally successful in finding the target object, whether it was an AR or AV, or whether the target was a physical object or a virtual object. It seems a little counterintuitive given the added challenges of mixed reality."
+  },
+  {
+   "s": 463.6,
+   "e": 476.22,
+   "t": "While it may appear so at first glance, the number of missed targets tells a different story. Participants missed significantly more targets in the physical condition, indicating greater difficulty when the target was a real-world object."
+  },
+  {
+   "s": 476.48,
+   "e": 482.98,
+   "t": "So while overall accuracy was similar, it seems those physical targets were a bit more elusive within the given time limit."
+  },
+  {
+   "s": 483.28,
+   "e": 492.9,
+   "t": "Precisely. And this observation is further supported by the reaction time data. Participants were significantly faster at identifying virtual targets compared to physical ones."
+  },
+  {
+   "s": 492.9,
+   "e": 501.44,
+   "t": "This, taken together with the missed target data, suggests that the five-second time constraint might have introduced a ceiling effect on accuracy."
+  },
+  {
+   "s": 501.44,
+   "e": 510.06,
+   "t": "It does seem plausible that given more time, participants might have eventually located those missed physical targets. Perhaps the time limit was a factor."
+  },
+  {
+   "s": 510.54,
+   "e": 519.94,
+   "t": "The researchers acknowledge this limitation in the paper and suggest further studies with longer trial durations to explore whether accuracy differences might become more pronounced with more time."
+  },
+  {
+   "s": 519.94,
+   "e": 529.08,
+   "t": "This raises the question of whether searching for virtual objects in a mixed reality environment is inherently easier or faster than searching for real-world objects."
+  },
+  {
+   "s": 529.52,
+   "e": 534.62,
+   "t": "What insights can we gain from the eye-tracking data about how participants approach these searches?"
+  },
+  {
+   "s": 534.82,
+   "e": 540.74,
+   "t": "The eye-tracking findings provide compelling evidence. Let's start with the Index of Cupillary Activity, or IPA."
+  },
+  {
+   "s": 540.74,
+   "e": 547.58,
+   "t": "As we discussed earlier, this metric reflects cognitive load. A larger pupil size suggests greater cognitive effort."
+  },
+  {
+   "s": 547.88,
+   "e": 554.08,
+   "t": "Right. And the results were quite striking. The IPA was significantly lower in the AV condition compared to AR."
+  },
+  {
+   "s": 554.08,
+   "e": 561.4,
+   "t": "So in AV, participants' pupils were less dilated, suggesting reduced cognitive effort when searching in augmented virtuality."
+  },
+  {
+   "s": 561.8,
+   "e": 565.26,
+   "t": "Why might this be the case? Why would AV be less demanding on the brain?"
+  },
+  {
+   "s": 565.26,
+   "e": 570.4,
+   "t": "The researchers propose it could be due to the level of visual detail present in each environment."
+  },
+  {
+   "s": 571.1,
+   "e": 576.04,
+   "t": "Even in a controlled lab setting, the real-world environment inherently contains more visual noise."
+  },
+  {
+   "s": 576.7,
+   "e": 579.98,
+   "t": "Think of things such as subtle variations in texture and lighting."
+  },
+  {
+   "s": 580.2,
+   "e": 582.94,
+   "t": "Whereas the virtual environment is much cleaner, more streamlined."
+  },
+  {
+   "s": 583.22,
+   "e": 589.38,
+   "t": "Precisely. Our brains may expend additional energy filtering out this extraneous information when searching in AR."
+  },
+  {
+   "s": 589.38,
+   "e": 596.78,
+   "t": "In contrast, the simplified backdrop of the virtual world in AV may allow for more efficient focusing on the task at hand."
+  },
+  {
+   "s": 596.92,
+   "e": 602.94,
+   "t": "It's as though our brains are constantly working overtime in the real world, just to make sense of all the visual information bombarding us."
+  },
+  {
+   "s": 603.16,
+   "e": 607.5,
+   "t": "That's a very apt analogy. And the eye-tracking data provides further support for this idea."
+  },
+  {
+   "s": 608.1,
+   "e": 616.34,
+   "t": "The number of fixations, meaning the instances where participants' eyes focused on different points, was significantly lower in the AV condition."
+  },
+  {
+   "s": 616.34,
+   "e": 619.74,
+   "t": "So they were more focused, less distracted during their search."
+  },
+  {
+   "s": 619.82,
+   "e": 624.0,
+   "t": "That's correct. Their eyes were moving around less, pointing towards a more efficient search process."
+  },
+  {
+   "s": 624.88,
+   "e": 626.72,
+   "t": "And here's where it becomes even more compelling."
+  },
+  {
+   "s": 627.78,
+   "e": 631.96,
+   "t": "Fixation counts also decrease significantly when searching for virtual targets,"
+  },
+  {
+   "s": 632.32,
+   "e": 635.58,
+   "t": "regardlessly of whether the participant was in AR or AV."
+  },
+  {
+   "s": 636.26,
+   "e": 639.8,
+   "t": "So virtual targets in general seem to capture our attention more readily."
+  },
+  {
+   "s": 640.0,
+   "e": 642.44,
+   "t": "The data certainly seems to support that conclusion."
+  },
+  {
+   "s": 642.44,
+   "e": 648.3,
+   "t": "Now let's consider saccade frequency, which measures how often their eyes were jumping between points."
+  },
+  {
+   "s": 649.06,
+   "e": 653.88,
+   "t": "Saccade frequency was higher in AV, suggesting a more active exploration phase initially."
+  },
+  {
+   "s": 654.36,
+   "e": 657.74,
+   "t": "However, it then decreased significantly when the target was virtual."
+  },
+  {
+   "s": 658.02,
+   "e": 662.16,
+   "t": "So if I understand correctly, in AV, people initially scanned the scene more actively,"
+  },
+  {
+   "s": 662.4,
+   "e": 666.0,
+   "t": "but once they identified the virtual target, their eyes locked on more quickly."
+  },
+  {
+   "s": 666.24,
+   "e": 671.08,
+   "t": "Exactly. This pattern suggests a rapid shift from exploration to focused attention,"
+  },
+  {
+   "s": 671.08,
+   "e": 673.6,
+   "t": "indicative of efficient target recognition."
+  },
+  {
+   "s": 674.06,
+   "e": 676.54,
+   "t": "And it aligns perfectly with the IPA findings."
+  },
+  {
+   "s": 677.14,
+   "e": 683.58,
+   "t": "Lower cognitive load, fewer fixations, and faster target fixation all point towards AV being more efficient"
+  },
+  {
+   "s": 683.58,
+   "e": 687.42,
+   "t": "for visual search tasks when those tasks involve virtual objects."
+  },
+  {
+   "s": 687.66,
+   "e": 691.6,
+   "t": "It's a strong case for the potential benefits of AV in certain applications."
+  },
+  {
+   "s": 692.38,
+   "e": 696.18,
+   "t": "I'm thinking about fields such as training simulations or even medical procedures"
+  },
+  {
+   "s": 696.18,
+   "e": 700.2,
+   "t": "where quickly and accurately identifying virtual elements is critical."
+  },
+  {
+   "s": 700.2,
+   "e": 702.9,
+   "t": "The paper does explore these very implications."
+  },
+  {
+   "s": 702.9,
+   "e": 705.94,
+   "t": "It suggests that by understanding the cognitive advantages of AV,"
+  },
+  {
+   "s": 706.26,
+   "e": 709.9,
+   "t": "we can design more effective and less mentally demanding mixed reality experiences."
+  },
+  {
+   "s": 710.6,
+   "e": 711.7,
+   "t": "This is all quite insightful."
+  },
+  {
+   "s": 711.8,
+   "e": 716.1,
+   "t": "Now what about the EEG data, specifically the distractor positivity component?"
+  },
+  {
+   "s": 716.52,
+   "e": 719.48,
+   "t": "What can we learn from that about how our brains handle the challenge"
+  },
+  {
+   "s": 719.48,
+   "e": 722.76,
+   "t": "of filtering out irrelevant information in these mixed realities?"
+  },
+  {
+   "s": 722.76,
+   "e": 727.96,
+   "t": "This is where we get a glimpse into the neural mechanisms at play during visual search in FRR."
+  },
+  {
+   "s": 727.96,
+   "e": 735.48,
+   "t": "The distractor positivity or PD component is believed to reflect the brain's effort to suppress distracting stimuli."
+  },
+  {
+   "s": 736.04,
+   "e": 739.68,
+   "t": "It essentially helps us focus on what is relevant to the task at hand."
+  },
+  {
+   "s": 740.18,
+   "e": 744.64,
+   "t": "So a lower PD amplitude would indicate more efficient distractor suppression,"
+  },
+  {
+   "s": 745.3,
+   "e": 749.46,
+   "t": "meaning less mental effort devoted to ignoring those irrelevant stimuli."
+  },
+  {
+   "s": 749.78,
+   "e": 750.3,
+   "t": "Precisely."
+  },
+  {
+   "s": 750.42,
+   "e": 752.24,
+   "t": "And the results here are quite significant."
+  },
+  {
+   "s": 752.24,
+   "e": 758.9,
+   "t": "The researchers found a significantly lower PD amplitude in the AV condition compared to AR."
+  },
+  {
+   "s": 759.12,
+   "e": 763.68,
+   "t": "So less cognitive effort is needed to suppress distractors in that virtual world."
+  },
+  {
+   "s": 764.0,
+   "e": 767.86,
+   "t": "Indeed, it seems our brains are more adept at filtering out extraneous information"
+  },
+  {
+   "s": 767.86,
+   "e": 771.38,
+   "t": "when the environment itself is already somewhat simplified as in AV."
+  },
+  {
+   "s": 771.72,
+   "e": 775.24,
+   "t": "It makes sense if the virtual world is inherently less visually cluttered."
+  },
+  {
+   "s": 775.56,
+   "e": 778.04,
+   "t": "Our brains wouldn't need to work as hard to ignore distractions."
+  },
+  {
+   "s": 778.44,
+   "e": 779.5,
+   "t": "That's a compelling argument."
+  },
+  {
+   "s": 779.5,
+   "e": 783.78,
+   "t": "The researchers suggest that the heightened visual realism of AR, while impressive,"
+  },
+  {
+   "s": 783.96,
+   "e": 786.32,
+   "t": "might come at the cost of increased cognitive effort."
+  },
+  {
+   "s": 786.66,
+   "e": 790.5,
+   "t": "It's almost as if the brain recognizes that increased visual complexity"
+  },
+  {
+   "s": 790.5,
+   "e": 793.34,
+   "t": "and ramps up its distractor suppression systems."
+  },
+  {
+   "s": 793.54,
+   "e": 794.68,
+   "t": "A very apt analogy."
+  },
+  {
+   "s": 795.08,
+   "e": 798.64,
+   "t": "And what is particularly noteworthy is how this EEG data,"
+  },
+  {
+   "s": 798.76,
+   "e": 800.12,
+   "t": "specifically the PD component,"
+  },
+  {
+   "s": 800.54,
+   "e": 804.98,
+   "t": "aligns with the eye tracking findings and those subjective workload ratings we discussed earlier."
+  },
+  {
+   "s": 804.98,
+   "e": 811.38,
+   "t": "Right. Participants reported finding AR more demanding their pupil dilation suggested a higher cognitive load."
+  },
+  {
+   "s": 811.38,
+   "e": 815.66,
+   "t": "And now we see their brains were also working harder to suppress distractions in AR."
+  },
+  {
+   "s": 816.12,
+   "e": 818.62,
+   "t": "All of these findings paint a consistent picture."
+  },
+  {
+   "s": 819.28,
+   "e": 820.46,
+   "t": "It is a cohesive narrative."
+  },
+  {
+   "s": 821.0,
+   "e": 826.76,
+   "t": "The convergence of these different measures provides strong evidence that augmented virtuality may offer a cognitive advantage"
+  },
+  {
+   "s": 826.76,
+   "e": 830.52,
+   "t": "for visual search tasks, particularly those involving virtual objects."
+  },
+  {
+   "s": 830.7,
+   "e": 834.04,
+   "t": "This has significant implications for how we design them, our experiences."
+  },
+  {
+   "s": 834.04,
+   "e": 838.4,
+   "t": "If we know that AV can reduce cognitive load and enhance search efficiency,"
+  },
+  {
+   "s": 838.98,
+   "e": 842.82,
+   "t": "we can leverage that knowledge to create more user-friendly and effective applications."
+  },
+  {
+   "s": 842.82,
+   "e": 846.88,
+   "t": "The researchers even proposed the development of adaptive MR systems"
+  },
+  {
+   "s": 846.88,
+   "e": 851.94,
+   "t": "that could dynamically adjust the level of virtuality based on the user's cognitive state."
+  },
+  {
+   "s": 852.44,
+   "e": 858.28,
+   "t": "Imagine a system that could detect when you are struggling to focus and seamlessly transition from AR to AV"
+  },
+  {
+   "s": 858.28,
+   "e": 860.84,
+   "t": "or vice versa to optimize your experience."
+  },
+  {
+   "s": 860.84,
+   "e": 862.66,
+   "t": "That's an incredible concept."
+  },
+  {
+   "s": 862.86,
+   "e": 868.26,
+   "t": "A personalized, mixed-reality experience that responds to our brains in real time."
+  },
+  {
+   "s": 869.12,
+   "e": 871.08,
+   "t": "The possibilities are endless."
+  },
+  {
+   "s": 871.54,
+   "e": 876.06,
+   "t": "The researchers do acknowledge that their study was limited to relatively simple objects and environments."
+  },
+  {
+   "s": 876.58,
+   "e": 881.94,
+   "t": "Further research is certainly needed to determine if these findings hold true in more complex real-world scenarios."
+  },
+  {
+   "s": 881.94,
+   "e": 884.56,
+   "t": "That's a common caveat in scientific research."
+  },
+  {
+   "s": 885.04,
+   "e": 888.32,
+   "t": "However, this study provides a solid foundation for future exploration,"
+  },
+  {
+   "s": 888.8,
+   "e": 892.76,
+   "t": "and it offers some valuable insights into the fundamental cognitive processes at work"
+  },
+  {
+   "s": 892.76,
+   "e": 895.52,
+   "t": "when we search for information in these blended realities."
+  },
+  {
+   "s": 895.72,
+   "e": 897.72,
+   "t": "That is the power of research such as this."
+  },
+  {
+   "s": 898.1,
+   "e": 901.78,
+   "t": "By understanding the subtle ways our brains respond to different types of MR,"
+  },
+  {
+   "s": 902.22,
+   "e": 905.8,
+   "t": "we can unlock the true potential of this transformative technology."
+  },
+  {
+   "s": 905.8,
+   "e": 908.32,
+   "t": "This deep dive has given me a lot to think about."
+  },
+  {
+   "s": 909.02,
+   "e": 915.56,
+   "t": "The next time I use a VR headset, I'll have a newfound appreciation for the complex interplay of perception,"
+  },
+  {
+   "s": 915.98,
+   "e": 919.02,
+   "t": "attention, and cognitive effort happening behind the scenes."
+  },
+  {
+   "s": 919.16,
+   "e": 924.08,
+   "t": "It is a testament to the incredible adaptability and processing power of the human brain."
+  },
+  {
+   "s": 924.08,
+   "e": 926.82,
+   "t": "Well, thank you for joining us on this exploration of mixed reality."
+  },
+  {
+   "s": 927.26,
+   "e": 930.02,
+   "t": "We encourage you to continue exploring this ever-evolving field"
+  },
+  {
+   "s": 930.02,
+   "e": 936.26,
+   "t": "and to consider how these findings might shape the future of human-computer interaction across all sorts of domains."
+  },
+  {
+   "s": 936.76,
+   "e": 937.44,
+   "t": "Until next time."
+  }
+ ]
+}

@@ -1,0 +1,1200 @@
+{
+ "guid": "deephci.podbean.com/4816170e-17e5-3750-bb0f-47a35f3e26bc",
+ "slug": "uist-2025-kinethreads-soft-full-body-haptic-exosuit-using-low-cost-motor-pulley-mechanisms",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Kinethreads_Unpacked_The_400_VR_Suit_That_Uses_Pulleys_and_St9m5qz.m4a",
+  "version": 1
+ },
+ "duration": 906,
+ "word_count": 2685,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 7.86,
+   "t": "Welcome back to the Deep Dive. So if you've spent any time in VR lately, you probably know the feeling, that little buzz."
+  },
+  {
+   "s": 8.18,
+   "e": 9.1,
+   "t": "In the controllers."
+  },
+  {
+   "s": 9.42,
+   "e": 13.16,
+   "t": "Yeah, exactly. Or maybe you have one of those vests that gives you a bit of a rumble."
+  },
+  {
+   "s": 13.32,
+   "e": 16.94,
+   "t": "Right. Tactile feedback, feeling textures, small bumps. It's neat."
+  },
+  {
+   "s": 17.06,
+   "e": 25.58,
+   "t": "It is neat, but what about feeling something heavy, like really picking up a massive virtual sword and feeling its weight?"
+  },
+  {
+   "s": 25.7,
+   "e": 29.38,
+   "t": "Or, I don't know, the crush of gravity on some alien planet."
+  },
+  {
+   "s": 29.38,
+   "e": 37.18,
+   "t": "Yeah, that's the kinesthetic side, feeling actual forces, weight, resistance. And that's, well, that's basically missing from consumer VR right now."
+  },
+  {
+   "s": 37.22,
+   "e": 37.94,
+   "t": "It really is."
+  },
+  {
+   "s": 37.96,
+   "e": 43.94,
+   "t": "It's a mechanical problem, fundamentally. You've got these cheap, great for what they are, vibration systems, good for texture."
+  },
+  {
+   "s": 44.96,
+   "e": 48.2,
+   "t": "But they can't give you significant force. Not really."
+  },
+  {
+   "s": 48.38,
+   "e": 49.1,
+   "t": "And the alternative."
+  },
+  {
+   "s": 49.42,
+   "e": 55.2,
+   "t": "Well, then you leave to the professional stuff. You know, rigid exoskeletons, motors at every joint."
+  },
+  {
+   "s": 55.2,
+   "e": 59.74,
+   "t": "They can do the force, absolutely. But they're heavy. Super restrictive."
+  },
+  {
+   "s": 59.94,
+   "e": 60.56,
+   "t": "And the cost."
+  },
+  {
+   "s": 60.68,
+   "e": 65.74,
+   "t": "Oh, yeah. Tens of thousands of dollars. It's basically industrial gear, right? Not something you're going to have next to your couch."
+  },
+  {
+   "s": 65.96,
+   "e": 71.06,
+   "t": "So, yeah, this huge gap exists. We want high force, but we need it at a consumer price point."
+  },
+  {
+   "s": 71.22,
+   "e": 71.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 71.62,
+   "e": 73.62,
+   "t": "And, well, that's why we're looking at kin threads today."
+  },
+  {
+   "s": 73.86,
+   "e": 76.58,
+   "t": "Exactly. This thing, it's a full body haptic exosuit."
+  },
+  {
+   "s": 76.58,
+   "e": 85.84,
+   "t": "And it's designed, really, to hit that sweet spot, to give you those kinesthetic forces, the weight, the acceleration, but using soft, flexible parts."
+  },
+  {
+   "s": 86.26,
+   "e": 88.58,
+   "t": "And, remarkably, low-cost components."
+  },
+  {
+   "s": 89.5,
+   "e": 91.14,
+   "t": "Okay. Let's unback this."
+  },
+  {
+   "s": 91.2,
+   "e": 94.78,
+   "t": "Yeah. Our mission today, really, is to figure out how they solve this puzzle."
+  },
+  {
+   "s": 95.42,
+   "e": 101.58,
+   "t": "How do you get strong, full body force feedback from a suit that's light, easy to put on, and crucially, affordable?"
+  },
+  {
+   "s": 102.4,
+   "e": 103.76,
+   "t": "It's all about clever mechanics."
+  },
+  {
+   "s": 103.76,
+   "e": 107.82,
+   "t": "And the numbers they're reporting, I mean, that's what really jumps out, less than five kilos for the whole suit."
+  },
+  {
+   "s": 107.98,
+   "e": 108.14,
+   "t": "Right."
+  },
+  {
+   "s": 108.24,
+   "e": 110.1,
+   "t": "You can put it on in under 30 seconds."
+  },
+  {
+   "s": 110.76,
+   "e": 112.9,
+   "t": "Estimated cost around $400 commercially."
+  },
+  {
+   "s": 113.24,
+   "e": 117.42,
+   "t": "And yet, it can pull with up to 120 newtons of force."
+  },
+  {
+   "s": 117.56,
+   "e": 117.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 117.9,
+   "e": 118.68,
+   "t": "Using strings."
+  },
+  {
+   "s": 118.86,
+   "e": 121.3,
+   "t": "Yeah, that combination. Power, portability, price."
+  },
+  {
+   "s": 121.54,
+   "e": 121.84,
+   "t": "Yeah."
+  },
+  {
+   "s": 121.96,
+   "e": 125.72,
+   "t": "It sounds, well, almost too good to be true. It points to some really smart engineering."
+  },
+  {
+   "s": 125.82,
+   "e": 126.5,
+   "t": "It really does."
+  },
+  {
+   "s": 126.72,
+   "e": 130.72,
+   "t": "And the core idea, the big departure, is ditching rigid structures."
+  },
+  {
+   "s": 131.38,
+   "e": 133.12,
+   "t": "Kin threads is all about being soft."
+  },
+  {
+   "s": 133.12,
+   "e": 137.04,
+   "t": "It uses these string-based motor pulley systems to apply force."
+  },
+  {
+   "s": 137.3,
+   "e": 139.8,
+   "t": "So, strings pulled by motors, how is it laid out?"
+  },
+  {
+   "s": 140.0,
+   "e": 142.82,
+   "t": "Okay, so there are 10 motorized reels in total."
+  },
+  {
+   "s": 143.52,
+   "e": 146.1,
+   "t": "And they target seven specific areas."
+  },
+  {
+   "s": 147.14,
+   "e": 151.32,
+   "t": "Both hands, both legs, the abdomen, the back, and even the head."
+  },
+  {
+   "s": 151.54,
+   "e": 155.16,
+   "t": "10 motors. But where do you put them? Because motors mean weight."
+  },
+  {
+   "s": 155.44,
+   "e": 157.38,
+   "t": "Right. And that's maybe the most ingenious part."
+  },
+  {
+   "s": 157.76,
+   "e": 160.9,
+   "t": "The motors and power supply alone are about 2.3 kilograms."
+  },
+  {
+   "s": 160.9,
+   "e": 164.18,
+   "t": "If you just stuck those anywhere, the suit would feel terrible."
+  },
+  {
+   "s": 164.42,
+   "e": 167.56,
+   "t": "Awkward, unbalanced, a usability nightmare, like you said."
+  },
+  {
+   "s": 167.6,
+   "e": 168.76,
+   "t": "So, where did they anchor at all?"
+  },
+  {
+   "s": 169.02,
+   "e": 169.74,
+   "t": "Around the waist."
+  },
+  {
+   "s": 170.3,
+   "e": 173.5,
+   "t": "Eight of those 10 main motors are clistered right there, around your center of mass."
+  },
+  {
+   "s": 173.62,
+   "e": 175.38,
+   "t": "Ah, okay. That makes ergonomic sense."
+  },
+  {
+   "s": 175.52,
+   "e": 177.7,
+   "t": "Hides the bulk, keeps it balanced, feels lighter."
+  },
+  {
+   "s": 177.84,
+   "e": 181.18,
+   "t": "Exactly. But there's another reason, and this is the really clever bit, the design trick."
+  },
+  {
+   "s": 181.18,
+   "e": 183.18,
+   "t": "Perceptual masking."
+  },
+  {
+   "s": 183.8,
+   "e": 188.74,
+   "t": "Perceptual masking. Okay, so not just hiding the weight, but hiding the other forces, the unwanted ones."
+  },
+  {
+   "s": 189.1,
+   "e": 192.26,
+   "t": "Precisely. You can't beat Newton's third law, right?"
+  },
+  {
+   "s": 192.76,
+   "e": 195.54,
+   "t": "For every action, there's an equal and opposite reaction."
+  },
+  {
+   "s": 195.96,
+   "e": 197.18,
+   "t": "So, when a motor pulls on your hand..."
+  },
+  {
+   "s": 197.18,
+   "e": 200.96,
+   "t": "It's also pulling back on wherever the motor is attached."
+  },
+  {
+   "s": 201.38,
+   "e": 202.4,
+   "t": "On the suit itself."
+  },
+  {
+   "s": 202.64,
+   "e": 211.84,
+   "t": "Exactly. And if that motor was, say, on your shoulder blade, you'd feel this constant weird tugging on your chest every time the suit tried to pull your arm down."
+  },
+  {
+   "s": 211.88,
+   "e": 212.04,
+   "t": "Look."
+  },
+  {
+   "s": 212.18,
+   "e": 214.22,
+   "t": "It'd be distracting. Maybe even uncomfortable."
+  },
+  {
+   "s": 214.52,
+   "e": 214.82,
+   "t": "Okay."
+  },
+  {
+   "s": 214.82,
+   "e": 230.76,
+   "t": "But by anchoring those eight main motors to your torso, the heaviest, most stable part of your body that opposing reaction force gets spread out, it's much less noticeable than the strong intended force being applied to your limb, like your hand or your foot or your head."
+  },
+  {
+   "s": 230.84,
+   "e": 235.92,
+   "t": "That is smart. So you anchor the weight and you hide the reaction force all in one move right at the body's core. Brilliant."
+  },
+  {
+   "s": 236.12,
+   "e": 236.24,
+   "t": "Yeah."
+  },
+  {
+   "s": 236.24,
+   "e": 241.5,
+   "t": "But, okay, even with clever placement, small, cheap motors aren't usually that powerful."
+  },
+  {
+   "s": 241.5,
+   "e": 246.98,
+   "t": "Getting up to 120 newtons, how do they manage that kind of force multiplication on a budget?"
+  },
+  {
+   "s": 247.52,
+   "e": 249.44,
+   "t": "Ah, well, here's where it gets really interesting."
+  },
+  {
+   "s": 249.72,
+   "e": 249.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 250.16,
+   "e": 253.82,
+   "t": "Because they didn't invent something totally new. They reached way back."
+  },
+  {
+   "s": 253.88,
+   "e": 254.6,
+   "t": "How far back?"
+  },
+  {
+   "s": 254.84,
+   "e": 259.44,
+   "t": "Ancient technology, basically. Simple machines. Pulleys and cap stands."
+  },
+  {
+   "s": 259.62,
+   "e": 261.98,
+   "t": "Ah, okay, like physics textbook stuff."
+  },
+  {
+   "s": 262.06,
+   "e": 267.22,
+   "t": "Exactly. But use really effectively. They're not just rerouting the string pole, though that's useful too."
+  },
+  {
+   "s": 267.22,
+   "e": 272.1,
+   "t": "They're using these mechanisms to amplify the force. Mechanical advantage."
+  },
+  {
+   "s": 272.48,
+   "e": 275.54,
+   "t": "Right. So small motor effort, big force output."
+  },
+  {
+   "s": 275.74,
+   "e": 284.46,
+   "t": "That's the idea. It lets them use these relatively low torque affordable motors to generate forces that can actually match human strength in some cases."
+  },
+  {
+   "s": 284.64,
+   "e": 289.86,
+   "t": "Okay. Let's break down how they use different setups for different body parts. They mentioned different pulley types."
+  },
+  {
+   "s": 289.94,
+   "e": 294.14,
+   "t": "Yeah, they budgeted the force, essentially. For the hands, they used a fixed pulley."
+  },
+  {
+   "s": 294.14,
+   "e": 296.86,
+   "t": "Which is just one-to-one, right? No amplification."
+  },
+  {
+   "s": 297.1,
+   "e": 298.96,
+   "t": "Correct. 1x mechanical advantage."
+  },
+  {
+   "s": 299.1,
+   "e": 302.18,
+   "t": "Why not boost the force for the hands? You want to feel heavy objects there."
+  },
+  {
+   "s": 302.28,
+   "e": 306.14,
+   "t": "It's a trade-off. The hands need to be responsive. Precision matters."
+  },
+  {
+   "s": 306.7,
+   "e": 313.0,
+   "t": "A fixed pulley is great for just rerouting the force, getting it from that waist motor, up over the shoulder, down to the hand."
+  },
+  {
+   "s": 313.36,
+   "e": 319.74,
+   "t": "By not using higher mechanical advantage here, they minimize latency. Speed is the priority for the hands."
+  },
+  {
+   "s": 320.08,
+   "e": 324.0,
+   "t": "Okay, that makes sense. Interaction speed trumps raw power for the hands."
+  },
+  {
+   "s": 324.14,
+   "e": 329.62,
+   "t": "But the legs, they're different. Big muscles carry our weight. Need more force there, presumably."
+  },
+  {
+   "s": 329.88,
+   "e": 336.76,
+   "t": "Exactly. So for the legs, they switched to a movable pulley system. That gives you a two-times mechanical advantage."
+  },
+  {
+   "s": 336.92,
+   "e": 339.1,
+   "t": "So doubles the force output from the motor."
+  },
+  {
+   "s": 339.3,
+   "e": 345.58,
+   "t": "Right. Necessary for simulating things like walking resistance or maybe feeling heavier gravity acting on your biggest limbs."
+  },
+  {
+   "s": 346.16,
+   "e": 351.96,
+   "t": "And then the back system, that's where they hit the big number, the 120 newtons. They used a compound pulley there."
+  },
+  {
+   "s": 351.96,
+   "e": 354.42,
+   "t": "Yeah, three-times mechanical advantage configuration."
+  },
+  {
+   "s": 354.58,
+   "e": 359.46,
+   "t": "Okay, 3x force. Why specifically the back for the maximum power?"
+  },
+  {
+   "s": 359.98,
+   "e": 369.34,
+   "t": "Well, the back needs to handle the really big loads. Think about feeling a heavy virtual backpack or big inertia shifts or like that massive acceleration feeling."
+  },
+  {
+   "s": 369.54,
+   "e": 369.8,
+   "t": "Right."
+  },
+  {
+   "s": 369.8,
+   "e": 379.0,
+   "t": "But it's not just about the amount of force. That 3x compound pulley structure also helps distribute that tension over a wider area of your back."
+  },
+  {
+   "s": 379.1,
+   "e": 383.96,
+   "t": "Ah, for comfort and safety. So it doesn't feel like a thin string digging in when it's pulling really hard."
+  },
+  {
+   "s": 384.26,
+   "e": 388.46,
+   "t": "Exactly. Spreads the load. Prevents it from concentrating dangerously or uncomfortably."
+  },
+  {
+   "s": 388.68,
+   "e": 392.48,
+   "t": "Smart. And then they use something called a capstan for the head. What's that?"
+  },
+  {
+   "s": 392.48,
+   "e": 400.0,
+   "t": "The capstan is just pure efficiency. It's a mechanism that lets you get two opposing actions, like a pull to the left and a pull to the right from just one motor."
+  },
+  {
+   "s": 400.26,
+   "e": 403.22,
+   "t": "Oh, clever. So instead of needing two motors for left-right head movements."
+  },
+  {
+   "s": 403.34,
+   "e": 411.62,
+   "t": "They use one. Saves weight, saves cost, saves complexity. It's just good economical engineering, perfect for hitting that consumer price point."
+  },
+  {
+   "s": 411.74,
+   "e": 418.22,
+   "t": "Okay, so we've got the mechanics, the strings, the pulleys, the clever motor placement. Now let's talk experience."
+  },
+  {
+   "s": 418.22,
+   "e": 424.98,
+   "t": "What can this thing actually do in VR? What does 120 newtons of string pulling feel like?"
+  },
+  {
+   "s": 425.26,
+   "e": 429.26,
+   "t": "Well, the system can generate quite a range of effects. They group them into about five categories."
+  },
+  {
+   "s": 430.14,
+   "e": 438.74,
+   "t": "Static forces, dynamic forces, impulsive forces, force animations, and it can still do basic vibrotactile stuff too, up to 200 hertz."
+  },
+  {
+   "s": 439.04,
+   "e": 440.62,
+   "t": "So it has the buzzes and the pull."
+  },
+  {
+   "s": 440.72,
+   "e": 443.26,
+   "t": "Right. The combination is key for believable immersion."
+  },
+  {
+   "s": 443.34,
+   "e": 447.82,
+   "t": "Let's start with static forces. That sounds like the foundation, right? Feeling constant weight or pressure."
+  },
+  {
+   "s": 448.22,
+   "e": 455.32,
+   "t": "It is, like object weight. Pick up a virtual pool ball. Maybe you feel a gentle five newtons pulling your hand down."
+  },
+  {
+   "s": 455.34,
+   "e": 457.42,
+   "t": "Okay. Noticeable but light."
+  },
+  {
+   "s": 457.58,
+   "e": 464.74,
+   "t": "Then you swap it for a virtual cannonball, and boom, the force jumps way up, maybe 35 newtons. A real sense of heft."
+  },
+  {
+   "s": 464.84,
+   "e": 465.64,
+   "t": "And it can add up."
+  },
+  {
+   "s": 465.78,
+   "e": 474.06,
+   "t": "Yeah, that's the cumulative part. If you drop those things in a virtual backpack, the back system with that 3x pulley starts adding up the load."
+  },
+  {
+   "s": 474.06,
+   "e": 476.26,
+   "t": "You actually feel the backpack getting heavier."
+  },
+  {
+   "s": 476.26,
+   "e": 481.3,
+   "t": "That's cool. What about that high gravity simulation? How does that work if it can only pull?"
+  },
+  {
+   "s": 481.52,
+   "e": 483.0,
+   "t": "Ah, the gravitational load demo."
+  },
+  {
+   "s": 483.22,
+   "e": 491.02,
+   "t": "That's really interesting. It commands almost all the reels to apply a constant downward component of force, maybe 10 or 20 newtons each."
+  },
+  {
+   "s": 491.12,
+   "e": 493.84,
+   "t": "So it's pulling down on your arms, your head, your back."
+  },
+  {
+   "s": 493.96,
+   "e": 497.4,
+   "t": "Right. Creating this overall compressive feeling on your whole body."
+  },
+  {
+   "s": 497.4,
+   "e": 505.9,
+   "t": "Suddenly moving feels effortful, sluggish. It really sells the idea you're on a high-G planet, even though it's achieving it through tension."
+  },
+  {
+   "s": 506.14,
+   "e": 511.62,
+   "t": "Okay. Shifting gears. Dynamic forces. Things changing based on movement, like in a vehicle."
+  },
+  {
+   "s": 511.9,
+   "e": 516.6,
+   "t": "Yeah. Crucial for motion simulation. Think about a spaceship launch demo they described."
+  },
+  {
+   "s": 516.6,
+   "e": 521.78,
+   "t": "Okay. To simulate that feeling of being pushed back into your seat, linear acceleration."
+  },
+  {
+   "s": 522.06,
+   "e": 524.18,
+   "t": "The suit pulls backward on your head and your back."
+  },
+  {
+   "s": 524.26,
+   "e": 524.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 524.68,
+   "e": 527.44,
+   "t": "And the force increases as the virtual ship speeds up."
+  },
+  {
+   "s": 527.52,
+   "e": 529.0,
+   "t": "So you feel the G-force building."
+  },
+  {
+   "s": 529.32,
+   "e": 533.86,
+   "t": "Exactly. Or centripetal force in a racing game demo."
+  },
+  {
+   "s": 533.98,
+   "e": 535.52,
+   "t": "Like turning a corner fast."
+  },
+  {
+   "s": 535.52,
+   "e": 541.98,
+   "t": "Right. As you take that sharp turn, the system instantly pulls on your head and legs towards the outside of the turn."
+  },
+  {
+   "s": 542.6,
+   "e": 544.6,
+   "t": "The harder the turn, the stronger the pull."
+  },
+  {
+   "s": 545.0,
+   "e": 548.44,
+   "t": "It simulates your body's inertia, resisting the change in direction."
+  },
+  {
+   "s": 548.8,
+   "e": 550.02,
+   "t": "That sounds pretty immersive."
+  },
+  {
+   "s": 550.58,
+   "e": 553.6,
+   "t": "But I think the force animations sound the most creative."
+  },
+  {
+   "s": 554.14,
+   "e": 557.14,
+   "t": "Using force not just for interaction, but to paint the environment."
+  },
+  {
+   "s": 557.32,
+   "e": 559.42,
+   "t": "Yeah. The runaway train example is great for that."
+  },
+  {
+   "s": 559.5,
+   "e": 560.38,
+   "t": "Tell me about that one."
+  },
+  {
+   "s": 560.38,
+   "e": 565.26,
+   "t": "Okay. So first, they use vibration like 60 hertz all over to give you that constant train car rumble."
+  },
+  {
+   "s": 565.48,
+   "e": 566.28,
+   "t": "That's the base layer."
+  },
+  {
+   "s": 566.42,
+   "e": 567.84,
+   "t": "Got it. The tactile buzz."
+  },
+  {
+   "s": 568.1,
+   "e": 573.62,
+   "t": "But then, layered on top, the kinesthetic system applies forces to your legs and your abdomen."
+  },
+  {
+   "s": 574.46,
+   "e": 579.14,
+   "t": "These forces are constantly shifting, pulling you slightly side to side, making you feel like you're swaying."
+  },
+  {
+   "s": 579.74,
+   "e": 581.8,
+   "t": "Proportional to how the train is moving on screen."
+  },
+  {
+   "s": 582.0,
+   "e": 584.86,
+   "t": "Exactly. So you're vibrating and you're physically being swayed."
+  },
+  {
+   "s": 584.9,
+   "e": 585.14,
+   "t": "Yes."
+  },
+  {
+   "s": 585.14,
+   "e": 589.58,
+   "t": "Your brain just instantly buys it. I'm on a rickety train. It's sensory substitution, really."
+  },
+  {
+   "s": 589.58,
+   "e": 592.54,
+   "t": "And the waterfall. That sounded like pure chaos."
+  },
+  {
+   "s": 592.64,
+   "e": 594.18,
+   "t": "It basically is. Controlled chaos."
+  },
+  {
+   "s": 594.78,
+   "e": 597.14,
+   "t": "They wanted to simulate being hit by turbulent water."
+  },
+  {
+   "s": 597.86,
+   "e": 600.14,
+   "t": "So the suit generates random forces."
+  },
+  {
+   "s": 600.4,
+   "e": 600.64,
+   "t": "Random."
+  },
+  {
+   "s": 600.84,
+   "e": 602.26,
+   "t": "Yeah, like between 10 and 40 newtons."
+  },
+  {
+   "s": 602.34,
+   "e": 602.56,
+   "t": "Yeah."
+  },
+  {
+   "s": 602.78,
+   "e": 606.02,
+   "t": "Applied for random amounts of time, maybe 40 milliseconds, maybe a full second."
+  },
+  {
+   "s": 606.36,
+   "e": 611.34,
+   "t": "And hitting different body parts, arms, head, back, all seemingly at random."
+  },
+  {
+   "s": 611.46,
+   "e": 611.82,
+   "t": "Wow."
+  },
+  {
+   "s": 611.94,
+   "e": 615.04,
+   "t": "And then they layer 25 hertz and 50 hertz vibrations on top of that."
+  },
+  {
+   "s": 615.16,
+   "e": 615.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 615.36,
+   "e": 618.62,
+   "t": "The goal isn't perfect fluid dynamics simulation."
+  },
+  {
+   "s": 618.62,
+   "e": 623.76,
+   "t": "It's just to overwhelm your senses with this feeling of unpredictable buffeting force."
+  },
+  {
+   "s": 623.92,
+   "e": 624.14,
+   "t": "Yeah."
+  },
+  {
+   "s": 624.8,
+   "e": 625.24,
+   "t": "Turbulent."
+  },
+  {
+   "s": 626.04,
+   "e": 626.48,
+   "t": "Chaotic."
+  },
+  {
+   "s": 626.64,
+   "e": 627.26,
+   "t": "That sounds intense."
+  },
+  {
+   "s": 627.44,
+   "e": 630.08,
+   "t": "Okay. So the hardware is clever. The effects sound really compelling."
+  },
+  {
+   "s": 630.2,
+   "e": 633.42,
+   "t": "What does it all mean for us, for consumer VR? Let's hit those practical numbers again."
+  },
+  {
+   "s": 633.54,
+   "e": 636.22,
+   "t": "Right. The bottom line seems to be efficiency and cost effectiveness."
+  },
+  {
+   "s": 636.44,
+   "e": 640.44,
+   "t": "That target price or $420 commercially, that's huge."
+  },
+  {
+   "s": 640.78,
+   "e": 642.18,
+   "t": "It makes it potentially very accessible."
+  },
+  {
+   "s": 642.4,
+   "e": 645.14,
+   "t": "Compared to tens of thousands for rigid suits. Yeah."
+  },
+  {
+   "s": 645.14,
+   "e": 651.7,
+   "t": "And the weight, 4.6 kilos total, including the battery. That's remarkably light for something"
+  },
+  {
+   "s": 651.7,
+   "e": 654.0,
+   "t": "delivering this kind of force across the whole body."
+  },
+  {
+   "s": 654.56,
+   "e": 656.48,
+   "t": "And the power draw, you mentioned that was low."
+  },
+  {
+   "s": 656.72,
+   "e": 661.8,
+   "t": "Shockingly low, really. Even in demanding scenes, the average draw was just 10.9 watts."
+  },
+  {
+   "s": 662.0,
+   "e": 667.6,
+   "t": "10.9 watts. For a suit pulling with 120 newtons, how does that translate to battery life?"
+  },
+  {
+   "s": 667.6,
+   "e": 676.68,
+   "t": "It means pretty great runtime. They tested with a fairly standard 67-watt-hour battery pack and got over six hours of continuous heavy use."
+  },
+  {
+   "s": 677.02,
+   "e": 680.68,
+   "t": "Six hours? That's longer than most VR headsets last on their own charge."
+  },
+  {
+   "s": 680.76,
+   "e": 685.84,
+   "t": "Exactly. Which is critical, right? You don't want your haptic suit dying before your headset does. That kills the experience."
+  },
+  {
+   "s": 685.88,
+   "e": 690.28,
+   "t": "Definitely. And did the user feedback confirm that this force stuff actually makes a difference?"
+  },
+  {
+   "s": 690.28,
+   "e": 697.96,
+   "t": "Oh yeah. They did user studies. And the results were pretty clear. When people had both the vibrations and the kinesthetic forces..."
+  },
+  {
+   "s": 697.96,
+   "e": 698.34,
+   "t": "The poles."
+  },
+  {
+   "s": 698.62,
+   "e": 704.92,
+   "t": "Right. That condition consistently ranked highest for both realism and overall immersion. People felt it was way better."
+  },
+  {
+   "s": 705.08,
+   "e": 707.18,
+   "t": "And comparing force versus just vibration."
+  },
+  {
+   "s": 707.72,
+   "e": 713.02,
+   "t": "Interestingly, the kinesthetic force feedback alone was generally preferred over vibration alone."
+  },
+  {
+   "s": 713.02,
+   "e": 720.56,
+   "t": "Especially for realism. If you want things to feel real, you need that sense of actual force, not just buzzing."
+  },
+  {
+   "s": 721.02,
+   "e": 725.8,
+   "t": "Okay. Makes intuitive sense. But no system is perfect. There have to be trade-offs."
+  },
+  {
+   "s": 726.36,
+   "e": 729.38,
+   "t": "You mentioned that pulley system gives mechanical advantage."
+  },
+  {
+   "s": 729.92,
+   "e": 732.34,
+   "t": "But it comes at a cost. Latency."
+  },
+  {
+   "s": 732.74,
+   "e": 734.86,
+   "t": "Ah. Because you have to pull more string."
+  },
+  {
+   "s": 734.86,
+   "e": 743.1,
+   "t": "Exactly. If you use a 2x pulley to double the force, the motor has to reel in twice the length of string compared to a direct 1x pull."
+  },
+  {
+   "s": 743.36,
+   "e": 745.48,
+   "t": "And reeling in more string takes more time."
+  },
+  {
+   "s": 745.54,
+   "e": 752.62,
+   "t": "Takes more time. So the delay between the virtual event happening and you feeling the full force increases with the mechanical advantage."
+  },
+  {
+   "s": 752.76,
+   "e": 755.34,
+   "t": "So that 120 Newton pull on the back..."
+  },
+  {
+   "s": 755.34,
+   "e": 760.42,
+   "t": "Will have the highest latency. It takes longer for the motor to gather up all that string needed for the 3x advantage."
+  },
+  {
+   "s": 760.42,
+   "e": 765.22,
+   "t": "In really fast-paced games, maybe competitive shooters or something, that delay might be noticeable."
+  },
+  {
+   "s": 765.44,
+   "e": 768.24,
+   "t": "Might feel a bit laggy. Even if the final force is strong."
+  },
+  {
+   "s": 768.34,
+   "e": 770.42,
+   "t": "That's a key trade-off. Speed versus power."
+  },
+  {
+   "s": 770.76,
+   "e": 772.66,
+   "t": "And the other big one, inherent to strings."
+  },
+  {
+   "s": 773.02,
+   "e": 774.0,
+   "t": "Only pull, right?"
+  },
+  {
+   "s": 774.28,
+   "e": 776.12,
+   "t": "That's the fundamental limitation, yeah."
+  },
+  {
+   "s": 776.7,
+   "e": 780.8,
+   "t": "Kin threads applies tension. It cannot apply compression. It can't push."
+  },
+  {
+   "s": 781.14,
+   "e": 784.04,
+   "t": "So, things like resting your hand on a virtual table."
+  },
+  {
+   "s": 784.66,
+   "e": 788.78,
+   "t": "The suit can't push up against your hand to simulate the table's surface resistance?"
+  },
+  {
+   "s": 788.78,
+   "e": 794.44,
+   "t": "Correct. Or think about drawing a bow. A real bow pushes outward against your bow hand."
+  },
+  {
+   "s": 795.02,
+   "e": 801.56,
+   "t": "Kin threads can simulate the string tension on your drawing arm, but it can't replicate that outward push on the other hand."
+  },
+  {
+   "s": 801.66,
+   "e": 808.24,
+   "t": "Right. So that pull-only nature limits the types of physical interactions it can truly physically replicate."
+  },
+  {
+   "s": 808.4,
+   "e": 810.98,
+   "t": "It does. It's a significant constraint to keep in mind."
+  },
+  {
+   "s": 810.98,
+   "e": 816.26,
+   "t": "Absolutely. But even with those limits, what kin threads pull off here seems pretty remarkable."
+  },
+  {
+   "s": 816.5,
+   "e": 825.78,
+   "t": "I mean, full-body, high-force kinesthetics in a package that's soft, light, affordable, using smart applications of really old tech."
+  },
+  {
+   "s": 826.26,
+   "e": 826.86,
+   "t": "That's impressive."
+  },
+  {
+   "s": 827.26,
+   "e": 832.88,
+   "t": "It really is. And that brings us to maybe the most provocative finding from the research, thinking about those limitations."
+  },
+  {
+   "s": 833.28,
+   "e": 834.48,
+   "t": "Remember the high-gravity demo?"
+  },
+  {
+   "s": 834.64,
+   "e": 838.18,
+   "t": "Yeah, where it couldn't actually pull you down. It pulled up on your legs to create compression."
+  },
+  {
+   "s": 838.18,
+   "e": 842.28,
+   "t": "Right. Physically, it's the opposite of real gravity on your legs."
+  },
+  {
+   "s": 843.04,
+   "e": 847.22,
+   "t": "Yet, users in the study still reported feeling immersed in that high-gravity scenario."
+  },
+  {
+   "s": 847.68,
+   "e": 852.82,
+   "t": "The approximation worked, especially when paired with the right visuals and the compressive forces elsewhere."
+  },
+  {
+   "s": 852.96,
+   "e": 855.1,
+   "t": "Huh. So the brain filled in the gaps."
+  },
+  {
+   "s": 855.34,
+   "e": 858.2,
+   "t": "It seems like it. Which leads to this final thought to chew on."
+  },
+  {
+   "s": 858.3,
+   "e": 858.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 858.46,
+   "e": 865.84,
+   "t": "If a haptic system can effectively trick our brains into feeling something real, even with approximations or sensory substitution."
+  },
+  {
+   "s": 866.7,
+   "e": 870.82,
+   "t": "How critical is perfect? 1.1 physical accuracy."
+  },
+  {
+   "s": 871.02,
+   "e": 873.94,
+   "t": "Versus just being clever enough to create convincing immersion."
+  },
+  {
+   "s": 874.28,
+   "e": 874.68,
+   "t": "Exactly."
+  },
+  {
+   "s": 874.68,
+   "e": 880.74,
+   "t": "Maybe the goal for consumer VR isn't perfect physics replication, which might always be too complex or expensive."
+  },
+  {
+   "s": 881.62,
+   "e": 885.26,
+   "t": "Maybe it's about finding the most efficient, most convincing illusion of reality."
+  },
+  {
+   "s": 885.5,
+   "e": 890.16,
+   "t": "That might be the smarter path forward, especially for affordable, widespread adoption."
+  },
+  {
+   "s": 890.54,
+   "e": 891.54,
+   "t": "A fascinating question."
+  },
+  {
+   "s": 891.98,
+   "e": 894.9,
+   "t": "How real does it need to be versus how real does it need to feel?"
+  },
+  {
+   "s": 895.18,
+   "e": 899.24,
+   "t": "Definitely something to think about as we look towards deeper, more embodied VR."
+  },
+  {
+   "s": 899.56,
+   "e": 899.82,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 900.24,
+   "e": 903.22,
+   "t": "Well, thanks for walking us through the mechanics and magic of KinThreads today."
+  },
+  {
+   "s": 903.26,
+   "e": 903.68,
+   "t": "My pleasure."
+  },
+  {
+   "s": 903.68,
+   "e": 905.76,
+   "t": "We'll catch you on the next Deep Dive."
+  }
+ ]
+}

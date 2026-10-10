@@ -1,0 +1,1105 @@
+{
+ "guid": "deephci.podbean.com/4339e45b-a816-340b-8ada-c6cc24fd1054",
+ "slug": "mobilehci-2024-visual-noise-cancellation-exploring-visual-discomfort-and-opportunities-for-vision-augmentations",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3634699.mp3",
+  "version": 1
+ },
+ "duration": 631,
+ "word_count": 1815,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 4.32,
+   "t": "Imagine that feeling you get when you first put on a good pair of noise-canceling headphones."
+  },
+  {
+   "s": 4.64,
+   "e": 6.22,
+   "t": "It really is remarkable, isn't it?"
+  },
+  {
+   "s": 6.24,
+   "e": 7.26,
+   "t": "That sudden silence."
+  },
+  {
+   "s": 7.5,
+   "e": 9.26,
+   "t": "Yes, it is."
+  },
+  {
+   "s": 9.72,
+   "e": 12.88,
+   "t": "Now, what if we could bring that same sense of peace to our vision?"
+  },
+  {
+   "s": 13.52,
+   "e": 20.7,
+   "t": "That's the fascinating idea behind something called, and forgive the jargon, visual noise cancellation, or VNC for short."
+  },
+  {
+   "s": 21.3,
+   "e": 29.26,
+   "t": "Essentially, it's about creating a more serene, less visually overwhelming experience, much like noise cancellation does for audio."
+  },
+  {
+   "s": 29.26,
+   "e": 31.98,
+   "t": "And it's the subject of this deep dive."
+  },
+  {
+   "s": 32.36,
+   "e": 36.0,
+   "t": "We're drawing on some very interesting research out of the University of Otago in New Zealand,"
+  },
+  {
+   "s": 36.52,
+   "e": 43.12,
+   "t": "where researchers have been doing a deep dive of their own into the nature of visual noise and how we might mitigate its effects."
+  },
+  {
+   "s": 43.4,
+   "e": 45.86,
+   "t": "And it's not just about aesthetics, although that plays a part."
+  },
+  {
+   "s": 46.04,
+   "e": 46.16,
+   "t": "Right."
+  },
+  {
+   "s": 46.32,
+   "e": 47.44,
+   "t": "Their research goes deeper."
+  },
+  {
+   "s": 47.74,
+   "e": 56.24,
+   "t": "These researchers are suggesting that visual noise, anything that causes visual discomfort or distraction, it can significantly impact us."
+  },
+  {
+   "s": 56.24,
+   "e": 61.38,
+   "t": "It can impact our well-being, our focus, even our ability to function effectively."
+  },
+  {
+   "s": 61.7,
+   "e": 62.22,
+   "t": "Precisely."
+  },
+  {
+   "s": 62.32,
+   "e": 64.54,
+   "t": "So let's unpack this concept of visual noise a little."
+  },
+  {
+   "s": 64.84,
+   "e": 69.1,
+   "t": "The researchers at Otago took what they call a human-centered approach."
+  },
+  {
+   "s": 69.6,
+   "e": 78.04,
+   "t": "They conducted workshops with participants from all walks of life to really understand what people find visually displeasing."
+  },
+  {
+   "s": 78.04,
+   "e": 81.04,
+   "t": "It was essential to start with human perception."
+  },
+  {
+   "s": 81.76,
+   "e": 81.92,
+   "t": "Sure."
+  },
+  {
+   "s": 82.04,
+   "e": 84.62,
+   "t": "Instead of solely focusing on the science of vision."
+  },
+  {
+   "s": 84.76,
+   "e": 84.94,
+   "t": "Okay."
+  },
+  {
+   "s": 85.1,
+   "e": 92.46,
+   "t": "They wanted to understand what people actually find jarring, what really grates on them visually in their everyday lives."
+  },
+  {
+   "s": 92.64,
+   "e": 93.46,
+   "t": "And what did they find?"
+  },
+  {
+   "s": 93.82,
+   "e": 97.14,
+   "t": "Well, a number of recurring themes emerged from these workshops."
+  },
+  {
+   "s": 97.3,
+   "e": 97.56,
+   "t": "Okay."
+  },
+  {
+   "s": 97.56,
+   "e": 108.58,
+   "t": "Participants, they often pointed to things that were excessively bright or environments that were cluttered and chaotic or elements characterized by distracting flickering."
+  },
+  {
+   "s": 108.78,
+   "e": 110.84,
+   "t": "It was essentially sensory overload."
+  },
+  {
+   "s": 111.08,
+   "e": 111.92,
+   "t": "Insult on the senses."
+  },
+  {
+   "s": 112.16,
+   "e": 112.44,
+   "t": "Yes."
+  },
+  {
+   "s": 112.8,
+   "e": 120.06,
+   "t": "And the researchers, they went on to categorize these examples based on the nature of the visual noise itself, breaking it down into three main categories."
+  },
+  {
+   "s": 120.24,
+   "e": 120.54,
+   "t": "Okay."
+  },
+  {
+   "s": 120.76,
+   "e": 122.86,
+   "t": "Waveform, temporal, and spatial."
+  },
+  {
+   "s": 122.86,
+   "e": 124.2,
+   "t": "So let's break those down."
+  },
+  {
+   "s": 124.36,
+   "e": 127.54,
+   "t": "What constitutes waveform visual noise?"
+  },
+  {
+   "s": 127.72,
+   "e": 131.86,
+   "t": "Think of it as the basic building blocks of light that are causing the issue."
+  },
+  {
+   "s": 132.22,
+   "e": 139.06,
+   "t": "So we're talking about the characteristics of the light itself, specifically the frequency and intensity of the light that reaches our eyes."
+  },
+  {
+   "s": 139.06,
+   "e": 147.6,
+   "t": "So are we talking about those fluorescent lights that always seem to trigger a headache or being momentarily blinded by oncoming headlights when driving at night?"
+  },
+  {
+   "s": 148.0,
+   "e": 148.4,
+   "t": "Exactly."
+  },
+  {
+   "s": 148.64,
+   "e": 150.4,
+   "t": "But it can be even more subtle than that."
+  },
+  {
+   "s": 150.4,
+   "e": 153.9,
+   "t": "Some people are particularly sensitive to specific colors."
+  },
+  {
+   "s": 154.64,
+   "e": 154.88,
+   "t": "Okay."
+  },
+  {
+   "s": 155.1,
+   "e": 158.02,
+   "t": "Or the overall temperature of the light in a room."
+  },
+  {
+   "s": 158.34,
+   "e": 161.96,
+   "t": "You know that cold, sterile feeling you get under certain fluorescent lights?"
+  },
+  {
+   "s": 162.02,
+   "e": 162.78,
+   "t": "I do, yes."
+  },
+  {
+   "s": 162.9,
+   "e": 165.62,
+   "t": "Well, that's a prime example of waveform visual noise."
+  },
+  {
+   "s": 165.78,
+   "e": 169.0,
+   "t": "And that can evoke feelings of unease, anxiety even."
+  },
+  {
+   "s": 169.0,
+   "e": 171.84,
+   "t": "And it can really hamper your ability to concentrate."
+  },
+  {
+   "s": 172.36,
+   "e": 172.62,
+   "t": "Interesting."
+  },
+  {
+   "s": 172.82,
+   "e": 177.68,
+   "t": "I have to admit, I hadn't really considered the impact light color could have on mood before."
+  },
+  {
+   "s": 177.84,
+   "e": 179.02,
+   "t": "Oh, it can be significant."
+  },
+  {
+   "s": 179.36,
+   "e": 179.68,
+   "t": "Okay."
+  },
+  {
+   "s": 180.06,
+   "e": 182.58,
+   "t": "What about the next category, temporal visual noise?"
+  },
+  {
+   "s": 182.84,
+   "e": 183.1,
+   "t": "All right."
+  },
+  {
+   "s": 183.14,
+   "e": 185.94,
+   "t": "So temporal visual noise, this is all about change over time."
+  },
+  {
+   "s": 186.06,
+   "e": 186.34,
+   "t": "Okay."
+  },
+  {
+   "s": 186.34,
+   "e": 192.04,
+   "t": "Things that flicker, flash, or move erratically, they can really mess with our cognitive processes."
+  },
+  {
+   "s": 192.38,
+   "e": 198.8,
+   "t": "So that person at the conference who just can't seem to sit still, and every time they move, it's like a distraction."
+  },
+  {
+   "s": 199.22,
+   "e": 200.14,
+   "t": "A perfect example."
+  },
+  {
+   "s": 200.84,
+   "e": 203.52,
+   "t": "Our brains are hardwired to pay attention to movement."
+  },
+  {
+   "s": 203.82,
+   "e": 205.02,
+   "t": "It's a survival mechanism."
+  },
+  {
+   "s": 205.3,
+   "e": 212.12,
+   "t": "But in today's world, that often backfires and leads to this constant low-level visual stress."
+  },
+  {
+   "s": 212.12,
+   "e": 212.16,
+   "t": "Yes."
+  },
+  {
+   "s": 212.6,
+   "e": 218.42,
+   "t": "Even something as subtle as the flickering of fluorescent lights can be enough to trigger headaches in some people."
+  },
+  {
+   "s": 218.66,
+   "e": 219.0,
+   "t": "It's true."
+  },
+  {
+   "s": 219.4,
+   "e": 221.88,
+   "t": "And then finally, there's spatial visual noise."
+  },
+  {
+   "s": 222.04,
+   "e": 222.36,
+   "t": "Right."
+  },
+  {
+   "s": 222.5,
+   "e": 223.3,
+   "t": "What does that one involve?"
+  },
+  {
+   "s": 223.44,
+   "e": 228.42,
+   "t": "So spatial visual noise is all about the arrangement of things in our visual field."
+  },
+  {
+   "s": 228.6,
+   "e": 228.62,
+   "t": "Okay."
+  },
+  {
+   "s": 228.7,
+   "e": 231.04,
+   "t": "Too much clutter, overly busy patterns."
+  },
+  {
+   "s": 231.24,
+   "e": 231.42,
+   "t": "Right."
+  },
+  {
+   "s": 231.64,
+   "e": 239.84,
+   "t": "Even something like the strategic placement of advertisements, they all aim to grab our attention, often at the cost of our overall visual comfort."
+  },
+  {
+   "s": 239.84,
+   "e": 242.34,
+   "t": "So that feeling of being overwhelmed in a cluttered room."
+  },
+  {
+   "s": 242.48,
+   "e": 242.74,
+   "t": "Yes."
+  },
+  {
+   "s": 242.9,
+   "e": 246.84,
+   "t": "Or finding it hard to focus when you're surrounded by visually stimulating billboards."
+  },
+  {
+   "s": 247.24,
+   "e": 247.76,
+   "t": "Exactly."
+  },
+  {
+   "s": 248.08,
+   "e": 249.94,
+   "t": "That's spatial visual noise at work."
+  },
+  {
+   "s": 250.3,
+   "e": 250.82,
+   "t": "It is."
+  },
+  {
+   "s": 250.9,
+   "e": 253.74,
+   "t": "Our brains crave order and predictability."
+  },
+  {
+   "s": 253.82,
+   "e": 254.08,
+   "t": "They do."
+  },
+  {
+   "s": 254.12,
+   "e": 259.84,
+   "t": "And when our visual environment becomes too chaotic, it really taxes our cognitive resources."
+  },
+  {
+   "s": 260.78,
+   "e": 263.28,
+   "t": "Even if we don't consciously realize it?"
+  },
+  {
+   "s": 263.28,
+   "e": 263.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 263.92,
+   "e": 264.66,
+   "t": "You know, it's interesting."
+  },
+  {
+   "s": 264.82,
+   "e": 271.34,
+   "t": "In their workshops, the researchers found that participants often cited advertisements as a source of visual noise."
+  },
+  {
+   "s": 272.1,
+   "e": 276.28,
+   "t": "It really makes you think about the constant barrage of advertising we're exposed to every day."
+  },
+  {
+   "s": 276.36,
+   "e": 276.8,
+   "t": "It does."
+  },
+  {
+   "s": 276.9,
+   "e": 277.4,
+   "t": "It's true."
+  },
+  {
+   "s": 277.94,
+   "e": 281.0,
+   "t": "We are increasingly bombarded with visual information."
+  },
+  {
+   "s": 281.32,
+   "e": 281.56,
+   "t": "Right."
+  },
+  {
+   "s": 281.8,
+   "e": 287.68,
+   "t": "Much of it designed to capture our attention, often by exploiting these very principles of visual noise that we've been discussing."
+  },
+  {
+   "s": 287.68,
+   "e": 291.6,
+   "t": "It's very clever, but also, I don't know, a little bit insidious in a way."
+  },
+  {
+   "s": 291.7,
+   "e": 292.22,
+   "t": "It can be."
+  },
+  {
+   "s": 292.4,
+   "e": 292.68,
+   "t": "Yes."
+  },
+  {
+   "s": 292.68,
+   "e": 292.72,
+   "t": "Yes."
+  },
+  {
+   "s": 293.24,
+   "e": 298.82,
+   "t": "So, given this constant onslaught of visual noise, what can we do about it?"
+  },
+  {
+   "s": 299.08,
+   "e": 301.48,
+   "t": "I mean, the researchers didn't just want to define the problem."
+  },
+  {
+   "s": 301.62,
+   "e": 301.8,
+   "t": "Yeah."
+  },
+  {
+   "s": 301.98,
+   "e": 304.26,
+   "t": "They wanted to explore potential solutions as well."
+  },
+  {
+   "s": 304.34,
+   "e": 305.04,
+   "t": "Of course."
+  },
+  {
+   "s": 305.2,
+   "e": 308.74,
+   "t": "And that's what led them to this concept of visual noise cancellation technology."
+  },
+  {
+   "s": 308.92,
+   "e": 309.36,
+   "t": "Exactly."
+  },
+  {
+   "s": 309.7,
+   "e": 311.98,
+   "t": "And they didn't stop it just theorizing either."
+  },
+  {
+   "s": 312.14,
+   "e": 312.32,
+   "t": "Right."
+  },
+  {
+   "s": 312.5,
+   "e": 315.48,
+   "t": "They actually went ahead and developed some early stage prototypes."
+  },
+  {
+   "s": 315.62,
+   "e": 315.92,
+   "t": "They did."
+  },
+  {
+   "s": 316.02,
+   "e": 317.8,
+   "t": "Using modified VR headsets."
+  },
+  {
+   "s": 318.04,
+   "e": 318.38,
+   "t": "Interesting."
+  },
+  {
+   "s": 318.48,
+   "e": 319.5,
+   "t": "So, they actually built something."
+  },
+  {
+   "s": 319.5,
+   "e": 320.28,
+   "t": "They did."
+  },
+  {
+   "s": 320.28,
+   "e": 325.2,
+   "t": "And these prototypes were designed to recreate specific visual noise scenarios."
+  },
+  {
+   "s": 325.64,
+   "e": 325.86,
+   "t": "Okay."
+  },
+  {
+   "s": 325.86,
+   "e": 328.5,
+   "t": "And then test out potential VNC solutions."
+  },
+  {
+   "s": 328.5,
+   "e": 329.98,
+   "t": "That's fascinating."
+  },
+  {
+   "s": 329.98,
+   "e": 336.12,
+   "t": "So, tell me, what would it be like to actually experience this VNC technology?"
+  },
+  {
+   "s": 336.48,
+   "e": 340.36,
+   "t": "Well, let's start with their first prototype, which focused on light temperature."
+  },
+  {
+   "s": 340.64,
+   "e": 341.0,
+   "t": "Okay."
+  },
+  {
+   "s": 341.0,
+   "e": 346.62,
+   "t": "So, imagine you walk into a room and it's lit with those harsh, sterile fluorescent lights."
+  },
+  {
+   "s": 346.7,
+   "e": 347.38,
+   "t": "I'll put in that room."
+  },
+  {
+   "s": 347.78,
+   "e": 348.46,
+   "t": "We all have."
+  },
+  {
+   "s": 349.06,
+   "e": 355.98,
+   "t": "Well, this prototype uses the headset to adjust the perceived color temperature, making it feel warmer, more inviting."
+  },
+  {
+   "s": 356.4,
+   "e": 358.42,
+   "t": "So, it's like a digital warm filter for your eyes."
+  },
+  {
+   "s": 358.42,
+   "e": 359.06,
+   "t": "Kind of."
+  },
+  {
+   "s": 359.06,
+   "e": 359.26,
+   "t": "Kind of."
+  },
+  {
+   "s": 359.36,
+   "e": 359.74,
+   "t": "Yes."
+  },
+  {
+   "s": 359.94,
+   "e": 360.62,
+   "t": "I like it already."
+  },
+  {
+   "s": 360.78,
+   "e": 362.28,
+   "t": "It's really quite remarkable."
+  },
+  {
+   "s": 362.46,
+   "e": 363.88,
+   "t": "And I highlight something really important."
+  },
+  {
+   "s": 364.22,
+   "e": 368.36,
+   "t": "We're often unaware of just how much visual noise is affecting us until it's reduced."
+  },
+  {
+   "s": 368.64,
+   "e": 369.44,
+   "t": "I can believe that."
+  },
+  {
+   "s": 369.52,
+   "e": 369.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 369.96,
+   "e": 372.7,
+   "t": "What about that scenario we talked about earlier with the blinding headlight?"
+  },
+  {
+   "s": 372.88,
+   "e": 373.16,
+   "t": "Right."
+  },
+  {
+   "s": 373.26,
+   "e": 375.2,
+   "t": "Did they create a prototype to address that?"
+  },
+  {
+   "s": 375.28,
+   "e": 375.88,
+   "t": "They did."
+  },
+  {
+   "s": 376.0,
+   "e": 379.66,
+   "t": "Their second prototype specifically targeted extreme brightness."
+  },
+  {
+   "s": 380.24,
+   "e": 381.8,
+   "t": "So, picture this."
+  },
+  {
+   "s": 382.26,
+   "e": 386.24,
+   "t": "You're driving at night and a cyclist with a super bright headlight comes toward you."
+  },
+  {
+   "s": 386.84,
+   "e": 387.76,
+   "t": "Happens all the time."
+  },
+  {
+   "s": 387.76,
+   "e": 388.16,
+   "t": "Right."
+  },
+  {
+   "s": 388.52,
+   "e": 395.22,
+   "t": "This prototype, it identifies and selectively dims that bright spot while preserving your overall vision."
+  },
+  {
+   "s": 395.52,
+   "e": 399.0,
+   "t": "So, instead of being momentarily blinded, you'd still see the cyclist."
+  },
+  {
+   "s": 399.2,
+   "e": 399.7,
+   "t": "Yes."
+  },
+  {
+   "s": 399.84,
+   "e": 401.3,
+   "t": "But without that intense glare."
+  },
+  {
+   "s": 401.5,
+   "e": 402.06,
+   "t": "Exactly."
+  },
+  {
+   "s": 402.64,
+   "e": 408.62,
+   "t": "It's about creating a more balanced visual experience, filtering out the noise, but keeping the essential information."
+  },
+  {
+   "s": 408.88,
+   "e": 409.48,
+   "t": "I'm impressed."
+  },
+  {
+   "s": 409.88,
+   "e": 411.34,
+   "t": "What other challenges did they tackle?"
+  },
+  {
+   "s": 411.38,
+   "e": 414.74,
+   "t": "Well, their third prototype, it honed in on flickering light."
+  },
+  {
+   "s": 414.96,
+   "e": 415.22,
+   "t": "Okay."
+  },
+  {
+   "s": 415.22,
+   "e": 419.96,
+   "t": "You know those annoying blinking bicycle lights that can be so distracting in low light conditions?"
+  },
+  {
+   "s": 420.2,
+   "e": 420.46,
+   "t": "The worst."
+  },
+  {
+   "s": 420.6,
+   "e": 421.44,
+   "t": "I know, right?"
+  },
+  {
+   "s": 422.1,
+   "e": 428.72,
+   "t": "Well, this prototype, it aimed to smooth out that flickering, creating the perception of a more constant light source."
+  },
+  {
+   "s": 428.88,
+   "e": 430.6,
+   "t": "A world without flickering lights."
+  },
+  {
+   "s": 430.7,
+   "e": 431.0,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 431.26,
+   "e": 431.78,
+   "t": "Sign me up."
+  },
+  {
+   "s": 431.78,
+   "e": 434.96,
+   "t": "I can feel the tension headache I didn't know I had starting to proceed already."
+  },
+  {
+   "s": 435.04,
+   "e": 435.26,
+   "t": "All right."
+  },
+  {
+   "s": 436.02,
+   "e": 438.78,
+   "t": "And their final prototype, what did that address?"
+  },
+  {
+   "s": 439.02,
+   "e": 442.58,
+   "t": "So, their fourth one, that tackled spatial visual noise."
+  },
+  {
+   "s": 442.82,
+   "e": 443.1,
+   "t": "Okay."
+  },
+  {
+   "s": 443.1,
+   "e": 445.38,
+   "t": "That overwhelming clutter we were talking about."
+  },
+  {
+   "s": 445.68,
+   "e": 445.96,
+   "t": "Right."
+  },
+  {
+   "s": 446.08,
+   "e": 452.24,
+   "t": "Imagine you're trying to appreciate a beautiful work of art in a crowded, visually chaotic gallery."
+  },
+  {
+   "s": 452.54,
+   "e": 453.34,
+   "t": "I can picture it."
+  },
+  {
+   "s": 453.48,
+   "e": 460.28,
+   "t": "This prototype, it subtly reduces the distractions in your peripheral vision, allowing you to focus on the artwork itself."
+  },
+  {
+   "s": 460.38,
+   "e": 462.76,
+   "t": "So, it's like a virtual spotlight for your attention?"
+  },
+  {
+   "s": 462.92,
+   "e": 463.4,
+   "t": "Precisely."
+  },
+  {
+   "s": 463.5,
+   "e": 464.4,
+   "t": "That could be huge."
+  },
+  {
+   "s": 464.4,
+   "e": 468.92,
+   "t": "Not just for things like productivity, but even for simply enjoying the world around us more fully."
+  },
+  {
+   "s": 469.42,
+   "e": 469.86,
+   "t": "Absolutely."
+  },
+  {
+   "s": 470.46,
+   "e": 472.14,
+   "t": "It's a fascinating concept, isn't it?"
+  },
+  {
+   "s": 472.18,
+   "e": 472.52,
+   "t": "It is."
+  },
+  {
+   "s": 472.58,
+   "e": 478.52,
+   "t": "It's like we could curate our visual experiences in much the same way we adjust an audio equalizer."
+  },
+  {
+   "s": 478.78,
+   "e": 479.24,
+   "t": "Exactly."
+  },
+  {
+   "s": 479.24,
+   "e": 480.56,
+   "t": "But let's be realistic here."
+  },
+  {
+   "s": 480.62,
+   "e": 485.0,
+   "t": "Are we saying that we're all going to have to wear VR headsets all the time to achieve this visual piece?"
+  },
+  {
+   "s": 485.0,
+   "e": 486.78,
+   "t": "Well, not necessarily."
+  },
+  {
+   "s": 487.02,
+   "e": 491.74,
+   "t": "It's important to remember that these prototypes are very much early explorations in this field."
+  },
+  {
+   "s": 492.48,
+   "e": 496.88,
+   "t": "The researchers themselves acknowledge that significant advances in technology are still needed."
+  },
+  {
+   "s": 497.08,
+   "e": 497.38,
+   "t": "Of course."
+  },
+  {
+   "s": 497.6,
+   "e": 506.6,
+   "t": "Ideally, we'd have something like lightweight, aesthetically pleasing glasses, or maybe even contact lenses that could perform this kind of visual processing."
+  },
+  {
+   "s": 506.92,
+   "e": 509.06,
+   "t": "So, the technology needs a bit more time in the oven."
+  },
+  {
+   "s": 509.24,
+   "e": 509.88,
+   "t": "It does."
+  },
+  {
+   "s": 510.3,
+   "e": 511.88,
+   "t": "But what about the bigger picture here?"
+  },
+  {
+   "s": 511.98,
+   "e": 512.54,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 512.54,
+   "e": 521.4,
+   "t": "If we were to develop the ability to essentially cancel aspects of the visual world, what are the implications of that?"
+  },
+  {
+   "s": 521.64,
+   "e": 522.92,
+   "t": "It does raise some big questions."
+  },
+  {
+   "s": 523.02,
+   "e": 523.54,
+   "t": "Yeah, it does."
+  },
+  {
+   "s": 523.7,
+   "e": 534.64,
+   "t": "For example, if VNC technology were to become as commonplace as, say, noise-canceling headphones are today, how might that change our relationship with the physical world?"
+  },
+  {
+   "s": 534.8,
+   "e": 536.14,
+   "t": "It's an interesting thought, isn't it?"
+  },
+  {
+   "s": 536.22,
+   "e": 536.8,
+   "t": "It is."
+  },
+  {
+   "s": 536.8,
+   "e": 546.76,
+   "t": "Would we become so used to these curated visual experiences that we lose the ability to appreciate or even tolerate the raw, unfiltered world?"
+  },
+  {
+   "s": 546.98,
+   "e": 547.94,
+   "t": "It's a valid concern."
+  },
+  {
+   "s": 548.16,
+   "e": 552.9,
+   "t": "And then there's the question of, well, who gets to decide what constitutes visual noise in the first place?"
+  },
+  {
+   "s": 552.98,
+   "e": 553.18,
+   "t": "Right."
+  },
+  {
+   "s": 553.18,
+   "e": 558.3,
+   "t": "What if these technologies are used to subtly manipulate our perceptions, perhaps for commercial gain?"
+  },
+  {
+   "s": 558.44,
+   "e": 559.98,
+   "t": "Okay, I see where you're going with this."
+  },
+  {
+   "s": 560.3,
+   "e": 569.08,
+   "t": "Imagine walking through a shopping mall and your VNC glasses are filtering out everything except for, well, the products that advertisers want you to see."
+  },
+  {
+   "s": 569.18,
+   "e": 571.36,
+   "t": "That's getting into some ethically murky territory."
+  },
+  {
+   "s": 571.44,
+   "e": 571.84,
+   "t": "It is."
+  },
+  {
+   "s": 571.84,
+   "e": 578.74,
+   "t": "It seems there's a fine line to tread here between enhancing our visual experiences and potentially limiting them."
+  },
+  {
+   "s": 579.08,
+   "e": 579.56,
+   "t": "There is."
+  },
+  {
+   "s": 579.62,
+   "e": 582.58,
+   "t": "And that's precisely why research in this area is so important."
+  },
+  {
+   "s": 582.58,
+   "e": 592.3,
+   "t": "As we develop increasingly sophisticated ways of interacting with and even altering our perceptions, we have to think carefully about the potential consequences, both good and bad."
+  },
+  {
+   "s": 592.52,
+   "e": 592.96,
+   "t": "Absolutely."
+  },
+  {
+   "s": 592.96,
+   "e": 597.18,
+   "t": "So where does this leave us, the viewers, I mean listeners?"
+  },
+  {
+   "s": 597.58,
+   "e": 605.46,
+   "t": "We've explored the nature of visual noise, its effects on us, and the exciting and perhaps slightly unnerving potential of VNC technology."
+  },
+  {
+   "s": 605.68,
+   "e": 607.42,
+   "t": "But here's a final thought to leave you with."
+  },
+  {
+   "s": 607.98,
+   "e": 613.42,
+   "t": "Imagine for a moment that you could customize your visual experience just as you might adjust an audio equalizer."
+  },
+  {
+   "s": 614.0,
+   "e": 617.6,
+   "t": "What aspects of your daily life would you choose to mute or amplify?"
+  },
+  {
+   "s": 617.6,
+   "e": 623.1,
+   "t": "And what might those choices say about your values, your priorities, even your perception of the world around you?"
+  },
+  {
+   "s": 623.46,
+   "e": 625.1,
+   "t": "That's all from us for this deep dive."
+  },
+  {
+   "s": 625.28,
+   "e": 629.0,
+   "t": "Until next time, keep an eye out, so to speak, for visual noise in your own life."
+  },
+  {
+   "s": 629.26,
+   "e": 630.82,
+   "t": "You might be surprised by what you discover."
+  }
+ ]
+}

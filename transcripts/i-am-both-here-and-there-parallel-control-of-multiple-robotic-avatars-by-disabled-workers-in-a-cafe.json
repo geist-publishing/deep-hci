@@ -1,0 +1,730 @@
+{
+ "guid": "deephci.podbean.com/9c062766-bf2c-38dc-9b07-bd7dbcdbef0b",
+ "slug": "i-am-both-here-and-there-parallel-control-of-multiple-robotic-avatars-by-disabled-workers-in-a-cafe",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "barbareschi2023both.mp3",
+  "version": 1
+ },
+ "duration": 371,
+ "word_count": 1173,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 3.0,
+   "t": "Ever imagine being in, like, multiple places at once?"
+  },
+  {
+   "s": 3.08,
+   "e": 5.18,
+   "t": "I'm not talking, like, teleportation or anything."
+  },
+  {
+   "s": 5.32,
+   "e": 7.72,
+   "t": "This is about parallel embodiment."
+  },
+  {
+   "s": 8.36,
+   "e": 9.98,
+   "t": "And we're diving straight into it."
+  },
+  {
+   "s": 10.04,
+   "e": 12.46,
+   "t": "A Tokyo cafe where this is actually happening."
+  },
+  {
+   "s": 12.82,
+   "e": 16.02,
+   "t": "It's called the Avatar Robot Cafe Don Verbaro."
+  },
+  {
+   "s": 16.48,
+   "e": 18.58,
+   "t": "It's a real place where robots serve you."
+  },
+  {
+   "s": 18.72,
+   "e": 19.62,
+   "t": "But here's the thing."
+  },
+  {
+   "s": 19.86,
+   "e": 23.68,
+   "t": "People with disabilities, we call them pilots, control these robots remotely."
+  },
+  {
+   "s": 23.68,
+   "e": 24.64,
+   "t": "Okay, hold on."
+  },
+  {
+   "s": 24.76,
+   "e": 27.54,
+   "t": "So, real robots, real customers, a real cafe."
+  },
+  {
+   "s": 28.02,
+   "e": 30.28,
+   "t": "This isn't just, like, a research project."
+  },
+  {
+   "s": 30.46,
+   "e": 31.46,
+   "t": "Nope, totally real."
+  },
+  {
+   "s": 31.72,
+   "e": 33.96,
+   "t": "And it's been around for a bit, building on years of research."
+  },
+  {
+   "s": 34.16,
+   "e": 35.76,
+   "t": "You can actually buy these robots."
+  },
+  {
+   "s": 35.96,
+   "e": 36.9,
+   "t": "They're called Orihimes."
+  },
+  {
+   "s": 37.18,
+   "e": 37.46,
+   "t": "Wow."
+  },
+  {
+   "s": 37.62,
+   "e": 38.74,
+   "t": "Okay, so two sizes, right?"
+  },
+  {
+   "s": 38.9,
+   "e": 44.34,
+   "t": "They're the smaller ones you see on tables and then the bigger Orihime Ds that can actually, like, move around."
+  },
+  {
+   "s": 44.78,
+   "e": 45.22,
+   "t": "Exactly."
+  },
+  {
+   "s": 45.54,
+   "e": 45.74,
+   "t": "Gotcha."
+  },
+  {
+   "s": 46.04,
+   "e": 47.22,
+   "t": "So, I walk into this cafe."
+  },
+  {
+   "s": 47.36,
+   "e": 48.54,
+   "t": "I'm talking to an Orihime."
+  },
+  {
+   "s": 48.84,
+   "e": 51.36,
+   "t": "But somewhere else, someone is controlling it."
+  },
+  {
+   "s": 51.36,
+   "e": 52.84,
+   "t": "What's that even like for the customer?"
+  },
+  {
+   "s": 53.38,
+   "e": 54.44,
+   "t": "So, that's where it gets really interesting."
+  },
+  {
+   "s": 54.44,
+   "e": 57.56,
+   "t": "Originally, each pilot could only control one Orihime."
+  },
+  {
+   "s": 58.7,
+   "e": 62.44,
+   "t": "But the researchers realized that was kind of limiting, don't you think?"
+  },
+  {
+   "s": 62.52,
+   "e": 67.48,
+   "t": "Like, imagine only being able to interact with a couple customers because you're stuck in one spot."
+  },
+  {
+   "s": 68.04,
+   "e": 69.58,
+   "t": "Yeah, I can see how that would be frustrating."
+  },
+  {
+   "s": 69.68,
+   "e": 74.14,
+   "t": "So, how do you even go from controlling one to, like, multiple avatars?"
+  },
+  {
+   "s": 74.26,
+   "e": 75.94,
+   "t": "This actually came from the pilots themselves."
+  },
+  {
+   "s": 76.12,
+   "e": 80.42,
+   "t": "They wanted more control, you know, more freedom to really interact with the customers."
+  },
+  {
+   "s": 80.7,
+   "e": 83.48,
+   "t": "So, that's how they started developing this whole parallel control system."
+  },
+  {
+   "s": 83.48,
+   "e": 84.28,
+   "t": "That's so cool."
+  },
+  {
+   "s": 84.36,
+   "e": 88.84,
+   "t": "This big tech leap was driven by, like, wanting a more human experience."
+  },
+  {
+   "s": 89.02,
+   "e": 90.48,
+   "t": "So, how'd they even design that?"
+  },
+  {
+   "s": 90.94,
+   "e": 94.22,
+   "t": "Well, they worked directly with six pilots over four months."
+  },
+  {
+   "s": 94.7,
+   "e": 97.12,
+   "t": "They had to develop an interface that worked for everyone."
+  },
+  {
+   "s": 98.58,
+   "e": 99.3,
+   "t": "Imagine that."
+  },
+  {
+   "s": 99.38,
+   "e": 102.36,
+   "t": "You've got eye gaze technology, touchscreens, keyboards."
+  },
+  {
+   "s": 103.0,
+   "e": 104.04,
+   "t": "It had to be adaptable."
+  },
+  {
+   "s": 104.4,
+   "e": 106.44,
+   "t": "Yeah, that sounds crazy complex."
+  },
+  {
+   "s": 106.74,
+   "e": 109.22,
+   "t": "Okay, so let's say I walk into this cafe wanting a coffee."
+  },
+  {
+   "s": 109.44,
+   "e": 110.08,
+   "t": "What's going to happen?"
+  },
+  {
+   "s": 110.08,
+   "e": 113.14,
+   "t": "All right, so you walk in and an Oriheim greets you."
+  },
+  {
+   "s": 113.34,
+   "e": 114.7,
+   "t": "That's your first interaction with the pilot."
+  },
+  {
+   "s": 115.22,
+   "e": 119.4,
+   "t": "Then, that same pilot uses another Oriheim to take you to your table."
+  },
+  {
+   "s": 119.58,
+   "e": 122.26,
+   "t": "Hold on, I haven't even ordered yet, and this is all one pilot."
+  },
+  {
+   "s": 122.38,
+   "e": 123.22,
+   "t": "We're just getting started."
+  },
+  {
+   "s": 123.44,
+   "e": 129.02,
+   "t": "You get to your table, and another Oriheim, still the same pilot, takes your order, maybe chats with you while you wait."
+  },
+  {
+   "s": 129.52,
+   "e": 133.32,
+   "t": "And, get this, a fourth Oriheim, the Oriheim D."
+  },
+  {
+   "s": 133.64,
+   "e": 134.96,
+   "t": "That one brings your drinks over."
+  },
+  {
+   "s": 134.96,
+   "e": 137.5,
+   "t": "And, it's the same pilot who greeted you at the door."
+  },
+  {
+   "s": 138.32,
+   "e": 141.16,
+   "t": "Whoa, that is a lot for one person to handle."
+  },
+  {
+   "s": 141.82,
+   "e": 142.66,
+   "t": "What about the pilots?"
+  },
+  {
+   "s": 142.78,
+   "e": 144.08,
+   "t": "How do they keep up with all that?"
+  },
+  {
+   "s": 144.32,
+   "e": 147.24,
+   "t": "It's, um, it's definitely a lot to handle."
+  },
+  {
+   "s": 147.58,
+   "e": 150.52,
+   "t": "One pilot, he actually compared it to, like, being an airplane pilot."
+  },
+  {
+   "s": 150.56,
+   "e": 152.02,
+   "t": "Makes sense with all that multitasking."
+  },
+  {
+   "s": 152.06,
+   "e": 156.14,
+   "t": "Yeah, like, constantly switching between screens, voices, different tasks."
+  },
+  {
+   "s": 156.66,
+   "e": 158.18,
+   "t": "He even mentioned this one pilot, right?"
+  },
+  {
+   "s": 158.18,
+   "e": 166.34,
+   "t": "He was chatting with someone at one table while moving the Oriheim D with the drinks, and totally missed another customer walking by."
+  },
+  {
+   "s": 166.54,
+   "e": 166.98,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 167.44,
+   "e": 169.68,
+   "t": "I guess that's the downside of all that multitasking."
+  },
+  {
+   "s": 169.86,
+   "e": 172.26,
+   "t": "So, how'd they, like, adapt to that?"
+  },
+  {
+   "s": 172.46,
+   "e": 174.6,
+   "t": "Well, a lot of it was their previous experience."
+  },
+  {
+   "s": 175.06,
+   "e": 177.94,
+   "t": "You see, many of them already used assistive technology."
+  },
+  {
+   "s": 178.18,
+   "e": 178.74,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 178.76,
+   "e": 183.04,
+   "t": "So, things like spatial awareness, multitasking, they were already good at that."
+  },
+  {
+   "s": 183.04,
+   "e": 190.6,
+   "t": "So, think about it if you're navigating, say, a physical space virtually, or even using a communication device with limited mobility."
+  },
+  {
+   "s": 190.92,
+   "e": 193.36,
+   "t": "That actually helps with this kind of parallel control."
+  },
+  {
+   "s": 193.56,
+   "e": 194.2,
+   "t": "Right, right."
+  },
+  {
+   "s": 194.28,
+   "e": 195.46,
+   "t": "So, not starting from scratch."
+  },
+  {
+   "s": 195.52,
+   "e": 197.88,
+   "t": "It's almost like a whole new skill set is developing."
+  },
+  {
+   "s": 198.14,
+   "e": 198.44,
+   "t": "Totally."
+  },
+  {
+   "s": 198.86,
+   "e": 201.64,
+   "t": "And it makes you rethink what work can even look like, you know?"
+  },
+  {
+   "s": 201.76,
+   "e": 202.54,
+   "t": "Yeah, absolutely."
+  },
+  {
+   "s": 202.76,
+   "e": 205.66,
+   "t": "It shows that accessibility isn't just about removing barriers."
+  },
+  {
+   "s": 206.08,
+   "e": 208.66,
+   "t": "It's about creating entirely new possibilities."
+  },
+  {
+   "s": 209.04,
+   "e": 210.12,
+   "t": "That's a really good point."
+  },
+  {
+   "s": 210.12,
+   "e": 212.62,
+   "t": "Okay, so we've talked about the pilots, but what about the customers?"
+  },
+  {
+   "s": 212.62,
+   "e": 218.2,
+   "t": "How'd they react to being served by, you know, multiple robots controlled by the same person?"
+  },
+  {
+   "s": 219.0,
+   "e": 225.34,
+   "t": "So, besides the whole robot thing being pretty cool, customers actually felt like they got better service."
+  },
+  {
+   "s": 225.92,
+   "e": 228.96,
+   "t": "Because remember, it's the same pilot throughout your whole visit."
+  },
+  {
+   "s": 229.1,
+   "e": 229.74,
+   "t": "Yeah, yeah."
+  },
+  {
+   "s": 229.82,
+   "e": 234.6,
+   "t": "That consistency, that feeling of having, like, a dedicated host, people really like that."
+  },
+  {
+   "s": 234.74,
+   "e": 235.12,
+   "t": "Interesting."
+  },
+  {
+   "s": 235.24,
+   "e": 238.82,
+   "t": "You'd think robots would feel impersonal, but this actually makes them feel more personal."
+  },
+  {
+   "s": 239.08,
+   "e": 239.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 239.36,
+   "e": 241.62,
+   "t": "It's like having your own personal staff member."
+  },
+  {
+   "s": 242.12,
+   "e": 244.58,
+   "t": "One customer even said it felt like a luxury shop."
+  },
+  {
+   "s": 244.94,
+   "e": 245.26,
+   "t": "Wow."
+  },
+  {
+   "s": 245.68,
+   "e": 250.06,
+   "t": "But, I don't know, I can also see how it could be a little strange, right, seeing the same robot in different places."
+  },
+  {
+   "s": 250.52,
+   "e": 251.46,
+   "t": "Oh, yeah, for sure."
+  },
+  {
+   "s": 251.84,
+   "e": 253.88,
+   "t": "Some customers, they were kind of confused."
+  },
+  {
+   "s": 254.02,
+   "e": 260.1,
+   "t": "Imagine you're talking to a robot, and that same robot walks by, serving drinks to someone else."
+  },
+  {
+   "s": 260.26,
+   "e": 261.8,
+   "t": "That is pretty wild."
+  },
+  {
+   "s": 262.12,
+   "e": 264.24,
+   "t": "Did the pilots, like, ever play with that?"
+  },
+  {
+   "s": 264.24,
+   "e": 264.88,
+   "t": "All the time."
+  },
+  {
+   "s": 265.36,
+   "e": 266.46,
+   "t": "They got really creative."
+  },
+  {
+   "s": 266.78,
+   "e": 269.68,
+   "t": "Sometimes they would project their voices through two robots at once."
+  },
+  {
+   "s": 269.98,
+   "e": 270.68,
+   "t": "No way."
+  },
+  {
+   "s": 270.88,
+   "e": 273.2,
+   "t": "So, customers thought the robots were talking to each other."
+  },
+  {
+   "s": 273.38,
+   "e": 273.76,
+   "t": "Exactly."
+  },
+  {
+   "s": 273.96,
+   "e": 276.62,
+   "t": "They were using the technology in ways no one expected."
+  },
+  {
+   "s": 277.06,
+   "e": 282.68,
+   "t": "And get this, customers could even recognize specific pilots just from how they controlled the robots."
+  },
+  {
+   "s": 282.88,
+   "e": 283.3,
+   "t": "Wait, really?"
+  },
+  {
+   "s": 283.36,
+   "e": 284.12,
+   "t": "Just from their movements?"
+  },
+  {
+   "s": 284.48,
+   "e": 284.7,
+   "t": "Yeah."
+  },
+  {
+   "s": 285.1,
+   "e": 289.62,
+   "t": "Even though the robots all looked the same, the pilots, they had their own, like, style."
+  },
+  {
+   "s": 290.18,
+   "e": 293.44,
+   "t": "Customers even compared it to recognizing someone's walk from a distance."
+  },
+  {
+   "s": 293.44,
+   "e": 294.36,
+   "t": "That's crazy."
+  },
+  {
+   "s": 294.64,
+   "e": 297.94,
+   "t": "It shows that you don't need a super realistic robot for a real connection."
+  },
+  {
+   "s": 298.46,
+   "e": 302.02,
+   "t": "Just a bit of personality and some creativity can make all the difference."
+  },
+  {
+   "s": 302.26,
+   "e": 306.44,
+   "t": "This whole thing just, I don't know, it makes you think about the future of work, doesn't it?"
+  },
+  {
+   "s": 306.6,
+   "e": 307.48,
+   "t": "Yeah, definitely."
+  },
+  {
+   "s": 307.68,
+   "e": 311.46,
+   "t": "And not just, you know, cafes in Tokyo, but, like, the whole picture."
+  },
+  {
+   "s": 311.66,
+   "e": 311.96,
+   "t": "Right."
+  },
+  {
+   "s": 312.06,
+   "e": 315.0,
+   "t": "Like, it's cool and all, but what's the takeaway here?"
+  },
+  {
+   "s": 315.16,
+   "e": 318.08,
+   "t": "Well, it makes you rethink work for people with disabilities, right?"
+  },
+  {
+   "s": 318.08,
+   "e": 318.26,
+   "t": "Yeah."
+  },
+  {
+   "s": 318.26,
+   "e": 320.64,
+   "t": "What if your physical limitations didn't matter?"
+  },
+  {
+   "s": 320.86,
+   "e": 324.32,
+   "t": "What if you could work from anywhere, be anyone or anything?"
+  },
+  {
+   "s": 324.64,
+   "e": 325.6,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 325.86,
+   "e": 328.78,
+   "t": "Like, we always talk about telepresence, but this is next level."
+  },
+  {
+   "s": 328.9,
+   "e": 329.32,
+   "t": "Exactly."
+  },
+  {
+   "s": 329.86,
+   "e": 333.1,
+   "t": "But there's this human element we can't forget."
+  },
+  {
+   "s": 333.32,
+   "e": 334.0,
+   "t": "Right, right."
+  },
+  {
+   "s": 334.02,
+   "e": 335.48,
+   "t": "It's not just about the tech."
+  },
+  {
+   "s": 335.56,
+   "e": 340.82,
+   "t": "It's about empowering people, taking their skills, their personalities, and letting them, you know, really shine through."
+  },
+  {
+   "s": 340.82,
+   "e": 341.14,
+   "t": "Totally."
+  },
+  {
+   "s": 341.32,
+   "e": 344.3,
+   "t": "So it's about making work more inclusive, more flexible."
+  },
+  {
+   "s": 344.3,
+   "e": 347.92,
+   "t": "I mean, even more human, even if, you know, robots are involved."
+  },
+  {
+   "s": 348.34,
+   "e": 348.62,
+   "t": "Exactly."
+  },
+  {
+   "s": 348.98,
+   "e": 356.7,
+   "t": "And this study, it just shows what we can do if we rethink our ideas about work, about ability, about connecting with each other."
+  },
+  {
+   "s": 356.76,
+   "e": 360.72,
+   "t": "It's like, what if tech didn't just make life easier, but, like, way more interesting."
+  },
+  {
+   "s": 360.82,
+   "e": 362.66,
+   "t": "Yeah, that's a future I want to be a part of."
+  },
+  {
+   "s": 362.72,
+   "e": 362.9,
+   "t": "Yeah."
+  },
+  {
+   "s": 362.94,
+   "e": 365.76,
+   "t": "Well, on that note, I think it's time to let all this sink in."
+  },
+  {
+   "s": 365.92,
+   "e": 367.48,
+   "t": "Thanks for joining us for this deep dive."
+  },
+  {
+   "s": 367.48,
+   "e": 370.76,
+   "t": "We'll see you next time for, you know, more explorations into the future."
+  },
+  {
+   "s": 370.82,
+   "e": 400.8,
+   "t": "Thank you."
+  }
+ ]
+}

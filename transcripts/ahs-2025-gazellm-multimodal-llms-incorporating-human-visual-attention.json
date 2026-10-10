@@ -1,0 +1,870 @@
+{
+ "guid": "deephci.podbean.com/fe94930e-b443-5bf6-9255-090c0bc1871b",
+ "slug": "ahs-2025-gazellm-multimodal-llms-incorporating-human-visual-attention",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "AI_efficiency_using_human_gaze_data.m4a",
+  "version": 1
+ },
+ "duration": 741,
+ "word_count": 2273,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 6.12,
+   "t": "Welcome to the Deep Dive. Today we're examining a pivotal advance in how AI interprets human activity."
+  },
+  {
+   "s": 6.44,
+   "e": 9.22,
+   "t": "Specifically, how it understands us through video."
+  },
+  {
+   "s": 9.46,
+   "e": 20.22,
+   "t": "And we're going to analyze how mirroring human visual attention can fundamentally overhaul the efficiency and accuracy of multimodal large language models."
+  },
+  {
+   "s": 20.6,
+   "e": 22.0,
+   "t": "You'll often hear them called MLLMs."
+  },
+  {
+   "s": 22.76,
+   "e": 23.2,
+   "t": "That's right."
+  },
+  {
+   "s": 23.2,
+   "e": 30.2,
+   "t": "Our focus is a system called Gazelle LM. You can think of it as a sort of efficiency hack for artificial intelligence."
+  },
+  {
+   "s": 30.5,
+   "e": 35.24,
+   "t": "It's designed to overcome the enormous computational hurdles that have plagued video processing."
+  },
+  {
+   "s": 35.56,
+   "e": 40.86,
+   "t": "And it does this by focusing exclusively on what a human user is actually looking at. It's a powerful shortcut."
+  },
+  {
+   "s": 41.34,
+   "e": 48.84,
+   "t": "And understanding this mechanism, well, it's key to unlocking the potential of wearable AI for skill transfer and for real world training."
+  },
+  {
+   "s": 48.84,
+   "e": 58.3,
+   "t": "And that potential is enormous. MLLMs that integrate vision with, you know, time sequential data represent a major stride toward genuine artificial general intelligence."
+  },
+  {
+   "s": 58.32,
+   "e": 59.44,
+   "t": "But there's a huge barrier."
+  },
+  {
+   "s": 59.6,
+   "e": 71.26,
+   "t": "There is. For you and for the AI itself, the challenge is handling the sheer volume of data involved in high resolution, long duration video from a first person perspective."
+  },
+  {
+   "s": 71.5,
+   "e": 72.86,
+   "t": "It's just a flood of information."
+  },
+  {
+   "s": 72.86,
+   "e": 81.06,
+   "t": "An unmanageable torrent. And the question for the system has always been, how do you sift through that fast enough to provide guidance in the moment?"
+  },
+  {
+   "s": 81.38,
+   "e": 88.36,
+   "t": "That is the crux of it. Let's unpack that computational obstacle a bit. These MLLMs, they're built on transformer architectures."
+  },
+  {
+   "s": 88.62,
+   "e": 89.86,
+   "t": "And they have a structural problem."
+  },
+  {
+   "s": 90.06,
+   "e": 95.58,
+   "t": "As the input sequence gets longer, the memory requirements scale up dramatically, not just linearly."
+  },
+  {
+   "s": 95.84,
+   "e": 97.02,
+   "t": "It's an exponential growth."
+  },
+  {
+   "s": 97.02,
+   "e": 105.4,
+   "t": "To visualize this, you have to think about how videos even fed to the AI. It uses methods like vision transformers or VIT."
+  },
+  {
+   "s": 105.6,
+   "e": 109.32,
+   "t": "Breaking the image into little patches, turning each one into a data token."
+  },
+  {
+   "s": 109.42,
+   "e": 115.1,
+   "t": "Precisely. So if your video resolution doubles, you now have four times the number of patches. If the video duration doubles."
+  },
+  {
+   "s": 115.18,
+   "e": 116.02,
+   "t": "You double them again."
+  },
+  {
+   "s": 116.12,
+   "e": 118.12,
+   "t": "The math just becomes overwhelmingly complex."
+  },
+  {
+   "s": 118.32,
+   "e": 124.12,
+   "t": "It severely limits both the quality and the length of the video an MLM can process in a timely manner."
+  },
+  {
+   "s": 124.12,
+   "e": 130.76,
+   "t": "And this is where the human visual system provides the perfect cheat sheet, for lack of a better term."
+  },
+  {
+   "s": 130.86,
+   "e": 136.44,
+   "t": "It does. We are inherently efficient because we simply do not process the entire world around us equally."
+  },
+  {
+   "s": 136.58,
+   "e": 137.04,
+   "t": "We focus."
+  },
+  {
+   "s": 137.42,
+   "e": 141.78,
+   "t": "We use strategic eye movements to focus selectively, what we call visual attention."
+  },
+  {
+   "s": 142.46,
+   "e": 147.36,
+   "t": "The information coming in from your peripheral vision is, well, it's perceived at a much lower resolution."
+  },
+  {
+   "s": 147.7,
+   "e": 149.74,
+   "t": "Or it's just used to detect motion."
+  },
+  {
+   "s": 149.74,
+   "e": 156.82,
+   "t": "Right. Our brain uses this mechanism to strike a remarkable balance. It gives us the precision needed for complex tasks."
+  },
+  {
+   "s": 157.26,
+   "e": 162.9,
+   "t": "You know, tying a knot or performing surgery while maintaining efficiency. We filter the noise automatically."
+  },
+  {
+   "s": 163.1,
+   "e": 169.74,
+   "t": "So the Gazellam concept is simply taking that human biology of selective vision and applying it directly to the AI's input."
+  },
+  {
+   "s": 169.74,
+   "e": 173.82,
+   "t": "Instead of forcing the model to process every single pixel from the entire scene."
+  },
+  {
+   "s": 173.96,
+   "e": 181.54,
+   "t": "It uses eye tracking data. It decomposes that video and only sends through the high resolution stream that corresponds to where the user's gaze is focused."
+  },
+  {
+   "s": 181.92,
+   "e": 190.24,
+   "t": "It's a profound shift in thinking. Instead of building a bigger, faster computer to handle more data, they just made the data itself smarter by focusing on relevance."
+  },
+  {
+   "s": 190.24,
+   "e": 194.28,
+   "t": "And that achievement is probably best measured by the sheer efficiency gain."
+  },
+  {
+   "s": 195.1,
+   "e": 204.16,
+   "t": "The Gazellam approach showed task comprehension that was equivalent to, or in some cases even superior to, processing the entire full resolution image."
+  },
+  {
+   "s": 204.48,
+   "e": 207.04,
+   "t": "And here's the core data point for you to internalize."
+  },
+  {
+   "s": 207.62,
+   "e": 212.22,
+   "t": "They achieved this while reducing the input data volume by a huge margin."
+  },
+  {
+   "s": 212.6,
+   "e": 213.0,
+   "t": "How much?"
+  },
+  {
+   "s": 213.18,
+   "e": 217.72,
+   "t": "The number of pixels fed into the MLLM was reduced to about one-tenth of the original."
+  },
+  {
+   "s": 217.72,
+   "e": 220.84,
+   "t": "One-tenth. So 10.3% of the original, to be exact."
+  },
+  {
+   "s": 220.94,
+   "e": 223.4,
+   "t": "10% of the data yielded equal or better results."
+  },
+  {
+   "s": 223.72,
+   "e": 225.08,
+   "t": "Okay, we need to pause on that figure."
+  },
+  {
+   "s": 225.44,
+   "e": 232.76,
+   "t": "Are you saying that by deliberately ignoring 90% of the visual information, the resulting AI analysis was judged to be better by humans?"
+  },
+  {
+   "s": 233.3,
+   "e": 235.42,
+   "t": "How does reducing the data enhance the outcome?"
+  },
+  {
+   "s": 235.72,
+   "e": 240.44,
+   "t": "I know it sounds counterintuitive, but it confirms a crucial insight about human learning."
+  },
+  {
+   "s": 240.44,
+   "e": 251.58,
+   "t": "When a person is focused on a task, say, mixing ingredients or adjusting a tiny screw, their gaze is inherently directed toward the critical, actionable information."
+  },
+  {
+   "s": 251.84,
+   "e": 255.6,
+   "t": "So the 90% that was discarded, that was just background noise."
+  },
+  {
+   "s": 255.62,
+   "e": 257.2,
+   "t": "The wall, the clutter on the table."
+  },
+  {
+   "s": 257.32,
+   "e": 258.3,
+   "t": "Exactly. It was irrelevant."
+  },
+  {
+   "s": 258.3,
+   "e": 268.02,
+   "t": "By giving the MLLM only that 10% of high-fidelity, high-relevance pixels, they eliminated the noise and forced the model to concentrate on the signal."
+  },
+  {
+   "s": 268.7,
+   "e": 272.14,
+   "t": "The input quality skyrockets, even as the quantity plummets."
+  },
+  {
+   "s": 272.28,
+   "e": 273.18,
+   "t": "That makes perfect sense."
+  },
+  {
+   "s": 273.48,
+   "e": 277.08,
+   "t": "So AI didn't have a processing power problem so much as a filtering problem."
+  },
+  {
+   "s": 277.24,
+   "e": 280.0,
+   "t": "And this efficiency has immediate hardware implications."
+  },
+  {
+   "s": 280.62,
+   "e": 283.14,
+   "t": "We're not discussing research that needs bespoke server racks."
+  },
+  {
+   "s": 283.54,
+   "e": 284.6,
+   "t": "This can be deployed today."
+  },
+  {
+   "s": 284.82,
+   "e": 285.78,
+   "t": "On what kind of devices?"
+  },
+  {
+   "s": 285.78,
+   "e": 295.04,
+   "t": "The system leverages commercial wearable devices, things already equipped with first-person cameras and eye trackers, such as the Pupil Labs, Nio-On, or Meta's area glasses."
+  },
+  {
+   "s": 295.26,
+   "e": 298.14,
+   "t": "The same ones used in the Ego Exa40 dataset they studied."
+  },
+  {
+   "s": 298.44,
+   "e": 298.84,
+   "t": "That's right."
+  },
+  {
+   "s": 299.42,
+   "e": 307.08,
+   "t": "Because these devices capture the scene and the user's precise visual attention at the same time, Gazella moves straight out of the lab and into the field."
+  },
+  {
+   "s": 308.02,
+   "e": 311.72,
+   "t": "Real-time context-aware assistance becomes entirely feasible."
+  },
+  {
+   "s": 311.72,
+   "e": 316.42,
+   "t": "Of course, to ensure these results were sound, the researchers needed robust validation."
+  },
+  {
+   "s": 316.68,
+   "e": 317.06,
+   "t": "They did."
+  },
+  {
+   "s": 317.2,
+   "e": 321.44,
+   "t": "They used the powerful Gemini 1.5 Pro MLLM for the evaluation."
+  },
+  {
+   "s": 321.7,
+   "e": 326.8,
+   "t": "And they selected six diverse, real-world tasks from that Ego Exa4D dataset."
+  },
+  {
+   "s": 327.04,
+   "e": 328.34,
+   "t": "It was a broad range of skills."
+  },
+  {
+   "s": 328.66,
+   "e": 330.94,
+   "t": "Cooking, so preparing an omelette and sushi."
+  },
+  {
+   "s": 331.06,
+   "e": 335.38,
+   "t": "The mechanical skills like bike repair, procedural activities like setting up for a PCR test."
+  },
+  {
+   "s": 335.38,
+   "e": 339.1,
+   "t": "And even training scenarios like CPR, a very wide sample."
+  },
+  {
+   "s": 339.2,
+   "e": 346.76,
+   "t": "The first phase of validation relied on human judgment, which is paramount when you're assessing how useful an AI's description actually is."
+  },
+  {
+   "s": 346.84,
+   "e": 347.56,
+   "t": "What did they have to do?"
+  },
+  {
+   "s": 347.82,
+   "e": 353.56,
+   "t": "Participants viewed the full original video and then they were asked to rate descriptions generated from three different AI inputs."
+  },
+  {
+   "s": 354.16,
+   "e": 358.46,
+   "t": "The full video, a simple center-cropped video, and of course the gaze-cropped video."
+  },
+  {
+   "s": 358.72,
+   "e": 359.3,
+   "t": "And the outcome."
+  },
+  {
+   "s": 359.58,
+   "e": 360.4,
+   "t": "It was definitive."
+  },
+  {
+   "s": 360.4,
+   "e": 367.5,
+   "t": "Participants rated the descriptions from the gaze-video condition as receiving higher average scores than the others in five of the six tasks."
+  },
+  {
+   "s": 368.04,
+   "e": 376.86,
+   "t": "So the qualitative evidence, just humans judging the usefulness, showed that the minimal gaze-focused data provided superior task descriptions."
+  },
+  {
+   "s": 377.3,
+   "e": 378.08,
+   "t": "That's powerful."
+  },
+  {
+   "s": 378.34,
+   "e": 378.74,
+   "t": "It is."
+  },
+  {
+   "s": 379.18,
+   "e": 387.02,
+   "t": "The insight is that if the AI is trained to describe what the user focuses on, that description is inherently more useful for someone trying to learn that task."
+  },
+  {
+   "s": 387.02,
+   "e": 393.02,
+   "t": "The next step, then, was to confirm that strong human assessment with objective numerical measures."
+  },
+  {
+   "s": 393.84,
+   "e": 394.08,
+   "t": "Indeed."
+  },
+  {
+   "s": 394.66,
+   "e": 399.78,
+   "t": "They followed up by employing four established quantitative metrics for this kind of evaluation."
+  },
+  {
+   "s": 400.2,
+   "e": 404.7,
+   "t": "Let's touch on those briefly, not to define every acronym, but to explain why they were used."
+  },
+  {
+   "s": 404.98,
+   "e": 409.02,
+   "t": "They started with statistical measures like BLEU and RUGEL."
+  },
+  {
+   "s": 409.22,
+   "e": 410.4,
+   "t": "These are standard tools."
+  },
+  {
+   "s": 410.7,
+   "e": 414.9,
+   "t": "They confirm vocabulary and phrase overlap between the AI description and a reference one."
+  },
+  {
+   "s": 414.9,
+   "e": 418.4,
+   "t": "It's a first step to ensure the AI isn't, you know, just making things up."
+  },
+  {
+   "s": 418.62,
+   "e": 420.4,
+   "t": "But simple word overlap isn't enough."
+  },
+  {
+   "s": 420.58,
+   "e": 420.82,
+   "t": "No."
+  },
+  {
+   "s": 421.16,
+   "e": 423.38,
+   "t": "So they added sentence-bert or es-bert."
+  },
+  {
+   "s": 423.76,
+   "e": 426.56,
+   "t": "It moves beyond word matching to measure semantic similarity."
+  },
+  {
+   "s": 426.88,
+   "e": 430.22,
+   "t": "So does it mean the same thing even if the phrasing is different?"
+  },
+  {
+   "s": 430.38,
+   "e": 430.82,
+   "t": "Exactly."
+  },
+  {
+   "s": 431.44,
+   "e": 438.7,
+   "t": "And finally, they used an LLM-based evaluation with ChatGPT4O to score content coverage on a scale of 0 to 100."
+  },
+  {
+   "s": 438.7,
+   "e": 451.36,
+   "t": "And the consistency across these four methods provides compelling evidence that selectively targeting the human visual focus gives the MLLM the highest quality signal for interpreting these complex sequential actions."
+  },
+  {
+   "s": 451.48,
+   "e": 451.84,
+   "t": "It's out."
+  },
+  {
+   "s": 452.02,
+   "e": 458.58,
+   "t": "This level of validated efficiency and accuracy opens up immediate practical doors for, well, the learner."
+  },
+  {
+   "s": 458.58,
+   "e": 464.5,
+   "t": "Let's look at some of the concrete applications of Gazelle, starting with what they call task verbalization."
+  },
+  {
+   "s": 464.86,
+   "e": 467.62,
+   "t": "This is the system creating the ultimate instructional manual."
+  },
+  {
+   "s": 468.22,
+   "e": 471.1,
+   "t": "Imagine an MLLM observing someone prepare an omelet."
+  },
+  {
+   "s": 471.68,
+   "e": 477.04,
+   "t": "Instead of a vague voiceover, Gazelle generates a precise step-by-step procedural description."
+  },
+  {
+   "s": 477.16,
+   "e": 479.66,
+   "t": "Crack eggs into bowl, whisk for 30 seconds."
+  },
+  {
+   "s": 479.78,
+   "e": 480.64,
+   "t": "And pinch of salt."
+  },
+  {
+   "s": 480.64,
+   "e": 485.28,
+   "t": "And crucially, with corresponding video timestamps attached to each action."
+  },
+  {
+   "s": 485.82,
+   "e": 490.56,
+   "t": "That ability to align focused action with descriptive language is a massive improvement."
+  },
+  {
+   "s": 490.96,
+   "e": 492.2,
+   "t": "That clarity is invaluable."
+  },
+  {
+   "s": 492.86,
+   "e": 496.78,
+   "t": "But the application I find most compelling is the stop-and-ask guidance."
+  },
+  {
+   "s": 497.4,
+   "e": 500.72,
+   "t": "This is where the real-time assistance potential cruelly shines."
+  },
+  {
+   "s": 501.46,
+   "e": 505.82,
+   "t": "Picture a learner wearing the glasses, attempting a complicated recipe."
+  },
+  {
+   "s": 505.82,
+   "e": 511.6,
+   "t": "They pause, they're not sure of the next step, and they just ask the system, what should I do now?"
+  },
+  {
+   "s": 511.66,
+   "e": 513.4,
+   "t": "And the system knows where they are in the process."
+  },
+  {
+   "s": 513.64,
+   "e": 516.3,
+   "t": "It knows because it has been tracking their gaze in action."
+  },
+  {
+   "s": 517.18,
+   "e": 521.98,
+   "t": "It can accurately identify their progress by interpreting that small cropped gaze video."
+  },
+  {
+   "s": 522.72,
+   "e": 527.26,
+   "t": "If the learner just set down a piece of ginger, the system doesn't scan the whole kitchen."
+  },
+  {
+   "s": 527.44,
+   "e": 530.6,
+   "t": "It just looks at that small, high-resolution area of focus."
+  },
+  {
+   "s": 530.78,
+   "e": 533.9,
+   "t": "Recognizes the ginger and provides the next contextual action."
+  },
+  {
+   "s": 533.9,
+   "e": 539.54,
+   "t": "It could reply, the instructional video indicates the next step is to wash and peel the ginger."
+  },
+  {
+   "s": 540.2,
+   "e": 543.54,
+   "t": "And it could even reference the exact timestamp in the guiding video."
+  },
+  {
+   "s": 543.9,
+   "e": 546.68,
+   "t": "That's context-aware coaching that feels personal and immediate."
+  },
+  {
+   "s": 546.9,
+   "e": 547.28,
+   "t": "It is."
+  },
+  {
+   "s": 547.56,
+   "e": 552.06,
+   "t": "And beyond simple text instructions, the system can enhance learning through procedure visualization."
+  },
+  {
+   "s": 552.36,
+   "e": 553.16,
+   "t": "How does that work?"
+  },
+  {
+   "s": 553.32,
+   "e": 558.62,
+   "t": "When you're watching a complex demonstration, say a lab cask, with multiple things happening at once,"
+  },
+  {
+   "s": 558.62,
+   "e": 564.92,
+   "t": "Gazellum can analyze the sequence of focused actions and automatically generate a sophisticated data flow diagram."
+  },
+  {
+   "s": 565.2,
+   "e": 567.2,
+   "t": "A sort of high-level map of the procedure."
+  },
+  {
+   "s": 567.36,
+   "e": 568.22,
+   "t": "That's a good way to put it."
+  },
+  {
+   "s": 568.4,
+   "e": 573.68,
+   "t": "It illustrates branching decisions, tasks you can do in parallel, and it shows dependencies."
+  },
+  {
+   "s": 574.56,
+   "e": 581.16,
+   "t": "This helps a learner understand the overall process flow, moving beyond just memorizing steps towards strategic execution."
+  },
+  {
+   "s": 581.16,
+   "e": 588.08,
+   "t": "Looking ahead, even though Gazellum is highly effective as it is, the researchers have already mapped out paths for more sophistication."
+  },
+  {
+   "s": 588.68,
+   "e": 593.5,
+   "t": "The goal is always to make the AI's vision even more faithful to how the human eye actually functions."
+  },
+  {
+   "s": 593.82,
+   "e": 598.14,
+   "t": "One of the most promising directions there is something they call dual-resolution encoding."
+  },
+  {
+   "s": 598.52,
+   "e": 598.82,
+   "t": "Yes."
+  },
+  {
+   "s": 599.36,
+   "e": 602.48,
+   "t": "Currently, Gazellum just crops a high-resolution rectangle."
+  },
+  {
+   "s": 603.04,
+   "e": 609.9,
+   "t": "A dual-resolution system would use that gaze-centered stream alongside a heavily down-sampled full-view peripheral stream."
+  },
+  {
+   "s": 609.9,
+   "e": 613.86,
+   "t": "Which is a powerful enhancement because it mirrors our own vision perfectly."
+  },
+  {
+   "s": 614.4,
+   "e": 618.68,
+   "t": "We see the world in high definition only in that small center, the fovea."
+  },
+  {
+   "s": 619.02,
+   "e": 623.72,
+   "t": "But we maintain a low-resolution awareness for context and movement."
+  },
+  {
+   "s": 624.56,
+   "e": 633.22,
+   "t": "The AI could use that peripheral stream to know, for instance, that a box of supplies is over there, without needing to dedicate massive computational power to it."
+  },
+  {
+   "s": 633.38,
+   "e": 636.12,
+   "t": "And coupled with that, there's the idea of adaptive grids."
+  },
+  {
+   "s": 636.12,
+   "e": 641.8,
+   "t": "For the vision transformer patches, yes. Instead of a uniform grid, the system introduces a deformed one."
+  },
+  {
+   "s": 642.44,
+   "e": 646.32,
+   "t": "The patches are denser, with more detail, right near the gaze point."
+  },
+  {
+   "s": 646.46,
+   "e": 648.12,
+   "t": "And they get sparser toward the periphery."
+  },
+  {
+   "s": 648.74,
+   "e": 654.46,
+   "t": "It achieves the same computational economy as cropping, but it retains that peripheral context more gracefully."
+  },
+  {
+   "s": 654.96,
+   "e": 661.3,
+   "t": "Finally, we should acknowledge that gaze is a fantastic metric, but it's not the only relevant data point for skill transfer."
+  },
+  {
+   "s": 661.3,
+   "e": 664.4,
+   "t": "Not at all. Future systems will need to incorporate more information."
+  },
+  {
+   "s": 664.54,
+   "e": 665.08,
+   "t": "Such as?"
+  },
+  {
+   "s": 665.32,
+   "e": 667.24,
+   "t": "Hand position and activity are crucial."
+  },
+  {
+   "s": 668.38,
+   "e": 675.1,
+   "t": "If you're learning a physical task, the objects being manipulated by your hands are highly relevant, even if your gaze briefly shifts away."
+  },
+  {
+   "s": 675.58,
+   "e": 678.04,
+   "t": "So combining hand tracking with gaze input."
+  },
+  {
+   "s": 678.16,
+   "e": 686.26,
+   "t": "It should lead to an even more nuanced and accurate understanding of complex actions, pushing these systems toward truly flawless instruction."
+  },
+  {
+   "s": 686.6,
+   "e": 688.88,
+   "t": "So, to summarize what we've learned here about Gazelle."
+  },
+  {
+   "s": 688.88,
+   "e": 695.14,
+   "t": "By integrating the economy of human visual attention, this system manages the data overload of first-person video."
+  },
+  {
+   "s": 695.7,
+   "e": 705.04,
+   "t": "The fundamental lesson for you is that providing less data, so long as it's the most relevant, highest quality signal, can generate superior comprehension for MLLMs."
+  },
+  {
+   "s": 705.24,
+   "e": 706.6,
+   "t": "It's an efficient methodology."
+  },
+  {
+   "s": 706.86,
+   "e": 713.66,
+   "t": "And one that ensures the immediate, practical possibility of advanced skill transfer and contextual assistance through wearable tech."
+  },
+  {
+   "s": 713.66,
+   "e": 718.66,
+   "t": "The system's power stems from this selective, human-centric focus."
+  },
+  {
+   "s": 718.88,
+   "e": 721.76,
+   "t": "But here's a final, provocative thought to take with you."
+  },
+  {
+   "s": 722.32,
+   "e": 726.48,
+   "t": "Human gaze tends to anticipate the next point of action before the body even moves."
+  },
+  {
+   "s": 726.94,
+   "e": 741.3,
+   "t": "How might AI harness that predictive quality in gaze data to offer guidance, or even execute the next step, before you even consciously form the intention to act fundamentally changing the definition of real-time support, from reactive instruction to preemptive assistance?"
+  },
+  {
+   "s": 741.3,
+   "e": 746.24,
+   "t": "How might AI Allenya abuse systems are based on net inventive proof of external guidance?"
+  },
+  {
+   "s": 746.24,
+   "e": 748.16,
+   "t": "How might AI adds much doubt for mere 배?, ve people feel great about spending ground mental flowers in higher density of modernчасs?"
+  },
+  {
+   "s": 748.16,
+   "e": 750.1,
+   "t": "How might AI remote monitor health safety drive would control thoseMA players in higher pace for mental pocket with facing false IV information?"
+  },
+  {
+   "s": 750.16,
+   "e": 759.86,
+   "t": "How might AI IT characteristics would docended process or"
+  },
+  {
+   "s": 759.86,
+   "e": 761.34,
+   "t": "At least then people use human aid tools that make sure they use dataigh"
+  },
+  {
+   "s": 761.34,
+   "e": 762.58,
+   "t": "As if all these decisions are related to normal devices in higher complexity of problems and projects are medical sites that mean by losing THened around music that should only videos as being digital teams are digital ett Neg�� within colomm lines of management that could account with greater"
+  },
+  {
+   "s": 762.58,
+   "e": 756.76,
+   "t": "Del Express Black DV spectators are natural signs that need all members that could drive through science of capital failure is often self-mem arkadaşlar into kept Apple lessons that means it can change your academic tension with effects for breath less consumer patterns that could slow leads from increase Please"
+  }
+ ]
+}

@@ -1,0 +1,780 @@
+{
+ "guid": "deephci.podbean.com/33a5c56a-b91c-3468-a7bb-d7e0804fa950",
+ "slug": "assets-2024-seahare-an-omidirectional-electric-wheelchair-integrating-independent-remote-and-shared-control-modalities",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "3663548-3675657.mp3",
+  "version": 1
+ },
+ "duration": 794,
+ "word_count": 2442,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 2.9,
+   "t": "Welcome to our deep dive exploring the Seahair wheelchair."
+  },
+  {
+   "s": 3.82,
+   "e": 8.68,
+   "t": "We've gotten some fascinating research on this, and we're excited to, well, dive in."
+  },
+  {
+   "s": 8.78,
+   "e": 10.44,
+   "t": "It certainly is a unique device."
+  },
+  {
+   "s": 10.6,
+   "e": 12.44,
+   "t": "The Seahair, it's not just your typical wheelchair."
+  },
+  {
+   "s": 13.02,
+   "e": 16.86,
+   "t": "It's really a whole new way of thinking about mobility."
+  },
+  {
+   "s": 17.16,
+   "e": 17.72,
+   "t": "I agree."
+  },
+  {
+   "s": 18.0,
+   "e": 25.06,
+   "t": "Imagine a wheelchair that you control by just leaning your body, almost, you know, a four-wheeled segue for stability."
+  },
+  {
+   "s": 25.34,
+   "e": 26.44,
+   "t": "That's a good way to put it."
+  },
+  {
+   "s": 26.44,
+   "e": 31.38,
+   "t": "And the research on this is fascinating, especially from the perspective of the people who actually use wheelchairs."
+  },
+  {
+   "s": 31.46,
+   "e": 32.56,
+   "t": "That's what makes this so interesting."
+  },
+  {
+   "s": 33.02,
+   "e": 37.5,
+   "t": "So we've got three main control modes to discuss, independent, remote, and shared."
+  },
+  {
+   "s": 38.0,
+   "e": 43.36,
+   "t": "And each one, it seems, has its own sort of learning curve and even ethical questions, really."
+  },
+  {
+   "s": 43.46,
+   "e": 44.5,
+   "t": "It hit the nail on the head there."
+  },
+  {
+   "s": 44.66,
+   "e": 45.92,
+   "t": "Let's start with independent mode."
+  },
+  {
+   "s": 46.0,
+   "e": 48.74,
+   "t": "What do the researchers find out about this hands-free approach?"
+  },
+  {
+   "s": 48.74,
+   "e": 57.76,
+   "t": "Well, one of the most surprising things they found was that wheelchair users, even those who were used to electric wheelchairs with joysticks,"
+  },
+  {
+   "s": 58.24,
+   "e": 63.78,
+   "t": "seemed to pick up on how to control the Seahair much faster than people who didn't use wheelchairs regularly."
+  },
+  {
+   "s": 64.16,
+   "e": 64.76,
+   "t": "That's interesting."
+  },
+  {
+   "s": 65.0,
+   "e": 65.94,
+   "t": "Why do you think that is?"
+  },
+  {
+   "s": 66.3,
+   "e": 70.76,
+   "t": "Well, the researchers suggest it has to do with mental models, the way we think about how things work."
+  },
+  {
+   "s": 71.1,
+   "e": 76.16,
+   "t": "People who don't use wheelchairs, they tended to think of the Seahair as being similar to a car."
+  },
+  {
+   "s": 76.16,
+   "e": 78.16,
+   "t": "You turn a steering wheel to change direction."
+  },
+  {
+   "s": 78.16,
+   "e": 78.64,
+   "t": "Exactly."
+  },
+  {
+   "s": 79.54,
+   "e": 85.6,
+   "t": "But wheelchair users, especially those familiar with manual wheelchairs, they had a different way of thinking about it."
+  },
+  {
+   "s": 85.72,
+   "e": 89.08,
+   "t": "They related it to the way you push the wheels on a manual chair."
+  },
+  {
+   "s": 89.32,
+   "e": 89.72,
+   "t": "I see."
+  },
+  {
+   "s": 89.8,
+   "e": 93.08,
+   "t": "So to turn right in a manual wheelchair, you push the left wheel."
+  },
+  {
+   "s": 93.2,
+   "e": 93.52,
+   "t": "Right."
+  },
+  {
+   "s": 93.94,
+   "e": 97.7,
+   "t": "And with the Seahair in independent mode, you lean left to go right."
+  },
+  {
+   "s": 97.88,
+   "e": 100.7,
+   "t": "It's almost an extension of their existing skills and knowledge."
+  },
+  {
+   "s": 100.82,
+   "e": 101.66,
+   "t": "It seems that way."
+  },
+  {
+   "s": 101.66,
+   "e": 106.9,
+   "t": "And this difference in thinking really seemed to impact how quickly people learned to use the chair."
+  },
+  {
+   "s": 107.36,
+   "e": 107.74,
+   "t": "Makes sense."
+  },
+  {
+   "s": 108.16,
+   "e": 114.14,
+   "t": "So beyond the learning curve, how did this hands-free control affect how users felt about the Seahair?"
+  },
+  {
+   "s": 114.7,
+   "e": 117.84,
+   "t": "Did it change their experience in a noticeable way?"
+  },
+  {
+   "s": 117.84,
+   "e": 118.5,
+   "t": "It did."
+  },
+  {
+   "s": 119.08,
+   "e": 126.78,
+   "t": "Many users said they felt a stronger sense of embodiment, as if the Seahair was more a part of them, not just a machine they were sitting in."
+  },
+  {
+   "s": 127.02,
+   "e": 128.46,
+   "t": "I can see how that would be empowering."
+  },
+  {
+   "s": 128.8,
+   "e": 133.9,
+   "t": "One user even described it as feeling more connected to the chair than they did with their regular wheelchair."
+  },
+  {
+   "s": 133.9,
+   "e": 135.16,
+   "t": "That's powerful."
+  },
+  {
+   "s": 135.36,
+   "e": 137.8,
+   "t": "But, of course, no design is perfect."
+  },
+  {
+   "s": 138.48,
+   "e": 142.14,
+   "t": "What did the researchers learn about the Seahair's design?"
+  },
+  {
+   "s": 142.44,
+   "e": 145.58,
+   "t": "Both the good and the, well, the not so good."
+  },
+  {
+   "s": 145.58,
+   "e": 147.46,
+   "t": "They looked at several specific features."
+  },
+  {
+   "s": 148.16,
+   "e": 151.54,
+   "t": "The side guards, which are there for stability, got mixed reviews."
+  },
+  {
+   "s": 152.24,
+   "e": 154.82,
+   "t": "Some users found them helpful, especially when leaning."
+  },
+  {
+   "s": 155.48,
+   "e": 158.06,
+   "t": "But others felt that they restricted their movement."
+  },
+  {
+   "s": 158.32,
+   "e": 161.26,
+   "t": "It's always a challenge to balance safety with freedom of movement."
+  },
+  {
+   "s": 161.4,
+   "e": 161.88,
+   "t": "That's true."
+  },
+  {
+   "s": 162.36,
+   "e": 164.46,
+   "t": "The low backrest also had mixed feedback."
+  },
+  {
+   "s": 164.46,
+   "e": 172.2,
+   "t": "It made leaning easier, but some users, especially those used to more back support, found it wasn't enough for longer periods of use."
+  },
+  {
+   "s": 172.4,
+   "e": 173.54,
+   "t": "I can imagine that being an issue."
+  },
+  {
+   "s": 173.86,
+   "e": 176.4,
+   "t": "And then there was the front handlebar with the handholds."
+  },
+  {
+   "s": 176.44,
+   "e": 178.38,
+   "t": "That seemed to be a really popular feature."
+  },
+  {
+   "s": 178.54,
+   "e": 181.72,
+   "t": "People used it for added control and just feeling more secure."
+  },
+  {
+   "s": 182.0,
+   "e": 190.14,
+   "t": "So even with those design quirks, it sounds like the Seahair has the potential to change how people think about using a wheelchair, even for everyday things."
+  },
+  {
+   "s": 190.44,
+   "e": 191.12,
+   "t": "Oh, definitely."
+  },
+  {
+   "s": 191.12,
+   "e": 195.7,
+   "t": "The researchers asked users to imagine how they would use the Seahair in their lives."
+  },
+  {
+   "s": 196.1,
+   "e": 203.6,
+   "t": "And they came up with all sorts of applications, from grocery shopping and navigating a buffet to even holding a baby while moving around."
+  },
+  {
+   "s": 203.72,
+   "e": 205.22,
+   "t": "It opens up a lot of possibilities."
+  },
+  {
+   "s": 205.42,
+   "e": 205.8,
+   "t": "It does."
+  },
+  {
+   "s": 205.92,
+   "e": 207.72,
+   "t": "The hands-free control was a big part of that."
+  },
+  {
+   "s": 208.34,
+   "e": 212.8,
+   "t": "Now, things get, well, a bit more complex with the Seahair's remote control mode."
+  },
+  {
+   "s": 213.5,
+   "e": 220.12,
+   "t": "This is where the chair can be controlled by someone else, using a separate seat that also senses changes in the center of gravity."
+  },
+  {
+   "s": 220.12,
+   "e": 223.88,
+   "t": "Right. And this mode really brought up some important questions."
+  },
+  {
+   "s": 224.22,
+   "e": 230.36,
+   "t": "Users had concerns, a lot of them, about how practical and safe it would be in the real world."
+  },
+  {
+   "s": 230.46,
+   "e": 234.54,
+   "t": "I can understand that. There's a lot of trust involved in letting someone else control your movement."
+  },
+  {
+   "s": 234.92,
+   "e": 238.64,
+   "t": "One of the biggest issues was the limited field of view from the remote camera."
+  },
+  {
+   "s": 239.04,
+   "e": 243.34,
+   "t": "It made it hard for the person controlling the chair to see everything and navigate safely."
+  },
+  {
+   "s": 243.34,
+   "e": 248.46,
+   "t": "It makes sense. Having someone else control your mobility requires a high degree of trust."
+  },
+  {
+   "s": 248.92,
+   "e": 252.06,
+   "t": "And not being able to see clearly would make that trust difficult."
+  },
+  {
+   "s": 252.56,
+   "e": 257.7,
+   "t": "Yes, it's a challenge. But beyond the practical limitations, there's also the bigger issue of agency."
+  },
+  {
+   "s": 258.82,
+   "e": 263.4,
+   "t": "Even with someone you trust, how comfortable would you feel having them control your wheelchair?"
+  },
+  {
+   "s": 264.06,
+   "e": 266.28,
+   "t": "That's an ethical question as much as a practical one."
+  },
+  {
+   "s": 266.28,
+   "e": 273.0,
+   "t": "It brings up concerns about autonomy and potential for, well, even if unintentional, this use."
+  },
+  {
+   "s": 273.52,
+   "e": 280.46,
+   "t": "Makes you think, is there a fundamental difference between a machine making decisions about your movement and another human being making those decisions?"
+  },
+  {
+   "s": 280.66,
+   "e": 288.52,
+   "t": "And that's a question that deserves a lot more thought, especially as we develop technologies like the sea hair that push the boundaries of what's possible."
+  },
+  {
+   "s": 288.52,
+   "e": 297.48,
+   "t": "The researchers did note, though, that some users might find the idea of AI control more comfortable or reliable compared to remote control by a human."
+  },
+  {
+   "s": 297.76,
+   "e": 306.32,
+   "t": "And that's an interesting contrast. It highlights the complexities of trust, whether we place more trust in machines or in other people when it comes to, well, our own mobility."
+  },
+  {
+   "s": 306.64,
+   "e": 311.2,
+   "t": "And that brings us to the third control mode, shared control. This one is particularly interesting."
+  },
+  {
+   "s": 311.2,
+   "e": 321.06,
+   "t": "Yeah, this one really caught my eye, too. Instead of one person being in complete control, it's more of a partnership between the wheelchair user and a helper."
+  },
+  {
+   "s": 321.9,
+   "e": 323.72,
+   "t": "They both have a say in how the chair moves."
+  },
+  {
+   "s": 324.2,
+   "e": 330.46,
+   "t": "It's kind of a, well, you could think of it as a dance. Two partners working together to navigate the space. And you know what's surprising?"
+  },
+  {
+   "s": 330.72,
+   "e": 331.08,
+   "t": "What's that?"
+  },
+  {
+   "s": 331.28,
+   "e": 339.08,
+   "t": "A lot of users found this shared control mode even more intuitive than independent mode, especially when they were dealing with obstacles."
+  },
+  {
+   "s": 339.36,
+   "e": 340.92,
+   "t": "Hmm. That is surprising."
+  },
+  {
+   "s": 341.2,
+   "e": 345.02,
+   "t": "You'd think having two people trying to control the same thing would be more difficult."
+  },
+  {
+   "s": 345.36,
+   "e": 352.2,
+   "t": "You would, wouldn't you? But the research suggests that the shared responsibility actually lightens the cognitive load for some users."
+  },
+  {
+   "s": 352.74,
+   "e": 361.7,
+   "t": "There's an example in the research where one participant said they actually found it easier to get through the slalom course when they had a helper giving them subtle adjustments through the shared control."
+  },
+  {
+   "s": 362.08,
+   "e": 365.72,
+   "t": "That's fascinating. Do the researchers have any theories about why that might be?"
+  },
+  {
+   "s": 365.72,
+   "e": 378.86,
+   "t": "Well, they don't have a definite answer, but they speculate that having a helper, I guess you could say fill in the gaps in their control, lets the wheelchair user focus on the bigger picture."
+  },
+  {
+   "s": 379.38,
+   "e": 385.4,
+   "t": "You know, the overall navigation, instead of getting bogged down in the details of moving the chair."
+  },
+  {
+   "s": 385.4,
+   "e": 394.04,
+   "t": "So it's almost as if having someone else share the mental work frees up the wheelchair user to think more strategically about how they're moving."
+  },
+  {
+   "s": 394.44,
+   "e": 401.12,
+   "t": "That's a good way to put it. And this has really interesting implications for how we think about assistance and collaboration in general, not just with wheelchairs."
+  },
+  {
+   "s": 401.12,
+   "e": 409.96,
+   "t": "It makes you wonder if there are other situations where sharing control, rather than aiming for complete independence, might actually lead to better results."
+  },
+  {
+   "s": 410.06,
+   "e": 420.82,
+   "t": "Absolutely. It's a thought-provoking idea. And speaking of applications, the research points to some exciting possibilities for shared control, not just for everyday mobility, but also in areas like training and rehabilitation."
+  },
+  {
+   "s": 421.54,
+   "e": 428.44,
+   "t": "I could see how that would be useful. It could be a really valuable tool for therapists working with patients who are trying to regain their mobility skills."
+  },
+  {
+   "s": 428.44,
+   "e": 437.52,
+   "t": "Exactly. Imagine a therapist being able to adjust the level of assistance they provide as the patient improves, helping them gradually move toward independent control."
+  },
+  {
+   "s": 437.8,
+   "e": 440.9,
+   "t": "It's like having a personalized training program built right into the wheelchair."
+  },
+  {
+   "s": 441.28,
+   "e": 446.34,
+   "t": "And they even see potential for shared control in recreational activities, even sports."
+  },
+  {
+   "s": 446.96,
+   "e": 453.02,
+   "t": "Think about a wheelchair basketball game where teammates can subtly adjust each other's movements to gain a strategic advantage."
+  },
+  {
+   "s": 453.42,
+   "e": 456.6,
+   "t": "Wow. It would add a whole new layer of teamwork and strategy to the game."
+  },
+  {
+   "s": 456.6,
+   "e": 461.84,
+   "t": "And maybe even more importantly, it challenges our ideas about who can participate in these activities."
+  },
+  {
+   "s": 462.48,
+   "e": 467.94,
+   "t": "Someone who might not be able to control a wheelchair on their own could still be a part of the action through shared control."
+  },
+  {
+   "s": 468.3,
+   "e": 472.28,
+   "t": "It opens doors for inclusivity and just having fun."
+  },
+  {
+   "s": 472.78,
+   "e": 482.74,
+   "t": "So it seems like the sea hair, even as a prototype, is really making us rethink some fundamental ideas about mobility, assistance, and even how we interact with each other."
+  },
+  {
+   "s": 482.74,
+   "e": 489.4,
+   "t": "I think you're right. This deep dive into the research has really shown that the sea hair is much more than just a new wheelchair."
+  },
+  {
+   "s": 489.4,
+   "e": 501.86,
+   "t": "It gives us a glimpse into the future of how we might design technology not to replace human capabilities, but to support and enhance them by finding new ways for humans and machines to work together."
+  },
+  {
+   "s": 502.32,
+   "e": 516.6,
+   "t": "It's exciting to think about the possibilities, but it's also important to recognize that there are some complex questions that come up when we start to blur the lines between human control and machine control, especially when it comes to something as personal as mobility."
+  },
+  {
+   "s": 516.6,
+   "e": 520.22,
+   "t": "You're absolutely right. And that's really what this deep dive is all about."
+  },
+  {
+   "s": 520.46,
+   "e": 525.8,
+   "t": "What are the implications for you, the listener? What should we be thinking about as this technology develops?"
+  },
+  {
+   "s": 526.0,
+   "e": 531.16,
+   "t": "So what are some of the key takeaways from our exploration of the sea hair and these different control modes?"
+  },
+  {
+   "s": 531.16,
+   "e": 536.9,
+   "t": "Well, I think one of the biggest things that stands out is the importance of individual experience and mental models."
+  },
+  {
+   "s": 537.6,
+   "e": 548.94,
+   "t": "The fact that wheelchair users and non-wheelchair users approached the sea hair's control so differently highlights the need to design assistive technology that's sensitive to the many ways people think and move."
+  },
+  {
+   "s": 549.16,
+   "e": 556.66,
+   "t": "It's a reminder that what's intuitive for one person might not be intuitive for another. We have to consider the user's perspective and abilities."
+  },
+  {
+   "s": 556.66,
+   "e": 567.82,
+   "t": "Exactly. And beyond those individual differences, the sea hair also raises some broader ethical questions about control, agency, and the impact of shared control systems on human relationships."
+  },
+  {
+   "s": 568.2,
+   "e": 573.9,
+   "t": "Especially when we consider the implications of a technology that could be used to remotely control someone else's movements."
+  },
+  {
+   "s": 574.7,
+   "e": 582.52,
+   "t": "Even with the best intentions, we need to be very thoughtful about how to design these systems in a way that respects user autonomy and prevents misuse."
+  },
+  {
+   "s": 582.52,
+   "e": 589.4,
+   "t": "And that leads to another key takeaway from our deep dive. The importance of involving users in the design process."
+  },
+  {
+   "s": 590.04,
+   "e": 595.68,
+   "t": "The researchers made a point of including both wheelchair users and non-wheelchair users in their evaluation of the sea hair."
+  },
+  {
+   "s": 595.88,
+   "e": 599.88,
+   "t": "And that provided them with really valuable insights that they wouldn't have gotten otherwise."
+  },
+  {
+   "s": 600.2,
+   "e": 609.0,
+   "t": "It underscores the fact that the people who are going to be using this technology are the ones who know best what works, what doesn't work, and what ethical considerations need to be addressed."
+  },
+  {
+   "s": 609.0,
+   "e": 621.32,
+   "t": "Exactly. That collaborative approach to design is crucial, not just for making sure these technologies are usable and accessible, but also for navigating the complex ethical and social implications of these innovations."
+  },
+  {
+   "s": 621.74,
+   "e": 625.02,
+   "t": "So the sea hair is much more than just an impressive new wheelchair."
+  },
+  {
+   "s": 625.8,
+   "e": 635.66,
+   "t": "It's really a starting point for a bigger conversation about how we design technology that empowers people, respects their autonomy, and promotes meaningful connections."
+  },
+  {
+   "s": 635.66,
+   "e": 643.72,
+   "t": "It's a reminder that innovation isn't just about building new gadgets. It's also about understanding the impact on people and how they interact."
+  },
+  {
+   "s": 644.1,
+   "e": 653.84,
+   "t": "It's about giving people choices, really. That's what I find so interesting about the sea hair. It offers this range of control from total independence to the shared control."
+  },
+  {
+   "s": 654.14,
+   "e": 658.32,
+   "t": "It recognizes that not everyone needs or wants the same level of assistance."
+  },
+  {
+   "s": 658.54,
+   "e": 663.74,
+   "t": "And that adaptability is worth thinking about as we explore the wider implications of this research."
+  },
+  {
+   "s": 663.74,
+   "e": 671.7,
+   "t": "You know, we've been focusing on wheelchairs, but the ideas behind these control modes could be applied to lots of other areas of life."
+  },
+  {
+   "s": 671.84,
+   "e": 674.7,
+   "t": "Yeah, I was thinking about that too, like in education or physical therapy."
+  },
+  {
+   "s": 675.36,
+   "e": 682.04,
+   "t": "A student learning a new skill, they could gradually transition from shared control with an instructor to being able to do it on their own."
+  },
+  {
+   "s": 682.18,
+   "e": 688.42,
+   "t": "Or someone recovering from an injury could use shared control as a way to, you know, step back into their mobility."
+  },
+  {
+   "s": 688.42,
+   "e": 695.58,
+   "t": "And imagine the possibilities in, say, manufacturing or healthcare, where you have humans and robots already working together."
+  },
+  {
+   "s": 696.24,
+   "e": 703.44,
+   "t": "Shared control could make things safer and more precise, while still letting the human workers keep a sense of, well, control and expertise."
+  },
+  {
+   "s": 703.8,
+   "e": 709.92,
+   "t": "Finding that balance between human intuition and machine capability. It's about each one complementing the other."
+  },
+  {
+   "s": 710.9,
+   "e": 715.46,
+   "t": "But of course, this does bring up ethical questions that we need to think about carefully."
+  },
+  {
+   "s": 715.46,
+   "e": 723.34,
+   "t": "How do we make sure that these shared control systems don't create new forms of dependency or even inequality?"
+  },
+  {
+   "s": 723.94,
+   "e": 727.14,
+   "t": "How do we protect people's privacy and prevent misuse?"
+  },
+  {
+   "s": 727.3,
+   "e": 729.84,
+   "t": "Those are important questions and there aren't any easy answers."
+  },
+  {
+   "s": 730.0,
+   "e": 735.56,
+   "t": "And that's exactly why it's so crucial to have these conversations now while these technologies are still being developed."
+  },
+  {
+   "s": 735.82,
+   "e": 740.8,
+   "t": "We need to really look at the potential benefits and risks and get input from a lot of different people"
+  },
+  {
+   "s": 740.8,
+   "e": 746.52,
+   "t": "to make sure we're shaping the future of shared control in a way that aligns with our values."
+  },
+  {
+   "s": 746.76,
+   "e": 748.16,
+   "t": "That's where you come in, the listener."
+  },
+  {
+   "s": 748.48,
+   "e": 752.02,
+   "t": "We've just scratched the surface here, but I hope this has given you some things to think about."
+  },
+  {
+   "s": 752.6,
+   "e": 759.24,
+   "t": "We encourage you to keep exploring these ideas, to consider how shared control might impact your own life and the world around you."
+  },
+  {
+   "s": 759.24,
+   "e": 762.02,
+   "t": "The future of technology isn't something that's set in stone."
+  },
+  {
+   "s": 762.36,
+   "e": 766.6,
+   "t": "It's something we create together through the choices we make, the actions we take,"
+  },
+  {
+   "s": 766.6,
+   "e": 769.46,
+   "t": "and our willingness to have these kinds of thoughtful discussions."
+  },
+  {
+   "s": 770.08,
+   "e": 777.46,
+   "t": "Let's work towards a future where technology empowers us, connects us, and helps us all reach our full potential."
+  },
+  {
+   "s": 778.06,
+   "e": 781.44,
+   "t": "And on that note, we're wrapping up our deep dive into the sea here."
+  },
+  {
+   "s": 781.96,
+   "e": 787.7,
+   "t": "Hopefully we've sparked your curiosity and got you thinking differently about what's possible when humans and machines collaborate."
+  },
+  {
+   "s": 788.06,
+   "e": 793.78,
+   "t": "Until next time, keep diving deep, keep asking questions, and keep imagining the future you want to see."
+  }
+ ]
+}

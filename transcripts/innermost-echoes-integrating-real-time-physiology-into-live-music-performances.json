@@ -1,0 +1,1380 @@
+{
+ "guid": "deephci.podbean.com/6d822958-3bb4-38e6-8889-60c4149d522b",
+ "slug": "innermost-echoes-integrating-real-time-physiology-into-live-music-performances",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "hynds2024innermost.mp3",
+  "version": 1
+ },
+ "duration": 606,
+ "word_count": 1745,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 0.74,
+   "t": "Ever get that feeling?"
+  },
+  {
+   "s": 0.8,
+   "e": 2.28,
+   "t": "Like music is physically moving you."
+  },
+  {
+   "s": 2.54,
+   "e": 3.7,
+   "t": "You know that feeling, right?"
+  },
+  {
+   "s": 3.74,
+   "e": 3.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 4.34,
+   "e": 10.22,
+   "t": "But now, imagine if that feeling wasn't just in your head, but the music itself was actually changing."
+  },
+  {
+   "s": 10.4,
+   "e": 10.84,
+   "t": "Wow."
+  },
+  {
+   "s": 11.0,
+   "e": 14.12,
+   "t": "Driven by your heartbeat, your sweat, your whole physical response."
+  },
+  {
+   "s": 14.22,
+   "e": 15.24,
+   "t": "Now that's a trip."
+  },
+  {
+   "s": 15.82,
+   "e": 16.68,
+   "t": "That's really interesting."
+  },
+  {
+   "s": 16.86,
+   "e": 17.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 17.04,
+   "e": 19.68,
+   "t": "And that's the mind-bending concept we're diving into today."
+  },
+  {
+   "s": 19.92,
+   "e": 22.04,
+   "t": "We are diving into some wild stuff."
+  },
+  {
+   "s": 22.04,
+   "e": 29.96,
+   "t": "We're taking a deep dive into innermost echoes, a paper fresh from the bleeding edge of music and tech research."
+  },
+  {
+   "s": 30.4,
+   "e": 30.56,
+   "t": "Okay."
+  },
+  {
+   "s": 30.7,
+   "e": 32.48,
+   "t": "So, innermost echoes."
+  },
+  {
+   "s": 32.76,
+   "e": 33.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 33.4,
+   "e": 36.1,
+   "t": "These researchers at Keio University in Japan."
+  },
+  {
+   "s": 36.18,
+   "e": 36.82,
+   "t": "Japan, yep."
+  },
+  {
+   "s": 37.04,
+   "e": 40.92,
+   "t": "They're blurring the lines of live performance in ways you wouldn't believe."
+  },
+  {
+   "s": 41.04,
+   "e": 42.1,
+   "t": "Really pushing the boundaries."
+  },
+  {
+   "s": 42.18,
+   "e": 42.34,
+   "t": "Yeah."
+  },
+  {
+   "s": 42.44,
+   "e": 45.28,
+   "t": "They've created this system that uses biosensors."
+  },
+  {
+   "s": 45.5,
+   "e": 45.82,
+   "t": "Okay."
+  },
+  {
+   "s": 46.1,
+   "e": 46.94,
+   "t": "Biosensors, sure."
+  },
+  {
+   "s": 46.94,
+   "e": 50.56,
+   "t": "To tap into the physiological responses of both the audience and the musicians."
+  },
+  {
+   "s": 50.86,
+   "e": 54.78,
+   "t": "So, we're talking about literally measuring what the audience is feeling."
+  },
+  {
+   "s": 54.94,
+   "e": 55.16,
+   "t": "Yes."
+  },
+  {
+   "s": 55.42,
+   "e": 59.36,
+   "t": "Imagine a concert where the music is literally shaped by how the crowd is feeling."
+  },
+  {
+   "s": 59.36,
+   "e": 60.08,
+   "t": "Wow."
+  },
+  {
+   "s": 60.3,
+   "e": 60.64,
+   "t": "Okay."
+  },
+  {
+   "s": 60.74,
+   "e": 61.46,
+   "t": "I'm already hooked."
+  },
+  {
+   "s": 61.64,
+   "e": 63.28,
+   "t": "So, we know they're using biosensors."
+  },
+  {
+   "s": 63.68,
+   "e": 65.24,
+   "t": "But what are they actually measuring?"
+  },
+  {
+   "s": 65.72,
+   "e": 68.48,
+   "t": "And how does that data become music?"
+  },
+  {
+   "s": 68.9,
+   "e": 69.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 69.34,
+   "e": 70.42,
+   "t": "How does that even work?"
+  },
+  {
+   "s": 70.48,
+   "e": 70.62,
+   "t": "Right."
+  },
+  {
+   "s": 70.66,
+   "e": 71.52,
+   "t": "Break it down for us."
+  },
+  {
+   "s": 71.58,
+   "e": 71.8,
+   "t": "Okay."
+  },
+  {
+   "s": 71.8,
+   "e": 75.08,
+   "t": "So, they are measuring things like heart rate."
+  },
+  {
+   "s": 75.28,
+   "e": 75.58,
+   "t": "Okay."
+  },
+  {
+   "s": 76.14,
+   "e": 79.46,
+   "t": "And what's called electrodermal activity or EDA."
+  },
+  {
+   "s": 79.68,
+   "e": 80.04,
+   "t": "EDA."
+  },
+  {
+   "s": 80.36,
+   "e": 80.8,
+   "t": "And that is?"
+  },
+  {
+   "s": 80.8,
+   "e": 83.02,
+   "t": "That's basically how much you're sweating."
+  },
+  {
+   "s": 83.24,
+   "e": 83.58,
+   "t": "Okay."
+  },
+  {
+   "s": 83.72,
+   "e": 86.08,
+   "t": "Which can be an indicator of emotional arousal."
+  },
+  {
+   "s": 86.14,
+   "e": 86.42,
+   "t": "Right."
+  },
+  {
+   "s": 86.52,
+   "e": 86.72,
+   "t": "Right."
+  },
+  {
+   "s": 86.72,
+   "e": 88.12,
+   "t": "So, if you're really getting into it."
+  },
+  {
+   "s": 88.12,
+   "e": 88.5,
+   "t": "Exactly."
+  },
+  {
+   "s": 88.56,
+   "e": 89.2,
+   "t": "You're going to sweat more."
+  },
+  {
+   "s": 89.24,
+   "e": 90.24,
+   "t": "Then the music's going to respond."
+  },
+  {
+   "s": 90.86,
+   "e": 95.32,
+   "t": "Now, this data is fed into some seriously smart software."
+  },
+  {
+   "s": 95.32,
+   "e": 96.7,
+   "t": "That acts like a conductor."
+  },
+  {
+   "s": 97.38,
+   "e": 101.66,
+   "t": "Interpreting those biosignals and translating them into instructions for the instruments."
+  },
+  {
+   "s": 101.74,
+   "e": 101.84,
+   "t": "Wait."
+  },
+  {
+   "s": 101.9,
+   "e": 102.2,
+   "t": "Hold on."
+  },
+  {
+   "s": 102.46,
+   "e": 102.98,
+   "t": "Instruments."
+  },
+  {
+   "s": 103.22,
+   "e": 103.7,
+   "t": "Instruments."
+  },
+  {
+   "s": 103.7,
+   "e": 104.88,
+   "t": "Like real instruments."
+  },
+  {
+   "s": 105.04,
+   "e": 106.4,
+   "t": "Real physical instruments."
+  },
+  {
+   "s": 106.5,
+   "e": 108.18,
+   "t": "Tell us about the musical setup here."
+  },
+  {
+   "s": 108.38,
+   "e": 112.52,
+   "t": "So, they have a mix of traditional and very high-tech instruments."
+  },
+  {
+   "s": 113.3,
+   "e": 116.24,
+   "t": "One of the stars of the show is a robotic koto."
+  },
+  {
+   "s": 116.66,
+   "e": 118.38,
+   "t": "A robotic koto."
+  },
+  {
+   "s": 118.6,
+   "e": 118.74,
+   "t": "Okay."
+  },
+  {
+   "s": 118.76,
+   "e": 120.88,
+   "t": "For anyone who hasn't had the pleasure, what's a koto?"
+  },
+  {
+   "s": 121.04,
+   "e": 127.56,
+   "t": "So, the koto is a Japanese stringed instrument, kind of like a harp, but with a brighter, more"
+  },
+  {
+   "s": 127.56,
+   "e": 128.44,
+   "t": "percussive sound."
+  },
+  {
+   "s": 128.54,
+   "e": 128.8,
+   "t": "Okay."
+  },
+  {
+   "s": 128.86,
+   "e": 129.1,
+   "t": "Cool."
+  },
+  {
+   "s": 129.1,
+   "e": 132.66,
+   "t": "So, imagine this koto being played not by human hands."
+  },
+  {
+   "s": 132.78,
+   "e": 133.04,
+   "t": "Okay."
+  },
+  {
+   "s": 133.04,
+   "e": 137.36,
+   "t": "But by robotic mechanisms controlled by the software."
+  },
+  {
+   "s": 137.82,
+   "e": 139.86,
+   "t": "So, the software is like the musician, essentially."
+  },
+  {
+   "s": 140.0,
+   "e": 140.52,
+   "t": "Exactly."
+  },
+  {
+   "s": 140.68,
+   "e": 140.9,
+   "t": "Wow."
+  },
+  {
+   "s": 141.1,
+   "e": 142.9,
+   "t": "And the software dictates everything."
+  },
+  {
+   "s": 143.0,
+   "e": 143.36,
+   "t": "Everything."
+  },
+  {
+   "s": 143.56,
+   "e": 146.5,
+   "t": "From the plucking patterns to the actual tuning of the strings."
+  },
+  {
+   "s": 146.66,
+   "e": 147.04,
+   "t": "Wow."
+  },
+  {
+   "s": 147.44,
+   "e": 151.04,
+   "t": "In real time, based on the data it's receiving from the biosensors."
+  },
+  {
+   "s": 151.1,
+   "e": 152.1,
+   "t": "No way."
+  },
+  {
+   "s": 152.2,
+   "e": 157.76,
+   "t": "And alongside the koto, they also incorporate synthesizers, which add another layer of sonic"
+  },
+  {
+   "s": 157.76,
+   "e": 158.44,
+   "t": "possibilities."
+  },
+  {
+   "s": 158.72,
+   "e": 162.24,
+   "t": "So, if someone's heart rate spikes, the music might get faster or more intense."
+  },
+  {
+   "s": 162.36,
+   "e": 162.82,
+   "t": "Precisely."
+  },
+  {
+   "s": 162.82,
+   "e": 163.32,
+   "t": "Wow."
+  },
+  {
+   "s": 163.78,
+   "e": 168.2,
+   "t": "Or, if the collective tension in the room rises, the synthesizers might introduce a sense"
+  },
+  {
+   "s": 168.2,
+   "e": 169.94,
+   "t": "of dissonance or unease."
+  },
+  {
+   "s": 170.1,
+   "e": 170.84,
+   "t": "That's wild."
+  },
+  {
+   "s": 170.96,
+   "e": 172.96,
+   "t": "And they experimented with a visual score, too, right?"
+  },
+  {
+   "s": 173.02,
+   "e": 175.26,
+   "t": "Like, you could even see the collective feeling in the room."
+  },
+  {
+   "s": 175.38,
+   "e": 175.88,
+   "t": "That's amazing."
+  },
+  {
+   "s": 176.22,
+   "e": 176.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 176.54,
+   "e": 181.5,
+   "t": "Imagine a screen displaying abstract patterns that shift and morph along with the audience's"
+  },
+  {
+   "s": 181.5,
+   "e": 183.0,
+   "t": "heartbeats or emotional responses."
+  },
+  {
+   "s": 183.0,
+   "e": 184.92,
+   "t": "That's another dimension to the music."
+  },
+  {
+   "s": 185.06,
+   "e": 187.92,
+   "t": "It adds a whole other dimension to the concept of feeling the music."
+  },
+  {
+   "s": 188.18,
+   "e": 188.62,
+   "t": "Wow."
+  },
+  {
+   "s": 188.62,
+   "e": 193.46,
+   "t": "So, they've got this technology, but did they compose the music for this, or were the musicians"
+  },
+  {
+   "s": 193.46,
+   "e": 194.24,
+   "t": "improvising?"
+  },
+  {
+   "s": 194.58,
+   "e": 199.14,
+   "t": "So, it was a fascinating blend of structure and improvisation."
+  },
+  {
+   "s": 199.4,
+   "e": 199.7,
+   "t": "Okay."
+  },
+  {
+   "s": 199.7,
+   "e": 206.14,
+   "t": "They actually brought in a composer to create the framework for the pieces, incorporating elements"
+  },
+  {
+   "s": 206.14,
+   "e": 208.36,
+   "t": "that could be influenced by the biofeedback."
+  },
+  {
+   "s": 208.48,
+   "e": 208.62,
+   "t": "Okay."
+  },
+  {
+   "s": 208.62,
+   "e": 211.78,
+   "t": "So, there's a structure, but also room for the music to change."
+  },
+  {
+   "s": 211.94,
+   "e": 212.24,
+   "t": "Yes."
+  },
+  {
+   "s": 212.46,
+   "e": 212.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 212.62,
+   "e": 212.98,
+   "t": "Exactly."
+  },
+  {
+   "s": 213.48,
+   "e": 218.34,
+   "t": "This means that there was a clear structure, but within that structure, the music could"
+  },
+  {
+   "s": 218.34,
+   "e": 223.22,
+   "t": "flow and evolve in completely unique ways, depending on what was happening in the room."
+  },
+  {
+   "s": 223.34,
+   "e": 223.76,
+   "t": "Wow."
+  },
+  {
+   "s": 223.76,
+   "e": 226.06,
+   "t": "So, every performance is different."
+  },
+  {
+   "s": 226.18,
+   "e": 227.02,
+   "t": "Every single time."
+  },
+  {
+   "s": 227.3,
+   "e": 229.08,
+   "t": "It's like that old saying, the music played us."
+  },
+  {
+   "s": 229.22,
+   "e": 229.46,
+   "t": "Right."
+  },
+  {
+   "s": 229.68,
+   "e": 231.34,
+   "t": "But in this case, it's literally true."
+  },
+  {
+   "s": 231.46,
+   "e": 231.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 231.88,
+   "e": 237.74,
+   "t": "So, did they have specific pieces composed with this in mind, or was it more of a free-for-all"
+  },
+  {
+   "s": 237.74,
+   "e": 239.14,
+   "t": "sonic exploration?"
+  },
+  {
+   "s": 239.42,
+   "e": 241.08,
+   "t": "Well, they did have a few key pieces."
+  },
+  {
+   "s": 241.3,
+   "e": 244.56,
+   "t": "That demonstrated the different ways that this bio-driven approach could work."
+  },
+  {
+   "s": 245.04,
+   "e": 251.02,
+   "t": "One was called Ringing, and they used the audience's average heartbeat to dictate the tempo."
+  },
+  {
+   "s": 251.6,
+   "e": 252.08,
+   "t": "Wow."
+  },
+  {
+   "s": 252.08,
+   "e": 256.48,
+   "t": "So, you literally feel the music pulsing in sync with the room."
+  },
+  {
+   "s": 256.68,
+   "e": 256.88,
+   "t": "Yeah."
+  },
+  {
+   "s": 257.12,
+   "e": 257.92,
+   "t": "That's wild."
+  },
+  {
+   "s": 258.08,
+   "e": 258.56,
+   "t": "It's incredible."
+  },
+  {
+   "s": 258.62,
+   "e": 261.02,
+   "t": "You imagine that energy in that space."
+  },
+  {
+   "s": 261.28,
+   "e": 261.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 261.48,
+   "e": 264.44,
+   "t": "Everyone linked not just by the music, but by their own physiology."
+  },
+  {
+   "s": 264.76,
+   "e": 265.16,
+   "t": "Wow."
+  },
+  {
+   "s": 265.28,
+   "e": 270.54,
+   "t": "And because it's an average, the tempo could subtly shift throughout the performance, reflecting"
+  },
+  {
+   "s": 270.54,
+   "e": 273.9,
+   "t": "the overall ebb and flow of the audience's collective energy."
+  },
+  {
+   "s": 274.0,
+   "e": 274.22,
+   "t": "Man."
+  },
+  {
+   "s": 274.32,
+   "e": 274.6,
+   "t": "Okay."
+  },
+  {
+   "s": 275.12,
+   "e": 275.6,
+   "t": "I'm hooked."
+  },
+  {
+   "s": 275.72,
+   "e": 275.94,
+   "t": "Yeah."
+  },
+  {
+   "s": 276.12,
+   "e": 278.58,
+   "t": "What other musical experiments did they cook up?"
+  },
+  {
+   "s": 278.68,
+   "e": 278.88,
+   "t": "All right."
+  },
+  {
+   "s": 278.94,
+   "e": 280.22,
+   "t": "So, another piece."
+  },
+  {
+   "s": 280.5,
+   "e": 281.02,
+   "t": "Lioness."
+  },
+  {
+   "s": 281.02,
+   "e": 281.46,
+   "t": "Okay."
+  },
+  {
+   "s": 281.46,
+   "e": 283.26,
+   "t": "It's a really interesting approach."
+  },
+  {
+   "s": 283.86,
+   "e": 285.86,
+   "t": "The length of the piece wasn't predetermined."
+  },
+  {
+   "s": 286.08,
+   "e": 289.58,
+   "t": "It was actually determined by the performer's heart rate variability."
+  },
+  {
+   "s": 289.82,
+   "e": 290.02,
+   "t": "Wait."
+  },
+  {
+   "s": 290.12,
+   "e": 294.68,
+   "t": "So, if the musicians were really feeling it, getting into the groove, the song would actually"
+  },
+  {
+   "s": 294.68,
+   "e": 295.28,
+   "t": "get longer."
+  },
+  {
+   "s": 295.58,
+   "e": 298.46,
+   "t": "That adds a whole other level of intensity to the performance."
+  },
+  {
+   "s": 298.46,
+   "e": 298.94,
+   "t": "Yes."
+  },
+  {
+   "s": 298.94,
+   "e": 304.36,
+   "t": "It became this incredible feedback loop between the musician's emotional state, the music"
+  },
+  {
+   "s": 304.36,
+   "e": 306.14,
+   "t": "itself, and the audience's reaction."
+  },
+  {
+   "s": 306.62,
+   "e": 310.58,
+   "t": "And then there's floating like dust, which took a different tack altogether."
+  },
+  {
+   "s": 310.66,
+   "e": 310.86,
+   "t": "Okay."
+  },
+  {
+   "s": 310.86,
+   "e": 315.82,
+   "t": "This piece relied solely on the visual representation of the audience's bio data."
+  },
+  {
+   "s": 315.98,
+   "e": 316.2,
+   "t": "Okay."
+  },
+  {
+   "s": 316.2,
+   "e": 320.08,
+   "t": "With no direct bio feedback influencing the music itself."
+  },
+  {
+   "s": 320.54,
+   "e": 324.72,
+   "t": "So, in this case, it was more about the visual experience reflecting the collective feeling"
+  },
+  {
+   "s": 324.72,
+   "e": 325.36,
+   "t": "in the room."
+  },
+  {
+   "s": 325.48,
+   "e": 325.92,
+   "t": "Precisely."
+  },
+  {
+   "s": 326.32,
+   "e": 328.96,
+   "t": "The musicians had the visual score to interpret."
+  },
+  {
+   "s": 329.24,
+   "e": 329.54,
+   "t": "Okay."
+  },
+  {
+   "s": 329.54,
+   "e": 333.7,
+   "t": "But the music itself wasn't directly tied to the audience's bio data."
+  },
+  {
+   "s": 333.96,
+   "e": 334.4,
+   "t": "Interesting."
+  },
+  {
+   "s": 334.54,
+   "e": 338.14,
+   "t": "It allowed for a different kind of interplay between the scene and the herd, creating a"
+  },
+  {
+   "s": 338.14,
+   "e": 339.1,
+   "t": "unique atmosphere."
+  },
+  {
+   "s": 339.48,
+   "e": 340.42,
+   "t": "I can only imagine."
+  },
+  {
+   "s": 340.94,
+   "e": 341.9,
+   "t": "So, they've got the tech."
+  },
+  {
+   "s": 342.02,
+   "e": 342.74,
+   "t": "They've got the music."
+  },
+  {
+   "s": 342.9,
+   "e": 345.14,
+   "t": "They've even got, we'll say, the bar snacks."
+  },
+  {
+   "s": 345.14,
+   "e": 351.02,
+   "t": "But what did the people involved actually think about this whole experience?"
+  },
+  {
+   "s": 351.14,
+   "e": 351.24,
+   "t": "Yeah."
+  },
+  {
+   "s": 351.26,
+   "e": 351.94,
+   "t": "What was the reaction?"
+  },
+  {
+   "s": 352.66,
+   "e": 354.46,
+   "t": "That's where it gets even more interesting."
+  },
+  {
+   "s": 354.68,
+   "e": 359.42,
+   "t": "The researchers interviewed both the musicians and external composers who weren't directly involved"
+  },
+  {
+   "s": 359.42,
+   "e": 360.9,
+   "t": "to get their perspectives."
+  },
+  {
+   "s": 360.9,
+   "e": 366.58,
+   "t": "The musicians, especially after their second performance, reported feeling incredibly connected."
+  },
+  {
+   "s": 366.8,
+   "e": 367.02,
+   "t": "Okay."
+  },
+  {
+   "s": 367.26,
+   "e": 372.58,
+   "t": "Describing the experience as more organic and collaborative than they had anticipated."
+  },
+  {
+   "s": 372.9,
+   "e": 376.36,
+   "t": "Why do you think that shift happened from the first performance to the second?"
+  },
+  {
+   "s": 376.44,
+   "e": 380.36,
+   "t": "You know, it likely has to do with the human ability to adapt."
+  },
+  {
+   "s": 380.62,
+   "e": 380.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 380.96,
+   "e": 385.68,
+   "t": "And find flow, even within unfamiliar or initially intimidating circumstances."
+  },
+  {
+   "s": 385.98,
+   "e": 386.12,
+   "t": "Right."
+  },
+  {
+   "s": 386.12,
+   "e": 390.88,
+   "t": "Perhaps the first performance involved a level of self-consciousness, of thinking too much about"
+  },
+  {
+   "s": 390.88,
+   "e": 392.44,
+   "t": "the technology and its influence."
+  },
+  {
+   "s": 392.68,
+   "e": 396.82,
+   "t": "But by the second performance, a certain comfort level had set in."
+  },
+  {
+   "s": 397.04,
+   "e": 397.28,
+   "t": "Makes sense."
+  },
+  {
+   "s": 397.48,
+   "e": 399.72,
+   "t": "They were no longer just reacting to the technology."
+  },
+  {
+   "s": 399.86,
+   "e": 402.76,
+   "t": "They were playing with it, having a musical conversation."
+  },
+  {
+   "s": 403.0,
+   "e": 403.98,
+   "t": "Oh, that makes a lot of sense."
+  },
+  {
+   "s": 404.14,
+   "e": 404.24,
+   "t": "Yeah."
+  },
+  {
+   "s": 404.24,
+   "e": 407.48,
+   "t": "It's like anything new, driving a car, learning an instrument."
+  },
+  {
+   "s": 407.74,
+   "e": 411.4,
+   "t": "At first, you're hyper aware of every little thing, but then it clicks and you're just"
+  },
+  {
+   "s": 411.4,
+   "e": 411.82,
+   "t": "doing it."
+  },
+  {
+   "s": 411.92,
+   "e": 412.28,
+   "t": "Right."
+  },
+  {
+   "s": 412.28,
+   "e": 415.52,
+   "t": "What about the composers who weren't directly involved?"
+  },
+  {
+   "s": 415.94,
+   "e": 419.94,
+   "t": "How did they respond to this concept of bio-driven music?"
+  },
+  {
+   "s": 420.26,
+   "e": 423.1,
+   "t": "Well, the responses were fascinatingly diverse."
+  },
+  {
+   "s": 423.32,
+   "e": 423.48,
+   "t": "Okay."
+  },
+  {
+   "s": 423.72,
+   "e": 430.22,
+   "t": "Some composers expressed hesitation, particularly about the visual feedback element, worrying that"
+  },
+  {
+   "s": 430.22,
+   "e": 433.28,
+   "t": "it might be distracting or compromise their artistic vision."
+  },
+  {
+   "s": 433.52,
+   "e": 433.86,
+   "t": "Interesting."
+  },
+  {
+   "s": 434.0,
+   "e": 437.16,
+   "t": "Others, however, were completely intrigued by the possibilities."
+  },
+  {
+   "s": 437.46,
+   "e": 437.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 437.62,
+   "e": 444.42,
+   "t": "Seeing it as a new avenue for exploring human emotion and expression through music."
+  },
+  {
+   "s": 444.62,
+   "e": 444.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 444.98,
+   "e": 448.0,
+   "t": "It's like some composers are just hardwired for that structure."
+  },
+  {
+   "s": 448.18,
+   "e": 448.5,
+   "t": "Right."
+  },
+  {
+   "s": 448.56,
+   "e": 449.92,
+   "t": "That control over every note."
+  },
+  {
+   "s": 450.04,
+   "e": 450.24,
+   "t": "Yeah."
+  },
+  {
+   "s": 450.36,
+   "e": 452.76,
+   "t": "And then others are more interested in just seeing what happens."
+  },
+  {
+   "s": 452.9,
+   "e": 453.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 453.34,
+   "e": 455.96,
+   "t": "You know, those emergent possibilities of letting go a little."
+  },
+  {
+   "s": 456.36,
+   "e": 456.84,
+   "t": "Exactly."
+  },
+  {
+   "s": 457.08,
+   "e": 461.2,
+   "t": "And this technology really highlights those different approaches to creation."
+  },
+  {
+   "s": 461.2,
+   "e": 466.7,
+   "t": "It also makes you wonder, though, like, what does it mean for the listener when the music"
+  },
+  {
+   "s": 466.7,
+   "e": 468.44,
+   "t": "is literally responding to them?"
+  },
+  {
+   "s": 468.52,
+   "e": 469.2,
+   "t": "That's so interesting."
+  },
+  {
+   "s": 469.36,
+   "e": 474.96,
+   "t": "Would you want to know, going into a concert, that your heartbeat might alter the tempo or"
+  },
+  {
+   "s": 474.96,
+   "e": 477.34,
+   "t": "that your emotional state could shape the sound?"
+  },
+  {
+   "s": 477.78,
+   "e": 478.1,
+   "t": "Yeah."
+  },
+  {
+   "s": 478.5,
+   "e": 479.7,
+   "t": "Would you want to know?"
+  },
+  {
+   "s": 479.7,
+   "e": 484.94,
+   "t": "I think part of me loves the idea of a truly immersive experience like that, you know, where"
+  },
+  {
+   "s": 484.94,
+   "e": 489.62,
+   "t": "it becomes this kind of mirror reflecting the energy of the room that everyone is feeding"
+  },
+  {
+   "s": 489.62,
+   "e": 490.06,
+   "t": "into."
+  },
+  {
+   "s": 490.36,
+   "e": 493.42,
+   "t": "Where the line between audience and performer starts to dissolve."
+  },
+  {
+   "s": 493.98,
+   "e": 494.32,
+   "t": "Exactly."
+  },
+  {
+   "s": 495.08,
+   "e": 499.5,
+   "t": "But then there's a part of me, maybe the introverted part, that's like, what if I get anxious and"
+  },
+  {
+   "s": 499.5,
+   "e": 501.02,
+   "t": "it makes the music screech to a halt?"
+  },
+  {
+   "s": 501.12,
+   "e": 501.38,
+   "t": "Right."
+  },
+  {
+   "s": 501.54,
+   "e": 507.02,
+   "t": "Or what if they know, like, my guilty pleasure pop song based on my biofeedback?"
+  },
+  {
+   "s": 507.02,
+   "e": 510.3,
+   "t": "Yeah, that gets at a fundamental question about art, doesn't it?"
+  },
+  {
+   "s": 510.4,
+   "e": 511.04,
+   "t": "It really does."
+  },
+  {
+   "s": 511.12,
+   "e": 514.08,
+   "t": "Is it about pure, unfiltered expression?"
+  },
+  {
+   "s": 514.44,
+   "e": 514.6,
+   "t": "Yeah."
+  },
+  {
+   "s": 514.66,
+   "e": 515.58,
+   "t": "Where do you draw that line?"
+  },
+  {
+   "s": 515.78,
+   "e": 516.0,
+   "t": "Right."
+  },
+  {
+   "s": 516.14,
+   "e": 518.78,
+   "t": "And how would this technology shift that dynamic?"
+  },
+  {
+   "s": 518.92,
+   "e": 522.82,
+   "t": "Between, yeah, enhancing the experience versus manipulating it."
+  },
+  {
+   "s": 522.88,
+   "e": 523.1,
+   "t": "Yeah."
+  },
+  {
+   "s": 523.4,
+   "e": 524.08,
+   "t": "It's fascinating."
+  },
+  {
+   "s": 524.3,
+   "e": 529.2,
+   "t": "Regardless of where you land on those questions, there's no denying this research opens up a"
+  },
+  {
+   "s": 529.2,
+   "e": 530.5,
+   "t": "whole world of possibilities."
+  },
+  {
+   "s": 530.66,
+   "e": 530.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 531.18,
+   "e": 537.0,
+   "t": "The researchers envision this moving beyond just concert halls into museums, galleries, even"
+  },
+  {
+   "s": 537.0,
+   "e": 538.14,
+   "t": "therapeutic settings."
+  },
+  {
+   "s": 538.28,
+   "e": 542.92,
+   "t": "I was reading about how they want to explore how this could be used for people dealing with"
+  },
+  {
+   "s": 542.92,
+   "e": 545.22,
+   "t": "anxiety or emotional distress."
+  },
+  {
+   "s": 545.88,
+   "e": 551.86,
+   "t": "Imagine music that adapts to your mood in real time, offering a sense of comfort or release."
+  },
+  {
+   "s": 552.18,
+   "e": 555.6,
+   "t": "There's something really quite poetic about that, the idea of music as medicine."
+  },
+  {
+   "s": 555.82,
+   "e": 556.8,
+   "t": "It is kind of beautiful."
+  },
+  {
+   "s": 557.0,
+   "e": 560.56,
+   "t": "It's tailored not just to your taste, but to your very state of being at that moment."
+  },
+  {
+   "s": 560.56,
+   "e": 562.84,
+   "t": "So is this the future of music?"
+  },
+  {
+   "s": 563.54,
+   "e": 569.02,
+   "t": "Concerts where everyone's hooked up to biosensors, bodies swaying in unison to the rhythm of our"
+  },
+  {
+   "s": 569.02,
+   "e": 569.92,
+   "t": "collective heartbeat?"
+  },
+  {
+   "s": 570.12,
+   "e": 571.18,
+   "t": "It's certainly a possibility."
+  },
+  {
+   "s": 571.44,
+   "e": 576.22,
+   "t": "And even if bio-driven music never becomes mainstream, I think the very act of exploring"
+  },
+  {
+   "s": 576.22,
+   "e": 580.6,
+   "t": "these ideas challenges our assumptions about how music is created, experienced, and shared."
+  },
+  {
+   "s": 580.86,
+   "e": 581.02,
+   "t": "Yeah."
+  },
+  {
+   "s": 581.16,
+   "e": 585.92,
+   "t": "It pushes us to consider the evolving relationship between technology and human expression."
+  },
+  {
+   "s": 585.92,
+   "e": 586.9,
+   "t": "It really does."
+  },
+  {
+   "s": 587.44,
+   "e": 592.22,
+   "t": "And on that note, for our listeners who want to experience this bio-driven music firsthand,"
+  },
+  {
+   "s": 592.56,
+   "e": 595.52,
+   "t": "we will be sure to link to a video of the performance in the show notes."
+  },
+  {
+   "s": 596.32,
+   "e": 596.84,
+   "t": "Check it out."
+  },
+  {
+   "s": 596.94,
+   "e": 597.74,
+   "t": "Let us know what you think."
+  },
+  {
+   "s": 598.06,
+   "e": 600.88,
+   "t": "Is this the future of music or something else entirely?"
+  },
+  {
+   "s": 601.28,
+   "e": 602.12,
+   "t": "We'd love to hear your take."
+  },
+  {
+   "s": 602.38,
+   "e": 606.68,
+   "t": "Until next time, keep exploring, keep listening, and keep those creative sparks flying."
+  }
+ ]
+}

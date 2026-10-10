@@ -1,0 +1,3255 @@
+{
+ "guid": "deephci.podbean.com/287e2a49-9014-333a-ba77-83df106b6d24",
+ "slug": "ambient-display-utilizing-anisotropy-of-tatami",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Tatami_Ambient_Display_Anisotropic_Information_Presentation9bdfo.mp3",
+  "version": 1
+ },
+ "duration": 1511,
+ "word_count": 4857,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 2.04,
+   "t": "Welcome to another Deep Dive, folks."
+  },
+  {
+   "s": 2.24,
+   "e": 4.44,
+   "t": "Today, we are going to be looking at..."
+  },
+  {
+   "s": 4.44,
+   "e": 5.4,
+   "t": "Ambient displays."
+  },
+  {
+   "s": 5.78,
+   "e": 6.36,
+   "t": "Ambient displays."
+  },
+  {
+   "s": 6.58,
+   "e": 9.68,
+   "t": "Yeah, really sort of different approach to ambient displays."
+  },
+  {
+   "s": 9.98,
+   "e": 17.0,
+   "t": "And the source material for today's Deep Dive is a research paper presented at TEI 2025 titled"
+  },
+  {
+   "s": 17.0,
+   "e": 20.92,
+   "t": "Ambient Display, Utilizing Anisotropy of Tatami."
+  },
+  {
+   "s": 21.14,
+   "e": 28.08,
+   "t": "So it's quite a fascinating concept using a very traditional Japanese material as the basis for an ambient display."
+  },
+  {
+   "s": 28.08,
+   "e": 37.84,
+   "t": "Yeah, I think it's a great example of sort of how researchers are looking at new materials for thinking about displays and interfaces."
+  },
+  {
+   "s": 38.1,
+   "e": 45.64,
+   "t": "Yeah, so before we kind of get into the specifics of this study, maybe we can just level set for our listeners just a real quick sort of like, what are ambient displays?"
+  },
+  {
+   "s": 45.86,
+   "e": 55.06,
+   "t": "Yeah, ambient displays are basically, I think, a way of thinking about how can we have displays be more integrated into our environment"
+  },
+  {
+   "s": 55.06,
+   "e": 58.44,
+   "t": "so they're not like your typical, you know, computer screen or your phone."
+  },
+  {
+   "s": 58.62,
+   "e": 58.72,
+   "t": "Yeah."
+  },
+  {
+   "s": 58.82,
+   "e": 59.72,
+   "t": "But they're more..."
+  },
+  {
+   "s": 59.72,
+   "e": 61.08,
+   "t": "Yeah, like subtly in the background."
+  },
+  {
+   "s": 61.2,
+   "e": 62.36,
+   "t": "Yeah, they're kind of like in the background."
+  },
+  {
+   "s": 62.36,
+   "e": 66.4,
+   "t": "And they're giving you information in a more subtle way so they're not kind of, you know, in your face."
+  },
+  {
+   "s": 67.14,
+   "e": 71.14,
+   "t": "And they're also sort of leveraging the existing physical environment."
+  },
+  {
+   "s": 71.4,
+   "e": 71.7,
+   "t": "That's right."
+  },
+  {
+   "s": 71.72,
+   "e": 76.06,
+   "t": "And in this case, the Japanese aesthetic, I guess, in their built environment."
+  },
+  {
+   "s": 76.06,
+   "e": 89.6,
+   "t": "But I think it's worth just mentioning right up front that one of the really fascinating things about this paper that I found so compelling is that the motivation here really is about harmonizing modern technology with traditional Japanese aesthetics."
+  },
+  {
+   "s": 90.1,
+   "e": 92.68,
+   "t": "Yeah, it's almost like a cultural preservation element to this research."
+  },
+  {
+   "s": 92.74,
+   "e": 93.0,
+   "t": "I agree."
+  },
+  {
+   "s": 93.0,
+   "e": 94.66,
+   "t": "Which is, I think, quite nice."
+  },
+  {
+   "s": 94.74,
+   "e": 95.82,
+   "t": "Yeah, it is."
+  },
+  {
+   "s": 95.94,
+   "e": 106.48,
+   "t": "And so our goal today is to try to extract some of the key insights from the study, really understand how tatami can be used for display purposes, both statically and dynamically."
+  },
+  {
+   "s": 107.02,
+   "e": 110.66,
+   "t": "So maybe we can start with just like, what is tatami?"
+  },
+  {
+   "s": 111.52,
+   "e": 115.46,
+   "t": "I think most of our listeners have probably heard of it, but maybe not everybody knows exactly what it is."
+  },
+  {
+   "s": 115.46,
+   "e": 119.34,
+   "t": "So tatami, it's a traditional Japanese flooring material."
+  },
+  {
+   "s": 119.54,
+   "e": 122.36,
+   "t": "And it's been used in Japan for over 1300 years."
+  },
+  {
+   "s": 122.36,
+   "e": 123.9,
+   "t": "So it's a very old material."
+  },
+  {
+   "s": 124.18,
+   "e": 124.42,
+   "t": "Yeah."
+  },
+  {
+   "s": 124.52,
+   "e": 128.68,
+   "t": "And it's traditionally used in what's called a washitsu, which is like a Japanese style room."
+  },
+  {
+   "s": 128.78,
+   "e": 129.02,
+   "t": "Right."
+  },
+  {
+   "s": 129.2,
+   "e": 131.86,
+   "t": "And it's known for its sort of unique properties."
+  },
+  {
+   "s": 131.94,
+   "e": 134.02,
+   "t": "So it's actually very good for thermal insulation."
+  },
+  {
+   "s": 134.54,
+   "e": 136.98,
+   "t": "So it helps regulate the temperature of a room."
+  },
+  {
+   "s": 137.18,
+   "e": 137.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 137.42,
+   "e": 139.92,
+   "t": "It can help keep the room cool in the summer and warm in the winter."
+  },
+  {
+   "s": 140.16,
+   "e": 140.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 140.68,
+   "e": 143.3,
+   "t": "And it also absorbs moisture really well."
+  },
+  {
+   "s": 143.46,
+   "e": 144.88,
+   "t": "So it's good for humidity control."
+  },
+  {
+   "s": 145.42,
+   "e": 146.24,
+   "t": "That's fascinating."
+  },
+  {
+   "s": 146.24,
+   "e": 150.34,
+   "t": "And I guess when I think of tatami, I think of like that woven mat."
+  },
+  {
+   "s": 150.52,
+   "e": 150.86,
+   "t": "That's right."
+  },
+  {
+   "s": 150.86,
+   "e": 154.8,
+   "t": "Um, but I guess there's a little bit more to it than just that."
+  },
+  {
+   "s": 154.86,
+   "e": 157.26,
+   "t": "Like how is tatami actually structured?"
+  },
+  {
+   "s": 157.66,
+   "e": 157.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 157.82,
+   "e": 159.94,
+   "t": "So tatami is actually made of three main parts."
+  },
+  {
+   "s": 160.22,
+   "e": 160.34,
+   "t": "Yeah."
+  },
+  {
+   "s": 160.38,
+   "e": 162.92,
+   "t": "You've got the tatami doko, which is the base of the mat."
+  },
+  {
+   "s": 163.08,
+   "e": 164.7,
+   "t": "And that's usually made of rice straw."
+  },
+  {
+   "s": 165.0,
+   "e": 165.4,
+   "t": "Okay."
+  },
+  {
+   "s": 165.62,
+   "e": 167.9,
+   "t": "Or sometimes you use polystyrene foam nowadays."
+  },
+  {
+   "s": 167.98,
+   "e": 168.82,
+   "t": "More of a modern version."
+  },
+  {
+   "s": 168.98,
+   "e": 169.14,
+   "t": "Yeah."
+  },
+  {
+   "s": 169.18,
+   "e": 170.28,
+   "t": "More of a modern version."
+  },
+  {
+   "s": 170.98,
+   "e": 175.16,
+   "t": "And then on top of that, you have the tatami omote, which is the surface that you see."
+  },
+  {
+   "s": 175.36,
+   "e": 176.06,
+   "t": "And you're right."
+  },
+  {
+   "s": 176.06,
+   "e": 177.52,
+   "t": "That's usually woven from igusa."
+  },
+  {
+   "s": 177.76,
+   "e": 177.98,
+   "t": "Right."
+  },
+  {
+   "s": 178.32,
+   "e": 179.68,
+   "t": "Which is a type of rush."
+  },
+  {
+   "s": 179.84,
+   "e": 180.24,
+   "t": "A rush."
+  },
+  {
+   "s": 180.42,
+   "e": 180.64,
+   "t": "Okay."
+  },
+  {
+   "s": 180.82,
+   "e": 187.06,
+   "t": "Um, and igusa is really what gives tatami that kind of distinctive smell and texture."
+  },
+  {
+   "s": 187.46,
+   "e": 187.82,
+   "t": "Right."
+  },
+  {
+   "s": 188.38,
+   "e": 188.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 188.66,
+   "e": 193.98,
+   "t": "And is it, is it always igusa for the tatami omote or are there other materials that they"
+  },
+  {
+   "s": 193.98,
+   "e": 194.46,
+   "t": "use for that?"
+  },
+  {
+   "s": 194.46,
+   "e": 199.5,
+   "t": "So traditionally it's always been igusa, but more recently they started using washi paper"
+  },
+  {
+   "s": 199.5,
+   "e": 199.96,
+   "t": "as well."
+  },
+  {
+   "s": 200.06,
+   "e": 200.3,
+   "t": "Okay."
+  },
+  {
+   "s": 201.0,
+   "e": 203.72,
+   "t": "Um, and washi paper is a type of Japanese paper."
+  },
+  {
+   "s": 203.82,
+   "e": 204.06,
+   "t": "Okay."
+  },
+  {
+   "s": 204.18,
+   "e": 207.12,
+   "t": "And it's actually more durable than igusa."
+  },
+  {
+   "s": 207.3,
+   "e": 207.52,
+   "t": "Okay."
+  },
+  {
+   "s": 207.86,
+   "e": 210.08,
+   "t": "And it also comes in a wider variety of colors."
+  },
+  {
+   "s": 210.08,
+   "e": 211.66,
+   "t": "So it gives you more options for design."
+  },
+  {
+   "s": 211.74,
+   "e": 212.04,
+   "t": "I see."
+  },
+  {
+   "s": 212.36,
+   "e": 216.26,
+   "t": "And then the final part of the tatami is the tatami berry, which is the edging."
+  },
+  {
+   "s": 216.78,
+   "e": 217.58,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 217.58,
+   "e": 219.4,
+   "t": "So that's like around the outside edge."
+  },
+  {
+   "s": 219.48,
+   "e": 219.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 219.62,
+   "e": 221.12,
+   "t": "It's the fabric that goes around the edge."
+  },
+  {
+   "s": 221.12,
+   "e": 221.5,
+   "t": "I got it."
+  },
+  {
+   "s": 221.5,
+   "e": 225.9,
+   "t": "And that can be made from cloth or leather and it just kind of helps to protect the edges"
+  },
+  {
+   "s": 225.9,
+   "e": 226.46,
+   "t": "of the map."
+  },
+  {
+   "s": 226.66,
+   "e": 230.1,
+   "t": "So the tatami berry, it's almost like a functional as well as an aesthetic."
+  },
+  {
+   "s": 230.4,
+   "e": 230.76,
+   "t": "Exactly."
+  },
+  {
+   "s": 230.96,
+   "e": 231.22,
+   "t": "Right."
+  },
+  {
+   "s": 231.38,
+   "e": 231.88,
+   "t": "Okay, cool."
+  },
+  {
+   "s": 232.14,
+   "e": 236.98,
+   "t": "And so in this research, actually, they used both igusa and washi paper tatami."
+  },
+  {
+   "s": 237.16,
+   "e": 237.6,
+   "t": "Interesting."
+  },
+  {
+   "s": 237.7,
+   "e": 240.04,
+   "t": "To explore the possibilities of both materials."
+  },
+  {
+   "s": 240.4,
+   "e": 240.6,
+   "t": "Okay."
+  },
+  {
+   "s": 240.6,
+   "e": 241.1,
+   "t": "That makes sense."
+  },
+  {
+   "s": 241.1,
+   "e": 246.46,
+   "t": "And I guess now that we kind of have like a baseline understanding of what tatami is, maybe"
+  },
+  {
+   "s": 246.46,
+   "e": 251.02,
+   "t": "we can move on to this concept of anisotropy because that's really the key to how they're actually"
+  },
+  {
+   "s": 251.02,
+   "e": 253.04,
+   "t": "able to use tatami as a display."
+  },
+  {
+   "s": 253.54,
+   "e": 253.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 253.74,
+   "e": 259.7,
+   "t": "So anisotropy basically means that a material has different properties depending on the direction"
+  },
+  {
+   "s": 259.7,
+   "e": 260.7,
+   "t": "that you look at it from."
+  },
+  {
+   "s": 260.82,
+   "e": 261.12,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 261.62,
+   "e": 267.56,
+   "t": "So in the case of tatami, the asotropy comes from the way that the igusa fibers are woven."
+  },
+  {
+   "s": 267.8,
+   "e": 268.08,
+   "t": "Okay."
+  },
+  {
+   "s": 268.38,
+   "e": 272.7,
+   "t": "So you can imagine it like if you had a bunch of tiny cylinders all lined up next to each"
+  },
+  {
+   "s": 272.7,
+   "e": 272.92,
+   "t": "other."
+  },
+  {
+   "s": 273.0,
+   "e": 273.3,
+   "t": "Okay."
+  },
+  {
+   "s": 273.3,
+   "e": 273.34,
+   "t": "Okay."
+  },
+  {
+   "s": 274.5,
+   "e": 279.08,
+   "t": "And if you shine a light on them from straight ahead, it's going to reflect a lot of light."
+  },
+  {
+   "s": 279.18,
+   "e": 279.48,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 279.64,
+   "e": 283.86,
+   "t": "But if you shine a light on them from an angle, it's going to reflect less light because some"
+  },
+  {
+   "s": 283.86,
+   "e": 285.44,
+   "t": "of the light's going to be blocked by the cylinders."
+  },
+  {
+   "s": 285.68,
+   "e": 287.66,
+   "t": "So it creates almost like a shadowing effect?"
+  },
+  {
+   "s": 287.76,
+   "e": 288.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 288.26,
+   "e": 288.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 288.44,
+   "e": 293.62,
+   "t": "And so by changing the angle of the tatami relative to the light source and the viewer's"
+  },
+  {
+   "s": 293.62,
+   "e": 297.7,
+   "t": "position, you can actually change the way that the tatami appears to the viewer."
+  },
+  {
+   "s": 297.7,
+   "e": 301.76,
+   "t": "So that's what's creating the variation in color is the shadowing and the amount of light"
+  },
+  {
+   "s": 301.76,
+   "e": 302.64,
+   "t": "that's being reflected."
+  },
+  {
+   "s": 302.64,
+   "e": 303.04,
+   "t": "Exactly."
+  },
+  {
+   "s": 303.74,
+   "e": 308.1,
+   "t": "And they actually have a really nice diagram in the paper in figure three that shows this"
+  },
+  {
+   "s": 308.1,
+   "e": 308.56,
+   "t": "visually."
+  },
+  {
+   "s": 309.18,
+   "e": 309.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 309.52,
+   "e": 314.54,
+   "t": "And so how did the researchers go about actually quantifying this change in color?"
+  },
+  {
+   "s": 314.7,
+   "e": 316.3,
+   "t": "I mean, they didn't just like eyeball it, right?"
+  },
+  {
+   "s": 316.32,
+   "e": 317.94,
+   "t": "They must've had some way of measuring it."
+  },
+  {
+   "s": 318.0,
+   "e": 318.2,
+   "t": "Right."
+  },
+  {
+   "s": 318.28,
+   "e": 321.1,
+   "t": "So they used something called the PsyLab color space."
+  },
+  {
+   "s": 321.22,
+   "e": 321.76,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 322.52,
+   "e": 325.86,
+   "t": "And it's basically a way of representing colors mathematically."
+  },
+  {
+   "s": 326.16,
+   "e": 331.64,
+   "t": "And they used a specific formula called the PsyA 2000 color difference formula, which tells"
+  },
+  {
+   "s": 331.64,
+   "e": 333.5,
+   "t": "you how different two colors are from each other."
+  },
+  {
+   "s": 333.66,
+   "e": 338.94,
+   "t": "And they chose PsyLab because it's what's called perceptually uniform, which means that"
+  },
+  {
+   "s": 338.94,
+   "e": 345.44,
+   "t": "the difference between two colors in PsyLab space corresponds to how different those colors actually look to the human eye."
+  },
+  {
+   "s": 346.1,
+   "e": 346.46,
+   "t": "Okay."
+  },
+  {
+   "s": 346.64,
+   "e": 347.86,
+   "t": "That's an important distinction."
+  },
+  {
+   "s": 347.86,
+   "e": 350.5,
+   "t": "Yeah, because some other color spaces aren't perceptually uniform."
+  },
+  {
+   "s": 350.76,
+   "e": 354.66,
+   "t": "So the difference between two colors might not actually match up to how different they look."
+  },
+  {
+   "s": 354.98,
+   "e": 359.38,
+   "t": "So that's why PsyLab is a good choice for this type of research, because they're really trying to understand"
+  },
+  {
+   "s": 359.38,
+   "e": 361.66,
+   "t": "how people perceive these color changes."
+  },
+  {
+   "s": 361.76,
+   "e": 362.0,
+   "t": "That's right."
+  },
+  {
+   "s": 362.56,
+   "e": 363.12,
+   "t": "Okay, cool."
+  },
+  {
+   "s": 363.12,
+   "e": 367.46,
+   "t": "And what kind of equipment did they use to actually make these measurements?"
+  },
+  {
+   "s": 367.98,
+   "e": 372.94,
+   "t": "So they used this piece of equipment called a goniospectrophotometric color measurement system."
+  },
+  {
+   "s": 373.18,
+   "e": 374.12,
+   "t": "Oh my goodness."
+  },
+  {
+   "s": 374.6,
+   "e": 375.32,
+   "t": "It's been a mouthful."
+  },
+  {
+   "s": 375.54,
+   "e": 375.74,
+   "t": "Okay."
+  },
+  {
+   "s": 375.9,
+   "e": 377.74,
+   "t": "So for short, what do they call that?"
+  },
+  {
+   "s": 378.08,
+   "e": 379.56,
+   "t": "They call it a GCMS 11."
+  },
+  {
+   "s": 379.64,
+   "e": 379.92,
+   "t": "Okay."
+  },
+  {
+   "s": 380.78,
+   "e": 386.78,
+   "t": "And basically it just measures the light that's reflected off of a surface with different angles."
+  },
+  {
+   "s": 386.9,
+   "e": 387.24,
+   "t": "I got it."
+  },
+  {
+   "s": 387.24,
+   "e": 392.66,
+   "t": "And they used a D65 illumination source, which is supposed to simulate natural daylight."
+  },
+  {
+   "s": 392.76,
+   "e": 393.0,
+   "t": "Right."
+  },
+  {
+   "s": 393.52,
+   "e": 401.36,
+   "t": "And so the GCMS 11 basically lets you measure something called the bidirectional reflectance distribution function,"
+  },
+  {
+   "s": 401.48,
+   "e": 402.68,
+   "t": "which is also a bit of a mouthful, but..."
+  },
+  {
+   "s": 402.68,
+   "e": 403.64,
+   "t": "We'll just call it BRDF."
+  },
+  {
+   "s": 403.7,
+   "e": 404.08,
+   "t": "How about that?"
+  },
+  {
+   "s": 404.52,
+   "e": 406.02,
+   "t": "We can call it BRDF for short."
+  },
+  {
+   "s": 406.34,
+   "e": 414.62,
+   "t": "And basically the BRDF tells you how much light is reflected off of a surface at every possible combination of incoming and outgoing angles."
+  },
+  {
+   "s": 414.62,
+   "e": 414.9,
+   "t": "Okay."
+  },
+  {
+   "s": 415.0,
+   "e": 417.9,
+   "t": "So it's like a complete map of the reflective properties of the surface."
+  },
+  {
+   "s": 418.22,
+   "e": 418.58,
+   "t": "Exactly."
+  },
+  {
+   "s": 418.8,
+   "e": 423.46,
+   "t": "And they actually show a diagram of this in figure four in the paper."
+  },
+  {
+   "s": 424.04,
+   "e": 427.0,
+   "t": "So if you're interested in seeing what that looks like visually, you can check that out."
+  },
+  {
+   "s": 427.18,
+   "e": 427.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 427.62,
+   "e": 433.44,
+   "t": "And so once they had all of this data from the GCMS 11, what did they actually do with it?"
+  },
+  {
+   "s": 433.5,
+   "e": 436.1,
+   "t": "Like how did they analyze it to understand the color changes?"
+  },
+  {
+   "s": 436.56,
+   "e": 439.04,
+   "t": "So they did a few things to pre-process the data."
+  },
+  {
+   "s": 439.04,
+   "e": 446.42,
+   "t": "First of all, they adjusted the measurements to account for the fact that the viewer's eye is usually at a fixed height."
+  },
+  {
+   "s": 447.42,
+   "e": 458.46,
+   "t": "And then they also had to deal with the fact that sometimes the L star values, which is the lightness value, could go above 100 because of the angle dependency of the Tatami's reflectivity."
+  },
+  {
+   "s": 458.66,
+   "e": 460.3,
+   "t": "So they had to adjust for that as well."
+  },
+  {
+   "s": 460.5,
+   "e": 462.38,
+   "t": "So they had to kind of clean up the data a little bit."
+  },
+  {
+   "s": 462.38,
+   "e": 462.52,
+   "t": "Yeah."
+  },
+  {
+   "s": 462.6,
+   "e": 466.04,
+   "t": "They had to do some cleaning and pre-processing to make sure that the data was accurate."
+  },
+  {
+   "s": 466.24,
+   "e": 466.46,
+   "t": "Right."
+  },
+  {
+   "s": 466.56,
+   "e": 471.14,
+   "t": "And so what were some of the key findings that they came away with from these color scale experiments?"
+  },
+  {
+   "s": 471.76,
+   "e": 479.48,
+   "t": "So one of the first things they wanted to answer was, could they even represent two distinct colors with Tatami based on its anisotropy?"
+  },
+  {
+   "s": 479.48,
+   "e": 488.34,
+   "t": "And they found that they could, under most lighting conditions, they could actually get at least two distinct colors just by changing the angle of the Tatami."
+  },
+  {
+   "s": 488.52,
+   "e": 491.02,
+   "t": "And they measured this using that color difference threshold."
+  },
+  {
+   "s": 491.08,
+   "e": 492.48,
+   "t": "So it was actual measurable difference."
+  },
+  {
+   "s": 492.7,
+   "e": 494.98,
+   "t": "So it wasn't just like, well, it kind of looks a little bit different."
+  },
+  {
+   "s": 495.04,
+   "e": 496.68,
+   "t": "It was actually measurably different."
+  },
+  {
+   "s": 496.94,
+   "e": 497.7,
+   "t": "Yeah, exactly."
+  },
+  {
+   "s": 497.72,
+   "e": 502.42,
+   "t": "And then they were also, I guess, trying to figure out what were the best conditions to maximize that color difference."
+  },
+  {
+   "s": 502.82,
+   "e": 503.26,
+   "t": "That's right."
+  },
+  {
+   "s": 503.26,
+   "e": 511.5,
+   "t": "So their second research question was all about trying to find the optimal angles for the light source and the viewer to get the biggest color difference."
+  },
+  {
+   "s": 511.78,
+   "e": 512.32,
+   "t": "And what did they find?"
+  },
+  {
+   "s": 512.62,
+   "e": 518.98,
+   "t": "So they found that the biggest color difference actually happened when the light source was at a high angle, like 75 degrees."
+  },
+  {
+   "s": 519.18,
+   "e": 519.52,
+   "t": "Okay."
+  },
+  {
+   "s": 519.76,
+   "e": 523.08,
+   "t": "And the viewer was also at a fairly high angle, like 60 degrees."
+  },
+  {
+   "s": 523.32,
+   "e": 523.8,
+   "t": "Interesting."
+  },
+  {
+   "s": 524.28,
+   "e": 527.34,
+   "t": "And when the Tatami was rotated by about a quarter turn."
+  },
+  {
+   "s": 527.68,
+   "e": 528.7,
+   "t": "So about 75 degrees."
+  },
+  {
+   "s": 529.36,
+   "e": 531.56,
+   "t": "So it sounds like there's a very specific sweet spot."
+  },
+  {
+   "s": 531.56,
+   "e": 533.42,
+   "t": "Yeah, there's definitely a sweet spot there."
+  },
+  {
+   "s": 533.56,
+   "e": 534.34,
+   "t": "In terms of the angles."
+  },
+  {
+   "s": 534.76,
+   "e": 538.66,
+   "t": "In terms of the angles to get the most dramatic color change."
+  },
+  {
+   "s": 538.8,
+   "e": 547.34,
+   "t": "And so in terms of the different components of color, like hue saturation and brightness, what was the primary driver of the color change under these ideal conditions?"
+  },
+  {
+   "s": 547.56,
+   "e": 551.0,
+   "t": "So the biggest change was actually in the L star value, which is the brightness."
+  },
+  {
+   "s": 551.3,
+   "e": 551.56,
+   "t": "Okay."
+  },
+  {
+   "s": 551.78,
+   "e": 556.02,
+   "t": "So as the Tatami rotated, it went from a bright state to a dark state."
+  },
+  {
+   "s": 556.08,
+   "e": 556.7,
+   "t": "I got it."
+  },
+  {
+   "s": 556.76,
+   "e": 559.74,
+   "t": "And that was what was creating the most noticeable color change."
+  },
+  {
+   "s": 559.74,
+   "e": 564.62,
+   "t": "And how many different discernible colors were they able to achieve under these ideal conditions?"
+  },
+  {
+   "s": 564.92,
+   "e": 570.46,
+   "t": "So under these really specific conditions, they estimated that you could get about 10 different discernible colors."
+  },
+  {
+   "s": 570.72,
+   "e": 571.02,
+   "t": "Wow."
+  },
+  {
+   "s": 571.26,
+   "e": 573.5,
+   "t": "That's actually quite a bit more than I was expecting."
+  },
+  {
+   "s": 573.78,
+   "e": 574.54,
+   "t": "Yeah, it's pretty impressive."
+  },
+  {
+   "s": 574.54,
+   "e": 581.46,
+   "t": "And they actually have a table in the paper table one that shows all the different color values that they were able to achieve."
+  },
+  {
+   "s": 581.72,
+   "e": 593.6,
+   "t": "So now that they kind of had this quantitative understanding of how Tatami could change color, I guess the next step was to actually see how they could put that into practice and make some actual displays."
+  },
+  {
+   "s": 593.6,
+   "e": 599.54,
+   "t": "And it seems like they explored two main approaches here, the static display and the dynamic display."
+  },
+  {
+   "s": 599.78,
+   "e": 604.38,
+   "t": "So maybe we can start by talking about the static display, which they call Tatami art."
+  },
+  {
+   "s": 604.68,
+   "e": 609.66,
+   "t": "So the static display is essentially using Tatami to create like a piece of art."
+  },
+  {
+   "s": 610.4,
+   "e": 615.26,
+   "t": "And they limited the color palette to four or five colors."
+  },
+  {
+   "s": 615.48,
+   "e": 615.94,
+   "t": "Okay."
+  },
+  {
+   "s": 615.98,
+   "e": 616.52,
+   "t": "Why is that?"
+  },
+  {
+   "s": 616.52,
+   "e": 626.7,
+   "t": "Well, because they realized that in real world lighting conditions, using too many colors could actually make it harder to see the color changes."
+  },
+  {
+   "s": 626.78,
+   "e": 627.56,
+   "t": "It would get too muddled."
+  },
+  {
+   "s": 627.96,
+   "e": 629.2,
+   "t": "Yeah, it would just get too muddled."
+  },
+  {
+   "s": 629.32,
+   "e": 629.56,
+   "t": "Okay."
+  },
+  {
+   "s": 629.94,
+   "e": 633.8,
+   "t": "So they decided to stick with a more limited palette to keep things clear."
+  },
+  {
+   "s": 634.06,
+   "e": 634.32,
+   "t": "Right."
+  },
+  {
+   "s": 634.42,
+   "e": 640.94,
+   "t": "And looking at the images in the paper, figures 1A and 9, it seems like they were able to create some pretty intricate design."
+  },
+  {
+   "s": 641.1,
+   "e": 641.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 641.36,
+   "e": 644.48,
+   "t": "They were able to create some really beautiful pieces."
+  },
+  {
+   "s": 644.74,
+   "e": 644.84,
+   "t": "Yeah."
+  },
+  {
+   "s": 644.84,
+   "e": 647.22,
+   "t": "And the process is actually quite involved."
+  },
+  {
+   "s": 647.32,
+   "e": 647.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 647.44,
+   "e": 648.04,
+   "t": "How does it work?"
+  },
+  {
+   "s": 648.22,
+   "e": 652.12,
+   "t": "So the first thing they do is they go to the actual location where this is going to be installed."
+  },
+  {
+   "s": 652.28,
+   "e": 652.58,
+   "t": "Okay."
+  },
+  {
+   "s": 652.74,
+   "e": 654.32,
+   "t": "And they assess the lighting conditions there."
+  },
+  {
+   "s": 654.4,
+   "e": 654.6,
+   "t": "Okay."
+  },
+  {
+   "s": 654.62,
+   "e": 655.72,
+   "t": "So it's very site-specific."
+  },
+  {
+   "s": 655.92,
+   "e": 656.72,
+   "t": "It's very site-specific."
+  },
+  {
+   "s": 656.92,
+   "e": 657.36,
+   "t": "Got it."
+  },
+  {
+   "s": 657.96,
+   "e": 659.72,
+   "t": "And then they create a design sketch."
+  },
+  {
+   "s": 659.78,
+   "e": 659.92,
+   "t": "Yep."
+  },
+  {
+   "s": 660.12,
+   "e": 663.12,
+   "t": "And they make templates based on the dimensions of the space."
+  },
+  {
+   "s": 663.2,
+   "e": 663.44,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 663.64,
+   "e": 666.08,
+   "t": "And then they start preparing the Tatami components."
+  },
+  {
+   "s": 666.5,
+   "e": 669.16,
+   "t": "So they cut the Tatami doco, which is the base."
+  },
+  {
+   "s": 669.16,
+   "e": 669.5,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 669.5,
+   "e": 672.8,
+   "t": "And they also cut and fold the Tatami omote, which is the surface."
+  },
+  {
+   "s": 673.48,
+   "e": 674.8,
+   "t": "And is this all done by hand?"
+  },
+  {
+   "s": 674.84,
+   "e": 675.64,
+   "t": "It's all done by hand."
+  },
+  {
+   "s": 675.72,
+   "e": 675.84,
+   "t": "Yeah."
+  },
+  {
+   "s": 675.84,
+   "e": 675.96,
+   "t": "Yeah."
+  },
+  {
+   "s": 675.96,
+   "e": 676.92,
+   "t": "It's very much a craft."
+  },
+  {
+   "s": 677.04,
+   "e": 677.42,
+   "t": "Wow."
+  },
+  {
+   "s": 677.42,
+   "e": 681.08,
+   "t": "And they actually show some pictures of the process in figure eight."
+  },
+  {
+   "s": 681.24,
+   "e": 681.6,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 682.04,
+   "e": 685.62,
+   "t": "So you can see they're actually using an iron to fold the Tatami omote."
+  },
+  {
+   "s": 686.04,
+   "e": 686.9,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 686.9,
+   "e": 687.1,
+   "t": "Yeah."
+  },
+  {
+   "s": 687.1,
+   "e": 687.88,
+   "t": "That's really interesting."
+  },
+  {
+   "s": 688.12,
+   "e": 688.86,
+   "t": "So precise."
+  },
+  {
+   "s": 689.02,
+   "e": 689.28,
+   "t": "Yeah."
+  },
+  {
+   "s": 689.28,
+   "e": 695.54,
+   "t": "And then once they have all the components prepared, how do they actually assemble the final artwork?"
+  },
+  {
+   "s": 695.94,
+   "e": 698.64,
+   "t": "So they glue the Tatami omote to the Tatami doco."
+  },
+  {
+   "s": 698.78,
+   "e": 698.94,
+   "t": "Okay."
+  },
+  {
+   "s": 699.04,
+   "e": 702.02,
+   "t": "And then they fit all of the pieces together in the exhibition space."
+  },
+  {
+   "s": 702.14,
+   "e": 708.28,
+   "t": "And so these static displays, are they meant to be walked on or are they more like purely for visual appreciation?"
+  },
+  {
+   "s": 708.8,
+   "e": 710.6,
+   "t": "So they're actually designed to be walked on."
+  },
+  {
+   "s": 710.62,
+   "e": 710.82,
+   "t": "Okay."
+  },
+  {
+   "s": 710.92,
+   "e": 711.56,
+   "t": "Which is really cool."
+  },
+  {
+   "s": 711.56,
+   "e": 713.52,
+   "t": "So it's functional as well as artistic."
+  },
+  {
+   "s": 713.66,
+   "e": 714.02,
+   "t": "Exactly."
+  },
+  {
+   "s": 714.28,
+   "e": 714.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 714.52,
+   "e": 714.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 715.48,
+   "e": 717.9,
+   "t": "And they talk about how they created a few different pieces."
+  },
+  {
+   "s": 719.08,
+   "e": 723.68,
+   "t": "One was a crane that had 301 parts and took a year to make."
+  },
+  {
+   "s": 723.76,
+   "e": 724.14,
+   "t": "Wow."
+  },
+  {
+   "s": 724.14,
+   "e": 728.44,
+   "t": "And another one was a dragon with 201 parts that took six months to make."
+  },
+  {
+   "s": 728.52,
+   "e": 730.08,
+   "t": "So these are really labor-intensive."
+  },
+  {
+   "s": 730.16,
+   "e": 731.28,
+   "t": "They're very labor-intensive."
+  },
+  {
+   "s": 731.36,
+   "e": 731.5,
+   "t": "Yeah."
+  },
+  {
+   "s": 731.56,
+   "e": 732.92,
+   "t": "But the results are really impressive."
+  },
+  {
+   "s": 733.2,
+   "e": 733.52,
+   "t": "They are."
+  },
+  {
+   "s": 733.66,
+   "e": 733.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 733.8,
+   "e": 734.2,
+   "t": "They're stunning."
+  },
+  {
+   "s": 734.48,
+   "e": 734.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 734.88,
+   "e": 739.66,
+   "t": "And I think figure 10 really shows how the color changes depending on your viewpoint."
+  },
+  {
+   "s": 739.66,
+   "e": 740.02,
+   "t": "Yeah."
+  },
+  {
+   "s": 740.02,
+   "e": 744.74,
+   "t": "You can really see how the different angles of the Tatami create different shadows."
+  },
+  {
+   "s": 744.94,
+   "e": 745.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 745.32,
+   "e": 747.12,
+   "t": "And that changes the way that the colors look."
+  },
+  {
+   "s": 747.26,
+   "e": 747.5,
+   "t": "Yeah."
+  },
+  {
+   "s": 747.68,
+   "e": 750.5,
+   "t": "And it's not just like a subtle difference."
+  },
+  {
+   "s": 750.5,
+   "e": 752.38,
+   "t": "It's actually quite noticeable."
+  },
+  {
+   "s": 752.54,
+   "e": 752.64,
+   "t": "Yeah."
+  },
+  {
+   "s": 752.64,
+   "e": 753.32,
+   "t": "It's very dramatic."
+  },
+  {
+   "s": 753.54,
+   "e": 753.84,
+   "t": "Yeah."
+  },
+  {
+   "s": 754.6,
+   "e": 759.96,
+   "t": "And so they created these artworks for exhibitions, but they also, I guess, envision them being used"
+  },
+  {
+   "s": 759.96,
+   "e": 761.52,
+   "t": "in residential spaces as well."
+  },
+  {
+   "s": 761.64,
+   "e": 761.84,
+   "t": "Right."
+  },
+  {
+   "s": 761.92,
+   "e": 764.82,
+   "t": "So imagine people having these Tatami art pieces in their homes."
+  },
+  {
+   "s": 764.82,
+   "e": 765.22,
+   "t": "Mm."
+  },
+  {
+   "s": 766.02,
+   "e": 770.54,
+   "t": "And the color variations would change throughout the day as the light changes."
+  },
+  {
+   "s": 770.92,
+   "e": 772.62,
+   "t": "So it would be like a living piece of art almost."
+  },
+  {
+   "s": 772.72,
+   "e": 772.98,
+   "t": "Exactly."
+  },
+  {
+   "s": 773.14,
+   "e": 773.54,
+   "t": "Wow."
+  },
+  {
+   "s": 773.86,
+   "e": 774.5,
+   "t": "That's really cool."
+  },
+  {
+   "s": 774.58,
+   "e": 774.74,
+   "t": "Okay."
+  },
+  {
+   "s": 774.8,
+   "e": 776.06,
+   "t": "So that's the static display."
+  },
+  {
+   "s": 777.12,
+   "e": 780.86,
+   "t": "And then they also developed a dynamic display, which is a little bit more complicated,"
+  },
+  {
+   "s": 781.06,
+   "e": 782.24,
+   "t": "but also really fascinating."
+  },
+  {
+   "s": 782.86,
+   "e": 785.22,
+   "t": "So how does the dynamic display work?"
+  },
+  {
+   "s": 785.36,
+   "e": 790.3,
+   "t": "So the dynamic display uses rotating circular pieces of Tatami."
+  },
+  {
+   "s": 790.52,
+   "e": 790.8,
+   "t": "Okay."
+  },
+  {
+   "s": 791.02,
+   "e": 791.68,
+   "t": "As pixels."
+  },
+  {
+   "s": 792.06,
+   "e": 792.42,
+   "t": "Oh, I see."
+  },
+  {
+   "s": 792.42,
+   "e": 795.02,
+   "t": "So each pixel is like a little mini Tatami mat that can rotate."
+  },
+  {
+   "s": 795.24,
+   "e": 795.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 795.5,
+   "e": 795.74,
+   "t": "Okay."
+  },
+  {
+   "s": 795.74,
+   "e": 799.86,
+   "t": "And they actually mentioned that these circular pieces are easy to produce because they can"
+  },
+  {
+   "s": 799.86,
+   "e": 802.76,
+   "t": "just use the scraps from making regular Tatami mats."
+  },
+  {
+   "s": 802.9,
+   "e": 804.78,
+   "t": "Oh, that's a nice little sustainability angle."
+  },
+  {
+   "s": 804.9,
+   "e": 805.02,
+   "t": "Yeah."
+  },
+  {
+   "s": 805.08,
+   "e": 806.16,
+   "t": "It's a good way to reduce waste."
+  },
+  {
+   "s": 806.4,
+   "e": 806.6,
+   "t": "Right."
+  },
+  {
+   "s": 806.76,
+   "e": 809.52,
+   "t": "And how do they actually control the rotation of these pixels?"
+  },
+  {
+   "s": 809.88,
+   "e": 813.0,
+   "t": "So they have a whole software and hardware system that they developed."
+  },
+  {
+   "s": 813.22,
+   "e": 813.44,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 813.62,
+   "e": 815.74,
+   "t": "So on the software side, they're using processing."
+  },
+  {
+   "s": 816.54,
+   "e": 816.8,
+   "t": "Okay."
+  },
+  {
+   "s": 817.02,
+   "e": 819.24,
+   "t": "Which is a programming language for visual arts."
+  },
+  {
+   "s": 819.34,
+   "e": 819.52,
+   "t": "Right."
+  },
+  {
+   "s": 819.52,
+   "e": 823.2,
+   "t": "And basically, the software lets you draw an image."
+  },
+  {
+   "s": 823.42,
+   "e": 823.7,
+   "t": "Okay."
+  },
+  {
+   "s": 823.94,
+   "e": 827.92,
+   "t": "And then you can assign different colors to different rotation angles of the Tatami pixels."
+  },
+  {
+   "s": 828.32,
+   "e": 831.62,
+   "t": "So like you could say, okay, zero degrees is going to be red, 30 degrees is going to"
+  },
+  {
+   "s": 831.62,
+   "e": 832.54,
+   "t": "be blue, and so on."
+  },
+  {
+   "s": 832.54,
+   "e": 832.94,
+   "t": "Exactly."
+  },
+  {
+   "s": 833.04,
+   "e": 833.4,
+   "t": "Got it."
+  },
+  {
+   "s": 833.56,
+   "e": 835.56,
+   "t": "And they're using four different rotation angles."
+  },
+  {
+   "s": 835.72,
+   "e": 836.06,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 836.32,
+   "e": 837.7,
+   "t": "30, 60, and 90 degrees."
+  },
+  {
+   "s": 837.92,
+   "e": 838.2,
+   "t": "Okay."
+  },
+  {
+   "s": 838.24,
+   "e": 839.14,
+   "t": "So four different colors."
+  },
+  {
+   "s": 839.34,
+   "e": 840.28,
+   "t": "Four different colors, yeah."
+  },
+  {
+   "s": 840.42,
+   "e": 843.92,
+   "t": "And then the software sends the angle data to the hardware."
+  },
+  {
+   "s": 844.18,
+   "e": 844.58,
+   "t": "That's right."
+  },
+  {
+   "s": 844.58,
+   "e": 849.04,
+   "t": "So on the hardware side, they're using an Arduino Uno 4 microcontroller."
+  },
+  {
+   "s": 849.26,
+   "e": 849.54,
+   "t": "Okay."
+  },
+  {
+   "s": 849.66,
+   "e": 852.22,
+   "t": "Which is a very common microcontroller for these types of projects."
+  },
+  {
+   "s": 852.34,
+   "e": 852.48,
+   "t": "Right."
+  },
+  {
+   "s": 852.7,
+   "e": 856.48,
+   "t": "And they're using servo motors to control the rotation of the Tatami pixels."
+  },
+  {
+   "s": 856.76,
+   "e": 858.96,
+   "t": "So each pixel has its own servo motor."
+  },
+  {
+   "s": 859.1,
+   "e": 859.42,
+   "t": "Exactly."
+  },
+  {
+   "s": 859.56,
+   "e": 859.7,
+   "t": "Oh."
+  },
+  {
+   "s": 859.82,
+   "e": 861.8,
+   "t": "And the whole display is made up of modules."
+  },
+  {
+   "s": 862.0,
+   "e": 862.3,
+   "t": "Okay."
+  },
+  {
+   "s": 862.5,
+   "e": 864.46,
+   "t": "So each module has 16 pixels."
+  },
+  {
+   "s": 864.6,
+   "e": 864.9,
+   "t": "Okay."
+  },
+  {
+   "s": 865.12,
+   "e": 867.32,
+   "t": "And they built a display that had 16 modules."
+  },
+  {
+   "s": 867.54,
+   "e": 869.42,
+   "t": "So 256 pixels in total."
+  },
+  {
+   "s": 869.54,
+   "e": 869.84,
+   "t": "Okay."
+  },
+  {
+   "s": 869.84,
+   "e": 873.22,
+   "t": "And it was about a meter by a meter in size."
+  },
+  {
+   "s": 873.7,
+   "e": 874.1,
+   "t": "Okay."
+  },
+  {
+   "s": 874.24,
+   "e": 876.44,
+   "t": "And how did they choose the height of the display?"
+  },
+  {
+   "s": 876.6,
+   "e": 878.2,
+   "t": "Was there any particular reason for that?"
+  },
+  {
+   "s": 878.58,
+   "e": 878.72,
+   "t": "Yeah."
+  },
+  {
+   "s": 878.76,
+   "e": 883.16,
+   "t": "So they actually designed the height to be compatible with traditional Japanese room dimensions."
+  },
+  {
+   "s": 883.36,
+   "e": 883.96,
+   "t": "Oh, that's interesting."
+  },
+  {
+   "s": 884.04,
+   "e": 886.96,
+   "t": "So they really wanted it to fit in seamlessly with the existing architecture."
+  },
+  {
+   "s": 887.2,
+   "e": 887.5,
+   "t": "Exactly."
+  },
+  {
+   "s": 887.78,
+   "e": 887.96,
+   "t": "Yeah."
+  },
+  {
+   "s": 888.12,
+   "e": 888.82,
+   "t": "That's a nice touch."
+  },
+  {
+   "s": 888.92,
+   "e": 889.08,
+   "t": "Okay."
+  },
+  {
+   "s": 889.26,
+   "e": 889.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 889.46,
+   "e": 895.22,
+   "t": "And so they have 256 servo motors, all needing to be controlled very precisely."
+  },
+  {
+   "s": 895.5,
+   "e": 896.96,
+   "t": "How did they manage to do that?"
+  },
+  {
+   "s": 896.96,
+   "e": 900.54,
+   "t": "So they use these things called PWM output drivers."
+  },
+  {
+   "s": 900.78,
+   "e": 901.1,
+   "t": "Okay."
+  },
+  {
+   "s": 901.68,
+   "e": 906.5,
+   "t": "Which are basically chips that can control multiple servo motors at the same time."
+  },
+  {
+   "s": 906.82,
+   "e": 907.12,
+   "t": "Okay."
+  },
+  {
+   "s": 907.24,
+   "e": 913.38,
+   "t": "And they use a communication protocol called I2C to communicate between the Arduino and the PWM drivers."
+  },
+  {
+   "s": 913.6,
+   "e": 913.86,
+   "t": "Right."
+  },
+  {
+   "s": 913.98,
+   "e": 916.82,
+   "t": "And so PWM stands for pulse width modulation."
+  },
+  {
+   "s": 917.08,
+   "e": 917.5,
+   "t": "That's right."
+  },
+  {
+   "s": 917.7,
+   "e": 922.1,
+   "t": "And that's basically a way of controlling the amount of power that's being sent to the motors."
+  },
+  {
+   "s": 922.28,
+   "e": 922.64,
+   "t": "Exactly."
+  },
+  {
+   "s": 922.76,
+   "e": 926.34,
+   "t": "So they can control the speed and the position of the motors very accurately."
+  },
+  {
+   "s": 926.34,
+   "e": 926.96,
+   "t": "That's right."
+  },
+  {
+   "s": 927.34,
+   "e": 927.62,
+   "t": "Okay."
+  },
+  {
+   "s": 927.72,
+   "e": 928.26,
+   "t": "That makes sense."
+  },
+  {
+   "s": 928.34,
+   "e": 932.54,
+   "t": "And so what kind of things were they able to display on this dynamic display?"
+  },
+  {
+   "s": 932.88,
+   "e": 937.8,
+   "t": "So they were able to display simple images like animals and plants and characters."
+  },
+  {
+   "s": 937.94,
+   "e": 938.26,
+   "t": "Okay."
+  },
+  {
+   "s": 938.46,
+   "e": 940.74,
+   "t": "And they also show that they could create gradient effects."
+  },
+  {
+   "s": 940.92,
+   "e": 941.36,
+   "t": "Oh, cool."
+  },
+  {
+   "s": 941.44,
+   "e": 943.4,
+   "t": "So like smooth transitions between colors."
+  },
+  {
+   "s": 943.52,
+   "e": 944.08,
+   "t": "Yeah, exactly."
+  },
+  {
+   "s": 944.24,
+   "e": 947.36,
+   "t": "And they had a drawing speed of about 10 frames per second."
+  },
+  {
+   "s": 947.56,
+   "e": 947.82,
+   "t": "Okay."
+  },
+  {
+   "s": 947.92,
+   "e": 949.4,
+   "t": "Not quite video speed, but..."
+  },
+  {
+   "s": 949.4,
+   "e": 951.94,
+   "t": "Not quite video speed, but still pretty good for a display like this."
+  },
+  {
+   "s": 952.28,
+   "e": 952.56,
+   "t": "Yeah."
+  },
+  {
+   "s": 952.56,
+   "e": 957.84,
+   "t": "I mean, given the fact that it's literally rotating physical objects, it's actually quite impressive."
+  },
+  {
+   "s": 958.34,
+   "e": 959.34,
+   "t": "Yeah, I think so."
+  },
+  {
+   "s": 959.78,
+   "e": 961.8,
+   "t": "And I guess it would be pretty quiet too."
+  },
+  {
+   "s": 961.92,
+   "e": 964.18,
+   "t": "I mean, the servo motors don't make a ton of noise."
+  },
+  {
+   "s": 964.46,
+   "e": 966.74,
+   "t": "Yeah, it would be a lot quieter than a traditional display."
+  },
+  {
+   "s": 966.9,
+   "e": 967.16,
+   "t": "Right."
+  },
+  {
+   "s": 967.26,
+   "e": 967.96,
+   "t": "That's a good point."
+  },
+  {
+   "s": 968.02,
+   "e": 969.62,
+   "t": "And so they built these displays."
+  },
+  {
+   "s": 969.94,
+   "e": 975.0,
+   "t": "They obviously tested them in the lab, but they also took them out into the real world and did some public exhibitions."
+  },
+  {
+   "s": 975.3,
+   "e": 975.6,
+   "t": "That's right."
+  },
+  {
+   "s": 975.66,
+   "e": 977.64,
+   "t": "They had exhibitions in Kyoto and Nagoya."
+  },
+  {
+   "s": 977.98,
+   "e": 978.32,
+   "t": "Okay."
+  },
+  {
+   "s": 978.32,
+   "e": 981.2,
+   "t": "And how did people react to the displays?"
+  },
+  {
+   "s": 981.72,
+   "e": 983.36,
+   "t": "So people seemed to really like them."
+  },
+  {
+   "s": 983.66,
+   "e": 984.08,
+   "t": "That's good."
+  },
+  {
+   "s": 984.58,
+   "e": 987.4,
+   "t": "They were especially impressed by the static display."
+  },
+  {
+   "s": 987.78,
+   "e": 988.14,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 988.28,
+   "e": 988.86,
+   "t": "Why is that?"
+  },
+  {
+   "s": 989.6,
+   "e": 994.88,
+   "t": "Well, I think because it was so unique being able to walk on a piece of art."
+  },
+  {
+   "s": 997.06,
+   "e": 1000.88,
+   "t": "And they also really liked how the colors change depending on your viewpoint."
+  },
+  {
+   "s": 1001.1,
+   "e": 1001.24,
+   "t": "Yeah."
+  },
+  {
+   "s": 1001.34,
+   "e": 1004.5,
+   "t": "And they actually have a picture of this in the paper figure 14A."
+  },
+  {
+   "s": 1004.5,
+   "e": 1009.26,
+   "t": "It shows a bunch of people kind of walking around the display and looking at it from different angles."
+  },
+  {
+   "s": 1009.82,
+   "e": 1015.58,
+   "t": "And you can see that some people are seeing the tatami as a lighter color and some people are seeing it as a darker color."
+  },
+  {
+   "s": 1015.84,
+   "e": 1016.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 1016.2,
+   "e": 1016.9,
+   "t": "That's really cool."
+  },
+  {
+   "s": 1016.98,
+   "e": 1018.6,
+   "t": "And what about the dynamic display?"
+  },
+  {
+   "s": 1018.66,
+   "e": 1019.82,
+   "t": "How did people react to that?"
+  },
+  {
+   "s": 1020.32,
+   "e": 1022.32,
+   "t": "So people like that one too."
+  },
+  {
+   "s": 1022.54,
+   "e": 1022.88,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 1022.88,
+   "e": 1029.42,
+   "t": "I think they were really intrigued by the combination of technology and traditional culture."
+  },
+  {
+   "s": 1030.36,
+   "e": 1032.88,
+   "t": "And the display worked really well."
+  },
+  {
+   "s": 1032.96,
+   "e": 1035.84,
+   "t": "It operated without any problems during the exhibition."
+  },
+  {
+   "s": 1036.24,
+   "e": 1037.08,
+   "t": "That's always good."
+  },
+  {
+   "s": 1037.2,
+   "e": 1037.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 1037.42,
+   "e": 1040.02,
+   "t": "It's always good when your technology works as expected."
+  },
+  {
+   "s": 1040.28,
+   "e": 1040.9,
+   "t": "Yeah, for sure."
+  },
+  {
+   "s": 1040.9,
+   "e": 1045.0,
+   "t": "And they had about 1,800 visitors to the exhibition."
+  },
+  {
+   "s": 1045.14,
+   "e": 1045.48,
+   "t": "Wow."
+  },
+  {
+   "s": 1045.56,
+   "e": 1046.74,
+   "t": "That's a lot of people."
+  },
+  {
+   "s": 1046.86,
+   "e": 1047.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 1047.2,
+   "e": 1048.86,
+   "t": "And they collected feedback from the visitors."
+  },
+  {
+   "s": 1049.12,
+   "e": 1049.82,
+   "t": "Oh, nice."
+  },
+  {
+   "s": 1050.02,
+   "e": 1056.32,
+   "t": "And a lot of the comments were about how fresh and interesting it was to see tatami being used in this way."
+  },
+  {
+   "s": 1056.38,
+   "e": 1057.08,
+   "t": "Yeah, I can imagine."
+  },
+  {
+   "s": 1057.18,
+   "e": 1059.24,
+   "t": "And how it created a new value for tatami."
+  },
+  {
+   "s": 1059.36,
+   "e": 1059.66,
+   "t": "Right."
+  },
+  {
+   "s": 1060.14,
+   "e": 1065.52,
+   "t": "And people also commented on how well the displays fit in with the Japanese-style room environments."
+  },
+  {
+   "s": 1065.64,
+   "e": 1065.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 1066.16,
+   "e": 1066.82,
+   "t": "That makes sense."
+  },
+  {
+   "s": 1066.82,
+   "e": 1067.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 1067.22,
+   "e": 1067.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 1067.48,
+   "e": 1071.76,
+   "t": "And I think that really gets to the heart of what the researchers were trying to achieve here, right?"
+  },
+  {
+   "s": 1071.82,
+   "e": 1074.26,
+   "t": "This idea of harmonizing technology with tradition."
+  },
+  {
+   "s": 1074.36,
+   "e": 1074.76,
+   "t": "That's right."
+  },
+  {
+   "s": 1074.84,
+   "e": 1075.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 1075.12,
+   "e": 1076.38,
+   "t": "I think they really succeeded in that."
+  },
+  {
+   "s": 1076.72,
+   "e": 1077.46,
+   "t": "Yeah, they did."
+  },
+  {
+   "s": 1077.64,
+   "e": 1084.84,
+   "t": "And so now that they've kind of demonstrated the feasibility of these displays, I guess the next question is where do they go from here?"
+  },
+  {
+   "s": 1084.94,
+   "e": 1087.7,
+   "t": "Like what are some of the future directions for this research?"
+  },
+  {
+   "s": 1088.12,
+   "e": 1091.46,
+   "t": "So one of the things they talked about was the cultural significance of this work."
+  },
+  {
+   "s": 1091.46,
+   "e": 1092.12,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 1092.12,
+   "e": 1098.12,
+   "t": "So the demand for traditional tatami has actually been declining in recent years."
+  },
+  {
+   "s": 1098.2,
+   "e": 1098.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 1098.44,
+   "e": 1099.08,
+   "t": "Why is that?"
+  },
+  {
+   "s": 1099.56,
+   "e": 1105.06,
+   "t": "Well, I think it's because modern housing in Japan tends to be more Western-style."
+  },
+  {
+   "s": 1105.14,
+   "e": 1105.4,
+   "t": "Right."
+  },
+  {
+   "s": 1105.64,
+   "e": 1107.98,
+   "t": "So there's just less of a need for tatami."
+  },
+  {
+   "s": 1108.14,
+   "e": 1108.44,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 1108.44,
+   "e": 1119.04,
+   "t": "But the researchers believe that by finding new applications for tatami, like in display technology, they can help to revitalize interest in this traditional material."
+  },
+  {
+   "s": 1119.14,
+   "e": 1119.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 1119.4,
+   "e": 1120.58,
+   "t": "That's a really noble goal."
+  },
+  {
+   "s": 1120.72,
+   "e": 1121.36,
+   "t": "Yeah, I think so."
+  },
+  {
+   "s": 1121.36,
+   "e": 1124.14,
+   "t": "And it's not just about preserving the material itself, right?"
+  },
+  {
+   "s": 1124.16,
+   "e": 1126.7,
+   "t": "It's about preserving the craft and the culture that goes along with it."
+  },
+  {
+   "s": 1127.16,
+   "e": 1127.34,
+   "t": "Yeah."
+  },
+  {
+   "s": 1127.46,
+   "e": 1129.1,
+   "t": "Yeah, it's about keeping those traditions alive."
+  },
+  {
+   "s": 1129.18,
+   "e": 1129.4,
+   "t": "Right."
+  },
+  {
+   "s": 1129.58,
+   "e": 1133.84,
+   "t": "And they also talked about the sustainability and the robustness of the displays."
+  },
+  {
+   "s": 1134.06,
+   "e": 1141.66,
+   "t": "Yeah, so the static display, because it's made of natural Agusa, it will actually change color over time due to exposure to sunlight."
+  },
+  {
+   "s": 1141.92,
+   "e": 1142.24,
+   "t": "Oh."
+  },
+  {
+   "s": 1142.92,
+   "e": 1144.8,
+   "t": "But the researchers see that as a positive thing."
+  },
+  {
+   "s": 1145.02,
+   "e": 1145.72,
+   "t": "How so?"
+  },
+  {
+   "s": 1145.96,
+   "e": 1147.74,
+   "t": "Well, they view it as a form of living art."
+  },
+  {
+   "s": 1147.76,
+   "e": 1148.04,
+   "t": "I guess."
+  },
+  {
+   "s": 1148.04,
+   "e": 1150.46,
+   "t": "So the display is constantly evolving and changing."
+  },
+  {
+   "s": 1150.46,
+   "e": 1150.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 1151.36,
+   "e": 1152.7,
+   "t": "That's a really interesting perspective."
+  },
+  {
+   "s": 1153.04,
+   "e": 1153.28,
+   "t": "Yeah."
+  },
+  {
+   "s": 1153.48,
+   "e": 1155.6,
+   "t": "I think it's a very Japanese way of looking at things."
+  },
+  {
+   "s": 1155.98,
+   "e": 1156.88,
+   "t": "Yeah, it is."
+  },
+  {
+   "s": 1157.02,
+   "e": 1158.9,
+   "t": "And what about the dynamic display?"
+  },
+  {
+   "s": 1159.02,
+   "e": 1161.32,
+   "t": "Is that also subject to color changes over time?"
+  },
+  {
+   "s": 1161.58,
+   "e": 1168.22,
+   "t": "So the dynamic display is made of washi paper tatami, which is actually more resistant to color changes."
+  },
+  {
+   "s": 1168.44,
+   "e": 1168.92,
+   "t": "Okay, good."
+  },
+  {
+   "s": 1168.92,
+   "e": 1172.54,
+   "t": "And it also has the advantage of being able to update the content instantly."
+  },
+  {
+   "s": 1173.16,
+   "e": 1173.18,
+   "t": "Right."
+  },
+  {
+   "s": 1173.32,
+   "e": 1175.36,
+   "t": "Because the pixels can just rotate to different positions."
+  },
+  {
+   "s": 1175.58,
+   "e": 1175.84,
+   "t": "Yeah."
+  },
+  {
+   "s": 1176.0,
+   "e": 1176.98,
+   "t": "And it's also modular."
+  },
+  {
+   "s": 1177.14,
+   "e": 1179.66,
+   "t": "So you can easily replace individual pixels if they break."
+  },
+  {
+   "s": 1179.78,
+   "e": 1180.18,
+   "t": "That's right."
+  },
+  {
+   "s": 1180.4,
+   "e": 1181.38,
+   "t": "Which is nice for maintenance."
+  },
+  {
+   "s": 1181.66,
+   "e": 1181.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 1182.04,
+   "e": 1183.34,
+   "t": "Makes it a lot easier to maintain."
+  },
+  {
+   "s": 1183.34,
+   "e": 1187.08,
+   "t": "And so in terms of robustness, how did the two displays compare?"
+  },
+  {
+   "s": 1187.58,
+   "e": 1192.2,
+   "t": "So the static display is obviously very robust because it's designed to be walked on."
+  },
+  {
+   "s": 1192.84,
+   "e": 1197.34,
+   "t": "But the dynamic display in its current form is not walkable."
+  },
+  {
+   "s": 1197.8,
+   "e": 1198.32,
+   "t": "Okay."
+  },
+  {
+   "s": 1198.4,
+   "e": 1200.68,
+   "t": "Did they do any testing to see how much weight it could hold?"
+  },
+  {
+   "s": 1200.68,
+   "e": 1202.64,
+   "t": "Yeah, they did some load-bearing tests."
+  },
+  {
+   "s": 1202.86,
+   "e": 1207.44,
+   "t": "And they found that the motors started to struggle at around three newtons of force."
+  },
+  {
+   "s": 1207.62,
+   "e": 1208.96,
+   "t": "Okay, so not very much."
+  },
+  {
+   "s": 1209.1,
+   "e": 1209.84,
+   "t": "Not very much."
+  },
+  {
+   "s": 1209.96,
+   "e": 1210.14,
+   "t": "Yeah."
+  },
+  {
+   "s": 1210.32,
+   "e": 1213.1,
+   "t": "And if the weight was off-center, the display would tilt."
+  },
+  {
+   "s": 1213.7,
+   "e": 1216.6,
+   "t": "So it's definitely not ready for prime time in terms of being walked on?"
+  },
+  {
+   "s": 1216.64,
+   "e": 1217.34,
+   "t": "Not yet."
+  },
+  {
+   "s": 1217.6,
+   "e": 1219.76,
+   "t": "But the researchers are aware of this limitation."
+  },
+  {
+   "s": 1219.84,
+   "e": 1219.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 1220.44,
+   "e": 1223.88,
+   "t": "And they're planning to redesign the display to make it more robust."
+  },
+  {
+   "s": 1223.88,
+   "e": 1229.96,
+   "t": "And they even mentioned this really interesting idea of having the tatami rotate around a person."
+  },
+  {
+   "s": 1229.96,
+   "e": 1231.2,
+   "t": "Yeah, that would be really cool."
+  },
+  {
+   "s": 1231.42,
+   "e": 1232.54,
+   "t": "Yeah, that would be amazing."
+  },
+  {
+   "s": 1232.56,
+   "e": 1234.16,
+   "t": "It'd be like a very interactive experience."
+  },
+  {
+   "s": 1234.38,
+   "e": 1236.72,
+   "t": "Yeah, you could have the display respond to your movements."
+  },
+  {
+   "s": 1236.84,
+   "e": 1237.18,
+   "t": "Exactly."
+  },
+  {
+   "s": 1237.5,
+   "e": 1237.82,
+   "t": "Wow."
+  },
+  {
+   "s": 1238.06,
+   "e": 1238.36,
+   "t": "Okay."
+  },
+  {
+   "s": 1239.0,
+   "e": 1241.58,
+   "t": "So lots of potential there for future development."
+  },
+  {
+   "s": 1241.72,
+   "e": 1245.44,
+   "t": "And they also talked about this idea of processing real objects."
+  },
+  {
+   "s": 1245.9,
+   "e": 1250.6,
+   "t": "Yeah, so in their initial research, they only focus on one type of washi paper, tatami."
+  },
+  {
+   "s": 1250.6,
+   "e": 1255.94,
+   "t": "But they want to expand that to include agusa and other types of tatami."
+  },
+  {
+   "s": 1255.94,
+   "e": 1260.52,
+   "t": "And they're also interested in exploring different surface processing techniques."
+  },
+  {
+   "s": 1260.52,
+   "e": 1261.72,
+   "t": "To enhance the anisotropy."
+  },
+  {
+   "s": 1261.86,
+   "e": 1263.82,
+   "t": "Yeah, to see if they can enhance the anisotropy."
+  },
+  {
+   "s": 1264.14,
+   "e": 1264.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 1264.4,
+   "e": 1266.74,
+   "t": "Maybe even create new types of color changes."
+  },
+  {
+   "s": 1266.94,
+   "e": 1270.34,
+   "t": "But they caution that any modification should be done carefully."
+  },
+  {
+   "s": 1270.54,
+   "e": 1270.9,
+   "t": "That's right."
+  },
+  {
+   "s": 1271.16,
+   "e": 1272.88,
+   "t": "To preserve the essence of tatami."
+  },
+  {
+   "s": 1273.28,
+   "e": 1273.72,
+   "t": "Exactly."
+  },
+  {
+   "s": 1273.88,
+   "e": 1275.78,
+   "t": "Because they don't want to lose that traditional feel."
+  },
+  {
+   "s": 1275.78,
+   "e": 1276.1,
+   "t": "Right."
+  },
+  {
+   "s": 1276.26,
+   "e": 1281.96,
+   "t": "And they also mention the possibility of expanding their research to other anisotropic materials."
+  },
+  {
+   "s": 1282.08,
+   "e": 1283.32,
+   "t": "Yeah, like wood and metal."
+  },
+  {
+   "s": 1283.32,
+   "e": 1284.32,
+   "t": "Oh, interesting."
+  },
+  {
+   "s": 1284.48,
+   "e": 1288.74,
+   "t": "So there's a lot of potential there for exploring different materials and different types of displays."
+  },
+  {
+   "s": 1289.0,
+   "e": 1289.6,
+   "t": "Yeah, definitely."
+  },
+  {
+   "s": 1289.9,
+   "e": 1296.04,
+   "t": "And another area for future research that they talked about was developing a more sophisticated design tool."
+  },
+  {
+   "s": 1296.44,
+   "e": 1301.78,
+   "t": "So right now, their tool is really only focused on controlling the brightness of the display."
+  },
+  {
+   "s": 1302.02,
+   "e": 1302.42,
+   "t": "That's right."
+  },
+  {
+   "s": 1302.56,
+   "e": 1306.82,
+   "t": "But they want to develop a tool that can also control the hue and saturation."
+  },
+  {
+   "s": 1307.14,
+   "e": 1309.02,
+   "t": "Yeah, so they can create a wider range of colors."
+  },
+  {
+   "s": 1309.02,
+   "e": 1309.3,
+   "t": "Right."
+  },
+  {
+   "s": 1309.3,
+   "e": 1313.66,
+   "t": "And they envision a tool where you can input the viewing and light source position."
+  },
+  {
+   "s": 1313.78,
+   "e": 1317.36,
+   "t": "And it will tell you how many usable colors you can get under those conditions."
+  },
+  {
+   "s": 1317.68,
+   "e": 1318.16,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 1318.2,
+   "e": 1318.76,
+   "t": "That's really cool."
+  },
+  {
+   "s": 1318.82,
+   "e": 1322.64,
+   "t": "So you can use it to plan out your display in advance."
+  },
+  {
+   "s": 1322.8,
+   "e": 1323.18,
+   "t": "Exactly."
+  },
+  {
+   "s": 1323.36,
+   "e": 1326.08,
+   "t": "And make sure that you're getting the desired color effects."
+  },
+  {
+   "s": 1326.26,
+   "e": 1326.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 1326.48,
+   "e": 1332.84,
+   "t": "And they also want to incorporate an algorithm for continuous color representation through rotation."
+  },
+  {
+   "s": 1333.14,
+   "e": 1333.52,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 1333.52,
+   "e": 1336.88,
+   "t": "So you wouldn't be limited to just those four discrete colors."
+  },
+  {
+   "s": 1337.14,
+   "e": 1337.4,
+   "t": "Right."
+  },
+  {
+   "s": 1337.4,
+   "e": 1339.86,
+   "t": "You could have a smooth transition between colors."
+  },
+  {
+   "s": 1340.4,
+   "e": 1340.76,
+   "t": "Wow."
+  },
+  {
+   "s": 1340.88,
+   "e": 1341.92,
+   "t": "That would be really impressive."
+  },
+  {
+   "s": 1342.36,
+   "e": 1345.64,
+   "t": "And they want to make this tool available to artists."
+  },
+  {
+   "s": 1345.88,
+   "e": 1346.18,
+   "t": "That's right."
+  },
+  {
+   "s": 1346.18,
+   "e": 1348.66,
+   "t": "So they can use it to create their own tatami art."
+  },
+  {
+   "s": 1348.84,
+   "e": 1353.3,
+   "t": "Yeah, they want to give artists the tools to really explore the creative possibilities of tatami."
+  },
+  {
+   "s": 1353.74,
+   "e": 1354.46,
+   "t": "That's fantastic."
+  },
+  {
+   "s": 1354.46,
+   "e": 1358.46,
+   "t": "And in terms of use cases for these displays, what are some of the things that they envision?"
+  },
+  {
+   "s": 1359.06,
+   "e": 1366.6,
+   "t": "So for the static display, they're interested in exploring how different light sources can affect the expressiveness of the display."
+  },
+  {
+   "s": 1366.6,
+   "e": 1367.28,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 1367.28,
+   "e": 1370.46,
+   "t": "So for example, using natural light versus artificial light."
+  },
+  {
+   "s": 1370.52,
+   "e": 1370.78,
+   "t": "Right."
+  },
+  {
+   "s": 1371.16,
+   "e": 1374.32,
+   "t": "And they also want to explore the interactive possibilities of the display."
+  },
+  {
+   "s": 1374.42,
+   "e": 1375.5,
+   "t": "Because you can walk on it."
+  },
+  {
+   "s": 1375.64,
+   "e": 1377.0,
+   "t": "Yeah, because you can walk on it."
+  },
+  {
+   "s": 1377.32,
+   "e": 1377.68,
+   "t": "Right."
+  },
+  {
+   "s": 1378.06,
+   "e": 1383.06,
+   "t": "So they're thinking about ways to make the display respond to people's footsteps."
+  },
+  {
+   "s": 1383.24,
+   "e": 1384.58,
+   "t": "Oh, that would be so cool."
+  },
+  {
+   "s": 1384.72,
+   "e": 1384.9,
+   "t": "Yeah."
+  },
+  {
+   "s": 1385.04,
+   "e": 1386.78,
+   "t": "It would be really interesting to see what they come up with."
+  },
+  {
+   "s": 1386.88,
+   "e": 1387.04,
+   "t": "Yeah."
+  },
+  {
+   "s": 1387.04,
+   "e": 1390.92,
+   "t": "And for the dynamic display, they want to add user interaction as well?"
+  },
+  {
+   "s": 1391.4,
+   "e": 1391.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 1391.72,
+   "e": 1395.14,
+   "t": "So they're thinking about integrating touch sensors into the tatami."
+  },
+  {
+   "s": 1395.62,
+   "e": 1399.06,
+   "t": "Oh, so you could actually, like, touch the display and control it?"
+  },
+  {
+   "s": 1399.16,
+   "e": 1399.56,
+   "t": "Exactly."
+  },
+  {
+   "s": 1399.98,
+   "e": 1400.4,
+   "t": "Wow."
+  },
+  {
+   "s": 1400.62,
+   "e": 1401.36,
+   "t": "That's amazing."
+  },
+  {
+   "s": 1401.8,
+   "e": 1404.1,
+   "t": "And they also want to increase the pixel count."
+  },
+  {
+   "s": 1404.36,
+   "e": 1405.48,
+   "t": "To get higher resolution."
+  },
+  {
+   "s": 1405.66,
+   "e": 1405.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 1405.98,
+   "e": 1407.82,
+   "t": "So they could display more complex images."
+  },
+  {
+   "s": 1408.06,
+   "e": 1408.24,
+   "t": "Yeah."
+  },
+  {
+   "s": 1408.34,
+   "e": 1409.44,
+   "t": "Like maybe even real-time faces."
+  },
+  {
+   "s": 1409.68,
+   "e": 1411.16,
+   "t": "Oh, that would be incredible."
+  },
+  {
+   "s": 1411.52,
+   "e": 1412.52,
+   "t": "Yeah, it would be really immersive."
+  },
+  {
+   "s": 1412.52,
+   "e": 1416.2,
+   "t": "And finally, they talked about the importance of doing user studies."
+  },
+  {
+   "s": 1416.4,
+   "e": 1420.44,
+   "t": "Yeah, that's really important to understand how people actually perceive the color changes."
+  },
+  {
+   "s": 1420.58,
+   "e": 1420.92,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 1421.16,
+   "e": 1425.1,
+   "t": "And to make sure that the displays are actually usable and enjoyable for people."
+  },
+  {
+   "s": 1425.26,
+   "e": 1425.6,
+   "t": "Right."
+  },
+  {
+   "s": 1425.72,
+   "e": 1431.24,
+   "t": "And they mentioned that they want to do studies similar to the ones that have been done on moss-based displays."
+  },
+  {
+   "s": 1431.56,
+   "e": 1431.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 1432.26,
+   "e": 1433.14,
+   "t": "That's a good comparison."
+  },
+  {
+   "s": 1433.36,
+   "e": 1436.26,
+   "t": "Because moss is another natural material that's being used for displays."
+  },
+  {
+   "s": 1436.54,
+   "e": 1436.98,
+   "t": "Right."
+  },
+  {
+   "s": 1437.34,
+   "e": 1440.92,
+   "t": "And there's been a lot of research on how people perceive the color changes in moss."
+  },
+  {
+   "s": 1440.92,
+   "e": 1442.92,
+   "t": "So that's a good model for them to follow."
+  },
+  {
+   "s": 1443.04,
+   "e": 1443.98,
+   "t": "Yeah, that's a good starting point."
+  },
+  {
+   "s": 1444.1,
+   "e": 1444.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 1444.46,
+   "e": 1444.9,
+   "t": "Okay."
+  },
+  {
+   "s": 1445.0,
+   "e": 1448.02,
+   "t": "So just to wrap things up, this was a really fascinating paper."
+  },
+  {
+   "s": 1448.42,
+   "e": 1453.66,
+   "t": "It's incredible to see how the researchers were able to take this traditional material tatami"
+  },
+  {
+   "s": 1453.66,
+   "e": 1457.94,
+   "t": "and use it to create these really innovative displays."
+  },
+  {
+   "s": 1458.5,
+   "e": 1458.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 1458.68,
+   "e": 1462.18,
+   "t": "It's a great example of how technology and tradition can come together."
+  },
+  {
+   "s": 1462.66,
+   "e": 1465.96,
+   "t": "And I think the cultural significance of this work cannot be overstated."
+  },
+  {
+   "s": 1466.46,
+   "e": 1470.38,
+   "t": "It's really important to find ways to keep these traditions alive."
+  },
+  {
+   "s": 1470.38,
+   "e": 1472.92,
+   "t": "And I think this research is a great step in that direction."
+  },
+  {
+   "s": 1473.3,
+   "e": 1473.96,
+   "t": "Yeah, I agree."
+  },
+  {
+   "s": 1474.1,
+   "e": 1478.7,
+   "t": "And I think it's also inspiring to see how the researchers are thinking about the future of this technology."
+  },
+  {
+   "s": 1479.28,
+   "e": 1482.5,
+   "t": "They're not just content with what they've achieved so far."
+  },
+  {
+   "s": 1482.64,
+   "e": 1487.76,
+   "t": "They're already thinking about how to make it better and more interactive and more expressive."
+  },
+  {
+   "s": 1487.76,
+   "e": 1490.14,
+   "t": "And I think that's something that we can all learn from, right?"
+  },
+  {
+   "s": 1490.2,
+   "e": 1493.62,
+   "t": "This idea of constantly pushing the boundaries and exploring new possibilities."
+  },
+  {
+   "s": 1493.92,
+   "e": 1501.16,
+   "t": "So it makes you wonder what other traditional materials are out there just waiting to be rediscovered"
+  },
+  {
+   "s": 1501.16,
+   "e": 1503.74,
+   "t": "and reimagined through the lens of modern technology."
+  },
+  {
+   "s": 1504.52,
+   "e": 1505.7,
+   "t": "Yeah, it's exciting to think about."
+  },
+  {
+   "s": 1505.8,
+   "e": 1506.2,
+   "t": "It is."
+  },
+  {
+   "s": 1506.42,
+   "e": 1507.72,
+   "t": "Thanks for joining me on the Steep Dive."
+  },
+  {
+   "s": 1507.84,
+   "e": 1508.5,
+   "t": "It was my pleasure."
+  },
+  {
+   "s": 1508.7,
+   "e": 1509.58,
+   "t": "And we'll see you next time."
+  },
+  {
+   "s": 1509.66,
+   "e": 1510.22,
+   "t": "See you next time."
+  },
+  {
+   "s": 1510.42,
+   "e": 1510.78,
+   "t": "Bye."
+  },
+  {
+   "s": 1510.78,
+   "e": 1510.84,
+   "t": "Bye."
+  },
+  {
+   "s": 1510.84,
+   "e": 1511.14,
+   "t": "Bye."
+  },
+  {
+   "s": 1511.14,
+   "e": 1511.78,
+   "t": "Bye."
+  },
+  {
+   "s": 1511.78,
+   "e": 1512.78,
+   "t": "Bye."
+  },
+  {
+   "s": 1512.78,
+   "e": 1514.78,
+   "t": "Bye."
+  }
+ ]
+}

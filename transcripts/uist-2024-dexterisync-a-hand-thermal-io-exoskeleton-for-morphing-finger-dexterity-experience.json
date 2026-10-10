@@ -1,0 +1,1595 @@
+{
+ "guid": "deephci.podbean.com/c9e71e94-8644-355e-8002-8978547f1370",
+ "slug": "uist-2024-dexterisync-a-hand-thermal-io-exoskeleton-for-morphing-finger-dexterity-experience",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "3654777-3676422.mp3",
+  "version": 1
+ },
+ "duration": 839,
+ "word_count": 2566,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 2.1,
+   "t": "Welcome back, everyone, to another Deep Dive."
+  },
+  {
+   "s": 2.24,
+   "e": 5.28,
+   "t": "You know, we love to take a really close look at some fascinating research."
+  },
+  {
+   "s": 5.58,
+   "e": 8.58,
+   "t": "And today we're going to be talking about something called Dexterisync."
+  },
+  {
+   "s": 9.2,
+   "e": 9.6,
+   "t": "Dexterisync."
+  },
+  {
+   "s": 9.9,
+   "e": 12.94,
+   "t": "It's a device, and it's really more than just a gadget."
+  },
+  {
+   "s": 13.08,
+   "e": 17.22,
+   "t": "It allows you to kind of embody the sensation of compromised dexterity."
+  },
+  {
+   "s": 17.32,
+   "e": 17.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 17.86,
+   "e": 21.5,
+   "t": "It really gets at the heart of, you know, human perception and empathy and all that."
+  },
+  {
+   "s": 22.78,
+   "e": 29.58,
+   "t": "Yeah, it's an interesting opportunity to think about, you know, technology and perception and design and how all of those things come together."
+  },
+  {
+   "s": 29.58,
+   "e": 38.48,
+   "t": "Yeah, and we're looking at a research paper today called Dexterisync, a hand thermal IO exoskeleton for morphing finger dexterity experience."
+  },
+  {
+   "s": 38.66,
+   "e": 39.34,
+   "t": "It's a mouthful."
+  },
+  {
+   "s": 39.48,
+   "e": 40.12,
+   "t": "It is a mouthful."
+  },
+  {
+   "s": 40.2,
+   "e": 45.52,
+   "t": "It was presented at the 2024 ACM Symposium on User Interface Software and Technology."
+  },
+  {
+   "s": 45.86,
+   "e": 46.74,
+   "t": "It's pretty recent stuff."
+  },
+  {
+   "s": 46.82,
+   "e": 47.64,
+   "t": "Yeah, very recent."
+  },
+  {
+   "s": 47.74,
+   "e": 48.24,
+   "t": "Cutting edge."
+  },
+  {
+   "s": 48.84,
+   "e": 50.54,
+   "t": "So tell me, what is this Dexterisync?"
+  },
+  {
+   "s": 50.68,
+   "e": 52.54,
+   "t": "Dexterisync is a hand exoskeleton."
+  },
+  {
+   "s": 52.68,
+   "e": 55.4,
+   "t": "So you can think of it as this kind of structure that goes over your hand."
+  },
+  {
+   "s": 55.4,
+   "e": 59.8,
+   "t": "And it's made with these, like, silicone copper tubes and 3D printed parts."
+  },
+  {
+   "s": 60.46,
+   "e": 66.24,
+   "t": "And the whole goal of the device is to really precisely change the temperature of your fingers."
+  },
+  {
+   "s": 66.4,
+   "e": 70.4,
+   "t": "Okay, so it's not this big clunky, you know, robot hand thing."
+  },
+  {
+   "s": 70.4,
+   "e": 70.66,
+   "t": "It's not at all."
+  },
+  {
+   "s": 70.98,
+   "e": 72.08,
+   "t": "It's pretty sleek."
+  },
+  {
+   "s": 72.2,
+   "e": 72.84,
+   "t": "It's lightweight."
+  },
+  {
+   "s": 73.26,
+   "e": 73.58,
+   "t": "Okay."
+  },
+  {
+   "s": 73.58,
+   "e": 75.8,
+   "t": "It's meant to be comfortable for people to wear."
+  },
+  {
+   "s": 76.02,
+   "e": 83.16,
+   "t": "And so the magic really happens with these silicone copper tubes because they're hooked up to this temperature regulation system."
+  },
+  {
+   "s": 83.36,
+   "e": 88.8,
+   "t": "And that's what allows the researchers to actually very precisely change the temperature of your fingers."
+  },
+  {
+   "s": 89.16,
+   "e": 91.84,
+   "t": "And so that, in turn, affects your dexterity, right?"
+  },
+  {
+   "s": 91.9,
+   "e": 96.52,
+   "t": "Because I know just from personal experience, when my hands are really cold, I can't do anything with them."
+  },
+  {
+   "s": 96.62,
+   "e": 97.12,
+   "t": "That's right."
+  },
+  {
+   "s": 97.26,
+   "e": 98.78,
+   "t": "But explain the mechanism there."
+  },
+  {
+   "s": 98.88,
+   "e": 101.16,
+   "t": "How does temperature actually affect our dexterity?"
+  },
+  {
+   "s": 101.16,
+   "e": 104.16,
+   "t": "Yeah, so there's a few different things that happen when your fingers get cold."
+  },
+  {
+   "s": 104.28,
+   "e": 106.42,
+   "t": "The first is that your blood vessels actually constrict."
+  },
+  {
+   "s": 106.86,
+   "e": 109.16,
+   "t": "So you have reduced blood flow to the extremities."
+  },
+  {
+   "s": 109.82,
+   "e": 110.28,
+   "t": "Makes sense."
+  },
+  {
+   "s": 110.44,
+   "e": 113.76,
+   "t": "And that, in turn, affects how flexible your tendons are."
+  },
+  {
+   "s": 114.0,
+   "e": 117.28,
+   "t": "And it also affects your muscles' ability to contract."
+  },
+  {
+   "s": 117.52,
+   "e": 117.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 117.92,
+   "e": 121.9,
+   "t": "So all of those things combined lead to this decrease in dexterity."
+  },
+  {
+   "s": 122.02,
+   "e": 126.02,
+   "t": "Wow, so it's like this cascade of effects all from that one change in temperature."
+  },
+  {
+   "s": 126.3,
+   "e": 126.78,
+   "t": "Exactly."
+  },
+  {
+   "s": 126.98,
+   "e": 127.54,
+   "t": "That's amazing."
+  },
+  {
+   "s": 127.54,
+   "e": 134.1,
+   "t": "So dexterity is basically taking this natural phenomenon that we all experience and sort of artificially inducing it."
+  },
+  {
+   "s": 134.36,
+   "e": 134.6,
+   "t": "Exactly."
+  },
+  {
+   "s": 134.84,
+   "e": 135.82,
+   "t": "That's exactly right."
+  },
+  {
+   "s": 135.94,
+   "e": 144.54,
+   "t": "And the research team actually did some really neat studies to actually see, you know, how effective is dexterity at changing dexterity."
+  },
+  {
+   "s": 145.26,
+   "e": 145.52,
+   "t": "Okay."
+  },
+  {
+   "s": 145.86,
+   "e": 152.66,
+   "t": "So in one of their studies, they had participants put on the exoskeleton, and then they had them do this modified pegboard test."
+  },
+  {
+   "s": 152.8,
+   "e": 153.54,
+   "t": "A pegboard test."
+  },
+  {
+   "s": 153.56,
+   "e": 153.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 153.86,
+   "e": 155.16,
+   "t": "Kind of like you see in a doctor's office."
+  },
+  {
+   "s": 155.16,
+   "e": 157.1,
+   "t": "Yeah, kind of like a classic pegboard game."
+  },
+  {
+   "s": 157.16,
+   "e": 157.36,
+   "t": "Right."
+  },
+  {
+   "s": 157.56,
+   "e": 161.04,
+   "t": "But in this modified version, they had to do it in a very specific pattern."
+  },
+  {
+   "s": 161.24,
+   "e": 161.48,
+   "t": "Okay."
+  },
+  {
+   "s": 161.56,
+   "e": 166.7,
+   "t": "And so they could really compare how people performed under these different temperature conditions."
+  },
+  {
+   "s": 167.06,
+   "e": 167.84,
+   "t": "So what did they find?"
+  },
+  {
+   "s": 168.2,
+   "e": 173.4,
+   "t": "Yeah, so just as you would expect when your fingers are cold, it really decreases your dexterity."
+  },
+  {
+   "s": 173.5,
+   "e": 173.7,
+   "t": "Right."
+  },
+  {
+   "s": 173.78,
+   "e": 174.72,
+   "t": "People were much slower."
+  },
+  {
+   "s": 175.16,
+   "e": 178.78,
+   "t": "At putting the pegs in the holes, their movements weren't as precise."
+  },
+  {
+   "s": 178.78,
+   "e": 184.52,
+   "t": "But one of the things that they found, which is kind of interesting, is that there seems to be this optimal cooling duration."
+  },
+  {
+   "s": 184.86,
+   "e": 185.06,
+   "t": "Huh."
+  },
+  {
+   "s": 185.06,
+   "e": 191.52,
+   "t": "So if you cool it for about 10 minutes, at first you see this decrease in performance as you would expect."
+  },
+  {
+   "s": 191.68,
+   "e": 191.84,
+   "t": "Right."
+  },
+  {
+   "s": 192.04,
+   "e": 197.18,
+   "t": "But then after about 10 minutes, your body seems to adapt and your dexterity actually improves temporarily."
+  },
+  {
+   "s": 197.86,
+   "e": 198.42,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 198.5,
+   "e": 203.98,
+   "t": "So it's almost like your body is kind of engaging some sort of compensatory mechanism to kind of counteract the cold."
+  },
+  {
+   "s": 204.22,
+   "e": 205.16,
+   "t": "That's so fascinating."
+  },
+  {
+   "s": 205.3,
+   "e": 211.4,
+   "t": "It makes you think, like, how would your own body react if you were in that situation?"
+  },
+  {
+   "s": 211.4,
+   "e": 211.8,
+   "t": "Absolutely."
+  },
+  {
+   "s": 212.3,
+   "e": 217.3,
+   "t": "So we've talked about dexterity, but the paper also mentions this thing called the thermal grill illusion."
+  },
+  {
+   "s": 217.72,
+   "e": 218.16,
+   "t": "Yes."
+  },
+  {
+   "s": 218.34,
+   "e": 220.64,
+   "t": "And that seems to be more about sensory perception."
+  },
+  {
+   "s": 221.12,
+   "e": 222.6,
+   "t": "So can you explain what that is?"
+  },
+  {
+   "s": 223.0,
+   "e": 230.44,
+   "t": "So the thermal grill illusion is this really peculiar phenomenon where when you apply warm and cool stimuli at the same time to the skin,"
+  },
+  {
+   "s": 231.06,
+   "e": 234.94,
+   "t": "people actually perceive the temperature as being more extreme than it actually is."
+  },
+  {
+   "s": 234.94,
+   "e": 240.74,
+   "t": "So they tested this with dexterousync by actually warming the thumb and cooling the index finger."
+  },
+  {
+   "s": 240.74,
+   "e": 244.08,
+   "t": "And then they had people touch water with those fingers."
+  },
+  {
+   "s": 244.26,
+   "e": 247.2,
+   "t": "And they consistently overestimated the temperature of the water."
+  },
+  {
+   "s": 247.66,
+   "e": 247.98,
+   "t": "Wow."
+  },
+  {
+   "s": 248.2,
+   "e": 253.06,
+   "t": "So dexterousync is not just affecting how your hands move, but also how they feel."
+  },
+  {
+   "s": 253.26,
+   "e": 253.62,
+   "t": "That's right."
+  },
+  {
+   "s": 253.68,
+   "e": 259.16,
+   "t": "It really highlights how temperature can kind of shape our experience of the world in these really unexpected ways."
+  },
+  {
+   "s": 259.16,
+   "e": 270.2,
+   "t": "And so this ability to manipulate both dexterity and sensory perception, I mean, that has some pretty big implications for a lot of different fields, like design, for example."
+  },
+  {
+   "s": 270.3,
+   "e": 270.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 270.4,
+   "e": 276.86,
+   "t": "So the researchers did this really cool exploratory session where they had some design students use dexterousync."
+  },
+  {
+   "s": 276.98,
+   "e": 280.58,
+   "t": "And they were trying to design tools for people with compromised dexterity."
+  },
+  {
+   "s": 280.78,
+   "e": 281.04,
+   "t": "Right."
+  },
+  {
+   "s": 281.16,
+   "e": 286.66,
+   "t": "So instead of just kind of watching videos about these challenges, they were able to actually experience it for themselves."
+  },
+  {
+   "s": 286.86,
+   "e": 287.9,
+   "t": "So they were embodying it."
+  },
+  {
+   "s": 287.9,
+   "e": 288.3,
+   "t": "Exactly."
+  },
+  {
+   "s": 288.3,
+   "e": 295.42,
+   "t": "So they would put on the exoskeleton and they would try to do things like tie their shoes or manipulate small objects."
+  },
+  {
+   "s": 295.64,
+   "e": 299.0,
+   "t": "And then they would use those experiences to actually inform their designs."
+  },
+  {
+   "s": 299.16,
+   "e": 300.12,
+   "t": "And what was the outcome of that?"
+  },
+  {
+   "s": 300.12,
+   "e": 300.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 300.74,
+   "e": 303.4,
+   "t": "Did using dexterousync actually make a difference in their designs?"
+  },
+  {
+   "s": 303.7,
+   "e": 304.14,
+   "t": "It did."
+  },
+  {
+   "s": 304.14,
+   "e": 308.88,
+   "t": "They found that the designers who used the exoskeleton were much more confident in their designs."
+  },
+  {
+   "s": 309.08,
+   "e": 314.52,
+   "t": "And they also had an individual with lived experience of compromised dexterity actually look at the designs."
+  },
+  {
+   "s": 314.52,
+   "e": 318.48,
+   "t": "And they preferred the designs that were created with the exoskeleton."
+  },
+  {
+   "s": 318.52,
+   "e": 318.82,
+   "t": "Wow."
+  },
+  {
+   "s": 318.82,
+   "e": 319.9,
+   "t": "Over the ones that weren't."
+  },
+  {
+   "s": 319.9,
+   "e": 320.5,
+   "t": "That's amazing."
+  },
+  {
+   "s": 320.64,
+   "e": 327.2,
+   "t": "I mean, it makes you think, like, how many products and services could be improved if designers had access to this kind of technology."
+  },
+  {
+   "s": 327.32,
+   "e": 327.72,
+   "t": "Exactly."
+  },
+  {
+   "s": 327.82,
+   "e": 330.1,
+   "t": "So it's not just about designing for people with disabilities."
+  },
+  {
+   "s": 330.1,
+   "e": 331.82,
+   "t": "It's about designing for everyone."
+  },
+  {
+   "s": 332.16,
+   "e": 332.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 332.4,
+   "e": 340.64,
+   "t": "I mean, it really gets at the heart of how do we make things that are accessible and usable for the widest range of people possible."
+  },
+  {
+   "s": 340.76,
+   "e": 342.18,
+   "t": "And it's not just about design either."
+  },
+  {
+   "s": 342.96,
+   "e": 348.22,
+   "t": "Dexterousync has this incredible potential for fostering empathy and understanding for people with disabilities."
+  },
+  {
+   "s": 348.22,
+   "e": 348.88,
+   "t": "That's right."
+  },
+  {
+   "s": 348.88,
+   "e": 357.36,
+   "t": "I mean, imagine medical students using Dexterousync to better understand the challenges that their patients with dexterity issues face."
+  },
+  {
+   "s": 357.5,
+   "e": 357.72,
+   "t": "Yeah."
+  },
+  {
+   "s": 357.88,
+   "e": 362.36,
+   "t": "Or family members using it to gain a deeper appreciation for their loved ones' experiences."
+  },
+  {
+   "s": 362.62,
+   "e": 362.84,
+   "t": "Right."
+  },
+  {
+   "s": 363.14,
+   "e": 365.06,
+   "t": "I mean, the potential is huge."
+  },
+  {
+   "s": 365.16,
+   "e": 366.76,
+   "t": "So we've covered a lot of ground already."
+  },
+  {
+   "s": 366.96,
+   "e": 367.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 367.18,
+   "e": 374.64,
+   "t": "From the mechanics of Dexterousync and how it affects dexterity to this fascinating thermal grill illusion and then all the implications for design and empathy."
+  },
+  {
+   "s": 374.84,
+   "e": 376.56,
+   "t": "But there's still so much more to explore."
+  },
+  {
+   "s": 376.76,
+   "e": 377.3,
+   "t": "There is."
+  },
+  {
+   "s": 377.3,
+   "e": 383.96,
+   "t": "So in part two, we're going to delve even deeper into the specific design challenges and opportunities that Dexterousync presents."
+  },
+  {
+   "s": 384.38,
+   "e": 390.3,
+   "t": "And we're also going to talk about the broader ethical and societal implications of this really groundbreaking technology."
+  },
+  {
+   "s": 391.12,
+   "e": 391.88,
+   "t": "Sounds good."
+  },
+  {
+   "s": 392.24,
+   "e": 396.1,
+   "t": "Let's dive a little deeper into these design challenges we were talking about before."
+  },
+  {
+   "s": 396.24,
+   "e": 396.44,
+   "t": "Okay."
+  },
+  {
+   "s": 396.92,
+   "e": 403.3,
+   "t": "You know, we've talked about how Dexterousync can really effectively change dexterity and thermal perception."
+  },
+  {
+   "s": 403.5,
+   "e": 403.64,
+   "t": "Right."
+  },
+  {
+   "s": 403.64,
+   "e": 409.18,
+   "t": "But the question is, you know, how do we translate that into practical applications, particularly in design?"
+  },
+  {
+   "s": 409.34,
+   "e": 409.5,
+   "t": "Yeah."
+  },
+  {
+   "s": 409.58,
+   "e": 411.84,
+   "t": "And it seems like there are two main aspects to think about here."
+  },
+  {
+   "s": 411.92,
+   "e": 412.08,
+   "t": "Okay."
+  },
+  {
+   "s": 412.76,
+   "e": 415.4,
+   "t": "There's the design of the Dexterousync device itself."
+  },
+  {
+   "s": 415.46,
+   "e": 415.66,
+   "t": "Right."
+  },
+  {
+   "s": 415.74,
+   "e": 417.92,
+   "t": "And then there's the designs that it inspires."
+  },
+  {
+   "s": 418.6,
+   "e": 418.96,
+   "t": "Exactly."
+  },
+  {
+   "s": 419.12,
+   "e": 420.04,
+   "t": "You've hit the nail on the head there."
+  },
+  {
+   "s": 420.04,
+   "e": 426.34,
+   "t": "So on that first point, I mean, designing a device that's both functional and user-friendly, that's a challenge in itself."
+  },
+  {
+   "s": 426.74,
+   "e": 427.22,
+   "t": "It is."
+  },
+  {
+   "s": 427.42,
+   "e": 427.84,
+   "t": "It is."
+  },
+  {
+   "s": 427.84,
+   "e": 436.04,
+   "t": "There's so many factors to consider, you know, ergonomics, the materials you use, the weight of the device, all of those things."
+  },
+  {
+   "s": 436.14,
+   "e": 436.3,
+   "t": "Right."
+  },
+  {
+   "s": 436.36,
+   "e": 438.92,
+   "t": "Because you don't want it to be uncomfortable or cumbersome to wear."
+  },
+  {
+   "s": 439.12,
+   "e": 439.52,
+   "t": "Exactly."
+  },
+  {
+   "s": 439.74,
+   "e": 442.2,
+   "t": "Especially if you're going to be using it for a long period of time."
+  },
+  {
+   "s": 442.36,
+   "e": 448.12,
+   "t": "So they went with those silicone copper tubes for the fingers of the exoskeleton."
+  },
+  {
+   "s": 448.12,
+   "e": 448.38,
+   "t": "Yes."
+  },
+  {
+   "s": 448.38,
+   "e": 451.62,
+   "t": "And I'm assuming that's because copper is a really good conductor of heat."
+  },
+  {
+   "s": 451.74,
+   "e": 452.14,
+   "t": "That's right."
+  },
+  {
+   "s": 452.24,
+   "e": 454.48,
+   "t": "It allows for those really rapid temperature changes."
+  },
+  {
+   "s": 454.54,
+   "e": 454.76,
+   "t": "Okay."
+  },
+  {
+   "s": 454.88,
+   "e": 456.92,
+   "t": "And the silicone makes it flexible and comfortable."
+  },
+  {
+   "s": 456.92,
+   "e": 457.48,
+   "t": "Exactly."
+  },
+  {
+   "s": 457.86,
+   "e": 460.82,
+   "t": "And then they use 3D printed parts as well to customize the fit."
+  },
+  {
+   "s": 460.96,
+   "e": 461.2,
+   "t": "Right."
+  },
+  {
+   "s": 461.46,
+   "e": 466.34,
+   "t": "Which is interesting, too, because that speaks to how those technologies are becoming increasingly accessible."
+  },
+  {
+   "s": 466.56,
+   "e": 466.94,
+   "t": "It does."
+  },
+  {
+   "s": 467.04,
+   "e": 475.86,
+   "t": "The fact that they were able to prototype and refine this device using, you know, relatively readily available tools is pretty amazing."
+  },
+  {
+   "s": 476.4,
+   "e": 478.86,
+   "t": "But the design challenges don't stop there, right?"
+  },
+  {
+   "s": 479.12,
+   "e": 481.84,
+   "t": "Because Dexteria Sync is not just a device on its own."
+  },
+  {
+   "s": 482.02,
+   "e": 485.18,
+   "t": "It's meant to be a tool for creating other designs."
+  },
+  {
+   "s": 485.36,
+   "e": 485.84,
+   "t": "Exactly."
+  },
+  {
+   "s": 485.84,
+   "e": 488.36,
+   "t": "And that raises a whole new set of questions."
+  },
+  {
+   "s": 488.52,
+   "e": 492.1,
+   "t": "You know, how do you actually design for compromised dexterity?"
+  },
+  {
+   "s": 492.2,
+   "e": 492.32,
+   "t": "Right."
+  },
+  {
+   "s": 492.5,
+   "e": 494.44,
+   "t": "It's something that all of designers think about."
+  },
+  {
+   "s": 494.84,
+   "e": 498.16,
+   "t": "But Dexteria Sync actually offers this really unique solution to that."
+  },
+  {
+   "s": 498.42,
+   "e": 501.46,
+   "t": "It lets you actually experience those limitations firsthand."
+  },
+  {
+   "s": 501.46,
+   "e": 506.0,
+   "t": "So instead of just trying to imagine what it's like to have limited hand function."
+  },
+  {
+   "s": 506.22,
+   "e": 506.5,
+   "t": "Right."
+  },
+  {
+   "s": 506.72,
+   "e": 508.1,
+   "t": "You can actually feel it."
+  },
+  {
+   "s": 508.18,
+   "e": 509.24,
+   "t": "You can embody it."
+  },
+  {
+   "s": 509.34,
+   "e": 509.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 509.74,
+   "e": 513.04,
+   "t": "And that's really the power of this idea of embodied design."
+  },
+  {
+   "s": 513.3,
+   "e": 513.56,
+   "t": "Okay."
+  },
+  {
+   "s": 513.64,
+   "e": 517.76,
+   "t": "It's not just about, you know, intellectually understanding a problem."
+  },
+  {
+   "s": 518.1,
+   "e": 518.32,
+   "t": "Right."
+  },
+  {
+   "s": 518.32,
+   "e": 520.8,
+   "t": "It's about actually physically experiencing it."
+  },
+  {
+   "s": 520.86,
+   "e": 523.7,
+   "t": "And the study with the design students is a great example of that, right?"
+  },
+  {
+   "s": 523.7,
+   "e": 523.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 523.82,
+   "e": 530.04,
+   "t": "They went from watching videos about dexterity challenges to actually experiencing those challenges through the device."
+  },
+  {
+   "s": 530.16,
+   "e": 530.3,
+   "t": "Right."
+  },
+  {
+   "s": 530.68,
+   "e": 532.7,
+   "t": "And that led to a real difference in their designs."
+  },
+  {
+   "s": 532.7,
+   "e": 532.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 533.16,
+   "e": 541.76,
+   "t": "They started thinking about things that they might not have considered before, like the importance of grip size or, you know, where the buttons are placed on a device."
+  },
+  {
+   "s": 541.82,
+   "e": 542.02,
+   "t": "Right."
+  },
+  {
+   "s": 542.02,
+   "e": 545.4,
+   "t": "Or, you know, how much force is required to actually operate a device."
+  },
+  {
+   "s": 545.54,
+   "e": 549.28,
+   "t": "So it's really about thinking about all those little details that you might not even notice."
+  },
+  {
+   "s": 549.3,
+   "e": 549.7,
+   "t": "Exactly."
+  },
+  {
+   "s": 549.82,
+   "e": 552.0,
+   "t": "If you've never actually experienced that kind of challenge."
+  },
+  {
+   "s": 552.08,
+   "e": 552.52,
+   "t": "Exactly."
+  },
+  {
+   "s": 552.82,
+   "e": 556.86,
+   "t": "But, of course, you know, we've been focusing on the positive implications of this technology."
+  },
+  {
+   "s": 557.22,
+   "e": 560.1,
+   "t": "But there are also potential drawbacks to consider."
+  },
+  {
+   "s": 560.32,
+   "e": 560.74,
+   "t": "Absolutely."
+  },
+  {
+   "s": 560.74,
+   "e": 565.78,
+   "t": "I mean, every powerful technology comes with its own ethical and societal considerations."
+  },
+  {
+   "s": 566.2,
+   "e": 566.32,
+   "t": "Right."
+  },
+  {
+   "s": 566.56,
+   "e": 570.84,
+   "t": "So, you know, one concern is the potential for misuse."
+  },
+  {
+   "s": 571.02,
+   "e": 571.32,
+   "t": "Okay."
+  },
+  {
+   "s": 571.58,
+   "e": 576.58,
+   "t": "Could someone use dexterity to actually exploit or manipulate people?"
+  },
+  {
+   "s": 576.76,
+   "e": 577.2,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 577.38,
+   "e": 583.86,
+   "t": "You know, could you imagine a scenario where someone's dexterity is intentionally compromised for some malicious purpose?"
+  },
+  {
+   "s": 584.18,
+   "e": 584.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 584.86,
+   "e": 585.72,
+   "t": "That's a little scary."
+  },
+  {
+   "s": 586.0,
+   "e": 586.44,
+   "t": "It is."
+  },
+  {
+   "s": 586.52,
+   "e": 589.42,
+   "t": "And I guess there's also the potential for creating a divide."
+  },
+  {
+   "s": 589.7,
+   "e": 590.06,
+   "t": "Yes."
+  },
+  {
+   "s": 590.06,
+   "e": 594.96,
+   "t": "Between people who have access to this technology and people who don't."
+  },
+  {
+   "s": 594.96,
+   "e": 595.44,
+   "t": "That's right."
+  },
+  {
+   "s": 595.76,
+   "e": 596.06,
+   "t": "That's right."
+  },
+  {
+   "s": 596.1,
+   "e": 602.64,
+   "t": "We have to be really mindful of these potential risks as we explore the potential of this technology."
+  },
+  {
+   "s": 602.84,
+   "e": 608.06,
+   "t": "You know, it's really important to have these conversations and to think critically about how it could be used."
+  },
+  {
+   "s": 608.06,
+   "e": 611.36,
+   "t": "So we need to proceed with caution, but also with excitement."
+  },
+  {
+   "s": 611.56,
+   "e": 612.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 612.24,
+   "e": 614.12,
+   "t": "Because the potential here is really huge."
+  },
+  {
+   "s": 614.14,
+   "e": 614.86,
+   "t": "And it is."
+  },
+  {
+   "s": 614.86,
+   "e": 620.68,
+   "t": "So in our final segment, we're going to look at some of those potential future applications of dexterity sync."
+  },
+  {
+   "s": 620.92,
+   "e": 621.32,
+   "t": "Yes."
+  },
+  {
+   "s": 621.32,
+   "e": 634.02,
+   "t": "And we'll also discuss how this technology could be refined and enhanced to really maximize its impact on design and empathy and our understanding of human perception."
+  },
+  {
+   "s": 634.44,
+   "e": 639.04,
+   "t": "We've talked about dexterity syncs mechanics, you know, and how it impacts design and empathy."
+  },
+  {
+   "s": 639.04,
+   "e": 642.8,
+   "t": "We've gotten to that really fascinating thermal grill illusion."
+  },
+  {
+   "s": 643.2,
+   "e": 643.52,
+   "t": "Right."
+  },
+  {
+   "s": 643.66,
+   "e": 645.96,
+   "t": "So now let's look ahead a bit to the future."
+  },
+  {
+   "s": 645.96,
+   "e": 646.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 646.12,
+   "e": 648.16,
+   "t": "Where could this technology go?"
+  },
+  {
+   "s": 648.38,
+   "e": 648.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 648.92,
+   "e": 651.74,
+   "t": "What are some potential applications that maybe we haven't even thought of yet?"
+  },
+  {
+   "s": 651.86,
+   "e": 656.64,
+   "t": "Well, one area that I think is really ripe for exploration is virtual reality."
+  },
+  {
+   "s": 656.88,
+   "e": 657.26,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 657.26,
+   "e": 661.44,
+   "t": "You could imagine incorporating dexterity sync into VR experiences."
+  },
+  {
+   "s": 661.68,
+   "e": 661.92,
+   "t": "Okay."
+  },
+  {
+   "s": 662.04,
+   "e": 664.26,
+   "t": "To make them even more realistic and immersive."
+  },
+  {
+   "s": 664.74,
+   "e": 668.48,
+   "t": "So not just seeing and hearing the virtual world, but also feeling it."
+  },
+  {
+   "s": 668.56,
+   "e": 668.94,
+   "t": "Exactly."
+  },
+  {
+   "s": 669.06,
+   "e": 671.54,
+   "t": "You could actually feel the temperature changes."
+  },
+  {
+   "s": 671.84,
+   "e": 672.12,
+   "t": "Wow."
+  },
+  {
+   "s": 672.22,
+   "e": 673.96,
+   "t": "And the changes in dexterity."
+  },
+  {
+   "s": 674.36,
+   "e": 677.24,
+   "t": "So like imagine a VR simulation of deep sea diving."
+  },
+  {
+   "s": 677.5,
+   "e": 678.1,
+   "t": "Exactly."
+  },
+  {
+   "s": 678.28,
+   "e": 679.92,
+   "t": "Where you can feel the cold water."
+  },
+  {
+   "s": 680.16,
+   "e": 680.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 680.36,
+   "e": 681.88,
+   "t": "And the pressure affecting your hands."
+  },
+  {
+   "s": 682.0,
+   "e": 684.3,
+   "t": "Or even like a surgical training simulation."
+  },
+  {
+   "s": 684.58,
+   "e": 685.22,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 685.22,
+   "e": 690.1,
+   "t": "Where you could actually feel the resistance of tissues as you're manipulating these virtual"
+  },
+  {
+   "s": 690.1,
+   "e": 690.58,
+   "t": "instruments."
+  },
+  {
+   "s": 690.98,
+   "e": 692.08,
+   "t": "And then, of course, there's gaming."
+  },
+  {
+   "s": 692.4,
+   "e": 692.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 692.8,
+   "e": 694.36,
+   "t": "I mean, that seems like a really natural fit."
+  },
+  {
+   "s": 694.46,
+   "e": 694.8,
+   "t": "Absolutely."
+  },
+  {
+   "s": 694.94,
+   "e": 699.12,
+   "t": "The xeracink could add this whole new level of physical feedback to gameplay."
+  },
+  {
+   "s": 699.44,
+   "e": 699.64,
+   "t": "Right."
+  },
+  {
+   "s": 699.72,
+   "e": 701.52,
+   "t": "And it's not just about entertainment either."
+  },
+  {
+   "s": 701.72,
+   "e": 702.0,
+   "t": "No."
+  },
+  {
+   "s": 702.16,
+   "e": 703.84,
+   "t": "I mean, you could use it for training purposes."
+  },
+  {
+   "s": 703.92,
+   "e": 704.5,
+   "t": "Oh, absolutely."
+  },
+  {
+   "s": 704.7,
+   "e": 707.04,
+   "t": "Like for musicians or athletes or even surgeons."
+  },
+  {
+   "s": 707.1,
+   "e": 707.28,
+   "t": "Yeah."
+  },
+  {
+   "s": 707.32,
+   "e": 713.44,
+   "t": "You could use it to help people develop muscle memory and find motor skills in a safe and control"
+  },
+  {
+   "s": 713.44,
+   "e": 713.94,
+   "t": "environment."
+  },
+  {
+   "s": 713.94,
+   "e": 715.5,
+   "t": "And what about rehabilitation?"
+  },
+  {
+   "s": 716.18,
+   "e": 719.26,
+   "t": "I mean, could you use it to help patients regain lost dexterity?"
+  },
+  {
+   "s": 719.62,
+   "e": 720.1,
+   "t": "Absolutely."
+  },
+  {
+   "s": 720.26,
+   "e": 721.96,
+   "t": "There's so much potential there."
+  },
+  {
+   "s": 722.56,
+   "e": 726.94,
+   "t": "It seems like the possibilities are really endless when you start thinking about how dexterity"
+  },
+  {
+   "s": 726.94,
+   "e": 730.26,
+   "t": "could bridge that gap between the physical and the digital."
+  },
+  {
+   "s": 730.94,
+   "e": 731.7,
+   "t": "It really does."
+  },
+  {
+   "s": 732.04,
+   "e": 735.54,
+   "t": "So we've talked about future applications, but what about the device itself?"
+  },
+  {
+   "s": 735.82,
+   "e": 736.12,
+   "t": "Oh."
+  },
+  {
+   "s": 736.2,
+   "e": 739.1,
+   "t": "I mean, are there ways to improve it or refine it?"
+  },
+  {
+   "s": 739.32,
+   "e": 739.6,
+   "t": "Yeah."
+  },
+  {
+   "s": 739.6,
+   "e": 743.02,
+   "t": "I mean, the researchers themselves acknowledge that, you know, there's always room for improvement."
+  },
+  {
+   "s": 743.46,
+   "e": 743.56,
+   "t": "Sure."
+  },
+  {
+   "s": 743.56,
+   "e": 747.52,
+   "t": "One area that they're really excited about is using more advanced materials."
+  },
+  {
+   "s": 747.84,
+   "e": 747.94,
+   "t": "Okay."
+  },
+  {
+   "s": 748.0,
+   "e": 751.68,
+   "t": "So like materials that are even better at conducting heat or insulating."
+  },
+  {
+   "s": 752.08,
+   "e": 752.56,
+   "t": "Exactly."
+  },
+  {
+   "s": 752.76,
+   "e": 756.04,
+   "t": "They're looking at things like aerogel or polyamide foam."
+  },
+  {
+   "s": 756.12,
+   "e": 756.34,
+   "t": "Okay."
+  },
+  {
+   "s": 756.48,
+   "e": 761.84,
+   "t": "Which could potentially, you know, make the device even more thermally efficient while still"
+  },
+  {
+   "s": 761.84,
+   "e": 764.0,
+   "t": "keeping it lightweight and comfortable to wear."
+  },
+  {
+   "s": 764.2,
+   "e": 766.18,
+   "t": "And I guess there's also the issue of portability."
+  },
+  {
+   "s": 766.18,
+   "e": 767.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 767.18,
+   "e": 771.36,
+   "t": "Right now, the system is tethered to this external temperature regulation unit."
+  },
+  {
+   "s": 771.56,
+   "e": 771.72,
+   "t": "Okay."
+  },
+  {
+   "s": 771.76,
+   "e": 774.74,
+   "t": "So they're definitely exploring ways to make it more compact and wireless."
+  },
+  {
+   "s": 775.42,
+   "e": 779.4,
+   "t": "So you could just wear it anywhere and it would seamlessly integrate into your life."
+  },
+  {
+   "s": 779.68,
+   "e": 780.12,
+   "t": "Exactly."
+  },
+  {
+   "s": 780.34,
+   "e": 782.98,
+   "t": "Well, so it's definitely exciting to think about how this technology might evolve."
+  },
+  {
+   "s": 782.98,
+   "e": 783.66,
+   "t": "It is."
+  },
+  {
+   "s": 784.1,
+   "e": 790.74,
+   "t": "But, you know, with any powerful tool we have to make sure that it's used responsibly and"
+  },
+  {
+   "s": 790.74,
+   "e": 791.1,
+   "t": "ethically."
+  },
+  {
+   "s": 791.22,
+   "e": 793.92,
+   "t": "We have to be mindful of the potential consequences."
+  },
+  {
+   "s": 794.38,
+   "e": 794.6,
+   "t": "Right."
+  },
+  {
+   "s": 794.6,
+   "e": 797.88,
+   "t": "Of manipulating our senses in such a profound way."
+  },
+  {
+   "s": 798.44,
+   "e": 805.14,
+   "t": "But if we do it carefully, you know, and with a focus on human well-being, I think this technology"
+  },
+  {
+   "s": 805.14,
+   "e": 806.88,
+   "t": "could really be a force for good."
+  },
+  {
+   "s": 807.26,
+   "e": 807.84,
+   "t": "I agree."
+  },
+  {
+   "s": 807.84,
+   "e": 814.1,
+   "t": "It could lead to incredible advancements in design and empathy and just our understanding"
+  },
+  {
+   "s": 814.1,
+   "e": 815.54,
+   "t": "of what it means to be human."
+  },
+  {
+   "s": 816.02,
+   "e": 816.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 816.32,
+   "e": 818.18,
+   "t": "This has been a really interesting deep dive."
+  },
+  {
+   "s": 818.42,
+   "e": 818.8,
+   "t": "It has."
+  },
+  {
+   "s": 818.94,
+   "e": 823.0,
+   "t": "And I think Dexterous Inc is a perfect example of how technology can really push the boundaries"
+  },
+  {
+   "s": 823.0,
+   "e": 824.04,
+   "t": "of human experience."
+  },
+  {
+   "s": 824.04,
+   "e": 825.06,
+   "t": "It really is."
+  },
+  {
+   "s": 825.48,
+   "e": 827.28,
+   "t": "So as we wrap up this deep dive."
+  },
+  {
+   "s": 827.44,
+   "e": 827.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 827.78,
+   "e": 829.0,
+   "t": "We want to leave you with a question."
+  },
+  {
+   "s": 829.82,
+   "e": 833.72,
+   "t": "How might you use Dexterous Inc to make a positive impact on the world?"
+  },
+  {
+   "s": 833.9,
+   "e": 834.68,
+   "t": "Think about it."
+  },
+  {
+   "s": 834.68,
+   "e": 838.98,
+   "t": "Until next time, keep exploring, keep questioning, and keep seeking knowledge."
+  }
+ ]
+}

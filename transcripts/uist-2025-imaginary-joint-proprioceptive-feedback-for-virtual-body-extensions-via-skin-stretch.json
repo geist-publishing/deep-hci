@@ -1,0 +1,725 @@
+{
+ "guid": "deephci.podbean.com/344e8c63-8b7b-52b1-9045-802f350d98f6",
+ "slug": "uist-2025-imaginary-joint-proprioceptive-feedback-for-virtual-body-extensions-via-skin-stretch",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Skin_Stretch_Creates_the_Imaginary_Joint.m4a",
+  "version": 1
+ },
+ "duration": 823,
+ "word_count": 2351,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 6.22,
+   "t": "Welcome to the Deep Dive. Today we are taking a deep exploration into the fusion of the human body"
+  },
+  {
+   "s": 6.22,
+   "e": 12.24,
+   "t": "and technology. We're focusing on a specific challenge. How do you integrate a virtual extension,"
+  },
+  {
+   "s": 12.64,
+   "e": 18.48,
+   "t": "say an extra arm or even a tail, into your physical self? And that challenge is at its core a profound"
+  },
+  {
+   "s": 18.48,
+   "e": 24.4,
+   "t": "physiological dilemma. When you augment the body with something that has no innate sensory nerves,"
+  },
+  {
+   "s": 24.86,
+   "e": 29.6,
+   "t": "how does the user know where it is? Right. How do you feel its position, the forces it"
+  },
+  {
+   "s": 29.6,
+   "e": 33.92,
+   "t": "encounters, without having to look at it all the time? Exactly. We're talking about a lack of"
+  },
+  {
+   "s": 33.92,
+   "e": 39.34,
+   "t": "proprioceptive feedback, that sort of sixth sense that tells your brain where your limbs are in space."
+  },
+  {
+   "s": 39.58,
+   "e": 43.98,
+   "t": "And the sources we've looked at propose a novel solution to this gap, something called the imaginary"
+  },
+  {
+   "s": 43.98,
+   "e": 49.94,
+   "t": "joint. It uses localized skin stretch feedback right at the boundary between your body and this virtual"
+  },
+  {
+   "s": 49.94,
+   "e": 55.8,
+   "t": "extension. It's a captivating idea. It is. So our mission for you today is to unpack the mechanism"
+  },
+  {
+   "s": 55.8,
+   "e": 61.44,
+   "t": "of this technology, review how it was tested, and grasp the implications of successfully constructing"
+  },
+  {
+   "s": 61.44,
+   "e": 69.3,
+   "t": "a fictional sensation that your brain might just accept as its own. Hmm. Okay. So let's set the stage"
+  },
+  {
+   "s": 69.3,
+   "e": 73.94,
+   "t": "with these body augmentation technologies. They're moving out of science fiction. You know, we're seeing"
+  },
+  {
+   "s": 73.94,
+   "e": 79.86,
+   "t": "designs for supernumerary limbs, extra fingers, even robotic tails. Correct. And their applications are"
+  },
+  {
+   "s": 79.86,
+   "e": 85.32,
+   "t": "twofold. On one hand, they enhance operational efficiency. Think of a surgeon who could use a third arm."
+  },
+  {
+   "s": 85.32,
+   "e": 91.42,
+   "t": "But just as important, they expand our expressive capabilities. In what way? Well, in virtual environments,"
+  },
+  {
+   "s": 91.56,
+   "e": 96.82,
+   "t": "these extensions can be used to convey very subtle social cues, emotions, things that are otherwise hard"
+  },
+  {
+   "s": 96.82,
+   "e": 101.72,
+   "t": "to communicate without seeing a person's face. So what's the primary barrier holding these innovations"
+  },
+  {
+   "s": 101.72,
+   "e": 106.74,
+   "t": "back? You mentioned that fundamental biological limitation. It's the lack of a neural connection. Without"
+  },
+  {
+   "s": 106.74,
+   "e": 112.0,
+   "t": "that, the user has to depend almost entirely on visual cues. And what's the cost of that visual"
+  },
+  {
+   "s": 112.0,
+   "e": 118.8,
+   "t": "dependence? It creates a severe cognitive burden. If you have an extension, say a robotic tail or an arm"
+  },
+  {
+   "s": 118.8,
+   "e": 123.9,
+   "t": "mounted on your back, it's often outside your field of view. You can't just keep looking over your shoulder."
+  },
+  {
+   "s": 124.0,
+   "e": 129.04,
+   "t": "You can't. It's impractical, sometimes impossible. So your efficiency drops because you're diverting"
+  },
+  {
+   "s": 129.04,
+   "e": 136.82,
+   "t": "mental resources just to track the limb. And in a social VR setting, this leads to unintended collisions."
+  },
+  {
+   "s": 136.82,
+   "e": 143.44,
+   "t": "You just don't feel the boundary of your augmented self. So if sight is inefficient, why is this skin"
+  },
+  {
+   "s": 143.44,
+   "e": 149.14,
+   "t": "stretch method seen as a better approach than other non-visual techniques? We already have things"
+  },
+  {
+   "s": 149.14,
+   "e": 153.58,
+   "t": "such as vibration or electrical stimulation. That is the core insight of this deep dive."
+  },
+  {
+   "s": 154.0,
+   "e": 159.0,
+   "t": "Conventional methods, vibration for instance, they typically convey abstract data coordinates for where"
+  },
+  {
+   "s": 159.0,
+   "e": 164.18,
+   "t": "the limb is. And electrical methods often need to target residual nerves, which is irrelevant for a body"
+  },
+  {
+   "s": 164.18,
+   "e": 169.6,
+   "t": "part that never existed in the first place. Skin stretch is fundamentally different. It mimics the"
+  },
+  {
+   "s": 169.6,
+   "e": 175.28,
+   "t": "natural input the brain already understands from proprioception. When a muscle contracts or a tendon"
+  },
+  {
+   "s": 175.28,
+   "e": 181.3,
+   "t": "pulls, the skin around that joint stretches and compresses. Our brain has evolved to interpret that"
+  },
+  {
+   "s": 181.3,
+   "e": 187.66,
+   "t": "sheer force as movement and tension. So it's tapping into an existing system. Precisely. Previous work has even"
+  },
+  {
+   "s": 187.66,
+   "e": 193.22,
+   "t": "shown that skin stimulation near the elbow could evoke a sensation that users described as an imaginary"
+  },
+  {
+   "s": 193.22,
+   "e": 198.24,
+   "t": "pendant. We are essentially leveraging the brain's existing framework for body awareness."
+  },
+  {
+   "s": 198.6,
+   "e": 204.36,
+   "t": "Let's transition from that physiological metaphor to the engineering. How did they actually build the"
+  },
+  {
+   "s": 204.36,
+   "e": 210.78,
+   "t": "hardware to create this physiological illusion, this imaginary joint? The physical device is a"
+  },
+  {
+   "s": 210.78,
+   "e": 216.52,
+   "t": "specialized wearable. It's quite light weighing, 83 grams per unit, and it's designed to be mounted around the waist."
+  },
+  {
+   "s": 216.52,
+   "e": 222.24,
+   "t": "And for this study, it was simulating what kind of motion? A single degree of freedom or one DOF lateral motion."
+  },
+  {
+   "s": 222.24,
+   "e": 227.5,
+   "t": "So just side-to-side sway or side-to-side force. Only one DOF for now. Got it. So walk us through the"
+  },
+  {
+   "s": 227.5,
+   "e": 232.24,
+   "t": "mechanics. How does it generate that precise skin stretch? The hardware is engineered specifically for"
+  },
+  {
+   "s": 232.24,
+   "e": 239.32,
+   "t": "robust shear force. It uses a rod-shaped actuator that runs parallel to the skin. This is driven by a rack"
+  },
+  {
+   "s": 239.32,
+   "e": 244.62,
+   "t": "and pinion mechanism. And there are two of them. Yes. Two identical units are placed on the back of the waist,"
+  },
+  {
+   "s": 244.62,
+   "e": 250.44,
+   "t": "one on each side of where the virtual joint would be. This is what creates the asymmetric forces needed to"
+  },
+  {
+   "s": 250.44,
+   "e": 256.7,
+   "t": "simulate movement. I saw a specific detail in the sources about the mounting. The use of six-millimeter"
+  },
+  {
+   "s": 256.7,
+   "e": 263.52,
+   "t": "thick high-friction neoprene foam. Why was that detail so essential? That's a critical engineering"
+  },
+  {
+   "s": 263.52,
+   "e": 269.72,
+   "t": "constraint. To get robust and consistent deformation of the skin, the actual stretching, the device has to"
+  },
+  {
+   "s": 269.72,
+   "e": 275.32,
+   "t": "be firmly coupled to the body. That foam provides the high-friction interface needed. And it also mentioned"
+  },
+  {
+   "s": 275.32,
+   "e": 281.18,
+   "t": "a substantial amount of pressure. It did. The mounting must apply a normal force between 30 and 50"
+  },
+  {
+   "s": 281.18,
+   "e": 287.16,
+   "t": "newtons perpendicular to the skin. 50 newtons sounds quite forceful for a wearable. It is, but it's"
+  },
+  {
+   "s": 287.16,
+   "e": 292.3,
+   "t": "required to prevent slippage. If the device slips relative to the skin, that shear force, the whole"
+  },
+  {
+   "s": 292.3,
+   "e": 297.36,
+   "t": "illusion of muscle tension, is lost. That pressure guarantees that when the actuator moves, the skin"
+  },
+  {
+   "s": 297.36,
+   "e": 302.98,
+   "t": "deforms with it. So the central metaphor is executed through this literal manipulation. If the virtual"
+  },
+  {
+   "s": 302.98,
+   "e": 308.52,
+   "t": "tail curves left, the skin on one side is compressed and the other side stretches. You're building a"
+  },
+  {
+   "s": 308.52,
+   "e": 314.12,
+   "t": "sensation from scratch. And once the hardware was validated, the researchers faced the next major hurdle,"
+  },
+  {
+   "s": 314.6,
+   "e": 320.14,
+   "t": "creating what they call informing mappings. Meaning they had to figure out how to translate the virtual"
+  },
+  {
+   "s": 320.14,
+   "e": 326.08,
+   "t": "information into a physical sensation. Exactly. They had to solve the inverse problem. How do you convert"
+  },
+  {
+   "s": 326.08,
+   "e": 332.9,
+   "t": "two independent virtual parameters, the tail's rotational angle and its torque, into one coordinated set of"
+  },
+  {
+   "s": 332.9,
+   "e": 338.84,
+   "t": "actuator movements that the brain can intuitively decode. Two distinct variables through one tactile"
+  },
+  {
+   "s": 338.84,
+   "e": 345.2,
+   "t": "channel. So how did they assign the sensation for each? Let's start with rotation. For rotation or angle,"
+  },
+  {
+   "s": 345.36,
+   "e": 350.9,
+   "t": "which was condition one, they decided the two actuators would move synchronously. So when the tail tilted to the"
+  },
+  {
+   "s": 350.9,
+   "e": 355.82,
+   "t": "right, the skin on the left side of the waist was extended. And how did that feel to participants? This was"
+  },
+  {
+   "s": 355.82,
+   "e": 361.34,
+   "t": "strongly preferred. People consistently reported that the feedback felt as though the tail moved smoothly."
+  },
+  {
+   "s": 361.34,
+   "e": 368.26,
+   "t": "They found it highly intuitive for sensing position. Okay, so what about torque or force? That's a measure of"
+  },
+  {
+   "s": 368.26,
+   "e": 374.48,
+   "t": "resistance, not position. So the mapping must be quite different. It is. For torque condition two, the goal was to"
+  },
+  {
+   "s": 374.48,
+   "e": 381.3,
+   "t": "communicate strain. In this case, the skin on the side experiencing the force was greatly extended. What was the"
+  },
+  {
+   "s": 381.3,
+   "e": 387.34,
+   "t": "metaphor there? The metaphor was of a muscle and tendon being stretched against an external load while trying to"
+  },
+  {
+   "s": 387.34,
+   "e": 394.38,
+   "t": "contract. This mapping was also highly favored with people reporting a strong sense of directionality and often"
+  },
+  {
+   "s": 394.38,
+   "e": 400.2,
+   "t": "comparing it to a physical muscle stretching. And this is where it becomes quite captivating. They then had to test the"
+  },
+  {
+   "s": 400.2,
+   "e": 408.06,
+   "t": "dual estimation task, which is perceiving both angle and torque at the same time. How did they combine those two distinct"
+  },
+  {
+   "s": 408.06,
+   "e": 416.0,
+   "t": "sensations? Through superposition. The final actuator stimulus, which they termed PI text, was derived by taking the"
+  },
+  {
+   "s": 416.0,
+   "e": 421.12,
+   "t": "arithmetic mean of the rotation stimulus and the torque stimulus. Can you help us picture that for the listener?"
+  },
+  {
+   "s": 421.5,
+   "e": 426.32,
+   "t": "If the tail is tilted 45 degrees right, but it's hitting high resistance, how does that feel different from"
+  },
+  {
+   "s": 426.32,
+   "e": 432.78,
+   "t": "tilting 45 degrees in free air? That's the clever part. In free air, the sensation is balanced to primarily convey the"
+  },
+  {
+   "s": 432.78,
+   "e": 440.1,
+   "t": "45 degree angle. But if it hits high resistance on the right, the torque mapping kicks in, significantly increasing the"
+  },
+  {
+   "s": 440.1,
+   "e": 445.94,
+   "t": "stretch on the left side of the body, the side pulling against that resistance. Ah, so the average of the two"
+  },
+  {
+   "s": 445.94,
+   "e": 452.7,
+   "t": "signals changes the overall feeling. Correct. The combined stimulus skews the sensation toward that high torque"
+  },
+  {
+   "s": 452.7,
+   "e": 458.78,
+   "t": "feeling, subtly communicating both position and resistance through the magnitude and symmetry of the"
+  },
+  {
+   "s": 458.78,
+   "e": 466.16,
+   "t": "stretch. It's an efficient way to relay multidimensional data. Now for the experimental results, the main study put"
+  },
+  {
+   "s": 466.16,
+   "e": 472.26,
+   "t": "this skin stretch feedback up against a conventional baseline, a vibro-tactile condition. What did the raw"
+  },
+  {
+   "s": 472.26,
+   "e": 477.82,
+   "t": "accuracy data show? Well, the performance data on perceptual accuracy was a clear validation for the imaginary"
+  },
+  {
+   "s": 477.82,
+   "e": 483.78,
+   "t": "joint. Skin stretch feedback decisively outperformed vibro-tactile feedback across all three estimation"
+  },
+  {
+   "s": 483.78,
+   "e": 489.68,
+   "t": "tasks. All three. So rotation, torque, and the combined tasks. Can we put that performance difference into more"
+  },
+  {
+   "s": 489.68,
+   "e": 495.8,
+   "t": "tangible terms? What did that accuracy look like? We can quantify it. For instance, in the rotation estimation"
+  },
+  {
+   "s": 495.8,
+   "e": 503.72,
+   "t": "task, the skin stretch approach yielded an error of about 0.60 error steps. That translates to a spatial error"
+  },
+  {
+   "s": 503.72,
+   "e": 511.52,
+   "t": "of just 10.8 degrees. 10.8 degrees. That's quite precise. It is. It was notably superior to the 0.82 error"
+  },
+  {
+   "s": 511.52,
+   "e": 517.38,
+   "t": "steps they saw in the vibro-tactile condition. And to give you some context, 10.8 degrees is less than the"
+  },
+  {
+   "s": 517.38,
+   "e": 522.48,
+   "t": "width of your thumb held out at arm's length. That's precise enough to navigate a crowded virtual room"
+  },
+  {
+   "s": 522.48,
+   "e": 528.14,
+   "t": "without constantly glancing back at your tail. Precisely. Now, there was one limitation we should"
+  },
+  {
+   "s": 528.14,
+   "e": 532.86,
+   "t": "note. The estimation clarity did decrease when the angle and torque stimuli were combined. So it was"
+  },
+  {
+   "s": 532.86,
+   "e": 538.18,
+   "t": "harder to separate the two. A bit, yes. Participants did experience some cognitive load trying to"
+  },
+  {
+   "s": 538.18,
+   "e": 543.72,
+   "t": "separate the two variables from that one superimposed sensation. But the results confirmed they could still"
+  },
+  {
+   "s": 543.72,
+   "e": 549.54,
+   "t": "perceive them as partially separable dimensions. That's the quantitative side. What about the subjective"
+  },
+  {
+   "s": 549.54,
+   "e": 554.86,
+   "t": "experience? How did it feel? That's where the results are even more compelling. Skin stretch scored"
+  },
+  {
+   "s": 554.86,
+   "e": 561.06,
+   "t": "significantly higher than vibration across all categories. Ownership, agency, enjoyment, naturalness,"
+  },
+  {
+   "s": 561.18,
+   "e": 567.5,
+   "t": "and intuitiveness. The brain just accepted the fictional muscle sensation far more readily than the abstract"
+  },
+  {
+   "s": 567.5,
+   "e": 573.56,
+   "t": "buzzing. And the qualitative feedback seems to seal the case. Participants described the sensation as"
+  },
+  {
+   "s": 573.56,
+   "e": 580.36,
+   "t": "resembling an innate body feeling. They used phrases such as felt tail-like. One person noted that it"
+  },
+  {
+   "s": 580.36,
+   "e": 585.02,
+   "t": "closely resembled what I imagine it would feel like if I had a tail that could move laterally."
+  },
+  {
+   "s": 585.48,
+   "e": 590.94,
+   "t": "That superior naturalness is key to successful embodiment. There was also a note about VR sickness."
+  },
+  {
+   "s": 590.94,
+   "e": 597.16,
+   "t": "Yes, a fascinating side effect. Two participants reported VR sickness, but only during the vibro-tactile"
+  },
+  {
+   "s": 597.16,
+   "e": 602.74,
+   "t": "condition. It suggests the brain's rejection of that unnatural sensory input the vibration might"
+  },
+  {
+   "s": 602.74,
+   "e": 607.88,
+   "t": "contribute to simulator sickness. So the skin stretch approach could offer greater comfort for prolonged"
+  },
+  {
+   "s": 607.88,
+   "e": 614.18,
+   "t": "use. Okay, let's turn to the practical applications this enables. The first, and maybe most immediate,"
+  },
+  {
+   "s": 614.58,
+   "e": 620.98,
+   "t": "is simply refining the perception of extended bodies in virtual spaces. Yes. If users have precise"
+  },
+  {
+   "s": 620.98,
+   "e": 628.18,
+   "t": "non-visual awareness of their posture, it eliminates significant problems in social VR. It helps avoid those"
+  },
+  {
+   "s": 628.18,
+   "e": 633.96,
+   "t": "unintended collisions or tails obstructing someone's view. It just improves general spatial awareness."
+  },
+  {
+   "s": 633.96,
+   "e": 639.86,
+   "t": "And frees up cognitive resources for other tasks. Exactly. Secondly, I'm thinking about enhanced bodily"
+  },
+  {
+   "s": 639.86,
+   "e": 647.08,
+   "t": "expression. In performance contexts, such as dance or theater, this could be transformative. It could. If a"
+  },
+  {
+   "s": 647.08,
+   "e": 652.98,
+   "t": "dancer uses a robotic tail to signal an emotion, this proprio-sective feedback ensures they don't have to"
+  },
+  {
+   "s": 652.98,
+   "e": 658.28,
+   "t": "break character to visually check the tail's position. It elevates the expressive quality."
+  },
+  {
+   "s": 658.28,
+   "e": 662.92,
+   "t": "A third critical area is body-mediated communication. What does that mean exactly?"
+  },
+  {
+   "s": 663.26,
+   "e": 667.74,
+   "t": "Well, imagine a scenario where the extension's movement is controlled externally by another user,"
+  },
+  {
+   "s": 667.84,
+   "e": 673.2,
+   "t": "maybe, or by an AI. The user isn't commanding the movement themselves. So they lack that motor command,"
+  },
+  {
+   "s": 673.28,
+   "e": 678.84,
+   "t": "the efferent cue. Correct. The brain isn't sending the output signal. In that case, providing the strong"
+  },
+  {
+   "s": 678.84,
+   "e": 684.3,
+   "t": "afferent feedback, the input confirming the movement from the imaginary joint is crucial for making sense of it."
+  },
+  {
+   "s": 684.3,
+   "e": 690.16,
+   "t": "It lets you feel what's being done to your body. Precisely. It facilitates better attentional allocation"
+  },
+  {
+   "s": 690.16,
+   "e": 695.66,
+   "t": "and reduces the cognitive load of integrating that external movement. Despite this success,"
+  },
+  {
+   "s": 696.02,
+   "e": 699.94,
+   "t": "what are the clear limitations of the current system? Where does the research go from here?"
+  },
+  {
+   "s": 700.22,
+   "e": 706.44,
+   "t": "The most obvious limitation is that it's currently only one D off, just lateral motion. The logical next step"
+  },
+  {
+   "s": 706.44,
+   "e": 712.9,
+   "t": "is extending this to a 2-do-f configuration, so adding yaw and pitch, or even tackling multi-joint"
+  },
+  {
+   "s": 712.9,
+   "e": 718.22,
+   "t": "structures. Which would dramatically increase the complexity of the mappings. Without a doubt. Another"
+  },
+  {
+   "s": 718.22,
+   "e": 724.04,
+   "t": "area for refinement is the mapping itself. The actuator movement is currently linear, but human perception"
+  },
+  {
+   "s": 724.04,
+   "e": 730.32,
+   "t": "is non-linear. So a smart push might feel like a lot, but a big push doesn't feel proportionally bigger."
+  },
+  {
+   "s": 730.66,
+   "e": 735.9,
+   "t": "Something along those lines. Adjusting the mapping to account for that could minimize the perceptual errors."
+  },
+  {
+   "s": 735.9,
+   "e": 739.94,
+   "t": "Particularly in that middle range where the dual inputs cause some confusion."
+  },
+  {
+   "s": 739.94,
+   "e": 744.94,
+   "t": "And the final hurdle seems to be a practical one. Making this something you can actually wear day to day."
+  },
+  {
+   "s": 744.94,
+   "e": 751.46,
+   "t": "Indeed. The requirement for wearing the device directly on bare skin is a significant hurdle for adoption."
+  },
+  {
+   "s": 752.22,
+   "e": 757.6,
+   "t": "Future work has to focus on developing sheer feedback methods that remain clear and discriminable even"
+  },
+  {
+   "s": 757.6,
+   "e": 764.3,
+   "t": "through clothing. In synthesis, the imaginary joint system marks a significant milestone. It's a fundamental"
+  },
+  {
+   "s": 764.3,
+   "e": 770.7,
+   "t": "shift in the design paradigm. It's not about generating abstract signals. It's about designing body-like"
+  },
+  {
+   "s": 770.7,
+   "e": 777.08,
+   "t": "feedback for parts that do not naturally exist. It's leveraging that localized skin stretch to simulate the"
+  },
+  {
+   "s": 777.08,
+   "e": 782.14,
+   "t": "tension of a fictional joint. And by doing that, the system achieves superior embodiment, naturalness,"
+  },
+  {
+   "s": 782.24,
+   "e": 787.06,
+   "t": "and perceptual accuracy compared to conventional modalities for conveying both position and force."
+  },
+  {
+   "s": 787.06,
+   "e": 792.84,
+   "t": "So if we can successfully engineer a fictional sensation, a sense of muscle and tendon that the brain fully"
+  },
+  {
+   "s": 792.84,
+   "e": 797.9,
+   "t": "accepts and integrates as innate, how far can we actually push the boundaries of body schema modification?"
+  },
+  {
+   "s": 798.18,
+   "e": 799.34,
+   "t": "That is the ultimate question."
+  },
+  {
+   "s": 799.68,
+   "e": 804.26,
+   "t": "This technology suggests that the definition of the physical self is more malleable than we might have"
+  },
+  {
+   "s": 804.26,
+   "e": 811.46,
+   "t": "assumed. If self-awareness can be expanded by touch alone, we are not simply adding tools. We are expanding the"
+  },
+  {
+   "s": 811.46,
+   "e": 814.4,
+   "t": "very definition of what it means to be human in these augmented environments."
+  },
+  {
+   "s": 814.4,
+   "e": 820.14,
+   "t": "That concludes this deep dive into the integration of virtual extensions and the quest for innate"
+  },
+  {
+   "s": 820.14,
+   "e": 823.04,
+   "t": "proprioceptive feedback. Thank you for joining us."
+  }
+ ]
+}

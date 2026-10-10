@@ -1,0 +1,1200 @@
+{
+ "guid": "deephci.podbean.com/9f94db32-09d1-3f34-a849-f45b7363379d",
+ "slug": "ismar-2024-filtering-on-the-go-effect-of-filters-on-gaze-pointing-accuracy-during-physical-locomotion-in-extended-reality",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1109-TVCG-2024-3456153.mp3",
+  "version": 1
+ },
+ "duration": 1226,
+ "word_count": 3706,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 5.36,
+   "t": "Welcome to the Deep Dive. Today we are examining how to make eye tracking more accurate, especially"
+  },
+  {
+   "s": 5.36,
+   "e": 10.26,
+   "t": "when people are moving around. You provided a research paper on gaze filtering in extended"
+  },
+  {
+   "s": 10.26,
+   "e": 16.62,
+   "t": "reality, XR for short. We'll be diving into why this is such a challenge and what researchers are"
+  },
+  {
+   "s": 16.62,
+   "e": 21.32,
+   "t": "finding out about filtering gaze on the go. Yes, and as XR is becoming more prevalent, it's more"
+  },
+  {
+   "s": 21.32,
+   "e": 25.88,
+   "t": "likely that users will be moving around. So ensuring accurate gaze tracking in these dynamic"
+  },
+  {
+   "s": 25.88,
+   "e": 30.68,
+   "t": "environments is crucial. So let's unpack why gaze tracking in XR is more challenging than, say,"
+  },
+  {
+   "s": 31.0,
+   "e": 36.84,
+   "t": "on a desktop computer. Well, on a desktop, gaze is just a 2D point on the screen. But in XR,"
+  },
+  {
+   "s": 37.04,
+   "e": 42.56,
+   "t": "gaze is a 3D vector with both direction and origin. You can think of it as a laser pointer. Then on top"
+  },
+  {
+   "s": 42.56,
+   "e": 46.62,
+   "t": "of that, you have head movement. And I imagine spatial reference frames, SRFs, play a role in"
+  },
+  {
+   "s": 46.62,
+   "e": 52.1,
+   "t": "this complexity. Exactly. SRFs define the location of a target, something like a button or some virtual"
+  },
+  {
+   "s": 52.1,
+   "e": 57.04,
+   "t": "object relative to the user. Whether an object is anchored to the world or attached to the user's"
+  },
+  {
+   "s": 57.04,
+   "e": 62.64,
+   "t": "head, it occupies a specific SRF. And this can really impact how our eyes naturally track it,"
+  },
+  {
+   "s": 62.92,
+   "e": 68.58,
+   "t": "impacting accuracy. So even if a target appears stationary in my XR world, my eyes might be making"
+  },
+  {
+   "s": 68.58,
+   "e": 72.74,
+   "t": "adjustments to stay focused on it. That's right. And this is where filters come into play."
+  },
+  {
+   "s": 73.0,
+   "e": 75.92,
+   "t": "Okay, so tell me more about why these filters are so important."
+  },
+  {
+   "s": 75.92,
+   "e": 82.4,
+   "t": "All eye trackers, even the most advanced ones, have some inherent noise. This noise affects both"
+  },
+  {
+   "s": 82.4,
+   "e": 89.96,
+   "t": "accuracy and precision. Accuracy is how close the measured gaze is to the actual target. Precision is"
+  },
+  {
+   "s": 89.96,
+   "e": 96.7,
+   "t": "how stable that gaze point is. Online filters work in real time, and they smooth out this data to create"
+  },
+  {
+   "s": 96.7,
+   "e": 101.88,
+   "t": "a more stable and reliable gaze signal. So they're kind of cleaning up our eye movements. That's a good way"
+  },
+  {
+   "s": 101.88,
+   "e": 106.7,
+   "t": "to put it. The challenge is getting the balance right. Too much filtering, and you might get a lag"
+  },
+  {
+   "s": 106.7,
+   "e": 112.1,
+   "t": "in gaze response. Or you could miss those fast eye movements called saccades. Too little filtering,"
+  },
+  {
+   "s": 112.44,
+   "e": 114.96,
+   "t": "and well, then the noise makes it difficult to interact smoothly."
+  },
+  {
+   "s": 115.42,
+   "e": 120.54,
+   "t": "Now, the researchers use the term target size. Can you explain what that is and why it matters?"
+  },
+  {
+   "s": 120.8,
+   "e": 126.52,
+   "t": "Target size is simply how large a target has to be for the system to reliably pick up the user's gaze."
+  },
+  {
+   "s": 126.72,
+   "e": 128.92,
+   "t": "Bigger target size means less accuracy."
+  },
+  {
+   "s": 128.92,
+   "e": 133.66,
+   "t": "I've certainly had my own experiences with imprecise gaze controls, constantly having to"
+  },
+  {
+   "s": 133.66,
+   "e": 137.86,
+   "t": "readjust my gaze to select something. Sounds like target size is a big part of that."
+  },
+  {
+   "s": 138.0,
+   "e": 142.78,
+   "t": "Yes, it is. And this is where this research is particularly relevant. They found that something"
+  },
+  {
+   "s": 142.78,
+   "e": 147.86,
+   "t": "as simple as walking or jogging could make the target size noticeably worse in some cases."
+  },
+  {
+   "s": 148.04,
+   "e": 153.56,
+   "t": "I suppose it makes sense, since our bodies naturally try to keep our vision stable as we move,"
+  },
+  {
+   "s": 154.0,
+   "e": 158.06,
+   "t": "and those movements can interfere with trying to point precisely with our eyes."
+  },
+  {
+   "s": 158.06,
+   "e": 162.22,
+   "t": "That's it. It's an important observation, showing that filters designed for sitting still"
+  },
+  {
+   "s": 162.22,
+   "e": 167.54,
+   "t": "might not be enough. The research actually looks at five different filters, each with pros and cons."
+  },
+  {
+   "s": 167.7,
+   "e": 171.52,
+   "t": "Let's discuss them. Starting with the weighted average, or WA filter."
+  },
+  {
+   "s": 171.8,
+   "e": 177.3,
+   "t": "The WA filter is pretty simple, conceptually. It averages a number of past gaze points and gives more"
+  },
+  {
+   "s": 177.3,
+   "e": 181.98,
+   "t": "weight to the more recent ones. It's easy to implement, but it's limited by how big its averaging"
+  },
+  {
+   "s": 181.98,
+   "e": 185.96,
+   "t": "window is. So a good starting point, but maybe not the most sophisticated solution."
+  },
+  {
+   "s": 186.26,
+   "e": 193.24,
+   "t": "What about this WASD filter? So the WASD filter, or weighted average with saccade detection,"
+  },
+  {
+   "s": 193.6,
+   "e": 199.4,
+   "t": "takes that WA filter and adds something important. It actually restarts the averaging process after each"
+  },
+  {
+   "s": 199.4,
+   "e": 205.62,
+   "t": "saccade. This prevents the filter from being influenced by the gaze data from before the eye jumped to a new spot."
+  },
+  {
+   "s": 205.62,
+   "e": 210.1,
+   "t": "So it's like telling the filter, hey, ignore what happened before my eyes jumped to this new spot."
+  },
+  {
+   "s": 210.5,
+   "e": 212.7,
+   "t": "What about this LPSDN filter?"
+  },
+  {
+   "s": 213.32,
+   "e": 219.24,
+   "t": "LPSDN stands for low-pass filter with N-backed saccade detection. It uses something called a low-pass"
+  },
+  {
+   "s": 219.24,
+   "e": 224.26,
+   "t": "filter, which smooths the data based on a cutoff frequency. This allows for more smoothing than just"
+  },
+  {
+   "s": 224.26,
+   "e": 230.04,
+   "t": "using a WA filter. But then it adds a saccade detection mechanism that looks further back in time and frames"
+  },
+  {
+   "s": 230.04,
+   "e": 234.7,
+   "t": "back, to be precise. That improved detection makes it better at handling the noise that comes from movement."
+  },
+  {
+   "s": 234.7,
+   "e": 240.46,
+   "t": "So LPSDN is like the heavy-duty filter with a fancy detection system. How is that different from the LPWSD?"
+  },
+  {
+   "s": 240.8,
+   "e": 248.22,
+   "t": "The LPWSD, that's low-pass filter with window-based saccade detection, well, it also uses a low-pass filter."
+  },
+  {
+   "s": 248.58,
+   "e": 253.9,
+   "t": "But the key difference is how it detects saccades. Instead of just looking at a single-passed gaze point,"
+  },
+  {
+   "s": 254.36,
+   "e": 258.44,
+   "t": "it looks at a window of them and averages them to figure out if there was likely a saccade."
+  },
+  {
+   "s": 258.94,
+   "e": 262.34,
+   "t": "This can be really good at dealing with noise from things like head movements,"
+  },
+  {
+   "s": 262.34,
+   "e": 265.58,
+   "t": "but it can introduce a small delay in how quickly it responds."
+  },
+  {
+   "s": 265.82,
+   "e": 269.38,
+   "t": "Ah, so it's that trade-off between noise reduction and responsiveness again."
+  },
+  {
+   "s": 269.54,
+   "e": 269.84,
+   "t": "Ah."
+  },
+  {
+   "s": 269.86,
+   "e": 273.04,
+   "t": "And lastly, we have the 1-year-old filter. What sets this one apart?"
+  },
+  {
+   "s": 273.36,
+   "e": 278.02,
+   "t": "The 1-year-old filter is adaptive, which means it changes how much smoothing it does based on how"
+  },
+  {
+   "s": 278.02,
+   "e": 283.76,
+   "t": "fast the input signal is changing. In this case, that means how fast your gaze is moving. It doesn't have"
+  },
+  {
+   "s": 283.76,
+   "e": 287.58,
+   "t": "an explicit saccade detection mechanism like the others, but because it's adaptive,"
+  },
+  {
+   "s": 287.58,
+   "e": 291.14,
+   "t": "it can respond dynamically to changes in how your gaze is behaving."
+  },
+  {
+   "s": 291.3,
+   "e": 294.42,
+   "t": "So instead of having set rules, it's constantly adjusting on the fly."
+  },
+  {
+   "s": 294.54,
+   "e": 298.28,
+   "t": "Exactly. And one thing that's important to point out, which the research emphasizes,"
+  },
+  {
+   "s": 298.56,
+   "e": 303.3,
+   "t": "is that there's no single best filter. Which filter works best depends on a few things."
+  },
+  {
+   "s": 303.64,
+   "e": 305.16,
+   "t": "Well, you mentioned movement pace earlier."
+  },
+  {
+   "s": 305.44,
+   "e": 309.98,
+   "t": "Right. As you move faster, you introduce more noise into the eye-pracking data."
+  },
+  {
+   "s": 310.54,
+   "e": 316.6,
+   "t": "This means filtering becomes even more important. Imagine trying to keep your gaze fixed on a target"
+  },
+  {
+   "s": 316.6,
+   "e": 318.84,
+   "t": "while you're jogging versus standing still."
+  },
+  {
+   "s": 319.0,
+   "e": 323.76,
+   "t": "Yeah. It sounds difficult. Do the SRFs we talked about earlier affect filter performance too?"
+  },
+  {
+   "s": 324.02,
+   "e": 329.08,
+   "t": "Definitely. Remember, SRFs define how a target is positioned relative to the user."
+  },
+  {
+   "s": 329.74,
+   "e": 334.44,
+   "t": "Some SRFs are more prone to causing eye movements that mess with accurate pointing."
+  },
+  {
+   "s": 335.0,
+   "e": 340.36,
+   "t": "For example, if a target is fixed to your head and you move your head, your eyes will move to stay"
+  },
+  {
+   "s": 340.36,
+   "e": 344.28,
+   "t": "focused on the target. These movements, though natural, add noise."
+  },
+  {
+   "s": 344.28,
+   "e": 349.5,
+   "t": "So a filter that works well for a target anchored in the world might not be as effective for a target"
+  },
+  {
+   "s": 349.5,
+   "e": 350.64,
+   "t": "that's attached to my head."
+  },
+  {
+   "s": 350.76,
+   "e": 356.58,
+   "t": "Exactly. Distance to the target also matters. The farther away a target is, the more impact even"
+  },
+  {
+   "s": 356.58,
+   "e": 357.9,
+   "t": "small head movements have."
+  },
+  {
+   "s": 357.98,
+   "e": 362.4,
+   "t": "Kind of like pointing a laser pointer at something far away. Even a little shake in your hand can make"
+  },
+  {
+   "s": 362.4,
+   "e": 367.58,
+   "t": "the dot move all over. You know, the research also mentioned an unexpected finding related to"
+  },
+  {
+   "s": 367.58,
+   "e": 368.44,
+   "t": "coordinate systems."
+  },
+  {
+   "s": 368.44,
+   "e": 374.06,
+   "t": "The researchers found that filtering works best when it's done in the same coordinate system as the"
+  },
+  {
+   "s": 374.06,
+   "e": 374.46,
+   "t": "target."
+  },
+  {
+   "s": 375.06,
+   "e": 376.12,
+   "t": "Why is that unexpected?"
+  },
+  {
+   "s": 376.86,
+   "e": 381.8,
+   "t": "Well, a lot of the time, eye tracking data is filtered at the source, meaning in the eye tracker's"
+  },
+  {
+   "s": 381.8,
+   "e": 387.3,
+   "t": "own coordinate system. This research suggests that to get the best performance, you actually want to"
+  },
+  {
+   "s": 387.3,
+   "e": 389.8,
+   "t": "filter the data in the coordinate system of the target."
+  },
+  {
+   "s": 390.26,
+   "e": 395.82,
+   "t": "So this means that for people developing XR experiences, relying on the eye tracker's built-in filtering"
+  },
+  {
+   "s": 395.82,
+   "e": 400.44,
+   "t": "might not be the most effective strategy. Instead, they might need to implement filtering in their own"
+  },
+  {
+   "s": 400.44,
+   "e": 401.08,
+   "t": "applications."
+  },
+  {
+   "s": 401.74,
+   "e": 406.98,
+   "t": "That's right. By filtering the data in the target's coordinate system, you can create more accurate and"
+  },
+  {
+   "s": 406.98,
+   "e": 408.08,
+   "t": "responsive interactions."
+  },
+  {
+   "s": 408.5,
+   "e": 415.02,
+   "t": "But we have to consider that a complex XR experience could have targets located in different SRFs, like we"
+  },
+  {
+   "s": 415.02,
+   "e": 415.74,
+   "t": "discussed before."
+  },
+  {
+   "s": 415.92,
+   "e": 421.88,
+   "t": "You're right. The research suggests that it might be beneficial to dynamically switch filtering systems"
+  },
+  {
+   "s": 421.88,
+   "e": 424.68,
+   "t": "depending on what the user is focused on at that moment."
+  },
+  {
+   "s": 424.68,
+   "e": 430.34,
+   "t": "For example, if I'm looking at a menu that's attached to my hand, the system would filter the gaze data using"
+  },
+  {
+   "s": 430.34,
+   "e": 431.84,
+   "t": "the coordinate system of my hand."
+  },
+  {
+   "s": 432.18,
+   "e": 439.02,
+   "t": "Exactly. And if you shift your gaze to a world-anchored object, the system would switch to filtering in the"
+  },
+  {
+   "s": 439.02,
+   "e": 444.08,
+   "t": "world coordinate system. This adaptability makes sure the filtering process is always optimized for whatever"
+  },
+  {
+   "s": 444.08,
+   "e": 445.42,
+   "t": "target you're interacting with."
+  },
+  {
+   "s": 445.5,
+   "e": 452.16,
+   "t": "So it's all about context-aware filtering. The system is constantly analyzing the situation and adjusting its"
+  },
+  {
+   "s": 452.16,
+   "e": 456.24,
+   "t": "approach to give you the most accurate and responsive gaze experience."
+  },
+  {
+   "s": 456.56,
+   "e": 457.62,
+   "t": "That's a good way to sum it up."
+  },
+  {
+   "s": 458.16,
+   "e": 462.9,
+   "t": "Now, in their tests, the researchers found that generally filters that included saccade detection worked best."
+  },
+  {
+   "s": 462.98,
+   "e": 466.52,
+   "t": "Especially those that were good at dealing with that motion-induced noise, right?"
+  },
+  {
+   "s": 466.56,
+   "e": 474.0,
+   "t": "Right. The LPWSD and LPSDN filters, specifically with higher N values, were really good at balancing,"
+  },
+  {
+   "s": 474.32,
+   "e": 478.3,
+   "t": "smoothing out the data with being responsive to those quick eye movements."
+  },
+  {
+   "s": 478.3,
+   "e": 483.06,
+   "t": "We've covered a lot of ground here. It's clear that gaze filtering in XR is, well, it's complex,"
+  },
+  {
+   "s": 483.5,
+   "e": 489.52,
+   "t": "but it's crucial if we want to create XR experiences that are intuitive and user-friendly."
+  },
+  {
+   "s": 489.7,
+   "e": 494.42,
+   "t": "It really is. And there's more to uncover. We should probably dive deeper into the whole idea of the"
+  },
+  {
+   "s": 494.42,
+   "e": 495.66,
+   "t": "saccade threshold itself."
+  },
+  {
+   "s": 496.04,
+   "e": 500.84,
+   "t": "The saccade threshold, as I understand it, is that sensitivity setting that controls the saccade detection."
+  },
+  {
+   "s": 501.56,
+   "e": 507.58,
+   "t": "Exactly. And getting that setting right is important. Let's explore that further in part two of our deep dive."
+  },
+  {
+   "s": 508.3,
+   "e": 513.42,
+   "t": "Welcome back. We're going to dig a bit deeper into these saccade thresholds,"
+  },
+  {
+   "s": 513.42,
+   "e": 517.18,
+   "t": "since they're so crucial for optimizing gaze filtering in XR."
+  },
+  {
+   "s": 517.42,
+   "e": 521.6,
+   "t": "And as we discussed, getting that threshold right is this balancing act."
+  },
+  {
+   "s": 521.66,
+   "e": 525.58,
+   "t": "It's all about how sensitive the filter is to those rapid eye movements."
+  },
+  {
+   "s": 525.82,
+   "e": 532.7,
+   "t": "Precisely. If the threshold is set too low, the filter might mistake little wobbles in the gaze data for actual saccades."
+  },
+  {
+   "s": 532.7,
+   "e": 538.3,
+   "t": "And that leads to unnecessary resets of the smoothing process. Essentially, you end up with overcorrection,"
+  },
+  {
+   "s": 538.52,
+   "e": 540.8,
+   "t": "which makes for a less smooth gaze experience."
+  },
+  {
+   "s": 541.02,
+   "e": 544.14,
+   "t": "What about the opposite problem? What happens if you set the threshold too high?"
+  },
+  {
+   "s": 544.36,
+   "e": 549.4,
+   "t": "Well, if it's too high, then the filter might miss real saccades altogether. And the result is that the"
+  },
+  {
+   "s": 549.4,
+   "e": 554.76,
+   "t": "filtered gaze lags behind the user's actual eye movements. That can really affect how responsive the system feels."
+  },
+  {
+   "s": 554.76,
+   "e": 559.0,
+   "t": "It sounds like the research offers some specific recommendations on how to strike this balance."
+  },
+  {
+   "s": 559.0,
+   "e": 564.92,
+   "t": "It does. And it's based on the expected movement pace of the user. Which makes sense,"
+  },
+  {
+   "s": 565.38,
+   "e": 568.9,
+   "t": "because more vigorous movement means more noise in the gaze data."
+  },
+  {
+   "s": 569.52,
+   "e": 571.14,
+   "t": "Can you walk me through those recommendations?"
+  },
+  {
+   "s": 571.14,
+   "e": 577.54,
+   "t": "Sure. For a one-frame look-back saccade detection mechanism, where the filter is comparing the current"
+  },
+  {
+   "s": 577.54,
+   "e": 582.64,
+   "t": "gaze point to the one right before it, the study suggests keeping the threshold between the 75th"
+  },
+  {
+   "s": 582.64,
+   "e": 588.6,
+   "t": "percentile of angular distances during fixations and the 25th percentile during actual saccades."
+  },
+  {
+   "s": 588.86,
+   "e": 594.62,
+   "t": "So essentially finding that upper limit of those normal fixation jitters and the lower limit of"
+  },
+  {
+   "s": 594.62,
+   "e": 596.0,
+   "t": "saccade magnitudes. Yeah."
+  },
+  {
+   "s": 596.08,
+   "e": 599.98,
+   "t": "Trying to filter out the noise without suppressing those genuine eye movements."
+  },
+  {
+   "s": 599.98,
+   "e": 605.38,
+   "t": "Exactly. The goal is to find that sweet spot where you're effectively reducing noise without missing"
+  },
+  {
+   "s": 605.38,
+   "e": 610.96,
+   "t": "out on those real eye movements. Now, for a three-frame look-back, where the current gaze point is compared"
+  },
+  {
+   "s": 610.96,
+   "e": 616.3,
+   "t": "to the one three-frames earlier, the study recommends a slightly different approach. They suggest setting"
+  },
+  {
+   "s": 616.3,
+   "e": 621.28,
+   "t": "the threshold between the 95th percentile for fixations and the 5th percentile for saccades."
+  },
+  {
+   "s": 621.52,
+   "e": 626.36,
+   "t": "So a higher threshold for the three-frame look-back. That's right. The idea is that by looking at a"
+  },
+  {
+   "s": 626.36,
+   "e": 631.56,
+   "t": "larger window of data, the filter becomes less sensitive to those momentary fluctuations."
+  },
+  {
+   "s": 631.56,
+   "e": 636.38,
+   "t": "That way, it can better distinguish between noise and actual eye movements."
+  },
+  {
+   "s": 636.38,
+   "e": 640.16,
+   "t": "This reminds me of those scenarios you mentioned earlier, walking versus jogging."
+  },
+  {
+   "s": 640.42,
+   "e": 644.86,
+   "t": "Right. Let's look at those cases. If we're assuming the user is mostly going to be walking,"
+  },
+  {
+   "s": 645.36,
+   "e": 651.72,
+   "t": "the study suggests a saccade threshold no higher than 2.45 degrees for that three-frame look-back."
+  },
+  {
+   "s": 651.72,
+   "e": 657.92,
+   "t": "And what about jogging? For jogging, they recommend dropping the threshold to 2.05 degrees. Since"
+  },
+  {
+   "s": 657.92,
+   "e": 662.36,
+   "t": "there's more noise involved with jogging, you need a slightly lower threshold to make sure you don't"
+  },
+  {
+   "s": 662.36,
+   "e": 667.92,
+   "t": "miss those rapid eye movements. The study emphasizes that using the higher end of these recommended ranges"
+  },
+  {
+   "s": 667.92,
+   "e": 674.34,
+   "t": "typically results in better accuracy. Any particular reason why that is? It comes back to the whole issue"
+  },
+  {
+   "s": 674.34,
+   "e": 680.24,
+   "t": "of noise. A higher threshold, within reason, of course, means the filter is less likely to react to those"
+  },
+  {
+   "s": 680.24,
+   "e": 685.3,
+   "t": "spurious jitters in the data, especially during movement. That means fewer restarts of the smoothing"
+  },
+  {
+   "s": 685.3,
+   "e": 691.04,
+   "t": "process, which lets the filter work more effectively. So the goal isn't just to detect saccades, but to also"
+  },
+  {
+   "s": 691.04,
+   "e": 696.76,
+   "t": "be smart about filtering out anything that might look like a saccade, but is really just noise."
+  },
+  {
+   "s": 696.96,
+   "e": 701.7,
+   "t": "That's it. And the study even suggests that it might be possible to adjust the saccade threshold"
+  },
+  {
+   "s": 701.7,
+   "e": 707.44,
+   "t": "dynamically based on real-time measurements of how fast the user is moving. So instead of having a fixed"
+  },
+  {
+   "s": 707.44,
+   "e": 712.56,
+   "t": "threshold, the system could adapt to the user's current activity and fine-tune that sensitivity"
+  },
+  {
+   "s": 712.56,
+   "e": 717.42,
+   "t": "automatically. Yeah, it's an interesting area for future research, and it could lead to even more"
+  },
+  {
+   "s": 717.42,
+   "e": 723.02,
+   "t": "responsive and accurate gaze interactions in dynamic XR. So we've covered those five filters,"
+  },
+  {
+   "s": 723.3,
+   "e": 727.64,
+   "t": "and we've dug into the saccade threshold, even touched on the idea of dynamic adaptation."
+  },
+  {
+   "s": 728.5,
+   "e": 732.74,
+   "t": "What other advice does this research offer for people who are building XR experiences?"
+  },
+  {
+   "s": 732.74,
+   "e": 738.28,
+   "t": "The study strongly recommends turning off any built-in filtering that the eye tracker itself provides."
+  },
+  {
+   "s": 738.42,
+   "e": 742.08,
+   "t": "That seems a bit counterintuitive. Why would we want to turn off something that's supposed to help"
+  },
+  {
+   "s": 742.08,
+   "e": 746.04,
+   "t": "with accuracy? Well, remember our conversation earlier about that unexpected finding with the"
+  },
+  {
+   "s": 746.04,
+   "e": 750.6,
+   "t": "coordinate systems? Yeah, we found out that filtering works best when it's done in the same coordinate"
+  },
+  {
+   "s": 750.6,
+   "e": 756.38,
+   "t": "system as the target. Right. The eye tracker's built-in filtering is usually done in its own coordinate"
+  },
+  {
+   "s": 756.38,
+   "e": 761.34,
+   "t": "system, which is often different from the coordinate system of the virtual objects the user is"
+  },
+  {
+   "s": 761.34,
+   "e": 766.16,
+   "t": "interacting with. So it can actually work against you. So instead of just relying on the eye tracker's"
+  },
+  {
+   "s": 766.16,
+   "e": 771.26,
+   "t": "built-in filtering, developers should take control and implement their own filtering within their"
+  },
+  {
+   "s": 771.26,
+   "e": 777.02,
+   "t": "applications. That's a key takeaway. By filtering in the target's coordinate system, we can achieve more"
+  },
+  {
+   "s": 777.02,
+   "e": 783.06,
+   "t": "accurate and responsive interactions. But we also need to think about the fact that a complex XR experience"
+  },
+  {
+   "s": 783.06,
+   "e": 788.78,
+   "t": "could have targets located in different SRFs, right? Those SRFs we talked about earlier. You're absolutely"
+  },
+  {
+   "s": 788.78,
+   "e": 793.14,
+   "t": "right. That's where the research suggests that it might be beneficial to dynamically switch filtering"
+  },
+  {
+   "s": 793.14,
+   "e": 797.92,
+   "t": "systems based on what the user is looking at. So if I'm looking at a menu that's attached to my hand,"
+  },
+  {
+   "s": 798.32,
+   "e": 804.88,
+   "t": "the system would filter the gaze data using the coordinate system of my hand. Precisely. And if you then"
+  },
+  {
+   "s": 804.88,
+   "e": 810.5,
+   "t": "look at an object that's anchored to the world, the system would seamlessly switch over to filtering in"
+  },
+  {
+   "s": 810.5,
+   "e": 817.24,
+   "t": "the world coordinate system. This kind of adaptability ensures that the filtering is always optimized for the"
+  },
+  {
+   "s": 817.24,
+   "e": 822.14,
+   "t": "specific target you're interacting with. This dynamic approach to filtering, where the system is"
+  },
+  {
+   "s": 822.14,
+   "e": 828.38,
+   "t": "constantly analyzing and adjusting based on context, that seems to be a big takeaway here. It is. And while"
+  },
+  {
+   "s": 828.38,
+   "e": 833.76,
+   "t": "this research is focused specifically on gaze filtering in XR, I think it has broader implications. You're"
+  },
+  {
+   "s": 833.76,
+   "e": 839.48,
+   "t": "saying that these findings might be relevant to other technologies that use gaze tracking? Exactly. As gaze"
+  },
+  {
+   "s": 839.48,
+   "e": 844.64,
+   "t": "tracking is used in more and more fields, the need for effective filtering techniques is going to grow."
+  },
+  {
+   "s": 844.64,
+   "e": 850.82,
+   "t": "You mentioned assistive technologies as an example. Think about someone who has motor impairments and uses"
+  },
+  {
+   "s": 850.82,
+   "e": 858.12,
+   "t": "their gaze to control a wheelchair or interact with a computer. In those cases, having precise and responsive"
+  },
+  {
+   "s": 858.12,
+   "e": 863.32,
+   "t": "gaze control isn't just a matter of convenience. It's essential for their independence and quality of life."
+  },
+  {
+   "s": 863.74,
+   "e": 870.04,
+   "t": "And even small head movements could really throw off the accuracy in those situations. These filters we've"
+  },
+  {
+   "s": 870.04,
+   "e": 875.0,
+   "t": "talked about, especially those that incorporate saccade detection, could be really important to making sure"
+  },
+  {
+   "s": 875.0,
+   "e": 880.9,
+   "t": "those experiences are smooth and reliable. Exactly. And it goes beyond assistive technologies."
+  },
+  {
+   "s": 881.58,
+   "e": 886.64,
+   "t": "Gaze tracking can be used to create more inclusive interfaces for people with all sorts of disabilities."
+  },
+  {
+   "s": 886.96,
+   "e": 892.6,
+   "t": "Like someone with limited dexterity in their hands could use their gaze to browse the web or control their"
+  },
+  {
+   "s": 892.6,
+   "e": 898.76,
+   "t": "smart home devices. Exactly. And having effective filtering can make those interactions more intuitive and less"
+  },
+  {
+   "s": 898.76,
+   "e": 903.7,
+   "t": "tiring so they can use technology in a way that works best for them. And as we discussed earlier,"
+  },
+  {
+   "s": 903.88,
+   "e": 909.38,
+   "t": "gaze tracking is starting to show up in more mainstream consumer devices. We're already seeing laptops and"
+  },
+  {
+   "s": 909.38,
+   "e": 914.42,
+   "t": "smartphones with gaze tracking built in, and they can be used for things like monitoring attention or"
+  },
+  {
+   "s": 914.42,
+   "e": 919.48,
+   "t": "scrolling without using your hands. As the technology improves, I think we'll see even more innovative"
+  },
+  {
+   "s": 919.48,
+   "e": 926.68,
+   "t": "applications. Imagine using your gaze to control your TV, play video games, or interact with virtual assistants."
+  },
+  {
+   "s": 926.68,
+   "e": 932.12,
+   "t": "The possibilities are really exciting. But to make gaze tracking truly successful in all these different"
+  },
+  {
+   "s": 932.12,
+   "e": 938.66,
+   "t": "areas, we need to make sure the underlying technology is robust, accurate, and responsive. And that's where this"
+  },
+  {
+   "s": 938.66,
+   "e": 943.66,
+   "t": "research on gaze filtering is so important. It gives developers a roadmap, regardless of what kind of"
+  },
+  {
+   "s": 943.66,
+   "e": 949.4,
+   "t": "application they're building. It reminds us that we need to consider the whole picture, how the user is moving,"
+  },
+  {
+   "s": 949.76,
+   "e": 955.76,
+   "t": "what the interface is like, and how sensitive those filtering algorithms are. It's about moving away from this idea"
+  },
+  {
+   "s": 955.76,
+   "e": 962.58,
+   "t": "that the user is always sitting still, and designing for a world where technology adapts to our gaze, no matter where"
+  },
+  {
+   "s": 962.58,
+   "e": 968.98,
+   "t": "we are or what we're doing. That's a vision worth striving for. A world where gaze interaction becomes intuitive and"
+  },
+  {
+   "s": 968.98,
+   "e": 974.62,
+   "t": "empowering, where it breaks down barriers and opens up new possibilities for how we interact with technology."
+  },
+  {
+   "s": 974.78,
+   "e": 981.36,
+   "t": "Welcome back to our final segment on gaze filtering. We've delved into some pretty technical details, but let's take a step back and"
+  },
+  {
+   "s": 981.36,
+   "e": 987.9,
+   "t": "think about the bigger picture here. What are the wider implications of this research? As gaze tracking becomes more common in"
+  },
+  {
+   "s": 987.9,
+   "e": 994.68,
+   "t": "different areas, the need for those effective filtering techniques is only going to grow. We started by talking about how"
+  },
+  {
+   "s": 994.68,
+   "e": 1001.24,
+   "t": "crucial gaze filtering is in XR, especially when users are on the move. But you mentioned that these findings could be"
+  },
+  {
+   "s": 1001.24,
+   "e": 1009.12,
+   "t": "applicable to a wider range of technologies as well. Yes, exactly. As gaze tracking gains traction across diverse fields, the demand for"
+  },
+  {
+   "s": 1009.12,
+   "e": 1015.04,
+   "t": "robust filtering methods becomes even more critical. You brought up assistive technologies earlier as an example. Imagine"
+  },
+  {
+   "s": 1015.04,
+   "e": 1022.48,
+   "t": "individuals with motor impairments using their gaze to control a wheelchair or interact with a computer. In those situations,"
+  },
+  {
+   "s": 1023.12,
+   "e": 1030.12,
+   "t": "precise and responsive gaze control is absolutely crucial for their independence and quality of life. It goes beyond just"
+  },
+  {
+   "s": 1030.12,
+   "e": 1037.36,
+   "t": "convenience. Even slight head movements could significantly impact the accuracy in those situations. Those filters we discussed,"
+  },
+  {
+   "s": 1037.36,
+   "e": 1042.64,
+   "t": "particularly the ones with SACA detection, could really make a difference in ensuring a smooth and reliable"
+  },
+  {
+   "s": 1042.64,
+   "e": 1049.94,
+   "t": "experience. Yes, precisely. And it extends beyond assistive technologies. Gaze tracking has the potential to create more"
+  },
+  {
+   "s": 1049.94,
+   "e": 1056.08,
+   "t": "inclusive interfaces for people with a variety of disabilities. For someone with limited dexterity in their hands, they could use"
+  },
+  {
+   "s": 1056.08,
+   "e": 1063.04,
+   "t": "their gaze to navigate a website or control smart home devices. Exactly. Effective filtering can make those interactions more"
+  },
+  {
+   "s": 1063.04,
+   "e": 1069.84,
+   "t": "intuitive and less tiring, allowing users to interact with technology in a way that suits them best. And as we touched on earlier,"
+  },
+  {
+   "s": 1069.84,
+   "e": 1076.8,
+   "t": "gaze tracking is starting to appear in more mainstream consumer devices as well. We're already seeing laptops and smartphones with"
+  },
+  {
+   "s": 1076.8,
+   "e": 1085.2,
+   "t": "gaze tracking capabilities used for things like attention monitoring or scrolling hands free. As this technology continues to advance, I"
+  },
+  {
+   "s": 1085.2,
+   "e": 1093.02,
+   "t": "anticipate even more innovative applications. Imagine a future where you can control your television, play games or even interact with a lot of the"
+  },
+  {
+   "s": 1093.04,
+   "e": 1100.4,
+   "t": "virtual assistants using just your gaze. The possibilities are really quite vast. But to fully realize the potential of"
+  },
+  {
+   "s": 1100.4,
+   "e": 1107.36,
+   "t": "gaze tracking across all these different domains, we have to ensure that the underlying technology is robust, accurate and"
+  },
+  {
+   "s": 1107.36,
+   "e": 1114.4,
+   "t": "responsive. And that's where this research on gaze filtering is so valuable. It provides a roadmap for developers no matter what"
+  },
+  {
+   "s": 1114.4,
+   "e": 1120.96,
+   "t": "specific application they're working on. It serves as a reminder that we need to consider the user's entire context, their movement"
+  },
+  {
+   "s": 1120.96,
+   "e": 1126.32,
+   "t": "patterns, the characteristics of the interface, and the sensitivity of those filtering algorithms."
+  },
+  {
+   "s": 1126.32,
+   "e": 1133.92,
+   "t": "It's about moving beyond this assumption that the user is always stationary. And designing for a world where technology seamlessly"
+  },
+  {
+   "s": 1133.92,
+   "e": 1140.72,
+   "t": "adapts to our gaze, no matter where we are, or what we're doing. That's definitely a vision worth pursuing a world where"
+  },
+  {
+   "s": 1140.72,
+   "e": 1148.16,
+   "t": "gaze interaction is intuitive and empowering, where it breaks down barriers and opens up new possibilities for how we interact with"
+  },
+  {
+   "s": 1148.16,
+   "e": 1154.56,
+   "t": "technology. This exploration of gaze filtering has been really enlightening. It's amazing how a seemingly niche area of"
+  },
+  {
+   "s": 1154.56,
+   "e": 1157.76,
+   "t": "research can have such broad implications for the future of technology."
+  },
+  {
+   "s": 1157.76,
+   "e": 1164.72,
+   "t": "I agree. As we've seen, it goes beyond just technical details. It's about understanding the intricacies of human eye movements, how"
+  },
+  {
+   "s": 1164.72,
+   "e": 1171.04,
+   "t": "noise and movement affect accuracy, and ultimately how we can use that knowledge to design more human-centered technologies."
+  },
+  {
+   "s": 1171.04,
+   "e": 1176.88,
+   "t": "It was a pleasure. As we wrap up this deep dive, I'd like to leave our listeners with a question to ponder."
+  },
+  {
+   "s": 1177.52,
+   "e": 1184.64,
+   "t": "We've talked about how technology can adapt to our gaze, but how might our understanding of gaze filtering inform the design of"
+  },
+  {
+   "s": 1184.64,
+   "e": 1190.72,
+   "t": "physical spaces and interactions in the real world? That's an interesting thought. Could we apply these principles to"
+  },
+  {
+   "s": 1190.72,
+   "e": 1197.44,
+   "t": "improve things like signage, wayfinding, or even the layout of environments to create experiences that are more"
+  },
+  {
+   "s": 1197.44,
+   "e": 1203.12,
+   "t": "intuitive and engaging? It's a challenge worth exploring, and it highlights the interconnectedness between the"
+  },
+  {
+   "s": 1203.12,
+   "e": 1209.44,
+   "t": "digital and physical realms. What we learn about gaze in one area can inform and enrich the other. Until our"
+  },
+  {
+   "s": 1209.44,
+   "e": 1214.88,
+   "t": "next deep dive, keep exploring, keep questioning, and keep delving deeper into the world of knowledge."
+  },
+  {
+   "s": 1214.88,
+   "e": 1220.0,
+   "t": "Thanks for joining us on this enlightening journey. We hope our listeners will come away with a greater appreciation"
+  },
+  {
+   "s": 1220.0,
+   "e": 1225.44,
+   "t": "for the complexities of gaze tracking and the importance of effective filtering techniques."
+  }
+ ]
+}

@@ -1,0 +1,860 @@
+{
+ "guid": "deephci.podbean.com/b1030347-6cf7-33fe-91d5-33ccd4b52ddc",
+ "slug": "uist-2024-honorable-mention-can-a-smartwatch-move-your-fingers-compact-and-practical-electrical-muscle-stimulation-in-a-smartwatch",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "hm-3654777-3676373.mp3",
+  "version": 1
+ },
+ "duration": 720,
+ "word_count": 1950,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 8.2,
+   "t": "Imagine receiving directions, not through sound, not sight, but through subtle sensations on your fingertips, all from your smartwatch."
+  },
+  {
+   "s": 8.62,
+   "e": 11.44,
+   "t": "This potential future is what we will be examining today."
+  },
+  {
+   "s": 11.86,
+   "e": 15.54,
+   "t": "We're taking a deep dive into the recent research presented at UAS 24."
+  },
+  {
+   "s": 16.16,
+   "e": 18.42,
+   "t": "Can a smartwatch move your fingers?"
+  },
+  {
+   "s": 19.28,
+   "e": 22.52,
+   "t": "Compact and practical electrical muscle stimulation in a smartwatch."
+  },
+  {
+   "s": 22.52,
+   "e": 23.9,
+   "t": "This research is compelling."
+  },
+  {
+   "s": 24.22,
+   "e": 29.12,
+   "t": "It takes electrical muscle stimulation, a technology often perceived as bulky and cumbersome."
+  },
+  {
+   "s": 29.12,
+   "e": 32.56,
+   "t": "And presents a discrete and user-friendly implementation."
+  },
+  {
+   "s": 33.28,
+   "e": 36.52,
+   "t": "The researchers address a significant limitation of traditional EMS."
+  },
+  {
+   "s": 37.18,
+   "e": 41.8,
+   "t": "The use of electrodes placed on the forearm, a method that poses challenges for daily use."
+  },
+  {
+   "s": 42.18,
+   "e": 50.4,
+   "t": "Indeed, the study highlights the cumbersome calibration process and the social awkwardness associated with visible electrodes, hindering the technology's widespread adoption."
+  },
+  {
+   "s": 50.4,
+   "e": 53.18,
+   "t": "This is where the ingenuity of their approach becomes clear."
+  },
+  {
+   "s": 53.76,
+   "e": 57.6,
+   "t": "They relocate all electrodes to the wrist, integrating them into a smartwatch band."
+  },
+  {
+   "s": 57.6,
+   "e": 58.94,
+   "t": "This is a strategic decision."
+  },
+  {
+   "s": 59.48,
+   "e": 66.52,
+   "t": "While many finger muscles originate in the forearm, several essential ones are accessible at the wrist, an anatomical feature the researchers utilize."
+  },
+  {
+   "s": 66.52,
+   "e": 74.38,
+   "t": "And they've gone a step further, developing a cross-sectional stimulation method, which involves placing electrodes on opposite sides of the wrist."
+  },
+  {
+   "s": 74.38,
+   "e": 81.5,
+   "t": "This placement creates a deeper, more effective path for the electrical current, ensuring it reaches the intended muscles with greater precision."
+  },
+  {
+   "s": 82.16,
+   "e": 89.8,
+   "t": "Think of it as optimizing the delivery of electrical stimulation, much as one might arrange speakers to create a surround sound experience."
+  },
+  {
+   "s": 90.04,
+   "e": 96.34,
+   "t": "To clarify, did the researchers investigate which electropositions corresponded to specific finger movements?"
+  },
+  {
+   "s": 96.34,
+   "e": 98.4,
+   "t": "They conducted a comprehensive study."
+  },
+  {
+   "s": 98.4,
+   "e": 106.14,
+   "t": "It involved testing a significant number of hand poses and wristband positions, ultimately mapping muscle activation with great accuracy."
+  },
+  {
+   "s": 106.7,
+   "e": 108.1,
+   "t": "And they achieved notable outcomes."
+  },
+  {
+   "s": 108.56,
+   "e": 112.4,
+   "t": "They were able to generate reliable thumb extension, index finger extension, and flexion."
+  },
+  {
+   "s": 112.84,
+   "e": 116.32,
+   "t": "Middle finger flexion, pinky finger flexion, and even wrist flexion."
+  },
+  {
+   "s": 116.64,
+   "e": 119.16,
+   "t": "And all of this by stimulating muscles from the wrist."
+  },
+  {
+   "s": 119.16,
+   "e": 120.88,
+   "t": "Yes, this finding is significant."
+  },
+  {
+   "s": 121.52,
+   "e": 128.56,
+   "t": "Because it demonstrates that their innovative approach can produce a range of finger movements, previously thought to require direct forearm stimulation."
+  },
+  {
+   "s": 129.04,
+   "e": 131.94,
+   "t": "This naturally leads to the question of real-world practicality."
+  },
+  {
+   "s": 132.28,
+   "e": 134.3,
+   "t": "Was this aspect addressed in their research?"
+  },
+  {
+   "s": 134.8,
+   "e": 142.64,
+   "t": "To address this, they designed a second study, specifically to assess the practicality and social acceptance of the wrist-based EMS system."
+  },
+  {
+   "s": 143.16,
+   "e": 146.26,
+   "t": "Two crucial factors for any new technology's success."
+  },
+  {
+   "s": 146.26,
+   "e": 148.44,
+   "t": "And did they involve users in this study?"
+  },
+  {
+   "s": 148.44,
+   "e": 155.0,
+   "t": "To ensure realism, the researchers tasked participants with calibrating the wrist-based EMS device without assistance."
+  },
+  {
+   "s": 155.54,
+   "e": 159.98,
+   "t": "This approach aimed to evaluate the system's intuitiveness for first-time users."
+  },
+  {
+   "s": 160.1,
+   "e": 160.88,
+   "t": "That's quite a challenge."
+  },
+  {
+   "s": 161.26,
+   "e": 164.6,
+   "t": "To familiarize users with a novel interface without guidance."
+  },
+  {
+   "s": 164.96,
+   "e": 166.3,
+   "t": "How did the participants manage?"
+  },
+  {
+   "s": 166.62,
+   "e": 168.34,
+   "t": "They performed surprisingly well."
+  },
+  {
+   "s": 168.68,
+   "e": 174.32,
+   "t": "Participants calibrated the wrist-based EMS device 50% faster than a traditional forearm-based system."
+  },
+  {
+   "s": 174.58,
+   "e": 178.0,
+   "t": "This result underscores the practical advantage of this new design."
+  },
+  {
+   "s": 178.0,
+   "e": 183.92,
+   "t": "That's a substantial difference, indicating that it's not just about discretion, but also enhanced user-friendliness."
+  },
+  {
+   "s": 184.48,
+   "e": 185.46,
+   "t": "What about social acceptance?"
+  },
+  {
+   "s": 185.7,
+   "e": 187.92,
+   "t": "Were participants at ease wearing the device in public?"
+  },
+  {
+   "s": 188.1,
+   "e": 190.4,
+   "t": "This is where the study becomes even more compelling."
+  },
+  {
+   "s": 191.18,
+   "e": 196.18,
+   "t": "Participants were asked to wear the device in public settings, interacting with others as they typically would."
+  },
+  {
+   "s": 196.18,
+   "e": 201.62,
+   "t": "So, they essentially went about their day, gauging reactions to the device."
+  },
+  {
+   "s": 202.1,
+   "e": 204.9,
+   "t": "Did they have someone in the field to observe reactions?"
+  },
+  {
+   "s": 204.9,
+   "e": 205.54,
+   "t": "Yes."
+  },
+  {
+   "s": 206.22,
+   "e": 213.78,
+   "t": "They employed a confederate to engage participants in conversation, observing if they exhibited any self-consciousness about wearing the device."
+  },
+  {
+   "s": 213.78,
+   "e": 223.14,
+   "t": "So, while they weren't tasked with any extraordinary feats, this aspect of the study was crucial for understanding how the technology might be perceived in everyday situations."
+  },
+  {
+   "s": 223.9,
+   "e": 225.0,
+   "t": "What were the reactions?"
+  },
+  {
+   "s": 225.64,
+   "e": 230.58,
+   "t": "The study revealed that participants were entirely comfortable wearing the device during their public outings."
+  },
+  {
+   "s": 231.06,
+   "e": 232.78,
+   "t": "They reported that it went largely unnoticed."
+  },
+  {
+   "s": 232.78,
+   "e": 237.4,
+   "t": "So, a slightly thicker smartwatch didn't seem to draw any undue attention."
+  },
+  {
+   "s": 238.04,
+   "e": 242.74,
+   "t": "Did they offer any comparisons with their perception of wearing the traditional forearm EMS setup?"
+  },
+  {
+   "s": 242.74,
+   "e": 249.1,
+   "t": "Several participants expressed concerns about the potential awkwardness and stigma associated with visible electrodes on their forearms."
+  },
+  {
+   "s": 249.46,
+   "e": 253.52,
+   "t": "They imagined it would draw unwanted attention and make social interaction uncomfortable."
+  },
+  {
+   "s": 254.02,
+   "e": 254.66,
+   "t": "Understandably."
+  },
+  {
+   "s": 254.86,
+   "e": 262.5,
+   "t": "It highlights the importance of a technology being both functional and socially acceptable for it to be truly integrated into our lives."
+  },
+  {
+   "s": 262.5,
+   "e": 263.3,
+   "t": "Precisely."
+  },
+  {
+   "s": 263.7,
+   "e": 268.48,
+   "t": "The desire to experience cutting-edge technology shouldn't come at the cost of personal comfort."
+  },
+  {
+   "s": 268.98,
+   "e": 271.5,
+   "t": "This research demonstrates that both are attainable."
+  },
+  {
+   "s": 271.74,
+   "e": 277.78,
+   "t": "We now have this compact device, capable of controlling finger movements, discreetly placed on the wrist."
+  },
+  {
+   "s": 278.52,
+   "e": 280.64,
+   "t": "The next question is what can it do?"
+  },
+  {
+   "s": 281.34,
+   "e": 284.5,
+   "t": "What are the potential applications that have garnered so much excitement?"
+  },
+  {
+   "s": 284.78,
+   "e": 286.94,
+   "t": "That's where things become exceptionally promising."
+  },
+  {
+   "s": 287.16,
+   "e": 291.94,
+   "t": "The applications of this technology extend far beyond what one might initially envision."
+  },
+  {
+   "s": 291.94,
+   "e": 297.7,
+   "t": "From what we've discussed so far, this technology has implications that go beyond simple haptic notifications."
+  },
+  {
+   "s": 298.26,
+   "e": 302.28,
+   "t": "It seems to represent a completely new way to interact with technology and our surroundings."
+  },
+  {
+   "s": 302.64,
+   "e": 309.18,
+   "t": "Indeed, the researchers have outlined several potential applications, with haptic guidance during exercise being one notable example."
+  },
+  {
+   "s": 309.36,
+   "e": 312.96,
+   "t": "So, rather than looking at a smartwatch for guidance, users would feel it."
+  },
+  {
+   "s": 312.96,
+   "e": 317.3,
+   "t": "That would be a significant development for those who value focus during workouts."
+  },
+  {
+   "s": 317.52,
+   "e": 323.96,
+   "t": "Imagine a scenario where you feel a slight pull on your thumb, reminding you to maintain proper posture during squats."
+  },
+  {
+   "s": 324.36,
+   "e": 329.0,
+   "t": "Or perhaps a gentle flexion of your index finger signals the beginning of your next set."
+  },
+  {
+   "s": 329.22,
+   "e": 337.86,
+   "t": "It would be as if you had a personal trainer on your wrist, guiding your every movement, eliminating the need to glance at screens mid-workout."
+  },
+  {
+   "s": 337.86,
+   "e": 338.54,
+   "t": "Precisely."
+  },
+  {
+   "s": 338.98,
+   "e": 344.24,
+   "t": "The researchers also explored the potential for eyes-free GPS navigation using this technology."
+  },
+  {
+   "s": 344.48,
+   "e": 346.14,
+   "t": "That's a use case many can relate to."
+  },
+  {
+   "s": 346.52,
+   "e": 350.68,
+   "t": "Navigating an unfamiliar city while trying to discreetly check your phone can be a challenge."
+  },
+  {
+   "s": 350.98,
+   "e": 354.16,
+   "t": "It does highlight the limitations of current navigation systems."
+  },
+  {
+   "s": 354.68,
+   "e": 359.84,
+   "t": "Now, imagine walking down the street, guided by subtle finger movements from your smartwatch."
+  },
+  {
+   "s": 359.84,
+   "e": 362.48,
+   "t": "A tug to the left for an upcoming left turn."
+  },
+  {
+   "s": 362.8,
+   "e": 364.42,
+   "t": "A flex to the right for a right turn."
+  },
+  {
+   "s": 364.86,
+   "e": 367.86,
+   "t": "This would eliminate the need to constantly consult your phone screen."
+  },
+  {
+   "s": 368.32,
+   "e": 369.16,
+   "t": "That would be transformative."
+  },
+  {
+   "s": 369.54,
+   "e": 369.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 369.88,
+   "e": 371.68,
+   "t": "Especially for those who struggle with navigation."
+  },
+  {
+   "s": 372.14,
+   "e": 373.4,
+   "t": "What about reaching your destination?"
+  },
+  {
+   "s": 373.52,
+   "e": 374.86,
+   "t": "Would there be a specific indication?"
+  },
+  {
+   "s": 375.14,
+   "e": 376.2,
+   "t": "They've addressed that as well."
+  },
+  {
+   "s": 376.46,
+   "e": 382.76,
+   "t": "Their proposed solution involves a thumbs-up gesture, triggered by the wrist-based EMS to signal arrival."
+  },
+  {
+   "s": 383.12,
+   "e": 384.66,
+   "t": "A fitting way to conclude your journey."
+  },
+  {
+   "s": 385.08,
+   "e": 388.66,
+   "t": "It appears this technology could also revitalize existing EMS applications."
+  },
+  {
+   "s": 389.84,
+   "e": 391.42,
+   "t": "Earlier, you mentioned drumming."
+  },
+  {
+   "s": 391.52,
+   "e": 392.42,
+   "t": "Can you elaborate on that?"
+  },
+  {
+   "s": 392.82,
+   "e": 393.14,
+   "t": "Certainly."
+  },
+  {
+   "s": 393.5,
+   "e": 398.8,
+   "t": "One example they provided involved using wrist-based EMS to offer haptic feedback during drumming practice."
+  },
+  {
+   "s": 399.2,
+   "e": 405.02,
+   "t": "Imagine feeling the rhythm on your wrist, guiding your movements as you master new beats or complex rhythms."
+  },
+  {
+   "s": 405.44,
+   "e": 408.98,
+   "t": "So it's not just about hearing the music, but feeling it as well."
+  },
+  {
+   "s": 409.14,
+   "e": 409.66,
+   "t": "Precisely."
+  },
+  {
+   "s": 410.08,
+   "e": 413.94,
+   "t": "And because the device is so compact and unobtrusive, it wouldn't hinder movement."
+  },
+  {
+   "s": 414.12,
+   "e": 418.1,
+   "t": "It's all about enhancing the experience, not detracting from it."
+  },
+  {
+   "s": 418.1,
+   "e": 419.22,
+   "t": "That's a crucial point."
+  },
+  {
+   "s": 419.22,
+   "e": 421.8,
+   "t": "What about applications in immersive experiences?"
+  },
+  {
+   "s": 422.14,
+   "e": 424.72,
+   "t": "EMS has been explored in virtual reality, hasn't it?"
+  },
+  {
+   "s": 424.96,
+   "e": 427.42,
+   "t": "It has, and this research builds upon that concept."
+  },
+  {
+   "s": 427.68,
+   "e": 433.68,
+   "t": "They envision a future where smartwatches with integrated EMS serve as force feedback devices for VR games."
+  },
+  {
+   "s": 434.4,
+   "e": 440.28,
+   "t": "Imagine feeling the resistance of turning a virtual steering wheel, all through subtle muscle stimulation on your wrist."
+  },
+  {
+   "s": 440.48,
+   "e": 443.16,
+   "t": "It adds a whole new dimension of realism to gaming."
+  },
+  {
+   "s": 443.16,
+   "e": 449.6,
+   "t": "And because the EMS is integrated into a smartwatch, it eliminates the need for bulky peripherals."
+  },
+  {
+   "s": 450.22,
+   "e": 453.72,
+   "t": "Users can simply put on their smartwatch and immerse themselves in the experience."
+  },
+  {
+   "s": 453.98,
+   "e": 462.26,
+   "t": "It suggests a future where technology seamlessly blends with our lives, augmenting our capabilities and perceptions in ways we're only beginning to explore."
+  },
+  {
+   "s": 462.26,
+   "e": 468.04,
+   "t": "This research exemplifies that shift towards a more immersive and intuitive technological landscape."
+  },
+  {
+   "s": 468.04,
+   "e": 470.62,
+   "t": "And it goes beyond just creating new experiences."
+  },
+  {
+   "s": 471.16,
+   "e": 472.9,
+   "t": "It's also about improving existing ones."
+  },
+  {
+   "s": 473.5,
+   "e": 480.1,
+   "t": "They even revisited a previous research project that focused on smart objects, specifically using EMS to create them."
+  },
+  {
+   "s": 480.22,
+   "e": 482.6,
+   "t": "You're referring to the smart door application, I presume."
+  },
+  {
+   "s": 482.6,
+   "e": 487.74,
+   "t": "It's an example of how wrist-based EMS could enable more discreet and socially acceptable interactions."
+  },
+  {
+   "s": 487.96,
+   "e": 495.12,
+   "t": "Yes, the initial version of this smart door relied on forearm EMS to communicate with users, which could be awkward in certain settings."
+  },
+  {
+   "s": 495.48,
+   "e": 496.7,
+   "t": "Imagine approaching a door."
+  },
+  {
+   "s": 497.56,
+   "e": 503.5,
+   "t": "Instead of a knock or a flashing light, feeling a subtle pulse on your wrist, indicating whether the occupant is available."
+  },
+  {
+   "s": 504.04,
+   "e": 508.04,
+   "t": "It represents a more subtle and context-aware way to interact with our surroundings."
+  },
+  {
+   "s": 508.04,
+   "e": 515.9,
+   "t": "It appears this technology has the potential to transform how we interact not only with our devices, but also with everyday objects."
+  },
+  {
+   "s": 516.64,
+   "e": 522.18,
+   "t": "Potentially ushering in a world where technology seamlessly integrates into our lives without being intrusive."
+  },
+  {
+   "s": 522.4,
+   "e": 524.24,
+   "t": "That is the ultimate goal, is it not?"
+  },
+  {
+   "s": 524.52,
+   "e": 527.82,
+   "t": "To create technologies that are both powerful and unobtrusive."
+  },
+  {
+   "s": 528.48,
+   "e": 530.42,
+   "t": "Enhancing our lives without dictating them."
+  },
+  {
+   "s": 530.9,
+   "e": 533.72,
+   "t": "This research represents a significant step in that direction."
+  },
+  {
+   "s": 533.72,
+   "e": 541.44,
+   "t": "While this wrist-based EMS technology appears to hold great promise, are there any limitations or challenges the researchers acknowledged in their work?"
+  },
+  {
+   "s": 541.7,
+   "e": 542.14,
+   "t": "There are."
+  },
+  {
+   "s": 542.58,
+   "e": 549.8,
+   "t": "While their studies demonstrate the feasibility and practicality of wrist-based EMS for various applications, they acknowledge there is room for improvement."
+  },
+  {
+   "s": 550.56,
+   "e": 553.76,
+   "t": "Currently, the system cannot actuate all five fingers independently."
+  },
+  {
+   "s": 554.52,
+   "e": 557.74,
+   "t": "Movements requiring fine motor control remain beyond its capabilities."
+  },
+  {
+   "s": 558.24,
+   "e": 559.02,
+   "t": "That's understandable."
+  },
+  {
+   "s": 559.44,
+   "e": 561.06,
+   "t": "Our hands are remarkably complex."
+  },
+  {
+   "s": 561.06,
+   "e": 566.8,
+   "t": "Replicating their full range of motion with external stimulation is a considerable challenge."
+  },
+  {
+   "s": 567.32,
+   "e": 567.72,
+   "t": "Indeed."
+  },
+  {
+   "s": 568.22,
+   "e": 571.32,
+   "t": "However, it's crucial to remember that this is just the beginning."
+  },
+  {
+   "s": 572.06,
+   "e": 577.2,
+   "t": "Researchers are already exploring ways to enhance the dexterity of the wrist-based EMS system."
+  },
+  {
+   "s": 577.84,
+   "e": 581.88,
+   "t": "One promising avenue is incorporating automatic calibration techniques."
+  },
+  {
+   "s": 581.88,
+   "e": 589.4,
+   "t": "So, rather than requiring users to calibrate the device, it would adjust itself based on individual anatomy and muscle responses."
+  },
+  {
+   "s": 589.4,
+   "e": 591.04,
+   "t": "That would be quite convenient."
+  },
+  {
+   "s": 591.36,
+   "e": 599.26,
+   "t": "Imagine a wristband that simply works upon being worn, automatically adjusting its stimulation parameters to provide the most accurate and comfortable experience."
+  },
+  {
+   "s": 599.78,
+   "e": 602.64,
+   "t": "That's the level of seamless integration they aim to achieve."
+  },
+  {
+   "s": 602.86,
+   "e": 605.26,
+   "t": "Automatic calibration would certainly enhance practicality."
+  },
+  {
+   "s": 605.64,
+   "e": 607.88,
+   "t": "You mentioned the integration of other sensing technologies."
+  },
+  {
+   "s": 608.0,
+   "e": 609.04,
+   "t": "Could you elaborate on that?"
+  },
+  {
+   "s": 609.04,
+   "e": 614.64,
+   "t": "One area of exploration involves integrating the wrist-based EMS with real-time pose detection."
+  },
+  {
+   "s": 614.64,
+   "e": 621.0,
+   "t": "Meaning the device wouldn't just stimulate muscle movements, but also detect the hands' position and orientation."
+  },
+  {
+   "s": 621.66,
+   "e": 623.7,
+   "t": "That suggests a sophisticated feedback loop."
+  },
+  {
+   "s": 623.96,
+   "e": 624.48,
+   "t": "Precisely."
+  },
+  {
+   "s": 624.86,
+   "e": 633.92,
+   "t": "By combining these technologies, they could create a system that adapts to hand movements instantaneously, resulting in even more precise and nuanced haptic feedback."
+  },
+  {
+   "s": 633.92,
+   "e": 636.62,
+   "t": "This opens up some remarkable possibilities."
+  },
+  {
+   "s": 637.16,
+   "e": 645.1,
+   "t": "Imagine a world where we control our digital devices with subtle hand gestures, all while receiving tactile responses through our wrists."
+  },
+  {
+   "s": 645.74,
+   "e": 648.32,
+   "t": "It could revolutionize our interactions with technology."
+  },
+  {
+   "s": 648.54,
+   "e": 650.92,
+   "t": "It does present a future brimming with potential."
+  },
+  {
+   "s": 651.38,
+   "e": 662.16,
+   "t": "Imagine a surgeon receiving haptic feedback during a complex robotic surgery, or a musician sensing the subtleties of a virtual instrument through their fingertips, all thanks to this technology."
+  },
+  {
+   "s": 662.16,
+   "e": 669.82,
+   "t": "It's not just about replacing current interfaces, but creating new ones, pushing the boundaries of human-computer interaction."
+  },
+  {
+   "s": 670.16,
+   "e": 672.44,
+   "t": "This research has certainly opened the door to such a future."
+  },
+  {
+   "s": 672.8,
+   "e": 682.18,
+   "t": "By reimagining a technology often viewed as cumbersome and impractical, they've established a foundation for innovation that could transform how we interact with the world around us."
+  },
+  {
+   "s": 682.26,
+   "e": 685.98,
+   "t": "While still in its early stages, the implications of this technology are vast."
+  },
+  {
+   "s": 686.42,
+   "e": 687.96,
+   "t": "It leaves us with much to consider."
+  },
+  {
+   "s": 687.96,
+   "e": 693.16,
+   "t": "As we move towards a future where technology is increasingly intertwined with our physical selves and senses."
+  },
+  {
+   "s": 693.96,
+   "e": 702.08,
+   "t": "This research serves as a potent reminder that the most transformative innovations often stem from challenging assumptions and exploring the unknown."
+  },
+  {
+   "s": 702.54,
+   "e": 706.32,
+   "t": "This has been a fascinating exploration of a potentially groundbreaking technology."
+  },
+  {
+   "s": 706.96,
+   "e": 713.1,
+   "t": "For our listeners, we encourage you to consider the possibilities of a world where we can quite literally feel the digital realm."
+  },
+  {
+   "s": 713.96,
+   "e": 716.9,
+   "t": "A world brought closer by the innovative research we've discussed today."
+  },
+  {
+   "s": 716.9,
+   "e": 719.08,
+   "t": "This concludes our deep dive for today."
+  },
+  {
+   "s": 719.52,
+   "e": 719.98,
+   "t": "Until next time."
+  }
+ ]
+}

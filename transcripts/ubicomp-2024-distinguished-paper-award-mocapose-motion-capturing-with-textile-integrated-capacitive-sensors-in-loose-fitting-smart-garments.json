@@ -1,0 +1,490 @@
+{
+ "guid": "deephci.podbean.com/d6d431c0-0b0f-3013-b937-78a7aa4e6a38",
+ "slug": "ubicomp-2024-distinguished-paper-award-mocapose-motion-capturing-with-textile-integrated-capacitive-sensors-in-loose-fitting-smart-garments",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3580883.mp3",
+  "version": 1
+ },
+ "duration": 496,
+ "word_count": 1614,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 4.38,
+   "t": "ever feel like, uh, technology can be more of a hassle sometimes than it's worth. Like,"
+  },
+  {
+   "s": 4.62,
+   "e": 8.24,
+   "t": "don't get me wrong. I love that my fitness tracker keeps me accountable and all, but"
+  },
+  {
+   "s": 8.24,
+   "e": 13.1,
+   "t": "man, all that fiddling with it. Not exactly my idea of a good time."
+  },
+  {
+   "s": 13.1,
+   "e": 15.86,
+   "t": "Totally. It's supposed to make life easier, not more complicated, right?"
+  },
+  {
+   "s": 16.2,
+   "e": 20.78,
+   "t": "Right. But okay, get this. What if instead of strapping on yet another gadget,"
+  },
+  {
+   "s": 21.34,
+   "e": 25.16,
+   "t": "your clothes, your actual clothes could be the ones tracking your movements."
+  },
+  {
+   "s": 25.34,
+   "e": 28.84,
+   "t": "Now that's the idea behind Mocha Pose. And let me tell you, it's pretty mind blowing."
+  },
+  {
+   "s": 28.84,
+   "e": 35.28,
+   "t": "The deep dive today, we're looking at a research paper and it lays out how scientists and get this"
+  },
+  {
+   "s": 35.28,
+   "e": 41.62,
+   "t": "fashion designers teamed up to make motion capture like truly as easy as just putting on a jacket."
+  },
+  {
+   "s": 41.82,
+   "e": 45.94,
+   "t": "Okay. Now that's a fashion show I can get behind, but seriously, how can a jacket,"
+  },
+  {
+   "s": 46.1,
+   "e": 49.7,
+   "t": "even a super cool one actually capture movement? Well, think about it this way."
+  },
+  {
+   "s": 49.98,
+   "e": 54.7,
+   "t": "How does your phone know when you're tapping on it? It just like senses my finger. Exactly. It"
+  },
+  {
+   "s": 54.7,
+   "e": 60.82,
+   "t": "senses changes in the electrical charge. So Mocha Pose, it uses that same principle, capacitive sensing,"
+  },
+  {
+   "s": 61.22,
+   "e": 65.04,
+   "t": "but with these special conductive fabric patches sewn right into the jacket."
+  },
+  {
+   "s": 65.1,
+   "e": 72.28,
+   "t": "Oh, okay. So no like sensors or wires, just the fabric itself acting as this giant touch screen kind of."
+  },
+  {
+   "s": 72.64,
+   "e": 76.0,
+   "t": "You got it. And they actually created two prototypes. The researchers did first one,"
+  },
+  {
+   "s": 76.14,
+   "e": 81.36,
+   "t": "all about making sure this wild idea could actually work, you know, but then the second prototype,"
+  },
+  {
+   "s": 81.36,
+   "e": 86.64,
+   "t": "that's where they got really ambitious. They went for functionality for sure, but also style."
+  },
+  {
+   "s": 86.64,
+   "e": 91.04,
+   "t": "Okay. Now we're talking. So give me the fashion tech breakdown here. What did they change?"
+  },
+  {
+   "s": 91.32,
+   "e": 97.58,
+   "t": "So prototype number one, pretty basic, just off the shelf conductive fabric on like a standard bomber"
+  },
+  {
+   "s": 97.58,
+   "e": 104.64,
+   "t": "jacket, but prototype number two, they use this really cool breathable mesh and then incorporated the"
+  },
+  {
+   "s": 104.64,
+   "e": 110.68,
+   "t": "conductive patches using, get this, a special layering technique. Way more comfy, way more durable,"
+  },
+  {
+   "s": 110.68,
+   "e": 115.68,
+   "t": "basically ready for the real world, not just the lab. All right. I could see myself rocking that for"
+  },
+  {
+   "s": 115.68,
+   "e": 120.3,
+   "t": "sure. Okay. So they've got people wearing these jackets moving around. What happens with all that data?"
+  },
+  {
+   "s": 120.46,
+   "e": 123.98,
+   "t": "That's where it gets really interesting because they collected a ton of it. We're talking 21 different"
+  },
+  {
+   "s": 123.98,
+   "e": 127.14,
+   "t": "people moving for over 38 hours. Wow. That's commitment."
+  },
+  {
+   "s": 127.56,
+   "e": 134.48,
+   "t": "Right. All that to train the system, basically. Imagine feeding a computer 38 hours worth of movements,"
+  },
+  {
+   "s": 134.56,
+   "e": 139.12,
+   "t": "right? And they synced all of those movements with video recordings so they could use AI to start"
+  },
+  {
+   "s": 139.12,
+   "e": 143.26,
+   "t": "finding the links between how the jacket moved and what the person was actually doing."
+  },
+  {
+   "s": 143.8,
+   "e": 149.52,
+   "t": "So the AI is basically learning, okay, when the fabric stretches like this, it means the arm is doing"
+  },
+  {
+   "s": 149.52,
+   "e": 155.4,
+   "t": "that. And here's the real aha moment. Yeah. It's not just about how much the fabric stretches. It's about the"
+  },
+  {
+   "s": 155.4,
+   "e": 160.4,
+   "t": "whole picture. You know, Mocha Pose uses all that data to actually figure out the position of all your"
+  },
+  {
+   "s": 160.4,
+   "e": 167.12,
+   "t": "joints in 3D space. Yeah. Your entire pose just from those fabric signals. Okay. So we've established"
+  },
+  {
+   "s": 167.12,
+   "e": 172.36,
+   "t": "this jacket. It's not just a fashion statement. It's like seriously high tech, but how accurate are we"
+  },
+  {
+   "s": 172.36,
+   "e": 177.66,
+   "t": "talking really? Can it tell the difference between me like reaching for another cup of coffee and,"
+  },
+  {
+   "s": 178.14,
+   "e": 182.26,
+   "t": "you know, busting out my victory dance? That's the thing. It's actually surprisingly good at that"
+  },
+  {
+   "s": 182.26,
+   "e": 187.96,
+   "t": "to measure how accurate it is. They looked at how close the jacket's predictions were to the actual"
+  },
+  {
+   "s": 187.96,
+   "e": 191.18,
+   "t": "movements, right? Okay. So kind of like a bullseye closer to the center, the better."
+  },
+  {
+   "s": 191.18,
+   "e": 197.3,
+   "t": "Exactly. And on average, it was only off by about 86 millimeters. So think about it. That's basically"
+  },
+  {
+   "s": 197.3,
+   "e": 202.44,
+   "t": "like the length of a credit card. Not bad. Not bad at all for a jacket that's also comfy enough to wear"
+  },
+  {
+   "s": 202.44,
+   "e": 207.0,
+   "t": "all day long, right? Right. And they found something really interesting when they look specifically at"
+  },
+  {
+   "s": 207.0,
+   "e": 212.8,
+   "t": "horizontal movements. So, you know, like swinging your arms side to side. Okay. Which is, let's be real,"
+  },
+  {
+   "s": 212.88,
+   "e": 219.12,
+   "t": "where most the action is. Exactly. For those movements, the predictions were incredibly close to what was"
+  },
+  {
+   "s": 219.12,
+   "e": 225.64,
+   "t": "really happening. We're talking over 90% accuracy in some cases. Wow. Okay. So we know this jacket can"
+  },
+  {
+   "s": 225.64,
+   "e": 231.32,
+   "t": "track your movements super cool, but what can you actually do with that information? Give me the real"
+  },
+  {
+   "s": 231.32,
+   "e": 236.9,
+   "t": "world applications here. Okay. Well, imagine this, someone who's recovering from an injury and they're"
+  },
+  {
+   "s": 236.9,
+   "e": 240.94,
+   "t": "using this during physical therapy. So instead of being hooked up to all that bulky equipment,"
+  },
+  {
+   "s": 241.18,
+   "e": 246.18,
+   "t": "they're just wearing the jacket, right? Way more low profile. Right. And therapists could be tracking"
+  },
+  {
+   "s": 246.18,
+   "e": 252.0,
+   "t": "their progress, monitoring their form, even personalizing their therapy in real time, all"
+  },
+  {
+   "s": 252.0,
+   "e": 257.92,
+   "t": "thanks to the data coming from their clothes. Wow. Talk about a serious wardrobe upgrade. No more clunky"
+  },
+  {
+   "s": 257.92,
+   "e": 262.62,
+   "t": "sensors or anything. Gone. And it's not just for rehab either. Think about sports training,"
+  },
+  {
+   "s": 263.36,
+   "e": 269.14,
+   "t": "analyzing a tennis swing or a golf game with this level of detail, but without needing those expensive"
+  },
+  {
+   "s": 269.14,
+   "e": 274.72,
+   "t": "motion capture setups. It could be huge. Okay. Yeah. I'm seeing the potential here for sure. Athletes going for"
+  },
+  {
+   "s": 274.72,
+   "e": 281.38,
+   "t": "gold in their comfy jackets. I love it. And it gets even cooler. Think gaming and VR. Imagine your"
+  },
+  {
+   "s": 281.38,
+   "e": 288.08,
+   "t": "avatar in the metaverse, but moving exactly like you are in real life, reacting to like your every"
+  },
+  {
+   "s": 288.08,
+   "e": 293.42,
+   "t": "gesture, all thanks to your jacket, no more clunky controllers or anything. Okay. You had me at comfy"
+  },
+  {
+   "s": 293.42,
+   "e": 297.64,
+   "t": "jacket, but now you're getting me really hyped about the metaverse. This is like stepping into the future."
+  },
+  {
+   "s": 297.84,
+   "e": 302.2,
+   "t": "And it gets even better because you know what they discovered? Mocha pose was actually more accurate"
+  },
+  {
+   "s": 302.2,
+   "e": 307.04,
+   "t": "than some of the current methods they're using when it comes to recognizing just like everyday activities."
+  },
+  {
+   "s": 307.52,
+   "e": 312.36,
+   "t": "So walking, reaching, bending, just stuff we do all the time. And that opens up a ton of possibilities"
+  },
+  {
+   "s": 312.36,
+   "e": 318.62,
+   "t": "for how we can use this kind of tech to understand and interact with like the world around us. You know,"
+  },
+  {
+   "s": 318.82,
+   "e": 324.38,
+   "t": "this is all like seriously impressive, but got to ask, there's always a, but right. What are the,"
+  },
+  {
+   "s": 324.44,
+   "e": 327.2,
+   "t": "what are the limitations we're looking at here? You're right. Totally. I mean,"
+  },
+  {
+   "s": 327.2,
+   "e": 333.08,
+   "t": "no tech is perfect, at least not yet. Right. And I think one of the big ones, the big challenges right"
+  },
+  {
+   "s": 333.08,
+   "e": 338.84,
+   "t": "now, it's depth perception. Think about it. Like if you try to judge how far away something is,"
+  },
+  {
+   "s": 338.9,
+   "e": 344.48,
+   "t": "but you're only using one eye. Yeah. It's hard. Tricky, right. Our brains, they use two eyes to get that,"
+  },
+  {
+   "s": 344.58,
+   "e": 352.22,
+   "t": "that 3d view, you know, sense. And that's kind of what Mocha poses up against, right? The system as it is now,"
+  },
+  {
+   "s": 352.22,
+   "e": 357.32,
+   "t": "it's really great at tracking horizontal movement, vertical movement, but for depth, it still has to"
+  },
+  {
+   "s": 357.32,
+   "e": 362.74,
+   "t": "rely on like video analysis. Yeah. So they're using a single camera to kind of fill in those gaps and it"
+  },
+  {
+   "s": 362.74,
+   "e": 366.78,
+   "t": "does, it does a pretty good job, but I think it's fair to say there's room for improvement there."
+  },
+  {
+   "s": 366.98,
+   "e": 373.88,
+   "t": "Okay. So maybe it can't quite like replace my eyes and my depth perception just yet, but this is,"
+  },
+  {
+   "s": 373.98,
+   "e": 377.38,
+   "t": "this is where I start to geek out a little bit about the possibilities, you know,"
+  },
+  {
+   "s": 377.38,
+   "e": 383.1,
+   "t": "what if the jacket itself could sense depth or what about sensing other things? Like, okay,"
+  },
+  {
+   "s": 383.12,
+   "e": 388.74,
+   "t": "what about temperature or even like, I'm just going to throw it out there, emotions. I mean,"
+  },
+  {
+   "s": 388.84,
+   "e": 394.32,
+   "t": "if my clothes are already reading my movements, why stop there? Now you're thinking like a true"
+  },
+  {
+   "s": 394.32,
+   "e": 399.58,
+   "t": "innovator. And honestly, I think the researchers behind Mocha pose, they are right there with you."
+  },
+  {
+   "s": 399.94,
+   "e": 404.32,
+   "t": "Imagine like clothes that don't just sense, but they actually react to your environment too."
+  },
+  {
+   "s": 404.32,
+   "e": 408.66,
+   "t": "Like adjusting their properties based on the temperature or the humidity even, or, and this"
+  },
+  {
+   "s": 408.66,
+   "e": 413.14,
+   "t": "is wild, clothes that could actually sense if you're stressed out and then like subtly adjust,"
+  },
+  {
+   "s": 413.32,
+   "e": 418.28,
+   "t": "you know, to help you calm down. Okay. Clothes that can tell when I need to like take a chill pill."
+  },
+  {
+   "s": 418.42,
+   "e": 423.04,
+   "t": "That is some next level self-care that I can definitely get behind. Right. And here's what I think is even"
+  },
+  {
+   "s": 423.04,
+   "e": 428.94,
+   "t": "more exciting. Mocha pose, it's open source. That means they've made the design, the code, all of it"
+  },
+  {
+   "s": 428.94,
+   "e": 434.22,
+   "t": "available for anyone to just take and build upon. Oh, wow. So it's not like one company controls this"
+  },
+  {
+   "s": 434.22,
+   "e": 438.26,
+   "t": "whole thing. Anyone can just like experiment with it, come up with crazy new applications."
+  },
+  {
+   "s": 438.66,
+   "e": 445.44,
+   "t": "Exactly. It's like, it's like giving the entire world the blueprints for this like fashion revolution,"
+  },
+  {
+   "s": 445.52,
+   "e": 450.98,
+   "t": "right? Imagine artists, hobbyists, tech whizzes, everyone coming together to create clothes that can"
+  },
+  {
+   "s": 450.98,
+   "e": 457.9,
+   "t": "sense, that can react, maybe even think along with us. Right. So to wrap things up here, why should,"
+  },
+  {
+   "s": 457.9,
+   "e": 462.82,
+   "t": "why should any of this matter to like the average person? Because it's not like we're all going to be like"
+  },
+  {
+   "s": 462.82,
+   "e": 467.6,
+   "t": "motion capture actors. I mean, it's so much bigger than that. I think Mocha pose, it's not just about"
+  },
+  {
+   "s": 467.6,
+   "e": 473.02,
+   "t": "capturing movement. It's really about fundamentally changing how we interact with, with technology,"
+  },
+  {
+   "s": 473.14,
+   "e": 477.92,
+   "t": "with the world around us. Right. It's a glimpse, a peek into a future where tech isn't just something we"
+  },
+  {
+   "s": 477.92,
+   "e": 482.52,
+   "t": "wear. It's something we kind of inhabit, I guess, something that understands us, that responds to our"
+  },
+  {
+   "s": 482.52,
+   "e": 487.74,
+   "t": "needs, but on this whole other level. And on that note, I want to hear from you. If your clothes could"
+  },
+  {
+   "s": 487.74,
+   "e": 492.5,
+   "t": "sense your every move, react to your environment, what would you want them to do? Let us know."
+  },
+  {
+   "s": 492.82,
+   "e": 495.8,
+   "t": "This has been the deep dive. Thanks for exploring with us."
+  }
+ ]
+}

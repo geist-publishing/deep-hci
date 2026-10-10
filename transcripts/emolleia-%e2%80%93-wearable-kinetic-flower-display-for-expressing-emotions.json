@@ -1,0 +1,1365 @@
+{
+ "guid": "deephci.podbean.com/5c2a5183-bd46-390f-9651-a24c9aa3d04f",
+ "slug": "emolleia-%e2%80%93-wearable-kinetic-flower-display-for-expressing-emotions",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "zhuang2022emolleia.mp3",
+  "version": 1
+ },
+ "duration": 813,
+ "word_count": 2542,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 2.66,
+   "t": "Hey, everyone. Ready to dive into something kind of wild."
+  },
+  {
+   "s": 2.82,
+   "e": 6.38,
+   "t": "We're talking clothes that can actually express how you're feeling."
+  },
+  {
+   "s": 6.68,
+   "e": 11.2,
+   "t": "Yeah. No more wondering if your outfit says approachable or stay away."
+  },
+  {
+   "s": 11.7,
+   "e": 15.12,
+   "t": "We're going to dig into some research about a device called Imolea."
+  },
+  {
+   "s": 15.54,
+   "e": 18.66,
+   "t": "Imolea. Is that like those mood rings that change color?"
+  },
+  {
+   "s": 18.92,
+   "e": 20.82,
+   "t": "Kind of like that, but way more advanced."
+  },
+  {
+   "s": 21.06,
+   "e": 26.54,
+   "t": "Imagine like stylish tech on your shoulder with these delicate, almost magical looking flowers."
+  },
+  {
+   "s": 26.54,
+   "e": 30.74,
+   "t": "And get this, the flowers actually move to signal your emotions."
+  },
+  {
+   "s": 31.04,
+   "e": 35.74,
+   "t": "Hold on. I'm picturing like clunky robot flowers and people getting the wrong idea completely."
+  },
+  {
+   "s": 36.22,
+   "e": 39.04,
+   "t": "I mean, we misinterpret facial expressions all the time."
+  },
+  {
+   "s": 39.08,
+   "e": 40.58,
+   "t": "And we've been reading those our whole lives."
+  },
+  {
+   "s": 41.0,
+   "e": 43.74,
+   "t": "You're totally right to think about those real world situations."
+  },
+  {
+   "s": 44.16,
+   "e": 46.46,
+   "t": "The researchers actually thought about that from the start."
+  },
+  {
+   "s": 47.36,
+   "e": 49.28,
+   "t": "So think about it."
+  },
+  {
+   "s": 49.58,
+   "e": 52.72,
+   "t": "The way we express ourselves with clothes, now it's limited."
+  },
+  {
+   "s": 53.28,
+   "e": 54.0,
+   "t": "Clothes are static."
+  },
+  {
+   "s": 54.0,
+   "e": 59.94,
+   "t": "You can pick a bright color hoping it says happy, but your outfit's not reacting to your mood, right?"
+  },
+  {
+   "s": 59.94,
+   "e": 62.3,
+   "t": "Right. It's not like your clothes change color when you get flustered."
+  },
+  {
+   "s": 62.52,
+   "e": 62.84,
+   "t": "Exactly."
+  },
+  {
+   "s": 63.54,
+   "e": 66.46,
+   "t": "But Imolea, that's what it's trying to change."
+  },
+  {
+   "s": 66.6,
+   "e": 69.56,
+   "t": "Okay. So no more resting grumpy face if you're wearing this Imolea thing."
+  },
+  {
+   "s": 69.92,
+   "e": 72.16,
+   "t": "But seriously, paint me a picture."
+  },
+  {
+   "s": 72.56,
+   "e": 74.36,
+   "t": "What does this thing actually look like?"
+  },
+  {
+   "s": 74.42,
+   "e": 75.52,
+   "t": "Okay. So picture this."
+  },
+  {
+   "s": 76.16,
+   "e": 81.48,
+   "t": "Three translucent 3D printed flowers, and they're attached to a base you wear on your shoulder."
+  },
+  {
+   "s": 81.48,
+   "e": 83.92,
+   "t": "They open and close, but at different speeds."
+  },
+  {
+   "s": 84.02,
+   "e": 86.22,
+   "t": "So it's almost like a piece of kinetic art that you can wear."
+  },
+  {
+   "s": 86.62,
+   "e": 87.58,
+   "t": "And you know what's really cool?"
+  },
+  {
+   "s": 87.86,
+   "e": 91.36,
+   "t": "The researchers actually got inspired by that skeleton flower."
+  },
+  {
+   "s": 91.64,
+   "e": 94.08,
+   "t": "The one with petals that turn transparent when they get wet."
+  },
+  {
+   "s": 94.26,
+   "e": 96.48,
+   "t": "Oh, right. I've seen pictures of those. They're really pretty."
+  },
+  {
+   "s": 96.62,
+   "e": 97.74,
+   "t": "Yeah, it's super cool."
+  },
+  {
+   "s": 97.82,
+   "e": 100.04,
+   "t": "Okay, that sounds way more elegant than what I was picturing."
+  },
+  {
+   "s": 100.04,
+   "e": 105.8,
+   "t": "But how do we get from moving flowers to, like, actual emotions?"
+  },
+  {
+   "s": 106.2,
+   "e": 110.22,
+   "t": "Do these flowers have, like, a secret language or something?"
+  },
+  {
+   "s": 110.36,
+   "e": 112.18,
+   "t": "That's where the research gets really fascinating."
+  },
+  {
+   "s": 112.3,
+   "e": 116.96,
+   "t": "They actually studied how people interpreted different flower movements."
+  },
+  {
+   "s": 117.06,
+   "e": 120.3,
+   "t": "So different speeds, different flowers, you know, opening and closing."
+  },
+  {
+   "s": 120.62,
+   "e": 123.54,
+   "t": "Imagine being shown these animations and being asked,"
+  },
+  {
+   "s": 123.7,
+   "e": 127.22,
+   "t": "what emotion does this movement make you think of?"
+  },
+  {
+   "s": 127.22,
+   "e": 131.42,
+   "t": "So they weren't actually, like, hooking it up to someone's real emotions yet."
+  },
+  {
+   "s": 131.48,
+   "e": 135.0,
+   "t": "It was more about, like, can people even understand what the movements are supposed to mean?"
+  },
+  {
+   "s": 135.48,
+   "e": 138.24,
+   "t": "Yes, precisely. And the results were really interesting."
+  },
+  {
+   "s": 138.46,
+   "e": 138.58,
+   "t": "Right."
+  },
+  {
+   "s": 138.62,
+   "e": 141.6,
+   "t": "Because people could definitely tell the difference between the different animations."
+  },
+  {
+   "s": 141.98,
+   "e": 144.76,
+   "t": "They were even mapping them to specific emotions."
+  },
+  {
+   "s": 144.76,
+   "e": 147.76,
+   "t": "Like, for example, fast, jerky movements."
+  },
+  {
+   "s": 147.76,
+   "e": 149.68,
+   "t": "People would say, oh, that conveys excitement."
+  },
+  {
+   "s": 149.68,
+   "e": 154.3,
+   "t": "Whereas, like, slow, gentle movements, maybe that indicates calmness."
+  },
+  {
+   "s": 154.44,
+   "e": 160.1,
+   "t": "So it's like our brains are already programmed to understand emotion in movement, even if it's coming from a flower."
+  },
+  {
+   "s": 160.26,
+   "e": 161.4,
+   "t": "It really seems that way."
+  },
+  {
+   "s": 161.56,
+   "e": 164.94,
+   "t": "And they even found that some emotions were harder to express than others."
+  },
+  {
+   "s": 164.94,
+   "e": 169.3,
+   "t": "Like, none of the animations really seem to do a good job of conveying anger or rage."
+  },
+  {
+   "s": 169.68,
+   "e": 170.04,
+   "t": "Interesting."
+  },
+  {
+   "s": 170.04,
+   "e": 175.64,
+   "t": "You wouldn't think something as simple as a flower could express such a, you know, complex range of emotions."
+  },
+  {
+   "s": 175.84,
+   "e": 181.18,
+   "t": "It makes you wonder, though, if you could program anger into those flowers, what would that even look like?"
+  },
+  {
+   "s": 181.4,
+   "e": 182.68,
+   "t": "Yeah, that's a great question."
+  },
+  {
+   "s": 183.26,
+   "e": 185.94,
+   "t": "Maybe it's just a limitation of the flower design itself."
+  },
+  {
+   "s": 186.48,
+   "e": 187.42,
+   "t": "I mean, think about it."
+  },
+  {
+   "s": 187.44,
+   "e": 190.74,
+   "t": "We usually associate flowers with more positive emotions, right?"
+  },
+  {
+   "s": 190.76,
+   "e": 191.46,
+   "t": "Yeah, that's true."
+  },
+  {
+   "s": 191.46,
+   "e": 194.26,
+   "t": "It's like trying to express excitement with a funeral march."
+  },
+  {
+   "s": 194.36,
+   "e": 194.5,
+   "t": "Yeah."
+  },
+  {
+   "s": 194.62,
+   "e": 195.84,
+   "t": "It just doesn't really go together."
+  },
+  {
+   "s": 195.84,
+   "e": 196.24,
+   "t": "Exactly."
+  },
+  {
+   "s": 196.7,
+   "e": 199.96,
+   "t": "And that's what makes this research so compelling, you know?"
+  },
+  {
+   "s": 200.1,
+   "e": 203.0,
+   "t": "It's really pushing the boundaries of how we think about communication."
+  },
+  {
+   "s": 203.28,
+   "e": 204.14,
+   "t": "Okay, you got me hooked."
+  },
+  {
+   "s": 204.6,
+   "e": 210.18,
+   "t": "But how did the researchers actually asterisk, see asterisk these emotions?"
+  },
+  {
+   "s": 210.3,
+   "e": 213.24,
+   "t": "Were they just going off people's, like, gut reactions?"
+  },
+  {
+   "s": 213.72,
+   "e": 216.16,
+   "t": "Or they were a little more scientific about it."
+  },
+  {
+   "s": 216.24,
+   "e": 220.72,
+   "t": "They used a scale to actually measure how different movements made people feel."
+  },
+  {
+   "s": 220.72,
+   "e": 227.3,
+   "t": "Like, they broke it down into feelings of pleasure, energy level, even a sense of control or dominance."
+  },
+  {
+   "s": 227.68,
+   "e": 228.4,
+   "t": "Wow, really?"
+  },
+  {
+   "s": 228.56,
+   "e": 230.7,
+   "t": "Yeah, it's a lot more nuanced than you might think."
+  },
+  {
+   "s": 231.04,
+   "e": 233.76,
+   "t": "Okay, so it's not just happy flower, sad flower."
+  },
+  {
+   "s": 234.08,
+   "e": 235.84,
+   "t": "It can actually get way more complex than that."
+  },
+  {
+   "s": 236.14,
+   "e": 236.56,
+   "t": "Absolutely."
+  },
+  {
+   "s": 236.84,
+   "e": 238.3,
+   "t": "And here's the really exciting part."
+  },
+  {
+   "s": 238.7,
+   "e": 241.78,
+   "t": "The researchers design Amalea so that it can be customized."
+  },
+  {
+   "s": 242.2,
+   "e": 248.76,
+   "t": "They're actually planning on releasing the software so anyone can create their own, like, emotion-based flower animations."
+  },
+  {
+   "s": 248.76,
+   "e": 253.9,
+   "t": "Wow, so you could basically program your own emotional vocabulary for your clothes."
+  },
+  {
+   "s": 254.06,
+   "e": 254.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 254.44,
+   "e": 255.42,
+   "t": "That's kind of amazing."
+  },
+  {
+   "s": 255.84,
+   "e": 261.52,
+   "t": "But if I'm being honest, I still can't quite picture how this would actually play out in, like, real life."
+  },
+  {
+   "s": 261.78,
+   "e": 265.08,
+   "t": "Would you just walk around with your emotions on display for everyone to see?"
+  },
+  {
+   "s": 265.46,
+   "e": 267.46,
+   "t": "Seems like it could lead to some awkward situations."
+  },
+  {
+   "s": 267.86,
+   "e": 268.36,
+   "t": "I hear you."
+  },
+  {
+   "s": 268.42,
+   "e": 270.4,
+   "t": "And it's something the researchers definitely acknowledge."
+  },
+  {
+   "s": 270.5,
+   "e": 271.48,
+   "t": "I mean, think about it."
+  },
+  {
+   "s": 271.76,
+   "e": 275.88,
+   "t": "What one person interprets as sadness, another person might see as contemplation."
+  },
+  {
+   "s": 275.88,
+   "e": 280.34,
+   "t": "Even with facial expressions, and those are pretty universal, we don't always get it right."
+  },
+  {
+   "s": 280.84,
+   "e": 281.9,
+   "t": "Emotions are complex."
+  },
+  {
+   "s": 282.12,
+   "e": 282.42,
+   "t": "Totally."
+  },
+  {
+   "s": 282.72,
+   "e": 287.76,
+   "t": "It's like assuming someone's crying because they're sad, when really they could just be overwhelmed with joy."
+  },
+  {
+   "s": 287.96,
+   "e": 290.64,
+   "t": "Our emotions aren't always so black and white, are they?"
+  },
+  {
+   "s": 291.14,
+   "e": 297.76,
+   "t": "But that makes me even more curious about, like, what asterisk else asterisk we could use these emotion-expressing flowers for?"
+  },
+  {
+   "s": 298.26,
+   "e": 299.38,
+   "t": "That's a great question."
+  },
+  {
+   "s": 299.38,
+   "e": 305.58,
+   "t": "Well, one of the most interesting applications they talked about was for people who struggle with traditional communication."
+  },
+  {
+   "s": 306.04,
+   "e": 306.62,
+   "t": "Like, what do you mean?"
+  },
+  {
+   "s": 306.98,
+   "e": 313.28,
+   "t": "Well, think about, like, a child with autism who has a hard time expressing their emotions verbally."
+  },
+  {
+   "s": 314.48,
+   "e": 318.34,
+   "t": "Imolaya could give them a whole new way to make those feelings known."
+  },
+  {
+   "s": 318.54,
+   "e": 319.44,
+   "t": "That's really amazing."
+  },
+  {
+   "s": 319.56,
+   "e": 324.1,
+   "t": "Instead of getting frustrated or shutting down because they just don't have the words, you know,"
+  },
+  {
+   "s": 324.1,
+   "e": 328.32,
+   "t": "they could, like, wear their emotions so the people around them can understand and support them better."
+  },
+  {
+   "s": 328.32,
+   "e": 329.38,
+   "t": "I love that."
+  },
+  {
+   "s": 329.74,
+   "e": 331.04,
+   "t": "It's a really powerful idea."
+  },
+  {
+   "s": 331.2,
+   "e": 334.22,
+   "t": "And think about it, even just for, like, social cues in general."
+  },
+  {
+   "s": 334.66,
+   "e": 339.48,
+   "t": "You could signal you need a little space or you're open to chatting, all without saying a word."
+  },
+  {
+   "s": 339.68,
+   "e": 343.3,
+   "t": "It could really change how we, like, navigate those everyday interactions."
+  },
+  {
+   "s": 343.86,
+   "e": 344.38,
+   "t": "Oh, man."
+  },
+  {
+   "s": 344.44,
+   "e": 348.7,
+   "t": "I can just imagine being at a networking event with this Imolaya thing."
+  },
+  {
+   "s": 348.9,
+   "e": 353.2,
+   "t": "You just, like, instantly know who's feeling approachable and who'd rather be left alone."
+  },
+  {
+   "s": 353.96,
+   "e": 356.56,
+   "t": "It'd be like having a cheat code for social situations."
+  },
+  {
+   "s": 356.96,
+   "e": 357.4,
+   "t": "Exactly."
+  },
+  {
+   "s": 357.4,
+   "e": 359.38,
+   "t": "Or even, like, picture a workplace."
+  },
+  {
+   "s": 359.56,
+   "e": 364.02,
+   "t": "You could just glance around and get a read on your whole team's mood just by looking at their Imolaya flowers."
+  },
+  {
+   "s": 364.58,
+   "e": 371.02,
+   "t": "Okay, but now I'm picturing walking into a high-stakes meeting and everyone's flowers are signaling stressed and overwhelmed."
+  },
+  {
+   "s": 371.44,
+   "e": 372.64,
+   "t": "Talk about a mood killer."
+  },
+  {
+   "s": 373.0,
+   "e": 373.34,
+   "t": "Huh."
+  },
+  {
+   "s": 374.22,
+   "e": 374.54,
+   "t": "Yeah."
+  },
+  {
+   "s": 375.24,
+   "e": 377.58,
+   "t": "Might need to come up with some etiquette guidelines for that."
+  },
+  {
+   "s": 378.08,
+   "e": 379.56,
+   "t": "But, hey, think about it this way."
+  },
+  {
+   "s": 380.04,
+   "e": 384.02,
+   "t": "Maybe it would encourage people to be more mindful of each other's emotions, you know?"
+  },
+  {
+   "s": 384.02,
+   "e": 384.96,
+   "t": "That's a good point."
+  },
+  {
+   "s": 385.32,
+   "e": 390.02,
+   "t": "Could lead to more empathy and understanding in the workplace, which we could all use a little more of."
+  },
+  {
+   "s": 390.3,
+   "e": 391.62,
+   "t": "But what about the flip side?"
+  },
+  {
+   "s": 391.98,
+   "e": 394.58,
+   "t": "Like, what if people try to game the system, you know?"
+  },
+  {
+   "s": 395.12,
+   "e": 399.18,
+   "t": "Where are their happy flowers, even when they're totally freaking out on the inside?"
+  },
+  {
+   "s": 399.18,
+   "e": 401.6,
+   "t": "Well, yeah, I mean, that's the thing with any new tech, right?"
+  },
+  {
+   "s": 401.7,
+   "e": 403.56,
+   "t": "There's always the potential for misuse."
+  },
+  {
+   "s": 403.56,
+   "e": 403.6,
+   "t": "Yes."
+  },
+  {
+   "s": 404.02,
+   "e": 407.24,
+   "t": "But remember, Imolaya is all about customization."
+  },
+  {
+   "s": 407.72,
+   "e": 410.44,
+   "t": "You get to choose which emotions you express and how."
+  },
+  {
+   "s": 410.66,
+   "e": 411.74,
+   "t": "It puts you in control."
+  },
+  {
+   "s": 412.16,
+   "e": 412.76,
+   "t": "I see what you mean."
+  },
+  {
+   "s": 412.9,
+   "e": 416.54,
+   "t": "It's not like your clothes are just, like, broadcasting your every fleeting emotion to the world."
+  },
+  {
+   "s": 416.54,
+   "e": 416.78,
+   "t": "Right."
+  },
+  {
+   "s": 416.96,
+   "e": 418.84,
+   "t": "You still have control over how much you want to share."
+  },
+  {
+   "s": 419.54,
+   "e": 421.86,
+   "t": "Speaking of control, let's talk about the tech itself for a second."
+  },
+  {
+   "s": 422.1,
+   "e": 425.0,
+   "t": "You mentioned they want to eventually add, like, biometric sensors and stuff."
+  },
+  {
+   "s": 425.0,
+   "e": 425.48,
+   "t": "Exactly."
+  },
+  {
+   "s": 426.26,
+   "e": 435.14,
+   "t": "They're thinking about a future where Imolaya actually responds to your body's signals, heart rate, skin response, maybe even brainwave patterns."
+  },
+  {
+   "s": 435.4,
+   "e": 438.9,
+   "t": "So, like, let's say you get nervous and your heart starts racing, right?"
+  },
+  {
+   "s": 439.3,
+   "e": 443.1,
+   "t": "The flowers might react, even if you're trying to play it cool on the outside."
+  },
+  {
+   "s": 443.3,
+   "e": 444.42,
+   "t": "Whoa, brainwaves."
+  },
+  {
+   "s": 444.48,
+   "e": 446.06,
+   "t": "Now we're talking mind-reading fashion."
+  },
+  {
+   "s": 446.38,
+   "e": 447.3,
+   "t": "That's next level."
+  },
+  {
+   "s": 447.3,
+   "e": 457.82,
+   "t": "I do wonder, though, if you're pulling data from something as, like, complex as brainwaves, how do you even begin to turn that into something as visually simple as flower movements?"
+  },
+  {
+   "s": 458.12,
+   "e": 460.68,
+   "t": "That's where the design gets really, really interesting."
+  },
+  {
+   "s": 461.04,
+   "e": 461.54,
+   "t": "Think about it."
+  },
+  {
+   "s": 461.56,
+   "e": 465.1,
+   "t": "It doesn't have to be asterisk, just asterisk opening and closing."
+  },
+  {
+   "s": 465.44,
+   "e": 470.56,
+   "t": "What if the flowers could, like, change color or pulse with light?"
+  },
+  {
+   "s": 470.92,
+   "e": 474.26,
+   "t": "Maybe even release a particular scent, depending on the emotion."
+  },
+  {
+   "s": 474.54,
+   "e": 474.78,
+   "t": "Okay."
+  },
+  {
+   "s": 474.78,
+   "e": 475.8,
+   "t": "Now that's just cool."
+  },
+  {
+   "s": 475.8,
+   "e": 479.68,
+   "t": "It's like your body becomes this walking, talking mood ring."
+  },
+  {
+   "s": 480.48,
+   "e": 484.22,
+   "t": "But hopefully a lot more stylish than those things we wore back in the day."
+  },
+  {
+   "s": 484.3,
+   "e": 485.12,
+   "t": "Definitely more stylish."
+  },
+  {
+   "s": 485.38,
+   "e": 486.58,
+   "t": "But you've hit on something important."
+  },
+  {
+   "s": 486.74,
+   "e": 488.92,
+   "t": "It's not just about practicality with Imolaya, right?"
+  },
+  {
+   "s": 488.96,
+   "e": 490.22,
+   "t": "It's about aesthetics, too."
+  },
+  {
+   "s": 490.3,
+   "e": 490.76,
+   "t": "Yeah, for sure."
+  },
+  {
+   "s": 491.16,
+   "e": 494.98,
+   "t": "Nobody wants to wear something that just screams, I'm expressing my emotions."
+  },
+  {
+   "s": 495.66,
+   "e": 496.58,
+   "t": "It's got to look good, too."
+  },
+  {
+   "s": 496.78,
+   "e": 497.16,
+   "t": "Absolutely."
+  },
+  {
+   "s": 497.44,
+   "e": 500.38,
+   "t": "And that's one of the things I thought was so cool about this research team."
+  },
+  {
+   "s": 500.7,
+   "e": 505.38,
+   "t": "They really thought about making Imolaya not just functional, but beautiful, too."
+  },
+  {
+   "s": 505.38,
+   "e": 508.46,
+   "t": "Which makes sense, since they were inspired by nature to begin with."
+  },
+  {
+   "s": 508.9,
+   "e": 512.1,
+   "t": "Speaking of nature, there are some pretty tough plants and animals out there."
+  },
+  {
+   "s": 512.56,
+   "e": 517.78,
+   "t": "Have they said anything about using, like, other cool bio-inspired materials for Imolaya?"
+  },
+  {
+   "s": 517.92,
+   "e": 520.72,
+   "t": "I mean, those delicate flowers wouldn't last a day in my world."
+  },
+  {
+   "s": 521.0,
+   "e": 521.76,
+   "t": "That's a great question."
+  },
+  {
+   "s": 522.14,
+   "e": 525.76,
+   "t": "They've actually talked about looking into more, you know, robust materials."
+  },
+  {
+   "s": 526.26,
+   "e": 533.26,
+   "t": "Imagine if they could somehow, like, mimic the resilience of jellyfish skin or the iridescence of a butterfly wing."
+  },
+  {
+   "s": 533.26,
+   "e": 534.46,
+   "t": "Okay, now you're messing with me."
+  },
+  {
+   "s": 534.66,
+   "e": 535.34,
+   "t": "Jellyfish skin."
+  },
+  {
+   "s": 536.0,
+   "e": 536.84,
+   "t": "Butterfly wings."
+  },
+  {
+   "s": 537.28,
+   "e": 538.14,
+   "t": "That sounds incredible."
+  },
+  {
+   "s": 538.72,
+   "e": 541.28,
+   "t": "And maybe a little asterisk creepy, huh?"
+  },
+  {
+   "s": 541.36,
+   "e": 542.0,
+   "t": "Maybe so."
+  },
+  {
+   "s": 542.3,
+   "e": 544.32,
+   "t": "But that's where the real innovation happens, right?"
+  },
+  {
+   "s": 544.66,
+   "e": 549.68,
+   "t": "Thinking outside the box, drawing inspiration from these unexpected places, I'm all for pushing boundaries."
+  },
+  {
+   "s": 549.68,
+   "e": 554.72,
+   "t": "But even with the coolest materials in the world, what about the tech itself?"
+  },
+  {
+   "s": 555.14,
+   "e": 558.86,
+   "t": "How long can this thing actually run before you need to, like, charge it?"
+  },
+  {
+   "s": 559.24,
+   "e": 564.24,
+   "t": "I'm imagining having to carry around a separate power bank just to keep my flowers blooming, huh?"
+  },
+  {
+   "s": 564.68,
+   "e": 568.0,
+   "t": "Yeah, that's the thing a lot of wearable tech is still trying to figure out."
+  },
+  {
+   "s": 568.06,
+   "e": 570.6,
+   "t": "But there's some promising stuff out there about energy harvesting."
+  },
+  {
+   "s": 570.84,
+   "e": 572.96,
+   "t": "Basically capturing energy from the environment."
+  },
+  {
+   "s": 573.14,
+   "e": 576.32,
+   "t": "So, like, solar panels sewn into my clothes."
+  },
+  {
+   "s": 576.46,
+   "e": 577.52,
+   "t": "That's one way to do it."
+  },
+  {
+   "s": 577.56,
+   "e": 579.16,
+   "t": "Not always the most efficient, though."
+  },
+  {
+   "s": 579.16,
+   "e": 584.04,
+   "t": "There's also kinetic energy harvesting, which is about converting movement into power."
+  },
+  {
+   "s": 584.78,
+   "e": 589.14,
+   "t": "Imagine if Imolaya could draw energy from, like, your own body heat."
+  },
+  {
+   "s": 589.64,
+   "e": 590.74,
+   "t": "Or even your footsteps."
+  },
+  {
+   "s": 591.16,
+   "e": 592.44,
+   "t": "Okay, now that's just smart."
+  },
+  {
+   "s": 592.74,
+   "e": 596.14,
+   "t": "So the more active you are, the more your clothes can, like, express themselves."
+  },
+  {
+   "s": 596.4,
+   "e": 597.18,
+   "t": "I kind of love that."
+  },
+  {
+   "s": 597.2,
+   "e": 598.12,
+   "t": "It's a really neat concept."
+  },
+  {
+   "s": 598.52,
+   "e": 598.84,
+   "t": "Definitely."
+  },
+  {
+   "s": 598.84,
+   "e": 605.56,
+   "t": "But even if we solve the whole power issue and the material science, there's still this big question, right?"
+  },
+  {
+   "s": 605.8,
+   "e": 613.58,
+   "t": "Do we actually asterisk want asterisk to live in a world where our clothes can communicate how we're feeling?"
+  },
+  {
+   "s": 613.94,
+   "e": 619.08,
+   "t": "I mean, part of me loves it, but the other part is a little freaked out, to be honest."
+  },
+  {
+   "s": 619.08,
+   "e": 619.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 619.64,
+   "e": 620.6,
+   "t": "No, I totally get it."
+  },
+  {
+   "s": 620.64,
+   "e": 625.64,
+   "t": "It's, like, how much of our, like, our inner world are we really willing to put out there for everyone to see?"
+  },
+  {
+   "s": 625.82,
+   "e": 626.0,
+   "t": "Right."
+  },
+  {
+   "s": 626.14,
+   "e": 626.54,
+   "t": "Exactly."
+  },
+  {
+   "s": 626.7,
+   "e": 629.66,
+   "t": "But, I mean, that's kind of what makes all of this so fascinating to talk about, right?"
+  },
+  {
+   "s": 629.8,
+   "e": 630.5,
+   "t": "It really is."
+  },
+  {
+   "s": 630.58,
+   "e": 634.24,
+   "t": "Like, we're talking about tech that could fundamentally change how we relate to each other."
+  },
+  {
+   "s": 634.72,
+   "e": 635.78,
+   "t": "Yeah, and it's funny."
+  },
+  {
+   "s": 635.88,
+   "e": 639.28,
+   "t": "It's, like, it's hard to resist thinking about all the what-ifs, you know?"
+  },
+  {
+   "s": 639.4,
+   "e": 639.94,
+   "t": "Oh, for sure."
+  },
+  {
+   "s": 640.0,
+   "e": 645.42,
+   "t": "Like, what if Imolaya could actually help bridge some of those communication gaps that we all experience sometimes?"
+  },
+  {
+   "s": 645.8,
+   "e": 649.88,
+   "t": "Like, what if it could make those awkward first date moments a little easier?"
+  },
+  {
+   "s": 649.88,
+   "e": 655.8,
+   "t": "Or even, like, help you tell your loved ones you need a hug without actually having to say it out loud."
+  },
+  {
+   "s": 655.96,
+   "e": 659.8,
+   "t": "Yeah, it's, like, we'd be giving everyone this cheat sheet for understanding each other's emotions."
+  },
+  {
+   "s": 659.84,
+   "e": 660.28,
+   "t": "Exactly."
+  },
+  {
+   "s": 660.54,
+   "e": 661.7,
+   "t": "And, you know, who knows?"
+  },
+  {
+   "s": 662.2,
+   "e": 667.8,
+   "t": "Maybe if we all lived in a world where we were just a bit more tuned in to how everyone else is feeling."
+  },
+  {
+   "s": 668.08,
+   "e": 668.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 668.44,
+   "e": 673.66,
+   "t": "Maybe all those little misunderstandings and miscommunications, maybe they wouldn't feel like such a big deal anymore."
+  },
+  {
+   "s": 673.9,
+   "e": 674.6,
+   "t": "I love that."
+  },
+  {
+   "s": 674.6,
+   "e": 679.22,
+   "t": "It's, like, imagine a world where everyone's just a little more understanding, a little more empathetic."
+  },
+  {
+   "s": 679.22,
+   "e": 686.96,
+   "t": "You know, because they can actually asterisk, see asterisk how what they say and do affects everyone else around them."
+  },
+  {
+   "s": 687.32,
+   "e": 688.82,
+   "t": "It's almost utopian, in a way."
+  },
+  {
+   "s": 688.98,
+   "e": 691.0,
+   "t": "It definitely makes you think about things a little differently."
+  },
+  {
+   "s": 691.2,
+   "e": 694.06,
+   "t": "But that's part of what's so fun about exploring these new technologies."
+  },
+  {
+   "s": 694.62,
+   "e": 695.32,
+   "t": "I know, right?"
+  },
+  {
+   "s": 695.52,
+   "e": 700.22,
+   "t": "They let us imagine all these different possibilities, even the ones that seem a little far-fetched right now."
+  },
+  {
+   "s": 700.46,
+   "e": 700.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 700.74,
+   "e": 700.88,
+   "t": "Yeah."
+  },
+  {
+   "s": 701.46,
+   "e": 702.46,
+   "t": "And you never know."
+  },
+  {
+   "s": 702.46,
+   "e": 707.32,
+   "t": "Sometimes those far-fetched ideas actually end up, like, shaping the future."
+  },
+  {
+   "s": 707.48,
+   "e": 707.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 707.58,
+   "e": 709.94,
+   "t": "And in ways we never could have even imagined."
+  },
+  {
+   "s": 710.22,
+   "e": 714.86,
+   "t": "Think about all those things that used to be science fiction that are just, like, normal now."
+  },
+  {
+   "s": 715.0,
+   "e": 715.22,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 715.22,
+   "e": 718.74,
+   "t": "Video calls, self-driving cars, clothes that express emotions."
+  },
+  {
+   "s": 718.88,
+   "e": 721.12,
+   "t": "Well, hey, two out of three ain't bad."
+  },
+  {
+   "s": 721.4,
+   "e": 721.72,
+   "t": "Ah."
+  },
+  {
+   "s": 721.98,
+   "e": 726.92,
+   "t": "But seriously, that line between science fiction and reality is getting blurrier all the time."
+  },
+  {
+   "s": 727.0,
+   "e": 732.66,
+   "t": "Remember those old sci-fi movies where people would wear those huge headsets to, like, experience virtual reality?"
+  },
+  {
+   "s": 732.72,
+   "e": 733.02,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 733.02,
+   "e": 739.16,
+   "t": "And now we just put on these, like, sleek glasses and suddenly we're in a completely different world."
+  },
+  {
+   "s": 739.4,
+   "e": 739.92,
+   "t": "Exactly."
+  },
+  {
+   "s": 740.28,
+   "e": 743.98,
+   "t": "So who's to say that, like, emotion-expressing clothing won't be the same?"
+  },
+  {
+   "s": 744.08,
+   "e": 744.34,
+   "t": "Yeah."
+  },
+  {
+   "s": 744.64,
+   "e": 751.76,
+   "t": "It seems kind of out there right now, but what if in a few years we're all walking around literally wearing our hearts on our sleeves?"
+  },
+  {
+   "s": 751.96,
+   "e": 755.08,
+   "t": "And maybe, just maybe, that wouldn't be such a bad thing."
+  },
+  {
+   "s": 755.46,
+   "e": 759.3,
+   "t": "Maybe it's time we rethink what it even means to express ourselves authentically."
+  },
+  {
+   "s": 759.3,
+   "e": 762.74,
+   "t": "Yeah, like, maybe being vulnerable isn't always something to be afraid of."
+  },
+  {
+   "s": 762.82,
+   "e": 763.1,
+   "t": "Right."
+  },
+  {
+   "s": 763.3,
+   "e": 765.88,
+   "t": "Maybe it's something we should all try to embrace a little more."
+  },
+  {
+   "s": 766.06,
+   "e": 768.92,
+   "t": "And maybe tech like Emilia can even help us do that."
+  },
+  {
+   "s": 769.0,
+   "e": 770.94,
+   "t": "That's a pretty bold vision of the future."
+  },
+  {
+   "s": 771.18,
+   "e": 771.6,
+   "t": "It is."
+  },
+  {
+   "s": 771.96,
+   "e": 774.84,
+   "t": "Well, on that note, I think it's time to wrap up this deep dive."
+  },
+  {
+   "s": 775.3,
+   "e": 779.04,
+   "t": "But, as always, we want to leave you with something to think about."
+  },
+  {
+   "s": 779.3,
+   "e": 779.66,
+   "t": "Always."
+  },
+  {
+   "s": 779.66,
+   "e": 781.42,
+   "t": "So, here's a question for you."
+  },
+  {
+   "s": 782.14,
+   "e": 791.04,
+   "t": "If Asterisk could wear your heart on your sleeve or your shoulder or, hey, maybe even on your hat, what would that even look like?"
+  },
+  {
+   "s": 791.28,
+   "e": 795.28,
+   "t": "Would you express every single feeling as you're having it?"
+  },
+  {
+   "s": 795.34,
+   "e": 795.58,
+   "t": "Right."
+  },
+  {
+   "s": 795.78,
+   "e": 799.32,
+   "t": "Or would you, I don't know, curate your emotions for different situations?"
+  },
+  {
+   "s": 800.02,
+   "e": 801.46,
+   "t": "So many things to think about."
+  },
+  {
+   "s": 801.58,
+   "e": 806.28,
+   "t": "It's a question worth asking as we head into this crazy new world of wearable technology."
+  },
+  {
+   "s": 806.28,
+   "e": 809.3,
+   "t": "That's all the time we have for this deep dive."
+  },
+  {
+   "s": 809.56,
+   "e": 813.4,
+   "t": "But until next time, keep exploring the world, stay curious, and we'll catch you all next time."
+  }
+ ]
+}

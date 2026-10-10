@@ -1,0 +1,775 @@
+{
+ "guid": "deephci.podbean.com/597a3d98-97fe-35f1-a926-f497aee156d4",
+ "slug": "shape-memory-alloy-wire-actuators-for-soft-wearable-haptic-devices",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "fu2021boiling.mp3",
+  "version": 1
+ },
+ "duration": 376,
+ "word_count": 1263,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 5.68,
+   "t": "Have you ever, like, been to a concert or a play and you just feel this electric connection with the audience?"
+  },
+  {
+   "s": 5.86,
+   "e": 7.76,
+   "t": "Like, everyone in the room is on the same wavelength."
+  },
+  {
+   "s": 8.0,
+   "e": 8.54,
+   "t": "Oh, absolutely."
+  },
+  {
+   "s": 8.96,
+   "e": 12.68,
+   "t": "There's a palpable energy when you have a group of people sharing an experience."
+  },
+  {
+   "s": 12.78,
+   "e": 13.6,
+   "t": "Yeah, exactly."
+  },
+  {
+   "s": 14.08,
+   "e": 20.46,
+   "t": "But, like, what if we can actually see that energy, track it in real time, and then actually make it part of the performance itself?"
+  },
+  {
+   "s": 20.46,
+   "e": 24.22,
+   "t": "Well, that's what some researchers at Keio University in Japan are exploring with."
+  },
+  {
+   "s": 24.54,
+   "e": 24.96,
+   "t": "Get this."
+  },
+  {
+   "s": 25.28,
+   "e": 26.92,
+   "t": "A project called Boiling Mind."
+  },
+  {
+   "s": 27.58,
+   "e": 28.28,
+   "t": "Boiling Mind."
+  },
+  {
+   "s": 28.28,
+   "e": 30.56,
+   "t": "Okay, that sounds kind of intense."
+  },
+  {
+   "s": 30.88,
+   "e": 35.26,
+   "t": "More like a psychological thriller than a research project."
+  },
+  {
+   "s": 35.4,
+   "e": 35.62,
+   "t": "Right."
+  },
+  {
+   "s": 35.74,
+   "e": 36.88,
+   "t": "It definitely grabs your attention."
+  },
+  {
+   "s": 37.14,
+   "e": 45.24,
+   "t": "The paper's all about how they're using data from the audience, and not just any data, but data they collect during the actual performance to then shave the performance."
+  },
+  {
+   "s": 45.64,
+   "e": 46.56,
+   "t": "It's actually pretty wild."
+  },
+  {
+   "s": 46.68,
+   "e": 47.68,
+   "t": "Okay, so walk me through this."
+  },
+  {
+   "s": 47.7,
+   "e": 48.28,
+   "t": "How does it work?"
+  },
+  {
+   "s": 48.58,
+   "e": 56.02,
+   "t": "So, they did this project with a contemporary dance group, Mademoiselle Cinema, for a performance in Tokyo."
+  },
+  {
+   "s": 56.02,
+   "e": 58.16,
+   "t": "The performance was called Her Chair."
+  },
+  {
+   "s": 58.16,
+   "e": 62.98,
+   "t": "And they basically, well, they outfitted the audience with all these wearable sensors."
+  },
+  {
+   "s": 63.38,
+   "e": 63.7,
+   "t": "Hold on."
+  },
+  {
+   "s": 63.74,
+   "e": 65.74,
+   "t": "So, the audience is, like, part of the experiment."
+  },
+  {
+   "s": 66.06,
+   "e": 67.1,
+   "t": "You could say that."
+  },
+  {
+   "s": 67.64,
+   "e": 68.56,
+   "t": "But here's the thing."
+  },
+  {
+   "s": 68.62,
+   "e": 71.66,
+   "t": "It's not like they're hooked up to some crazy futuristic tech."
+  },
+  {
+   "s": 72.12,
+   "e": 74.9,
+   "t": "They use things like those, what are they called?"
+  },
+  {
+   "s": 75.22,
+   "e": 76.04,
+   "t": "Smart glasses."
+  },
+  {
+   "s": 76.74,
+   "e": 78.3,
+   "t": "Yeah, the ones that track your eye movements."
+  },
+  {
+   "s": 78.3,
+   "e": 78.84,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 78.92,
+   "e": 81.2,
+   "t": "So, it's, like, commercially available stuff?"
+  },
+  {
+   "s": 81.38,
+   "e": 81.56,
+   "t": "Yep."
+  },
+  {
+   "s": 81.78,
+   "e": 86.28,
+   "t": "So, imagine even subtle things, like if you blink or move your head, they're tracking it."
+  },
+  {
+   "s": 86.38,
+   "e": 89.22,
+   "t": "Man, now I'm thinking about all the times I'm fidgeting in the audience."
+  },
+  {
+   "s": 89.4,
+   "e": 90.38,
+   "t": "It doesn't stop there."
+  },
+  {
+   "s": 90.68,
+   "e": 92.8,
+   "t": "They've also got sensors to monitor heart rate."
+  },
+  {
+   "s": 92.98,
+   "e": 93.38,
+   "t": "Wow."
+  },
+  {
+   "s": 93.48,
+   "e": 97.0,
+   "t": "So, they're really getting, like, a whole body response from the audience."
+  },
+  {
+   "s": 97.1,
+   "e": 98.78,
+   "t": "But what do they do with all this data?"
+  },
+  {
+   "s": 99.12,
+   "e": 99.98,
+   "t": "Well, they translate it."
+  },
+  {
+   "s": 100.18,
+   "e": 105.18,
+   "t": "So, all this feedback from the audience gets turned into visuals and projected during the show."
+  },
+  {
+   "s": 105.18,
+   "e": 105.58,
+   "t": "Whoa."
+  },
+  {
+   "s": 105.72,
+   "e": 110.32,
+   "t": "So, the audience is literally seeing a visual representation of their own reactions."
+  },
+  {
+   "s": 110.54,
+   "e": 111.2,
+   "t": "Yeah, pretty much."
+  },
+  {
+   "s": 111.54,
+   "e": 115.42,
+   "t": "Like, if a bunch of people blink at the same time, the stage lights might turn red."
+  },
+  {
+   "s": 115.52,
+   "e": 116.48,
+   "t": "No way."
+  },
+  {
+   "s": 116.9,
+   "e": 117.34,
+   "t": "Seriously."
+  },
+  {
+   "s": 117.56,
+   "e": 117.7,
+   "t": "Yeah."
+  },
+  {
+   "s": 117.78,
+   "e": 119.38,
+   "t": "And it's not just, you know, blinking."
+  },
+  {
+   "s": 119.74,
+   "e": 122.6,
+   "t": "It's also about where they're looking their collective attention."
+  },
+  {
+   "s": 122.84,
+   "e": 124.7,
+   "t": "So, that gets reflected in the visuals, too."
+  },
+  {
+   "s": 124.78,
+   "e": 125.46,
+   "t": "It's pretty abstract."
+  },
+  {
+   "s": 125.68,
+   "e": 129.56,
+   "t": "It's like the stage becomes this canvas for the audience's, like, subconscious."
+  },
+  {
+   "s": 129.94,
+   "e": 130.2,
+   "t": "Right."
+  },
+  {
+   "s": 130.38,
+   "e": 131.58,
+   "t": "And it gets even wilder."
+  },
+  {
+   "s": 131.78,
+   "e": 134.28,
+   "t": "They took the heart rate data and used colors."
+  },
+  {
+   "s": 134.28,
+   "e": 137.3,
+   "t": "So, cool blues meant the audience was calm."
+  },
+  {
+   "s": 137.76,
+   "e": 141.08,
+   "t": "And then, like, fiery reds, that meant excitement."
+  },
+  {
+   "s": 141.8,
+   "e": 145.32,
+   "t": "And, like, throughout the performance, you'd see the colors change and shift."
+  },
+  {
+   "s": 145.56,
+   "e": 147.84,
+   "t": "Like, it was mirroring what the audience was feeling."
+  },
+  {
+   "s": 148.28,
+   "e": 148.58,
+   "t": "Wow."
+  },
+  {
+   "s": 148.7,
+   "e": 148.9,
+   "t": "Okay."
+  },
+  {
+   "s": 148.94,
+   "e": 150.44,
+   "t": "So, this isn't just a one-way street."
+  },
+  {
+   "s": 150.5,
+   "e": 150.68,
+   "t": "Right."
+  },
+  {
+   "s": 150.74,
+   "e": 153.5,
+   "t": "I mean, the dancers, they knew all of this was happening."
+  },
+  {
+   "s": 153.62,
+   "e": 154.86,
+   "t": "They could see the visuals."
+  },
+  {
+   "s": 155.12,
+   "e": 155.6,
+   "t": "Yeah, exactly."
+  },
+  {
+   "s": 155.7,
+   "e": 162.14,
+   "t": "So, they're aware of the audience's reactions in real time, which is where this whole idea of a feedback loop comes in."
+  },
+  {
+   "s": 162.14,
+   "e": 165.3,
+   "t": "So, like, the dancers are picking up on the audience's energy."
+  },
+  {
+   "s": 165.56,
+   "e": 169.42,
+   "t": "And then, I don't know, maybe their movements change or the pace shifts."
+  },
+  {
+   "s": 169.7,
+   "e": 169.88,
+   "t": "Right."
+  },
+  {
+   "s": 169.9,
+   "e": 172.8,
+   "t": "It's like this unspoken dialogue that starts to emerge."
+  },
+  {
+   "s": 173.06,
+   "e": 177.16,
+   "t": "And it really makes you wonder, you know, where else could you apply this kind of tech?"
+  },
+  {
+   "s": 177.34,
+   "e": 178.88,
+   "t": "It's not just about dance, right?"
+  },
+  {
+   "s": 178.88,
+   "e": 182.2,
+   "t": "I mean, could you imagine this happening at, like, a concert?"
+  },
+  {
+   "s": 182.62,
+   "e": 183.18,
+   "t": "Oh, absolutely."
+  },
+  {
+   "s": 183.46,
+   "e": 184.98,
+   "t": "Imagine you're at a rock concert, right?"
+  },
+  {
+   "s": 185.12,
+   "e": 187.36,
+   "t": "The band's playing, and then they hit that one song."
+  },
+  {
+   "s": 187.78,
+   "e": 189.26,
+   "t": "You know, the one that gets everyone pumped."
+  },
+  {
+   "s": 189.46,
+   "e": 191.68,
+   "t": "And the sensors, they pick up on that energy."
+  },
+  {
+   "s": 192.12,
+   "e": 193.2,
+   "t": "Everyone's heart rates are up."
+  },
+  {
+   "s": 193.28,
+   "e": 194.32,
+   "t": "They're moving around more."
+  },
+  {
+   "s": 194.5,
+   "e": 195.64,
+   "t": "And the music changes."
+  },
+  {
+   "s": 196.12,
+   "e": 199.02,
+   "t": "Like, maybe the tempo picks up or the lights start pulsing."
+  },
+  {
+   "s": 199.2,
+   "e": 199.44,
+   "t": "Okay."
+  },
+  {
+   "s": 199.62,
+   "e": 201.2,
+   "t": "Yeah, that would be pretty wild."
+  },
+  {
+   "s": 201.74,
+   "e": 205.5,
+   "t": "Although, I guess it could be a little intense, too, depending on, like, the vibe."
+  },
+  {
+   "s": 205.5,
+   "e": 209.68,
+   "t": "But this technology isn't just about, like, amping things up, right?"
+  },
+  {
+   "s": 209.76,
+   "e": 212.06,
+   "t": "I mean, it could also be used in subtler ways, too, maybe."
+  },
+  {
+   "s": 212.18,
+   "e": 212.66,
+   "t": "Oh, for sure."
+  },
+  {
+   "s": 212.88,
+   "e": 214.58,
+   "t": "Let's say you're at the theater, right?"
+  },
+  {
+   "s": 214.72,
+   "e": 219.66,
+   "t": "And there's a scene where, I don't know, maybe the mood needs to be really tense."
+  },
+  {
+   "s": 220.22,
+   "e": 227.08,
+   "t": "The lighting and sound could subtly shift based on how the audience is responding, making it feel even more real, you know?"
+  },
+  {
+   "s": 227.32,
+   "e": 228.28,
+   "t": "I can see that."
+  },
+  {
+   "s": 228.46,
+   "e": 233.92,
+   "t": "But I have to say, like, a part of me is also a little, I don't know, hesitant about all this."
+  },
+  {
+   "s": 233.92,
+   "e": 238.6,
+   "t": "Like, are we really okay with giving up that much control as audience members?"
+  },
+  {
+   "s": 238.9,
+   "e": 239.78,
+   "t": "Yeah, I get that."
+  },
+  {
+   "s": 239.9,
+   "e": 240.06,
+   "t": "Yeah."
+  },
+  {
+   "s": 240.14,
+   "e": 244.14,
+   "t": "I mean, it really brings up some questions about, like, consent, you know."
+  },
+  {
+   "s": 244.24,
+   "e": 255.96,
+   "t": "As an audience member, are you basically saying it's okay for them to not just track your reactions, but then use them to kind of, I don't know, manipulate the experience you're having?"
+  },
+  {
+   "s": 256.04,
+   "e": 256.8,
+   "t": "Right, exactly."
+  },
+  {
+   "s": 257.04,
+   "e": 258.82,
+   "t": "It's kind of a slippery slope, isn't it?"
+  },
+  {
+   "s": 258.82,
+   "e": 264.5,
+   "t": "I mean, it could definitely create a more connected experience, but it could also feel kind of invasive if it's not done pairfully."
+  },
+  {
+   "s": 264.68,
+   "e": 268.92,
+   "t": "It's almost like we're stepping into, I don't know, like, uncharted territory here."
+  },
+  {
+   "s": 269.0,
+   "e": 270.04,
+   "t": "It's not just the technology."
+  },
+  {
+   "s": 270.18,
+   "e": 275.02,
+   "t": "It's like, how do we even define the relationship between the art and the audience in this kind of setting?"
+  },
+  {
+   "s": 275.28,
+   "e": 276.04,
+   "t": "It's a tough one, right?"
+  },
+  {
+   "s": 276.14,
+   "e": 277.44,
+   "t": "Like, where do we draw the line?"
+  },
+  {
+   "s": 277.48,
+   "e": 282.6,
+   "t": "What does it go from enhancing the experience to, you know, messing with it?"
+  },
+  {
+   "s": 282.86,
+   "e": 283.22,
+   "t": "Exactly."
+  },
+  {
+   "s": 283.52,
+   "e": 286.28,
+   "t": "So, like, how do we deal with that?"
+  },
+  {
+   "s": 286.36,
+   "e": 288.44,
+   "t": "What are some ways to make sure it's done ethically?"
+  },
+  {
+   "s": 288.96,
+   "e": 290.68,
+   "t": "Well, I think a big part of it is transparency."
+  },
+  {
+   "s": 290.94,
+   "e": 293.82,
+   "t": "Like, before the show even starts, be upfront with the audience."
+  },
+  {
+   "s": 294.0,
+   "e": 295.48,
+   "t": "Tell them how their data is going to be used."
+  },
+  {
+   "s": 295.62,
+   "e": 298.04,
+   "t": "And not just a quick, you know, fine print disclaimer."
+  },
+  {
+   "s": 298.3,
+   "e": 298.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 298.54,
+   "e": 299.9,
+   "t": "Have a real conversation about it."
+  },
+  {
+   "s": 299.92,
+   "e": 302.08,
+   "t": "The good and the maybe not so good."
+  },
+  {
+   "s": 302.16,
+   "e": 302.36,
+   "t": "Right."
+  },
+  {
+   "s": 302.42,
+   "e": 303.58,
+   "t": "So the audience is in the loop."
+  },
+  {
+   "s": 303.68,
+   "e": 305.78,
+   "t": "They get to decide how comfortable they are with it."
+  },
+  {
+   "s": 305.9,
+   "e": 309.22,
+   "t": "It's more like a, I don't know, a collaboration then, right?"
+  },
+  {
+   "s": 309.4,
+   "e": 309.5,
+   "t": "Yeah."
+  },
+  {
+   "s": 309.58,
+   "e": 311.04,
+   "t": "Even before the curtain goes up."
+  },
+  {
+   "s": 311.44,
+   "e": 311.8,
+   "t": "Exactly."
+  },
+  {
+   "s": 311.8,
+   "e": 312.16,
+   "t": "Yeah."
+  },
+  {
+   "s": 312.26,
+   "e": 314.18,
+   "t": "And that's where it gets really exciting, I think."
+  },
+  {
+   "s": 314.52,
+   "e": 320.1,
+   "t": "Because if we can figure out this whole ethical side of things, this tech could really change"
+  },
+  {
+   "s": 320.1,
+   "e": 322.42,
+   "t": "live performance in amazing ways."
+  },
+  {
+   "s": 322.54,
+   "e": 326.18,
+   "t": "Think about it going to a concert, seeing a play, even a sporting event."
+  },
+  {
+   "s": 326.3,
+   "e": 327.66,
+   "t": "And it's totally immersive."
+  },
+  {
+   "s": 327.82,
+   "e": 328.68,
+   "t": "You're not just watching."
+  },
+  {
+   "s": 329.0,
+   "e": 329.82,
+   "t": "You're part of it."
+  },
+  {
+   "s": 330.2,
+   "e": 333.3,
+   "t": "And the energy of everyone there is actually shaping what's happening."
+  },
+  {
+   "s": 333.52,
+   "e": 336.38,
+   "t": "Which brings us back to that title, Boiling Mind."
+  },
+  {
+   "s": 336.44,
+   "e": 337.6,
+   "t": "It's not just a catchy name."
+  },
+  {
+   "s": 337.7,
+   "e": 340.8,
+   "t": "It's like it actually gets at what this could be, right?"
+  },
+  {
+   "s": 340.8,
+   "e": 347.16,
+   "t": "This future where our reactions, our emotions, our minds are all part of the art itself."
+  },
+  {
+   "s": 347.34,
+   "e": 347.46,
+   "t": "Right."
+  },
+  {
+   "s": 347.52,
+   "e": 349.48,
+   "t": "And it's a future that's, you know, right around the corner."
+  },
+  {
+   "s": 349.74,
+   "e": 353.78,
+   "t": "So it's important to really think about this stuff, talk about it, and understand just how"
+  },
+  {
+   "s": 353.78,
+   "e": 355.98,
+   "t": "much tech is changing, well, everything."
+  },
+  {
+   "s": 356.34,
+   "e": 359.18,
+   "t": "Not just how we experience art, but how we connect with each other too."
+  },
+  {
+   "s": 359.18,
+   "e": 360.88,
+   "t": "It's definitely something to keep in mind."
+  },
+  {
+   "s": 361.46,
+   "e": 365.56,
+   "t": "So next time you're at a show, any kind of show, think about that."
+  },
+  {
+   "s": 365.72,
+   "e": 366.4,
+   "t": "Think about the energy."
+  },
+  {
+   "s": 366.62,
+   "e": 368.0,
+   "t": "Think about the tech that might be at play."
+  },
+  {
+   "s": 368.4,
+   "e": 372.48,
+   "t": "And ask yourself, what if the line between just watching and actually being part of the"
+  },
+  {
+   "s": 372.48,
+   "e": 374.32,
+   "t": "show is a lot blurrier than we realize?"
+  },
+  {
+   "s": 374.58,
+   "e": 376.08,
+   "t": "It's definitely a question worth asking."
+  },
+  {
+   "s": 376.08,
+   "e": 385.4,
+   "t": "See you after watching."
+  }
+ ]
+}

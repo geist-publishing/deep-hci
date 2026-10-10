@@ -1,0 +1,1325 @@
+{
+ "guid": "deephci.podbean.com/a6327bfa-ca67-3c15-8366-a59aef6f02be",
+ "slug": "assets-2024-brain-body-jockey-project-transcending-bodily-limitations-in-live-performance-via-human-augmentation",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "3663548-3675621.mp3",
+  "version": 1
+ },
+ "duration": 854,
+ "word_count": 2660,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 8.06,
+   "t": "Welcome back. Today we're going on a deep dive into a fascinating area where music and technology and human potential all come together."
+  },
+  {
+   "s": 8.14,
+   "e": 8.74,
+   "t": "Sounds intriguing."
+  },
+  {
+   "s": 8.98,
+   "e": 17.2,
+   "t": "We're going to be looking at a research paper. It was just presented at the 26th International ACM Sick Access Conference on Computers and Accessibility."
+  },
+  {
+   "s": 17.3,
+   "e": 17.56,
+   "t": "Okay."
+  },
+  {
+   "s": 17.56,
+   "e": 23.04,
+   "t": "And this paper, it describes a really groundbreaking performance by a DJ with ALS."
+  },
+  {
+   "s": 23.04,
+   "e": 30.14,
+   "t": "He uses, get this, a brain-machine interface and robotic arms to make his stage presence even better."
+  },
+  {
+   "s": 30.58,
+   "e": 31.2,
+   "t": "That's impressive."
+  },
+  {
+   "s": 31.48,
+   "e": 35.88,
+   "t": "So our deep dive is going to be at this crossroads of art, technology, and disability."
+  },
+  {
+   "s": 36.22,
+   "e": 44.92,
+   "t": "And we're going to see how this artist uses some pretty advanced tech to kind of push the boundaries of what's possible creatively and challenge how we think about things."
+  },
+  {
+   "s": 45.02,
+   "e": 46.0,
+   "t": "I'm ready. Let's dive in."
+  },
+  {
+   "s": 46.12,
+   "e": 46.78,
+   "t": "Okay, great."
+  },
+  {
+   "s": 46.78,
+   "e": 54.72,
+   "t": "So the paper that we'll be talking about is called Brain Body Jockey Project, Transcending Bodily Limitations in Live Performance via Human Augmentation."
+  },
+  {
+   "s": 55.0,
+   "e": 58.46,
+   "t": "It's by Giulio Barbarassi, Sanchez Zhu, and others."
+  },
+  {
+   "s": 58.6,
+   "e": 65.26,
+   "t": "And just to give you a little background, the paper introduces us to this 37-year-old professional VDJ."
+  },
+  {
+   "s": 65.54,
+   "e": 67.1,
+   "t": "He is advanced ALS."
+  },
+  {
+   "s": 67.22,
+   "e": 67.48,
+   "t": "Okay."
+  },
+  {
+   "s": 68.08,
+   "e": 70.42,
+   "t": "And he's lost almost all of his mobility."
+  },
+  {
+   "s": 70.8,
+   "e": 72.4,
+   "t": "But this hasn't stopped him."
+  },
+  {
+   "s": 72.4,
+   "e": 74.12,
+   "t": "He still composes music."
+  },
+  {
+   "s": 74.24,
+   "e": 74.54,
+   "t": "Uh-huh."
+  },
+  {
+   "s": 74.64,
+   "e": 75.38,
+   "t": "And he performs."
+  },
+  {
+   "s": 75.38,
+   "e": 78.5,
+   "t": "He uses a gaze-based interface and Ableton software."
+  },
+  {
+   "s": 78.66,
+   "e": 79.0,
+   "t": "I see."
+  },
+  {
+   "s": 79.32,
+   "e": 80.44,
+   "t": "His vision is ambitious."
+  },
+  {
+   "s": 80.92,
+   "e": 83.26,
+   "t": "He really wants to go beyond his physical limits."
+  },
+  {
+   "s": 83.36,
+   "e": 83.54,
+   "t": "Ah."
+  },
+  {
+   "s": 83.76,
+   "e": 86.9,
+   "t": "And use technology to make his stage presence even stronger."
+  },
+  {
+   "s": 87.38,
+   "e": 92.82,
+   "t": "It's incredible how technology can open up those kinds of possibilities for artists facing physical challenges."
+  },
+  {
+   "s": 93.14,
+   "e": 99.8,
+   "t": "And it really underscores the challenges that musicians with disabilities, especially those with limited mobility, encounter."
+  },
+  {
+   "s": 99.98,
+   "e": 100.4,
+   "t": "That's true."
+  },
+  {
+   "s": 100.4,
+   "e": 106.26,
+   "t": "I mean, think about the barriers they face when it comes to accessing training or finding places to perform."
+  },
+  {
+   "s": 106.36,
+   "e": 106.48,
+   "t": "Right."
+  },
+  {
+   "s": 106.62,
+   "e": 109.08,
+   "t": "And getting the recognition they deserve for their talent."
+  },
+  {
+   "s": 109.22,
+   "e": 109.52,
+   "t": "For sure."
+  },
+  {
+   "s": 109.72,
+   "e": 110.94,
+   "t": "It's a lot to overcome."
+  },
+  {
+   "s": 111.1,
+   "e": 111.58,
+   "t": "It is."
+  },
+  {
+   "s": 111.72,
+   "e": 121.54,
+   "t": "While composing electronic music and DJing can be somewhat more accessible compared to traditional instruments, you know, which often require really difficult and expensive adaptations."
+  },
+  {
+   "s": 121.54,
+   "e": 121.98,
+   "t": "Right."
+  },
+  {
+   "s": 121.98,
+   "e": 129.6,
+   "t": "The paper points out that there's surprisingly little research on professional DJs with disabilities, even though they're out there working in the industry."
+  },
+  {
+   "s": 129.78,
+   "e": 129.96,
+   "t": "Yeah."
+  },
+  {
+   "s": 130.16,
+   "e": 134.82,
+   "t": "And that's where this brain-machine interface and robotic arm system really comes in."
+  },
+  {
+   "s": 134.9,
+   "e": 138.76,
+   "t": "It's like a bridge between his artistic vision and the limitations he's facing."
+  },
+  {
+   "s": 138.76,
+   "e": 139.76,
+   "t": "Yeah, it's amazing."
+  },
+  {
+   "s": 139.86,
+   "e": 142.2,
+   "t": "The system wasn't just handed to him, you know."
+  },
+  {
+   "s": 142.66,
+   "e": 146.18,
+   "t": "It was carefully developed over six months through this collaboration."
+  },
+  {
+   "s": 146.52,
+   "e": 146.88,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 146.94,
+   "e": 156.18,
+   "t": "Between the artists, researchers, and technologists, they worked together to overcome technical hurdles and address the initial limitations of the BMI design."
+  },
+  {
+   "s": 156.62,
+   "e": 161.66,
+   "t": "It's a great example of what can happen when people from different fields come together to solve a problem."
+  },
+  {
+   "s": 161.84,
+   "e": 165.02,
+   "t": "So how does this brain-machine interface actually work?"
+  },
+  {
+   "s": 165.02,
+   "e": 175.68,
+   "t": "Well, it's really fascinating that BMI uses something called auditory event-related potentials or ERPs and motor imagery or MI to understand the signals from the DJ's brain."
+  },
+  {
+   "s": 176.2,
+   "e": 177.1,
+   "t": "So think of it this way."
+  },
+  {
+   "s": 177.76,
+   "e": 183.72,
+   "t": "The DJ is conducting an orchestra of robotic arms, but he's using his brainwaves instead of a baton."
+  },
+  {
+   "s": 183.92,
+   "e": 185.82,
+   "t": "So it's reading his thoughts, essentially."
+  },
+  {
+   "s": 186.06,
+   "e": 186.9,
+   "t": "Essentially, yes."
+  },
+  {
+   "s": 186.9,
+   "e": 195.32,
+   "t": "The system detects these really subtle electrical signals that are produced when he hears certain sounds and when he imagines certain movements."
+  },
+  {
+   "s": 195.62,
+   "e": 196.52,
+   "t": "And how accurate is it?"
+  },
+  {
+   "s": 196.86,
+   "e": 198.48,
+   "t": "It's remarkably accurate."
+  },
+  {
+   "s": 198.72,
+   "e": 201.9,
+   "t": "They've achieved an accuracy rate of almost 90%, which is incredible."
+  },
+  {
+   "s": 202.56,
+   "e": 203.16,
+   "t": "That's incredible."
+  },
+  {
+   "s": 203.3,
+   "e": 208.42,
+   "t": "And this application of BMI technology is going beyond its usual role in assistive technology."
+  },
+  {
+   "s": 208.64,
+   "e": 215.34,
+   "t": "It's moving into the realm of creative expression, giving artists a completely new way to interact with their art and their audience."
+  },
+  {
+   "s": 215.34,
+   "e": 218.52,
+   "t": "So he can control these robotic arms just by thinking."
+  },
+  {
+   "s": 218.82,
+   "e": 219.38,
+   "t": "Pretty much."
+  },
+  {
+   "s": 219.64,
+   "e": 225.34,
+   "t": "To give him even more precise control, they added a finger-activated accelerometer trigger to the system."
+  },
+  {
+   "s": 225.48,
+   "e": 229.0,
+   "t": "This lets him control exactly when the robotic movements happen."
+  },
+  {
+   "s": 229.5,
+   "e": 231.76,
+   "t": "It's amazing how well everything syncs up."
+  },
+  {
+   "s": 232.28,
+   "e": 232.86,
+   "t": "That's amazing."
+  },
+  {
+   "s": 232.96,
+   "e": 236.84,
+   "t": "It really makes you wonder about the relationship between the artist and the technology."
+  },
+  {
+   "s": 237.12,
+   "e": 238.5,
+   "t": "Like, where does the control shift?"
+  },
+  {
+   "s": 238.68,
+   "e": 239.44,
+   "t": "That's a great point."
+  },
+  {
+   "s": 239.44,
+   "e": 245.04,
+   "t": "We're seeing this fascinating interaction between the artist's intentions and how the technology carries them out."
+  },
+  {
+   "s": 245.34,
+   "e": 247.08,
+   "t": "So let's talk about the robotic system."
+  },
+  {
+   "s": 247.4,
+   "e": 248.94,
+   "t": "You said it was a symphony of technology."
+  },
+  {
+   "s": 249.16,
+   "e": 250.5,
+   "t": "How many arms are we talking about here?"
+  },
+  {
+   "s": 250.78,
+   "e": 253.0,
+   "t": "They used five U-Factory X-arms."
+  },
+  {
+   "s": 253.22,
+   "e": 253.54,
+   "t": "Wow."
+  },
+  {
+   "s": 253.74,
+   "e": 256.98,
+   "t": "Two of them were placed behind the DJ, sort of mimicking his arms."
+  },
+  {
+   "s": 257.1,
+   "e": 257.26,
+   "t": "Okay."
+  },
+  {
+   "s": 257.4,
+   "e": 264.08,
+   "t": "Two were on the DJ booth, and the fifth arm was holding a cybernetic avatar that represented the DJ."
+  },
+  {
+   "s": 264.74,
+   "e": 269.62,
+   "t": "It created this amazing visual presence, like a digital extension of his body."
+  },
+  {
+   "s": 269.98,
+   "e": 271.08,
+   "t": "That's a really cool visual."
+  },
+  {
+   "s": 271.08,
+   "e": 274.56,
+   "t": "How did they make the arms move in sync with the music?"
+  },
+  {
+   "s": 275.2,
+   "e": 277.16,
+   "t": "They used a technique called keyframing."
+  },
+  {
+   "s": 277.44,
+   "e": 283.96,
+   "t": "Basically, the DJ choreographed the movements of the robotic arms and then synchronized them to the music."
+  },
+  {
+   "s": 284.3,
+   "e": 288.96,
+   "t": "They have some illustrations in the research paper that show the programmed dance moves."
+  },
+  {
+   "s": 289.06,
+   "e": 289.44,
+   "t": "That's awesome."
+  },
+  {
+   "s": 289.54,
+   "e": 290.74,
+   "t": "We should share those on our website."
+  },
+  {
+   "s": 291.06,
+   "e": 291.42,
+   "t": "Definitely."
+  },
+  {
+   "s": 291.76,
+   "e": 293.9,
+   "t": "The system was designed to be really intuitive."
+  },
+  {
+   "s": 294.14,
+   "e": 294.32,
+   "t": "Yeah."
+  },
+  {
+   "s": 294.32,
+   "e": 296.76,
+   "t": "The artist doesn't just control the robots."
+  },
+  {
+   "s": 296.92,
+   "e": 301.14,
+   "t": "He directs them, shaping their movements so they're in harmony with his artistic expression."
+  },
+  {
+   "s": 301.84,
+   "e": 303.34,
+   "t": "So the technology doesn't take over."
+  },
+  {
+   "s": 303.56,
+   "e": 305.06,
+   "t": "It's a tool for his creativity."
+  },
+  {
+   "s": 305.36,
+   "e": 305.76,
+   "t": "Exactly."
+  },
+  {
+   "s": 305.88,
+   "e": 308.88,
+   "t": "It's really blurring the lines between the performer and the performance."
+  },
+  {
+   "s": 309.28,
+   "e": 309.68,
+   "t": "Absolutely."
+  },
+  {
+   "s": 310.16,
+   "e": 312.3,
+   "t": "And they took this idea even further."
+  },
+  {
+   "s": 312.82,
+   "e": 318.48,
+   "t": "They organized a meet the DJ event where the audience could actually interact with the artist directly."
+  },
+  {
+   "s": 318.74,
+   "e": 319.54,
+   "t": "How did that work?"
+  },
+  {
+   "s": 319.54,
+   "e": 324.84,
+   "t": "They set up some lighter, more human-like robotic arms near the DJ's wheelchair."
+  },
+  {
+   "s": 325.14,
+   "e": 325.4,
+   "t": "Okay."
+  },
+  {
+   "s": 325.58,
+   "e": 329.36,
+   "t": "And get this, they added a haptic feedback device."
+  },
+  {
+   "s": 329.48,
+   "e": 329.94,
+   "t": "What did that do?"
+  },
+  {
+   "s": 330.32,
+   "e": 334.94,
+   "t": "It lets the DJ physically feel it when someone touches the robotic hand."
+  },
+  {
+   "s": 335.18,
+   "e": 335.54,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 336.14,
+   "e": 340.56,
+   "t": "It's an incredible way to bridge the physical distance between the artist and the audience."
+  },
+  {
+   "s": 341.12,
+   "e": 342.12,
+   "t": "That's so powerful."
+  },
+  {
+   "s": 342.26,
+   "e": 345.74,
+   "t": "It really emphasizes the human connection aspect of this whole project."
+  },
+  {
+   "s": 345.82,
+   "e": 346.26,
+   "t": "Absolutely."
+  },
+  {
+   "s": 346.48,
+   "e": 348.14,
+   "t": "This isn't just about technical innovation."
+  },
+  {
+   "s": 348.14,
+   "e": 352.32,
+   "t": "It's about connecting the artist with technology and the artist with the audience."
+  },
+  {
+   "s": 352.62,
+   "e": 354.02,
+   "t": "They had two live performances, right?"
+  },
+  {
+   "s": 354.14,
+   "e": 354.4,
+   "t": "Yes."
+  },
+  {
+   "s": 354.58,
+   "e": 357.3,
+   "t": "Both featuring original music that the DJ composed."
+  },
+  {
+   "s": 357.48,
+   "e": 358.76,
+   "t": "How did the audiences respond?"
+  },
+  {
+   "s": 358.92,
+   "e": 359.86,
+   "t": "It was phenomenal."
+  },
+  {
+   "s": 360.26,
+   "e": 364.08,
+   "t": "People were completely blown away by the technology, the way the robotic arms moved."
+  },
+  {
+   "s": 364.46,
+   "e": 370.58,
+   "t": "And most importantly, they recognized the DJ's talent and skill as the driving force behind it all."
+  },
+  {
+   "s": 370.7,
+   "e": 372.8,
+   "t": "So the technology was almost invisible."
+  },
+  {
+   "s": 373.24,
+   "e": 374.08,
+   "t": "In a way, yes."
+  },
+  {
+   "s": 374.12,
+   "e": 375.42,
+   "t": "It was a means to an end."
+  },
+  {
+   "s": 375.42,
+   "e": 379.7,
+   "t": "The artistry, the creativity, the emotions, all of that came from the DJ."
+  },
+  {
+   "s": 380.48,
+   "e": 384.58,
+   "t": "The technology amplified his talent rather than overshadowing it."
+  },
+  {
+   "s": 384.76,
+   "e": 388.88,
+   "t": "And the attention to accessibility throughout the entire project is commendable."
+  },
+  {
+   "s": 388.98,
+   "e": 389.38,
+   "t": "I agree."
+  },
+  {
+   "s": 389.7,
+   "e": 395.54,
+   "t": "They made sure the venue could accommodate everyone's needs and provided different ways for people to experience the performance."
+  },
+  {
+   "s": 395.54,
+   "e": 403.32,
+   "t": "It shows their commitment to making this incredible fusion of art and technology accessible to as many people as possible."
+  },
+  {
+   "s": 403.5,
+   "e": 403.86,
+   "t": "Definitely."
+  },
+  {
+   "s": 404.3,
+   "e": 407.58,
+   "t": "This performance went far beyond just a display of technology."
+  },
+  {
+   "s": 407.82,
+   "e": 413.04,
+   "t": "It started conversations, challenged assumptions, and had a profound impact on everyone who saw it."
+  },
+  {
+   "s": 413.04,
+   "e": 414.96,
+   "t": "What kind of insights did they gather from the audience?"
+  },
+  {
+   "s": 415.26,
+   "e": 419.38,
+   "t": "They conducted in-depth interviews with both the artist and audience members."
+  },
+  {
+   "s": 419.48,
+   "e": 419.7,
+   "t": "Okay."
+  },
+  {
+   "s": 419.7,
+   "e": 423.22,
+   "t": "And they also did a careful analysis of videos from the performances."
+  },
+  {
+   "s": 423.22,
+   "e": 427.6,
+   "t": "This helped them uncover some really valuable insights about the experience as a whole."
+  },
+  {
+   "s": 427.78,
+   "e": 428.7,
+   "t": "So what did they find out?"
+  },
+  {
+   "s": 428.78,
+   "e": 430.28,
+   "t": "I'm curious to hear what people took away from it."
+  },
+  {
+   "s": 430.56,
+   "e": 434.76,
+   "t": "Well, in the next segment, we'll delve into those insights, exploring the themes that emerged,"
+  },
+  {
+   "s": 435.16,
+   "e": 439.98,
+   "t": "how the performance influenced the audience's perceptions of disability and technology,"
+  },
+  {
+   "s": 439.98,
+   "e": 443.72,
+   "t": "and what it all means for the future of artistic expression."
+  },
+  {
+   "s": 443.98,
+   "e": 444.4,
+   "t": "Sounds good."
+  },
+  {
+   "s": 444.86,
+   "e": 447.9,
+   "t": "Let's take a short break, and we'll be right back to discuss those insights."
+  },
+  {
+   "s": 448.52,
+   "e": 448.84,
+   "t": "Okay."
+  },
+  {
+   "s": 448.84,
+   "e": 450.94,
+   "t": "So let's talk about those insights from the audience."
+  },
+  {
+   "s": 450.94,
+   "e": 453.18,
+   "t": "Yeah, the audience's response was fascinating."
+  },
+  {
+   "s": 453.48,
+   "e": 457.42,
+   "t": "What were some of the things that came up in the interviews and the video analysis?"
+  },
+  {
+   "s": 457.82,
+   "e": 465.62,
+   "t": "One of the biggest themes that jumped out was this feeling of unity and connection between the artist and the audience."
+  },
+  {
+   "s": 465.82,
+   "e": 467.04,
+   "t": "You can really see it in the videos."
+  },
+  {
+   "s": 467.28,
+   "e": 468.38,
+   "t": "The music's playing."
+  },
+  {
+   "s": 468.66,
+   "e": 470.96,
+   "t": "The robot arms are moving with the rhythm."
+  },
+  {
+   "s": 471.18,
+   "e": 472.4,
+   "t": "The crowd's moving, too."
+  },
+  {
+   "s": 472.56,
+   "e": 474.76,
+   "t": "It's like everyone's caught up in the energy of the performance."
+  },
+  {
+   "s": 474.76,
+   "e": 483.28,
+   "t": "The paper actually talks about how the artist used the timing of the robotic arm movements to kind of shape the energy of the crowd,"
+  },
+  {
+   "s": 483.76,
+   "e": 488.58,
+   "t": "to build anticipation and create these moments of excitement that went along with the music."
+  },
+  {
+   "s": 488.7,
+   "e": 489.8,
+   "t": "I hadn't thought of it that way."
+  },
+  {
+   "s": 490.08,
+   "e": 494.1,
+   "t": "It's a really cool example of how human intention and technology can work together."
+  },
+  {
+   "s": 494.58,
+   "e": 494.98,
+   "t": "Absolutely."
+  },
+  {
+   "s": 495.36,
+   "e": 498.82,
+   "t": "And there's that quote from the fellow ALS patient in the audience."
+  },
+  {
+   "s": 498.98,
+   "e": 500.18,
+   "t": "Yeah, I remember that."
+  },
+  {
+   "s": 500.26,
+   "e": 503.52,
+   "t": "He talked about feeling this surge of hope and courage."
+  },
+  {
+   "s": 503.52,
+   "e": 506.12,
+   "t": "Seeing the DJ command the stage like that."
+  },
+  {
+   "s": 506.56,
+   "e": 508.38,
+   "t": "Pushing past his physical limitations."
+  },
+  {
+   "s": 508.98,
+   "e": 509.84,
+   "t": "It's powerful."
+  },
+  {
+   "s": 510.0,
+   "e": 514.36,
+   "t": "It really challenges our ideas about what's possible for someone with a disability."
+  },
+  {
+   "s": 514.72,
+   "e": 516.98,
+   "t": "It's like he's saying, look, I can still create."
+  },
+  {
+   "s": 517.2,
+   "e": 518.48,
+   "t": "I can still express myself."
+  },
+  {
+   "s": 518.62,
+   "e": 520.18,
+   "t": "I can still connect with people."
+  },
+  {
+   "s": 520.48,
+   "e": 521.2,
+   "t": "It's inspiring."
+  },
+  {
+   "s": 521.46,
+   "e": 523.9,
+   "t": "And it wasn't just about the technology itself, was it?"
+  },
+  {
+   "s": 523.98,
+   "e": 526.56,
+   "t": "No, it was about what the technology allowed him to do."
+  },
+  {
+   "s": 526.86,
+   "e": 530.74,
+   "t": "The audience wasn't focused on how the brain-machine interface worked."
+  },
+  {
+   "s": 530.74,
+   "e": 533.0,
+   "t": "Or the mechanics of the robotic arms."
+  },
+  {
+   "s": 533.0,
+   "e": 539.06,
+   "t": "They were drawn to the DJ's skill, how the music and movement flowed together, the whole artistic vision."
+  },
+  {
+   "s": 539.24,
+   "e": 539.52,
+   "t": "Right."
+  },
+  {
+   "s": 539.72,
+   "e": 548.84,
+   "t": "And the interviews show that while a lot of people were initially intrigued by the novelty of the tech, it was the DJ's mastery of it that really made an impression."
+  },
+  {
+   "s": 549.2,
+   "e": 556.58,
+   "t": "One audience member said, when I was clapping my hands and watching the stage, I didn't feel like the artist's name was controlling robotic arms."
+  },
+  {
+   "s": 556.9,
+   "e": 560.92,
+   "t": "It felt like he was moving his own body, but his body was the whole stage."
+  },
+  {
+   "s": 560.92,
+   "e": 561.88,
+   "t": "It's a great way to put it."
+  },
+  {
+   "s": 561.94,
+   "e": 565.58,
+   "t": "Like the technology faded away and all you saw was the artist's expression."
+  },
+  {
+   "s": 565.84,
+   "e": 569.72,
+   "t": "Which brings us back to the idea of relative virtuosity."
+  },
+  {
+   "s": 569.92,
+   "e": 570.16,
+   "t": "Right."
+  },
+  {
+   "s": 570.26,
+   "e": 575.9,
+   "t": "The idea that our perceptions of someone's skill are influenced by our expectations about their bodies."
+  },
+  {
+   "s": 576.16,
+   "e": 583.48,
+   "t": "So in this case, by incorporating technology, the DJ redefined those expectations and showed his virtuosity in a new way."
+  },
+  {
+   "s": 583.84,
+   "e": 585.9,
+   "t": "A way that went beyond his physical limitations."
+  },
+  {
+   "s": 585.9,
+   "e": 588.26,
+   "t": "It was both impressive and thought provoking."
+  },
+  {
+   "s": 588.58,
+   "e": 596.56,
+   "t": "The performance sparked conversations about how technology can shape artistic expression, break down barriers, and broaden our understanding of human potential."
+  },
+  {
+   "s": 596.88,
+   "e": 601.76,
+   "t": "And the impact of this one performance extended way beyond the people who saw it firsthand."
+  },
+  {
+   "s": 602.0,
+   "e": 606.06,
+   "t": "Some audience members were inspired to think about how they could use technology in their own fields."
+  },
+  {
+   "s": 606.26,
+   "e": 608.94,
+   "t": "Others were just amazed by the possibilities that opened up."
+  },
+  {
+   "s": 609.2,
+   "e": 612.18,
+   "t": "And the DJ himself was energized by the experience."
+  },
+  {
+   "s": 612.44,
+   "e": 613.86,
+   "t": "He wants to keep pushing the boundaries."
+  },
+  {
+   "s": 613.86,
+   "e": 619.86,
+   "t": "The paper mentions how he's looking into even more advanced technologies and exploring things like distributed bodies."
+  },
+  {
+   "s": 620.5,
+   "e": 621.18,
+   "t": "Wow, what's that?"
+  },
+  {
+   "s": 621.34,
+   "e": 625.68,
+   "t": "Using technology to control multiple robotic avatars in different places."
+  },
+  {
+   "s": 625.96,
+   "e": 626.64,
+   "t": "That's wild."
+  },
+  {
+   "s": 626.74,
+   "e": 629.76,
+   "t": "Imagine the kind of immersive performances that would be possible."
+  },
+  {
+   "s": 630.36,
+   "e": 634.76,
+   "t": "It's incredible how this project has sparked his imagination and his desire to innovate."
+  },
+  {
+   "s": 635.2,
+   "e": 637.02,
+   "t": "It's a testament to the power of art."
+  },
+  {
+   "s": 637.52,
+   "e": 640.34,
+   "t": "To not just reflect the world, but to shape it."
+  },
+  {
+   "s": 640.34,
+   "e": 649.42,
+   "t": "And what's really cool is that the DJ wants to use what he's learned to develop robotic arm technologies for everyday use by people with disabilities."
+  },
+  {
+   "s": 649.58,
+   "e": 650.36,
+   "t": "That's fantastic."
+  },
+  {
+   "s": 650.36,
+   "e": 655.22,
+   "t": "It shows that advances in one area can have ripple effects in seemingly unrelated fields."
+  },
+  {
+   "s": 655.92,
+   "e": 663.06,
+   "t": "The creativity and ingenuity that go into creating these cutting-edge artistic experiences can lead to breakthroughs in assistive technology."
+  },
+  {
+   "s": 663.26,
+   "e": 665.24,
+   "t": "Which can improve the lives of so many people."
+  },
+  {
+   "s": 665.24,
+   "e": 670.08,
+   "t": "It really underscores the importance of collaboration between artists, researchers, and technologists."
+  },
+  {
+   "s": 670.36,
+   "e": 676.06,
+   "t": "Bringing together different perspectives and expertise can unlock solutions that we might never have imagined otherwise."
+  },
+  {
+   "s": 676.6,
+   "e": 679.32,
+   "t": "Solutions that are innovative and have a real impact."
+  },
+  {
+   "s": 679.32,
+   "e": 687.38,
+   "t": "This deep dive has taken us on quite a journey through this intersection of music, technology, disability, and human potential."
+  },
+  {
+   "s": 688.08,
+   "e": 695.46,
+   "t": "We've seen how one artist's vision, combined with the power of technology, can create a truly transformative experience."
+  },
+  {
+   "s": 695.6,
+   "e": 697.12,
+   "t": "We've only scratched the surface, though."
+  },
+  {
+   "s": 697.32,
+   "e": 697.48,
+   "t": "Yeah."
+  },
+  {
+   "s": 697.52,
+   "e": 702.0,
+   "t": "In the final segment, we're going to take a step back and consider the broader implications of this project."
+  },
+  {
+   "s": 702.56,
+   "e": 708.54,
+   "t": "This deep dive has really been about exploring where technology and human expression meet."
+  },
+  {
+   "s": 708.54,
+   "e": 709.12,
+   "t": "It has."
+  },
+  {
+   "s": 709.48,
+   "e": 713.32,
+   "t": "And I think it's clear that this project, it went beyond limitations."
+  },
+  {
+   "s": 713.62,
+   "e": 713.88,
+   "t": "Definitely."
+  },
+  {
+   "s": 714.06,
+   "e": 716.24,
+   "t": "It broadened the possibilities for creative expression."
+  },
+  {
+   "s": 716.76,
+   "e": 721.74,
+   "t": "And it makes us rethink what artistic expression can be in a world that's so shaped by technology."
+  },
+  {
+   "s": 721.96,
+   "e": 722.8,
+   "t": "It really does."
+  },
+  {
+   "s": 722.94,
+   "e": 729.5,
+   "t": "The performance we've been discussing, it raises questions about human capability and where augmentation ends and dependence begins."
+  },
+  {
+   "s": 730.2,
+   "e": 735.66,
+   "t": "It's a critical discussion to have, especially as technology becomes more integrated into our lives and how we create art."
+  },
+  {
+   "s": 735.66,
+   "e": 738.72,
+   "t": "It makes you think about what happens when we give machines some control."
+  },
+  {
+   "s": 739.14,
+   "e": 739.66,
+   "t": "Exactly."
+  },
+  {
+   "s": 739.96,
+   "e": 741.94,
+   "t": "Even while they're enhancing our abilities."
+  },
+  {
+   "s": 742.16,
+   "e": 742.36,
+   "t": "Right."
+  },
+  {
+   "s": 742.52,
+   "e": 746.08,
+   "t": "We have to be careful that technology empowers us and doesn't limit us."
+  },
+  {
+   "s": 746.16,
+   "e": 749.0,
+   "t": "That it helps us become more autonomous, not less."
+  },
+  {
+   "s": 749.18,
+   "e": 756.66,
+   "t": "And this DJ's performance, with its relative virtuosity, shows how fluid skill and artistry can be."
+  },
+  {
+   "s": 756.86,
+   "e": 757.4,
+   "t": "It does."
+  },
+  {
+   "s": 757.4,
+   "e": 761.7,
+   "t": "It encourages us to recognize that virtuosity can be expressed in many different ways."
+  },
+  {
+   "s": 761.8,
+   "e": 762.22,
+   "t": "Absolutely."
+  },
+  {
+   "s": 762.98,
+   "e": 767.22,
+   "t": "And it challenges us to embrace the unique contributions of people with disabilities."
+  },
+  {
+   "s": 767.62,
+   "e": 776.5,
+   "t": "I think the DJ story is a powerful example of how technology can create inclusivity, allowing artistic expression in ways we never thought possible before."
+  },
+  {
+   "s": 776.64,
+   "e": 777.1,
+   "t": "It is."
+  },
+  {
+   "s": 777.32,
+   "e": 781.64,
+   "t": "But it also reminds us that these advancements could create new divisions if we're not careful."
+  },
+  {
+   "s": 781.92,
+   "e": 782.66,
+   "t": "That's a good point."
+  },
+  {
+   "s": 782.78,
+   "e": 785.76,
+   "t": "We have to make sure everyone has equal access to these tools."
+  },
+  {
+   "s": 785.76,
+   "e": 787.72,
+   "t": "This deep dive has been amazing."
+  },
+  {
+   "s": 787.94,
+   "e": 795.4,
+   "t": "It's a testament to human ingenuity and the power of technology to break down barriers and change how we understand what's possible."
+  },
+  {
+   "s": 795.84,
+   "e": 796.52,
+   "t": "It has been."
+  },
+  {
+   "s": 796.64,
+   "e": 797.64,
+   "t": "And it's a call to action."
+  },
+  {
+   "s": 797.88,
+   "e": 798.36,
+   "t": "In what way?"
+  },
+  {
+   "s": 798.56,
+   "e": 805.64,
+   "t": "To approach these advancements thoughtfully and critically, recognizing their potential impact on individuals and society."
+  },
+  {
+   "s": 805.82,
+   "e": 812.24,
+   "t": "It's exciting to think about the possibilities that lie ahead for artistic expression as technology keeps evolving."
+  },
+  {
+   "s": 812.56,
+   "e": 812.94,
+   "t": "It is."
+  },
+  {
+   "s": 812.94,
+   "e": 820.56,
+   "t": "What new art forms, what new music and performances might emerge from this fusion of humans and technology?"
+  },
+  {
+   "s": 821.18,
+   "e": 826.1,
+   "t": "What new creative territories are waiting to be explored as we push the boundaries of innovation?"
+  },
+  {
+   "s": 826.6,
+   "e": 828.82,
+   "t": "It's both exciting and a little bit uncertain, right?"
+  },
+  {
+   "s": 828.96,
+   "e": 829.16,
+   "t": "Yes."
+  },
+  {
+   "s": 829.18,
+   "e": 838.42,
+   "t": "As we move into this new territory, let's be open to the transformative power of art and technology, embracing the challenges and opportunities they present."
+  },
+  {
+   "s": 838.42,
+   "e": 842.5,
+   "t": "With curiosity, responsibility, and a commitment to inclusivity."
+  },
+  {
+   "s": 842.66,
+   "e": 843.86,
+   "t": "I couldn't have said it better myself."
+  },
+  {
+   "s": 843.96,
+   "e": 845.72,
+   "t": "Thank you for joining us on this deep dive."
+  },
+  {
+   "s": 846.14,
+   "e": 850.86,
+   "t": "We'll be back next week with another fascinating exploration at the intersection of technology and humanity."
+  },
+  {
+   "s": 851.46,
+   "e": 854.3,
+   "t": "Until then, keep exploring, keep questioning, and keep creating."
+  },
+  {
+   "s": 854.3,
+   "e": 860.12,
+   "t": "moving into space for attention to our channels to collect product information and technologies."
+  },
+  {
+   "s": 860.36,
+   "e": 864.16,
+   "t": "Can we believe that this energy will continue to store four cultural supplies and tomato supplies andflow forces and arts and possibilities for opening bike situations?"
+  },
+  {
+   "s": 864.26,
+   "e": 868.08,
+   "t": "To access my hacer face is great that if we were thinking about quickening things we need to create an assessment of technology and climate policy and climate policy and climate policy and climate policy is enough to increase our academic policies and climate policy and climate policy and climate policy and climate policy that has already infrastructure and climate policy and climate policy that need you will continue to increase our scientific思考 in life."
+  },
+  {
+   "s": 868.16,
+   "e": 869.12,
+   "t": "For today's!?"
+  },
+  {
+   "s": 869.16,
+   "e": 876.8,
+   "t": "An golisi final thoughts are happening in which case thisES may been felt good with space of connectedай"
+  },
+  {
+   "s": 876.88,
+   "e": 870.94,
+   "t": "As we need to create with natural awareness of knowledge that if we had change your library's collection of Christian institutions is coming into action in these arts changes we'veett Tuesday 1 ouracheloph52 haven't furthergl36"
+  }
+ ]
+}

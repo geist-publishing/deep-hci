@@ -1,0 +1,935 @@
+{
+ "guid": "deephci.podbean.com/2c0686e2-8eff-3310-b453-ac50995d07ea",
+ "slug": "dis-2025-elegnt-expressive-and-functional-movement-design-for-non-anthropomorphic-robot",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "2501.mp3",
+  "version": 1
+ },
+ "duration": 732,
+ "word_count": 1951,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 7.86,
+   "t": "Welcome to the Deep Dive. Today, we're going to be exploring the world of non-anthropomorphic robot design."
+  },
+  {
+   "s": 8.0,
+   "e": 8.24,
+   "t": "Okay."
+  },
+  {
+   "s": 8.86,
+   "e": 13.0,
+   "t": "Specifically, how movement can convey a robot's internal state."
+  },
+  {
+   "s": 13.22,
+   "e": 13.54,
+   "t": "All right."
+  },
+  {
+   "s": 13.54,
+   "e": 16.96,
+   "t": "Our source material is a research paper titled,"
+  },
+  {
+   "s": 17.36,
+   "e": 22.26,
+   "t": "Eligent, Expressive and Functional Movement Design for Non-Anthropomorphic Robot."
+  },
+  {
+   "s": 22.86,
+   "e": 29.7,
+   "t": "And in this Deep Dive, we're going to be attempting to understand how researchers are trying to make robots more engaging"
+  },
+  {
+   "s": 29.7,
+   "e": 31.62,
+   "t": "through expressive movement."
+  },
+  {
+   "s": 31.8,
+   "e": 32.08,
+   "t": "Okay."
+  },
+  {
+   "s": 32.36,
+   "e": 35.36,
+   "t": "And what that means for the future of human-robot interaction."
+  },
+  {
+   "s": 36.02,
+   "e": 36.5,
+   "t": "Makes sense."
+  },
+  {
+   "s": 36.62,
+   "e": 41.46,
+   "t": "It's common to conceptualize robots as instruments designed for specific tasks."
+  },
+  {
+   "s": 41.46,
+   "e": 48.54,
+   "t": "But as they become more present in our lives, the way they communicate with us is becoming just as vital as the work they perform."
+  },
+  {
+   "s": 49.02,
+   "e": 55.7,
+   "t": "This research delves into how robots that don't resemble humans can use movement to communicate a range of internal states,"
+  },
+  {
+   "s": 55.92,
+   "e": 58.68,
+   "t": "functioning almost as a form of non-verbal communication."
+  },
+  {
+   "s": 58.82,
+   "e": 59.2,
+   "t": "I see."
+  },
+  {
+   "s": 59.2,
+   "e": 63.24,
+   "t": "To start, why is it so important for robots to communicate in this way?"
+  },
+  {
+   "s": 63.36,
+   "e": 67.74,
+   "t": "Well, consider how much we depend on non-verbal cues in human communication."
+  },
+  {
+   "s": 68.4,
+   "e": 68.98,
+   "t": "A nod."
+  },
+  {
+   "s": 69.26,
+   "e": 69.54,
+   "t": "Sure."
+  },
+  {
+   "s": 69.86,
+   "e": 78.3,
+   "t": "A raised eyebrow or a shift in posture can tell us something about another person's intentions, feelings, or even personality."
+  },
+  {
+   "s": 78.66,
+   "e": 78.88,
+   "t": "Yeah."
+  },
+  {
+   "s": 79.2,
+   "e": 82.02,
+   "t": "Humans perpetually register and interpret these cues."
+  },
+  {
+   "s": 82.38,
+   "e": 85.38,
+   "t": "Imagine then a robot that can do the same."
+  },
+  {
+   "s": 85.56,
+   "e": 85.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 85.78,
+   "e": 87.9,
+   "t": "Instead of mechanically completing a task."
+  },
+  {
+   "s": 87.92,
+   "e": 88.14,
+   "t": "Right."
+  },
+  {
+   "s": 88.48,
+   "e": 93.76,
+   "t": "It could signal its understanding hesitations or even enthusiasm through subtle movements."
+  },
+  {
+   "s": 93.84,
+   "e": 93.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 93.98,
+   "e": 96.0,
+   "t": "It's not just about making robots more entertaining."
+  },
+  {
+   "s": 96.16,
+   "e": 96.3,
+   "t": "Right."
+  },
+  {
+   "s": 96.3,
+   "e": 97.92,
+   "t": "But rather making them better communicators."
+  },
+  {
+   "s": 98.5,
+   "e": 101.74,
+   "t": "Could you expand on the benefits of this type of communication?"
+  },
+  {
+   "s": 101.98,
+   "e": 102.24,
+   "t": "Sure."
+  },
+  {
+   "s": 102.24,
+   "e": 106.78,
+   "t": "Expressive movement can help build trust and make interactions feel more natural."
+  },
+  {
+   "s": 106.78,
+   "e": 110.24,
+   "t": "Ultimately, this could make robots feel less mechanical and more relatable."
+  },
+  {
+   "s": 110.24,
+   "e": 113.88,
+   "t": "The researchers chose to focus on a desk lamp to examine these ideas."
+  },
+  {
+   "s": 114.02,
+   "e": 115.0,
+   "t": "What informed this decision?"
+  },
+  {
+   "s": 115.0,
+   "e": 118.56,
+   "t": "The researchers deliberately opted for a desk lamp."
+  },
+  {
+   "s": 118.7,
+   "e": 118.96,
+   "t": "Okay."
+  },
+  {
+   "s": 119.08,
+   "e": 125.76,
+   "t": "A familiar object found in most homes and offices to make it less intimidating than, say, a humanoid robot."
+  },
+  {
+   "s": 126.04,
+   "e": 126.36,
+   "t": "Okay."
+  },
+  {
+   "s": 126.66,
+   "e": 131.02,
+   "t": "The lamp form also provides a surprising range of movement possibilities."
+  },
+  {
+   "s": 131.34,
+   "e": 137.28,
+   "t": "It can tilt its head, extend its arm, and even use its light to direct attention."
+  },
+  {
+   "s": 137.28,
+   "e": 143.18,
+   "t": "So they're taking something ordinary and endowing it with this remarkable ability to express itself."
+  },
+  {
+   "s": 143.38,
+   "e": 143.52,
+   "t": "Yes."
+  },
+  {
+   "s": 143.76,
+   "e": 145.2,
+   "t": "Do they consider other forms?"
+  },
+  {
+   "s": 145.66,
+   "e": 153.02,
+   "t": "The researchers explored other possibilities, such as ceiling-mounted lamps, designs inspired by flowers, and even abstract sculptures."
+  },
+  {
+   "s": 153.28,
+   "e": 153.52,
+   "t": "Wow."
+  },
+  {
+   "s": 153.52,
+   "e": 161.62,
+   "t": "This exploration indicates that the principles of expressive movement can be applied to a wide array of non-anthropomorphic robot forms."
+  },
+  {
+   "s": 161.74,
+   "e": 167.38,
+   "t": "It seems the goal is to find ways for any robot to communicate more effectively through movement."
+  },
+  {
+   "s": 167.66,
+   "e": 171.16,
+   "t": "How do they approach designing these expressive movements?"
+  },
+  {
+   "s": 171.72,
+   "e": 176.48,
+   "t": "Well, the researchers divided their approach into two primary categories."
+  },
+  {
+   "s": 176.66,
+   "e": 176.84,
+   "t": "Okay."
+  },
+  {
+   "s": 177.1,
+   "e": 178.46,
+   "t": "Kinesics and proxemics."
+  },
+  {
+   "s": 178.76,
+   "e": 179.04,
+   "t": "Okay."
+  },
+  {
+   "s": 179.04,
+   "e": 183.94,
+   "t": "Kinesics refers to the robot's movements, analogous to gestures and poses."
+  },
+  {
+   "s": 184.22,
+   "e": 190.14,
+   "t": "For the lamp, this could include nodding its head, wagging its tail, in this case the arm, or leaning forward."
+  },
+  {
+   "s": 190.48,
+   "e": 193.92,
+   "t": "Proxemics, on the other hand, concerns how the robot uses space."
+  },
+  {
+   "s": 194.22,
+   "e": 194.58,
+   "t": "I see."
+  },
+  {
+   "s": 194.58,
+   "e": 203.84,
+   "t": "For example, moving closer to display interest, pointing its head at something to direct attention, or using light to emphasize an object."
+  },
+  {
+   "s": 203.84,
+   "e": 209.22,
+   "t": "So the lamp is brought to life through these gestures as if it's emulating human body language."
+  },
+  {
+   "s": 209.76,
+   "e": 213.46,
+   "t": "Can you provide specific examples of how this would work in practice?"
+  },
+  {
+   "s": 213.88,
+   "e": 214.2,
+   "t": "Certainly."
+  },
+  {
+   "s": 215.0,
+   "e": 222.32,
+   "t": "Envision the lamp robot pausing before a movement to demonstrate hesitation or moving quickly to convey confidence,"
+  },
+  {
+   "s": 222.7,
+   "e": 231.08,
+   "t": "or picture it briefly turning towards a target before interacting with it, as if signaling its intention and preparing the user."
+  },
+  {
+   "s": 231.08,
+   "e": 237.18,
+   "t": "While these details may appear small, they could considerably alter how we perceive the robot's actions."
+  },
+  {
+   "s": 237.24,
+   "e": 237.7,
+   "t": "Yes, exactly."
+  },
+  {
+   "s": 237.78,
+   "e": 242.08,
+   "t": "By incorporating these layers of nuance, the interaction may feel more intuitive and engaging."
+  },
+  {
+   "s": 242.36,
+   "e": 242.56,
+   "t": "Yeah."
+  },
+  {
+   "s": 242.98,
+   "e": 244.58,
+   "t": "But did this theory prove effective?"
+  },
+  {
+   "s": 244.96,
+   "e": 245.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 245.4,
+   "e": 248.66,
+   "t": "Did people respond favorably to robots with expressive movements?"
+  },
+  {
+   "s": 248.94,
+   "e": 251.24,
+   "t": "That is where the research becomes quite compelling."
+  },
+  {
+   "s": 251.54,
+   "e": 253.52,
+   "t": "The researchers designed a user study."
+  },
+  {
+   "s": 253.62,
+   "e": 253.82,
+   "t": "Okay."
+  },
+  {
+   "s": 253.82,
+   "e": 255.42,
+   "t": "To evaluate their ideas."
+  },
+  {
+   "s": 255.42,
+   "e": 262.52,
+   "t": "They presented participants with videos of the lamp robot performing tasks with and without expressive movements,"
+  },
+  {
+   "s": 262.52,
+   "e": 264.6,
+   "t": "and the outcomes were revealing."
+  },
+  {
+   "s": 264.9,
+   "e": 272.18,
+   "t": "The user study involved a spectrum of tasks ranging from functional activities like adjusting lighting for photography"
+  },
+  {
+   "s": 272.18,
+   "e": 276.42,
+   "t": "to more social tasks like engaging in conversation or playing music."
+  },
+  {
+   "s": 277.16,
+   "e": 283.48,
+   "t": "Participants consistently reported finding robots that employed expressive movement to be more engaging and more human-like."
+  },
+  {
+   "s": 283.66,
+   "e": 283.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 283.82,
+   "e": 286.58,
+   "t": "They even attributed personalities to these robots."
+  },
+  {
+   "s": 286.78,
+   "e": 290.98,
+   "t": "It is remarkable how much personality can be conveyed through movement alone,"
+  },
+  {
+   "s": 291.38,
+   "e": 293.78,
+   "t": "even when the robot is as simple as a desk lamp."
+  },
+  {
+   "s": 294.1,
+   "e": 294.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 294.66,
+   "e": 298.08,
+   "t": "Did the researchers gather specific feedback from the participants?"
+  },
+  {
+   "s": 298.72,
+   "e": 301.18,
+   "t": "What insights did they find particularly noteworthy?"
+  },
+  {
+   "s": 301.26,
+   "e": 305.56,
+   "t": "They did, and the qualitative feedback is perhaps the most compelling aspect of the study."
+  },
+  {
+   "s": 305.7,
+   "e": 305.92,
+   "t": "Okay."
+  },
+  {
+   "s": 305.98,
+   "e": 310.94,
+   "t": "Some participants characterized the expressive robot as playful, comparing it to a puppy or a child."
+  },
+  {
+   "s": 310.94,
+   "e": 316.16,
+   "t": "Others noted that it felt more relatable and less creepy than the purely functional robot."
+  },
+  {
+   "s": 316.16,
+   "e": 322.74,
+   "t": "The expressive movements seemed to bridge the gap between machine and something akin to a living being."
+  },
+  {
+   "s": 322.9,
+   "e": 329.3,
+   "t": "This suggests that we are inherently predisposed to respond to these cues even when they emanate from a non-human source."
+  },
+  {
+   "s": 329.94,
+   "e": 335.56,
+   "t": "Were there any variations in responses based on participant demographics?"
+  },
+  {
+   "s": 335.56,
+   "e": 338.48,
+   "t": "There were some noteworthy demographic trends."
+  },
+  {
+   "s": 338.78,
+   "e": 342.74,
+   "t": "Older participants tended to be less enthusiastic about expressive robots,"
+  },
+  {
+   "s": 343.02,
+   "e": 348.42,
+   "t": "potentially reflecting a generational divide in perceptions of technology and its role in our lives."
+  },
+  {
+   "s": 348.56,
+   "e": 349.56,
+   "t": "That stands to reason."
+  },
+  {
+   "s": 350.02,
+   "e": 356.84,
+   "t": "Those of us who are grown up surrounded by technology may be more inclined to view robots as potential companions rather than simply tools."
+  },
+  {
+   "s": 357.28,
+   "e": 359.28,
+   "t": "Did any other demographic patterns emerge?"
+  },
+  {
+   "s": 359.28,
+   "e": 364.74,
+   "t": "Individuals whose self-reported low empathy levels seem to derive the most benefit from the added expressiveness."
+  },
+  {
+   "s": 365.24,
+   "e": 370.04,
+   "t": "It is as if those subtle cues facilitated their understanding of the robot's intentions,"
+  },
+  {
+   "s": 370.42,
+   "e": 372.7,
+   "t": "making them feel more at ease when interacting with it."
+  },
+  {
+   "s": 372.7,
+   "e": 376.58,
+   "t": "This suggests that for individuals who may find social cues in human interactions,"
+  },
+  {
+   "s": 377.04,
+   "e": 380.32,
+   "t": "challenging expressive robots could offer a unique advantage."
+  },
+  {
+   "s": 380.84,
+   "e": 385.06,
+   "t": "This raises possibilities for how this technology might be used in therapeutic settings,"
+  },
+  {
+   "s": 385.28,
+   "e": 388.32,
+   "t": "or to provide support for individuals with social anxieties."
+  },
+  {
+   "s": 388.32,
+   "e": 392.62,
+   "t": "Did the study reveal anything about how people interpret these different movements?"
+  },
+  {
+   "s": 392.98,
+   "e": 397.08,
+   "t": "Was there a consensus on what a particular nod or tilt of the head signified?"
+  },
+  {
+   "s": 397.32,
+   "e": 402.56,
+   "t": "Participants exhibited a surprising degree of consistency in their interpretations of the robot's movements."
+  },
+  {
+   "s": 402.82,
+   "e": 406.04,
+   "t": "They generally comprehended the robot's intentions,"
+  },
+  {
+   "s": 406.26,
+   "e": 409.82,
+   "t": "whether it was displaying interest, hesitation, or a degree of playfulness."
+  },
+  {
+   "s": 410.22,
+   "e": 417.38,
+   "t": "This suggests that certain universal principles of expressive movement may transcend cultural boundaries and even species."
+  },
+  {
+   "s": 417.38,
+   "e": 426.74,
+   "t": "Perhaps we are tapping into a fundamental aspect of how living beings communicate a shared language of movement that we instinctively understand."
+  },
+  {
+   "s": 426.94,
+   "e": 430.92,
+   "t": "What implications does this have for the future of human-robot interaction?"
+  },
+  {
+   "s": 431.62,
+   "e": 432.86,
+   "t": "How do we proceed from here?"
+  },
+  {
+   "s": 433.34,
+   "e": 439.2,
+   "t": "This research provides a substantial foundation for designing robots that are not merely functional, but also socially intelligent."
+  },
+  {
+   "s": 439.2,
+   "e": 445.6,
+   "t": "As robots become more prevalent in our homes and workplaces, their ability to communicate effectively will be critical."
+  },
+  {
+   "s": 445.96,
+   "e": 454.08,
+   "t": "One can envision a future in which robots anticipate our needs, understand our emotions, and respond in ways that feel natural and intuitive."
+  },
+  {
+   "s": 454.28,
+   "e": 454.54,
+   "t": "Right."
+  },
+  {
+   "s": 454.78,
+   "e": 460.66,
+   "t": "This all begins with comprehending how movement can be utilized to overcome that communication barrier."
+  },
+  {
+   "s": 460.66,
+   "e": 466.4,
+   "t": "The researchers also highlight important considerations for the design of these expressive robots."
+  },
+  {
+   "s": 467.04,
+   "e": 470.36,
+   "t": "It is not simply a matter of adding arbitrary movements to a machine."
+  },
+  {
+   "s": 470.72,
+   "e": 471.04,
+   "t": "Indeed."
+  },
+  {
+   "s": 471.94,
+   "e": 474.06,
+   "t": "There are many nuances to address."
+  },
+  {
+   "s": 474.32,
+   "e": 479.8,
+   "t": "For instance, the robot's movement should align with its other modalities, such as voice and light."
+  },
+  {
+   "s": 480.42,
+   "e": 485.42,
+   "t": "Consider a robot that says hello in a cheerful tone while simultaneously slumping its shoulders."
+  },
+  {
+   "s": 485.9,
+   "e": 486.2,
+   "t": "Right."
+  },
+  {
+   "s": 486.24,
+   "e": 489.62,
+   "t": "The incongruity would create confusion and dissonance."
+  },
+  {
+   "s": 489.62,
+   "e": 494.74,
+   "t": "It is akin to composing a symphony of communication where each element must harmonize with the others."
+  },
+  {
+   "s": 495.22,
+   "e": 498.06,
+   "t": "The robot's form and capabilities also play a crucial role."
+  },
+  {
+   "s": 498.24,
+   "e": 498.6,
+   "t": "Certainly."
+  },
+  {
+   "s": 499.06,
+   "e": 504.46,
+   "t": "A gesture suitable for a desk lamp robot may not translate well to a robot with a dissimilar form factor."
+  },
+  {
+   "s": 504.82,
+   "e": 512.46,
+   "t": "It is essential to understand the unique affordances of each design and create movements that appear authentic and expressive within those constraints."
+  },
+  {
+   "s": 513.18,
+   "e": 514.94,
+   "t": "This brings us to another critical facet."
+  },
+  {
+   "s": 516.1,
+   "e": 516.66,
+   "t": "Personalization."
+  },
+  {
+   "s": 516.92,
+   "e": 517.18,
+   "t": "Okay."
+  },
+  {
+   "s": 517.18,
+   "e": 522.4,
+   "t": "Not every user desires a robot that is constantly in motion or flashing its lights."
+  },
+  {
+   "s": 522.78,
+   "e": 529.72,
+   "t": "Just as we possess diverse personalities and communication styles, we may prefer robots that align with our own preferences."
+  },
+  {
+   "s": 529.98,
+   "e": 530.58,
+   "t": "Precisely."
+  },
+  {
+   "s": 530.82,
+   "e": 531.0,
+   "t": "Right."
+  },
+  {
+   "s": 531.0,
+   "e": 541.46,
+   "t": "The future of human-robot interaction could involve robots that adjust their behavior based on the user's personality, emotional state, or even the specific context of the interaction."
+  },
+  {
+   "s": 542.1,
+   "e": 547.78,
+   "t": "Imagine a robot that detects when you are feeling stressed and responds with calming, gentle movements."
+  },
+  {
+   "s": 547.9,
+   "e": 548.12,
+   "t": "Right."
+  },
+  {
+   "s": 548.2,
+   "e": 551.82,
+   "t": "Or a robot that recognizes your playful mood and reciprocates that energy."
+  },
+  {
+   "s": 551.82,
+   "e": 558.92,
+   "t": "Essentially, we are discussing robots that can interpret our emotional cues and react accordingly, much as a human companion would."
+  },
+  {
+   "s": 558.98,
+   "e": 559.54,
+   "t": "Precisely."
+  },
+  {
+   "s": 560.04,
+   "e": 566.44,
+   "t": "That level of social intelligence could be transformative not only for practical tasks, but also for our overall well-being."
+  },
+  {
+   "s": 566.92,
+   "e": 570.24,
+   "t": "Imagine a robot that can assist us in regulating our emotions."
+  },
+  {
+   "s": 570.24,
+   "e": 570.8,
+   "t": "Yeah."
+  },
+  {
+   "s": 570.8,
+   "e": 575.56,
+   "t": "Encouraging healthy habits or simply providing companionship when we feel alone."
+  },
+  {
+   "s": 576.16,
+   "e": 578.42,
+   "t": "The possibilities are indeed vast."
+  },
+  {
+   "s": 578.42,
+   "e": 582.04,
+   "t": "This research has provided us with a great deal to contemplate."
+  },
+  {
+   "s": 582.44,
+   "e": 588.82,
+   "t": "As we conclude this segment of our deep dive, I am curious about the type of personalities we envision for the robots of the future."
+  },
+  {
+   "s": 589.34,
+   "e": 597.9,
+   "t": "If they are to be such integral parts of our lives, we must carefully consider how we design not only their movements, but also their overall communication style."
+  },
+  {
+   "s": 597.9,
+   "e": 605.48,
+   "t": "This research suggests a future in which robots are more than mere machines, but rather part of the social fabric of our lives."
+  },
+  {
+   "s": 606.02,
+   "e": 612.18,
+   "t": "These findings present extraordinary possibilities while simultaneously raising profound questions."
+  },
+  {
+   "s": 612.18,
+   "e": 618.34,
+   "t": "As we design robots with increasing levels of expressiveness, we must be cognizant of the ethical ramifications."
+  },
+  {
+   "s": 618.62,
+   "e": 618.68,
+   "t": "Right."
+  },
+  {
+   "s": 619.08,
+   "e": 620.1,
+   "t": "It's certainly a lot to consider."
+  },
+  {
+   "s": 620.46,
+   "e": 627.24,
+   "t": "It is essential to avoid creating robots that mislead individuals into believing they possess genuine emotions or consciousness."
+  },
+  {
+   "s": 627.24,
+   "e": 628.74,
+   "t": "Transparency is paramount."
+  },
+  {
+   "s": 629.1,
+   "e": 632.84,
+   "t": "Users need to understand that these robots are programmed to behave in specific ways."
+  },
+  {
+   "s": 633.14,
+   "e": 637.7,
+   "t": "And their movements, however lifelike, are ultimately the product of algorithms and code."
+  },
+  {
+   "s": 637.7,
+   "e": 641.6,
+   "t": "We must also exercise caution to avoid exploiting human empathy."
+  },
+  {
+   "s": 641.96,
+   "e": 642.2,
+   "t": "Okay."
+  },
+  {
+   "s": 642.46,
+   "e": 652.66,
+   "t": "There is a risk that individuals, particularly those who are vulnerable, could develop unhealthy attachments to robots engineered to elicit emotional responses."
+  },
+  {
+   "s": 652.66,
+   "e": 660.38,
+   "t": "We strive for robots that are engaging and relatable, yet we also must establish clear boundaries and expectations for these interactions."
+  },
+  {
+   "s": 660.72,
+   "e": 668.98,
+   "t": "This is where thoughtful regulation and ongoing dialogue between researchers, ethicists, and the public become essential."
+  },
+  {
+   "s": 669.2,
+   "e": 677.84,
+   "t": "To ensure that the development and deployment of this technology are guided by ethical principles that prioritize human well-being and societal benefit, we must collaborate."
+  },
+  {
+   "s": 677.84,
+   "e": 679.48,
+   "t": "Yeah, I think that's really key here."
+  },
+  {
+   "s": 679.56,
+   "e": 684.84,
+   "t": "The future of human-robot interaction is replete with potential, but it is a future that we must shape responsibly."
+  },
+  {
+   "s": 685.68,
+   "e": 689.88,
+   "t": "As we conclude this deep dive, I am left with a final thought-provoking question for our listeners."
+  },
+  {
+   "s": 690.86,
+   "e": 696.02,
+   "t": "If you could design your own expressive robot, what kind of personality would you endow it with?"
+  },
+  {
+   "s": 696.32,
+   "e": 702.16,
+   "t": "How would it move and communicate to make you feel comfortable, engaged, and perhaps even a little delighted?"
+  },
+  {
+   "s": 702.16,
+   "e": 703.84,
+   "t": "It is a question worth considering."
+  },
+  {
+   "s": 704.5,
+   "e": 707.5,
+   "t": "The robots of the future are not solely about efficiency and automation."
+  },
+  {
+   "s": 708.04,
+   "e": 711.92,
+   "t": "They are about connection, communication, and perhaps even a touch of whimsy."
+  },
+  {
+   "s": 712.34,
+   "e": 717.58,
+   "t": "We invite you to share your thoughts with us on social media using the hashtag, hashtag the deep dive."
+  },
+  {
+   "s": 717.92,
+   "e": 723.9,
+   "t": "We are eager to hear your vision for a future in which robots move us, not just physically, but emotionally as well."
+  },
+  {
+   "s": 724.34,
+   "e": 729.9,
+   "t": "Until our next deep dive, continue to explore, question, and delve into the fascinating world around us."
+  },
+  {
+   "s": 729.9,
+   "e": 732.28,
+   "t": "This is the deep dive signing off."
+  }
+ ]
+}

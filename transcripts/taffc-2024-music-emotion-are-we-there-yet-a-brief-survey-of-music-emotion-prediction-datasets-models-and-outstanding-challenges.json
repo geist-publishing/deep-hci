@@ -1,0 +1,1055 @@
+{
+ "guid": "deephci.podbean.com/00f2e5df-3b65-5849-9193-bce853d6963b",
+ "slug": "taffc-2024-music-emotion-are-we-there-yet-a-brief-survey-of-music-emotion-prediction-datasets-models-and-outstanding-challenges",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Deep_Learning_for_Music_Emotion_Recognition.m4a",
+  "version": 1
+ },
+ "duration": 697,
+ "word_count": 1908,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 6.6,
+   "t": "Music has this unparalleled ability to evoke and transmit emotion."
+  },
+  {
+   "s": 6.82,
+   "e": 9.8,
+   "t": "It does. It cuts across all cultural and linguistic divides."
+  },
+  {
+   "s": 9.96,
+   "e": 12.88,
+   "t": "And researchers have been captivated by this for decades."
+  },
+  {
+   "s": 13.3,
+   "e": 17.48,
+   "t": "I mean, you can trace it back to foundational work in the early 20th century."
+  },
+  {
+   "s": 17.74,
+   "e": 22.02,
+   "t": "People such as Meyer and Hefner who are trying to categorize music's emotional impact."
+  },
+  {
+   "s": 22.12,
+   "e": 22.66,
+   "t": "Exactly."
+  },
+  {
+   "s": 22.66,
+   "e": 26.66,
+   "t": "And our deep dive today is focused on the cutting edge of that very challenge."
+  },
+  {
+   "s": 27.4,
+   "e": 31.0,
+   "t": "Music emotion recognition, or MER."
+  },
+  {
+   "s": 31.54,
+   "e": 33.92,
+   "t": "Specifically using deep learning models."
+  },
+  {
+   "s": 34.1,
+   "e": 43.18,
+   "t": "That's right. We're looking at a comprehensive survey of the field, the data sets, the evaluation protocols, and crucially, the obstacles that researchers keep running into."
+  },
+  {
+   "s": 43.38,
+   "e": 49.4,
+   "t": "The central tension being that even with all this advanced technology, accurate predictions are still quite elusive."
+  },
+  {
+   "s": 49.4,
+   "e": 51.76,
+   "t": "It comes down to the subjective nature of human emotion."
+  },
+  {
+   "s": 51.76,
+   "e": 57.22,
+   "t": "And that's objectivity, you know, it translates directly into data limitations and problems with benchmarking."
+  },
+  {
+   "s": 57.38,
+   "e": 60.6,
+   "t": "And yet the practical applications, if we can get this right, are just immense."
+  },
+  {
+   "s": 60.92,
+   "e": 67.28,
+   "t": "We're talking about things such as personalized music recommendation in health care, perhaps to guide a listener's emotional state."
+  },
+  {
+   "s": 67.64,
+   "e": 73.14,
+   "t": "Or training a generative AI to compose music with a specific controlled emotion."
+  },
+  {
+   "s": 73.14,
+   "e": 79.16,
+   "t": "Which would be invaluable for, say, interactive media, or even just the composition process itself."
+  },
+  {
+   "s": 79.26,
+   "e": 81.92,
+   "t": "This knowledge is essential for designing effective systems."
+  },
+  {
+   "s": 82.48,
+   "e": 89.62,
+   "t": "And to construct any of these robust MER models, the quality of the emotion annotated data sets is paramount."
+  },
+  {
+   "s": 89.88,
+   "e": 91.1,
+   "t": "Everything starts with the data."
+  },
+  {
+   "s": 91.54,
+   "e": 91.92,
+   "t": "Everything."
+  },
+  {
+   "s": 91.92,
+   "e": 92.04,
+   "t": "Everything."
+  },
+  {
+   "s": 92.4,
+   "e": 96.82,
+   "t": "We can structure the comparison of these data sets across, well, five critical dimensions."
+  },
+  {
+   "s": 97.02,
+   "e": 97.26,
+   "t": "Okay."
+  },
+  {
+   "s": 97.26,
+   "e": 99.46,
+   "t": "The emotion representation model they use."
+  },
+  {
+   "s": 99.8,
+   "e": 102.96,
+   "t": "The annotation method, whether it's induced versus perceived emotion."
+  },
+  {
+   "s": 103.56,
+   "e": 104.52,
+   "t": "The data modalities."
+  },
+  {
+   "s": 104.72,
+   "e": 106.8,
+   "t": "And, of course, the size and diversity of the data set."
+  },
+  {
+   "s": 107.32,
+   "e": 108.7,
+   "t": "Let's start with representation, then."
+  },
+  {
+   "s": 109.18,
+   "e": 111.9,
+   "t": "As I understand it, we're operating in two primary worlds."
+  },
+  {
+   "s": 112.04,
+   "e": 114.08,
+   "t": "First, there are the categorical models."
+  },
+  {
+   "s": 114.6,
+   "e": 116.26,
+   "t": "These use discrete labels."
+  },
+  {
+   "s": 116.44,
+   "e": 119.7,
+   "t": "You mentioned Heppner's effective ring earlier with its eight categories."
+  },
+  {
+   "s": 119.7,
+   "e": 122.08,
+   "t": "Dignified, sad, happy."
+  },
+  {
+   "s": 122.48,
+   "e": 123.38,
+   "t": "That's a foundational one."
+  },
+  {
+   "s": 123.94,
+   "e": 134.58,
+   "t": "A more modern music-specific framework would be something such as the Geneva Emotional Music Scales, GMS, which has 45 emotion tags grouped into nine categories."
+  },
+  {
+   "s": 134.82,
+   "e": 137.18,
+   "t": "And the alternative to these discrete boxes."
+  },
+  {
+   "s": 137.36,
+   "e": 138.86,
+   "t": "The alternative is the dimensional model."
+  },
+  {
+   "s": 138.98,
+   "e": 141.84,
+   "t": "The most famous is Russell's Circumplex Model of Affect."
+  },
+  {
+   "s": 142.0,
+   "e": 144.78,
+   "t": "Where emotions are mapped on a continuous space."
+  },
+  {
+   "s": 144.96,
+   "e": 145.36,
+   "t": "Precisely."
+  },
+  {
+   "s": 145.36,
+   "e": 147.14,
+   "t": "Mapped across two main axes."
+  },
+  {
+   "s": 147.76,
+   "e": 150.2,
+   "t": "Valence, which is your positive to negative scale."
+  },
+  {
+   "s": 150.76,
+   "e": 153.32,
+   "t": "And arousal, which measures the intensity or activation."
+  },
+  {
+   "s": 153.68,
+   "e": 155.9,
+   "t": "Russell's original model had a third dimension, didn't it?"
+  },
+  {
+   "s": 156.2,
+   "e": 156.72,
+   "t": "Dominance."
+  },
+  {
+   "s": 156.92,
+   "e": 157.6,
+   "t": "It did, yes."
+  },
+  {
+   "s": 157.98,
+   "e": 161.82,
+   "t": "But that dimension is generally excluded from automated mirror studies."
+  },
+  {
+   "s": 162.14,
+   "e": 166.24,
+   "t": "It just proves prohibitively difficult for human annotators to score consistently."
+  },
+  {
+   "s": 166.46,
+   "e": 169.88,
+   "t": "So that distinction is vital, but so is how the values are collected."
+  },
+  {
+   "s": 170.1,
+   "e": 171.22,
+   "t": "The annotation methods."
+  },
+  {
+   "s": 171.5,
+   "e": 171.8,
+   "t": "Yes."
+  },
+  {
+   "s": 172.14,
+   "e": 173.68,
+   "t": "First, you have static annotation."
+  },
+  {
+   "s": 173.68,
+   "e": 178.64,
+   "t": "Meaning you assign one single emotion label to an entire song or a fragment of a song."
+  },
+  {
+   "s": 178.74,
+   "e": 179.42,
+   "t": "Kind of a summary."
+  },
+  {
+   "s": 179.66,
+   "e": 180.4,
+   "t": "A summary, yes."
+  },
+  {
+   "s": 180.64,
+   "e": 182.72,
+   "t": "The MTG Jimendo data set is a good example of that."
+  },
+  {
+   "s": 182.74,
+   "e": 183.9,
+   "t": "But then the opposite of that would be?"
+  },
+  {
+   "s": 184.24,
+   "e": 185.2,
+   "t": "Dynamic annotation."
+  },
+  {
+   "s": 185.86,
+   "e": 189.7,
+   "t": "This is where the listener continuously indicates the emotion throughout the song."
+  },
+  {
+   "s": 189.8,
+   "e": 191.76,
+   "t": "So you get these time-continuous ratings."
+  },
+  {
+   "s": 191.9,
+   "e": 193.14,
+   "t": "Often sampled second by second."
+  },
+  {
+   "s": 193.28,
+   "e": 193.52,
+   "t": "Yeah."
+  },
+  {
+   "s": 193.7,
+   "e": 197.2,
+   "t": "It reflects how our emotional state evolves during the listening experience."
+  },
+  {
+   "s": 198.0,
+   "e": 201.0,
+   "t": "The mood swings data set is a classic example of this approach."
+  },
+  {
+   "s": 201.0,
+   "e": 206.76,
+   "t": "Capturing that flow is one thing, but we also have to distinguish between perceived and induced emotion."
+  },
+  {
+   "s": 206.98,
+   "e": 207.82,
+   "t": "This seems crucial."
+  },
+  {
+   "s": 208.42,
+   "e": 208.74,
+   "t": "It is."
+  },
+  {
+   "s": 209.02,
+   "e": 211.76,
+   "t": "Perceived emotions are what the listener recognizes in the music."
+  },
+  {
+   "s": 212.3,
+   "e": 213.9,
+   "t": "The composer's intent, you could say."
+  },
+  {
+   "s": 214.06,
+   "e": 216.98,
+   "t": "Whereas induced emotions are what the listener actually feels."
+  },
+  {
+   "s": 217.12,
+   "e": 218.74,
+   "t": "The personal response they experience."
+  },
+  {
+   "s": 218.74,
+   "e": 222.14,
+   "t": "And the challenge there is that induced emotions are highly personalized."
+  },
+  {
+   "s": 222.74,
+   "e": 224.3,
+   "t": "They're influenced by context."
+  },
+  {
+   "s": 224.8,
+   "e": 225.36,
+   "t": "By memory."
+  },
+  {
+   "s": 225.7,
+   "e": 228.12,
+   "t": "Which means you need spiralized data to capture them."
+  },
+  {
+   "s": 228.32,
+   "e": 228.78,
+   "t": "You do."
+  },
+  {
+   "s": 229.22,
+   "e": 236.92,
+   "t": "Betasets targeting induced emotion, such as DAP or HQU956, often have to rely on psychophysiological measurements."
+  },
+  {
+   "s": 236.92,
+   "e": 241.02,
+   "t": "EEG, heart rate, skin conductance, that sort of thing."
+  },
+  {
+   "s": 241.1,
+   "e": 245.54,
+   "t": "Because self-reporting for an immediate internal emotional response can be quite unreliable."
+  },
+  {
+   "s": 245.8,
+   "e": 246.38,
+   "t": "Wait, hold on."
+  },
+  {
+   "s": 247.06,
+   "e": 255.14,
+   "t": "If capturing induced emotion accurately requires biosensors, doesn't that immediately disqualify the vast majority of music data that's just audio?"
+  },
+  {
+   "s": 255.68,
+   "e": 259.72,
+   "t": "It does present a significant data barrier for that specific application, yes."
+  },
+  {
+   "s": 259.9,
+   "e": 261.44,
+   "t": "A perhaps insurmountable one."
+  },
+  {
+   "s": 261.6,
+   "e": 264.48,
+   "t": "It necessitates a fundamental shift in data collection."
+  },
+  {
+   "s": 264.48,
+   "e": 270.88,
+   "t": "While audio is still the backbone, the field is moving toward a diverse range of multimodal sources."
+  },
+  {
+   "s": 271.44,
+   "e": 272.16,
+   "t": "So beyond audio."
+  },
+  {
+   "s": 272.26,
+   "e": 272.82,
+   "t": "Beyond audio."
+  },
+  {
+   "s": 272.9,
+   "e": 273.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 273.26,
+   "e": 278.88,
+   "t": "The MIDI format is still important, for example, although only a few datasets focus on it, such as VG MIDI and Amopia."
+  },
+  {
+   "s": 279.24,
+   "e": 282.96,
+   "t": "And those are typically for symbolic music, piano arrangements, and such."
+  },
+  {
+   "s": 283.04,
+   "e": 283.32,
+   "t": "Correct."
+  },
+  {
+   "s": 283.46,
+   "e": 286.56,
+   "t": "But other multimodal approaches are growing, incorporating lyrics."
+  },
+  {
+   "s": 286.68,
+   "e": 290.76,
+   "t": "You see that in datasets such as DMVD and Moody lyrics and also video."
+  },
+  {
+   "s": 290.92,
+   "e": 292.76,
+   "t": "There was that study using the movie dataset."
+  },
+  {
+   "s": 292.76,
+   "e": 293.94,
+   "t": "A fascinating one."
+  },
+  {
+   "s": 293.94,
+   "e": 299.12,
+   "t": "Raiders were presented with music alone, or a muted video, or the combined music video."
+  },
+  {
+   "s": 299.22,
+   "e": 301.38,
+   "t": "And the finding was somewhat counterintuitive."
+  },
+  {
+   "s": 301.68,
+   "e": 302.1,
+   "t": "It was."
+  },
+  {
+   "s": 302.4,
+   "e": 309.62,
+   "t": "Models trained on the isolated modalities, so just the music or just the video, were sometimes more accurate than models built on the combined feed."
+  },
+  {
+   "s": 309.8,
+   "e": 310.54,
+   "t": "What does that suggest?"
+  },
+  {
+   "s": 310.88,
+   "e": 320.22,
+   "t": "Well, it suggests that when the goal is to isolate the musical affect, the additional visual data might be introducing a type of noise that current models struggle with."
+  },
+  {
+   "s": 320.22,
+   "e": 325.04,
+   "t": "And for induced emotion, you mentioned the integration of physiological data is advancing."
+  },
+  {
+   "s": 325.4,
+   "e": 325.88,
+   "t": "Rapidly."
+  },
+  {
+   "s": 326.0,
+   "e": 326.18,
+   "t": "Right."
+  },
+  {
+   "s": 326.18,
+   "e": 334.44,
+   "t": "Data sets such as SayTunes merge biosensor readings with audio features, and they confirm that these signals contribute significantly to accurate valence classification."
+  },
+  {
+   "s": 334.44,
+   "e": 341.58,
+   "t": "The multimodal approach, when it includes physiological data, generally outperforms single modality ones."
+  },
+  {
+   "s": 341.58,
+   "e": 347.12,
+   "t": "Given all this variability, it makes sense that there's a push to refine the annotation methodology itself."
+  },
+  {
+   "s": 347.36,
+   "e": 347.9,
+   "t": "There is."
+  },
+  {
+   "s": 348.14,
+   "e": 350.32,
+   "t": "A specific shift toward relative methods."
+  },
+  {
+   "s": 350.32,
+   "e": 354.26,
+   "t": "So moving away from absolute annotation, where you just assign a direct score."
+  },
+  {
+   "s": 354.48,
+   "e": 358.0,
+   "t": "To relative annotation, where you ask annotators to compare pairs of samples."
+  },
+  {
+   "s": 358.52,
+   "e": 361.42,
+   "t": "To judge one's emotional position relative to another."
+  },
+  {
+   "s": 361.56,
+   "e": 362.46,
+   "t": "And the benefit there."
+  },
+  {
+   "s": 362.64,
+   "e": 369.4,
+   "t": "Research shows that relative judgments, which are used in the Misi Save E dataset, can lower the cognitive burden on the annotator."
+  },
+  {
+   "s": 370.28,
+   "e": 373.54,
+   "t": "Crucially, this produces more reliable ground truth data."
+  },
+  {
+   "s": 373.76,
+   "e": 375.68,
+   "t": "It helps mitigate some of that subjectivity."
+  },
+  {
+   "s": 375.94,
+   "e": 379.1,
+   "t": "But even with these refinements, you still have the problem of label distribution."
+  },
+  {
+   "s": 379.1,
+   "e": 382.62,
+   "t": "Human tagging creates a massive data skew."
+  },
+  {
+   "s": 383.04,
+   "e": 383.42,
+   "t": "It does."
+  },
+  {
+   "s": 383.96,
+   "e": 386.54,
+   "t": "With user-assigned tags, you get high imbalance."
+  },
+  {
+   "s": 387.26,
+   "e": 393.2,
+   "t": "In the MTG Gemendo dataset, for instance, common tags such as Happy and Film are among the most frequent."
+  },
+  {
+   "s": 393.52,
+   "e": 396.02,
+   "t": "While more nuanced tags are barely represented."
+  },
+  {
+   "s": 396.22,
+   "e": 400.58,
+   "t": "Which means the model needs specific techniques, like using focal loss to remain robust."
+  },
+  {
+   "s": 400.74,
+   "e": 403.02,
+   "t": "So the data quality is clearly a bottleneck."
+  },
+  {
+   "s": 403.12,
+   "e": 405.38,
+   "t": "It's limited, it's noisy, it's imbalanced."
+  },
+  {
+   "s": 405.84,
+   "e": 408.26,
+   "t": "The models processing it have to be quite sophisticated."
+  },
+  {
+   "s": 408.26,
+   "e": 409.06,
+   "t": "They do."
+  },
+  {
+   "s": 409.1,
+   "e": 411.14,
+   "t": "Which brings us to model architectures."
+  },
+  {
+   "s": 411.28,
+   "e": 415.48,
+   "t": "Since 2020, deep learning has cemented its dominance."
+  },
+  {
+   "s": 415.9,
+   "e": 421.06,
+   "t": "We're seeing CNNs, recursive networks such as LSTMs, and now transformer architectures."
+  },
+  {
+   "s": 421.2,
+   "e": 424.68,
+   "t": "And often a combination of these, the hybrid architectures seem to perform best."
+  },
+  {
+   "s": 424.84,
+   "e": 425.42,
+   "t": "They do."
+  },
+  {
+   "s": 425.42,
+   "e": 433.6,
+   "t": "A CNN LSTM model, for example, can combine the spatial feature extraction of a CNN with the temporal sequencing of an LSTM."
+  },
+  {
+   "s": 433.6,
+   "e": 434.6,
+   "t": "And that approach achieved an accuracy of 68."
+  },
+  {
+   "s": 434.6,
+   "e": 439.98,
+   "t": "And that approach achieved an accuracy of 68.1% for audio classification on a subset of the million-song dataset."
+  },
+  {
+   "s": 439.98,
+   "e": 440.98,
+   "t": "A strong result."
+  },
+  {
+   "s": 440.98,
+   "e": 441.54,
+   "t": "A strong result."
+  },
+  {
+   "s": 442.02,
+   "e": 443.92,
+   "t": "But volume is still a core barrier."
+  },
+  {
+   "s": 444.82,
+   "e": 447.22,
+   "t": "These emotion-annotated datasets are often small."
+  },
+  {
+   "s": 447.22,
+   "e": 450.02,
+   "t": "Which forces researchers to use transfer learning."
+  },
+  {
+   "s": 450.32,
+   "e": 450.78,
+   "t": "Precisely."
+  },
+  {
+   "s": 451.14,
+   "e": 453.14,
+   "t": "They use pre-trained audio embeddings."
+  },
+  {
+   "s": 453.14,
+   "e": 460.38,
+   "t": "models such as MERT, that's the music understanding model, which have been trained on huge, unlabeled music corpora."
+  },
+  {
+   "s": 460.38,
+   "e": 463.72,
+   "t": "So MERT acts as a high-fidelity feature extractor."
+  },
+  {
+   "s": 463.84,
+   "e": 464.18,
+   "t": "It does."
+  },
+  {
+   "s": 464.26,
+   "e": 468.7,
+   "t": "It lets researchers overcome the limited size of their specific emotion-annotated datasets."
+  },
+  {
+   "s": 469.28,
+   "e": 474.4,
+   "t": "Of course, the viability of any of these systems comes down to rigorous evaluation protocols."
+  },
+  {
+   "s": 474.6,
+   "e": 476.68,
+   "t": "And the metrics depend entirely on the task."
+  },
+  {
+   "s": 477.16,
+   "e": 481.62,
+   "t": "Is it classification for categorical models or regression for dimensional ones?"
+  },
+  {
+   "s": 481.82,
+   "e": 485.82,
+   "t": "For classification, you'd use accuracy or area under the RSC curve."
+  },
+  {
+   "s": 485.96,
+   "e": 486.26,
+   "t": "Correct."
+  },
+  {
+   "s": 486.26,
+   "e": 494.38,
+   "t": "For regression, though, especially with dynamic temporal predictions, the gold standard is the concordance correlation coefficient, or CCC."
+  },
+  {
+   "s": 494.88,
+   "e": 497.24,
+   "t": "Why is the CCC so important for that task?"
+  },
+  {
+   "s": 497.34,
+   "e": 504.34,
+   "t": "Because it measures not just the average error, but how well the predicted temporal trace aligns with the ground truth trace over the whole song."
+  },
+  {
+   "s": 504.76,
+   "e": 507.52,
+   "t": "It ensures the model is tracking the emotional shifts."
+  },
+  {
+   "s": 507.88,
+   "e": 511.44,
+   "t": "But benchmarking across studies remains a systemic challenge."
+  },
+  {
+   "s": 511.6,
+   "e": 512.0,
+   "t": "It does."
+  },
+  {
+   "s": 512.0,
+   "e": 516.86,
+   "t": "Centralized initiatives, such as MEREX, have stopped their mirror-specific tasks."
+  },
+  {
+   "s": 517.46,
+   "e": 519.4,
+   "t": "So direct comparison is very difficult."
+  },
+  {
+   "s": 520.14,
+   "e": 524.92,
+   "t": "Different dataset constructions, different emotion representations, it complicates things."
+  },
+  {
+   "s": 525.0,
+   "e": 527.68,
+   "t": "Which leads us to the persistent challenges that impede the field."
+  },
+  {
+   "s": 528.02,
+   "e": 531.52,
+   "t": "And the first has to be the fundamental subjectivity of emotion itself."
+  },
+  {
+   "s": 531.7,
+   "e": 532.26,
+   "t": "Without a doubt."
+  },
+  {
+   "s": 532.62,
+   "e": 535.58,
+   "t": "Emotion ratings depend significantly on listener demographics."
+  },
+  {
+   "s": 535.58,
+   "e": 540.8,
+   "t": "Things such as musical training, gender, age, familiarity with a song."
+  },
+  {
+   "s": 540.92,
+   "e": 541.8,
+   "t": "And cultural background."
+  },
+  {
+   "s": 541.92,
+   "e": 542.58,
+   "t": "And cultural background."
+  },
+  {
+   "s": 542.66,
+   "e": 549.24,
+   "t": "The MRRP dataset actually tries to address this by including Rater profile information to enable personalized predictions."
+  },
+  {
+   "s": 549.52,
+   "e": 552.02,
+   "t": "And when you delve into culture, the problem becomes pronounced."
+  },
+  {
+   "s": 552.22,
+   "e": 553.78,
+   "t": "This is the cultural bias issue."
+  },
+  {
+   "s": 553.92,
+   "e": 554.16,
+   "t": "Yes."
+  },
+  {
+   "s": 554.5,
+   "e": 560.4,
+   "t": "There are studies showing that when Raters from different countries, say, the U.S. versus India, annotate the same piece of music,"
+  },
+  {
+   "s": 560.4,
+   "e": 563.08,
+   "t": "you find considerable differences in their annotations."
+  },
+  {
+   "s": 563.08,
+   "e": 568.42,
+   "t": "So a truly global MR system needs a diverse, cross-cultural annotator pool."
+  },
+  {
+   "s": 568.76,
+   "e": 569.26,
+   "t": "It's essential."
+  },
+  {
+   "s": 569.96,
+   "e": 574.06,
+   "t": "And all this personal variability feeds directly into the problem of noisy labels."
+  },
+  {
+   "s": 574.38,
+   "e": 576.16,
+   "t": "The ground truth data is imperfect."
+  },
+  {
+   "s": 576.6,
+   "e": 577.0,
+   "t": "It is."
+  },
+  {
+   "s": 577.64,
+   "e": 583.84,
+   "t": "Ambiguity in the emotion models, difficulty annotating certain dimensions, it all introduces noise."
+  },
+  {
+   "s": 584.48,
+   "e": 589.76,
+   "t": "And this lowers inter-rater reliability, making it a challenge to train accurate models."
+  },
+  {
+   "s": 590.08,
+   "e": 591.48,
+   "t": "What are researchers doing about that?"
+  },
+  {
+   "s": 591.48,
+   "e": 601.88,
+   "t": "They're exploring advanced techniques, things such as noisy graph cleaning methods designed to filter out the inconsistent outlier annotations caused by that high human subjectivity."
+  },
+  {
+   "s": 602.28,
+   "e": 607.78,
+   "t": "It almost sounds as if we are asking machines to solve a psychological problem that humans can barely agree on."
+  },
+  {
+   "s": 607.84,
+   "e": 608.86,
+   "t": "In a way, we are."
+  },
+  {
+   "s": 609.4,
+   "e": 612.18,
+   "t": "So, given all of this, what are the key trajectories forward?"
+  },
+  {
+   "s": 612.18,
+   "e": 615.66,
+   "t": "Well, first, there is a pronounced need for standardized benchmarks."
+  },
+  {
+   "s": 616.36,
+   "e": 621.84,
+   "t": "Centralized efforts, such as leaderboards or open data splits, are needed to promote transparent, comparable research."
+  },
+  {
+   "s": 621.96,
+   "e": 624.98,
+   "t": "To get away from relying on siloed individual model papers."
+  },
+  {
+   "s": 625.16,
+   "e": 625.54,
+   "t": "Exactly."
+  },
+  {
+   "s": 626.02,
+   "e": 628.44,
+   "t": "Second, the MIDI format warrants more concentration."
+  },
+  {
+   "s": 628.98,
+   "e": 633.38,
+   "t": "We mentioned there are only three established, emotion-annotated data sets for symbolic music."
+  },
+  {
+   "s": 633.38,
+   "e": 641.48,
+   "t": "And that limitation restricts the development of generative music systems, where emotion could function as a direct control parameter."
+  },
+  {
+   "s": 641.88,
+   "e": 644.24,
+   "t": "Finally, there's the demand for real-time systems."
+  },
+  {
+   "s": 644.54,
+   "e": 644.78,
+   "t": "Yes."
+  },
+  {
+   "s": 645.34,
+   "e": 648.52,
+   "t": "Most existing deep learning models require specialized hardware."
+  },
+  {
+   "s": 649.1,
+   "e": 651.04,
+   "t": "They can take minutes to process a song."
+  },
+  {
+   "s": 651.34,
+   "e": 657.24,
+   "t": "And for applications such as therapeutic emotion detection or mood guidance playlists, you need immediate recognition."
+  },
+  {
+   "s": 657.56,
+   "e": 657.98,
+   "t": "You do."
+  },
+  {
+   "s": 657.98,
+   "e": 659.42,
+   "t": "So, to summarize."
+  },
+  {
+   "s": 659.8,
+   "e": 670.78,
+   "t": "The advancements in deep learning for Mare have been substantial, but the core conclusion is that the field is currently constrained by psychological variability and data scarcity, not by computation."
+  },
+  {
+   "s": 671.1,
+   "e": 675.5,
+   "t": "So, the path forward requires larger, more diverse, culture-aware data sets."
+  },
+  {
+   "s": 675.62,
+   "e": 678.82,
+   "t": "Coupled with standardized evaluation protocols and benchmarks."
+  },
+  {
+   "s": 678.82,
+   "e": 679.6,
+   "t": "That's the key."
+  },
+  {
+   "s": 679.76,
+   "e": 681.28,
+   "t": "So, here is a question we'll leave you with."
+  },
+  {
+   "s": 681.28,
+   "e": 689.9,
+   "t": "If we successfully harness physiological sensing, using EEG or heart rate data, to objectively detect a patient's induced emotional state in real-time,"
+  },
+  {
+   "s": 689.9,
+   "e": 697.0,
+   "t": "does the advent of robust, multimodal M-year systems render traditional, subjective self-reporting in therapeutic settings obsolete?"
+  },
+  {
+   "s": 697.0,
+   "e": 726.98,
+   "t": "So, here is a question we'll leave you with."
+  }
+ ]
+}

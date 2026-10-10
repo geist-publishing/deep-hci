@@ -1,0 +1,2325 @@
+{
+ "guid": "deephci.podbean.com/80b269ab-dbb1-3592-a606-5708683c66b9",
+ "slug": "haptic-empathy-investigating-individual-differences-in-affective-haptic-communications",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Haptic_Empathy_Understanding_Affective_Touch_Communication60npi.mp3",
+  "version": 1
+ },
+ "duration": 1597,
+ "word_count": 4531,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 6.22,
+   "t": "Welcome to the Deep Dive. Today, we're really getting into something fundamental. Touch."
+  },
+  {
+   "s": 6.44,
+   "e": 9.26,
+   "t": "Absolutely. It's so basic to how we connect, isn't it?"
+  },
+  {
+   "s": 9.34,
+   "e": 13.3,
+   "t": "Totally. Think about like a hug or just a hand on your shoulder when you need it."
+  },
+  {
+   "s": 13.42,
+   "e": 16.16,
+   "t": "It's vital for expressing emotion, for connection."
+  },
+  {
+   "s": 16.42,
+   "e": 17.64,
+   "t": "For our well-being, really."
+  },
+  {
+   "s": 17.84,
+   "e": 23.78,
+   "t": "Exactly. But, you know, we live so much through screens now. How do you actually send that hug?"
+  },
+  {
+   "s": 23.9,
+   "e": 27.3,
+   "t": "How do you send reassurance when you're not physically there?"
+  },
+  {
+   "s": 27.3,
+   "e": 29.46,
+   "t": "Well, that's the million-dollar question, isn't it?"
+  },
+  {
+   "s": 30.0,
+   "e": 32.0,
+   "t": "And it leads us straight into today's topic."
+  },
+  {
+   "s": 32.12,
+   "e": 32.62,
+   "t": "Which is?"
+  },
+  {
+   "s": 32.74,
+   "e": 34.72,
+   "t": "It's this concept called haptic empathy."
+  },
+  {
+   "s": 35.92,
+   "e": 44.18,
+   "t": "Basically, the idea that we could maybe convey and even understand emotions just through, well, touch-based vibrations."
+  },
+  {
+   "s": 44.38,
+   "e": 47.18,
+   "t": "Okay. Haptic empathy. So feeling through vibrations is intriguing."
+  },
+  {
+   "s": 47.36,
+   "e": 51.06,
+   "t": "Imagine getting a digital pat on the back that actually feels, you know, warm."
+  },
+  {
+   "s": 51.3,
+   "e": 51.52,
+   "t": "Yeah."
+  },
+  {
+   "s": 51.62,
+   "e": 52.86,
+   "t": "Not just like your phone buzzing."
+  },
+  {
+   "s": 52.98,
+   "e": 57.18,
+   "t": "Right. More than just an alert. So let's unpack this. We're diving into a specific study today."
+  },
+  {
+   "s": 57.18,
+   "e": 62.16,
+   "t": "We are. It's a really interesting one from 2025 by Ju and colleagues titled,"
+  },
+  {
+   "s": 62.76,
+   "e": 68.4,
+   "t": "Haptic Empathy, Investigating Individual Differences in Effective Haptic Communications."
+  },
+  {
+   "s": 68.82,
+   "e": 77.1,
+   "t": "Gotcha. So our mission here is to figure out what they found. Like, how do people even try to send feelings through touch?"
+  },
+  {
+   "s": 77.1,
+   "e": 77.98,
+   "t": "Exactly that."
+  },
+  {
+   "s": 78.04,
+   "e": 78.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 78.66,
+   "e": 85.2,
+   "t": "And how our own personalities, our emotional makeup affects how we send and receive these touch messages."
+  },
+  {
+   "s": 85.42,
+   "e": 89.14,
+   "t": "And what it all means for maybe future gadgets or ways we communicate."
+  },
+  {
+   "s": 89.32,
+   "e": 94.3,
+   "t": "Precisely. We're going to get into the nitty-gritty of how people actually, you know, feel through these haptic signals."
+  },
+  {
+   "s": 94.44,
+   "e": 99.04,
+   "t": "Okay, cool. So before we dive into the study itself, let's talk a bit more about touch in general."
+  },
+  {
+   "s": 99.16,
+   "e": 102.5,
+   "t": "It's a powerful communication channel, right? Often overlooked digitally."
+  },
+  {
+   "s": 102.5,
+   "e": 110.42,
+   "t": "Hugely powerful. It's a critical, nonverbal way we convey deep emotions. So important for well-being, for relationships."
+  },
+  {
+   "s": 110.52,
+   "e": 113.52,
+   "t": "And it doesn't just work alone, does it? Like, it can amplify other things."
+  },
+  {
+   "s": 113.62,
+   "e": 119.34,
+   "t": "That's a great point. Touch can seriously intensify what you're seeing on someone's face or hearing in their voice."
+  },
+  {
+   "s": 119.48,
+   "e": 121.32,
+   "t": "It has this whole other layer of meaning."
+  },
+  {
+   "s": 121.7,
+   "e": 125.98,
+   "t": "A hand on the arm makes a kind word feel, well, deeper somehow."
+  },
+  {
+   "s": 125.98,
+   "e": 133.7,
+   "t": "Exactly. So if it's so important, how will we typically use touch in, say, technology so far?"
+  },
+  {
+   "s": 133.8,
+   "e": 139.16,
+   "t": "Well, mostly for practical stuff, right? Like navigation cues on your phone or maybe alerts."
+  },
+  {
+   "s": 139.62,
+   "e": 142.76,
+   "t": "Things like Braille displays, even. Task completion stuff."
+  },
+  {
+   "s": 142.88,
+   "e": 147.8,
+   "t": "Right. Cask-oriented. That's very different from what we're talking about today, this field of effective haptics."
+  },
+  {
+   "s": 147.86,
+   "e": 152.36,
+   "t": "Effective haptics. So adding actual emotion into touch tech."
+  },
+  {
+   "s": 152.44,
+   "e": 153.7,
+   "t": "Which is way harder than it sounds."
+  },
+  {
+   "s": 153.7,
+   "e": 155.42,
+   "t": "I bet. What are the main hurdles?"
+  },
+  {
+   "s": 155.42,
+   "e": 157.6,
+   "t": "Well, for starters, we're all different."
+  },
+  {
+   "s": 157.8,
+   "e": 157.94,
+   "t": "Yeah."
+  },
+  {
+   "s": 158.04,
+   "e": 160.98,
+   "t": "How sensitive your skin is, what kinds of touch you use."
+  },
+  {
+   "s": 161.04,
+   "e": 163.4,
+   "t": "Like, it varies massively person to person."
+  },
+  {
+   "s": 163.8,
+   "e": 165.5,
+   "t": "Tactile acuity, preferences."
+  },
+  {
+   "s": 165.76,
+   "e": 167.6,
+   "t": "Okay. So individual differences are a big one."
+  },
+  {
+   "s": 167.72,
+   "e": 174.84,
+   "t": "Huge. And then there's a challenge of capturing, you know, subtle, complex emotions with just, well, engineered vibrations."
+  },
+  {
+   "s": 175.28,
+   "e": 177.36,
+   "t": "It's not easy to make a vibration feel sad."
+  },
+  {
+   "s": 177.4,
+   "e": 178.8,
+   "t": "Right. It's not just on or off."
+  },
+  {
+   "s": 179.04,
+   "e": 183.44,
+   "t": "And a lot of previous work looked at what people preferred after the tech was built."
+  },
+  {
+   "s": 183.44,
+   "e": 188.74,
+   "t": "They didn't dig so much into why certain vibrations felt a certain way or how people would design them naturally."
+  },
+  {
+   "s": 189.0,
+   "e": 192.56,
+   "t": "Ah. So this study tried to get at the creation part, too. The intuitive design."
+  },
+  {
+   "s": 192.64,
+   "e": 194.0,
+   "t": "Exactly. That was a core goal."
+  },
+  {
+   "s": 194.06,
+   "e": 197.72,
+   "t": "Okay. So what were the big questions that were trying to answer them? Lay them out for us."
+  },
+  {
+   "s": 197.72,
+   "e": 205.68,
+   "t": "Sure. So question one. How do people intuitively design vibrations to express different emotions? What do they actually do?"
+  },
+  {
+   "s": 205.92,
+   "e": 206.9,
+   "t": "Makes sense. What else?"
+  },
+  {
+   "s": 207.24,
+   "e": 221.5,
+   "t": "Question two. How do our individual emotional traits, things they measure like emotional competence or EC and effect intensity, AM, how do those influence how we design and interpret these haptic messages?"
+  },
+  {
+   "s": 221.5,
+   "e": 226.82,
+   "t": "Okay. So does being more emotionally aware or feeling emotions more strongly change things?"
+  },
+  {
+   "s": 226.96,
+   "e": 238.52,
+   "t": "That's the idea. And finally, question three. Based on all this, what are the actual strategies? What can we learn to design better haptic interfaces for emotional communication, keeping these individual differences in mind?"
+  },
+  {
+   "s": 238.68,
+   "e": 242.86,
+   "t": "Got it. So intuition, individual traits, and design guidelines. Quite ambitious."
+  },
+  {
+   "s": 243.24,
+   "e": 243.58,
+   "t": "Definitely."
+  },
+  {
+   "s": 243.9,
+   "e": 248.52,
+   "t": "All right. Let's get into the how. How did they actually set this experiment up? Sounds complex."
+  },
+  {
+   "s": 248.52,
+   "e": 255.56,
+   "t": "It was pretty clever, actually. They started by recruiting participants. 24 people came in for the first part, the design phase."
+  },
+  {
+   "s": 255.62,
+   "e": 255.88,
+   "t": "Okay."
+  },
+  {
+   "s": 256.2,
+   "e": 265.84,
+   "t": "And then 19 of those same people came back later for the interpretation phase. Importantly, they had varied demographics, which helps make the results more general."
+  },
+  {
+   "s": 266.08,
+   "e": 270.64,
+   "t": "Good. And what device did they use to send and receive these haptic messages?"
+  },
+  {
+   "s": 270.64,
+   "e": 280.42,
+   "t": "They used a custom built device. It was wearable. Two channels. Picture two half spheres that clicked together magnetically to form one smooth sphere."
+  },
+  {
+   "s": 280.52,
+   "e": 281.26,
+   "t": "Yeah. Okay."
+  },
+  {
+   "s": 281.62,
+   "e": 288.78,
+   "t": "Lightweight, neutral colors. They didn't want the look of it biasing the emotions. And it delivered high fidelity vibrations."
+  },
+  {
+   "s": 289.12,
+   "e": 291.04,
+   "t": "And they interacted with it using their hands."
+  },
+  {
+   "s": 291.24,
+   "e": 296.96,
+   "t": "Yes. Specifically hands. Good sensitivity and it's, you know, socially acceptable to touch things with your hands."
+  },
+  {
+   "s": 296.96,
+   "e": 301.26,
+   "t": "Right. And how did they capture the touch itself? What the participants were actually doing?"
+  },
+  {
+   "s": 301.4,
+   "e": 307.56,
+   "t": "They used something called PVDF films. Basically, it's sensor strips, like a belt, worn on the index fingers of both hands."
+  },
+  {
+   "s": 307.64,
+   "e": 308.76,
+   "t": "Okay. Sensors on the fingers."
+  },
+  {
+   "s": 308.84,
+   "e": 314.94,
+   "t": "Yeah. And these sensors were designed to pick up the tiny vibrations traveling through the skin when the fingertip touched something."
+  },
+  {
+   "s": 315.9,
+   "e": 319.7,
+   "t": "Crucially, they didn't just measure the finger waving around, but the actual touch interaction."
+  },
+  {
+   "s": 319.92,
+   "e": 321.44,
+   "t": "Smart. That sounds really specific."
+  },
+  {
+   "s": 322.08,
+   "e": 326.18,
+   "t": "And you mentioned sensitivity differences earlier. How did they handle that? Calibration?"
+  },
+  {
+   "s": 326.18,
+   "e": 332.76,
+   "t": "Exactly. They had a calibration system. Before the main task, they figured out each person's individual sensitivity."
+  },
+  {
+   "s": 333.14,
+   "e": 333.58,
+   "t": "Oh."
+  },
+  {
+   "s": 334.12,
+   "e": 344.06,
+   "t": "They measured the quietest vibration each person could detect at three different frequencies. 50 hertz, 200 hertz, and 400 hertz. Kind of representative points."
+  },
+  {
+   "s": 344.18,
+   "e": 344.4,
+   "t": "Okay."
+  },
+  {
+   "s": 344.62,
+   "e": 353.6,
+   "t": "And from those points, they estimated the detection threshold across a much wider range up to 2000 hertz. This let them adjust the intensity of the haptic messages later."
+  },
+  {
+   "s": 353.6,
+   "e": 360.48,
+   "t": "Ah. So everyone would hopefully perceive the same level of sensation, even if their skin was naturally more or less sensitive."
+  },
+  {
+   "s": 360.56,
+   "e": 361.5,
+   "t": "That was the goal, yeah."
+  },
+  {
+   "s": 361.5,
+   "e": 361.6,
+   "t": "Yeah."
+  },
+  {
+   "s": 361.76,
+   "e": 363.56,
+   "t": "To standardize the perceived intensity."
+  },
+  {
+   "s": 363.74,
+   "e": 370.18,
+   "t": "Okay. Device, sensors, calibration. Now, how did they get people feeling things to create messages about? They needed emotions."
+  },
+  {
+   "s": 370.56,
+   "e": 377.88,
+   "t": "Right. They used film clips. Eight carefully chosen 40-second clips from a database called EMDB."
+  },
+  {
+   "s": 377.88,
+   "e": 394.66,
+   "t": "Clips known to evoke certain feelings. Precisely. And importantly, no audio, just the visuals. They were selected to target specific spots on the emotion map, like high valence, high arousal, think maybe excitement or joy. Or low valence, low arousal, perhaps sadness or calmness."
+  },
+  {
+   "s": 394.8,
+   "e": 399.84,
+   "t": "Gotcha. So valence being the positive-negative scale and arousal being the intensity scale."
+  },
+  {
+   "s": 399.84,
+   "e": 407.2,
+   "t": "Exactly. And after watching each clip, participants rated their own feelings using something called the self-assessment mannequin, or SAM."
+  },
+  {
+   "s": 407.22,
+   "e": 408.56,
+   "t": "SAM. Like a little figure."
+  },
+  {
+   "s": 408.74,
+   "e": 419.78,
+   "t": "Yeah. It's a simple pictorial scale. You just point to the figure that best represents how pleasant semblance and how calm, excited arousal you feel on a nine-point scale. It confirmed the clips were working as intended."
+  },
+  {
+   "s": 419.98,
+   "e": 425.64,
+   "t": "Okay. Seems like a solid setup. So then the experiment itself, two main phases you said, design and interpretation."
+  },
+  {
+   "s": 425.64,
+   "e": 434.58,
+   "t": "Correct. First was the design phase. The participants watched a clip, felt the emotion, and then they had five to ten seconds to create a haptic message expressing that feeling."
+  },
+  {
+   "s": 434.8,
+   "e": 437.46,
+   "t": "How did they create it? Just by touching the device."
+  },
+  {
+   "s": 437.54,
+   "e": 444.68,
+   "t": "Using natural actions, yeah. Tapping it, rubbing it, pressing it, whatever felt intuitive to them based on the emotion they just experienced."
+  },
+  {
+   "s": 444.74,
+   "e": 446.06,
+   "t": "And they collected a lot of these."
+  },
+  {
+   "s": 446.3,
+   "e": 452.54,
+   "t": "They did. 187 messages in title. Then the researchers curated these down to 72 for the next phase."
+  },
+  {
+   "s": 452.84,
+   "e": 453.96,
+   "t": "How did they choose which ones?"
+  },
+  {
+   "s": 453.96,
+   "e": 461.86,
+   "t": "Based on how confident the designer felt about their message expressing the emotion, and also to ensure they had a good balance across the different emotion types."
+  },
+  {
+   "s": 462.14,
+   "e": 466.7,
+   "t": "Makes sense. Okay. So that's design. Then came the interpretation phase."
+  },
+  {
+   "s": 466.9,
+   "e": 471.86,
+   "t": "Right. The 19 participants who came back got a set of 33 messages to interpret."
+  },
+  {
+   "s": 472.12,
+   "e": 473.84,
+   "t": "And what was in that set? A mix."
+  },
+  {
+   "s": 473.96,
+   "e": 481.94,
+   "t": "A specific mix, yeah. For each interpreter, there were 15 messages created by other people presented without that individual calibration applied."
+  },
+  {
+   "s": 481.94,
+   "e": 483.5,
+   "t": "Okay. Raw messages."
+  },
+  {
+   "s": 483.5,
+   "e": 489.48,
+   "t": "So then, 15 calibrated versions of those same messages adjusted for the interpreter's sensitivity."
+  },
+  {
+   "s": 489.72,
+   "e": 492.82,
+   "t": "Ah, so they could compare calibrated versus non-calibrated."
+  },
+  {
+   "s": 493.08,
+   "e": 493.92,
+   "t": "Exactly. Yeah."
+  },
+  {
+   "s": 493.92,
+   "e": 501.28,
+   "t": "And just to make it extra interesting, they also included three messages that the interpreter had created themselves back in the design phase."
+  },
+  {
+   "s": 501.36,
+   "e": 504.26,
+   "t": "Oh, cool. To see if you understand your own haptic language better."
+  },
+  {
+   "s": 504.26,
+   "e": 505.12,
+   "t": "That was the question, yeah."
+  },
+  {
+   "s": 505.12,
+   "e": 505.5,
+   "t": "Okay."
+  },
+  {
+   "s": 505.5,
+   "e": 513.62,
+   "t": "And throughout this, they also measured those personality traits we mentioned affect intensity, ABEN, and emotional competence using standard questionnaires."
+  },
+  {
+   "s": 513.62,
+   "e": 516.24,
+   "t": "Got it. A really thorough process."
+  },
+  {
+   "s": 516.82,
+   "e": 517.94,
+   "t": "Okay. Let's get to the results."
+  },
+  {
+   "s": 518.6,
+   "e": 523.9,
+   "t": "What did they find? First off, did the movie clips actually work? Did people feel the intended emotions?"
+  },
+  {
+   "s": 524.08,
+   "e": 524.84,
+   "t": "Oh, yeah. Definitely."
+  },
+  {
+   "s": 525.5,
+   "e": 528.7,
+   "t": "The validation using those SAM ratings was really strong."
+  },
+  {
+   "s": 529.24,
+   "e": 535.88,
+   "t": "The clips reliably produced the target emotions, aligning very closely with the database ratings for both valence and arousal."
+  },
+  {
+   "s": 535.88,
+   "e": 546.72,
+   "t": "Great. So the emotional input was solid. Now, the big question. When someone interpreted a message someone else designed, how well did the emotion transfer? Did the empathy work?"
+  },
+  {
+   "s": 546.94,
+   "e": 553.66,
+   "t": "This is where it gets really interesting and maybe a bit complex. They found only a weak positive correlation for valence."
+  },
+  {
+   "s": 553.76,
+   "e": 558.32,
+   "t": "So people were only slightly better than guessing whether the emotion was meant to be positive or negative?"
+  },
+  {
+   "s": 558.82,
+   "e": 562.06,
+   "t": "Pretty much, yeah. A slight understanding, but not strong."
+  },
+  {
+   "s": 562.06,
+   "e": 567.52,
+   "t": "However, for arousal, the correlation was moderate positive."
+  },
+  {
+   "s": 568.08,
+   "e": 573.94,
+   "t": "Ah, so people were much better at telling if the intended emotion was supposed to be, like, calm or intense."
+  },
+  {
+   "s": 574.14,
+   "e": 582.56,
+   "t": "Exactly. Conveying the energy level of the emotion through touch seems significantly easier than conveying its specific positive or negative flavor."
+  },
+  {
+   "s": 582.82,
+   "e": 587.52,
+   "t": "Okay, that makes intuitive sense somehow. What about the actual accuracy rates, like percentage correct?"
+  },
+  {
+   "s": 587.52,
+   "e": 597.06,
+   "t": "Well, matching the findings on correlation, arousal accuracy was consistently above chance levels. People got it right, or partially right, a decent amount of the time."
+  },
+  {
+   "s": 597.14,
+   "e": 597.38,
+   "t": "Okay."
+  },
+  {
+   "s": 597.6,
+   "e": 603.16,
+   "t": "But for valence accuracy, it often hovered much closer to chance, sometimes barely better than guessing."
+  },
+  {
+   "s": 603.5,
+   "e": 608.0,
+   "t": "Wow. So, again, intensity comes through, but the specific feeling is blurry."
+  },
+  {
+   "s": 608.32,
+   "e": 609.06,
+   "t": "Very much so."
+  },
+  {
+   "s": 609.18,
+   "e": 609.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 609.56,
+   "e": 613.24,
+   "t": "And they found something else really key, which they termed the dampening effect."
+  },
+  {
+   "s": 613.44,
+   "e": 615.48,
+   "t": "Dampening effect, like turning the volume down."
+  },
+  {
+   "s": 615.48,
+   "e": 625.76,
+   "t": "Kind of, yeah. When the emotion, which was initially triggered by a rich visual stimulus, like the film clip, got translated into just a haptic signal, the intensity often seemed to diminish."
+  },
+  {
+   "s": 626.88,
+   "e": 635.86,
+   "t": "Both the valence and arousal scores reported by the interpreters tended to be closer to the neutral midpoint than the scores reported by the original designers."
+  },
+  {
+   "s": 636.12,
+   "e": 642.18,
+   "t": "So the emotion gets kind of muted or compressed in the translation from vision to touch."
+  },
+  {
+   "s": 642.18,
+   "e": 650.1,
+   "t": "That's a good way to put it. Muted or compressed. It suggests a challenge in maintaining the full emotional richness across that sensory translation."
+  },
+  {
+   "s": 650.24,
+   "e": 657.5,
+   "t": "Interesting. Okay. What about that calibration? Adjusting for individual sensitivity, did that help people interpret the messages better?"
+  },
+  {
+   "s": 658.0,
+   "e": 665.06,
+   "t": "Surprisingly, not as much as you might expect on the whole. It didn't significantly boost the overall accuracy across the board."
+  },
+  {
+   "s": 665.18,
+   "e": 665.46,
+   "t": "Really?"
+  },
+  {
+   "s": 665.46,
+   "e": 677.44,
+   "t": "Huh. But it wasn't useless. It did seem to improve the accuracy specifically for interpreting arousal. And it also helped messages intended as high valence, high arousal cluster together better in the analysis."
+  },
+  {
+   "s": 677.74,
+   "e": 679.32,
+   "t": "Okay. So a more subtle effect."
+  },
+  {
+   "s": 679.5,
+   "e": 679.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 679.76,
+   "e": 686.7,
+   "t": "It helped clarify the intensity and maybe the really positive energetic feelings, but didn't solve the main valence problem."
+  },
+  {
+   "s": 686.84,
+   "e": 688.84,
+   "t": "Exactly. Nuanced, not a magic bullet."
+  },
+  {
+   "s": 689.12,
+   "e": 694.36,
+   "t": "And were some people just naturally better interpreters than others? You mentioned individual differences earlier."
+  },
+  {
+   "s": 694.36,
+   "e": 699.9,
+   "t": "Oh, definitely. There was significant variability. Some people were much better at decoding the messages than others."
+  },
+  {
+   "s": 700.1,
+   "e": 704.16,
+   "t": "And did people understand their own messages better, the ones they designed themselves?"
+  },
+  {
+   "s": 704.64,
+   "e": 713.72,
+   "t": "Here's another surprise, not really. Participants didn't show a clear advantage in interpreting their own creations compared to messages from others."
+  },
+  {
+   "s": 713.98,
+   "e": 718.04,
+   "t": "Wow. Okay. So it's not like you automatically understand your own secret haptic code."
+  },
+  {
+   "s": 718.04,
+   "e": 724.66,
+   "t": "Apparently not. It suggests a really complex interplay happening. But they did find a link between skill sets."
+  },
+  {
+   "s": 724.78,
+   "e": 725.64,
+   "t": "Ah, so."
+  },
+  {
+   "s": 725.82,
+   "e": 738.82,
+   "t": "There was a significant positive correlation between how accurately someone interpreted valence in non-calibrated messages and how proficient they were rated at designing messages that others could understand."
+  },
+  {
+   "s": 739.16,
+   "e": 742.68,
+   "t": "So if you're good at making haptic messages others get."
+  },
+  {
+   "s": 742.68,
+   "e": 747.78,
+   "t": "You're probably also pretty good at understanding the messages others make, especially the emotional flavor, the valence."
+  },
+  {
+   "s": 747.96,
+   "e": 753.12,
+   "t": "It's like a linked skill, haptic expressiveness, and haptic perception for emotion go together."
+  },
+  {
+   "s": 753.48,
+   "e": 757.6,
+   "t": "It strongly suggests that, yes, a reciprocal ability."
+  },
+  {
+   "s": 757.7,
+   "e": 760.22,
+   "t": "And confidence. Did feeling confident matter?"
+  },
+  {
+   "s": 760.74,
+   "e": 763.5,
+   "t": "Very much so. Strong positive correlations there."
+  },
+  {
+   "s": 763.5,
+   "e": 771.12,
+   "t": "People who felt confident about their ability to design messages also felt confident about their ability to interpret them, and vice versa."
+  },
+  {
+   "s": 771.84,
+   "e": 774.96,
+   "t": "This held for both calibrated and non-calibrated messages."
+  },
+  {
+   "s": 775.18,
+   "e": 780.12,
+   "t": "So your belief in your haptic skills, both sending and receiving, seems tightly linked."
+  },
+  {
+   "s": 780.5,
+   "e": 785.6,
+   "t": "Yeah, it really underscores that intrinsic connection between designing and interpreting in this domain."
+  },
+  {
+   "s": 785.72,
+   "e": 786.82,
+   "t": "Okay, this is fascinating."
+  },
+  {
+   "s": 787.26,
+   "e": 793.1,
+   "t": "We've looked at the numbers, the correlations, the accuracy, but this deep dive is called feeling through vibrations."
+  },
+  {
+   "s": 793.1,
+   "e": 795.34,
+   "t": "Let's get into the human side."
+  },
+  {
+   "s": 795.86,
+   "e": 798.32,
+   "t": "How did people actually come up with these touch messages?"
+  },
+  {
+   "s": 798.68,
+   "e": 800.16,
+   "t": "What strategies did they use?"
+  },
+  {
+   "s": 800.24,
+   "e": 801.96,
+   "t": "The interviews must have revealed some cool stuff."
+  },
+  {
+   "s": 802.14,
+   "e": 802.56,
+   "t": "Absolutely."
+  },
+  {
+   "s": 803.06,
+   "e": 806.18,
+   "t": "This qualitative part is where you really see the thought processes."
+  },
+  {
+   "s": 806.6,
+   "e": 809.66,
+   "t": "They identified three main intuitive strategies people used."
+  },
+  {
+   "s": 809.98,
+   "e": 811.74,
+   "t": "The first one was perceptive expression."
+  },
+  {
+   "s": 811.9,
+   "e": 813.56,
+   "t": "Perceptive expression, meaning?"
+  },
+  {
+   "s": 813.94,
+   "e": 817.28,
+   "t": "Basically translating things they saw in the videos directly into touch."
+  },
+  {
+   "s": 817.34,
+   "e": 818.68,
+   "t": "Okay, like mimicking actions."
+  },
+  {
+   "s": 819.04,
+   "e": 819.4,
+   "t": "Exactly."
+  },
+  {
+   "s": 819.84,
+   "e": 820.88,
+   "t": "Imitating motion was big."
+  },
+  {
+   "s": 820.88,
+   "e": 824.2,
+   "t": "They tried to match the amplitude, the rhythm of actions in the clips."
+  },
+  {
+   "s": 824.84,
+   "e": 830.92,
+   "t": "Things like violent scenes or even erotic scenes were apparently easier to mimic physically."
+  },
+  {
+   "s": 831.06,
+   "e": 831.28,
+   "t": "Right."
+  },
+  {
+   "s": 831.38,
+   "e": 832.54,
+   "t": "They have distinct movements."
+  },
+  {
+   "s": 832.54,
+   "e": 836.96,
+   "t": "Some people even use their left versus right hand to represent different people in the video,"
+  },
+  {
+   "s": 837.22,
+   "e": 839.62,
+   "t": "like a conversation or a relationship."
+  },
+  {
+   "s": 840.36,
+   "e": 841.9,
+   "t": "Wow, that's quite detailed."
+  },
+  {
+   "s": 842.22,
+   "e": 844.08,
+   "t": "What else under perceptive expression?"
+  },
+  {
+   "s": 844.54,
+   "e": 845.5,
+   "t": "Referencing texture."
+  },
+  {
+   "s": 845.5,
+   "e": 850.68,
+   "t": "They'd use touch to try and convey a texture they saw, like clothing or table surface."
+  },
+  {
+   "s": 851.46,
+   "e": 856.76,
+   "t": "Or even for the erotic clips, some mention touching their own arm to try and represent the feeling of skin."
+  },
+  {
+   "s": 857.48,
+   "e": 861.96,
+   "t": "One person clenched their palms to show disgust, like mimicking a gut reaction."
+  },
+  {
+   "s": 862.6,
+   "e": 866.08,
+   "t": "Calm scenes often involve trying to convey smooth or gentle textures."
+  },
+  {
+   "s": 866.36,
+   "e": 870.86,
+   "t": "So translating visual or even conceptual textures into physical action."
+  },
+  {
+   "s": 870.86,
+   "e": 871.34,
+   "t": "Yes."
+  },
+  {
+   "s": 871.8,
+   "e": 874.5,
+   "t": "And another surprising one was imagined sound."
+  },
+  {
+   "s": 874.62,
+   "e": 875.9,
+   "t": "Remember, the clips had no audio."
+  },
+  {
+   "s": 876.22,
+   "e": 876.4,
+   "t": "Right."
+  },
+  {
+   "s": 876.54,
+   "e": 879.82,
+   "t": "But people would imagine the sounds and try to translate that into vibrations,"
+  },
+  {
+   "s": 880.14,
+   "e": 885.32,
+   "t": "like making a sharp, quick vibration for slashing some with a knife or a different pattern for cracking eyes."
+  },
+  {
+   "s": 885.62,
+   "e": 885.92,
+   "t": "Whoa."
+  },
+  {
+   "s": 886.38,
+   "e": 892.16,
+   "t": "So they're really trying to recreate the whole sensory world of the clip, even the missing parts, through touch alone."
+  },
+  {
+   "s": 892.24,
+   "e": 893.0,
+   "t": "That's ambitious."
+  },
+  {
+   "s": 893.42,
+   "e": 894.46,
+   "t": "What was the second strategy?"
+  },
+  {
+   "s": 894.9,
+   "e": 896.78,
+   "t": "The second was empathetic expression."
+  },
+  {
+   "s": 896.78,
+   "e": 903.12,
+   "t": "This was less about mimicking the visuals and more about conveying their own emotional state while watching the clip."
+  },
+  {
+   "s": 903.24,
+   "e": 903.52,
+   "t": "Okay."
+  },
+  {
+   "s": 903.86,
+   "e": 905.32,
+   "t": "Expressing their personal reaction."
+  },
+  {
+   "s": 905.54,
+   "e": 905.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 906.02,
+   "e": 910.54,
+   "t": "High arousal emotions and tense ones were generally easier to express this way."
+  },
+  {
+   "s": 910.9,
+   "e": 914.18,
+   "t": "People could create intense vibrations for fear or excitement."
+  },
+  {
+   "s": 914.74,
+   "e": 920.82,
+   "t": "They even noted subtle differences, like trying to make erotic intensity feel different from horror intensity."
+  },
+  {
+   "s": 921.06,
+   "e": 923.26,
+   "t": "Trying to capture the flavor of the intensity."
+  },
+  {
+   "s": 923.6,
+   "e": 924.06,
+   "t": "Exactly."
+  },
+  {
+   "s": 924.06,
+   "e": 928.06,
+   "t": "And they often based their designs on their immediate physiological reactions."
+  },
+  {
+   "s": 929.38,
+   "e": 929.72,
+   "t": "Like what?"
+  },
+  {
+   "s": 929.98,
+   "e": 936.82,
+   "t": "Like one participant talked about feeling like internally screaming during a violent clip and trying to translate that panic into the haptic message."
+  },
+  {
+   "s": 937.48,
+   "e": 940.48,
+   "t": "Another might do excited tapping for an erotic scene."
+  },
+  {
+   "s": 941.0,
+   "e": 943.94,
+   "t": "So using their own body's signals as the source material."
+  },
+  {
+   "s": 944.3,
+   "e": 944.78,
+   "t": "Precisely."
+  },
+  {
+   "s": 944.78,
+   "e": 955.22,
+   "t": "Which, interestingly, made expressing high energy emotions easier than expressing calmness because it was harder to actually feel calm on demand in the lab setting."
+  },
+  {
+   "s": 955.32,
+   "e": 955.84,
+   "t": "That makes sense."
+  },
+  {
+   "s": 956.4,
+   "e": 958.9,
+   "t": "Did their general capacity for empathy matter here?"
+  },
+  {
+   "s": 959.04,
+   "e": 959.72,
+   "t": "It seemed to, yeah."
+  },
+  {
+   "s": 960.22,
+   "e": 963.18,
+   "t": "That ties into perspective taking, which was another part of this strategy."
+  },
+  {
+   "s": 963.56,
+   "e": 966.3,
+   "t": "Designing based on how would I feel if I were in that situation."
+  },
+  {
+   "s": 966.48,
+   "e": 966.7,
+   "t": "Okay."
+  },
+  {
+   "s": 966.7,
+   "e": 968.08,
+   "t": "But this varied a lot."
+  },
+  {
+   "s": 968.84,
+   "e": 973.1,
+   "t": "Someone who couldn't easily empathize with violence found those scenes hard to design for."
+  },
+  {
+   "s": 973.72,
+   "e": 976.86,
+   "t": "Calm scenes were tricky if there were no humans in the clip to empathize with."
+  },
+  {
+   "s": 976.92,
+   "e": 977.12,
+   "t": "Right."
+  },
+  {
+   "s": 977.28,
+   "e": 978.56,
+   "t": "Harder to put yourself in the scene."
+  },
+  {
+   "s": 978.78,
+   "e": 981.38,
+   "t": "And people really struggled with mixed or complex emotions."
+  },
+  {
+   "s": 982.02,
+   "e": 989.08,
+   "t": "Erotic scenes, for example, could involve excitement, happiness, intensity, maybe even calmness all mixed together."
+  },
+  {
+   "s": 989.7,
+   "e": 991.06,
+   "t": "Sadness could be complex, too."
+  },
+  {
+   "s": 991.06,
+   "e": 994.32,
+   "t": "How do you capture that blend in one short vibration pattern?"
+  },
+  {
+   "s": 994.32,
+   "e": 997.98,
+   "t": "Yeah, distilling a complex emotional cocktail into a simple vibration."
+  },
+  {
+   "s": 998.54,
+   "e": 999.76,
+   "t": "That's a huge challenge."
+  },
+  {
+   "s": 1000.22,
+   "e": 1000.42,
+   "t": "Okay."
+  },
+  {
+   "s": 1000.54,
+   "e": 1002.1,
+   "t": "What was the third and final strategy?"
+  },
+  {
+   "s": 1002.26,
+   "e": 1003.86,
+   "t": "The third was metaphorical expression."
+  },
+  {
+   "s": 1004.24,
+   "e": 1008.18,
+   "t": "Using abstraction, implication, things not directly in the video."
+  },
+  {
+   "s": 1008.54,
+   "e": 1008.82,
+   "t": "Okay."
+  },
+  {
+   "s": 1009.08,
+   "e": 1010.24,
+   "t": "Going beyond the literal."
+  },
+  {
+   "s": 1010.74,
+   "e": 1011.9,
+   "t": "Like using symbols."
+  },
+  {
+   "s": 1012.4,
+   "e": 1012.8,
+   "t": "Kind of."
+  },
+  {
+   "s": 1013.1,
+   "e": 1013.98,
+   "t": "Using associations."
+  },
+  {
+   "s": 1014.94,
+   "e": 1016.8,
+   "t": "Connecting the feeling to something else entirely."
+  },
+  {
+   "s": 1017.58,
+   "e": 1021.24,
+   "t": "For calmness, maybe designing a slow, rhythmic pulse like a heartbeat."
+  },
+  {
+   "s": 1021.56,
+   "e": 1023.48,
+   "t": "Or gentle tapping like raindrops."
+  },
+  {
+   "s": 1023.48,
+   "e": 1024.08,
+   "t": "Ah."
+  },
+  {
+   "s": 1024.42,
+   "e": 1027.84,
+   "t": "Drawing on familiar real-world sensations linked to that emotion."
+  },
+  {
+   "s": 1028.1,
+   "e": 1028.58,
+   "t": "Exactly."
+  },
+  {
+   "s": 1029.04,
+   "e": 1029.92,
+   "t": "Or for disgust."
+  },
+  {
+   "s": 1030.18,
+   "e": 1032.26,
+   "t": "Maybe a high-frequency jarring vibration."
+  },
+  {
+   "s": 1032.6,
+   "e": 1035.0,
+   "t": "Like the sound of chalk screeching on a blackboard."
+  },
+  {
+   "s": 1035.26,
+   "e": 1038.14,
+   "t": "Something totally unrelated to the clip but associated with the feeling."
+  },
+  {
+   "s": 1038.92,
+   "e": 1041.86,
+   "t": "Happiness might be represented by patterns resembling music."
+  },
+  {
+   "s": 1042.18,
+   "e": 1042.54,
+   "t": "Interesting."
+  },
+  {
+   "s": 1042.8,
+   "e": 1046.1,
+   "t": "Using personal or maybe common metaphors for feelings."
+  },
+  {
+   "s": 1046.2,
+   "e": 1046.46,
+   "t": "Yes."
+  },
+  {
+   "s": 1046.76,
+   "e": 1049.2,
+   "t": "And some people even talked about it like creating a language."
+  },
+  {
+   "s": 1049.2,
+   "e": 1052.3,
+   "t": "Framing haptic design as a conversation of body language."
+  },
+  {
+   "s": 1052.4,
+   "e": 1054.18,
+   "t": "Or literally learning a new language."
+  },
+  {
+   "s": 1054.5,
+   "e": 1057.66,
+   "t": "Exploring how using one hand versus two changed the expression."
+  },
+  {
+   "s": 1058.04,
+   "e": 1061.72,
+   "t": "One person explicitly compared using two fingers to drumming and music."
+  },
+  {
+   "s": 1061.82,
+   "e": 1064.02,
+   "t": "Trying to build a richer vocabulary of touch."
+  },
+  {
+   "s": 1064.36,
+   "e": 1064.98,
+   "t": "It seems so."
+  },
+  {
+   "s": 1065.24,
+   "e": 1067.22,
+   "t": "And it was even a fascinating cultural example."
+  },
+  {
+   "s": 1067.22,
+   "e": 1073.12,
+   "t": "One participant linked an erotic film clip to the Chinese slang term pa-pi-a."
+  },
+  {
+   "s": 1073.46,
+   "e": 1075.28,
+   "t": "Which refers to intimate relations."
+  },
+  {
+   "s": 1075.64,
+   "e": 1079.78,
+   "t": "And try to convey that specific cultural nuance in their haptic design."
+  },
+  {
+   "s": 1079.78,
+   "e": 1080.26,
+   "t": "Wow."
+  },
+  {
+   "s": 1080.4,
+   "e": 1081.84,
+   "t": "That opens up a whole other dimension."
+  },
+  {
+   "s": 1082.02,
+   "e": 1084.22,
+   "t": "Culturally specific haptic metaphors."
+  },
+  {
+   "s": 1084.36,
+   "e": 1084.76,
+   "t": "Potentially."
+  },
+  {
+   "s": 1084.92,
+   "e": 1085.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 1085.62,
+   "e": 1087.46,
+   "t": "Shows how deep and layered this could become."
+  },
+  {
+   "s": 1088.1,
+   "e": 1089.0,
+   "t": "So these strategies."
+  },
+  {
+   "s": 1089.26,
+   "e": 1089.74,
+   "t": "Perceptive."
+  },
+  {
+   "s": 1090.02,
+   "e": 1090.5,
+   "t": "Empathetic."
+  },
+  {
+   "s": 1090.9,
+   "e": 1091.38,
+   "t": "Metaphorical."
+  },
+  {
+   "s": 1091.62,
+   "e": 1094.3,
+   "t": "Really show the creativity people bring to this."
+  },
+  {
+   "s": 1094.64,
+   "e": 1096.7,
+   "t": "Now let's connect back to those individual traits."
+  },
+  {
+   "s": 1097.06,
+   "e": 1098.4,
+   "t": "You mentioned emotional competence."
+  },
+  {
+   "s": 1098.56,
+   "e": 1098.88,
+   "t": "EC."
+  },
+  {
+   "s": 1099.22,
+   "e": 1100.32,
+   "t": "And effect intensity."
+  },
+  {
+   "s": 1100.6,
+   "e": 1101.0,
+   "t": "AAM."
+  },
+  {
+   "s": 1101.24,
+   "e": 1105.52,
+   "t": "How do those actually link up with how well people designed or interpreted these messages?"
+  },
+  {
+   "s": 1105.84,
+   "e": 1106.06,
+   "t": "Right."
+  },
+  {
+   "s": 1106.06,
+   "e": 1109.9,
+   "t": "This is where some of the most perhaps counterintuitive findings emerged."
+  },
+  {
+   "s": 1110.06,
+   "e": 1111.92,
+   "t": "Let's start with emotional competence, EC."
+  },
+  {
+   "s": 1112.0,
+   "e": 1112.22,
+   "t": "Okay."
+  },
+  {
+   "s": 1112.48,
+   "e": 1113.54,
+   "t": "How good you are with emotions."
+  },
+  {
+   "s": 1114.02,
+   "e": 1116.22,
+   "t": "Specifically, they looked at interpersonal EC."
+  },
+  {
+   "s": 1116.44,
+   "e": 1119.46,
+   "t": "How skilled you are at understanding and managing other people's emotions."
+  },
+  {
+   "s": 1119.6,
+   "e": 1119.88,
+   "t": "Right."
+  },
+  {
+   "s": 1119.88,
+   "e": 1126.74,
+   "t": "And they found a strong negative correlation between high interpersonal EC and the accuracy of interpreting valence."
+  },
+  {
+   "s": 1127.44,
+   "e": 1130.02,
+   "t": "Positive negative feeling for the calibrated messages."
+  },
+  {
+   "s": 1130.38,
+   "e": 1130.56,
+   "t": "Wait."
+  },
+  {
+   "s": 1130.8,
+   "e": 1131.1,
+   "t": "Negative."
+  },
+  {
+   "s": 1131.1,
+   "e": 1140.44,
+   "t": "So people who are really good at understanding others' emotions in real life were worse at understanding the emotional flavor of these calibrated haptics."
+  },
+  {
+   "s": 1140.56,
+   "e": 1141.8,
+   "t": "That's what the data showed."
+  },
+  {
+   "s": 1142.1,
+   "e": 1143.16,
+   "t": "It's fascinating, isn't it?"
+  },
+  {
+   "s": 1143.2,
+   "e": 1143.88,
+   "t": "It really is."
+  },
+  {
+   "s": 1143.96,
+   "e": 1144.68,
+   "t": "Why would that be?"
+  },
+  {
+   "s": 1144.76,
+   "e": 1146.3,
+   "t": "Well, the researchers theorized a bit."
+  },
+  {
+   "s": 1146.88,
+   "e": 1155.88,
+   "t": "Maybe people who are highly attuned to the richness and complexity of real-world emotional cues find these relatively simple, abstract haptic signals."
+  },
+  {
+   "s": 1156.62,
+   "e": 1157.54,
+   "t": "Harder to pin down."
+  },
+  {
+   "s": 1157.54,
+   "e": 1161.14,
+   "t": "Like they're looking for nuances that just aren't there or reading too much into it."
+  },
+  {
+   "s": 1161.14,
+   "e": 1161.4,
+   "t": "Oops."
+  },
+  {
+   "s": 1161.62,
+   "e": 1168.08,
+   "t": "Or maybe they perceive too many potential emotional possibilities in the vibration, making it hard to settle on one."
+  },
+  {
+   "s": 1168.38,
+   "e": 1173.96,
+   "t": "Or they might even tend to overestimate the emotional valence because they're used to stronger cues."
+  },
+  {
+   "s": 1174.14,
+   "e": 1175.5,
+   "t": "It's a really interesting puzzle."
+  },
+  {
+   "s": 1175.74,
+   "e": 1176.76,
+   "t": "Definitely food for thought."
+  },
+  {
+   "s": 1176.98,
+   "e": 1181.22,
+   "t": "Being too emotionally perceptive might hinder interpretation of simplified signals."
+  },
+  {
+   "s": 1181.78,
+   "e": 1182.06,
+   "t": "Okay."
+  },
+  {
+   "s": 1182.1,
+   "e": 1183.02,
+   "t": "What about the other trait?"
+  },
+  {
+   "s": 1183.34,
+   "e": 1184.58,
+   "t": "Affect intensity measure."
+  },
+  {
+   "s": 1184.86,
+   "e": 1185.34,
+   "t": "AIM."
+  },
+  {
+   "s": 1185.8,
+   "e": 1187.24,
+   "t": "Feeling emotions strongly."
+  },
+  {
+   "s": 1187.54,
+   "e": 1191.5,
+   "t": "For AIM, the results weren't statistically significant, so we need to be cautious."
+  },
+  {
+   "s": 1192.58,
+   "e": 1200.82,
+   "t": "But there was a trend suggesting a negative relationship between having higher effect intensity and being accurate at interpreting valence."
+  },
+  {
+   "s": 1201.06,
+   "e": 1209.2,
+   "t": "So, again, potentially people who feel things very strongly might have been less accurate at judging the positive negative feeling from the vibration."
+  },
+  {
+   "s": 1209.48,
+   "e": 1210.54,
+   "t": "That was the hint in the data."
+  },
+  {
+   "s": 1210.66,
+   "e": 1210.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 1210.98,
+   "e": 1211.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 1211.26,
+   "e": 1214.12,
+   "t": "It didn't reach statistical significance, but the trend was there."
+  },
+  {
+   "s": 1214.3,
+   "e": 1215.4,
+   "t": "Any theories on that one?"
+  },
+  {
+   "s": 1215.4,
+   "e": 1225.7,
+   "t": "The idea floated was that maybe individuals who experience really intense emotions find these subtle vibro-tactile stimuli just not strong enough."
+  },
+  {
+   "s": 1225.96,
+   "e": 1230.78,
+   "t": "Like the vibrations don't provide the level of intense arousal they associate with strong feelings."
+  },
+  {
+   "s": 1230.94,
+   "e": 1235.34,
+   "t": "So maybe they misinterpret the valence or find it harder to engage with emotionally."
+  },
+  {
+   "s": 1235.34,
+   "e": 1238.46,
+   "t": "Like the signal bandwidth is too low for their emotional processing?"
+  },
+  {
+   "s": 1239.02,
+   "e": 1240.06,
+   "t": "Could be something like that."
+  },
+  {
+   "s": 1240.14,
+   "e": 1240.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 1240.28,
+   "e": 1243.08,
+   "t": "But again, that's more speculative, needs more research with bigger groups."
+  },
+  {
+   "s": 1243.32,
+   "e": 1243.72,
+   "t": "Understood."
+  },
+  {
+   "s": 1244.34,
+   "e": 1244.72,
+   "t": "Okay."
+  },
+  {
+   "s": 1244.76,
+   "e": 1254.12,
+   "t": "So we've seen how people try to create these messages, the challenges in interpretation, the dampening effect, the role of calibration, and these intriguing links to personality traits."
+  },
+  {
+   "s": 1254.12,
+   "e": 1256.5,
+   "t": "Where does this leave us?"
+  },
+  {
+   "s": 1256.5,
+   "e": 1261.8,
+   "t": "What does it mean for actually building technology that uses haptic empathy effectively?"
+  },
+  {
+   "s": 1262.18,
+   "e": 1262.26,
+   "t": "Yeah."
+  },
+  {
+   "s": 1262.36,
+   "e": 1263.02,
+   "t": "Putting it all together."
+  },
+  {
+   "s": 1263.32,
+   "e": 1271.34,
+   "t": "The big takeaway is that, yes, haptics can convey emotional information, but how people do it and understand it is incredibly individualistic."
+  },
+  {
+   "s": 1271.48,
+   "e": 1271.62,
+   "t": "Right."
+  },
+  {
+   "s": 1271.8,
+   "e": 1274.5,
+   "t": "No one-size-fits-all vibration for sad."
+  },
+  {
+   "s": 1275.3,
+   "e": 1275.94,
+   "t": "Definitely not."
+  },
+  {
+   "s": 1275.94,
+   "e": 1278.9,
+   "t": "Which makes designing universal systems really tricky."
+  },
+  {
+   "s": 1279.34,
+   "e": 1282.48,
+   "t": "The study suggests the path forward needs a careful balance."
+  },
+  {
+   "s": 1282.62,
+   "e": 1283.36,
+   "t": "A balance between?"
+  },
+  {
+   "s": 1283.46,
+   "e": 1285.42,
+   "t": "Between standardization and personalization."
+  },
+  {
+   "s": 1285.52,
+   "e": 1285.74,
+   "t": "Okay."
+  },
+  {
+   "s": 1285.84,
+   "e": 1286.44,
+   "t": "Explain that."
+  },
+  {
+   "s": 1286.52,
+   "e": 1297.56,
+   "t": "We probably need some standardization for the basic building blocks of haptics, like maybe agreements on how intensity ramps up or certain rhythmic patterns so things are broadly usable and people have a common starting point."
+  },
+  {
+   "s": 1297.64,
+   "e": 1299.2,
+   "t": "Like basic grammar for haptics."
+  },
+  {
+   "s": 1299.44,
+   "e": 1300.06,
+   "t": "Kind of, yeah."
+  },
+  {
+   "s": 1300.28,
+   "e": 1305.52,
+   "t": "But then the actual end-user experience needs to be highly customizable."
+  },
+  {
+   "s": 1305.94,
+   "e": 1314.18,
+   "t": "It has to adapt to your personal preferences, your sensitivity, your emotional thresholds, for a message to really land emotionally."
+  },
+  {
+   "s": 1314.46,
+   "e": 1317.82,
+   "t": "So standard basics, but personalized delivery and meaning."
+  },
+  {
+   "s": 1318.4,
+   "e": 1319.32,
+   "t": "That makes a lot of sense."
+  },
+  {
+   "s": 1319.44,
+   "e": 1325.36,
+   "t": "So based on everything they learned, did the researchers offer concrete advice for designers, like actual guidelines?"
+  },
+  {
+   "s": 1325.56,
+   "e": 1325.92,
+   "t": "They did."
+  },
+  {
+   "s": 1326.0,
+   "e": 1332.44,
+   "t": "They distilled it down into five key design guidelines, which are really practical takeaways for anyone thinking about this stuff."
+  },
+  {
+   "s": 1332.46,
+   "e": 1333.08,
+   "t": "Okay, let's hear them."
+  },
+  {
+   "s": 1333.36,
+   "e": 1333.88,
+   "t": "Guideline one."
+  },
+  {
+   "s": 1333.88,
+   "e": 1336.84,
+   "t": "First, incorporate cross-modal correspondences."
+  },
+  {
+   "s": 1337.54,
+   "e": 1340.86,
+   "t": "Designers should actively think about how we naturally link senses."
+  },
+  {
+   "s": 1341.44,
+   "e": 1345.02,
+   "t": "Map cues from vision or sound onto the haptics intentionally."
+  },
+  {
+   "s": 1345.5,
+   "e": 1349.32,
+   "t": "So like we discussed, fast movement in a visual becomes a sharp federation."
+  },
+  {
+   "s": 1349.78,
+   "e": 1352.18,
+   "t": "A low sound becomes a low frequency rumble."
+  },
+  {
+   "s": 1352.26,
+   "e": 1352.7,
+   "t": "Exactly."
+  },
+  {
+   "s": 1353.18,
+   "e": 1355.2,
+   "t": "Make those links explicit and intuitive."
+  },
+  {
+   "s": 1355.64,
+   "e": 1357.58,
+   "t": "Don't just create abstract vibrations."
+  },
+  {
+   "s": 1357.86,
+   "e": 1360.22,
+   "t": "Tie them to other sensory information where possible."
+  },
+  {
+   "s": 1360.22,
+   "e": 1362.44,
+   "t": "Okay, that seems crucial for making it understandable."
+  },
+  {
+   "s": 1362.76,
+   "e": 1363.34,
+   "t": "Guideline two."
+  },
+  {
+   "s": 1363.7,
+   "e": 1368.5,
+   "t": "Second, design for personalization and flexibility in emotional thresholds."
+  },
+  {
+   "s": 1368.84,
+   "e": 1369.76,
+   "t": "This is huge."
+  },
+  {
+   "s": 1370.04,
+   "e": 1373.24,
+   "t": "The system has to adapt to the individual user."
+  },
+  {
+   "s": 1373.34,
+   "e": 1373.46,
+   "t": "Meaning?"
+  },
+  {
+   "s": 1373.78,
+   "e": 1376.98,
+   "t": "Meaning you, the user, should be able to adjust the feedback."
+  },
+  {
+   "s": 1377.8,
+   "e": 1381.18,
+   "t": "Maybe your threshold for feeling intense is different from someone else's."
+  },
+  {
+   "s": 1381.18,
+   "e": 1386.36,
+   "t": "The system needs to allow that tuning so the emotional message actually resonates personally."
+  },
+  {
+   "s": 1386.5,
+   "e": 1386.78,
+   "t": "Right."
+  },
+  {
+   "s": 1386.96,
+   "e": 1389.16,
+   "t": "Tailoring the volume of the emotion to the individual."
+  },
+  {
+   "s": 1389.4,
+   "e": 1389.78,
+   "t": "What's third?"
+  },
+  {
+   "s": 1389.96,
+   "e": 1394.24,
+   "t": "Third, leverage physiological reactions to enhance authenticity."
+  },
+  {
+   "s": 1394.64,
+   "e": 1396.64,
+   "t": "This was pretty futuristic but exciting."
+  },
+  {
+   "s": 1396.78,
+   "e": 1397.06,
+   "t": "Okay."
+  },
+  {
+   "s": 1397.06,
+   "e": 1404.34,
+   "t": "Imagine future systems integrating your real-time biosignals like heart rate, maybe muscle tension from a smartwatch."
+  },
+  {
+   "s": 1404.5,
+   "e": 1404.8,
+   "t": "Oh."
+  },
+  {
+   "s": 1405.28,
+   "e": 1409.74,
+   "t": "The system could use that data to dynamically adjust the haptic feedback it gives you."
+  },
+  {
+   "s": 1409.88,
+   "e": 1414.3,
+   "t": "Making the emotional experience feel more authentic because it's literally reacting to your body's state."
+  },
+  {
+   "s": 1414.52,
+   "e": 1415.7,
+   "t": "That is mind-blowing."
+  },
+  {
+   "s": 1415.84,
+   "e": 1420.78,
+   "t": "A device that feels your stress and sends a calming vibration that adapts as your heart rate slows."
+  },
+  {
+   "s": 1421.02,
+   "e": 1421.84,
+   "t": "Potentially, yeah."
+  },
+  {
+   "s": 1421.96,
+   "e": 1422.28,
+   "t": "Whoa."
+  },
+  {
+   "s": 1422.28,
+   "e": 1426.38,
+   "t": "Creating this biofeedback loop to make the haptics more genuinely empathetic."
+  },
+  {
+   "s": 1426.38,
+   "e": 1427.14,
+   "t": "Incredible."
+  },
+  {
+   "s": 1427.92,
+   "e": 1428.16,
+   "t": "Okay."
+  },
+  {
+   "s": 1428.3,
+   "e": 1428.96,
+   "t": "Guideline four."
+  },
+  {
+   "s": 1429.48,
+   "e": 1432.5,
+   "t": "This must relate to those creative strategies people use."
+  },
+  {
+   "s": 1432.74,
+   "e": 1433.2,
+   "t": "It does."
+  },
+  {
+   "s": 1433.72,
+   "e": 1438.0,
+   "t": "Fourth, utilize metaphors and cultural references to enrich communication."
+  },
+  {
+   "s": 1438.64,
+   "e": 1442.0,
+   "t": "Don't just rely on direct mimicry or physiological responses."
+  },
+  {
+   "s": 1442.2,
+   "e": 1442.42,
+   "t": "Right."
+  },
+  {
+   "s": 1442.6,
+   "e": 1445.0,
+   "t": "The interface should provide a flexible space."
+  },
+  {
+   "s": 1445.72,
+   "e": 1449.32,
+   "t": "Allow users to create and share meanings through abstract metaphors,"
+  },
+  {
+   "s": 1449.32,
+   "e": 1454.7,
+   "t": "maybe associating happiness with certain rhythmic patterns or sadness with slow pulses,"
+  },
+  {
+   "s": 1454.7,
+   "e": 1460.36,
+   "t": "and even allow for incorporating culturally relevant references like that POPP example."
+  },
+  {
+   "s": 1460.36,
+   "e": 1465.04,
+   "t": "So give users the tools to build that richer, more symbolic haptic language."
+  },
+  {
+   "s": 1465.14,
+   "e": 1465.58,
+   "t": "Exactly."
+  },
+  {
+   "s": 1465.82,
+   "e": 1467.6,
+   "t": "Empower expression beyond the literal."
+  },
+  {
+   "s": 1467.9,
+   "e": 1469.82,
+   "t": "And the final guideline, number five."
+  },
+  {
+   "s": 1470.24,
+   "e": 1470.56,
+   "t": "Fifth."
+  },
+  {
+   "s": 1471.34,
+   "e": 1473.72,
+   "t": "Standardize iterative haptic encoding strategies."
+  },
+  {
+   "s": 1473.94,
+   "e": 1475.34,
+   "t": "This is about learning and improving."
+  },
+  {
+   "s": 1475.54,
+   "e": 1475.8,
+   "t": "Also."
+  },
+  {
+   "s": 1476.04,
+   "e": 1480.52,
+   "t": "Users need chances to practice, to test their haptic messages, refine them based on feedback,"
+  },
+  {
+   "s": 1480.52,
+   "e": 1482.14,
+   "t": "and see how others interpret them."
+  },
+  {
+   "s": 1482.6,
+   "e": 1485.78,
+   "t": "This iterative learning process is key to developing haptic empathy."
+  },
+  {
+   "s": 1485.98,
+   "e": 1487.08,
+   "t": "So it's not just about the tech."
+  },
+  {
+   "s": 1487.16,
+   "e": 1490.06,
+   "t": "It's about teaching people how to use it effectively to communicate emotion."
+  },
+  {
+   "s": 1490.58,
+   "e": 1491.08,
+   "t": "Precisely."
+  },
+  {
+   "s": 1491.92,
+   "e": 1495.44,
+   "t": "Building a shared understanding and skill through practice and feedback,"
+  },
+  {
+   "s": 1496.18,
+   "e": 1497.98,
+   "t": "like learning any language, really."
+  },
+  {
+   "s": 1498.18,
+   "e": 1498.4,
+   "t": "Okay."
+  },
+  {
+   "s": 1498.4,
+   "e": 1503.68,
+   "t": "Those five guidelines, cross-modal mapping, personalization, using biosignals,"
+  },
+  {
+   "s": 1503.8,
+   "e": 1507.76,
+   "t": "allowing metaphors, and iterative learning seem like a really solid roadmap."
+  },
+  {
+   "s": 1507.84,
+   "e": 1509.24,
+   "t": "That's a great starting point, definitely."
+  },
+  {
+   "s": 1509.52,
+   "e": 1516.08,
+   "t": "So wrapping this deep dive up, it feels like we've journeyed into a really new territory of communication,"
+  },
+  {
+   "s": 1516.26,
+   "e": 1518.94,
+   "t": "communicating feelings through touch alone."
+  },
+  {
+   "s": 1519.22,
+   "e": 1523.4,
+   "t": "It's clear that it's possible, but wow, is it individualistic and complex."
+  },
+  {
+   "s": 1523.4,
+   "e": 1529.0,
+   "t": "Yeah, this study really throws that complexity into sharp relief, but also the potential, right?"
+  },
+  {
+   "s": 1529.1,
+   "e": 1533.48,
+   "t": "Especially when you factor in our own emotional styles influencing how we send and receive."
+  },
+  {
+   "s": 1533.76,
+   "e": 1534.12,
+   "t": "Absolutely."
+  },
+  {
+   "s": 1534.38,
+   "e": 1537.88,
+   "t": "And like any pioneering study, it has its limitations, which we should acknowledge."
+  },
+  {
+   "s": 1537.92,
+   "e": 1538.2,
+   "t": "For sure."
+  },
+  {
+   "s": 1538.28,
+   "e": 1539.08,
+   "t": "What were the main ones?"
+  },
+  {
+   "s": 1539.6,
+   "e": 1543.1,
+   "t": "Well, it focused mainly on just vibrotactile feedback vibrations."
+  },
+  {
+   "s": 1543.38,
+   "e": 1545.8,
+   "t": "There are other kinds of haptics, like force feedback or temperature."
+  },
+  {
+   "s": 1546.02,
+   "e": 1546.22,
+   "t": "True."
+  },
+  {
+   "s": 1546.46,
+   "e": 1549.62,
+   "t": "They only use video clips to evoke emotions, not other methods."
+  },
+  {
+   "s": 1549.62,
+   "e": 1554.9,
+   "t": "The sample size, while decent for this kind of intensive study, was still relatively small."
+  },
+  {
+   "s": 1555.2,
+   "e": 1556.78,
+   "t": "Right, limiting generalizability."
+  },
+  {
+   "s": 1556.78,
+   "e": 1562.84,
+   "t": "And as that one example showed, cultural nuances could easily lead to meanings getting lost in translation."
+  },
+  {
+   "s": 1563.18,
+   "e": 1564.94,
+   "t": "That needs way more exploration."
+  },
+  {
+   "s": 1565.26,
+   "e": 1565.64,
+   "t": "Definitely."
+  },
+  {
+   "s": 1566.0,
+   "e": 1570.72,
+   "t": "But even with those caveats, it feels like this work really lays some crucial groundwork."
+  },
+  {
+   "s": 1570.98,
+   "e": 1571.82,
+   "t": "Couldn't agree more."
+  },
+  {
+   "s": 1572.24,
+   "e": 1576.08,
+   "t": "A vital foundation for thinking about touch beyond physical presence."
+  },
+  {
+   "s": 1576.34,
+   "e": 1578.94,
+   "t": "Which brings us to our final thought for you, the listener."
+  },
+  {
+   "s": 1578.94,
+   "e": 1582.44,
+   "t": "As we get better at understanding and designing for haptic empathy."
+  },
+  {
+   "s": 1582.84,
+   "e": 1585.6,
+   "t": "As we learn to speak this silent, tactile language."
+  },
+  {
+   "s": 1586.26,
+   "e": 1589.98,
+   "t": "What new kinds of connection, what new forms of understanding might open up?"
+  },
+  {
+   "s": 1590.24,
+   "e": 1595.1,
+   "t": "Imagine truly feeling someone's emotional state, their empathy, reaching you across any distance."
+  },
+  {
+   "s": 1595.54,
+   "e": 1597.0,
+   "t": "What will that future feel like?"
+  },
+  {
+   "s": 1597.0,
+   "e": 1602.58,
+   "t": "How new forms of understanding is just no hearing they may not say it's less hearing they may not happen."
+  },
+  {
+   "s": 1602.74,
+   "e": 1605.24,
+   "t": "How new forms of understanding can actually speak have been helpful in asking them in reading their musical awareness."
+  },
+  {
+   "s": 1605.54,
+   "e": 1608.84,
+   "t": "How new forms of understanding can always watch people looking at learning where there are actual maps of understanding they may know what new forms of understanding they may actually consider need of choose from seeing them in reading them."
+  },
+  {
+   "s": 1609.0,
+   "e": 1613.9,
+   "t": "As we read from trying to speak with hope of reading about reading work of reading book art is important in reading book story and reading book study with reading book stri Ahh"
+  }
+ ]
+}

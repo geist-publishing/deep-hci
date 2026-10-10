@@ -1,0 +1,820 @@
+{
+ "guid": "deephci.podbean.com/d63b10e8-46c9-3cfd-851f-e473e52194f5",
+ "slug": "mobilehci-2024-an-examination-of-ultrasound-mid-air-haptics-for-enhanced-material-and-temperature-perception-in-virtual-environments",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3676488.mp3",
+  "version": 1
+ },
+ "duration": 572,
+ "word_count": 1834,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 8.5,
+   "t": "Welcome back. Let's dive into a new study today. It's about virtual reality and the pursuit of making those experiences actually feel real."
+  },
+  {
+   "s": 8.9,
+   "e": 11.42,
+   "t": "Trying to diminish that line between the real and virtual."
+  },
+  {
+   "s": 11.42,
+   "e": 20.44,
+   "t": "Yeah. Visuals and audio in VR have come such a long way. But touch, creating convincing tactile experiences, that's been more elusive."
+  },
+  {
+   "s": 20.68,
+   "e": 20.9,
+   "t": "Right."
+  },
+  {
+   "s": 21.16,
+   "e": 24.38,
+   "t": "And that's where ultrasound midair haptics or UMH comes in."
+  },
+  {
+   "s": 24.38,
+   "e": 34.18,
+   "t": "Yes. UMH uses ultrasonic waves, which we can't hear, to create tactile sensations directly on the user's skin. And it doesn't involve any gloves or handheld devices."
+  },
+  {
+   "s": 34.44,
+   "e": 38.46,
+   "t": "So these inaudible waves, they can actually make you feel like you're touching something in the virtual world."
+  },
+  {
+   "s": 38.56,
+   "e": 46.2,
+   "t": "Yes. And the potential applications are very broad. Automotive interfaces, aviation. But today we're concentrating on virtual reality."
+  },
+  {
+   "s": 46.2,
+   "e": 59.96,
+   "t": "Right. Right. And we have a fascinating research paper that delves into this very topic. It's called An Examination of Ultrasound Midair Haptics for Enhanced Material and Temperature Perception in Virtual Environments, authored by Villa, Weiss, Hirsch, and Vidoff."
+  },
+  {
+   "s": 60.18,
+   "e": 71.54,
+   "t": "This paper looks at a facet of UMH research that hasn't been deeply explored yet. Can this technology convincingly convey different material properties and temperatures in virtual objects?"
+  },
+  {
+   "s": 71.54,
+   "e": 79.68,
+   "t": "So imagine interacting with a virtual world. And you could actually feel the coldness of, say, a glass of water, not just see it."
+  },
+  {
+   "s": 79.78,
+   "e": 89.78,
+   "t": "Precisely. The study looked at three primary material states, solid, liquid, and gas, and how UMH could simulate those, especially when combined with visual cues."
+  },
+  {
+   "s": 90.08,
+   "e": 94.32,
+   "t": "So we're talking about the brain essentially being tricked into feeling something that's not physically there."
+  },
+  {
+   "s": 94.32,
+   "e": 98.0,
+   "t": "It leverages a phenomenon called haptic illusions, or HIS."
+  },
+  {
+   "s": 98.14,
+   "e": 98.44,
+   "t": "HIS."
+  },
+  {
+   "s": 98.62,
+   "e": 112.72,
+   "t": "Our brains are constantly integrating information from our senses, and HIS capitalize on that. One particular illusion they explored is the hue-temperature association hypothesis, which suggests that we inherently link specific colors to certain temperatures."
+  },
+  {
+   "s": 112.9,
+   "e": 115.94,
+   "t": "A blue flame appearing colder than a red one, even though they're both hot."
+  },
+  {
+   "s": 116.26,
+   "e": 122.86,
+   "t": "Exactly. And the researchers wanted to see if they could use color cues in tandem with UMH to create even more convincing thermal sensations."
+  },
+  {
+   "s": 122.86,
+   "e": 126.16,
+   "t": "So how did they design the experiment? How did they test this?"
+  },
+  {
+   "s": 126.24,
+   "e": 137.3,
+   "t": "They created an experiment with three main variables. Virtual objects were presented as solid cubes, containers that appeared to be filled with liquid, and then gas, which they simulated using a particle system."
+  },
+  {
+   "s": 137.42,
+   "e": 137.64,
+   "t": "Okay."
+  },
+  {
+   "s": 137.82,
+   "e": 143.86,
+   "t": "To explore that hue-temperature association, these objects were rendered in blue, white as the neutral, and red."
+  },
+  {
+   "s": 144.56,
+   "e": 148.98,
+   "t": "And finally, the haptic feedback from the UMH was either turned on or off."
+  },
+  {
+   "s": 148.98,
+   "e": 155.6,
+   "t": "This let them directly compare visual-only experiences to the full visual and haptic experience."
+  },
+  {
+   "s": 155.72,
+   "e": 157.7,
+   "t": "A controlled sensory experiment, in essence."
+  },
+  {
+   "s": 158.2,
+   "e": 163.44,
+   "t": "They brought in 30 participants, introduced them to this virtual world, and what were the results?"
+  },
+  {
+   "s": 163.54,
+   "e": 168.8,
+   "t": "So, the participants, after interacting with each object, were asked to rate two main things."
+  },
+  {
+   "s": 169.04,
+   "e": 174.36,
+   "t": "The concurrency of the experience, how real it felt compared to real life, and the object's perceived temperature."
+  },
+  {
+   "s": 174.6,
+   "e": 177.8,
+   "t": "Did adding UMH actually make the experience feel more believable?"
+  },
+  {
+   "s": 177.8,
+   "e": 183.26,
+   "t": "The addition of UMH significantly increased the perceived realism across all the material states."
+  },
+  {
+   "s": 183.34,
+   "e": 188.34,
+   "t": "It didn't matter what they were virtually touching. The haptic feedback made it feel more real."
+  },
+  {
+   "s": 188.54,
+   "e": 194.46,
+   "t": "It did. But UMH had the most pronounced effect on the perception of solid objects, which is interesting."
+  },
+  {
+   "s": 194.78,
+   "e": 198.36,
+   "t": "Why would that be? You'd think solids would be the easiest to convincingly simulate."
+  },
+  {
+   "s": 198.74,
+   "e": 203.62,
+   "t": "And yet, in the visual-only trials, solids were actually rated as the least convincing."
+  },
+  {
+   "s": 203.62,
+   "e": 210.12,
+   "t": "It seems that our brains really struggle to reconcile a visually solid object with a lack of tactile resistance."
+  },
+  {
+   "s": 210.8,
+   "e": 214.72,
+   "t": "UMH seems to bridge that gap, providing that missing tactile confirmation."
+  },
+  {
+   "s": 214.98,
+   "e": 219.08,
+   "t": "It's like when you reach for your phone in the dark, and for a second you forget it's not in your hand."
+  },
+  {
+   "s": 219.2,
+   "e": 225.36,
+   "t": "Exactly. This highlights the importance of incorporating these different sensory inputs for a truly immersive experience."
+  },
+  {
+   "s": 225.36,
+   "e": 231.22,
+   "t": "Our brains crave that congruency, that validation of what we see with what we feel."
+  },
+  {
+   "s": 231.62,
+   "e": 232.36,
+   "t": "That's fascinating."
+  },
+  {
+   "s": 232.74,
+   "e": 235.9,
+   "t": "Well, let's move on to how UMH influenced the perception of temperature."
+  },
+  {
+   "s": 236.16,
+   "e": 238.34,
+   "t": "We'll be back shortly to continue our deep dive."
+  },
+  {
+   "s": 238.72,
+   "e": 243.08,
+   "t": "So we were discussing how UMH influences the perception of temperature in virtual reality."
+  },
+  {
+   "s": 243.4,
+   "e": 244.78,
+   "t": "What did the researchers find?"
+  },
+  {
+   "s": 244.9,
+   "e": 250.08,
+   "t": "Well, as you might expect, color alone did have some influence on how people perceived the temperature of virtual objects."
+  },
+  {
+   "s": 250.08,
+   "e": 253.52,
+   "t": "Right, aligning with that hue temperature association hypothesis we talked about."
+  },
+  {
+   "s": 253.56,
+   "e": 254.4,
+   "t": "Yes, exactly."
+  },
+  {
+   "s": 255.0,
+   "e": 259.9,
+   "t": "But, when they added UMH, it had a much stronger effect than color on its own."
+  },
+  {
+   "s": 260.44,
+   "e": 266.52,
+   "t": "Are you saying that the ultrasonic touch could actually override our instinctive color associations?"
+  },
+  {
+   "s": 267.12,
+   "e": 269.44,
+   "t": "Like, could it make a blue object feel warm?"
+  },
+  {
+   "s": 269.9,
+   "e": 270.9,
+   "t": "That's what they found."
+  },
+  {
+   "s": 271.16,
+   "e": 275.2,
+   "t": "UMH consistently made the objects feel warmer, regardless of their color."
+  },
+  {
+   "s": 275.34,
+   "e": 278.32,
+   "t": "Even blue objects, which we typically associate with coolness."
+  },
+  {
+   "s": 278.32,
+   "e": 280.6,
+   "t": "Even the blue ones, it was an unexpected finding."
+  },
+  {
+   "s": 280.94,
+   "e": 281.68,
+   "t": "It is unexpected."
+  },
+  {
+   "s": 282.4,
+   "e": 286.22,
+   "t": "Do we know why the ultrasonic waves would create this sensation of warmth?"
+  },
+  {
+   "s": 286.46,
+   "e": 288.22,
+   "t": "Was that something the researchers anticipated?"
+  },
+  {
+   "s": 289.04,
+   "e": 292.18,
+   "t": "It wasn't something they anticipated, and it's something that needs further study."
+  },
+  {
+   "s": 292.66,
+   "e": 298.06,
+   "t": "But one theory is that UMH might be stimulating certain nerve receptors in a way we don't fully understand yet."
+  },
+  {
+   "s": 298.3,
+   "e": 298.78,
+   "t": "Interesting."
+  },
+  {
+   "s": 299.0,
+   "e": 302.02,
+   "t": "It could be related to the subtle pressure from the waves on the skin,"
+  },
+  {
+   "s": 302.18,
+   "e": 305.96,
+   "t": "or maybe there's a more complex interaction of sensory signals happening."
+  },
+  {
+   "s": 305.96,
+   "e": 312.68,
+   "t": "So, this accidental discovery, this warming effect of UMH, it kind of opens up a whole new dimension for haptic design."
+  },
+  {
+   "s": 312.92,
+   "e": 315.24,
+   "t": "We're not just talking about simulating texture anymore."
+  },
+  {
+   "s": 315.58,
+   "e": 318.68,
+   "t": "We could be talking about simulating thermal feedback as well."
+  },
+  {
+   "s": 319.0,
+   "e": 319.48,
+   "t": "Exactly."
+  },
+  {
+   "s": 320.0,
+   "e": 326.18,
+   "t": "Imagine virtual environments where you can feel the warmth of the sun on your skin, or a cool breeze."
+  },
+  {
+   "s": 326.58,
+   "e": 328.8,
+   "t": "The possibilities are really exciting."
+  },
+  {
+   "s": 329.04,
+   "e": 330.36,
+   "t": "It's incredible to think about."
+  },
+  {
+   "s": 330.36,
+   "e": 340.98,
+   "t": "But with all this manipulation of sensory input, I'm curious, how did it affect the participants' sense of actually being present in that virtual environment?"
+  },
+  {
+   "s": 341.36,
+   "e": 342.9,
+   "t": "Did they feel like they were really there?"
+  },
+  {
+   "s": 343.28,
+   "e": 350.0,
+   "t": "Well, to measure that sense of presence, the researchers used something called the iGroup Presence Questionnaire, or IPQ."
+  },
+  {
+   "s": 350.24,
+   "e": 351.04,
+   "t": "The IPQ."
+  },
+  {
+   "s": 351.14,
+   "e": 352.24,
+   "t": "And what does that measure exactly?"
+  },
+  {
+   "s": 352.24,
+   "e": 361.02,
+   "t": "It looks at things like how much the participants felt like they were actually present in the virtual environment, how much they felt like they were interacting with a real place."
+  },
+  {
+   "s": 361.3,
+   "e": 366.92,
+   "t": "So, did they feel like they were transported to another location, or were they still aware that they were in a lab wearing a headset?"
+  },
+  {
+   "s": 367.18,
+   "e": 371.24,
+   "t": "Overall, the IPQ scores were high, which suggests a good level of immersion."
+  },
+  {
+   "s": 371.56,
+   "e": 371.84,
+   "t": "Okay."
+  },
+  {
+   "s": 372.0,
+   "e": 377.52,
+   "t": "But there was an interesting difference in something called the sense of being there across the different material states."
+  },
+  {
+   "s": 377.52,
+   "e": 383.16,
+   "t": "Meaning, the type of virtual object they were interacting with had an impact on how present they felt."
+  },
+  {
+   "s": 383.36,
+   "e": 383.84,
+   "t": "Exactly."
+  },
+  {
+   "s": 384.38,
+   "e": 390.72,
+   "t": "People reported a much higher sense of presence when they were interacting with the simulated gas compared to the solid objects."
+  },
+  {
+   "s": 391.12,
+   "e": 391.78,
+   "t": "That's so interesting."
+  },
+  {
+   "s": 391.92,
+   "e": 401.78,
+   "t": "So, even though UMH made the solid objects feel more real in terms of touch, the gas actually made them feel more like they were really present in that virtual space."
+  },
+  {
+   "s": 402.04,
+   "e": 402.96,
+   "t": "Why do you think that is?"
+  },
+  {
+   "s": 403.32,
+   "e": 405.9,
+   "t": "It might come down to the nature of the interactions themselves."
+  },
+  {
+   "s": 405.9,
+   "e": 410.3,
+   "t": "When you touch a solid object, it's a very defined, localized sensation."
+  },
+  {
+   "s": 410.78,
+   "e": 412.82,
+   "t": "Your hand takes on its shape, you feel its edges."
+  },
+  {
+   "s": 413.26,
+   "e": 414.46,
+   "t": "But gas is different."
+  },
+  {
+   "s": 414.72,
+   "e": 416.68,
+   "t": "It's more diffuse, more enveloping."
+  },
+  {
+   "s": 417.02,
+   "e": 422.94,
+   "t": "So, instead of reaching out to touch an object in the virtual world, it's more like the virtual world is reaching out and touching you."
+  },
+  {
+   "s": 423.18,
+   "e": 423.56,
+   "t": "Yes."
+  },
+  {
+   "s": 423.7,
+   "e": 430.1,
+   "t": "And that subtle difference, that feeling of the environment acting on you, that could be what contributes to that heightened feeling of presence."
+  },
+  {
+   "s": 430.46,
+   "e": 433.46,
+   "t": "It really makes you rethink how we approach presence in VR."
+  },
+  {
+   "s": 433.46,
+   "e": 441.0,
+   "t": "It's not just about making individual objects feel real, but creating interactions that actually immerse the user in the environment itself."
+  },
+  {
+   "s": 441.36,
+   "e": 441.92,
+   "t": "Exactly."
+  },
+  {
+   "s": 442.16,
+   "e": 445.38,
+   "t": "It's about considering the whole sensory experience."
+  },
+  {
+   "s": 445.38,
+   "e": 448.14,
+   "t": "This has been such a thought-provoking conversation."
+  },
+  {
+   "s": 448.6,
+   "e": 455.86,
+   "t": "Let's take a quick break, and then we'll come back for the third and final part of our deep dive to discuss the larger implications of this research."
+  },
+  {
+   "s": 456.42,
+   "e": 464.28,
+   "t": "We've been exploring the incredible world of ultrafound midair haptics, UMH, and how it's blurring the lines between the virtual and the real."
+  },
+  {
+   "s": 464.28,
+   "e": 470.68,
+   "t": "We've seen how it can make virtual objects feel almost unbelievably real, even unexpectedly warm."
+  },
+  {
+   "s": 470.86,
+   "e": 471.18,
+   "t": "Right."
+  },
+  {
+   "s": 471.28,
+   "e": 476.56,
+   "t": "I think it really signals that we're on the verge of a revolution in how humans and computers interact."
+  },
+  {
+   "s": 476.92,
+   "e": 478.48,
+   "t": "And it's not just about VR, is it?"
+  },
+  {
+   "s": 478.56,
+   "e": 479.14,
+   "t": "Not at all."
+  },
+  {
+   "s": 479.38,
+   "e": 481.32,
+   "t": "Think about the impact touchscreens have had."
+  },
+  {
+   "s": 481.4,
+   "e": 481.8,
+   "t": "Huge."
+  },
+  {
+   "s": 482.04,
+   "e": 483.86,
+   "t": "UMH takes that concept even further."
+  },
+  {
+   "s": 484.06,
+   "e": 484.44,
+   "t": "It does."
+  },
+  {
+   "s": 484.52,
+   "e": 487.94,
+   "t": "It lets us interact directly with the digital world in midair."
+  },
+  {
+   "s": 487.94,
+   "e": 493.62,
+   "t": "And this research, it brought up some really interesting questions, too, like that unexpected warming effect of UMH."
+  },
+  {
+   "s": 494.02,
+   "e": 497.9,
+   "t": "It makes you wonder, what else don't we know about how touch and temperature work together?"
+  },
+  {
+   "s": 498.24,
+   "e": 499.1,
+   "t": "It's fascinating."
+  },
+  {
+   "s": 499.38,
+   "e": 503.98,
+   "t": "And the implications of these findings are huge, not just for VR, but for other fields, too."
+  },
+  {
+   "s": 504.64,
+   "e": 511.14,
+   "t": "Imagine using it to help with things like phantom limb pain or creating incredibly realistic training simulations."
+  },
+  {
+   "s": 511.14,
+   "e": 518.06,
+   "t": "It's like we're on the brink of a future where we can learn and heal and connect with the world in completely new ways."
+  },
+  {
+   "s": 518.3,
+   "e": 518.78,
+   "t": "Absolutely."
+  },
+  {
+   "s": 519.08,
+   "e": 520.26,
+   "t": "All through the power of touch."
+  },
+  {
+   "s": 520.5,
+   "e": 528.08,
+   "t": "And this technology, as with any powerful technology, requires us to think carefully about the ethical implications as well."
+  },
+  {
+   "s": 528.22,
+   "e": 528.44,
+   "t": "Right."
+  },
+  {
+   "s": 528.76,
+   "e": 532.92,
+   "t": "Especially as the line between the physical and the virtual becomes increasingly blurred."
+  },
+  {
+   "s": 533.14,
+   "e": 533.62,
+   "t": "Exactly."
+  },
+  {
+   "s": 534.04,
+   "e": 537.24,
+   "t": "What impact will that have on our perception of what's real?"
+  },
+  {
+   "s": 537.6,
+   "e": 541.06,
+   "t": "How can we ensure this technology is developed and used responsibly?"
+  },
+  {
+   "s": 541.44,
+   "e": 542.9,
+   "t": "These are questions we need to be asking."
+  },
+  {
+   "s": 543.74,
+   "e": 545.08,
+   "t": "They're big questions, for sure."
+  },
+  {
+   "s": 545.48,
+   "e": 547.6,
+   "t": "And I think that's part of what makes this research so compelling."
+  },
+  {
+   "s": 548.06,
+   "e": 554.48,
+   "t": "It's not just about the technological innovation, but also about what it tells about ourselves, about the nature of our reality."
+  },
+  {
+   "s": 554.66,
+   "e": 555.9,
+   "t": "That's what makes it so fascinating."
+  },
+  {
+   "s": 556.0,
+   "e": 559.1,
+   "t": "It's been an amazing journey exploring the world of UMH."
+  },
+  {
+   "s": 559.22,
+   "e": 566.08,
+   "t": "To think that we might be on the cusp of a future where the digital can be experienced with such incredible realism, it's truly mind-blowing."
+  },
+  {
+   "s": 566.68,
+   "e": 569.7,
+   "t": "Thank you for joining us on this deep dive into the world of UMH,"
+  },
+  {
+   "s": 569.7,
+   "e": 572.4,
+   "t": "where the virtual is on the verge of feeling remarkably real."
+  },
+  {
+   "s": 572.58,
+   "e": 573.6,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 574.0,
+   "e": 574.86,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 575.0,
+   "e": 575.84,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 576.08,
+   "e": 576.72,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 576.86,
+   "e": 577.68,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 577.92,
+   "e": 578.66,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 578.86,
+   "e": 579.52,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 579.76,
+   "e": 580.26,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 580.44,
+   "e": 581.08,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 581.24,
+   "e": 582.16,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 582.22,
+   "e": 582.74,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 582.88,
+   "e": 583.62,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 583.84,
+   "e": 584.46,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 584.58,
+   "e": 585.34,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 585.54,
+   "e": 586.36,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 586.52,
+   "e": 587.46,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 587.72,
+   "e": 588.6,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 588.62,
+   "e": 589.6,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 589.84,
+   "e": 590.64,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 590.74,
+   "e": 591.64,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 591.86,
+   "e": 592.8,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 592.86,
+   "e": 593.68,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 593.84,
+   "e": 594.6,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 594.6,
+   "e": 595.12,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 595.12,
+   "e": 595.64,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 595.7,
+   "e": 596.08,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 596.08,
+   "e": 596.46,
+   "t": "Where is that nature?"
+  },
+  {
+   "s": 596.58,
+   "e": 596.72,
+   "t": "Three or two power is on the verge being words that nature?"
+  }
+ ]
+}

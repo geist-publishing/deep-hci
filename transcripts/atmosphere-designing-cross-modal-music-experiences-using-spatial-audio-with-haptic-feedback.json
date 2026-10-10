@@ -1,0 +1,820 @@
+{
+ "guid": "deephci.podbean.com/9c84dcb5-5d8a-3285-a6d0-66f066bad23d",
+ "slug": "atmosphere-designing-cross-modal-music-experiences-using-spatial-audio-with-haptic-feedback",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "fushimi2017atmosphere.mp3",
+  "version": 1
+ },
+ "duration": 355,
+ "word_count": 1120,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 3.64,
+   "t": "You know, we always talk about getting lost in our favorite music."
+  },
+  {
+   "s": 4.24,
+   "e": 9.2,
+   "t": "But what if we could, like, actually feel the music all around us?"
+  },
+  {
+   "s": 9.64,
+   "e": 10.56,
+   "t": "Not just through our headphones."
+  },
+  {
+   "s": 10.58,
+   "e": 11.82,
+   "t": "Well, it's a wild thought, right?"
+  },
+  {
+   "s": 12.08,
+   "e": 14.9,
+   "t": "Like, actually experiencing the soundscape, you know?"
+  },
+  {
+   "s": 15.08,
+   "e": 15.46,
+   "t": "Totally."
+  },
+  {
+   "s": 15.82,
+   "e": 20.34,
+   "t": "And that's actually what we're going to be diving into today, this whole idea of a project called Atmosphere."
+  },
+  {
+   "s": 20.34,
+   "e": 22.8,
+   "t": "It's really trying to blend audio and touch."
+  },
+  {
+   "s": 23.06,
+   "e": 26.7,
+   "t": "Yeah, it's using, it's a really cool example of something called cross-modal effects."
+  },
+  {
+   "s": 26.7,
+   "e": 32.42,
+   "t": "That's basically how our brains can combine, you know, like what we're hearing and what we're feeling at the same time."
+  },
+  {
+   "s": 32.5,
+   "e": 32.98,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 33.0,
+   "e": 33.7,
+   "t": "I'm already kind of hooked."
+  },
+  {
+   "s": 33.8,
+   "e": 36.84,
+   "t": "So how does it, how does Atmosphere actually, like, work?"
+  },
+  {
+   "s": 37.26,
+   "e": 43.18,
+   "t": "Okay, so imagine, imagine holding, like, you know, those kind of grapefruit-sized spheres."
+  },
+  {
+   "s": 43.56,
+   "e": 46.62,
+   "t": "So you're holding one of those and it's got these, like, eight different sections."
+  },
+  {
+   "s": 47.34,
+   "e": 51.78,
+   "t": "And each of those has this, what they call a tactile sound transducer in it."
+  },
+  {
+   "s": 51.94,
+   "e": 51.98,
+   "t": "Okay."
+  },
+  {
+   "s": 52.28,
+   "e": 56.4,
+   "t": "And basically these transducers, they make vibrations, right?"
+  },
+  {
+   "s": 56.7,
+   "e": 61.56,
+   "t": "So when you pair that with, like, spatial audio in your headphones, it's like the sphere becomes part of the music."
+  },
+  {
+   "s": 61.82,
+   "e": 66.52,
+   "t": "So are these, like, just random vibrations or is it, like, matched up to what we're hearing?"
+  },
+  {
+   "s": 66.6,
+   "e": 67.58,
+   "t": "It's totally matched up."
+  },
+  {
+   "s": 67.92,
+   "e": 69.54,
+   "t": "Yeah, it's, that's the cool part, right?"
+  },
+  {
+   "s": 69.56,
+   "e": 74.64,
+   "t": "The audio, like, what you're hearing and then those vibrations, the haptics, they're, like, totally in sync."
+  },
+  {
+   "s": 74.72,
+   "e": 78.04,
+   "t": "So let's say there's a sound moving around you in the headphones."
+  },
+  {
+   "s": 78.24,
+   "e": 78.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 78.58,
+   "e": 82.38,
+   "t": "You'd feel that motion, but, like, in your hand on the sphere."
+  },
+  {
+   "s": 82.6,
+   "e": 83.32,
+   "t": "Whoa, okay."
+  },
+  {
+   "s": 83.5,
+   "e": 87.08,
+   "t": "So, like, if there's a song and it sounds like someone's walking around you."
+  },
+  {
+   "s": 87.22,
+   "e": 87.62,
+   "t": "Exactly."
+  },
+  {
+   "s": 87.72,
+   "e": 88.98,
+   "t": "You wouldn't just hear the footsteps."
+  },
+  {
+   "s": 89.24,
+   "e": 94.7,
+   "t": "You would actually feel them moving around your hand as that sound goes all around you."
+  },
+  {
+   "s": 94.74,
+   "e": 96.1,
+   "t": "That's, that's crazy."
+  },
+  {
+   "s": 96.3,
+   "e": 96.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 96.44,
+   "e": 99.6,
+   "t": "I can totally see how that would be, like, super immersive."
+  },
+  {
+   "s": 100.2,
+   "e": 100.48,
+   "t": "Totally."
+  },
+  {
+   "s": 100.7,
+   "e": 103.54,
+   "t": "And, honestly, that's, that's just, like, the beginning."
+  },
+  {
+   "s": 103.88,
+   "e": 108.12,
+   "t": "What's really cool is that they're looking at using atmosphere for way more than music."
+  },
+  {
+   "s": 108.32,
+   "e": 109.94,
+   "t": "Okay, now you're speaking my language."
+  },
+  {
+   "s": 110.14,
+   "e": 112.12,
+   "t": "What else, like, what are we talking, what else can it do?"
+  },
+  {
+   "s": 112.24,
+   "e": 115.74,
+   "t": "So one of the, like, the big areas they're looking at is mindfulness."
+  },
+  {
+   "s": 116.4,
+   "e": 120.5,
+   "t": "Like, imagine using this to actually, you know, help you meditate."
+  },
+  {
+   "s": 120.9,
+   "e": 121.54,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 121.54,
+   "e": 124.2,
+   "t": "Okay, so, like, feeling the music to relax."
+  },
+  {
+   "s": 124.6,
+   "e": 124.72,
+   "t": "Yeah."
+  },
+  {
+   "s": 124.94,
+   "e": 125.64,
+   "t": "I like it."
+  },
+  {
+   "s": 125.64,
+   "e": 126.98,
+   "t": "How, how would that work?"
+  },
+  {
+   "s": 127.08,
+   "e": 130.4,
+   "t": "So they're, they're testing it out with, you know, those smart glasses."
+  },
+  {
+   "s": 130.66,
+   "e": 132.96,
+   "t": "They can kind of track, like, how relaxed you are."
+  },
+  {
+   "s": 132.96,
+   "e": 133.8,
+   "t": "Oh, really?"
+  },
+  {
+   "s": 134.0,
+   "e": 135.68,
+   "t": "Yeah, by, like, your eye movements and stuff."
+  },
+  {
+   "s": 136.02,
+   "e": 139.5,
+   "t": "So it's, like, the glasses are saying, yeah, this person's totally zen."
+  },
+  {
+   "s": 139.56,
+   "e": 141.3,
+   "t": "Or, like, nope, they're still stressed."
+  },
+  {
+   "s": 141.46,
+   "e": 142.5,
+   "t": "That's so cool."
+  },
+  {
+   "s": 142.6,
+   "e": 149.3,
+   "t": "And so they take that information and they use it to, to change how strong the vibrations are, you know, on the sphere."
+  },
+  {
+   "s": 149.46,
+   "e": 149.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 149.68,
+   "e": 151.38,
+   "t": "And the sounds in your headphones."
+  },
+  {
+   "s": 151.64,
+   "e": 155.2,
+   "t": "So, like, the calmer I get, the more subtle everything gets."
+  },
+  {
+   "s": 155.2,
+   "e": 155.72,
+   "t": "Exactly."
+  },
+  {
+   "s": 155.88,
+   "e": 156.32,
+   "t": "Wow."
+  },
+  {
+   "s": 156.32,
+   "e": 158.76,
+   "t": "It just, it eases you into it, you know?"
+  },
+  {
+   "s": 158.78,
+   "e": 159.04,
+   "t": "Yeah."
+  },
+  {
+   "s": 159.2,
+   "e": 163.36,
+   "t": "So, like, imagine there's this, like, gentle rain soundscape playing."
+  },
+  {
+   "s": 163.38,
+   "e": 164.04,
+   "t": "Okay, yeah."
+  },
+  {
+   "s": 164.22,
+   "e": 166.44,
+   "t": "And you can feel that, like, on the sphere."
+  },
+  {
+   "s": 166.72,
+   "e": 171.78,
+   "t": "And then as you relax, those sensations, they just get, like, softer and softer."
+  },
+  {
+   "s": 171.92,
+   "e": 172.84,
+   "t": "That sounds amazing."
+  },
+  {
+   "s": 173.2,
+   "e": 176.06,
+   "t": "Have they, have they actually tried this on, like, real people?"
+  },
+  {
+   "s": 176.44,
+   "e": 176.7,
+   "t": "Yeah."
+  },
+  {
+   "s": 176.7,
+   "e": 180.74,
+   "t": "So they've done some early testing and people are loving it."
+  },
+  {
+   "s": 180.78,
+   "e": 181.86,
+   "t": "What are they, what are they saying?"
+  },
+  {
+   "s": 182.08,
+   "e": 185.82,
+   "t": "They're saying they feel, like, more present, like, really in the moment."
+  },
+  {
+   "s": 185.94,
+   "e": 186.52,
+   "t": "That makes sense."
+  },
+  {
+   "s": 186.56,
+   "e": 187.94,
+   "t": "It's got to be, like, super immersive."
+  },
+  {
+   "s": 188.1,
+   "e": 190.52,
+   "t": "But do you have any, like, specific examples?"
+  },
+  {
+   "s": 191.16,
+   "e": 192.02,
+   "t": "Yeah, actually."
+  },
+  {
+   "s": 192.28,
+   "e": 197.6,
+   "t": "One person, they said it felt like they were, you know, actually outside in the rain."
+  },
+  {
+   "s": 197.6,
+   "e": 200.26,
+   "t": "Like, they were really surprised by how real it felt."
+  },
+  {
+   "s": 200.72,
+   "e": 201.12,
+   "t": "Wow."
+  },
+  {
+   "s": 201.6,
+   "e": 205.42,
+   "t": "Even though they knew it was, like, coming from this, you know, sphere thing."
+  },
+  {
+   "s": 205.66,
+   "e": 206.0,
+   "t": "Totally."
+  },
+  {
+   "s": 206.18,
+   "e": 207.48,
+   "t": "That's, that's pretty wild."
+  },
+  {
+   "s": 207.64,
+   "e": 210.7,
+   "t": "And that's just, like, with the basic sounds and vibrations, right?"
+  },
+  {
+   "s": 210.76,
+   "e": 210.96,
+   "t": "Yeah."
+  },
+  {
+   "s": 211.3,
+   "e": 214.38,
+   "t": "Like, imagine what it'll be like when they really start fine-tuning it, you know?"
+  },
+  {
+   "s": 214.46,
+   "e": 217.68,
+   "t": "It really makes you think about all the things they could do with this."
+  },
+  {
+   "s": 217.76,
+   "e": 219.12,
+   "t": "Like, not even just for music."
+  },
+  {
+   "s": 219.38,
+   "e": 219.82,
+   "t": "Exactly."
+  },
+  {
+   "s": 219.94,
+   "e": 221.2,
+   "t": "There's so much potential."
+  },
+  {
+   "s": 221.46,
+   "e": 223.2,
+   "t": "Like, for therapy, even."
+  },
+  {
+   "s": 223.74,
+   "e": 225.96,
+   "t": "Or, you know, maybe even learning."
+  },
+  {
+   "s": 225.96,
+   "e": 229.38,
+   "t": "So, what's next for this atmosphere thing?"
+  },
+  {
+   "s": 229.5,
+   "e": 230.78,
+   "t": "Like, where do they go from here?"
+  },
+  {
+   "s": 231.08,
+   "e": 233.6,
+   "t": "So, they really want to do some, like, more in-depth studies."
+  },
+  {
+   "s": 233.74,
+   "e": 233.92,
+   "t": "Yeah."
+  },
+  {
+   "s": 234.12,
+   "e": 237.36,
+   "t": "To really measure, you know, how it affects people."
+  },
+  {
+   "s": 237.5,
+   "e": 240.78,
+   "t": "Not just, like, what they say, but, like, really measure it."
+  },
+  {
+   "s": 240.84,
+   "e": 241.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 241.3,
+   "e": 243.5,
+   "t": "Like, how, you know, how immersed you feel."
+  },
+  {
+   "s": 243.52,
+   "e": 248.64,
+   "t": "It's like they're making a whole new way for us to, like, experience sound, you know?"
+  },
+  {
+   "s": 248.76,
+   "e": 250.44,
+   "t": "It's almost like a new language or something."
+  },
+  {
+   "s": 250.52,
+   "e": 250.8,
+   "t": "Totally."
+  },
+  {
+   "s": 250.8,
+   "e": 256.48,
+   "t": "And it kind of makes you wonder, like, could they use this to create, like, completely new experiences?"
+  },
+  {
+   "s": 256.64,
+   "e": 258.5,
+   "t": "Not just, like, recreate stuff that we already know."
+  },
+  {
+   "s": 258.58,
+   "e": 258.74,
+   "t": "Okay."
+  },
+  {
+   "s": 258.8,
+   "e": 259.4,
+   "t": "Now we're talking."
+  },
+  {
+   "s": 259.48,
+   "e": 259.92,
+   "t": "Like, what?"
+  },
+  {
+   "s": 260.28,
+   "e": 260.98,
+   "t": "Give me an example."
+  },
+  {
+   "s": 261.2,
+   "e": 264.78,
+   "t": "Like, imagine feeling the texture of a sound."
+  },
+  {
+   "s": 264.84,
+   "e": 265.1,
+   "t": "Okay."
+  },
+  {
+   "s": 265.26,
+   "e": 266.74,
+   "t": "Not just where it's coming from."
+  },
+  {
+   "s": 266.76,
+   "e": 267.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 267.3,
+   "e": 268.96,
+   "t": "But, like, if it's rough or smooth."
+  },
+  {
+   "s": 269.06,
+   "e": 270.9,
+   "t": "How would that even work?"
+  },
+  {
+   "s": 271.2,
+   "e": 273.6,
+   "t": "So, think about, like, I don't know, a rock slide."
+  },
+  {
+   "s": 273.68,
+   "e": 273.92,
+   "t": "Okay."
+  },
+  {
+   "s": 273.92,
+   "e": 277.38,
+   "t": "You could feel how jagged and rough that sounds."
+  },
+  {
+   "s": 277.58,
+   "e": 277.74,
+   "t": "Yeah."
+  },
+  {
+   "s": 277.92,
+   "e": 281.46,
+   "t": "But then, like, a violin, that would feel smooth."
+  },
+  {
+   "s": 282.0,
+   "e": 282.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 282.46,
+   "e": 285.16,
+   "t": "So, we're talking about, like, actually feeling the difference."
+  },
+  {
+   "s": 285.38,
+   "e": 285.84,
+   "t": "Exactly."
+  },
+  {
+   "s": 286.1,
+   "e": 286.36,
+   "t": "Yeah."
+  },
+  {
+   "s": 286.54,
+   "e": 287.2,
+   "t": "And get this."
+  },
+  {
+   "s": 287.66,
+   "e": 290.84,
+   "t": "What if you could feel the emotions in the music?"
+  },
+  {
+   "s": 291.04,
+   "e": 291.32,
+   "t": "Okay."
+  },
+  {
+   "s": 291.38,
+   "e": 292.12,
+   "t": "Now you've lost me."
+  },
+  {
+   "s": 292.18,
+   "e": 293.22,
+   "t": "How's that even possible?"
+  },
+  {
+   "s": 293.4,
+   "e": 299.72,
+   "t": "So, instead of just hearing the joy in, like, a symphony or the sadness in a blues song."
+  },
+  {
+   "s": 299.78,
+   "e": 300.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 300.24,
+   "e": 301.34,
+   "t": "You'd actually feel it."
+  },
+  {
+   "s": 301.4,
+   "e": 301.6,
+   "t": "Yeah."
+  },
+  {
+   "s": 301.6,
+   "e": 301.72,
+   "t": "You know?"
+  },
+  {
+   "s": 301.82,
+   "e": 302.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 302.08,
+   "e": 302.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 302.2,
+   "e": 303.16,
+   "t": "Like, in your hand."
+  },
+  {
+   "s": 303.72,
+   "e": 304.54,
+   "t": "Through the vibrations."
+  },
+  {
+   "s": 304.92,
+   "e": 309.16,
+   "t": "It's like you're adding a whole other layer to how we experience music."
+  },
+  {
+   "s": 309.44,
+   "e": 309.82,
+   "t": "Totally."
+  },
+  {
+   "s": 310.26,
+   "e": 312.36,
+   "t": "And think about the possibilities, right?"
+  },
+  {
+   "s": 312.48,
+   "e": 313.28,
+   "t": "Like, for gaming."
+  },
+  {
+   "s": 313.88,
+   "e": 314.2,
+   "t": "Hmm."
+  },
+  {
+   "s": 314.32,
+   "e": 316.06,
+   "t": "Or even, like, virtual reality."
+  },
+  {
+   "s": 316.1,
+   "e": 316.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 316.52,
+   "e": 319.76,
+   "t": "Like, feeling what it's like to actually be in the game."
+  },
+  {
+   "s": 320.34,
+   "e": 321.32,
+   "t": "Or another world."
+  },
+  {
+   "s": 321.36,
+   "e": 321.76,
+   "t": "Exactly."
+  },
+  {
+   "s": 321.94,
+   "e": 325.68,
+   "t": "It's like we're just scratching the surface of what our senses can really do, you know?"
+  },
+  {
+   "s": 325.88,
+   "e": 326.8,
+   "t": "It's pretty mind-blowing stuff."
+  },
+  {
+   "s": 327.02,
+   "e": 330.28,
+   "t": "So, for our listeners who are, you know, totally geeking out about this like I am,"
+  },
+  {
+   "s": 330.28,
+   "e": 333.08,
+   "t": "what's, like, the one thing we should all remember."
+  },
+  {
+   "s": 333.7,
+   "e": 338.64,
+   "t": "I think the biggest thing is just to, like, really appreciate how incredible our senses"
+  },
+  {
+   "s": 338.64,
+   "e": 339.0,
+   "t": "are."
+  },
+  {
+   "s": 339.1,
+   "e": 339.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 339.58,
+   "e": 340.58,
+   "t": "Like, this atmosphere thing."
+  },
+  {
+   "s": 340.62,
+   "e": 341.58,
+   "t": "It's just one example."
+  },
+  {
+   "s": 342.22,
+   "e": 344.9,
+   "t": "Who knows what else we'll be able to experience in the future, right?"
+  },
+  {
+   "s": 344.9,
+   "e": 346.28,
+   "t": "I can't wait to find out."
+  },
+  {
+   "s": 347.26,
+   "e": 349.22,
+   "t": "Well, that's it for this deep dive."
+  },
+  {
+   "s": 349.36,
+   "e": 353.34,
+   "t": "It's definitely got me thinking about all the amazing ways we can experience music and"
+  },
+  {
+   "s": 353.34,
+   "e": 353.66,
+   "t": "sound."
+  },
+  {
+   "s": 354.06,
+   "e": 355.04,
+   "t": "Until next time."
+  }
+ ]
+}

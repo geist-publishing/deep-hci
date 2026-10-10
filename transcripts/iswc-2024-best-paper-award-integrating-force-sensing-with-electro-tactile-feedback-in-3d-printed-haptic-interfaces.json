@@ -1,0 +1,1625 @@
+{
+ "guid": "deephci.podbean.com/42d5b91e-fd23-3395-874a-b79813f79243",
+ "slug": "iswc-2024-best-paper-award-integrating-force-sensing-with-electro-tactile-feedback-in-3d-printed-haptic-interfaces",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3675095-3676612.mp3",
+  "version": 1
+ },
+ "duration": 546,
+ "word_count": 1599,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 2.36,
+   "t": "We interact with the world through touch all the time."
+  },
+  {
+   "s": 2.42,
+   "e": 5.8,
+   "t": "But, like, have you ever thought about recreating that digitally?"
+  },
+  {
+   "s": 6.5,
+   "e": 8.38,
+   "t": "It's kind of wild when you think about it."
+  },
+  {
+   "s": 8.4,
+   "e": 9.36,
+   "t": "It's called haptics."
+  },
+  {
+   "s": 9.52,
+   "e": 9.68,
+   "t": "Right."
+  },
+  {
+   "s": 9.76,
+   "e": 12.12,
+   "t": "And it's all about recreating those touch sensations."
+  },
+  {
+   "s": 12.4,
+   "e": 12.84,
+   "t": "Exactly."
+  },
+  {
+   "s": 13.04,
+   "e": 18.8,
+   "t": "Like, imagine being in a virtual world and actually feeling the texture of a brick wall."
+  },
+  {
+   "s": 18.92,
+   "e": 19.38,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 19.38,
+   "e": 24.08,
+   "t": "Or the weight of, like, a virtual object in your hand, you know?"
+  },
+  {
+   "s": 24.28,
+   "e": 28.22,
+   "t": "It's pretty amazing what we're essentially trying to do is kind of trick your brain."
+  },
+  {
+   "s": 28.4,
+   "e": 28.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 28.68,
+   "e": 31.92,
+   "t": "Your sense of touch into feeling something that's not actually there."
+  },
+  {
+   "s": 32.16,
+   "e": 35.26,
+   "t": "It's, like, digital magic for your sense of touch."
+  },
+  {
+   "s": 35.52,
+   "e": 35.7,
+   "t": "Right."
+  },
+  {
+   "s": 35.92,
+   "e": 37.6,
+   "t": "And get this."
+  },
+  {
+   "s": 37.68,
+   "e": 45.0,
+   "t": "Our deep dive today is on some really cool research by Pereira and their team presented at ISWC24."
+  },
+  {
+   "s": 45.26,
+   "e": 45.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 45.54,
+   "e": 47.68,
+   "t": "They found a way to make haptic interfaces."
+  },
+  {
+   "s": 48.56,
+   "e": 48.84,
+   "t": "Uh-huh."
+  },
+  {
+   "s": 49.04,
+   "e": 51.5,
+   "t": "Those devices that let us feel digitally."
+  },
+  {
+   "s": 51.64,
+   "e": 52.06,
+   "t": "Yeah, yeah."
+  },
+  {
+   "s": 52.14,
+   "e": 53.5,
+   "t": "Even more sensitive."
+  },
+  {
+   "s": 53.84,
+   "e": 53.94,
+   "t": "Wow."
+  },
+  {
+   "s": 53.94,
+   "e": 54.9,
+   "t": "And responsive."
+  },
+  {
+   "s": 55.32,
+   "e": 55.9,
+   "t": "That's awesome."
+  },
+  {
+   "s": 55.92,
+   "e": 56.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 56.22,
+   "e": 60.22,
+   "t": "So much of, like, haptic tech uses vibration."
+  },
+  {
+   "s": 60.46,
+   "e": 60.66,
+   "t": "Right."
+  },
+  {
+   "s": 60.74,
+   "e": 62.64,
+   "t": "You know, like the rumble pack in your game controller."
+  },
+  {
+   "s": 62.76,
+   "e": 62.98,
+   "t": "Right."
+  },
+  {
+   "s": 63.18,
+   "e": 67.86,
+   "t": "But this research uses something called electrotactile stimulation."
+  },
+  {
+   "s": 68.04,
+   "e": 68.48,
+   "t": "Okay."
+  },
+  {
+   "s": 68.62,
+   "e": 74.0,
+   "t": "Which is, like, a way more precise and potentially, like, game-changing way to create these sensations."
+  },
+  {
+   "s": 74.0,
+   "e": 74.34,
+   "t": "Okay."
+  },
+  {
+   "s": 74.46,
+   "e": 74.84,
+   "t": "Hold on."
+  },
+  {
+   "s": 74.92,
+   "e": 75.92,
+   "t": "Got to geek out for a second."
+  },
+  {
+   "s": 77.3,
+   "e": 78.36,
+   "t": "Electrotactile stimulation."
+  },
+  {
+   "s": 78.36,
+   "e": 78.92,
+   "t": "Yeah."
+  },
+  {
+   "s": 78.92,
+   "e": 82.18,
+   "t": "For those of us who haven't gone full cyborg yet, what are we talking about?"
+  },
+  {
+   "s": 82.38,
+   "e": 88.62,
+   "t": "So, imagine the feeling of a tiny, really localized tingle on your skin."
+  },
+  {
+   "s": 88.72,
+   "e": 88.98,
+   "t": "Okay."
+  },
+  {
+   "s": 89.32,
+   "e": 95.72,
+   "t": "So, it'd be, like, if your phone vibrated, but on, like, a much smaller, more controlled scale."
+  },
+  {
+   "s": 95.92,
+   "e": 96.28,
+   "t": "Gotcha."
+  },
+  {
+   "s": 96.28,
+   "e": 96.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 96.66,
+   "e": 99.14,
+   "t": "That's essentially what electrotactile stimulation does."
+  },
+  {
+   "s": 99.22,
+   "e": 99.38,
+   "t": "Okay."
+  },
+  {
+   "s": 99.4,
+   "e": 107.08,
+   "t": "Instead of just, like, a general buzz, it uses these tiny electrical pulses to create a much wider range of sensations on your skin."
+  },
+  {
+   "s": 107.26,
+   "e": 107.68,
+   "t": "Wow."
+  },
+  {
+   "s": 107.88,
+   "e": 111.54,
+   "t": "It's, like, the difference between listening to music through, like, a tiny little speaker."
+  },
+  {
+   "s": 111.74,
+   "e": 111.88,
+   "t": "Yeah."
+  },
+  {
+   "s": 111.88,
+   "e": 113.98,
+   "t": "And, you know, experiencing a live orchestra."
+  },
+  {
+   "s": 114.16,
+   "e": 114.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 114.52,
+   "e": 115.66,
+   "t": "Is that much more nuanced."
+  },
+  {
+   "s": 115.78,
+   "e": 122.82,
+   "t": "So, instead of just feeling, like, a buzz, I could feel the difference between, say, silk and sandpaper in the virtual world."
+  },
+  {
+   "s": 122.9,
+   "e": 123.48,
+   "t": "Yeah, you got it."
+  },
+  {
+   "s": 123.48,
+   "e": 128.36,
+   "t": "And because we're talking about electrical pulses, the hardware can be way smaller."
+  },
+  {
+   "s": 128.52,
+   "e": 128.76,
+   "t": "Right."
+  },
+  {
+   "s": 128.88,
+   "e": 129.62,
+   "t": "And more flexible."
+  },
+  {
+   "s": 129.82,
+   "e": 130.04,
+   "t": "Okay."
+  },
+  {
+   "s": 130.06,
+   "e": 130.96,
+   "t": "Perfect for wearables."
+  },
+  {
+   "s": 131.2,
+   "e": 131.38,
+   "t": "Right."
+  },
+  {
+   "s": 131.58,
+   "e": 133.0,
+   "t": "All sorts of cool applications."
+  },
+  {
+   "s": 133.42,
+   "e": 134.66,
+   "t": "So, what's the catch?"
+  },
+  {
+   "s": 134.94,
+   "e": 135.18,
+   "t": "Hmm."
+  },
+  {
+   "s": 135.42,
+   "e": 139.08,
+   "t": "Because it sounds almost too good to be true."
+  },
+  {
+   "s": 139.08,
+   "e": 143.36,
+   "t": "So, electrotactile stimulation is already impressive as it is."
+  },
+  {
+   "s": 143.48,
+   "e": 143.72,
+   "t": "Right."
+  },
+  {
+   "s": 143.88,
+   "e": 146.5,
+   "t": "What were Pereira and their team trying to improve?"
+  },
+  {
+   "s": 147.42,
+   "e": 149.04,
+   "t": "Well, that's the really ingenious part."
+  },
+  {
+   "s": 149.1,
+   "e": 149.24,
+   "t": "Okay."
+  },
+  {
+   "s": 149.86,
+   "e": 151.24,
+   "t": "Imagine you're in a VR game."
+  },
+  {
+   "s": 151.38,
+   "e": 151.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 151.68,
+   "e": 153.72,
+   "t": "And you pick up a virtual object."
+  },
+  {
+   "s": 153.8,
+   "e": 154.0,
+   "t": "Right."
+  },
+  {
+   "s": 154.38,
+   "e": 156.3,
+   "t": "Now, for that to feel real."
+  },
+  {
+   "s": 156.64,
+   "e": 156.88,
+   "t": "Yeah."
+  },
+  {
+   "s": 157.9,
+   "e": 160.34,
+   "t": "The game needs to know how hard you're squeezing."
+  },
+  {
+   "s": 160.86,
+   "e": 161.1,
+   "t": "Right."
+  },
+  {
+   "s": 161.14,
+   "e": 161.28,
+   "t": "Right."
+  },
+  {
+   "s": 161.52,
+   "e": 161.74,
+   "t": "Yeah."
+  },
+  {
+   "s": 162.08,
+   "e": 169.62,
+   "t": "Traditionally, electrotactile devices rely on additional sensors to actually measure the pressure you're applying in VR."
+  },
+  {
+   "s": 170.08,
+   "e": 174.64,
+   "t": "These sensors add a lot of complexity and bulk to the design."
+  },
+  {
+   "s": 174.74,
+   "e": 174.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 175.58,
+   "e": 175.88,
+   "t": "Okay."
+  },
+  {
+   "s": 175.88,
+   "e": 178.12,
+   "t": "So, they thought, how can we get rid of that?"
+  },
+  {
+   "s": 178.2,
+   "e": 181.58,
+   "t": "So, they're trying to, like, ditch the extra sensors, make things sleeker."
+  },
+  {
+   "s": 181.9,
+   "e": 182.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 182.3,
+   "e": 183.54,
+   "t": "I like where this is going."
+  },
+  {
+   "s": 183.62,
+   "e": 184.14,
+   "t": "Like it's simpler."
+  },
+  {
+   "s": 184.3,
+   "e": 184.52,
+   "t": "Yeah."
+  },
+  {
+   "s": 184.66,
+   "e": 185.5,
+   "t": "How'd they do it?"
+  },
+  {
+   "s": 185.66,
+   "e": 187.62,
+   "t": "Well, they asked a really brilliant question."
+  },
+  {
+   "s": 187.74,
+   "e": 188.14,
+   "t": "Okay."
+  },
+  {
+   "s": 188.32,
+   "e": 192.28,
+   "t": "What if the surface itself could actually feel how much pressure you're applying?"
+  },
+  {
+   "s": 192.46,
+   "e": 193.72,
+   "t": "Now, that's thinking outside the box."
+  },
+  {
+   "s": 194.04,
+   "e": 194.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 194.2,
+   "e": 194.46,
+   "t": "Okay."
+  },
+  {
+   "s": 194.54,
+   "e": 197.16,
+   "t": "No extra sensors, just like a smart surface."
+  },
+  {
+   "s": 197.48,
+   "e": 198.0,
+   "t": "Exactly."
+  },
+  {
+   "s": 198.54,
+   "e": 199.4,
+   "t": "Tell me more."
+  },
+  {
+   "s": 199.56,
+   "e": 200.64,
+   "t": "So, it's all about texture."
+  },
+  {
+   "s": 200.9,
+   "e": 201.2,
+   "t": "Okay."
+  },
+  {
+   "s": 201.44,
+   "e": 203.52,
+   "t": "And this is where the 3D printing comes in."
+  },
+  {
+   "s": 203.62,
+   "e": 203.92,
+   "t": "Okay."
+  },
+  {
+   "s": 203.92,
+   "e": 211.06,
+   "t": "They created these surfaces with microscopic patterns, almost like tiny little waves on them."
+  },
+  {
+   "s": 211.2,
+   "e": 211.46,
+   "t": "Okay."
+  },
+  {
+   "s": 211.58,
+   "e": 216.48,
+   "t": "Imagine running your fingers over, like, a slightly bumpy surface."
+  },
+  {
+   "s": 216.6,
+   "e": 216.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 216.86,
+   "e": 218.46,
+   "t": "That's the kind of scale we're talking about."
+  },
+  {
+   "s": 218.48,
+   "e": 218.64,
+   "t": "Okay."
+  },
+  {
+   "s": 218.76,
+   "e": 219.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 219.22,
+   "e": 224.7,
+   "t": "And as you press harder, more of your skin comes into contact with those tiny little bumps."
+  },
+  {
+   "s": 225.12,
+   "e": 226.48,
+   "t": "And that's what they measure."
+  },
+  {
+   "s": 226.64,
+   "e": 228.66,
+   "t": "So, the harder you press, the more contact."
+  },
+  {
+   "s": 229.0,
+   "e": 231.6,
+   "t": "And that, like, translates to a force measurement."
+  },
+  {
+   "s": 231.72,
+   "e": 232.12,
+   "t": "Exactly."
+  },
+  {
+   "s": 232.24,
+   "e": 232.68,
+   "t": "Mind-blowing."
+  },
+  {
+   "s": 232.68,
+   "e": 233.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 233.08,
+   "e": 239.68,
+   "t": "By analyzing those subtle changes in contact, they can tell exactly how much pressure you're applying."
+  },
+  {
+   "s": 239.88,
+   "e": 240.36,
+   "t": "Wow."
+  },
+  {
+   "s": 240.52,
+   "e": 242.52,
+   "t": "All without those bulky extra sensors."
+  },
+  {
+   "s": 242.82,
+   "e": 243.8,
+   "t": "That's crazy."
+  },
+  {
+   "s": 243.96,
+   "e": 244.14,
+   "t": "Yeah."
+  },
+  {
+   "s": 244.28,
+   "e": 245.58,
+   "t": "So, a really elegant solution."
+  },
+  {
+   "s": 245.84,
+   "e": 246.98,
+   "t": "This is incredible."
+  },
+  {
+   "s": 248.04,
+   "e": 249.46,
+   "t": "But, did it work in practice?"
+  },
+  {
+   "s": 249.64,
+   "e": 250.9,
+   "t": "Like, did they run any tests?"
+  },
+  {
+   "s": 251.48,
+   "e": 252.28,
+   "t": "Yeah, they did."
+  },
+  {
+   "s": 252.34,
+   "e": 252.58,
+   "t": "Okay."
+  },
+  {
+   "s": 252.7,
+   "e": 256.14,
+   "t": "They had a group of 10 volunteers try out the tech."
+  },
+  {
+   "s": 256.28,
+   "e": 256.6,
+   "t": "Okay."
+  },
+  {
+   "s": 257.1,
+   "e": 260.9,
+   "t": "And the participants had to apply, you know, specific amounts of pressure."
+  },
+  {
+   "s": 261.1,
+   "e": 261.34,
+   "t": "Right."
+  },
+  {
+   "s": 261.34,
+   "e": 262.94,
+   "t": "Well, the system measured their force."
+  },
+  {
+   "s": 263.08,
+   "e": 263.28,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 263.28,
+   "e": 267.06,
+   "t": "And sometimes, it would provide that electro-tactile feedback."
+  },
+  {
+   "s": 267.3,
+   "e": 267.48,
+   "t": "Okay."
+  },
+  {
+   "s": 267.54,
+   "e": 272.56,
+   "t": "So, it's like a high-tech version of that carnival game where you have to guess how much something weighs."
+  },
+  {
+   "s": 272.68,
+   "e": 272.9,
+   "t": "Right."
+  },
+  {
+   "s": 272.9,
+   "e": 273.54,
+   "t": "Exactly."
+  },
+  {
+   "s": 273.62,
+   "e": 274.32,
+   "t": "I can picture it."
+  },
+  {
+   "s": 274.32,
+   "e": 274.52,
+   "t": "Yeah."
+  },
+  {
+   "s": 274.52,
+   "e": 274.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 274.58,
+   "e": 277.92,
+   "t": "So, did this new system pass the test?"
+  },
+  {
+   "s": 278.0,
+   "e": 279.38,
+   "t": "What kind of feedback were they getting?"
+  },
+  {
+   "s": 279.5,
+   "e": 280.74,
+   "t": "It was really interesting."
+  },
+  {
+   "s": 280.92,
+   "e": 281.16,
+   "t": "Yeah."
+  },
+  {
+   "s": 281.16,
+   "e": 286.04,
+   "t": "One of the participants mentioned feeling confused during the trials."
+  },
+  {
+   "s": 286.04,
+   "e": 286.32,
+   "t": "Yeah."
+  },
+  {
+   "s": 286.32,
+   "e": 289.34,
+   "t": "Especially when the feedback was, like, turned on and off."
+  },
+  {
+   "s": 289.4,
+   "e": 289.92,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 289.92,
+   "e": 289.96,
+   "t": "Yeah."
+  },
+  {
+   "s": 290.32,
+   "e": 294.68,
+   "t": "And it really highlights how quickly our brains adapt to new sensations."
+  },
+  {
+   "s": 294.94,
+   "e": 295.18,
+   "t": "Right."
+  },
+  {
+   "s": 295.26,
+   "e": 297.06,
+   "t": "When we're constantly exposed to something."
+  },
+  {
+   "s": 297.2,
+   "e": 300.52,
+   "t": "Even something as subtle as, like, this electro-tactile feedback."
+  },
+  {
+   "s": 300.68,
+   "e": 300.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 300.96,
+   "e": 302.36,
+   "t": "Our brains just learn to silt it out."
+  },
+  {
+   "s": 302.38,
+   "e": 303.12,
+   "t": "Yeah, totally."
+  },
+  {
+   "s": 303.12,
+   "e": 306.46,
+   "t": "But then when it's gone, we kind of become really aware of its absence."
+  },
+  {
+   "s": 306.72,
+   "e": 307.36,
+   "t": "That's so interesting."
+  },
+  {
+   "s": 307.46,
+   "e": 309.88,
+   "t": "It's, like, how you get used to the feeling of your clothes on your skin."
+  },
+  {
+   "s": 310.0,
+   "e": 310.28,
+   "t": "Exactly."
+  },
+  {
+   "s": 310.4,
+   "e": 312.74,
+   "t": "Throughout the day, your brain just, like, dooms it out."
+  },
+  {
+   "s": 312.8,
+   "e": 313.04,
+   "t": "Right."
+  },
+  {
+   "s": 313.36,
+   "e": 313.56,
+   "t": "Okay."
+  },
+  {
+   "s": 313.64,
+   "e": 317.28,
+   "t": "So, brain tricks aside, what were the overall results of the study?"
+  },
+  {
+   "s": 317.7,
+   "e": 319.58,
+   "t": "Well, the system actually worked."
+  },
+  {
+   "s": 319.78,
+   "e": 320.56,
+   "t": "That's awesome."
+  },
+  {
+   "s": 320.68,
+   "e": 324.34,
+   "t": "They were able to accurately measure the force applied."
+  },
+  {
+   "s": 324.48,
+   "e": 324.84,
+   "t": "Wow."
+  },
+  {
+   "s": 325.08,
+   "e": 326.64,
+   "t": "Just using the texture of the surface."
+  },
+  {
+   "s": 326.8,
+   "e": 327.16,
+   "t": "Okay."
+  },
+  {
+   "s": 327.76,
+   "e": 332.78,
+   "t": "And the electro-tactile feedback was definitely noticeable."
+  },
+  {
+   "s": 332.78,
+   "e": 333.38,
+   "t": "Right."
+  },
+  {
+   "s": 333.88,
+   "e": 335.06,
+   "t": "It wasn't perfect, though."
+  },
+  {
+   "s": 335.16,
+   "e": 335.72,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 336.02,
+   "e": 340.38,
+   "t": "The system was most accurate at, you know, medium pressure levels."
+  },
+  {
+   "s": 340.42,
+   "e": 340.86,
+   "t": "Oh, God."
+  },
+  {
+   "s": 340.96,
+   "e": 344.2,
+   "t": "The kind of pressure you'd use to hold a pen or type on a keyboard."
+  },
+  {
+   "s": 344.34,
+   "e": 344.64,
+   "t": "Right."
+  },
+  {
+   "s": 344.74,
+   "e": 345.04,
+   "t": "Okay."
+  },
+  {
+   "s": 345.26,
+   "e": 347.22,
+   "t": "But for really light presses."
+  },
+  {
+   "s": 347.42,
+   "e": 347.64,
+   "t": "Yeah."
+  },
+  {
+   "s": 347.74,
+   "e": 350.74,
+   "t": "Or really strong presses, the accuracy dropped off a little bit."
+  },
+  {
+   "s": 350.8,
+   "e": 352.44,
+   "t": "So, they're on the right track."
+  },
+  {
+   "s": 352.56,
+   "e": 352.74,
+   "t": "Yeah."
+  },
+  {
+   "s": 353.1,
+   "e": 354.38,
+   "t": "This could be huge."
+  },
+  {
+   "s": 354.38,
+   "e": 358.54,
+   "t": "But I'm sure our listeners are wondering, like, what can we actually do with this?"
+  },
+  {
+   "s": 358.64,
+   "e": 360.4,
+   "t": "Where does it fit into the bigger picture?"
+  },
+  {
+   "s": 360.4,
+   "e": 362.94,
+   "t": "Well, that's where things get really exciting."
+  },
+  {
+   "s": 363.04,
+   "e": 367.66,
+   "t": "Imagine a world where you can actually feel the texture of a dinosaur bone."
+  },
+  {
+   "s": 367.92,
+   "e": 368.66,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 368.68,
+   "e": 370.2,
+   "t": "While exploring a virtual museum."
+  },
+  {
+   "s": 370.36,
+   "e": 370.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 370.58,
+   "e": 371.22,
+   "t": "From your couch."
+  },
+  {
+   "s": 371.38,
+   "e": 372.22,
+   "t": "That'd be amazing."
+  },
+  {
+   "s": 372.48,
+   "e": 373.12,
+   "t": "Or a surgeon."
+  },
+  {
+   "s": 373.28,
+   "e": 373.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 373.76,
+   "e": 378.26,
+   "t": "Practicing a really delicate procedure on, like, a virtual patient."
+  },
+  {
+   "s": 378.6,
+   "e": 379.02,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 379.34,
+   "e": 381.44,
+   "t": "You know, experiencing realistic feedback."
+  },
+  {
+   "s": 381.66,
+   "e": 381.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 382.14,
+   "e": 383.68,
+   "t": "Without any actual risk."
+  },
+  {
+   "s": 383.84,
+   "e": 384.2,
+   "t": "Wow."
+  },
+  {
+   "s": 384.26,
+   "e": 384.78,
+   "t": "That's incredible."
+  },
+  {
+   "s": 384.78,
+   "e": 387.64,
+   "t": "But you also mentioned something about a gaming application."
+  },
+  {
+   "s": 388.02,
+   "e": 388.08,
+   "t": "Right."
+  },
+  {
+   "s": 388.28,
+   "e": 389.28,
+   "t": "A wearable ring."
+  },
+  {
+   "s": 389.78,
+   "e": 389.98,
+   "t": "Yeah."
+  },
+  {
+   "s": 390.04,
+   "e": 397.22,
+   "t": "They actually designed a prototype ring that uses this tech to create super immersive gaming experiences."
+  },
+  {
+   "s": 397.5,
+   "e": 398.06,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 398.34,
+   "e": 399.74,
+   "t": "Imagine playing Fruit Ninja, right?"
+  },
+  {
+   "s": 399.76,
+   "e": 399.92,
+   "t": "Yeah."
+  },
+  {
+   "s": 400.36,
+   "e": 406.38,
+   "t": "And you can actually feel the resistance of slicing through each piece of fruit."
+  },
+  {
+   "s": 406.44,
+   "e": 406.76,
+   "t": "Oh."
+  },
+  {
+   "s": 407.2,
+   "e": 409.74,
+   "t": "With that satisfying little zap as you make each cut."
+  },
+  {
+   "s": 410.04,
+   "e": 411.0,
+   "t": "That sounds amazing."
+  },
+  {
+   "s": 411.3,
+   "e": 411.56,
+   "t": "Right."
+  },
+  {
+   "s": 411.68,
+   "e": 413.48,
+   "t": "It's like having an arcade right on your finger."
+  },
+  {
+   "s": 413.68,
+   "e": 414.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 414.08,
+   "e": 416.4,
+   "t": "But even with all these amazing possibilities."
+  },
+  {
+   "s": 416.58,
+   "e": 416.7,
+   "t": "Yeah."
+  },
+  {
+   "s": 416.72,
+   "e": 418.12,
+   "t": "There are always limitations, right?"
+  },
+  {
+   "s": 418.32,
+   "e": 418.74,
+   "t": "Of course."
+  },
+  {
+   "s": 418.76,
+   "e": 422.72,
+   "t": "What kind of challenges are they facing as they kind of continue to develop this?"
+  },
+  {
+   "s": 422.96,
+   "e": 429.28,
+   "t": "Well, like I said, you know, improving that accuracy at those really extreme pressure levels is really important."
+  },
+  {
+   "s": 429.36,
+   "e": 429.62,
+   "t": "Okay."
+  },
+  {
+   "s": 429.96,
+   "e": 435.56,
+   "t": "And while they have eliminated the need for those extra sensors."
+  },
+  {
+   "s": 435.7,
+   "e": 435.9,
+   "t": "Yeah."
+  },
+  {
+   "s": 436.02,
+   "e": 441.1,
+   "t": "The current system still requires, like, a base unit that's a little bit bulky."
+  },
+  {
+   "s": 441.22,
+   "e": 441.44,
+   "t": "Right."
+  },
+  {
+   "s": 441.44,
+   "e": 443.48,
+   "t": "So making the entire system more compact."
+  },
+  {
+   "s": 443.48,
+   "e": 444.0,
+   "t": "Okay."
+  },
+  {
+   "s": 444.1,
+   "e": 444.98,
+   "t": "And energy efficient."
+  },
+  {
+   "s": 444.98,
+   "e": 445.26,
+   "t": "Yeah."
+  },
+  {
+   "s": 445.26,
+   "e": 448.88,
+   "t": "Will be really important for, you know, widespread adoption."
+  },
+  {
+   "s": 449.02,
+   "e": 449.32,
+   "t": "Right."
+  },
+  {
+   "s": 449.6,
+   "e": 450.66,
+   "t": "Especially for wearables."
+  },
+  {
+   "s": 450.98,
+   "e": 451.72,
+   "t": "Yeah, for sure."
+  },
+  {
+   "s": 452.1,
+   "e": 454.02,
+   "t": "So those are some of the things that they're still working on."
+  },
+  {
+   "s": 454.1,
+   "e": 454.98,
+   "t": "That makes a lot of sense."
+  },
+  {
+   "s": 454.98,
+   "e": 464.94,
+   "t": "So as we kind of wrap up our deep dive into this world of haptics, what's, like, the one big takeaway you want to leave our listeners with?"
+  },
+  {
+   "s": 464.94,
+   "e": 469.3,
+   "t": "It's not just about, like, perfectly copying touch."
+  },
+  {
+   "s": 469.3,
+   "e": 473.78,
+   "t": "It's about going beyond the limits of, like, our physical senses, you know?"
+  },
+  {
+   "s": 473.84,
+   "e": 474.96,
+   "t": "You're getting me really hooked on this."
+  },
+  {
+   "s": 475.02,
+   "e": 476.52,
+   "t": "Give me the grand vision."
+  },
+  {
+   "s": 476.52,
+   "e": 476.84,
+   "t": "Okay."
+  },
+  {
+   "s": 476.84,
+   "e": 480.14,
+   "t": "So imagine feeling the texture of a rock."
+  },
+  {
+   "s": 480.26,
+   "e": 480.48,
+   "t": "Uh-huh."
+  },
+  {
+   "s": 480.64,
+   "e": 481.9,
+   "t": "But not just any rock."
+  },
+  {
+   "s": 482.28,
+   "e": 483.46,
+   "t": "A Martian rock."
+  },
+  {
+   "s": 483.56,
+   "e": 484.0,
+   "t": "Whoa."
+  },
+  {
+   "s": 484.26,
+   "e": 487.9,
+   "t": "And it's being transmitted through a rover millions of miles away."
+  },
+  {
+   "s": 487.96,
+   "e": 488.6,
+   "t": "That's wild."
+  },
+  {
+   "s": 488.82,
+   "e": 491.8,
+   "t": "Or think about experiencing a Van Gogh painting."
+  },
+  {
+   "s": 491.98,
+   "e": 492.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 492.18,
+   "e": 495.84,
+   "t": "But instead of just looking at it, you can feel those brush strokes."
+  },
+  {
+   "s": 496.08,
+   "e": 496.48,
+   "t": "Wow."
+  },
+  {
+   "s": 496.76,
+   "e": 498.98,
+   "t": "Almost like you're running your fingers across the canvas."
+  },
+  {
+   "s": 499.26,
+   "e": 501.92,
+   "t": "Those possibilities are mind-blowing, really."
+  },
+  {
+   "s": 502.34,
+   "e": 507.3,
+   "t": "It seems like this could change how we experience the world in huge ways."
+  },
+  {
+   "s": 507.54,
+   "e": 508.02,
+   "t": "Absolutely."
+  },
+  {
+   "s": 508.34,
+   "e": 508.54,
+   "t": "Yeah."
+  },
+  {
+   "s": 508.66,
+   "e": 510.4,
+   "t": "And that's what's so exciting about this whole field."
+  },
+  {
+   "s": 510.54,
+   "e": 517.68,
+   "t": "It makes you wonder what would you want to experience if touch wasn't limited by, you know, physical stuff anymore."
+  },
+  {
+   "s": 518.52,
+   "e": 520.48,
+   "t": "That's a powerful question to end on."
+  },
+  {
+   "s": 520.58,
+   "e": 520.66,
+   "t": "Right."
+  },
+  {
+   "s": 520.66,
+   "e": 523.28,
+   "t": "It really makes you think about the future of our senses."
+  },
+  {
+   "s": 523.72,
+   "e": 523.9,
+   "t": "Yeah."
+  },
+  {
+   "s": 523.9,
+   "e": 528.4,
+   "t": "And, like, all these amazing experiences that are coming our way, you know."
+  },
+  {
+   "s": 528.56,
+   "e": 529.4,
+   "t": "It's going to be wild."
+  },
+  {
+   "s": 529.68,
+   "e": 533.78,
+   "t": "Well, thank you so much for taking us on this deep dive into the world of haptics."
+  },
+  {
+   "s": 533.86,
+   "e": 534.3,
+   "t": "Of course."
+  },
+  {
+   "s": 534.4,
+   "e": 534.56,
+   "t": "Yeah."
+  },
+  {
+   "s": 534.6,
+   "e": 535.32,
+   "t": "It was my pleasure."
+  },
+  {
+   "s": 535.6,
+   "e": 537.9,
+   "t": "And to all our listeners out there, thanks for tuning in."
+  },
+  {
+   "s": 538.28,
+   "e": 540.68,
+   "t": "Until next time, keep exploring."
+  },
+  {
+   "s": 541.08,
+   "e": 541.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 541.22,
+   "e": 542.44,
+   "t": "Keep asking questions."
+  },
+  {
+   "s": 542.8,
+   "e": 544.16,
+   "t": "Keep those minds buzzing."
+  },
+  {
+   "s": 544.36,
+   "e": 544.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 544.74,
+   "e": 546.06,
+   "t": "And we'll see you in the metaverse."
+  },
+  {
+   "s": 546.06,
+   "e": 546.96,
+   "t": "Bye."
+  },
+  {
+   "s": 547.04,
+   "e": 547.56,
+   "t": "Bye."
+  },
+  {
+   "s": 547.8,
+   "e": 548.46,
+   "t": "Bye."
+  },
+  {
+   "s": 549.16,
+   "e": 549.88,
+   "t": "Bye."
+  },
+  {
+   "s": 550.98,
+   "e": 551.64,
+   "t": "Bye."
+  },
+  {
+   "s": 554.0,
+   "e": 554.78,
+   "t": "Bye."
+  },
+  {
+   "s": 555.06,
+   "e": 555.5,
+   "t": "Bye."
+  },
+  {
+   "s": 555.96,
+   "e": 556.3,
+   "t": "Bye."
+  },
+  {
+   "s": 556.7,
+   "e": 557.08,
+   "t": "Bye."
+  },
+  {
+   "s": 557.18,
+   "e": 557.68,
+   "t": "Bye."
+  },
+  {
+   "s": 557.9,
+   "e": 558.3,
+   "t": "Bye."
+  },
+  {
+   "s": 558.44,
+   "e": 558.92,
+   "t": "Bye."
+  },
+  {
+   "s": 559.06,
+   "e": 559.18,
+   "t": "Bye."
+  },
+  {
+   "s": 559.28,
+   "e": 559.64,
+   "t": "Bye."
+  },
+  {
+   "s": 559.9,
+   "e": 560.3,
+   "t": "Bye."
+  },
+  {
+   "s": 560.5,
+   "e": 560.94,
+   "t": "Bye."
+  },
+  {
+   "s": 561.14,
+   "e": 561.38,
+   "t": "Bye."
+  },
+  {
+   "s": 561.62,
+   "e": 562.08,
+   "t": "Bye."
+  },
+  {
+   "s": 562.3,
+   "e": 562.82,
+   "t": "Bye."
+  },
+  {
+   "s": 562.98,
+   "e": 563.24,
+   "t": "Bye."
+  },
+  {
+   "s": 563.3,
+   "e": 563.68,
+   "t": "Bye."
+  },
+  {
+   "s": 563.94,
+   "e": 564.44,
+   "t": "Bye."
+  },
+  {
+   "s": 564.66,
+   "e": 565.02,
+   "t": "Bye."
+  },
+  {
+   "s": 565.12,
+   "e": 565.3,
+   "t": "Bye."
+  },
+  {
+   "s": 565.36,
+   "e": 565.9,
+   "t": "Bye."
+  },
+  {
+   "s": 566.04,
+   "e": 566.5,
+   "t": "Bye."
+  },
+  {
+   "s": 566.68,
+   "e": 567.14,
+   "t": "Bye."
+  },
+  {
+   "s": 567.24,
+   "e": 567.52,
+   "t": "Bye."
+  },
+  {
+   "s": 567.76,
+   "e": 568.3,
+   "t": "Bye."
+  },
+  {
+   "s": 568.42,
+   "e": 569.02,
+   "t": "Bye."
+  },
+  {
+   "s": 569.1,
+   "e": 569.72,
+   "t": "Bye."
+  },
+  {
+   "s": 569.88,
+   "e": 570.44,
+   "t": "Bye."
+  },
+  {
+   "s": 570.54,
+   "e": 571.1,
+   "t": "Bye."
+  },
+  {
+   "s": 571.24,
+   "e": 571.68,
+   "t": "Bye."
+  },
+  {
+   "s": 571.76,
+   "e": 572.24,
+   "t": "Bye."
+  },
+  {
+   "s": 572.3,
+   "e": 572.84,
+   "t": "Bye."
+  },
+  {
+   "s": 573.06,
+   "e": 573.28,
+   "t": "Bye."
+  },
+  {
+   "s": 573.36,
+   "e": 573.9,
+   "t": "Bye."
+  }
+ ]
+}

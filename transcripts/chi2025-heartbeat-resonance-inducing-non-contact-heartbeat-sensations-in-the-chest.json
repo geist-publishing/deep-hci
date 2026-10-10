@@ -1,0 +1,775 @@
+{
+ "guid": "deephci.podbean.com/510821c8-9d16-3b4a-8c4b-81b94fc34296",
+ "slug": "chi2025-heartbeat-resonance-inducing-non-contact-heartbeat-sensations-in-the-chest",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Heartbeat_Resonance_Non-Contact_Heartbeat_Sensations7ydy2.mp3",
+  "version": 1
+ },
+ "duration": 786,
+ "word_count": 2282,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 5.4,
+   "t": "Welcome to the deep dive. You know that desire to get up to speed on a complex topic quickly,"
+  },
+  {
+   "s": 5.58,
+   "e": 10.88,
+   "t": "but also thoroughly. Today we're tackling something fundamental, connecting with our own bodies,"
+  },
+  {
+   "s": 11.12,
+   "e": 16.52,
+   "t": "specifically those internal sensations. Think about feeling your heartbeat, maybe enhanced by"
+  },
+  {
+   "s": 16.52,
+   "e": 21.48,
+   "t": "technology. Could tech truly deepen this very personal connection? Well, this deep dive explores"
+  },
+  {
+   "s": 21.48,
+   "e": 27.6,
+   "t": "heartbeat resonance. It's a novel system that, get this, induces non-contact heartbeat sensations"
+  },
+  {
+   "s": 27.6,
+   "e": 33.46,
+   "t": "directly within your chest cavity. Our guide today is some cutting-edge research, a paper from CHI 25"
+  },
+  {
+   "s": 33.46,
+   "e": 37.88,
+   "t": "by Waseem Hassan and colleagues. They're based at the University of Copenhagen and Universidad"
+  },
+  {
+   "s": 37.88,
+   "e": 42.64,
+   "t": "Publica de Navarra. So our mission for you is to unpack how this technology functions, look at what"
+  },
+  {
+   "s": 42.64,
+   "e": 47.84,
+   "t": "the experiments demonstrated, and explore its considerable potential for biofeedback and maybe"
+  },
+  {
+   "s": 47.84,
+   "e": 52.76,
+   "t": "immersive digital experiences. We want to pull out the core insights. Let's start with the context."
+  },
+  {
+   "s": 52.76,
+   "e": 58.02,
+   "t": "There's this growing need, wouldn't you say, in modern life to understand and engage with our"
+  },
+  {
+   "s": 58.02,
+   "e": 62.66,
+   "t": "internal physiological states. Disruptions there can noticeably impair cognitive performance, general"
+  },
+  {
+   "s": 62.66,
+   "e": 67.68,
+   "t": "health. That's right. And we've long used biofeedback for this. It's essentially using physiological data"
+  },
+  {
+   "s": 67.68,
+   "e": 73.5,
+   "t": "to help people regulate functions, usually outside conscious control. Okay. Which is different from"
+  },
+  {
+   "s": 73.5,
+   "e": 80.76,
+   "t": "entrainment. Entrainment is more passive. External stimuli sort of guide or sync up with physiological"
+  },
+  {
+   "s": 80.76,
+   "e": 86.0,
+   "t": "rhythms. You aren't consciously trying to change things. Right. And traditional methods, often wearables,"
+  },
+  {
+   "s": 86.12,
+   "e": 90.54,
+   "t": "they've had limitations, haven't they? They can be intrusive, maybe a bit cumbersome. And the feedback"
+  },
+  {
+   "s": 90.54,
+   "e": 96.86,
+   "t": "often comes to, say, your wrist, which isn't where you naturally sense your heart. Exactly. That spatial"
+  },
+  {
+   "s": 96.86,
+   "e": 103.44,
+   "t": "mismatch is a problem. Plus, comfort, restriction of movement, delivering feedback that feels internal and"
+  },
+  {
+   "s": 103.44,
+   "e": 108.46,
+   "t": "natural without contact. That's been a major challenge. Which brings us neatly to heartbeat resonance."
+  },
+  {
+   "s": 108.46,
+   "e": 113.54,
+   "t": "It's positioned as a solution to these very problems. It uses low frequency sound waves,"
+  },
+  {
+   "s": 113.62,
+   "e": 118.88,
+   "t": "apparently, to create these non-contact haptic sensations, mimicking heartbeats. How does that work"
+  },
+  {
+   "s": 118.88,
+   "e": 123.72,
+   "t": "technologically? It's based on acoustics. When you can find low frequency sounds in a sealed space,"
+  },
+  {
+   "s": 123.86,
+   "e": 128.88,
+   "t": "you get standing waves. Think of them as fixed patterns of high and low sound pressure in the air."
+  },
+  {
+   "s": 129.28,
+   "e": 133.72,
+   "t": "Uh-huh. These specific pressure fields can actually induce tactile sensations on the body."
+  },
+  {
+   "s": 133.72,
+   "e": 140.26,
+   "t": "So the system harnesses this. It designs digital heartbeat signals and uses these low frequencies to"
+  },
+  {
+   "s": 140.26,
+   "e": 146.58,
+   "t": "modulate them, effectively creating a heartbeat feeling inside the chest cavity. No wires, no direct"
+  },
+  {
+   "s": 146.58,
+   "e": 153.2,
+   "t": "contact. Fascinating. And they built a special room for this, made of MDF, medium-density fiberboard,"
+  },
+  {
+   "s": 153.3,
+   "e": 160.82,
+   "t": "with specific dimensions. Yes, quite precisely built. 1.7 by 2.18 by 2.12 meters. The room is key to"
+  },
+  {
+   "s": 160.82,
+   "e": 166.14,
+   "t": "controlling the acoustics and ensuring those standing waves form properly. And a powerful subwoofer, too,"
+  },
+  {
+   "s": 166.36,
+   "e": 171.92,
+   "t": "an SVS-SB4000. That's needed to generate those low frequencies accurately. Right. And with enough power"
+  },
+  {
+   "s": 171.92,
+   "e": 177.5,
+   "t": "to create perceivable sensations, up to 300 hertz. But it's the very low end that's crucial here. So how do"
+  },
+  {
+   "s": 177.5,
+   "e": 182.5,
+   "t": "they know where in the room the sensation will be felt? That involves some physics and computation. They use"
+  },
+  {
+   "s": 182.5,
+   "e": 188.02,
+   "t": "the Helmholtz equation and finite element analysis, FEA. These tools let them predict the sound pressure"
+  },
+  {
+   "s": 188.02,
+   "e": 193.42,
+   "t": "distribution within the room, mapping out where the pressure maximal will occur. This allows them to"
+  },
+  {
+   "s": 193.42,
+   "e": 198.48,
+   "t": "target the sensation, specifically at chest height for a seated participant. And they found specific"
+  },
+  {
+   "s": 198.48,
+   "e": 204.22,
+   "t": "frequencies were important. They did. They identified 14 modal frequencies below 200 hertz. And one in"
+  },
+  {
+   "s": 204.22,
+   "e": 211.56,
+   "t": "particular, 78.05 hertz, emerged as quite significant for inducing these sensations effectively. So with the"
+  },
+  {
+   "s": 211.56,
+   "e": 218.0,
+   "t": "setup ready, the first step was validation. Did people actually feel these non-contact heartbeats? How real did"
+  },
+  {
+   "s": 218.02,
+   "e": 224.12,
+   "t": "they feel? This first experiment was about evaluating perceived realism, intensity, location on the body,"
+  },
+  {
+   "s": 224.12,
+   "e": 231.0,
+   "t": "and the type of sensation. They compared it against a real heartbeat sound baseline. Correct. The team"
+  },
+  {
+   "s": 231.0,
+   "e": 235.82,
+   "t": "crafted digital heartbeat signals very carefully. They replicated the main components, the lub sound,"
+  },
+  {
+   "s": 235.92,
+   "e": 242.78,
+   "t": "S1, and the dub sound, S2. They even added a subtle tail after the dub for more realism. These are based on a"
+  },
+  {
+   "s": 242.78,
+   "e": 248.86,
+   "t": "150 hertz sine wave shaped with an envelope. They tested a basic version, lub-dub, and an enhanced one"
+  },
+  {
+   "s": 248.86,
+   "e": 253.64,
+   "t": "with the tail. And these signals were then modulated using four of those low frequencies identified earlier."
+  },
+  {
+   "s": 254.18,
+   "e": 263.5,
+   "t": "78.05 hertz, 100.09 hertz, 156.1 hertz, and 200.18 hertz. And who participated? 14 individuals,"
+  },
+  {
+   "s": 263.68,
+   "e": 270.7,
+   "t": "eight females, six males, age between 24 and 29. So what were the key findings from this first test?"
+  },
+  {
+   "s": 270.7,
+   "e": 276.94,
+   "t": "What worked best? Well, for perceived realism, that 78.05 hertz modulation frequency consistently"
+  },
+  {
+   "s": 276.94,
+   "e": 281.8,
+   "t": "scored highest. This was true for both the basic and enhanced digital signals. Higher than the others?"
+  },
+  {
+   "s": 282.06,
+   "e": 287.92,
+   "t": "Significantly so. And interestingly, lower frequencies generally felt more realistic, creating that sense of"
+  },
+  {
+   "s": 287.92,
+   "e": 293.9,
+   "t": "an internal sensation. The 78 hertz signal was even rated as significantly more realistic than the actual"
+  },
+  {
+   "s": 293.9,
+   "e": 298.84,
+   "t": "recorded heartbeat signal played through the system. Hold on, the generated signal felt more real than a real"
+  },
+  {
+   "s": 298.84,
+   "e": 304.18,
+   "t": "recording. That's what the data showed. It implies that the way the sensation is delivered internally via"
+  },
+  {
+   "s": 304.18,
+   "e": 309.22,
+   "t": "these pressure waves might be more crucial for realism than the acoustic fidelity of the source sound itself"
+  },
+  {
+   "s": 309.22,
+   "e": 314.02,
+   "t": "when delivered externally. That's a profound point. What about intensity? Intensity showed a different pattern."
+  },
+  {
+   "s": 314.62,
+   "e": 321.06,
+   "t": "The highest frequency, 200 hertz, produced the most intense sensations. There seemed to be an inverse relationship"
+  },
+  {
+   "s": 321.06,
+   "e": 327.66,
+   "t": "generally. Lower frequencies for realism, higher frequencies for intensity. But you said 78 hertz was"
+  },
+  {
+   "s": 327.66,
+   "e": 333.34,
+   "t": "significant. Yes. 78 hertz was the exception. It managed to score highly on both realism and intensity."
+  },
+  {
+   "s": 333.34,
+   "e": 337.86,
+   "t": "Kind of a sweet spot. Okay. And where did people feel it? Was it localized to the chest?"
+  },
+  {
+   "s": 338.66,
+   "e": 343.94,
+   "t": "Overwhelmingly, yes. The heat maps generated from participant feedback showed sensations consistently"
+  },
+  {
+   "s": 343.94,
+   "e": 350.8,
+   "t": "localized to the central torso, the chest area, across almost all conditions. Lower frequencies tended to produce"
+  },
+  {
+   "s": 350.8,
+   "e": 355.9,
+   "t": "slightly more localized sensations too. And the type of sensation, inside or on the surface?"
+  },
+  {
+   "s": 355.9,
+   "e": 361.5,
+   "t": "Participants most often described it as feeling inside the body, especially with that 78 hertz modulation."
+  },
+  {
+   "s": 362.2,
+   "e": 366.56,
+   "t": "Fewer felt it just on the skin surface. How did that compare to the real heartbeat recording?"
+  },
+  {
+   "s": 366.92,
+   "e": 371.98,
+   "t": "The real recording was more often perceived as a surface sensation, again highlighting the unique effect of"
+  },
+  {
+   "s": 371.98,
+   "e": 379.3,
+   "t": "the heartbeat resonance delivery method. So, based on all this, the enhanced heartbeat signal modulated at 78.05 hertz"
+  },
+  {
+   "s": 379.3,
+   "e": 385.18,
+   "t": "was selected for the next phase. It offered the best combination of perceived realism and that crucial internal"
+  },
+  {
+   "s": 385.18,
+   "e": 392.04,
+   "t": "sensation quality. Right. Which leads to experiment two. This one focused on perceived entrainment, that subjective"
+  },
+  {
+   "s": 392.04,
+   "e": 397.66,
+   "t": "feeling of your own heart aligning with the external signal, not necessarily actual physiological synchronization,"
+  },
+  {
+   "s": 397.92,
+   "e": 403.4,
+   "t": "but the perception of it. Correct. They used that optimal signal. Enhanced heartbeat, 78.05 hertz modulation."
+  },
+  {
+   "s": 403.4,
+   "e": 409.26,
+   "t": "Then they varied its rate relative to each participant's resting baseline heart rate. How much variation?"
+  },
+  {
+   "s": 409.72,
+   "e": 416.58,
+   "t": "They tested plus 15% faster, plus 30% faster, negative 15% slower, and negative 30% slower. And they compared"
+  },
+  {
+   "s": 416.58,
+   "e": 421.68,
+   "t": "delivery methods. Yes. They compared heartbeat resonance delivering the sensation to the chest against"
+  },
+  {
+   "s": 421.68,
+   "e": 427.64,
+   "t": "traditional vibro-tactile feedback, a small motor vibrating on the participant's right wrist. Who participated in"
+  },
+  {
+   "s": 427.64,
+   "e": 432.96,
+   "t": "this one? 20 participants this time, an even split of 10 female and 10 male, age 20 to 28."
+  },
+  {
+   "s": 432.96,
+   "e": 438.72,
+   "t": "What did this experiment reveal about perceiving heart rate changes? Participants were generally able to"
+  },
+  {
+   "s": 438.72,
+   "e": 445.14,
+   "t": "perceive the direction of the change. For heartbeat resonance, 65% reported feeling an increase when the"
+  },
+  {
+   "s": 445.14,
+   "e": 452.94,
+   "t": "plus 15% signal was presented, and 50% reported feeling a decrease with the nihil 30% signal. How did that"
+  },
+  {
+   "s": 452.94,
+   "e": 459.56,
+   "t": "compare to the wrist vibration? The vibro-tactile condition showed more varied results, especially when"
+  },
+  {
+   "s": 459.56,
+   "e": 464.48,
+   "t": "participants were asked about perceiving a decrease in heart rate. It seemed less consistent. And what"
+  },
+  {
+   "s": 464.48,
+   "e": 468.84,
+   "t": "about their confidence in these perceptions? While there wasn't a statistically significant difference"
+  },
+  {
+   "s": 468.84,
+   "e": 474.18,
+   "t": "across all conditions, there was a pattern. Participants tended to report higher confidence when using"
+  },
+  {
+   "s": 474.18,
+   "e": 481.34,
+   "t": "heartbeat resonance, particularly for perceiving the plus 15% increase and the 90% decrease. Suggests a"
+  },
+  {
+   "s": 481.34,
+   "e": 486.8,
+   "t": "clearer signal, perhaps. But wasn't there also a finding about actual physiological heart rate? Yes,"
+  },
+  {
+   "s": 486.8,
+   "e": 492.08,
+   "t": "and this is quite noteworthy. In the condition using heartbeat resonance at plus 15% BPM, there was a"
+  },
+  {
+   "s": 492.08,
+   "e": 497.1,
+   "t": "statistically significant change in the participants' actual measured heart rates compared to their resting"
+  },
+  {
+   "s": 497.1,
+   "e": 502.56,
+   "t": "baseline. So it wasn't just perception in that case, it actually influenced their physiology. In that"
+  },
+  {
+   "s": 502.56,
+   "e": 508.8,
+   "t": "specific condition, yes. It points towards actual physiological entrainment occurring, even with relatively"
+  },
+  {
+   "s": 508.8,
+   "e": 516.62,
+   "t": "short exposure. So summing up experiment two, heartbeat resonance demonstrated effectiveness in inducing"
+  },
+  {
+   "s": 516.62,
+   "e": 523.24,
+   "t": "perceived entrainment, and in one key condition, measurable physiological entrainment as well. That feels like a"
+  },
+  {
+   "s": 523.24,
+   "e": 530.72,
+   "t": "significant step. Let's zoom out then. Why is this non-contact in-chest approach potentially so important? What are the"
+  },
+  {
+   "s": 530.72,
+   "e": 537.14,
+   "t": "broader implications? From a theoretical standpoint, a few mechanisms likely play a role. The baroreceptor"
+  },
+  {
+   "s": 537.14,
+   "e": 542.26,
+   "t": "reflex is a strong candidate. That's the body's rapid system for regulating blood pressure, sensitive to"
+  },
+  {
+   "s": 542.26,
+   "e": 548.26,
+   "t": "changes in heart rate perception. The vagal afferent pathways, nerves carrying sensory info from organs to the"
+  },
+  {
+   "s": 548.26,
+   "e": 553.88,
+   "t": "brain, might also be stimulated by these chest sensations. Other theories, like operant conditioning or"
+  },
+  {
+   "s": 553.88,
+   "e": 559.36,
+   "t": "resonance frequency feedback, usually require longer exposure times than used here. And how does it stack up"
+  },
+  {
+   "s": 559.36,
+   "e": 564.36,
+   "t": "against current methods, like the wearables we discussed? Well, the clear advantages are comfort,"
+  },
+  {
+   "s": 564.36,
+   "e": 570.16,
+   "t": "and the naturalness of the sensation delivering it to the chest aligns better with our innate body map."
+  },
+  {
+   "s": 570.62,
+   "e": 575.74,
+   "t": "The major limitation currently is the need for that controlled acoustic environment. You can't just"
+  },
+  {
+   "s": 575.74,
+   "e": 582.34,
+   "t": "walk around with it like a watch. True. However, in the direct comparison study, heartbeat resonance performed on"
+  },
+  {
+   "s": 582.34,
+   "e": 588.32,
+   "t": "par with, and sometimes better than, vibro-tactile feedback. It seems to provide a more consistent"
+  },
+  {
+   "s": 588.32,
+   "e": 594.2,
+   "t": "experience and foster higher confidence in perceiving the signals. What's the core benefit then of feeling"
+  },
+  {
+   "s": 594.2,
+   "e": 600.88,
+   "t": "it in the chest? Inducing the sensation there seems to foster entrainment more readily and perhaps more"
+  },
+  {
+   "s": 600.88,
+   "e": 607.2,
+   "t": "importantly, has the potential to enhance interoceptive ability. That's our capacity to sense our own internal bodily"
+  },
+  {
+   "s": 607.2,
+   "e": 612.96,
+   "t": "states. It could help the brain build a more accurate internal model, which might be especially helpful for people with"
+  },
+  {
+   "s": 612.96,
+   "e": 618.96,
+   "t": "lower interoceptive sensitivity. Think of it like the rubber hand illusion. The more realistic the fake hand feels, the"
+  },
+  {
+   "s": 618.96,
+   "e": 624.0,
+   "t": "stronger the illusion. Here, the realism seems to enhance the connection to the internal state."
+  },
+  {
+   "s": 624.06,
+   "e": 626.64,
+   "t": "Makes sense. And just to recap the optimal parameters."
+  },
+  {
+   "s": 626.64,
+   "e": 635.64,
+   "t": "Yes. The enhanced heartbeat signal, modulated at 78 hertz, seems best for realistic sensations and entrainment. For inducing a"
+  },
+  {
+   "s": 635.64,
+   "e": 643.1,
+   "t": "perception of excitement or higher arousal, the plus 15% BPM increase was effective. For promoting a perception of"
+  },
+  {
+   "s": 643.1,
+   "e": 650.44,
+   "t": "calm, the negative 30% BPM decrease showed the most promise. Okay, so with this refined understanding, what kinds of"
+  },
+  {
+   "s": 650.44,
+   "e": 656.72,
+   "t": "practical applications could we envision? The potential is quite broad. Obvious ones are in biofeedback offering a"
+  },
+  {
+   "s": 656.72,
+   "e": 663.72,
+   "t": "comfortable, perhaps more effective alternative to wearables for stress reduction or focus training. In virtual reality, it could add a"
+  },
+  {
+   "s": 663.72,
+   "e": 670.34,
+   "t": "powerful layer of realism and emotional depth. Imagine feeling your heart race in a tense simulation or calm down in a"
+  },
+  {
+   "s": 670.34,
+   "e": 677.38,
+   "t": "meditative VR environment. That would be immersive. Definitely. Another application is object state conveyance. Using heartbeat patterns may be"
+  },
+  {
+   "s": 677.38,
+   "e": 683.8,
+   "t": "faster or slower, stronger or weaker to communicate the status of devices. Is your battery low? Is a component about to fail? The"
+  },
+  {
+   "s": 683.8,
+   "e": 689.42,
+   "t": "heartbeat could convey that intuitively. Like a vital sign for objects. Exactly. And then there's the application you noted earlier,"
+  },
+  {
+   "s": 689.84,
+   "e": 696.12,
+   "t": "fostering empathy. Imagine a system allowing you to feel the heartbeat of another person in real time. This could be used in"
+  },
+  {
+   "s": 696.12,
+   "e": 700.7,
+   "t": "therapy, collaborative work, or social VR to build connection and understanding."
+  },
+  {
+   "s": 701.24,
+   "e": 709.58,
+   "t": "That last one has some profound social implications. But as always, there are limitations to the current research. What did the"
+  },
+  {
+   "s": 709.58,
+   "e": 718.92,
+   "t": "researchers highlight? The main ones were the controlled environment. A single empty sealed room isn't the real world. And the exposure times in the"
+  },
+  {
+   "s": 718.92,
+   "e": 726.1,
+   "t": "experiments were quite short, generally not long enough to induce widespread physiological changes, apart from that one plus 15%"
+  },
+  {
+   "s": 726.1,
+   "e": 733.14,
+   "t": "condition. So what's next for this line of research? They plan to explore longer exposure durations, maybe three to five"
+  },
+  {
+   "s": 733.14,
+   "e": 739.38,
+   "t": "minutes, to see if that leads to more robust physiological effects. Longitudinal studies are also needed to assess long-term"
+  },
+  {
+   "s": 739.38,
+   "e": 745.16,
+   "t": "benefits, especially for things like emotional regulation or improving interoceptive awareness over time. And"
+  },
+  {
+   "s": 745.16,
+   "e": 751.22,
+   "t": "specifically investigating if this can measurably improve interoceptive accuracy, helping people become better at actually"
+  },
+  {
+   "s": 751.22,
+   "e": 755.96,
+   "t": "detecting and interpreting their internal signals. So as we wrap up this deep dive, here's a"
+  },
+  {
+   "s": 755.96,
+   "e": 761.64,
+   "t": "thought to consider. What happens when technology can subtly influence our perception of our own internal"
+  },
+  {
+   "s": 761.64,
+   "e": 767.5,
+   "t": "states? Could this reshape our self-awareness, our connection with others? It seems we might be moving"
+  },
+  {
+   "s": 767.5,
+   "e": 773.4,
+   "t": "beyond just displaying information towards creating a deeper felt experience of physiology our own, and perhaps"
+  },
+  {
+   "s": 773.4,
+   "e": 779.36,
+   "t": "even that of others. We encourage you to think about that. The potential for non-contact physiological feedback to"
+  },
+  {
+   "s": 779.36,
+   "e": 784.9,
+   "t": "weave itself into future technology, from therapy to social platforms, what might the implications be? It's certainly"
+  },
+  {
+   "s": 784.9,
+   "e": 785.7,
+   "t": "something to ponder."
+  },
+  {
+   "s": 790.12,
+   "e": 791.84,
+   "t": "Going into teaching language is definitely something to ponder."
+  },
+  {
+   "s": 792.62,
+   "e": 793.34,
+   "t": "Right."
+  },
+  {
+   "s": 793.9,
+   "e": 794.58,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 794.58,
+   "e": 795.74,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 796.04,
+   "e": 797.44,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 797.44,
+   "e": 798.04,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 798.04,
+   "e": 798.58,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 798.58,
+   "e": 799.26,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 799.26,
+   "e": 799.86,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 799.86,
+   "e": 800.96,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 800.96,
+   "e": 802.1,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 802.1,
+   "e": 803.14,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 803.14,
+   "e": 804.06,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 804.06,
+   "e": 805.3,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 805.3,
+   "e": 806.24,
+   "t": "At least something to ponder."
+  },
+  {
+   "s": 806.24,
+   "e": 807.56,
+   "t": "address what can't understand what our Music can play intwithaction with item"
+  },
+  {
+   "s": 807.56,
+   "e": 809.26,
+   "t": "ahead that their expression for text down how can't stop play"
+  },
+  {
+   "s": 809.26,
+   "e": 810.56,
+   "t": "However can they view your skill will often det forms out there we don't"
+  },
+  {
+   "s": 810.56,
+   "e": 810.24,
+   "t": "Moines who don't believe it So by phone call through hope so interest does things out"
+  }
+ ]
+}

@@ -1,0 +1,830 @@
+{
+ "guid": "deephci.podbean.com/f9aa4a45-0bfb-30e0-ae95-08b11c7692e1",
+ "slug": "linking-audience-physiology-to-choreography",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "han2022linking.mp3",
+  "version": 1
+ },
+ "duration": 504,
+ "word_count": 1587,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 0.54,
+   "t": "Hey there."
+  },
+  {
+   "s": 1.24,
+   "e": 5.86,
+   "t": "Ever get that feeling during a performance like your heart is like pounding in sync with the music?"
+  },
+  {
+   "s": 6.12,
+   "e": 8.3,
+   "t": "Or you get goosebumps at just the right moment."
+  },
+  {
+   "s": 8.54,
+   "e": 8.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 9.04,
+   "e": 11.92,
+   "t": "Today's deep dive is all about why that happens."
+  },
+  {
+   "s": 12.28,
+   "e": 12.54,
+   "t": "Cool."
+  },
+  {
+   "s": 12.54,
+   "e": 18.78,
+   "t": "We're looking into the fascinating world of audience physiology and how our bodies react to dance performance."
+  },
+  {
+   "s": 19.3,
+   "e": 19.96,
+   "t": "It's really remarkable."
+  },
+  {
+   "s": 19.96,
+   "e": 33.18,
+   "t": "We're moving beyond kind of simply asking people how they feel and actually measuring those like visceral reactions like eavesdropping on the conversation between like art and your nervous system."
+  },
+  {
+   "s": 33.18,
+   "e": 37.3,
+   "t": "And we have some like cutting edge research from Keough University to thank for these insights."
+  },
+  {
+   "s": 37.44,
+   "e": 43.34,
+   "t": "They've been doing some incredible work using wearable sensors to track audience reactions during live dance performances."
+  },
+  {
+   "s": 43.7,
+   "e": 44.04,
+   "t": "Yeah."
+  },
+  {
+   "s": 44.08,
+   "e": 47.08,
+   "t": "They call this project Boiling Mind, which I just love."
+  },
+  {
+   "s": 47.08,
+   "e": 52.26,
+   "t": "It perfectly captures that feeling of excitement and intensity you get from a live performance."
+  },
+  {
+   "s": 52.42,
+   "e": 62.94,
+   "t": "It's a true collaboration between artists and scientists using technology to understand that ancient connection between performer and audience."
+  },
+  {
+   "s": 63.36,
+   "e": 67.5,
+   "t": "And what's even cooler is they didn't just like stick sensors on people and call it a day."
+  },
+  {
+   "s": 67.64,
+   "e": 67.76,
+   "t": "Right."
+  },
+  {
+   "s": 67.86,
+   "e": 71.96,
+   "t": "They actually use the data to inform the performance in real time."
+  },
+  {
+   "s": 72.14,
+   "e": 72.56,
+   "t": "Exactly."
+  },
+  {
+   "s": 72.56,
+   "e": 83.3,
+   "t": "They created this feedback loop where the audience's reactions, things like heart rate and even subtle changes in sweat, could actually influence the music, lighting, and even the dancers' movements on stage."
+  },
+  {
+   "s": 83.44,
+   "e": 84.94,
+   "t": "Talk about immersive theater."
+  },
+  {
+   "s": 85.14,
+   "e": 85.7,
+   "t": "I know, right?"
+  },
+  {
+   "s": 86.6,
+   "e": 91.58,
+   "t": "Now for our deep dive, we're focusing on a specific performance from this project called Her Chair."
+  },
+  {
+   "s": 92.14,
+   "e": 95.02,
+   "t": "Before we get to the data itself, can you set the stage for us?"
+  },
+  {
+   "s": 95.24,
+   "e": 98.32,
+   "t": "What were the researchers hoping to learn from this particular piece?"
+  },
+  {
+   "s": 98.32,
+   "e": 104.38,
+   "t": "Her Chair was designed to be a journey, both for the dancers and the audience."
+  },
+  {
+   "s": 104.82,
+   "e": 114.52,
+   "t": "It explored themes of women in Japanese society, their struggles and triumphs, using a mix of high energy movement, intimate interactions, and quieter moments of reflection."
+  },
+  {
+   "s": 115.52,
+   "e": 125.38,
+   "t": "By analyzing the audience's physiological responses to these different sections, researchers hope to pinpoint exactly how our bodies react to various choreographic elements."
+  },
+  {
+   "s": 125.38,
+   "e": 132.02,
+   "t": "So they weren't just interested in whether people liked it, but how their bodies physically responded to what was happening on stage."
+  },
+  {
+   "s": 132.46,
+   "e": 132.86,
+   "t": "Precisely."
+  },
+  {
+   "s": 133.2,
+   "e": 136.6,
+   "t": "They used the sensors to track things like heart rate variability or HRV."
+  },
+  {
+   "s": 136.74,
+   "e": 136.98,
+   "t": "Okay."
+  },
+  {
+   "s": 137.14,
+   "e": 140.44,
+   "t": "And liquid dunal activity, which is a fancy way of saying changes in sweat."
+  },
+  {
+   "s": 140.54,
+   "e": 140.76,
+   "t": "Right."
+  },
+  {
+   "s": 141.24,
+   "e": 148.24,
+   "t": "These metrics give us a window into the nervous system and can tell us whether someone is relaxed, stressed, excited, or somewhere in between."
+  },
+  {
+   "s": 148.24,
+   "e": 153.52,
+   "t": "It's like our bodies have their own language and we're just starting to figure out how to translate it."
+  },
+  {
+   "s": 153.92,
+   "e": 155.62,
+   "t": "So walk us through the performance itself."
+  },
+  {
+   "s": 155.74,
+   "e": 159.4,
+   "t": "What were some of the key moments or sections that the researchers are most interested in?"
+  },
+  {
+   "s": 159.64,
+   "e": 164.18,
+   "t": "Well, they're particularly interested in a measure of heart rate variability called PNN50."
+  },
+  {
+   "s": 164.62,
+   "e": 164.84,
+   "t": "Okay."
+  },
+  {
+   "s": 164.88,
+   "e": 166.02,
+   "t": "I have to ask PNN50."
+  },
+  {
+   "s": 166.16,
+   "e": 167.14,
+   "t": "Break that down for us."
+  },
+  {
+   "s": 167.24,
+   "e": 168.76,
+   "t": "What is it and why is it important?"
+  },
+  {
+   "s": 169.18,
+   "e": 174.78,
+   "t": "Think of PNN50 as a measure of your body's ability to like relax higher than 50."
+  },
+  {
+   "s": 174.96,
+   "e": 175.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 175.18,
+   "e": 178.9,
+   "t": "So PNN50 means your body is in like rest and digest mode."
+  },
+  {
+   "s": 179.02,
+   "e": 179.32,
+   "t": "Okay."
+  },
+  {
+   "s": 179.64,
+   "e": 182.72,
+   "t": "While a lower value might indicate stress or excitement."
+  },
+  {
+   "s": 182.94,
+   "e": 183.08,
+   "t": "Right."
+  },
+  {
+   "s": 183.44,
+   "e": 186.12,
+   "t": "And what they found with her chair was fascinating."
+  },
+  {
+   "s": 186.24,
+   "e": 195.74,
+   "t": "Even though the performance had those moments of high energy, especially in the beginning, the overall arc of the piece led to a significant increase in the audience's PNN50 levels."
+  },
+  {
+   "s": 195.8,
+   "e": 200.82,
+   "t": "So even with those intense moments, the audience was actually becoming more relaxed as the performance went on."
+  },
+  {
+   "s": 200.86,
+   "e": 201.3,
+   "t": "Exactly."
+  },
+  {
+   "s": 201.42,
+   "e": 202.62,
+   "t": "It's like choreographing Zen."
+  },
+  {
+   "s": 202.9,
+   "e": 203.28,
+   "t": "Wow."
+  },
+  {
+   "s": 203.28,
+   "e": 206.46,
+   "t": "And this finding opens up so many possibilities."
+  },
+  {
+   "s": 206.74,
+   "e": 211.82,
+   "t": "If we can intentionally design performances to evoke a sense of calm and relaxation."
+  },
+  {
+   "s": 212.9,
+   "e": 218.4,
+   "t": "Imagine the applications for therapeutic settings or even just helping people unwind after a stressful day."
+  },
+  {
+   "s": 218.78,
+   "e": 219.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 219.44,
+   "e": 223.32,
+   "t": "It's like taking the concept of art as therapy to a whole new level."
+  },
+  {
+   "s": 223.72,
+   "e": 226.02,
+   "t": "But it wasn't just about overall relaxation."
+  },
+  {
+   "s": 226.4,
+   "e": 226.52,
+   "t": "Right."
+  },
+  {
+   "s": 226.66,
+   "e": 230.64,
+   "t": "Weren't there also moments where the audience's heart rate spiked?"
+  },
+  {
+   "s": 230.8,
+   "e": 231.04,
+   "t": "Absolutely."
+  },
+  {
+   "s": 231.04,
+   "e": 233.04,
+   "t": "Remember how I mentioned they track heart rate variability?"
+  },
+  {
+   "s": 233.36,
+   "e": 233.54,
+   "t": "Yeah."
+  },
+  {
+   "s": 233.7,
+   "e": 238.92,
+   "t": "Well, another aspect of that is the LFHF ratio, which can be a marker for excitement or stress."
+  },
+  {
+   "s": 239.14,
+   "e": 239.3,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 239.52,
+   "e": 242.32,
+   "t": "And boy, did they see some spikes during her chair."
+  },
+  {
+   "s": 243.08,
+   "e": 246.26,
+   "t": "Do tell which parts of the performance really got everyone's heart racing."
+  },
+  {
+   "s": 246.26,
+   "e": 248.1,
+   "t": "One big one was the Bolero section."
+  },
+  {
+   "s": 248.44,
+   "e": 248.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 248.58,
+   "e": 251.54,
+   "t": "Where the music builds and builds to this incredible crescendo."
+  },
+  {
+   "s": 251.76,
+   "e": 251.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 251.86,
+   "e": 255.36,
+   "t": "The audience's LFHF ratios went through the roof."
+  },
+  {
+   "s": 255.8,
+   "e": 258.9,
+   "t": "It was a very visceral experience, both for the dancers and the viewers."
+  },
+  {
+   "s": 259.38,
+   "e": 267.5,
+   "t": "And what's interesting is they saw a similar spike, though not as pronounced, when the dancers moved close to the audience with a puppet."
+  },
+  {
+   "s": 267.5,
+   "e": 268.5,
+   "t": "A puppet."
+  },
+  {
+   "s": 268.5,
+   "e": 269.74,
+   "t": "Now, that's not what I was expecting."
+  },
+  {
+   "s": 269.88,
+   "e": 273.16,
+   "t": "What was it about that moment that elicited such a strong reaction, do you think?"
+  },
+  {
+   "s": 273.32,
+   "e": 276.24,
+   "t": "It's speculation, but I'd say it's a combination of things."
+  },
+  {
+   "s": 276.36,
+   "e": 276.5,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 276.5,
+   "e": 278.54,
+   "t": "The puppet itself was a bit unexpected."
+  },
+  {
+   "s": 278.96,
+   "e": 283.52,
+   "t": "And any time you introduce an element of surprise, you're going to get a physiological response."
+  },
+  {
+   "s": 283.52,
+   "e": 291.52,
+   "t": "Plus, there's something about things coming into our personal space, even in a performance setting, that triggers this primal reaction."
+  },
+  {
+   "s": 291.88,
+   "e": 297.7,
+   "t": "Think about those moments in a horror movie where you know something's about to jump out and your heart starts racing even though you're safe on your couch."
+  },
+  {
+   "s": 297.84,
+   "e": 298.06,
+   "t": "Right."
+  },
+  {
+   "s": 298.28,
+   "e": 300.02,
+   "t": "It's that same kind of visceral response."
+  },
+  {
+   "s": 300.3,
+   "e": 305.28,
+   "t": "It's like our bodies are hardwired to pay attention when something unexpected enters our bubble."
+  },
+  {
+   "s": 305.64,
+   "e": 305.98,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 305.98,
+   "e": 307.98,
+   "t": "But those weren't the only moments that triggered a response."
+  },
+  {
+   "s": 309.0,
+   "e": 312.38,
+   "t": "Were they, what about the electrogermal activity, the sweat sensor data?"
+  },
+  {
+   "s": 312.38,
+   "e": 313.68,
+   "t": "What did that reveal?"
+  },
+  {
+   "s": 314.04,
+   "e": 314.94,
+   "t": "Ah, yes."
+  },
+  {
+   "s": 315.64,
+   "e": 323.02,
+   "t": "The EDA data was particularly revealing when it came to moments of direct interaction between the dancers and the audience, for example."
+  },
+  {
+   "s": 323.46,
+   "e": 328.6,
+   "t": "There was a section in her chair where the dancers moved through the audience handing out business cards."
+  },
+  {
+   "s": 329.08,
+   "e": 329.28,
+   "t": "Okay."
+  },
+  {
+   "s": 329.34,
+   "e": 331.76,
+   "t": "I remember reading about that, and I'm picturing it correctly."
+  },
+  {
+   "s": 331.86,
+   "e": 334.06,
+   "t": "That's where we saw those huge spikes in EDA, right?"
+  },
+  {
+   "s": 334.16,
+   "e": 337.64,
+   "t": "It's like our bodies light up when we're pulled into the performance in that way."
+  },
+  {
+   "s": 337.82,
+   "e": 338.3,
+   "t": "Precisely."
+  },
+  {
+   "s": 338.52,
+   "e": 340.08,
+   "t": "And it wasn't just the business card scene."
+  },
+  {
+   "s": 340.08,
+   "e": 344.32,
+   "t": "They saw the same thing when an audience member was invited on stage during the Romeo section."
+  },
+  {
+   "s": 346.1,
+   "e": 352.56,
+   "t": "It seems our bodies crave connection, and those moments of direct engagement create a measurable physiological response."
+  },
+  {
+   "s": 353.0,
+   "e": 355.46,
+   "t": "But here's the really fascinating part."
+  },
+  {
+   "s": 356.0,
+   "e": 358.96,
+   "t": "The researchers didn't just analyze the data in isolation."
+  },
+  {
+   "s": 359.38,
+   "e": 363.6,
+   "t": "They actually went back and talked to the dancers about their experiences during the performance."
+  },
+  {
+   "s": 363.6,
+   "e": 364.16,
+   "t": "Okay."
+  },
+  {
+   "s": 364.3,
+   "e": 369.62,
+   "t": "Now, that is what I love about this kind of research, getting both the objective data and the subjective human experience."
+  },
+  {
+   "s": 369.88,
+   "e": 371.2,
+   "t": "So what did the dancers have to say?"
+  },
+  {
+   "s": 371.78,
+   "e": 375.0,
+   "t": "Were they even aware of these physiological shifts happening in the audience?"
+  },
+  {
+   "s": 375.18,
+   "e": 378.88,
+   "t": "It's like that invisible thread connecting performer and audience, right?"
+  },
+  {
+   "s": 379.02,
+   "e": 379.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 379.42,
+   "e": 382.98,
+   "t": "But have the dancers pick it up without even realizing they were plugged into the biofeedback."
+  },
+  {
+   "s": 382.98,
+   "e": 384.94,
+   "t": "What did they say about that experience?"
+  },
+  {
+   "s": 385.2,
+   "e": 385.84,
+   "t": "It was incredible."
+  },
+  {
+   "s": 386.04,
+   "e": 390.38,
+   "t": "Many of them talked about sensing the audience's energy, almost like a sixth sense."
+  },
+  {
+   "s": 391.08,
+   "e": 398.12,
+   "t": "They described adjusting their movements in response to those subtle cues, even though they weren't consciously aware of the data being collected."
+  },
+  {
+   "s": 398.12,
+   "e": 405.34,
+   "t": "So they're instinctively responding to these micro shifts in the audience's energy, creating this fascinating feedback loop."
+  },
+  {
+   "s": 405.96,
+   "e": 414.38,
+   "t": "Makes you wonder how much of what we perceive as stage presence is actually this deep, unspoken connection between performer and audience."
+  },
+  {
+   "s": 414.48,
+   "e": 415.8,
+   "t": "It really makes you think, doesn't it?"
+  },
+  {
+   "s": 415.82,
+   "e": 417.84,
+   "t": "And it highlights the power of live performance."
+  },
+  {
+   "s": 417.96,
+   "e": 422.08,
+   "t": "There's an immediacy, a shared humanity there that you just can't replicate in a recording."
+  },
+  {
+   "s": 422.2,
+   "e": 423.88,
+   "t": "It's a two-way street, this exchange of energy."
+  },
+  {
+   "s": 424.22,
+   "e": 426.28,
+   "t": "And we're only beginning to understand the science behind it."
+  },
+  {
+   "s": 426.28,
+   "e": 430.98,
+   "t": "We've covered a lot of ground in this steep dive, from heart rate variability to sweaty palms."
+  },
+  {
+   "s": 431.26,
+   "e": 434.2,
+   "t": "But I think the biggest takeaway for me is the potential here."
+  },
+  {
+   "s": 434.8,
+   "e": 442.46,
+   "t": "If we can already see these measurable connections between choreography and physiology, imagine what we can do with this knowledge moving forward."
+  },
+  {
+   "s": 442.66,
+   "e": 443.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 443.22,
+   "e": 448.6,
+   "t": "What if choreographers could use this technology to craft even more impactful, emotionally resonant work?"
+  },
+  {
+   "s": 449.08,
+   "e": 454.36,
+   "t": "We could design performances specifically to evoke certain emotional states, to soothe,"
+  },
+  {
+   "s": 454.36,
+   "e": 457.52,
+   "t": "to excite, to challenge audiences in completely new ways."
+  },
+  {
+   "s": 457.58,
+   "e": 460.5,
+   "t": "It's like unlocking a whole new dimension of artistic expression."
+  },
+  {
+   "s": 460.88,
+   "e": 461.98,
+   "t": "And not just for dance."
+  },
+  {
+   "s": 462.52,
+   "e": 465.44,
+   "t": "Imagine the possibilities for theater music, even museum exhibits."
+  },
+  {
+   "s": 465.84,
+   "e": 469.44,
+   "t": "We could use this research to create truly immersive multisensory experiences,"
+  },
+  {
+   "s": 469.86,
+   "e": 472.62,
+   "t": "tailored to specific physiological and emotional responses."
+  },
+  {
+   "s": 473.08,
+   "e": 474.08,
+   "t": "It's incredibly exciting."
+  },
+  {
+   "s": 474.2,
+   "e": 479.72,
+   "t": "And it speaks to that fundamental human need to connect, to share experiences that resonate not just in our minds,"
+  },
+  {
+   "s": 480.08,
+   "e": 481.26,
+   "t": "but in our bodies as well."
+  },
+  {
+   "s": 481.26,
+   "e": 485.14,
+   "t": "We've thrown a lot at you in this deep dive into audience physiology and choreography."
+  },
+  {
+   "s": 485.6,
+   "e": 487.02,
+   "t": "But here's something to chew on."
+  },
+  {
+   "s": 487.36,
+   "e": 490.72,
+   "t": "Think about the last time you were truly captivated by live performance."
+  },
+  {
+   "s": 491.36,
+   "e": 493.1,
+   "t": "Could you feel the energy in the room?"
+  },
+  {
+   "s": 493.58,
+   "e": 496.14,
+   "t": "Was it a shared experience or something more individual?"
+  },
+  {
+   "s": 496.82,
+   "e": 502.28,
+   "t": "And how might understanding these underlying physiological responses change how we experience art in the future?"
+  },
+  {
+   "s": 502.88,
+   "e": 504.16,
+   "t": "Until next time, keep diving."
+  },
+  {
+   "s": 504.16,
+   "e": 510.56,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 510.66,
+   "e": 512.08,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 512.42,
+   "e": 513.3,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 513.68,
+   "e": 514.4,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 514.76,
+   "e": 515.98,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 516.42,
+   "e": 517.58,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 518.06,
+   "e": 519.14,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 519.74,
+   "e": 520.86,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 521.4,
+   "e": 522.46,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 522.94,
+   "e": 524.28,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 524.68,
+   "e": 525.82,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 526.36,
+   "e": 527.48,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 528.04,
+   "e": 529.1,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 529.46,
+   "e": 530.38,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 530.62,
+   "e": 531.68,
+   "t": "Give them some insight."
+  },
+  {
+   "s": 532.16,
+   "e": 532.96,
+   "t": "Give them some insight."
+  }
+ ]
+}

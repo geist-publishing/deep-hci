@@ -1,0 +1,735 @@
+{
+ "guid": "deephci.podbean.com/7034922e-0eda-3c14-995f-fe9c025a57db",
+ "slug": "uist-2024-honorable-mention-wheeler-a-three-wheeled-input-device-for-usable-eficient-and-versatile-non-visual-interaction",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "hm-3654777-3676396.mp3",
+  "version": 1
+ },
+ "duration": 719,
+ "word_count": 2313,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 3.76,
+   "t": "Today we're looking at the future of digital accessibility."
+  },
+  {
+   "s": 4.24,
+   "e": 12.14,
+   "t": "We're moving past beyond screen readers and into a whole new way that blind users can experience the digital world."
+  },
+  {
+   "s": 12.32,
+   "e": 16.24,
+   "t": "Yes, we're diving into the research behind Wheeler, which is a new input device."
+  },
+  {
+   "s": 16.9,
+   "e": 18.66,
+   "t": "And it's got three wheels."
+  },
+  {
+   "s": 18.8,
+   "e": 22.3,
+   "t": "It's designed to be much more intuitive and efficient than what's currently available."
+  },
+  {
+   "s": 22.3,
+   "e": 27.14,
+   "t": "And they claim it's going to be, according to the researchers, usable, efficient, and versatile."
+  },
+  {
+   "s": 27.14,
+   "e": 30.64,
+   "t": "So what is Wheeler and why is it such a big deal?"
+  },
+  {
+   "s": 31.32,
+   "e": 33.74,
+   "t": "Well, imagine for a second a computer mouse."
+  },
+  {
+   "s": 34.1,
+   "e": 34.28,
+   "t": "Okay."
+  },
+  {
+   "s": 34.36,
+   "e": 39.32,
+   "t": "Now, in your mind, replace the trackball with three rotating wheels and then add two side buttons."
+  },
+  {
+   "s": 39.48,
+   "e": 40.56,
+   "t": "That's the basic design."
+  },
+  {
+   "s": 40.92,
+   "e": 48.46,
+   "t": "Sounds simple, but it has huge potential for how blind users can interact with everything from software to just basic cursor control."
+  },
+  {
+   "s": 48.58,
+   "e": 50.16,
+   "t": "I can see why we're intrigued by the three wheels."
+  },
+  {
+   "s": 50.26,
+   "e": 50.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 50.46,
+   "e": 61.32,
+   "t": "But the researchers, they start by outlining the problems with the traditional keyboard and screen reader setup, calling them cumbersome and time-consuming, especially for navigating menus or using anything graphical."
+  },
+  {
+   "s": 61.62,
+   "e": 69.56,
+   "t": "And that's an important point because while keyboards and screen readers are, of course, essential, they kind of force you into this linear way of navigating."
+  },
+  {
+   "s": 69.74,
+   "e": 75.14,
+   "t": "What this new device wants to do is create a more spatial interaction with digital hierarchies."
+  },
+  {
+   "s": 75.48,
+   "e": 80.3,
+   "t": "This approach could really change the game when you're talking about moving through lots of menus or options."
+  },
+  {
+   "s": 80.46,
+   "e": 87.86,
+   "t": "They call the two methods of interaction H-NAV for hierarchical navigation and C-DNAV for two-dimensional navigation."
+  },
+  {
+   "s": 88.32,
+   "e": 89.52,
+   "t": "So let's start with H-NAV."
+  },
+  {
+   "s": 89.66,
+   "e": 92.2,
+   "t": "How do the wheels actually function within that framework?"
+  },
+  {
+   "s": 92.72,
+   "e": 97.8,
+   "t": "So with H-NAV, each wheel corresponds to a different level in the hierarchy of a particular application."
+  },
+  {
+   "s": 98.4,
+   "e": 100.94,
+   "t": "So think about the ribbon menu in Microsoft Word."
+  },
+  {
+   "s": 101.14,
+   "e": 107.9,
+   "t": "The first wheel might let you switch between the main tabs, and then the second wheel would handle the options within each of those tabs."
+  },
+  {
+   "s": 107.9,
+   "e": 113.26,
+   "t": "And then the third wheel, that one would allow you to access any submenus that are even deeper in."
+  },
+  {
+   "s": 113.26,
+   "e": 118.24,
+   "t": "So instead of tabbing through each option, you could quickly move between sections using the wheels."
+  },
+  {
+   "s": 118.88,
+   "e": 121.24,
+   "t": "Exactly. And they actually give an example of this in the paper."
+  },
+  {
+   "s": 121.64,
+   "e": 130.94,
+   "t": "They show how navigating between really deeply nested menus, which would usually take a bunch of keystrokes, can be done with just a couple of spins on the wheeler."
+  },
+  {
+   "s": 130.94,
+   "e": 137.26,
+   "t": "That sounds much faster. It would be a huge time saver for someone who uses those kinds of applications all the time."
+  },
+  {
+   "s": 137.5,
+   "e": 141.3,
+   "t": "And it's not just about speed. This is about making the experience more intuitive."
+  },
+  {
+   "s": 142.04,
+   "e": 145.56,
+   "t": "You know, blind users have to rely on their mental model of an interface."
+  },
+  {
+   "s": 146.0,
+   "e": 150.96,
+   "t": "And this seems to offer a much more direct and tactile way to interact with that model."
+  },
+  {
+   "s": 150.96,
+   "e": 156.96,
+   "t": "It's almost as if they're taking that digital hierarchy and sort of projecting it onto the physical world with these wheels."
+  },
+  {
+   "s": 157.44,
+   "e": 164.2,
+   "t": "But let's move on to Cubity Nav Mode. This one sounds like it's designed for interacting with graphical elements."
+  },
+  {
+   "s": 164.32,
+   "e": 164.8,
+   "t": "You got it."
+  },
+  {
+   "s": 165.14,
+   "e": 170.54,
+   "t": "Techie Nav Mode lets Wheeler work a lot like a mouse, but with some features that are made specifically for blind users."
+  },
+  {
+   "s": 171.04,
+   "e": 175.16,
+   "t": "Two of the wheels control horizontal and vertical movement, which you'd kind of expect."
+  },
+  {
+   "s": 175.4,
+   "e": 178.64,
+   "t": "But it's the third wheel that really sets this device apart."
+  },
+  {
+   "s": 178.64,
+   "e": 182.32,
+   "t": "So is the third wheel like an accelerator or a brake for the cursor?"
+  },
+  {
+   "s": 182.76,
+   "e": 187.58,
+   "t": "Exactly. It gives the user control over the speed of the cursor, and it can be adjusted on the fly."
+  },
+  {
+   "s": 188.18,
+   "e": 193.34,
+   "t": "The paper stresses how important this level of control is for blind users because they don't have visual cues."
+  },
+  {
+   "s": 193.56,
+   "e": 197.2,
+   "t": "So they have to depend on audio feedback to figure out where they are on the screen."
+  },
+  {
+   "s": 197.48,
+   "e": 204.28,
+   "t": "That's so important. It's not just about moving the cursor, but being able to do it accurately and with confidence, even though you can't see the screen."
+  },
+  {
+   "s": 204.6,
+   "e": 207.96,
+   "t": "And there's another key point they make about Tati Nav Mode."
+  },
+  {
+   "s": 207.96,
+   "e": 213.16,
+   "t": "It lets you get to what the researchers call blind spots in digital interfaces."
+  },
+  {
+   "s": 213.92,
+   "e": 215.7,
+   "t": "Blind spots. What do they mean by that?"
+  },
+  {
+   "s": 215.94,
+   "e": 224.44,
+   "t": "They're talking about places within apps or websites that are really hard, maybe even impossible to reach if you're just using a keyboard."
+  },
+  {
+   "s": 224.88,
+   "e": 232.68,
+   "t": "It could be graphical elements that aren't labeled well enough for screen readers, or maybe just areas that weren't designed with keyboard navigation in mind."
+  },
+  {
+   "s": 232.68,
+   "e": 242.46,
+   "t": "So because Wheeler gives you such fine-tuned cursor control, it can actually let users get to and interact with these areas where a keyboard just wouldn't cut it."
+  },
+  {
+   "s": 242.46,
+   "e": 247.56,
+   "t": "That's right. And the paper makes it clear that Wheeler isn't just giving audio feedback for movement."
+  },
+  {
+   "s": 247.92,
+   "e": 253.82,
+   "t": "It's also giving feedback for where that cursor is within the interface, which helps a lot with navigation."
+  },
+  {
+   "s": 254.18,
+   "e": 264.66,
+   "t": "That's really clever. Combining the spatial awareness you get from the wheels of very specific audio cues creates a whole new way for blind users to understand and interact with the digital world."
+  },
+  {
+   "s": 264.66,
+   "e": 268.96,
+   "t": "But did they test this? I mean, did it actually work?"
+  },
+  {
+   "s": 269.34,
+   "e": 277.34,
+   "t": "They did. They had 12 blind participants try out Wheeler in a study doing tasks involving both navigation and cursor control."
+  },
+  {
+   "s": 277.34,
+   "e": 284.26,
+   "t": "And the results were really impressive, especially when it came to navigating things like software menus, those hierarchical structures."
+  },
+  {
+   "s": 284.74,
+   "e": 288.44,
+   "t": "And what about the participants? Did they find Wheeler easy to use, intuitive?"
+  },
+  {
+   "s": 288.88,
+   "e": 291.34,
+   "t": "That seems to have been a really positive part of the research."
+  },
+  {
+   "s": 291.6,
+   "e": 300.46,
+   "t": "Not only was the device a lot faster, with navigation times dropping by something like 40%, but the people using it also said that it was fairly straightforward to learn and use."
+  },
+  {
+   "s": 300.46,
+   "e": 307.54,
+   "t": "That's critical. Because you could have an incredibly powerful device, but if it's too difficult to pick up, it's not going to make a real difference."
+  },
+  {
+   "s": 307.78,
+   "e": 316.46,
+   "t": "And they didn't stop there. They went on to do a diary study with one of the authors, who was actually blind, to see how Wheeler would work in everyday life."
+  },
+  {
+   "s": 316.74,
+   "e": 321.96,
+   "t": "So they went beyond just lab settings and looked at how someone would use it naturally. What did they find out?"
+  },
+  {
+   "s": 321.96,
+   "e": 330.56,
+   "t": "They found that it could be used for so many things. The author was using Wheeler not only for tasks he'd struggled with in the past, but for completely new things."
+  },
+  {
+   "s": 330.8,
+   "e": 337.94,
+   "t": "He found it helpful for getting around on websites that weren't designed with accessibility in mind, and even for giving technical help to other people."
+  },
+  {
+   "s": 338.12,
+   "e": 342.26,
+   "t": "So it actually became more than just an assistive device. It was a tool for collaboration."
+  },
+  {
+   "s": 342.62,
+   "e": 342.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 342.88,
+   "e": 345.4,
+   "t": "A way to connect people with different abilities."
+  },
+  {
+   "s": 345.4,
+   "e": 349.14,
+   "t": "Absolutely. And it really highlights something important about designing inclusively."
+  },
+  {
+   "s": 349.14,
+   "e": 356.14,
+   "t": "A lot of times when we make things more accessible, we end up with benefits that go way beyond what we originally intended."
+  },
+  {
+   "s": 356.74,
+   "e": 361.42,
+   "t": "And the researchers do hint at other potential applications for this tech. What else are they thinking?"
+  },
+  {
+   "s": 361.66,
+   "e": 368.72,
+   "t": "One area they mention is virtual reality. Think about the challenge of navigating a three-dimensional environment when you can't see."
+  },
+  {
+   "s": 369.26,
+   "e": 376.44,
+   "t": "The spatial input you get from Wheeler, combined with the audio feedback, could make these spaces much more intuitive and immersive."
+  },
+  {
+   "s": 376.44,
+   "e": 387.22,
+   "t": "It's like this technology could open up entirely new worlds, not just for blind users, but for anyone who's looking for a more natural and intuitive way to interact in virtual environments."
+  },
+  {
+   "s": 387.48,
+   "e": 394.12,
+   "t": "And it goes beyond just VR. They also talk about using this kind of technology to interact with complex data sets."
+  },
+  {
+   "s": 394.7,
+   "e": 399.12,
+   "t": "Imagine exploring a spreadsheet or a scientific visualization through touch and sound."
+  },
+  {
+   "s": 399.12,
+   "e": 402.86,
+   "t": "That could revolutionize not only how we analyze data, but also how we learn."
+  },
+  {
+   "s": 403.48,
+   "e": 408.98,
+   "t": "It could give students of all abilities a more engaging and multisensory way to understand complex ideas."
+  },
+  {
+   "s": 409.2,
+   "e": 412.44,
+   "t": "The main takeaway here is that the potential for this technology is huge."
+  },
+  {
+   "s": 412.74,
+   "e": 415.1,
+   "t": "It goes way beyond what it was originally designed for."
+  },
+  {
+   "s": 415.54,
+   "e": 419.96,
+   "t": "By rethinking how we interact with technology, the researchers have opened up a world of possibilities."
+  },
+  {
+   "s": 420.5,
+   "e": 422.64,
+   "t": "That's exactly why we do these deep dives."
+  },
+  {
+   "s": 422.84,
+   "e": 428.76,
+   "t": "To find these hidden gems, these sparks of brilliance, that could change the way we think about and use technology."
+  },
+  {
+   "s": 429.12,
+   "e": 432.32,
+   "t": "But it also begs the question, what's next?"
+  },
+  {
+   "s": 432.68,
+   "e": 434.38,
+   "t": "Yeah, it is. It's really something else."
+  },
+  {
+   "s": 434.6,
+   "e": 440.6,
+   "t": "And what's amazing is that they weren't just trying to kind of copy what already exists, but make it for a new audience."
+  },
+  {
+   "s": 440.6,
+   "e": 448.7,
+   "t": "They actually found areas where user experience was completely missing in current assistive tech and decided to do something about it."
+  },
+  {
+   "s": 448.7,
+   "e": 457.84,
+   "t": "It sounds like they found a group of users who are more than ready to embrace those innovations, not just because they're new, but because they actually address real needs."
+  },
+  {
+   "s": 458.04,
+   "e": 462.82,
+   "t": "But to go back to the research for a moment, you mentioned a diary study with one of the paper's authors."
+  },
+  {
+   "s": 463.06,
+   "e": 467.42,
+   "t": "Yeah. So this part was all about taking Wheeler out of the lab and seeing how it worked in the real world."
+  },
+  {
+   "s": 467.68,
+   "e": 471.02,
+   "t": "The author, who's blind, actually used it in his everyday life."
+  },
+  {
+   "s": 471.02,
+   "e": 478.6,
+   "t": "Well, it's one thing to, you know, optimize for certain tasks in a controlled setting, but it's a whole other thing to see how something gets used organically day to day."
+  },
+  {
+   "s": 479.1,
+   "e": 480.7,
+   "t": "What came out of that part of the study?"
+  },
+  {
+   "s": 480.7,
+   "e": 483.94,
+   "t": "What they found was just how flexible this device could be."
+  },
+  {
+   "s": 484.48,
+   "e": 490.56,
+   "t": "The author was using Wheeler not just for things that had always been difficult, but for things he'd never even thought of doing before."
+  },
+  {
+   "s": 490.98,
+   "e": 495.46,
+   "t": "He used it to get around on websites that weren't really designed with accessibility in mind."
+  },
+  {
+   "s": 495.78,
+   "e": 498.3,
+   "t": "He even used it to give tech support to other people."
+  },
+  {
+   "s": 498.3,
+   "e": 507.4,
+   "t": "So in a way, it stopped being just an assistive device and became something more, a tool for connection, for breaking down barriers between people."
+  },
+  {
+   "s": 507.6,
+   "e": 510.92,
+   "t": "Exactly. And it speaks to a larger point about how we design things."
+  },
+  {
+   "s": 511.42,
+   "e": 519.22,
+   "t": "When we prioritize making technology accessible, we often end up with things that are better for everyone, not just the people we initially had in mind."
+  },
+  {
+   "s": 519.22,
+   "e": 524.18,
+   "t": "And the researchers themselves suggest that there are even more applications for this kind of technology, right?"
+  },
+  {
+   "s": 524.5,
+   "e": 526.42,
+   "t": "What other possibilities did they bring up?"
+  },
+  {
+   "s": 526.42,
+   "e": 529.0,
+   "t": "They specifically mentioned virtual reality."
+  },
+  {
+   "s": 529.18,
+   "e": 533.3,
+   "t": "Think about how difficult it must be to navigate a three-dimensional space when you can't see."
+  },
+  {
+   "s": 533.88,
+   "e": 540.78,
+   "t": "The kind of spatial input and audio feedback that Wheeler provides could completely change how people experience those environments."
+  },
+  {
+   "s": 541.24,
+   "e": 543.64,
+   "t": "It's as if this tech could open up entire worlds."
+  },
+  {
+   "s": 544.1,
+   "e": 549.32,
+   "t": "And not just for blind users, but for anyone who wants a more natural way to interact with virtual spaces."
+  },
+  {
+   "s": 549.52,
+   "e": 551.34,
+   "t": "And it doesn't stop at virtual reality."
+  },
+  {
+   "s": 551.48,
+   "e": 554.58,
+   "t": "They even talk about using this to interact with complex data."
+  },
+  {
+   "s": 554.58,
+   "e": 560.42,
+   "t": "Imagine exploring a spreadsheet or a scientific visualization using touch and sound."
+  },
+  {
+   "s": 560.5,
+   "e": 564.9,
+   "t": "Now that would be a game changer, not only for how we analyze data, but also for education."
+  },
+  {
+   "s": 565.5,
+   "e": 572.3,
+   "t": "You could have students of all abilities engaging with really complex ideas in a much more hands-on, multi-sensory way."
+  },
+  {
+   "s": 572.3,
+   "e": 579.48,
+   "t": "The biggest thing to take away from this is that this technology has the potential to be so much more than what it was originally designed to be."
+  },
+  {
+   "s": 579.72,
+   "e": 585.02,
+   "t": "They've really opened up a world of possibilities by rethinking how we interact with technology."
+  },
+  {
+   "s": 585.28,
+   "e": 587.2,
+   "t": "And that's really what these deep dives are all about."
+  },
+  {
+   "s": 587.84,
+   "e": 592.9,
+   "t": "Uncovering those hidden gems, those moments of brilliance that make us rethink how we use technology."
+  },
+  {
+   "s": 592.9,
+   "e": 594.92,
+   "t": "But it also leaves us with a question."
+  },
+  {
+   "s": 595.9,
+   "e": 596.98,
+   "t": "Where do we go from here?"
+  },
+  {
+   "s": 597.34,
+   "e": 604.84,
+   "t": "It's exciting to see this kind of shift, you know, going from just adapting what we already have to really rethinking how we interact with tech from the ground up."
+  },
+  {
+   "s": 605.14,
+   "e": 607.0,
+   "t": "It really is a different way of thinking about it."
+  },
+  {
+   "s": 607.58,
+   "e": 612.76,
+   "t": "This research is a challenge for us to stop treating accessibility as something we tack on at the end."
+  },
+  {
+   "s": 613.24,
+   "e": 614.94,
+   "t": "Something we have to check off a list."
+  },
+  {
+   "s": 615.26,
+   "e": 619.9,
+   "t": "It's saying we should think about it right from the start as a core part of the design process."
+  },
+  {
+   "s": 619.9,
+   "e": 624.66,
+   "t": "It seems that the team behind Wheeler has done something pretty amazing here."
+  },
+  {
+   "s": 625.02,
+   "e": 626.4,
+   "t": "It's not just a tech solution."
+  },
+  {
+   "s": 626.52,
+   "e": 628.9,
+   "t": "It's a whole new way of thinking about design."
+  },
+  {
+   "s": 629.34,
+   "e": 629.82,
+   "t": "Yes."
+  },
+  {
+   "s": 629.96,
+   "e": 633.52,
+   "t": "And it's a philosophy that's focused on what's possible, not on what's limited."
+  },
+  {
+   "s": 633.94,
+   "e": 641.66,
+   "t": "It's about understanding that the ways we interact with tech right now might work for a lot of people, but they leave a lot of people out too."
+  },
+  {
+   "s": 641.98,
+   "e": 644.14,
+   "t": "And by doing that, we limit ourselves."
+  },
+  {
+   "s": 644.66,
+   "e": 649.4,
+   "t": "We miss out on all those different perspectives, those different ways of experiencing and engaging with the world."
+  },
+  {
+   "s": 649.4,
+   "e": 650.12,
+   "t": "Think about it."
+  },
+  {
+   "s": 650.12,
+   "e": 653.4,
+   "t": "The technology we have now, it's all built on certain assumptions."
+  },
+  {
+   "s": 654.0,
+   "e": 656.12,
+   "t": "A mouse, a keyboard, a touch screen."
+  },
+  {
+   "s": 656.24,
+   "e": 657.86,
+   "t": "They all assume that you can see."
+  },
+  {
+   "s": 658.1,
+   "e": 660.84,
+   "t": "But Wheeler, it makes us think beyond vision, right?"
+  },
+  {
+   "s": 661.36,
+   "e": 666.18,
+   "t": "It offers a way to navigate the digital world that's more about touch, more about sound."
+  },
+  {
+   "s": 666.4,
+   "e": 677.14,
+   "t": "And when you do that, you open up so many possibilities, not just for making technology accessible to people who are blind, but for creating totally new experiences for everyone."
+  },
+  {
+   "s": 677.14,
+   "e": 686.68,
+   "t": "It reminds us that sometimes the most innovative ideas come from the edges, from those places where we're forced to confront what we take for granted and to explore new territory."
+  },
+  {
+   "s": 686.68,
+   "e": 690.52,
+   "t": "As we wrap up this deep dive, I have to say I'm feeling optimistic."
+  },
+  {
+   "s": 691.54,
+   "e": 699.36,
+   "t": "The work on Wheeler gives us a glimpse of what we can achieve when we put inclusivity first and when we're willing to challenge the way things have always been done."
+  },
+  {
+   "s": 699.36,
+   "e": 710.18,
+   "t": "It's a call to action for all of us, whether we're creating technology or just using it, to embrace that spirit of innovation and work towards a digital world that truly is accessible for everyone."
+  },
+  {
+   "s": 710.44,
+   "e": 713.52,
+   "t": "Because when we design with everyone in mind, we all win."
+  },
+  {
+   "s": 713.78,
+   "e": 716.88,
+   "t": "We all benefit from the incredible things that become possible."
+  },
+  {
+   "s": 717.04,
+   "e": 718.92,
+   "t": "And that brings this deep dive to a close."
+  },
+  {
+   "s": 718.92,
+   "e": 748.9,
+   "t": "We'll see you next time."
+  }
+ ]
+}

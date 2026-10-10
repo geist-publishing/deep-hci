@@ -1,0 +1,1345 @@
+{
+ "guid": "deephci.podbean.com/7390d7bd-8452-3e76-b4ae-14698bb8da01",
+ "slug": "a-conversation-thad-starner-on-mobile-sign-language-recognition",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "thad-cut.m4a",
+  "version": 1
+ },
+ "duration": 899,
+ "word_count": 2588,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 4.8,
+   "t": "Hello, I'm here with Thad Sterner. Hi, hello."
+  },
+  {
+   "s": 5.12,
+   "e": 7.1,
+   "t": "Hi, how have you been?"
+  },
+  {
+   "s": 7.52,
+   "e": 8.78,
+   "t": "Yeah, so far so good."
+  },
+  {
+   "s": 9.36,
+   "e": 14.94,
+   "t": "We are meeting at UbiComp and just in the conference marathon,"
+  },
+  {
+   "s": 15.32,
+   "e": 21.0,
+   "t": "I heard you, or I saw you giving the keynote at MobileHCI."
+  },
+  {
+   "s": 21.68,
+   "e": 28.2,
+   "t": "Yes, I've had the MobileHCI and two workshops too."
+  },
+  {
+   "s": 28.2,
+   "e": 29.84,
+   "t": "So I've been busy."
+  },
+  {
+   "s": 30.72,
+   "e": 37.24,
+   "t": "Yeah, so what was the topic of the MobileHCI?"
+  },
+  {
+   "s": 37.52,
+   "e": 43.72,
+   "t": "Well, I was looking at how to make mobile sign language recognition useful for the deaf community."
+  },
+  {
+   "s": 44.42,
+   "e": 47.62,
+   "t": "So a lot of folks have been working on sign language recognition over the years,"
+  },
+  {
+   "s": 47.86,
+   "e": 50.32,
+   "t": "but they don't really have a good use case for it."
+  },
+  {
+   "s": 51.98,
+   "e": 55.46,
+   "t": "You know, these days, at least in the United States, if you're deaf,"
+  },
+  {
+   "s": 55.46,
+   "e": 57.62,
+   "t": "you can call up an interpreter on your smartphone,"
+  },
+  {
+   "s": 58.52,
+   "e": 63.72,
+   "t": "and they will interpret for you right then and there as a free service."
+  },
+  {
+   "s": 65.34,
+   "e": 70.58,
+   "t": "So, you know, and, you know, mobile sign language recognition is going to take a long time"
+  },
+  {
+   "s": 70.58,
+   "e": 73.2,
+   "t": "before it's good enough to actually do anything useful in that domain."
+  },
+  {
+   "s": 73.78,
+   "e": 79.52,
+   "t": "So the question is, what are some good use cases for mobile sign language recognition?"
+  },
+  {
+   "s": 79.52,
+   "e": 83.04,
+   "t": "And I've been working on the space since, you know, 1994."
+  },
+  {
+   "s": 85.0,
+   "e": 89.66,
+   "t": "And back then we showed the first continuous sign language recognition system,"
+  },
+  {
+   "s": 89.76,
+   "e": 90.68,
+   "t": "a phrase level system."
+  },
+  {
+   "s": 91.08,
+   "e": 94.52,
+   "t": "But it was dedicated to just me in a very controlled situation,"
+  },
+  {
+   "s": 95.3,
+   "e": 99.64,
+   "t": "wearing black clothes with a very specific camera setting."
+  },
+  {
+   "s": 99.8,
+   "e": 102.64,
+   "t": "It was, you know, it showed that it could be done,"
+  },
+  {
+   "s": 102.76,
+   "e": 105.22,
+   "t": "but it was way too specific to be useful."
+  },
+  {
+   "s": 105.22,
+   "e": 109.02,
+   "t": "Yeah, but it should be possible right now, no?"
+  },
+  {
+   "s": 109.24,
+   "e": 113.7,
+   "t": "I mean, if you started it in 1994 during your master's."
+  },
+  {
+   "s": 113.84,
+   "e": 116.34,
+   "t": "Well, the thing is that we don't really have much training data."
+  },
+  {
+   "s": 117.24,
+   "e": 121.62,
+   "t": "For speech recognition, we now have millions and millions of hours of speech."
+  },
+  {
+   "s": 122.16,
+   "e": 128.04,
+   "t": "But for sign recognition, we only have a couple thousand hours at most."
+  },
+  {
+   "s": 128.04,
+   "e": 135.82,
+   "t": "And those are data sets that, you know, I've been recently releasing at Georgia Tech and at Google."
+  },
+  {
+   "s": 136.62,
+   "e": 139.7,
+   "t": "So before then it was like a couple hundred hours most."
+  },
+  {
+   "s": 141.04,
+   "e": 148.54,
+   "t": "And so given this resource-poor data set problem, you know, what sort of problems can you tackle?"
+  },
+  {
+   "s": 149.24,
+   "e": 153.04,
+   "t": "And for me it's been focusing on making smartphone games"
+  },
+  {
+   "s": 153.04,
+   "e": 157.14,
+   "t": "to help the hearing parents of deaf children learn sign language."
+  },
+  {
+   "s": 158.04,
+   "e": 161.8,
+   "t": "Now it turns out that this is a crucial problem for the deaf community."
+  },
+  {
+   "s": 162.52,
+   "e": 165.74,
+   "t": "Ninety-five percent of deaf kids are born to hearing parents,"
+  },
+  {
+   "s": 166.28,
+   "e": 170.36,
+   "t": "and most of those hearing parents never learn enough sign language to teach it to their children."
+  },
+  {
+   "s": 172.36,
+   "e": 176.84,
+   "t": "One of the good uses of sign language recognition that I've discovered working with the deaf community"
+  },
+  {
+   "s": 176.84,
+   "e": 180.7,
+   "t": "is trying to help hearing parents of deaf kids learn sign language."
+  },
+  {
+   "s": 180.7,
+   "e": 184.76,
+   "t": "It turns out 95 percent of deaf kids are born to hearing parents,"
+  },
+  {
+   "s": 184.76,
+   "e": 189.12,
+   "t": "and most of those hearing parents never learn enough sign language to teach it to their children."
+  },
+  {
+   "s": 190.24,
+   "e": 195.4,
+   "t": "And it's really critical for these deaf kids to learn sign language for the development, both socially and mentally."
+  },
+  {
+   "s": 195.4,
+   "e": 201.28,
+   "t": "What we see is that, you know, kids who are surrounded in sign, they'll grow up normally."
+  },
+  {
+   "s": 201.74,
+   "e": 202.9,
+   "t": "Deaf kids are deaf parents."
+  },
+  {
+   "s": 203.58,
+   "e": 206.88,
+   "t": "They grow up the same way as hearing kids of hearing parents."
+  },
+  {
+   "s": 207.92,
+   "e": 211.06,
+   "t": "But not having access to English because you can't hear,"
+  },
+  {
+   "s": 211.56,
+   "e": 213.98,
+   "t": "or sign language because your parents aren't signing to you,"
+  },
+  {
+   "s": 213.98,
+   "e": 222.22,
+   "t": "because these kids do not, you know, get access to language at the same pace as hearing kids of hearing parents."
+  },
+  {
+   "s": 222.22,
+   "e": 227.1,
+   "t": "And that's really crucial for developing things like short-term memory."
+  },
+  {
+   "s": 227.1,
+   "e": 232.32,
+   "t": "And so what we're trying to do now is bring sign language games to the hearing parents."
+  },
+  {
+   "s": 232.32,
+   "e": 234.76,
+   "t": "And these parents really want to learn sign language."
+  },
+  {
+   "s": 234.76,
+   "e": 239.8,
+   "t": "But for English speakers, American Sign Language is as hard to learn as Japanese."
+  },
+  {
+   "s": 240.6,
+   "e": 245.22,
+   "t": "And at least in the state of Georgia where I'm in, it takes about an hour for every sign language class."
+  },
+  {
+   "s": 246.0,
+   "e": 252.92,
+   "t": "And so these parents want to learn, but they get overwhelmed with way too much time and effort to sink into it."
+  },
+  {
+   "s": 252.92,
+   "e": 257.62,
+   "t": "So what we're doing is making games in sign language to help the parents learn."
+  },
+  {
+   "s": 257.8,
+   "e": 261.74,
+   "t": "And we're using the sign language recognition on the smartphones to make those games."
+  },
+  {
+   "s": 261.74,
+   "e": 264.06,
+   "t": "Our current game called PopSign AI."
+  },
+  {
+   "s": 264.86,
+   "e": 267.78,
+   "t": "It's one of these bubble bursting games where you do three of a kind."
+  },
+  {
+   "s": 268.22,
+   "e": 273.72,
+   "t": "It's like you have an array of colored balloons at the top of the screen."
+  },
+  {
+   "s": 274.52,
+   "e": 280.48,
+   "t": "And you have to shoot the right colored balloon to get three of a kind and burst them when you're trying to clear the screen."
+  },
+  {
+   "s": 281.8,
+   "e": 286.98,
+   "t": "And in the sign language recognition version of it, you aim at, like, you know, say the yellow balloons."
+  },
+  {
+   "s": 287.42,
+   "e": 289.18,
+   "t": "And then you make the sign for yellow."
+  },
+  {
+   "s": 289.18,
+   "e": 293.94,
+   "t": "And if you do the sign correctly, it'll shoot the yellow balloon and burst all the ones it touches."
+  },
+  {
+   "s": 295.34,
+   "e": 297.18,
+   "t": "Red for the red balloon, et cetera."
+  },
+  {
+   "s": 297.36,
+   "e": 299.2,
+   "t": "And we do more vocabulary words."
+  },
+  {
+   "s": 299.28,
+   "e": 303.38,
+   "t": "Like we'll do owl or elephant or dog or cat."
+  },
+  {
+   "s": 304.0,
+   "e": 304.88,
+   "t": "And same sort of thing."
+  },
+  {
+   "s": 304.96,
+   "e": 308.3,
+   "t": "It's just the different colored balloons with different labels on them."
+  },
+  {
+   "s": 308.42,
+   "e": 310.04,
+   "t": "And you're trying to sign to match it."
+  },
+  {
+   "s": 310.76,
+   "e": 312.32,
+   "t": "So do I get that right?"
+  },
+  {
+   "s": 312.42,
+   "e": 317.3,
+   "t": "So the person is holding the phone and then signs with one hand?"
+  },
+  {
+   "s": 317.3,
+   "e": 317.78,
+   "t": "Yes."
+  },
+  {
+   "s": 317.94,
+   "e": 324.0,
+   "t": "So you hold the phone with one hand and aim with your thumb of that first hand."
+  },
+  {
+   "s": 324.34,
+   "e": 326.12,
+   "t": "And then you sign with your dominant hand."
+  },
+  {
+   "s": 326.5,
+   "e": 331.12,
+   "t": "And when you let go of the touch screen, it then sends the video to the recognizer."
+  },
+  {
+   "s": 331.56,
+   "e": 332.22,
+   "t": "It does the recognition."
+  },
+  {
+   "s": 332.38,
+   "e": 334.92,
+   "t": "It figures out what color bubble you're trying to shoot."
+  },
+  {
+   "s": 334.92,
+   "e": 336.1,
+   "t": "And then it shoots it."
+  },
+  {
+   "s": 336.1,
+   "e": 345.6,
+   "t": "So what we've been showing is that we made a test game called Pops on AI Preview that's out there now."
+  },
+  {
+   "s": 345.68,
+   "e": 347.14,
+   "t": "You can get it on the App Store or the Play Store."
+  },
+  {
+   "s": 347.98,
+   "e": 349.58,
+   "t": "And it works very well."
+  },
+  {
+   "s": 349.64,
+   "e": 350.38,
+   "t": "People love it."
+  },
+  {
+   "s": 350.38,
+   "e": 354.9,
+   "t": "And now expanding it to full 563 concepts."
+  },
+  {
+   "s": 355.0,
+   "e": 356.5,
+   "t": "You teach any child in any language."
+  },
+  {
+   "s": 356.64,
+   "e": 358.2,
+   "t": "We're doing it in American Sign Language first."
+  },
+  {
+   "s": 359.1,
+   "e": 364.44,
+   "t": "But what we're hoping is that we can provide a toolkit called the Sign Language Recognition and Gesture Toolkit,"
+  },
+  {
+   "s": 365.24,
+   "e": 372.26,
+   "t": "which has the app for Android where you can actually collect signs from people who are deaf."
+  },
+  {
+   "s": 373.54,
+   "e": 374.96,
+   "t": "Collect enough examples of it."
+  },
+  {
+   "s": 375.04,
+   "e": 376.28,
+   "t": "Then we have an annotation tool."
+  },
+  {
+   "s": 376.7,
+   "e": 379.22,
+   "t": "You can sit there and make sure everybody signs the right thing."
+  },
+  {
+   "s": 379.22,
+   "e": 383.7,
+   "t": "And then we have a simple LSTM model, which is good enough to do this type of recognition."
+  },
+  {
+   "s": 384.54,
+   "e": 386.64,
+   "t": "And then we have all the game structure."
+  },
+  {
+   "s": 387.32,
+   "e": 390.46,
+   "t": "And so what we're hoping is that people can take our American Sign Language game"
+  },
+  {
+   "s": 390.46,
+   "e": 398.34,
+   "t": "and translate it to Japanese Sign Language or Indian Sign Language or Arabic Sign Language or take your pick."
+  },
+  {
+   "s": 398.74,
+   "e": 399.08,
+   "t": "Okay."
+  },
+  {
+   "s": 399.44,
+   "e": 401.28,
+   "t": "How many concepts do you need for that?"
+  },
+  {
+   "s": 401.94,
+   "e": 405.9,
+   "t": "So about 563 is what's called the MacArthur Bates Index."
+  },
+  {
+   "s": 405.9,
+   "e": 409.4,
+   "t": "And those are the first concepts that you teach any child."
+  },
+  {
+   "s": 410.4,
+   "e": 414.6,
+   "t": "We have released the video for 250 of them so far."
+  },
+  {
+   "s": 415.22,
+   "e": 421.12,
+   "t": "And those are about, I think we have 50 signers doing 30 examples of each."
+  },
+  {
+   "s": 422.72,
+   "e": 424.74,
+   "t": "Each of those 250 signs."
+  },
+  {
+   "s": 424.74,
+   "e": 427.76,
+   "t": "And now we're adding the rest of the 563 right now."
+  },
+  {
+   "s": 428.32,
+   "e": 431.88,
+   "t": "And that will be up on sign-data.cc.architect.edu shortly."
+  },
+  {
+   "s": 432.5,
+   "e": 437.18,
+   "t": "How much would you need to be fluent in a language, in a sign language?"
+  },
+  {
+   "s": 437.48,
+   "e": 442.54,
+   "t": "Well, sign languages often have a lot fewer words than spoken languages."
+  },
+  {
+   "s": 443.06,
+   "e": 446.08,
+   "t": "That's because each sign has a lot of inflections."
+  },
+  {
+   "s": 446.08,
+   "e": 453.42,
+   "t": "So, for example, if I put my thumbs up with my dominant hand and my hand underneath it, my left hand underneath it,"
+  },
+  {
+   "s": 453.96,
+   "e": 455.94,
+   "t": "and I just pull it there, that's just a sign for help."
+  },
+  {
+   "s": 456.48,
+   "e": 460.34,
+   "t": "But if I move it from me to you, this is me helping you."
+  },
+  {
+   "s": 460.48,
+   "e": 462.58,
+   "t": "If I move it from you to me, it's you helping me."
+  },
+  {
+   "s": 462.9,
+   "e": 463.52,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 463.62,
+   "e": 465.8,
+   "t": "So you need also the special information."
+  },
+  {
+   "s": 466.18,
+   "e": 466.64,
+   "t": "Correct."
+  },
+  {
+   "s": 466.64,
+   "e": 475.98,
+   "t": "And so it's all those inflections, all that movement that gets you all the speed and diversity of concept that you do in spoken language."
+  },
+  {
+   "s": 477.48,
+   "e": 483.9,
+   "t": "Now, what we found, though, for deaf kids, all you really need to get, before they get into, like, elementary school,"
+  },
+  {
+   "s": 484.04,
+   "e": 487.12,
+   "t": "is about 150 signs of survival signs."
+  },
+  {
+   "s": 487.78,
+   "e": 491.32,
+   "t": "But what we're finding is that these parents are happy to learn more signs."
+  },
+  {
+   "s": 491.94,
+   "e": 494.96,
+   "t": "They'll go to the, they'll keep on playing the game until they run out of vocabulary."
+  },
+  {
+   "s": 494.96,
+   "e": 503.94,
+   "t": "And then we'll also find that these parents will sit there and practice, you know, go to bed or whatever they want to sign to little Johnny."
+  },
+  {
+   "s": 505.22,
+   "e": 509.94,
+   "t": "They'll sit there and practice until they're good enough, and then they'll go talk to their deaf child."
+  },
+  {
+   "s": 511.32,
+   "e": 519.66,
+   "t": "And so it's really, we really encourage that if we make it fun and convenient, that these parents will actually pick this up."
+  },
+  {
+   "s": 519.66,
+   "e": 524.68,
+   "t": "And, you know, it will really make a huge difference in the development of these deaf children."
+  },
+  {
+   "s": 524.96,
+   "e": 528.06,
+   "t": "Yeah, and also porting it to other languages."
+  },
+  {
+   "s": 528.82,
+   "e": 532.86,
+   "t": "Yeah, and there's 150 different sign languages, that's a whole lot more than that."
+  },
+  {
+   "s": 533.32,
+   "e": 538.5,
+   "t": "But there's about 150 sign languages that are sort of in the same type of sign language, that American sign language,"
+  },
+  {
+   "s": 538.62,
+   "e": 543.08,
+   "t": "and French sign language, and British sign languages, and then the Asian sign languages."
+  },
+  {
+   "s": 543.62,
+   "e": 545.06,
+   "t": "So that's what we're targeting first."
+  },
+  {
+   "s": 545.06,
+   "e": 550.44,
+   "t": "And, you know, the hope is that we gather enough examples from all these different sign languages,"
+  },
+  {
+   "s": 550.98,
+   "e": 556.32,
+   "t": "it'll create a good embedding set, and then you just fine-tune it to a new language."
+  },
+  {
+   "s": 556.82,
+   "e": 561.68,
+   "t": "And so, you know, while it may take us 50 to 100 signers to get American sign language,"
+  },
+  {
+   "s": 562.06,
+   "e": 566.4,
+   "t": "by the time we take it to, say, you know, French sign language or German sign language,"
+  },
+  {
+   "s": 566.4,
+   "e": 568.52,
+   "t": "which is very similar to American sign language,"
+  },
+  {
+   "s": 568.52,
+   "e": 574.76,
+   "t": "you only may need, like, you know, 10 or 20 signers in order to get something that's good enough to make the new game."
+  },
+  {
+   "s": 575.52,
+   "e": 579.6,
+   "t": "Just to understand you right, so you're talking about a large language model for signing?"
+  },
+  {
+   "s": 580.08,
+   "e": 582.66,
+   "t": "Well, it's not. It's isolated, right?"
+  },
+  {
+   "s": 582.76,
+   "e": 584.2,
+   "t": "So it's individual signs."
+  },
+  {
+   "s": 584.92,
+   "e": 590.58,
+   "t": "So it's, you know, what we know is that the human hand and body only has so many degrees of freedom."
+  },
+  {
+   "s": 590.58,
+   "e": 596.34,
+   "t": "And so you can imagine that a deep learning system can have the,"
+  },
+  {
+   "s": 596.34,
+   "e": 600.62,
+   "t": "get the, like, embeddings from one or a couple of those sign languages,"
+  },
+  {
+   "s": 600.62,
+   "e": 605.52,
+   "t": "and then generalize to more sign languages, is the hope."
+  },
+  {
+   "s": 607.14,
+   "e": 609.66,
+   "t": "Yeah, it could work."
+  },
+  {
+   "s": 609.88,
+   "e": 612.48,
+   "t": "Yeah, and I also have, you know, I have him or him or him or him or him or him,"
+  },
+  {
+   "s": 612.48,
+   "e": 613.54,
+   "t": "or him, or him, or him, or him, or him, or him, or him, or him, or him."
+  },
+  {
+   "s": 613.54,
+   "e": 613.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 614.82,
+   "e": 619.64,
+   "t": "But it turns out that with enough data, the deep learning systems are getting some traction."
+  },
+  {
+   "s": 619.64,
+   "e": 625.92,
+   "t": "And for this game, where we only have about five different color balloons in the screen at once,"
+  },
+  {
+   "s": 626.66,
+   "e": 628.84,
+   "t": "so you've got to differentiate between five signs."
+  },
+  {
+   "s": 629.36,
+   "e": 633.38,
+   "t": "So that's relatively easy to do with an LSTM, like a straight out-of-the-box LSTM."
+  },
+  {
+   "s": 633.92,
+   "e": 634.02,
+   "t": "Yeah."
+  },
+  {
+   "s": 634.92,
+   "e": 640.86,
+   "t": "So, yeah, and that's kind of the first practical use of the sign language recognition stuff."
+  },
+  {
+   "s": 640.98,
+   "e": 646.68,
+   "t": "And then you start looking at things like dictionaries or being able to command the virtual assistants"
+  },
+  {
+   "s": 646.68,
+   "e": 652.78,
+   "t": "and that sort of stuff, or finger-spelling to do text entry on a phone."
+  },
+  {
+   "s": 653.84,
+   "e": 659.52,
+   "t": "For the deaf, they finger-spell whenever it's a proper noun, like introducing somebody's name"
+  },
+  {
+   "s": 659.52,
+   "e": 662.82,
+   "t": "or doing an address or URL or phone number or something like that."
+  },
+  {
+   "s": 662.82,
+   "e": 667.36,
+   "t": "And so being able to do fast text entry with finger-spelling is useful, too."
+  },
+  {
+   "s": 669.48,
+   "e": 670.22,
+   "t": "Cool work."
+  },
+  {
+   "s": 670.58,
+   "e": 670.98,
+   "t": "Thank you."
+  },
+  {
+   "s": 672.12,
+   "e": 672.48,
+   "t": "Thanks."
+  },
+  {
+   "s": 672.48,
+   "e": 673.6,
+   "t": "Go play with it, man."
+  },
+  {
+   "s": 673.82,
+   "e": 674.42,
+   "t": "Yeah, definitely."
+  },
+  {
+   "s": 674.44,
+   "e": 675.04,
+   "t": "Go get into it."
+  },
+  {
+   "s": 675.68,
+   "e": 676.08,
+   "t": "Definitely."
+  },
+  {
+   "s": 676.8,
+   "e": 679.32,
+   "t": "I already have PopSign on my smartphone as well."
+  },
+  {
+   "s": 679.4,
+   "e": 679.82,
+   "t": "Oh, excellent."
+  },
+  {
+   "s": 679.88,
+   "e": 680.64,
+   "t": "I started with it."
+  },
+  {
+   "s": 680.9,
+   "e": 684.92,
+   "t": "The AI one, the sign language recognition one, or the original one that shows you the videos?"
+  },
+  {
+   "s": 685.1,
+   "e": 686.82,
+   "t": "So right now, just the original one."
+  },
+  {
+   "s": 686.82,
+   "e": 687.28,
+   "t": "The original one?"
+  },
+  {
+   "s": 687.28,
+   "e": 691.02,
+   "t": "Yeah, I couldn't find it on iOS."
+  },
+  {
+   "s": 691.36,
+   "e": 692.0,
+   "t": "Is it available?"
+  },
+  {
+   "s": 692.4,
+   "e": 693.32,
+   "t": "It should be."
+  },
+  {
+   "s": 694.36,
+   "e": 697.32,
+   "t": "We're recompiling it right now because there was a change in operating system."
+  },
+  {
+   "s": 697.94,
+   "e": 701.16,
+   "t": "And so if you don't want to recompile for the new operating system, they'll drop you off."
+  },
+  {
+   "s": 701.6,
+   "e": 702.08,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 702.08,
+   "e": 712.58,
+   "t": "So we're trying to set up a monthly build for each major platform."
+  },
+  {
+   "s": 712.58,
+   "e": 717.3,
+   "t": "Yeah, because I have it on Android, but I don't play so much with that."
+  },
+  {
+   "s": 717.76,
+   "e": 719.58,
+   "t": "But we're keeping two things up."
+  },
+  {
+   "s": 720.1,
+   "e": 724.42,
+   "t": "The old PopSign game has all 563 signs in it already."
+  },
+  {
+   "s": 724.5,
+   "e": 725.86,
+   "t": "It just shows you the sign."
+  },
+  {
+   "s": 725.9,
+   "e": 726.36,
+   "t": "Sign, yeah."
+  },
+  {
+   "s": 726.36,
+   "e": 728.58,
+   "t": "And then you fire at the right balloons."
+  },
+  {
+   "s": 728.72,
+   "e": 733.78,
+   "t": "Now, the PopSign AI preview, that only has 35 signs in it right now."
+  },
+  {
+   "s": 734.1,
+   "e": 735.66,
+   "t": "That's the one with a recognizer in it."
+  },
+  {
+   "s": 736.16,
+   "e": 741.26,
+   "t": "That is, as far as I know, it's the first practical use of sign language recognition that's out there."
+  },
+  {
+   "s": 741.26,
+   "e": 742.78,
+   "t": "And it really does work."
+  },
+  {
+   "s": 744.32,
+   "e": 745.82,
+   "t": "Yeah, impressive."
+  },
+  {
+   "s": 746.92,
+   "e": 749.92,
+   "t": "Can't wait for more updates on it."
+  },
+  {
+   "s": 750.24,
+   "e": 750.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 750.88,
+   "e": 752.5,
+   "t": "More fun games hopefully coming out."
+  },
+  {
+   "s": 753.02,
+   "e": 763.0,
+   "t": "The SLR GTK system we're putting together, the tool we're putting together, will hopefully help a lot of people make new games as well."
+  },
+  {
+   "s": 763.0,
+   "e": 767.62,
+   "t": "So it's designed to make it easy."
+  },
+  {
+   "s": 767.94,
+   "e": 773.26,
+   "t": "And hopefully we'll get all these game-making classes at universities involved."
+  },
+  {
+   "s": 773.48,
+   "e": 778.38,
+   "t": "Because you can make some random throwaway game, or you can make a game that actually might help change somebody's life."
+  },
+  {
+   "s": 778.78,
+   "e": 778.9,
+   "t": "Yeah."
+  },
+  {
+   "s": 779.16,
+   "e": 784.46,
+   "t": "And you might have fun playing a game and also learning a little design on the side."
+  },
+  {
+   "s": 784.82,
+   "e": 784.84,
+   "t": "Yeah."
+  },
+  {
+   "s": 784.84,
+   "e": 785.76,
+   "t": "Sound like it's great, man."
+  },
+  {
+   "s": 785.8,
+   "e": 786.86,
+   "t": "You can talk at a distance."
+  },
+  {
+   "s": 786.86,
+   "e": 790.18,
+   "t": "No, and it also just helps you staying active."
+  },
+  {
+   "s": 790.36,
+   "e": 792.46,
+   "t": "I mean, learning a new language is always good."
+  },
+  {
+   "s": 792.64,
+   "e": 801.62,
+   "t": "Well, and one of the really cool things is that it turns out that learning, teaching a hearing infant sign language allows them to communicate with you six months before they can speak."
+  },
+  {
+   "s": 802.22,
+   "e": 805.78,
+   "t": "It turns out the larynx is actually in the chest when you're born."
+  },
+  {
+   "s": 805.78,
+   "e": 812.5,
+   "t": "It takes about 12 months to develop to the stage where you can actually go past just, you know, cooing sounds and be able to speak in the language normally."
+  },
+  {
+   "s": 813.24,
+   "e": 816.52,
+   "t": "But a six-month-old can sign to you just fine."
+  },
+  {
+   "s": 817.04,
+   "e": 821.1,
+   "t": "And so that makes it much easier, you know, instead of crying, they can actually, you know, ask for more food."
+  },
+  {
+   "s": 821.5,
+   "e": 823.5,
+   "t": "Or they can ask for milk or tell you they just pooped."
+  },
+  {
+   "s": 823.96,
+   "e": 824.1,
+   "t": "Right?"
+  },
+  {
+   "s": 824.54,
+   "e": 828.44,
+   "t": "And what's really neat about this is they're actually, you know, learning how to sign."
+  },
+  {
+   "s": 828.92,
+   "e": 832.16,
+   "t": "These kids actually start getting, acquiring short-term memory skills."
+  },
+  {
+   "s": 832.5,
+   "e": 833.66,
+   "t": "And language skills."
+  },
+  {
+   "s": 833.84,
+   "e": 834.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 834.0,
+   "e": 835.34,
+   "t": "That you wouldn't have otherwise."
+  },
+  {
+   "s": 835.34,
+   "e": 840.72,
+   "t": "And so you can actually test these kids and they have an IQ boost up to, like, age five just from learning language soon."
+  },
+  {
+   "s": 841.48,
+   "e": 851.96,
+   "t": "So, in my opinion, you know, everybody should learn science and infant because it's pretty clear it actually helps you acquire linguistic skills in whatever language you end up speaking."
+  },
+  {
+   "s": 852.92,
+   "e": 853.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 853.6,
+   "e": 854.8,
+   "t": "It's just another language."
+  },
+  {
+   "s": 855.1,
+   "e": 858.14,
+   "t": "It's a language you can learn earlier that you can speak."
+  },
+  {
+   "s": 859.02,
+   "e": 861.74,
+   "t": "And that forms a short-term memory earlier."
+  },
+  {
+   "s": 861.74,
+   "e": 863.18,
+   "t": "It means you can learn everything faster."
+  },
+  {
+   "s": 863.18,
+   "e": 866.56,
+   "t": "That's the hypothesis."
+  },
+  {
+   "s": 866.56,
+   "e": 883.54,
+   "t": "Given the series of experiments I've seen, that's the operating hypothesis about why these kids who are taught sign language get such a linguistic boost and such a maturity boost over the kids who never learn sign language."
+  },
+  {
+   "s": 883.54,
+   "e": 884.54,
+   "t": "So, yeah."
+  },
+  {
+   "s": 884.54,
+   "e": 885.54,
+   "t": "Yeah."
+  },
+  {
+   "s": 885.54,
+   "e": 886.92,
+   "t": "So, thanks a lot."
+  },
+  {
+   "s": 887.04,
+   "e": 887.54,
+   "t": "Sure."
+  },
+  {
+   "s": 887.54,
+   "e": 887.8,
+   "t": "For joining."
+  },
+  {
+   "s": 887.8,
+   "e": 889.38,
+   "t": "And, yeah."
+  },
+  {
+   "s": 889.38,
+   "e": 895.78,
+   "t": "Looking forward to playing a little bit more and also learning American Sign Language and maybe also Japanese."
+  },
+  {
+   "s": 895.78,
+   "e": 897.88,
+   "t": "Catch you later."
+  },
+  {
+   "s": 897.88,
+   "e": 897.9,
+   "t": "Catch you later."
+  },
+  {
+   "s": 898.08,
+   "e": 898.5,
+   "t": "Good luck."
+  },
+  {
+   "s": 898.7,
+   "e": 898.96,
+   "t": "Thanks."
+  },
+  {
+   "s": 898.98,
+   "e": 899.48,
+   "t": "Bye."
+  },
+  {
+   "s": 899.52,
+   "e": 899.86,
+   "t": "Bye."
+  },
+  {
+   "s": 899.94,
+   "e": 900.26,
+   "t": "Bye."
+  },
+  {
+   "s": 900.34,
+   "e": 900.6,
+   "t": "Bye."
+  },
+  {
+   "s": 900.74,
+   "e": 901.26,
+   "t": "Bye."
+  },
+  {
+   "s": 901.42,
+   "e": 901.94,
+   "t": "Bye."
+  },
+  {
+   "s": 902.06,
+   "e": 902.42,
+   "t": "Bye."
+  },
+  {
+   "s": 902.72,
+   "e": 903.14,
+   "t": "Bye."
+  },
+  {
+   "s": 903.46,
+   "e": 904.0,
+   "t": "Bye."
+  },
+  {
+   "s": 904.16,
+   "e": 904.6,
+   "t": "Bye."
+  },
+  {
+   "s": 904.9,
+   "e": 905.4,
+   "t": "Bye."
+  },
+  {
+   "s": 905.7,
+   "e": 906.26,
+   "t": "Bye."
+  },
+  {
+   "s": 906.76,
+   "e": 907.5,
+   "t": "Bye."
+  },
+  {
+   "s": 907.88,
+   "e": 908.44,
+   "t": "Bye."
+  },
+  {
+   "s": 908.74,
+   "e": 909.22,
+   "t": "Bye."
+  },
+  {
+   "s": 909.7,
+   "e": 910.22,
+   "t": "Bye."
+  },
+  {
+   "s": 910.46,
+   "e": 911.06,
+   "t": "Bye."
+  },
+  {
+   "s": 911.5,
+   "e": 912.12,
+   "t": "Bye."
+  },
+  {
+   "s": 912.24,
+   "e": 912.74,
+   "t": "Bye."
+  },
+  {
+   "s": 913.0,
+   "e": 913.92,
+   "t": "Bye."
+  },
+  {
+   "s": 914.16,
+   "e": 914.78,
+   "t": "Bye."
+  },
+  {
+   "s": 914.98,
+   "e": 915.54,
+   "t": "Bye."
+  },
+  {
+   "s": 916.02,
+   "e": 916.58,
+   "t": "Bye."
+  },
+  {
+   "s": 916.92,
+   "e": 917.44,
+   "t": "Bye."
+  },
+  {
+   "s": 917.76,
+   "e": 918.7,
+   "t": "Bye."
+  },
+  {
+   "s": 918.92,
+   "e": 919.84,
+   "t": "Bye."
+  },
+  {
+   "s": 920.08,
+   "e": 920.92,
+   "t": "Bye."
+  },
+  {
+   "s": 921.0,
+   "e": 921.64,
+   "t": "Bye."
+  },
+  {
+   "s": 921.86,
+   "e": 922.42,
+   "t": "Bye."
+  },
+  {
+   "s": 922.68,
+   "e": 923.18,
+   "t": "Bye."
+  },
+  {
+   "s": 923.42,
+   "e": 923.92,
+   "t": "Bye."
+  },
+  {
+   "s": 924.04,
+   "e": 924.66,
+   "t": "Bye."
+  },
+  {
+   "s": 924.82,
+   "e": 925.02,
+   "t": "Bye."
+  },
+  {
+   "s": 925.02,
+   "e": 925.38,
+   "t": "Bye."
+  }
+ ]
+}

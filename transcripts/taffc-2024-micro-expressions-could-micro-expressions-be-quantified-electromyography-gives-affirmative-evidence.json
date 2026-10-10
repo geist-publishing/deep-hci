@@ -1,0 +1,1095 @@
+{
+ "guid": "deephci.podbean.com/d7fda749-6b5e-5727-b7be-25756b62fdbc",
+ "slug": "taffc-2024-micro-expressions-could-micro-expressions-be-quantified-electromyography-gives-affirmative-evidence",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "EMG_proves_micro-expressions_are_involuntary_leaks.m4a",
+  "version": 1
+ },
+ "duration": 842,
+ "word_count": 2252,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 6.0,
+   "t": "Welcome to this deep dive. Today, we're taking a granular look at the architecture of human emotion."
+  },
+  {
+   "s": 6.4,
+   "e": 14.76,
+   "t": "Specifically, we're focusing on microexpressions. These are the brief, subtle facial movements that can, well, involuntarily disclose concealed feelings."
+  },
+  {
+   "s": 15.3,
+   "e": 25.54,
+   "t": "They act as these tiny windows into a person's genuine emotional state. And for decades, our understanding of them has rested on mainly subjective visual observation."
+  },
+  {
+   "s": 25.54,
+   "e": 33.12,
+   "t": "And that subjectivity is the problem, isn't it? That's what we're tackling today. Microexpressions, or MEs, are such vital signals in social interaction."
+  },
+  {
+   "s": 33.6,
+   "e": 42.16,
+   "t": "Yet our reliance on manual coding, even on systems as robust as the facial action coding system, it just introduces this unavoidable inconsistency."
+  },
+  {
+   "s": 42.44,
+   "e": 46.62,
+   "t": "So our mission today, guided by this source material, is to explore some groundbreaking research."
+  },
+  {
+   "s": 46.74,
+   "e": 52.1,
+   "t": "Yes, research that seeks to replace that human guesswork with objective, rigorous physiological data."
+  },
+  {
+   "s": 52.1,
+   "e": 57.48,
+   "t": "We're asking, can we define an ME not by what a person sees, but by what the body actually measures?"
+  },
+  {
+   "s": 57.98,
+   "e": 67.2,
+   "t": "The methodology here seems to be a significant step forward. It involves pairing facial electromyography, EMG, which measures muscle activity, with high-resolution video recordings."
+  },
+  {
+   "s": 67.84,
+   "e": 69.56,
+   "t": "And they captured a huge data set."
+  },
+  {
+   "s": 69.68,
+   "e": 76.98,
+   "t": "A substantial one, yes. 233 microexpressions, and then 147 of the more standard macroexpressions."
+  },
+  {
+   "s": 76.98,
+   "e": 85.26,
+   "t": "And this was all from 35 participants. The findings are giving us a new, a two-dimensional physiological definition for these MEs."
+  },
+  {
+   "s": 85.34,
+   "e": 88.92,
+   "t": "Okay, so before we dive into the data, let's ground ourselves in the basic definitions."
+  },
+  {
+   "s": 89.12,
+   "e": 97.62,
+   "t": "We should. Traditionally, MEs are defined by their brevity, they are involuntary movements, and the key is they last less than 500 milliseconds."
+  },
+  {
+   "s": 97.92,
+   "e": 98.46,
+   "t": "Half a second."
+  },
+  {
+   "s": 98.72,
+   "e": 104.64,
+   "t": "That half-second boundary is the theoretical barrier. By contrast, you have macroexpressions, or MEs."
+  },
+  {
+   "s": 104.64,
+   "e": 109.7,
+   "t": "They're longer, far more intense, and they typically fall within the realm of conscious control."
+  },
+  {
+   "s": 110.52,
+   "e": 112.76,
+   "t": "They're what you think of as a normal facial expression."
+  },
+  {
+   "s": 113.04,
+   "e": 118.0,
+   "t": "But the challenge has always been proving that distinction scientifically, especially when you get to intensity."
+  },
+  {
+   "s": 118.52,
+   "e": 125.86,
+   "t": "I mean, the facial action coding system, FACS, it allows researchers to code every single muscle action unit or AU on the face."
+  },
+  {
+   "s": 126.3,
+   "e": 127.0,
+   "t": "It's a gold standard."
+  },
+  {
+   "s": 127.0,
+   "e": 136.48,
+   "t": "But when it comes to intensity, FACS asks human coders to, well, rate the strength of the expression on descriptive scales."
+  },
+  {
+   "s": 137.5,
+   "e": 138.92,
+   "t": "That feels like subjective judgment."
+  },
+  {
+   "s": 139.18,
+   "e": 147.22,
+   "t": "It is subjective judgment. Imagine asking two highly trained coders to rate a fleeting muscular twitch, one lasting three-tenths of a second."
+  },
+  {
+   "s": 147.44,
+   "e": 150.0,
+   "t": "They have to rate it on a scale from trace to maximum."
+  },
+  {
+   "s": 150.8,
+   "e": 152.44,
+   "t": "Their ratings could be all over the place."
+  },
+  {
+   "s": 152.44,
+   "e": 158.02,
+   "t": "They might vary wildly. What one person calls a level-two movement, another might call a level-three."
+  },
+  {
+   "s": 158.6,
+   "e": 163.82,
+   "t": "And this subjectivity means the data isn't replicable. It creates inconsistencies across studies."
+  },
+  {
+   "s": 164.36,
+   "e": 166.82,
+   "t": "The situation just demanded an objective measure."
+  },
+  {
+   "s": 167.06,
+   "e": 171.96,
+   "t": "And that's where the researchers identified electromyography, the EMG, as the optimal solution."
+  },
+  {
+   "s": 172.08,
+   "e": 175.14,
+   "t": "It is the optimal tool. It's because of its temporal resolution."
+  },
+  {
+   "s": 175.56,
+   "e": 180.44,
+   "t": "EMG measures the electromagnetic field potential that's generated every single time a muscle fiber contracts."
+  },
+  {
+   "s": 180.44,
+   "e": 182.78,
+   "t": "And it can do that with millisecond precision."
+  },
+  {
+   "s": 183.2,
+   "e": 184.12,
+   "t": "Millisecond precision."
+  },
+  {
+   "s": 184.62,
+   "e": 192.1,
+   "t": "When you are trying to quantify an event that occurs in less time than it takes to blink, you need an instrument that reports the muscle firing directly."
+  },
+  {
+   "s": 192.48,
+   "e": 198.4,
+   "t": "You're shifting the analysis from visual approximation to direct biological truth."
+  },
+  {
+   "s": 198.84,
+   "e": 202.08,
+   "t": "So to get that level of measurement, the technical setup had to be specialized."
+  },
+  {
+   "s": 202.52,
+   "e": 209.88,
+   "t": "The research team found that commercial EMG devices often have, well, limited channels or they're too complex to configure."
+  },
+  {
+   "s": 209.88,
+   "e": 213.18,
+   "t": "Which would have compromised the study's flexibility, so they built their own."
+  },
+  {
+   "s": 213.3,
+   "e": 215.5,
+   "t": "A custom eight-channel EMG module."
+  },
+  {
+   "s": 215.76,
+   "e": 219.8,
+   "t": "That's right, based on a Texas Instruments ADS-1299 chip."
+  },
+  {
+   "s": 220.26,
+   "e": 225.54,
+   "t": "They essentially customized their own instrument to ensure the highest possible fidelity for this facial data."
+  },
+  {
+   "s": 225.68,
+   "e": 227.86,
+   "t": "And that precision extended to their sampling choices."
+  },
+  {
+   "s": 228.0,
+   "e": 228.36,
+   "t": "It did."
+  },
+  {
+   "s": 228.78,
+   "e": 233.74,
+   "t": "The typical frequencies for facial muscle signals, they range from about 20 to 500 hertz."
+  },
+  {
+   "s": 234.22,
+   "e": 237.24,
+   "t": "The researchers selected a 1,000 hertz sampling rate."
+  },
+  {
+   "s": 237.38,
+   "e": 238.92,
+   "t": "Okay, why not higher? Why not 2,000?"
+  },
+  {
+   "s": 238.92,
+   "e": 244.7,
+   "t": "Well, they reasoned that while 2,000 hertz would capture more data, it would also capture unnecessary noise."
+  },
+  {
+   "s": 245.1,
+   "e": 247.56,
+   "t": "And that complexity could pollute the signal."
+  },
+  {
+   "s": 248.02,
+   "e": 253.72,
+   "t": "They were seeking that perfect balance between high speed and clarity for this specific task."
+  },
+  {
+   "s": 253.92,
+   "e": 255.88,
+   "t": "And then there's the critical issue of synchronization."
+  },
+  {
+   "s": 256.48,
+   "e": 263.62,
+   "t": "How do you align a stream of millisecond-precise EMG data with video evidence that's only captured at 30 frames per second?"
+  },
+  {
+   "s": 264.3,
+   "e": 265.1,
+   "t": "Sounds complicated."
+  },
+  {
+   "s": 265.1,
+   "e": 268.32,
+   "t": "It does, but their solution was elegantly simple."
+  },
+  {
+   "s": 268.7,
+   "e": 272.34,
+   "t": "They integrated a digital tube display right into the video frame."
+  },
+  {
+   "s": 272.66,
+   "e": 277.1,
+   "t": "This tube continually incremented its count, and it was captured by the 4K camera."
+  },
+  {
+   "s": 277.48,
+   "e": 282.04,
+   "t": "So as the computer recorded each packet of EMG data, it updated that counter."
+  },
+  {
+   "s": 282.16,
+   "e": 283.02,
+   "t": "It's like a time stamp."
+  },
+  {
+   "s": 283.12,
+   "e": 285.02,
+   "t": "A precise frame-by-frame stamp."
+  },
+  {
+   "s": 285.02,
+   "e": 289.54,
+   "t": "It allowed them to align the physiological signals with the visual evidence without any error."
+  },
+  {
+   "s": 289.7,
+   "e": 291.78,
+   "t": "Turning to the anatomy of the data collection itself."
+  },
+  {
+   "s": 291.98,
+   "e": 292.1,
+   "t": "Yeah."
+  },
+  {
+   "s": 292.14,
+   "e": 293.44,
+   "t": "What about the electrode placement?"
+  },
+  {
+   "s": 293.84,
+   "e": 295.5,
+   "t": "They chose bipolar electrodes."
+  },
+  {
+   "s": 296.18,
+   "e": 301.1,
+   "t": "These are superior because they're far less prone to interference or cross-talk between muscle groups."
+  },
+  {
+   "s": 301.1,
+   "e": 304.22,
+   "t": "And they concentrated the placement on the left half of the face."
+  },
+  {
+   "s": 304.36,
+   "e": 304.68,
+   "t": "The left half."
+  },
+  {
+   "s": 304.74,
+   "e": 306.38,
+   "t": "Targeting seven key muscles."
+  },
+  {
+   "s": 306.98,
+   "e": 308.48,
+   "t": "The ones for fundamental expressions."
+  },
+  {
+   "s": 309.12,
+   "e": 310.76,
+   "t": "Like the frontalis and the forehead."
+  },
+  {
+   "s": 311.42,
+   "e": 314.02,
+   "t": "The corrugator supracilii for the brow furrow."
+  },
+  {
+   "s": 314.32,
+   "e": 316.1,
+   "t": "And the zegomatic is major for smiling."
+  },
+  {
+   "s": 316.88,
+   "e": 318.62,
+   "t": "But why the left side specifically?"
+  },
+  {
+   "s": 319.26,
+   "e": 325.52,
+   "t": "Previous research has consistently suggested that the left side of the human face tends to exhibit stronger emotional expression."
+  },
+  {
+   "s": 326.24,
+   "e": 330.2,
+   "t": "It often reflects a bias in the right hemisphere of the brain for processing emotion."
+  },
+  {
+   "s": 330.2,
+   "e": 331.8,
+   "t": "And the right side was kept clear."
+  },
+  {
+   "s": 331.98,
+   "e": 332.36,
+   "t": "Exactly."
+  },
+  {
+   "s": 332.52,
+   "e": 336.28,
+   "t": "That was to facilitate the concurrent manual coding process by the human reviewers."
+  },
+  {
+   "s": 336.6,
+   "e": 336.78,
+   "t": "Okay."
+  },
+  {
+   "s": 336.94,
+   "e": 342.24,
+   "t": "So, with this robust data collection in place, the study delivered its core objective findings."
+  },
+  {
+   "s": 343.06,
+   "e": 350.2,
+   "t": "The physiological evidence now quantitatively concerns that microexpressions have both shorter duration and, crucially, lower intensity."
+  },
+  {
+   "s": 350.9,
+   "e": 351.2,
+   "t": "Yes."
+  },
+  {
+   "s": 351.32,
+   "e": 354.5,
+   "t": "This moves the definition out of the realm of theory and into physics."
+  },
+  {
+   "s": 354.5,
+   "e": 360.34,
+   "t": "And, to objectively quantify that intensity, the researchers introduced MVC percent."
+  },
+  {
+   "s": 360.68,
+   "e": 362.9,
+   "t": "That's a percentage of maximum voluntary contraction."
+  },
+  {
+   "s": 363.22,
+   "e": 363.74,
+   "t": "Explain that."
+  },
+  {
+   "s": 363.82,
+   "e": 364.4,
+   "t": "What is MVC?"
+  },
+  {
+   "s": 364.68,
+   "e": 367.9,
+   "t": "Think of MVC as the maximum force a muscle can generate."
+  },
+  {
+   "s": 368.32,
+   "e": 373.2,
+   "t": "If you were to say clench your jaw as hard as you possibly can, that's 100% MVC."
+  },
+  {
+   "s": 373.64,
+   "e": 377.96,
+   "t": "It provides an objective baseline against which all other expressions can be measured."
+  },
+  {
+   "s": 377.96,
+   "e": 382.06,
+   "t": "And, the numbers that resulted, they paint a vivid picture."
+  },
+  {
+   "s": 382.96,
+   "e": 391.24,
+   "t": "For the macroexpressions, the typical visible emotional movements, they showed a mean MVC percent of 23.09%."
+  },
+  {
+   "s": 391.24,
+   "e": 393.32,
+   "t": "A measurable conscious contraction."
+  },
+  {
+   "s": 393.48,
+   "e": 399.4,
+   "t": "But, in striking comparison, the microexpressions registered a mean MVC percent of only 8.11%."
+  },
+  {
+   "s": 399.4,
+   "e": 400.62,
+   "t": "Dramatically lower."
+  },
+  {
+   "s": 400.92,
+   "e": 403.2,
+   "t": "This is the empirical proof of that low intensity."
+  },
+  {
+   "s": 403.6,
+   "e": 405.0,
+   "t": "And, they narrowed it down further."
+  },
+  {
+   "s": 405.0,
+   "e": 415.12,
+   "t": "They provided a 95% confidence interval, which places the typical intensity of a microexpressions between 7.01% and 9.21% of the maximum possible contraction."
+  },
+  {
+   "s": 415.32,
+   "e": 420.12,
+   "t": "We're talking about muscle activity so faint you would probably be incapable of executing it consciously."
+  },
+  {
+   "s": 420.34,
+   "e": 421.54,
+   "t": "That's a good way to put it, yes."
+  },
+  {
+   "s": 421.84,
+   "e": 425.9,
+   "t": "Even if you attempted to fake a microexpressions, it would be difficult to produce something that weak."
+  },
+  {
+   "s": 426.12,
+   "e": 427.98,
+   "t": "That makes the movement almost imperceptible."
+  },
+  {
+   "s": 428.14,
+   "e": 428.9,
+   "t": "Now, what about duration?"
+  },
+  {
+   "s": 429.2,
+   "e": 433.46,
+   "t": "For duration, we can look at the integrated EMG, or IEMG."
+  },
+  {
+   "s": 433.46,
+   "e": 437.98,
+   "t": "It's a measure that combines both the amplitude and the time of the muscle signal."
+  },
+  {
+   "s": 438.62,
+   "e": 442.46,
+   "t": "For macroexpressions, the average IEMG score was over 440."
+  },
+  {
+   "s": 443.24,
+   "e": 444.38,
+   "t": "For microexpressions?"
+  },
+  {
+   "s": 444.5,
+   "e": 445.42,
+   "t": "A mere 78."
+  },
+  {
+   "s": 445.82,
+   "e": 446.76,
+   "t": "A huge difference."
+  },
+  {
+   "s": 447.16,
+   "e": 455.74,
+   "t": "And, when they isolated just the duration, the 95% confidence range for MEs was found to be precisely 307 to 327 milliseconds."
+  },
+  {
+   "s": 455.96,
+   "e": 457.78,
+   "t": "That interval is remarkably small."
+  },
+  {
+   "s": 457.9,
+   "e": 460.24,
+   "t": "It confirms that half-second threshold everyone assumed."
+  },
+  {
+   "s": 460.24,
+   "e": 463.6,
+   "t": "But here's the critical leap, the relationship between the two."
+  },
+  {
+   "s": 464.04,
+   "e": 466.8,
+   "t": "Did they find a connection between duration and intensity?"
+  },
+  {
+   "s": 467.02,
+   "e": 467.8,
+   "t": "They certainly did."
+  },
+  {
+   "s": 468.06,
+   "e": 470.88,
+   "t": "A linear regression analysis demonstrated compelling evidence."
+  },
+  {
+   "s": 471.32,
+   "e": 476.54,
+   "t": "It showed that duration was a significant predictor for intensity, with a beta value of 0.492."
+  },
+  {
+   "s": 476.66,
+   "e": 476.88,
+   "t": "Meaning?"
+  },
+  {
+   "s": 477.1,
+   "e": 480.4,
+   "t": "Meaning a shorter duration is intrinsically linked to a lower intensity."
+  },
+  {
+   "s": 481.02,
+   "e": 483.06,
+   "t": "Prior views often focused only on duration."
+  },
+  {
+   "s": 483.06,
+   "e": 486.68,
+   "t": "This research elevates the definition to a two-dimensional construct."
+  },
+  {
+   "s": 487.24,
+   "e": 490.24,
+   "t": "Microexpressions are defined by their short duration and their low intensity."
+  },
+  {
+   "s": 490.68,
+   "e": 491.72,
+   "t": "So the physics checks out."
+  },
+  {
+   "s": 492.22,
+   "e": 494.34,
+   "t": "They're measurable, short, and weak."
+  },
+  {
+   "s": 494.92,
+   "e": 497.8,
+   "t": "Let's shift to the behavioral and psychological dimension."
+  },
+  {
+   "s": 498.6,
+   "e": 501.2,
+   "t": "The researchers explored the internal characteristics."
+  },
+  {
+   "s": 501.88,
+   "e": 503.7,
+   "t": "Unawareness and uncontrollability."
+  },
+  {
+   "s": 504.24,
+   "e": 505.94,
+   "t": "Why do these leaks happen?"
+  },
+  {
+   "s": 505.94,
+   "e": 509.48,
+   "t": "To test this, they put participants under cognitive strain."
+  },
+  {
+   "s": 510.24,
+   "e": 515.26,
+   "t": "They viewed emotionally evocative videos, but were told to strictly maintain a neutral expression."
+  },
+  {
+   "s": 515.44,
+   "e": 516.92,
+   "t": "The emotion suppression paradigm."
+  },
+  {
+   "s": 517.16,
+   "e": 517.56,
+   "t": "Exactly."
+  },
+  {
+   "s": 518.24,
+   "e": 523.04,
+   "t": "And they were asked to press a key if they became aware that an expression had leaked out."
+  },
+  {
+   "s": 523.5,
+   "e": 525.82,
+   "t": "That key press was the measure of self-awareness."
+  },
+  {
+   "s": 525.96,
+   "e": 529.56,
+   "t": "And how good are we at detecting our own emotional leakage under pressure?"
+  },
+  {
+   "s": 529.56,
+   "e": 531.4,
+   "t": "The results were quite telling."
+  },
+  {
+   "s": 531.82,
+   "e": 536.04,
+   "t": "A staggering 93% of microexpressions were not reported by the participants."
+  },
+  {
+   "s": 536.58,
+   "e": 537.06,
+   "t": "93%."
+  },
+  {
+   "s": 537.06,
+   "e": 540.9,
+   "t": "They occurred entirely outside the threshold of conscious self-awareness."
+  },
+  {
+   "s": 541.4,
+   "e": 545.8,
+   "t": "For perspective, 70% of the larger, longer macroexpressions were reported."
+  },
+  {
+   "s": 546.32,
+   "e": 549.06,
+   "t": "This confirms the fundamental nature of the microexpression."
+  },
+  {
+   "s": 549.62,
+   "e": 554.46,
+   "t": "It is a genuine, involuntary leakage that happens before we can consciously register it."
+  },
+  {
+   "s": 554.7,
+   "e": 555.96,
+   "t": "Wait, just to let that sink in."
+  },
+  {
+   "s": 555.96,
+   "e": 560.22,
+   "t": "93% of these emotional leaks happened without the person even knowing."
+  },
+  {
+   "s": 561.08,
+   "e": 565.28,
+   "t": "That statistic fundamentally changes how we think about self-monitoring."
+  },
+  {
+   "s": 565.44,
+   "e": 567.56,
+   "t": "That is an astonishing degree of unawareness."
+  },
+  {
+   "s": 567.76,
+   "e": 568.42,
+   "t": "It is indeed."
+  },
+  {
+   "s": 568.68,
+   "e": 570.94,
+   "t": "And furthermore, the study examines self-control."
+  },
+  {
+   "s": 571.64,
+   "e": 576.9,
+   "t": "After the viewing, participants assessed their own ability to control their facial expressions using a nine-point scale."
+  },
+  {
+   "s": 577.2,
+   "e": 579.8,
+   "t": "And the analysis of this data yielded a paradox."
+  },
+  {
+   "s": 579.92,
+   "e": 580.44,
+   "t": "Which was?"
+  },
+  {
+   "s": 580.44,
+   "e": 583.46,
+   "t": "The higher the self-control rate a participant reported,"
+  },
+  {
+   "s": 583.46,
+   "e": 586.3,
+   "t": "the more microexpressions appeared on their face."
+  },
+  {
+   "s": 586.82,
+   "e": 588.28,
+   "t": "That seems backward."
+  },
+  {
+   "s": 588.48,
+   "e": 591.3,
+   "t": "If I try harder to control my face, I should see fewer leaks, not more."
+  },
+  {
+   "s": 591.74,
+   "e": 592.88,
+   "t": "What's the mechanism there?"
+  },
+  {
+   "s": 593.06,
+   "e": 595.64,
+   "t": "The proposed cognitive mechanism is that self-control,"
+  },
+  {
+   "s": 595.82,
+   "e": 600.06,
+   "t": "it successfully restricts the production of the larger, longer macroexpressions."
+  },
+  {
+   "s": 600.32,
+   "e": 605.74,
+   "t": "But this act of intense, sustained suppression requires significant cognitive effort."
+  },
+  {
+   "s": 606.12,
+   "e": 607.62,
+   "t": "It's a kind of mental overload."
+  },
+  {
+   "s": 607.62,
+   "e": 615.28,
+   "t": "And in that state of focused suppression, the tiny, involuntary, brief muscle movements, the microexpressions,"
+  },
+  {
+   "s": 615.44,
+   "e": 617.38,
+   "t": "they slip through the cognitive net."
+  },
+  {
+   "s": 617.64,
+   "e": 618.36,
+   "t": "They're spontaneous."
+  },
+  {
+   "s": 618.88,
+   "e": 623.68,
+   "t": "And they're challenging to inhibit precisely because that conscious effort is focused elsewhere."
+  },
+  {
+   "s": 623.9,
+   "e": 629.36,
+   "t": "So the very act of suppressing a big expression is what allows the tiny ones to escape."
+  },
+  {
+   "s": 629.7,
+   "e": 635.38,
+   "t": "That strongly reinforces the idea that microexpressions are genuine indicators of concealed emotion."
+  },
+  {
+   "s": 635.38,
+   "e": 638.98,
+   "t": "It justifies their use in high-stakes fields like deception detection,"
+  },
+  {
+   "s": 639.14,
+   "e": 641.3,
+   "t": "where people are trying their hardest to conceal something."
+  },
+  {
+   "s": 641.7,
+   "e": 646.72,
+   "t": "This provides the physiological and cognitive evidence that validates a decades-old hypothesis."
+  },
+  {
+   "s": 647.4,
+   "e": 652.08,
+   "t": "Now, a major byproduct of this methodical work is the creation of a new resource,"
+  },
+  {
+   "s": 652.48,
+   "e": 654.2,
+   "t": "the CASMAMS database."
+  },
+  {
+   "s": 654.78,
+   "e": 656.24,
+   "t": "Tell us what makes this so important."
+  },
+  {
+   "s": 656.48,
+   "e": 657.28,
+   "t": "CASMG is unique."
+  },
+  {
+   "s": 657.44,
+   "e": 662.64,
+   "t": "It's the first microexpressions database to include the objective EMG signals right alongside the video recordings."
+  },
+  {
+   "s": 662.64,
+   "e": 665.6,
+   "t": "It encompasses 380 total samples."
+  },
+  {
+   "s": 666.12,
+   "e": 667.54,
+   "t": "For researchers, this is transformative."
+  },
+  {
+   "s": 668.12,
+   "e": 671.92,
+   "t": "It meticulously provides keyframe timings, the specific action units involved,"
+  },
+  {
+   "s": 672.1,
+   "e": 675.48,
+   "t": "and emotion labels for every single sample, all backed by objective measurements."
+  },
+  {
+   "s": 675.94,
+   "e": 679.1,
+   "t": "What's the practical utility of including that EMG data?"
+  },
+  {
+   "s": 679.46,
+   "e": 680.62,
+   "t": "Accuracy and detection."
+  },
+  {
+   "s": 681.14,
+   "e": 686.16,
+   "t": "The study developed a baseline semi-automatic detection method based purely on the EMG data,"
+  },
+  {
+   "s": 686.34,
+   "e": 691.36,
+   "t": "and this method demonstrated superior performance compared to the traditional vision-only methods."
+  },
+  {
+   "s": 691.36,
+   "e": 692.08,
+   "t": "In what way?"
+  },
+  {
+   "s": 692.08,
+   "e": 698.26,
+   "t": "In accurately localizing the ME intervals, pinpointing the exact start and end of the expression."
+  },
+  {
+   "s": 698.88,
+   "e": 703.62,
+   "t": "It achieved an 84.7% average overlap rate with the ground truth."
+  },
+  {
+   "s": 704.0,
+   "e": 708.2,
+   "t": "It solves the enormous difficulty that comes with manual, frame-by-frame coding."
+  },
+  {
+   "s": 708.56,
+   "e": 711.62,
+   "t": "Even with these advances, the researchers acknowledged limitations."
+  },
+  {
+   "s": 712.2,
+   "e": 713.7,
+   "t": "What were the key boundaries they identified?"
+  },
+  {
+   "s": 714.04,
+   "e": 715.46,
+   "t": "The main one was the physical setup."
+  },
+  {
+   "s": 715.9,
+   "e": 718.64,
+   "t": "Since electrodes were only placed on the left half of the face,"
+  },
+  {
+   "s": 718.64,
+   "e": 723.98,
+   "t": "they had to exclude 21 samples where asymmetrical MEs occurred only on the right side."
+  },
+  {
+   "s": 724.2,
+   "e": 725.6,
+   "t": "So some spontaneous data was missed."
+  },
+  {
+   "s": 725.82,
+   "e": 726.68,
+   "t": "Inevitably, yes."
+  },
+  {
+   "s": 727.08,
+   "e": 731.66,
+   "t": "Additionally, the macro expressions they collected, which averaged about 23% BAC,"
+  },
+  {
+   "s": 731.82,
+   "e": 736.94,
+   "t": "were lower in intensity than what you might see in unconstrained social interactions."
+  },
+  {
+   "s": 736.94,
+   "e": 739.54,
+   "t": "Because they were in a lab trying to suppress their feelings."
+  },
+  {
+   "s": 739.62,
+   "e": 740.78,
+   "t": "Corrupted control environment."
+  },
+  {
+   "s": 741.28,
+   "e": 744.14,
+   "t": "So looking forward, how do they suggest overcoming these challenges?"
+  },
+  {
+   "s": 744.58,
+   "e": 746.72,
+   "t": "The source material emphasizes two paths."
+  },
+  {
+   "s": 747.24,
+   "e": 753.82,
+   "t": "First, future work has to incorporate culturally diverse participant pools to enhance the universality of the conclusions."
+  },
+  {
+   "s": 753.82,
+   "e": 759.34,
+   "t": "And second, to overcome the constraints of meeting a physical EMG device in the real world,"
+  },
+  {
+   "s": 759.86,
+   "e": 762.34,
+   "t": "the focus has to shift to multimodal models."
+  },
+  {
+   "s": 762.46,
+   "e": 763.0,
+   "t": "What does that mean?"
+  },
+  {
+   "s": 763.0,
+   "e": 769.66,
+   "t": "It means models that will integrate the objective physiological data from EMG training with advanced computer vision techniques."
+  },
+  {
+   "s": 769.98,
+   "e": 775.06,
+   "t": "This would allow for powerful non-contact recognition algorithms that you could deploy anywhere."
+  },
+  {
+   "s": 775.06,
+   "e": 785.82,
+   "t": "So to synthesize the core knowledge from this deep dive, this meticulous research has provided the long-sought, precise physiological boundaries that define microexpressions."
+  },
+  {
+   "s": 786.04,
+   "e": 792.14,
+   "t": "We have moved MEs from a theoretical idea to a quantifiable biological event."
+  },
+  {
+   "s": 792.46,
+   "e": 801.0,
+   "t": "One characterized by a duration interval locked between 307 and 327 milliseconds and an intensity range of 7% to 9.2% MVC."
+  },
+  {
+   "s": 801.0,
+   "e": 806.38,
+   "t": "And critically, these findings validate that MEs are unaware and uncontrollable leaks of genuine emotion."
+  },
+  {
+   "s": 806.38,
+   "e": 813.16,
+   "t": "This objective confirmation of uncontrollability, well, it raises a profound question for you, the listener, to consider."
+  },
+  {
+   "s": 813.94,
+   "e": 820.66,
+   "t": "If we continue to develop sophisticated, non-contact AI systems trained on this precise, objective EMG data,"
+  },
+  {
+   "s": 821.58,
+   "e": 826.32,
+   "t": "what might that future mean for our ability to maintain privacy over our internal emotional states?"
+  },
+  {
+   "s": 826.68,
+   "e": 830.2,
+   "t": "Since 93% of these leaks happen outside our own conscious awareness,"
+  },
+  {
+   "s": 830.2,
+   "e": 833.88,
+   "t": "AI detection could invade a realm of privacy we didn't even know we possessed."
+  },
+  {
+   "s": 834.14,
+   "e": 838.16,
+   "t": "The CASMEMG database is now the proving ground for exactly that future technology."
+  },
+  {
+   "s": 838.6,
+   "e": 842.58,
+   "t": "Thank you for joining us for this deep dive into the objective quantification of the human face."
+  }
+ ]
+}

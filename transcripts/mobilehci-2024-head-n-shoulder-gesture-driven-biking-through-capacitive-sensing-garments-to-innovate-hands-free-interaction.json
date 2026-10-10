@@ -1,0 +1,1705 @@
+{
+ "guid": "deephci.podbean.com/39c39950-4c1f-3b9c-8727-09a363e72866",
+ "slug": "mobilehci-2024-head-n-shoulder-gesture-driven-biking-through-capacitive-sensing-garments-to-innovate-hands-free-interaction",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3676510.mp3",
+  "version": 1
+ },
+ "duration": 573,
+ "word_count": 1794,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 1.32,
+   "t": "Welcome to our deep dive today."
+  },
+  {
+   "s": 1.8,
+   "e": 5.78,
+   "t": "We're going to be looking at the intersection of technology, safety, and cycling."
+  },
+  {
+   "s": 5.92,
+   "e": 6.32,
+   "t": "Sounds good."
+  },
+  {
+   "s": 6.92,
+   "e": 9.82,
+   "t": "We're going to be looking at this research project called Head and Shoulder."
+  },
+  {
+   "s": 10.3,
+   "e": 12.8,
+   "t": "It's about controlling devices while you ride."
+  },
+  {
+   "s": 13.6,
+   "e": 13.84,
+   "t": "Yeah."
+  },
+  {
+   "s": 14.06,
+   "e": 16.92,
+   "t": "So Head and Shoulder, they're trying to address this problem."
+  },
+  {
+   "s": 17.06,
+   "e": 17.28,
+   "t": "Okay."
+  },
+  {
+   "s": 17.52,
+   "e": 20.28,
+   "t": "Where cyclists are more and more distracted by their devices."
+  },
+  {
+   "s": 20.46,
+   "e": 20.68,
+   "t": "Right."
+  },
+  {
+   "s": 21.06,
+   "e": 24.34,
+   "t": "Which obviously leads to some dangerous situations when you're out on the road."
+  },
+  {
+   "s": 24.58,
+   "e": 24.86,
+   "t": "Yeah."
+  },
+  {
+   "s": 25.02,
+   "e": 27.38,
+   "t": "And you kind of need to engage with those devices these days."
+  },
+  {
+   "s": 27.42,
+   "e": 27.78,
+   "t": "Exactly."
+  },
+  {
+   "s": 27.78,
+   "e": 32.12,
+   "t": "For navigation, communication, even just tracking your fitness."
+  },
+  {
+   "s": 32.34,
+   "e": 32.82,
+   "t": "Sure."
+  },
+  {
+   "s": 33.06,
+   "e": 36.58,
+   "t": "So just ignoring them isn't really much of an option for most cyclists."
+  },
+  {
+   "s": 36.96,
+   "e": 37.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 37.28,
+   "e": 40.08,
+   "t": "And people have tried to come up with some solutions in the past."
+  },
+  {
+   "s": 40.76,
+   "e": 45.82,
+   "t": "You know, trying to make it safer to interact with those devices while you're riding."
+  },
+  {
+   "s": 46.1,
+   "e": 48.02,
+   "t": "So things like custom handlebar buttons."
+  },
+  {
+   "s": 48.38,
+   "e": 48.62,
+   "t": "Right."
+  },
+  {
+   "s": 48.8,
+   "e": 52.56,
+   "t": "Voice control, which can be a little iffy when it's noisy."
+  },
+  {
+   "s": 52.88,
+   "e": 53.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 53.3,
+   "e": 56.14,
+   "t": "Even some forays into augmented reality."
+  },
+  {
+   "s": 56.42,
+   "e": 56.78,
+   "t": "Sure."
+  },
+  {
+   "s": 56.78,
+   "e": 59.06,
+   "t": "But I mean, all of those come with their own problems."
+  },
+  {
+   "s": 59.18,
+   "e": 59.7,
+   "t": "Yeah, they do."
+  },
+  {
+   "s": 60.9,
+   "e": 63.92,
+   "t": "Some inherent risks, maybe some bulky hardware."
+  },
+  {
+   "s": 64.38,
+   "e": 64.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 64.78,
+   "e": 68.56,
+   "t": "Or just not being practical in every situation you might be in as a cyclist."
+  },
+  {
+   "s": 68.76,
+   "e": 69.6,
+   "t": "That's very true."
+  },
+  {
+   "s": 69.78,
+   "e": 74.46,
+   "t": "So it sounds like this Head and Shoulder Project is trying to come at this from a different direction."
+  },
+  {
+   "s": 74.62,
+   "e": 75.62,
+   "t": "Yeah, they are."
+  },
+  {
+   "s": 75.8,
+   "e": 76.6,
+   "t": "What is their approach?"
+  },
+  {
+   "s": 76.68,
+   "e": 80.16,
+   "t": "So they're using a wearable garment with capacitive sensors in it."
+  },
+  {
+   "s": 80.16,
+   "e": 83.72,
+   "t": "And these sensors detect subtle movements in your shoulders."
+  },
+  {
+   "s": 83.72,
+   "e": 86.06,
+   "t": "So like a discrete shoulder covering or something?"
+  },
+  {
+   "s": 86.12,
+   "e": 86.42,
+   "t": "Yeah."
+  },
+  {
+   "s": 86.66,
+   "e": 88.16,
+   "t": "With sensors woven into the fabric?"
+  },
+  {
+   "s": 88.16,
+   "e": 88.64,
+   "t": "Exactly."
+  },
+  {
+   "s": 88.64,
+   "e": 88.88,
+   "t": "Exactly."
+  },
+  {
+   "s": 89.08,
+   "e": 89.26,
+   "t": "Okay."
+  },
+  {
+   "s": 89.36,
+   "e": 92.38,
+   "t": "So what makes that better than these other options?"
+  },
+  {
+   "s": 92.56,
+   "e": 96.5,
+   "t": "So the gestures themselves are really subtle, just shoulder taps."
+  },
+  {
+   "s": 96.88,
+   "e": 99.64,
+   "t": "So they don't really affect your bike control at all."
+  },
+  {
+   "s": 99.78,
+   "e": 100.0,
+   "t": "Right."
+  },
+  {
+   "s": 100.08,
+   "e": 102.04,
+   "t": "And you can do them without taking your eyes off the road."
+  },
+  {
+   "s": 102.24,
+   "e": 102.48,
+   "t": "Okay."
+  },
+  {
+   "s": 102.58,
+   "e": 103.56,
+   "t": "Which is the important part."
+  },
+  {
+   "s": 104.2,
+   "e": 104.82,
+   "t": "And that makes sense."
+  },
+  {
+   "s": 104.82,
+   "e": 105.2,
+   "t": "Yeah."
+  },
+  {
+   "s": 105.38,
+   "e": 110.7,
+   "t": "It kind of reminds me of that research about how even small posture shifts can help with rider fatigue."
+  },
+  {
+   "s": 110.94,
+   "e": 111.38,
+   "t": "Exactly."
+  },
+  {
+   "s": 111.62,
+   "e": 111.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 111.86,
+   "e": 113.26,
+   "t": "It builds on that research."
+  },
+  {
+   "s": 113.42,
+   "e": 113.9,
+   "t": "Very cool."
+  },
+  {
+   "s": 114.02,
+   "e": 117.26,
+   "t": "Making that interaction just part of how you're already moving on the bike."
+  },
+  {
+   "s": 117.46,
+   "e": 117.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 117.66,
+   "e": 117.84,
+   "t": "Okay."
+  },
+  {
+   "s": 117.88,
+   "e": 121.14,
+   "t": "So how did they actually turn this idea into something real?"
+  },
+  {
+   "s": 121.82,
+   "e": 123.32,
+   "t": "So they started with a prototype."
+  },
+  {
+   "s": 123.7,
+   "e": 123.96,
+   "t": "Okay."
+  },
+  {
+   "s": 123.96,
+   "e": 128.58,
+   "t": "Just using a normal sports jacket to experiment with sensor placement."
+  },
+  {
+   "s": 128.9,
+   "e": 129.02,
+   "t": "Right."
+  },
+  {
+   "s": 129.28,
+   "e": 131.62,
+   "t": "And how well they could recognize different gestures."
+  },
+  {
+   "s": 132.14,
+   "e": 132.62,
+   "t": "Makes sense."
+  },
+  {
+   "s": 132.62,
+   "e": 135.1,
+   "t": "So you need to make sure it's interpreting your movements correctly."
+  },
+  {
+   "s": 135.26,
+   "e": 135.74,
+   "t": "Exactly."
+  },
+  {
+   "s": 136.0,
+   "e": 139.52,
+   "t": "And to do that, they used a convolutional neural network."
+  },
+  {
+   "s": 139.64,
+   "e": 139.94,
+   "t": "Okay."
+  },
+  {
+   "s": 140.1,
+   "e": 144.26,
+   "t": "To analyze the data from those sensors and classify the gestures."
+  },
+  {
+   "s": 144.6,
+   "e": 145.6,
+   "t": "And how'd that work out?"
+  },
+  {
+   "s": 145.78,
+   "e": 150.16,
+   "t": "In the lab setting, they got up to 95% accuracy."
+  },
+  {
+   "s": 150.54,
+   "e": 150.78,
+   "t": "Really?"
+  },
+  {
+   "s": 150.86,
+   "e": 151.48,
+   "t": "95%?"
+  },
+  {
+   "s": 151.48,
+   "e": 152.46,
+   "t": "Even through a jacket?"
+  },
+  {
+   "s": 152.98,
+   "e": 153.4,
+   "t": "Yeah."
+  },
+  {
+   "s": 153.7,
+   "e": 157.74,
+   "t": "I guess I just assumed it would have to be, you know, directly sensing your skin or something"
+  },
+  {
+   "s": 157.74,
+   "e": 158.86,
+   "t": "for it to be that accurate."
+  },
+  {
+   "s": 158.86,
+   "e": 159.7,
+   "t": "That makes sense."
+  },
+  {
+   "s": 159.8,
+   "e": 162.14,
+   "t": "But they designed it to work through layers of clothing."
+  },
+  {
+   "s": 162.62,
+   "e": 163.14,
+   "t": "That's smart."
+  },
+  {
+   "s": 163.28,
+   "e": 164.94,
+   "t": "They knew that was important for cyclists."
+  },
+  {
+   "s": 164.96,
+   "e": 165.14,
+   "t": "Yeah."
+  },
+  {
+   "s": 165.14,
+   "e": 167.72,
+   "t": "Because you're going to be wearing different clothes depending on the weather."
+  },
+  {
+   "s": 167.88,
+   "e": 168.26,
+   "t": "For sure."
+  },
+  {
+   "s": 168.36,
+   "e": 170.06,
+   "t": "So they tested it with extra layers."
+  },
+  {
+   "s": 170.3,
+   "e": 170.48,
+   "t": "Yeah."
+  },
+  {
+   "s": 170.58,
+   "e": 172.52,
+   "t": "And the accuracy stayed really high."
+  },
+  {
+   "s": 172.64,
+   "e": 174.44,
+   "t": "So it seems like they really thought that through."
+  },
+  {
+   "s": 174.58,
+   "e": 174.78,
+   "t": "They did."
+  },
+  {
+   "s": 174.84,
+   "e": 178.24,
+   "t": "But lab conditions aren't exactly the same as, you know, being out on the road."
+  },
+  {
+   "s": 178.3,
+   "e": 178.52,
+   "t": "Right."
+  },
+  {
+   "s": 178.52,
+   "e": 182.0,
+   "t": "So did they test it in a more realistic setting?"
+  },
+  {
+   "s": 182.26,
+   "e": 182.5,
+   "t": "Yeah."
+  },
+  {
+   "s": 182.62,
+   "e": 182.96,
+   "t": "They did."
+  },
+  {
+   "s": 183.06,
+   "e": 186.8,
+   "t": "They actually created a streamlined shoulder cover based on what they learned in the lab."
+  },
+  {
+   "s": 186.98,
+   "e": 187.44,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 187.58,
+   "e": 189.4,
+   "t": "And they tested that out in the real world."
+  },
+  {
+   "s": 189.68,
+   "e": 191.62,
+   "t": "So no more stationary bikes or anything?"
+  },
+  {
+   "s": 191.78,
+   "e": 191.92,
+   "t": "Yep."
+  },
+  {
+   "s": 191.92,
+   "e": 195.8,
+   "t": "What kind of results did they see when they actually took it out on the road?"
+  },
+  {
+   "s": 196.18,
+   "e": 197.92,
+   "t": "Even better than in the lab."
+  },
+  {
+   "s": 198.18,
+   "e": 198.52,
+   "t": "Okay."
+  },
+  {
+   "s": 198.64,
+   "e": 203.04,
+   "t": "They got up to 97% accuracy in real world conditions."
+  },
+  {
+   "s": 203.36,
+   "e": 203.76,
+   "t": "Wow."
+  },
+  {
+   "s": 203.76,
+   "e": 204.76,
+   "t": "97%."
+  },
+  {
+   "s": 204.76,
+   "e": 205.24,
+   "t": "97%."
+  },
+  {
+   "s": 205.24,
+   "e": 206.94,
+   "t": "That's impressive."
+  },
+  {
+   "s": 207.36,
+   "e": 208.24,
+   "t": "It's really promising."
+  },
+  {
+   "s": 208.56,
+   "e": 208.72,
+   "t": "Yeah."
+  },
+  {
+   "s": 208.8,
+   "e": 211.7,
+   "t": "It really seems like this could actually be a viable technology."
+  },
+  {
+   "s": 211.92,
+   "e": 212.16,
+   "t": "Yeah."
+  },
+  {
+   "s": 212.4,
+   "e": 213.94,
+   "t": "But that's just the technical side."
+  },
+  {
+   "s": 214.06,
+   "e": 214.38,
+   "t": "Right."
+  },
+  {
+   "s": 214.7,
+   "e": 216.22,
+   "t": "What about the user experience?"
+  },
+  {
+   "s": 216.22,
+   "e": 216.38,
+   "t": "Yeah."
+  },
+  {
+   "s": 216.38,
+   "e": 223.66,
+   "t": "Do the cyclists feel like this new method of interacting with their devices was intuitive and safe?"
+  },
+  {
+   "s": 223.96,
+   "e": 225.5,
+   "t": "That's where things get a little more complicated."
+  },
+  {
+   "s": 225.5,
+   "e": 233.4,
+   "t": "So it seems like while the head and shoulder system worked really well technically when they got feedback from the cyclists using it,"
+  },
+  {
+   "s": 233.4,
+   "e": 236.98,
+   "t": "there was this interesting finding about their perception of safety."
+  },
+  {
+   "s": 237.7,
+   "e": 238.36,
+   "t": "That's unexpected."
+  },
+  {
+   "s": 238.64,
+   "e": 238.88,
+   "t": "Yeah."
+  },
+  {
+   "s": 239.08,
+   "e": 242.48,
+   "t": "Given that it's supposed to be less distracting than these other methods."
+  },
+  {
+   "s": 242.62,
+   "e": 242.9,
+   "t": "Right."
+  },
+  {
+   "s": 242.98,
+   "e": 247.82,
+   "t": "And it's not like it was interfering with their ability to control the bike or anything."
+  },
+  {
+   "s": 248.04,
+   "e": 248.22,
+   "t": "Yeah."
+  },
+  {
+   "s": 248.3,
+   "e": 250.18,
+   "t": "So what were the cyclists saying specifically?"
+  },
+  {
+   "s": 250.36,
+   "e": 255.16,
+   "t": "So as part of the study, they had some cyclists try the head and shoulder system."
+  },
+  {
+   "s": 255.34,
+   "e": 255.56,
+   "t": "Okay."
+  },
+  {
+   "s": 255.68,
+   "e": 260.06,
+   "t": "And then others used a more traditional setup with buttons on the handlebars."
+  },
+  {
+   "s": 260.36,
+   "e": 260.82,
+   "t": "Makes sense."
+  },
+  {
+   "s": 260.82,
+   "e": 264.68,
+   "t": "And the ones using the head and shoulder system actually reported feeling less safe."
+  },
+  {
+   "s": 264.98,
+   "e": 265.26,
+   "t": "Really?"
+  },
+  {
+   "s": 265.48,
+   "e": 265.7,
+   "t": "Yeah."
+  },
+  {
+   "s": 265.84,
+   "e": 268.56,
+   "t": "Just slightly less safe than those who had the handlebar buttons."
+  },
+  {
+   "s": 268.84,
+   "e": 270.32,
+   "t": "That's kind of counterintuitive though."
+  },
+  {
+   "s": 270.7,
+   "e": 271.14,
+   "t": "It is."
+  },
+  {
+   "s": 271.16,
+   "e": 275.12,
+   "t": "If it's not actually impacting their control of the bicycle, why would they feel less safe?"
+  },
+  {
+   "s": 275.28,
+   "e": 277.24,
+   "t": "That's the million dollar question, isn't it?"
+  },
+  {
+   "s": 277.3,
+   "e": 277.82,
+   "t": "I guess so."
+  },
+  {
+   "s": 277.94,
+   "e": 283.38,
+   "t": "It seems like there's some kind of psychological barrier there for at least some of the users."
+  },
+  {
+   "s": 283.74,
+   "e": 284.02,
+   "t": "Hmm."
+  },
+  {
+   "s": 284.3,
+   "e": 284.74,
+   "t": "Like what?"
+  },
+  {
+   "s": 284.74,
+   "e": 290.32,
+   "t": "Well, it could be just the unfamiliarity of the gestures themselves."
+  },
+  {
+   "s": 290.7,
+   "e": 290.8,
+   "t": "Right."
+  },
+  {
+   "s": 290.8,
+   "e": 294.78,
+   "t": "You know, people aren't used to controlling things with shoulder movements."
+  },
+  {
+   "s": 295.08,
+   "e": 300.18,
+   "t": "Or maybe it's the idea of introducing any kind of head movement while cycling."
+  },
+  {
+   "s": 300.4,
+   "e": 300.7,
+   "t": "Yeah."
+  },
+  {
+   "s": 300.86,
+   "e": 301.56,
+   "t": "That makes sense."
+  },
+  {
+   "s": 301.64,
+   "e": 305.28,
+   "t": "Even if it's subtle, it might feel inherently less stable."
+  },
+  {
+   "s": 305.46,
+   "e": 305.7,
+   "t": "Right."
+  },
+  {
+   "s": 305.92,
+   "e": 307.38,
+   "t": "Whatever the reason though."
+  },
+  {
+   "s": 307.46,
+   "e": 307.64,
+   "t": "Yeah."
+  },
+  {
+   "s": 307.64,
+   "e": 313.7,
+   "t": "It does suggest that if they want people to actually use this technology, they're going"
+  },
+  {
+   "s": 313.7,
+   "e": 316.66,
+   "t": "to need to address this perception of safety."
+  },
+  {
+   "s": 316.86,
+   "e": 319.88,
+   "t": "Even if it's not really any less safe objectively."
+  },
+  {
+   "s": 320.26,
+   "e": 320.7,
+   "t": "Exactly."
+  },
+  {
+   "s": 320.76,
+   "e": 322.38,
+   "t": "It's about how it makes people feel."
+  },
+  {
+   "s": 322.94,
+   "e": 326.24,
+   "t": "So did the researchers have any ideas for how to tackle this?"
+  },
+  {
+   "s": 326.4,
+   "e": 327.08,
+   "t": "They did."
+  },
+  {
+   "s": 327.26,
+   "e": 327.42,
+   "t": "Oh."
+  },
+  {
+   "s": 327.7,
+   "e": 332.12,
+   "t": "One thing they looked at was incorporating haptic feedback into the design."
+  },
+  {
+   "s": 332.12,
+   "e": 335.8,
+   "t": "Oh, so the system would give the cyclist some kind of physical response."
+  },
+  {
+   "s": 336.02,
+   "e": 336.26,
+   "t": "Yeah."
+  },
+  {
+   "s": 336.38,
+   "e": 337.3,
+   "t": "To let them know it's working."
+  },
+  {
+   "s": 337.3,
+   "e": 337.78,
+   "t": "Exactly."
+  },
+  {
+   "s": 337.92,
+   "e": 339.4,
+   "t": "Like a little vibration or something."
+  },
+  {
+   "s": 339.5,
+   "e": 340.02,
+   "t": "That's clever."
+  },
+  {
+   "s": 340.16,
+   "e": 343.72,
+   "t": "So they'd get that confirmation without having to take their eyes off the road."
+  },
+  {
+   "s": 344.26,
+   "e": 345.0,
+   "t": "I like that."
+  },
+  {
+   "s": 345.1,
+   "e": 345.26,
+   "t": "Yeah."
+  },
+  {
+   "s": 345.36,
+   "e": 348.22,
+   "t": "It could be a simple way to make people feel more comfortable using it."
+  },
+  {
+   "s": 348.34,
+   "e": 351.44,
+   "t": "Because they'd know for sure that their gesture had registered."
+  },
+  {
+   "s": 351.72,
+   "e": 351.96,
+   "t": "Right."
+  },
+  {
+   "s": 352.18,
+   "e": 355.68,
+   "t": "I feel like we often underestimate how important that kind of feedback is."
+  },
+  {
+   "s": 355.98,
+   "e": 358.04,
+   "t": "Especially when we're talking about something like cycling."
+  },
+  {
+   "s": 358.34,
+   "e": 358.68,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 358.82,
+   "e": 361.16,
+   "t": "Where safety is such a big concern."
+  },
+  {
+   "s": 361.28,
+   "e": 362.36,
+   "t": "It's all about building trust."
+  },
+  {
+   "s": 362.76,
+   "e": 363.18,
+   "t": "Exactly."
+  },
+  {
+   "s": 363.86,
+   "e": 366.38,
+   "t": "This head and shoulder project has given us a lot to think about."
+  },
+  {
+   "s": 366.38,
+   "e": 367.68,
+   "t": "It really has."
+  },
+  {
+   "s": 367.76,
+   "e": 369.46,
+   "t": "And not just in terms of cycling safety."
+  },
+  {
+   "s": 369.6,
+   "e": 370.52,
+   "t": "No, not at all."
+  },
+  {
+   "s": 370.86,
+   "e": 375.68,
+   "t": "I mean, this idea of using capacitive sensing for hands-free, eyes-free interaction."
+  },
+  {
+   "s": 375.86,
+   "e": 376.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 376.48,
+   "e": 379.38,
+   "t": "That has applications way beyond just riding a bike."
+  },
+  {
+   "s": 379.54,
+   "e": 380.2,
+   "t": "Oh, absolutely."
+  },
+  {
+   "s": 380.2,
+   "e": 383.84,
+   "t": "Think about situations where you need to be able to control something."
+  },
+  {
+   "s": 383.96,
+   "e": 384.24,
+   "t": "Yeah."
+  },
+  {
+   "s": 384.42,
+   "e": 385.92,
+   "t": "But you can't use your hands."
+  },
+  {
+   "s": 385.98,
+   "e": 386.14,
+   "t": "Right."
+  },
+  {
+   "s": 386.36,
+   "e": 390.04,
+   "t": "Like surgery or operating machinery in a dangerous environment."
+  },
+  {
+   "s": 390.28,
+   "e": 390.72,
+   "t": "Exactly."
+  },
+  {
+   "s": 391.12,
+   "e": 392.56,
+   "t": "The possibilities are huge."
+  },
+  {
+   "s": 392.64,
+   "e": 393.18,
+   "t": "They are."
+  },
+  {
+   "s": 393.48,
+   "e": 398.16,
+   "t": "But even if we just stick with cycling for now, the potential here is really exciting."
+  },
+  {
+   "s": 398.38,
+   "e": 398.86,
+   "t": "It is."
+  },
+  {
+   "s": 398.94,
+   "e": 400.52,
+   "t": "I mean, this technology is discreet."
+  },
+  {
+   "s": 400.64,
+   "e": 400.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 401.0,
+   "e": 403.2,
+   "t": "It's adaptable to different clothes, different bikes."
+  },
+  {
+   "s": 403.32,
+   "e": 403.56,
+   "t": "Right."
+  },
+  {
+   "s": 403.56,
+   "e": 406.04,
+   "t": "It could be a game changer for all sorts of cyclists."
+  },
+  {
+   "s": 406.24,
+   "e": 406.56,
+   "t": "For sure."
+  },
+  {
+   "s": 406.8,
+   "e": 410.86,
+   "t": "Especially commuters who are already navigating traffic and trying to stay connected on the"
+  },
+  {
+   "s": 410.86,
+   "e": 411.08,
+   "t": "go."
+  },
+  {
+   "s": 411.36,
+   "e": 411.66,
+   "t": "Definitely."
+  },
+  {
+   "s": 411.82,
+   "e": 413.44,
+   "t": "And what about cyclists who are training?"
+  },
+  {
+   "s": 413.96,
+   "e": 414.36,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 414.8,
+   "e": 415.28,
+   "t": "Good point."
+  },
+  {
+   "s": 415.68,
+   "e": 417.68,
+   "t": "They could use this to track their performance."
+  },
+  {
+   "s": 417.92,
+   "e": 418.0,
+   "t": "What?"
+  },
+  {
+   "s": 418.58,
+   "e": 419.58,
+   "t": "Control their music."
+  },
+  {
+   "s": 419.7,
+   "e": 421.42,
+   "t": "All without fumbling with their devices."
+  },
+  {
+   "s": 421.76,
+   "e": 422.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 422.2,
+   "e": 425.42,
+   "t": "This could be seamlessly integrated into the clothes they're already wearing."
+  },
+  {
+   "s": 425.72,
+   "e": 426.2,
+   "t": "Exactly."
+  },
+  {
+   "s": 426.6,
+   "e": 428.34,
+   "t": "Imagine having a cycling jacket."
+  },
+  {
+   "s": 428.64,
+   "e": 428.88,
+   "t": "Yeah."
+  },
+  {
+   "s": 428.96,
+   "e": 431.48,
+   "t": "That just lets you control everything effortlessly."
+  },
+  {
+   "s": 431.62,
+   "e": 432.32,
+   "t": "It'd be amazing."
+  },
+  {
+   "s": 432.32,
+   "e": 434.64,
+   "t": "The perfect blend of style and function."
+  },
+  {
+   "s": 435.04,
+   "e": 435.6,
+   "t": "I love it."
+  },
+  {
+   "s": 436.3,
+   "e": 436.94,
+   "t": "And who knows?"
+  },
+  {
+   "s": 437.04,
+   "e": 440.0,
+   "t": "Maybe we could even combine this with other safety features in the future."
+  },
+  {
+   "s": 440.1,
+   "e": 440.72,
+   "t": "Like why?"
+  },
+  {
+   "s": 441.08,
+   "e": 443.0,
+   "t": "Well, we could have integrated turn signals."
+  },
+  {
+   "s": 443.72,
+   "e": 444.34,
+   "t": "Oh, cool."
+  },
+  {
+   "s": 444.42,
+   "e": 447.84,
+   "t": "Or maybe a heads-up display projected onto your helmet visor."
+  },
+  {
+   "s": 448.18,
+   "e": 448.62,
+   "t": "Wow."
+  },
+  {
+   "s": 449.18,
+   "e": 450.4,
+   "t": "The sky's the limit, really."
+  },
+  {
+   "s": 450.56,
+   "e": 450.84,
+   "t": "I know."
+  },
+  {
+   "s": 450.88,
+   "e": 452.7,
+   "t": "It feels like head and shoulders just the beginning."
+  },
+  {
+   "s": 452.9,
+   "e": 453.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 453.16,
+   "e": 456.36,
+   "t": "Like the first step towards a whole new world of possibilities."
+  },
+  {
+   "s": 456.5,
+   "e": 456.9,
+   "t": "Exactly."
+  },
+  {
+   "s": 456.9,
+   "e": 458.36,
+   "t": "And speaking of possibilities."
+  },
+  {
+   "s": 458.54,
+   "e": 458.68,
+   "t": "Yeah."
+  },
+  {
+   "s": 458.68,
+   "e": 465.34,
+   "t": "There's one more really thought-provoking aspect to this research that I think you'll find interesting."
+  },
+  {
+   "s": 465.92,
+   "e": 466.06,
+   "t": "Okay."
+  },
+  {
+   "s": 466.78,
+   "e": 467.34,
+   "t": "I'm all ears."
+  },
+  {
+   "s": 467.46,
+   "e": 467.98,
+   "t": "Lay it on me."
+  },
+  {
+   "s": 468.24,
+   "e": 471.32,
+   "t": "So we've been talking about this whole head and shoulder thing."
+  },
+  {
+   "s": 471.42,
+   "e": 471.74,
+   "t": "Yeah."
+  },
+  {
+   "s": 472.0,
+   "e": 474.54,
+   "t": "From the perspective of individual interaction."
+  },
+  {
+   "s": 474.84,
+   "e": 475.06,
+   "t": "Right."
+  },
+  {
+   "s": 475.66,
+   "e": 479.0,
+   "t": "One cyclist using the system to control their own devices."
+  },
+  {
+   "s": 479.46,
+   "e": 479.9,
+   "t": "Exactly."
+  },
+  {
+   "s": 480.58,
+   "e": 480.8,
+   "t": "Yeah."
+  },
+  {
+   "s": 480.8,
+   "e": 483.28,
+   "t": "But what if we zoom out a little?"
+  },
+  {
+   "s": 483.5,
+   "e": 483.66,
+   "t": "All right."
+  },
+  {
+   "s": 483.66,
+   "e": 485.66,
+   "t": "Think about the implications for group cycling."
+  },
+  {
+   "s": 485.96,
+   "e": 487.28,
+   "t": "Oh, I see where you're going with this."
+  },
+  {
+   "s": 487.34,
+   "e": 487.54,
+   "t": "Yeah."
+  },
+  {
+   "s": 487.76,
+   "e": 488.94,
+   "t": "That could be really interesting."
+  },
+  {
+   "s": 489.1,
+   "e": 489.34,
+   "t": "Right."
+  },
+  {
+   "s": 489.54,
+   "e": 491.28,
+   "t": "Instead of just one person using it."
+  },
+  {
+   "s": 491.34,
+   "e": 491.54,
+   "t": "Yeah."
+  },
+  {
+   "s": 491.72,
+   "e": 495.02,
+   "t": "You'd have a whole group of cyclists all equipped with this technology."
+  },
+  {
+   "s": 495.26,
+   "e": 495.62,
+   "t": "Exactly."
+  },
+  {
+   "s": 495.9,
+   "e": 499.28,
+   "t": "And imagine how that could change the way they communicate with each other."
+  },
+  {
+   "s": 499.4,
+   "e": 499.82,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 500.08,
+   "e": 500.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 500.3,
+   "e": 502.04,
+   "t": "They could coordinate their movements."
+  },
+  {
+   "s": 502.22,
+   "e": 502.42,
+   "t": "Uh-huh."
+  },
+  {
+   "s": 502.54,
+   "e": 503.56,
+   "t": "Signal hazards."
+  },
+  {
+   "s": 503.8,
+   "e": 504.02,
+   "t": "Right."
+  },
+  {
+   "s": 504.34,
+   "e": 508.1,
+   "t": "All without having to take their hands off the handlebars or shout over the wind."
+  },
+  {
+   "s": 508.3,
+   "e": 510.32,
+   "t": "Be like they're having a silent conversation."
+  },
+  {
+   "s": 510.32,
+   "e": 511.24,
+   "t": "Exactly."
+  },
+  {
+   "s": 511.5,
+   "e": 514.36,
+   "t": "A symphony of subtle shoulder movements."
+  },
+  {
+   "s": 515.08,
+   "e": 515.52,
+   "t": "I love it."
+  },
+  {
+   "s": 515.62,
+   "e": 520.3,
+   "t": "No more missed hand signals or trying to hear each other over the noise."
+  },
+  {
+   "s": 520.54,
+   "e": 520.72,
+   "t": "Yeah."
+  },
+  {
+   "s": 520.76,
+   "e": 522.54,
+   "t": "That could be a game changer for group safety."
+  },
+  {
+   "s": 522.8,
+   "e": 523.06,
+   "t": "Definitely."
+  },
+  {
+   "s": 523.16,
+   "e": 524.88,
+   "t": "Especially in challenging writing conditions."
+  },
+  {
+   "s": 525.36,
+   "e": 528.8,
+   "t": "It's amazing to think that something as simple as this."
+  },
+  {
+   "s": 528.9,
+   "e": 529.2,
+   "t": "Right."
+  },
+  {
+   "s": 529.4,
+   "e": 530.7,
+   "t": "Could have such a big impact."
+  },
+  {
+   "s": 530.8,
+   "e": 538.6,
+   "t": "I think it just goes to show that we often underestimate the broader societal effects of these technological advancements."
+  },
+  {
+   "s": 538.74,
+   "e": 539.1,
+   "t": "Absolutely."
+  },
+  {
+   "s": 539.1,
+   "e": 541.48,
+   "t": "We tend to focus on the immediate applications."
+  },
+  {
+   "s": 541.82,
+   "e": 542.02,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 542.26,
+   "e": 549.2,
+   "t": "But it's often the unforeseen connections and possibilities that lead to the most groundbreaking changes."
+  },
+  {
+   "s": 549.48,
+   "e": 551.12,
+   "t": "I think that's a perfect note to end on."
+  },
+  {
+   "s": 551.2,
+   "e": 551.34,
+   "t": "Yeah."
+  },
+  {
+   "s": 551.5,
+   "e": 553.92,
+   "t": "For anyone listening who's about to head out on a ride."
+  },
+  {
+   "s": 554.1,
+   "e": 554.44,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 554.88,
+   "e": 557.08,
+   "t": "Pay attention to those little movements you make."
+  },
+  {
+   "s": 557.22,
+   "e": 557.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 557.56,
+   "e": 561.2,
+   "t": "Those shifts in your posture that help you balance and control the bike."
+  },
+  {
+   "s": 561.3,
+   "e": 562.78,
+   "t": "It all starts with the micro movements."
+  },
+  {
+   "s": 562.78,
+   "e": 566.52,
+   "t": "You might just be witnessing the very beginning of a hands-free future."
+  },
+  {
+   "s": 566.72,
+   "e": 568.04,
+   "t": "One shoulder tap at a time."
+  },
+  {
+   "s": 568.42,
+   "e": 570.66,
+   "t": "That's all the time we have for today's Deep Dive."
+  },
+  {
+   "s": 570.74,
+   "e": 571.54,
+   "t": "Thanks for joining us."
+  },
+  {
+   "s": 571.9,
+   "e": 572.66,
+   "t": "Thanks for having me."
+  },
+  {
+   "s": 572.66,
+   "e": 574.6,
+   "t": "Thanks for having me."
+  },
+  {
+   "s": 577.4,
+   "e": 578.16,
+   "t": "Also."
+  },
+  {
+   "s": 580.44,
+   "e": 581.02,
+   "t": "Bye."
+  },
+  {
+   "s": 581.58,
+   "e": 582.08,
+   "t": "Bye."
+  },
+  {
+   "s": 582.46,
+   "e": 582.72,
+   "t": "Bye."
+  },
+  {
+   "s": 582.86,
+   "e": 583.16,
+   "t": "Bye."
+  },
+  {
+   "s": 583.38,
+   "e": 583.74,
+   "t": "Bye."
+  },
+  {
+   "s": 583.94,
+   "e": 584.48,
+   "t": "Bye."
+  },
+  {
+   "s": 584.62,
+   "e": 584.94,
+   "t": "Bye."
+  },
+  {
+   "s": 585.08,
+   "e": 585.36,
+   "t": "Bye."
+  },
+  {
+   "s": 585.46,
+   "e": 585.64,
+   "t": "Bye."
+  },
+  {
+   "s": 585.74,
+   "e": 585.88,
+   "t": "Bye."
+  },
+  {
+   "s": 586.02,
+   "e": 586.48,
+   "t": "Bye."
+  },
+  {
+   "s": 586.6,
+   "e": 586.9,
+   "t": "Bye."
+  },
+  {
+   "s": 587.04,
+   "e": 587.36,
+   "t": "Bye."
+  },
+  {
+   "s": 587.48,
+   "e": 587.68,
+   "t": "Bye."
+  },
+  {
+   "s": 587.82,
+   "e": 588.28,
+   "t": "Bye."
+  },
+  {
+   "s": 588.48,
+   "e": 588.88,
+   "t": "Bye."
+  },
+  {
+   "s": 589.0,
+   "e": 589.24,
+   "t": "Bye."
+  },
+  {
+   "s": 589.38,
+   "e": 589.58,
+   "t": "Bye."
+  },
+  {
+   "s": 589.68,
+   "e": 589.88,
+   "t": "Bye."
+  },
+  {
+   "s": 589.98,
+   "e": 590.46,
+   "t": "Bye."
+  },
+  {
+   "s": 590.58,
+   "e": 590.94,
+   "t": "Bye."
+  },
+  {
+   "s": 591.02,
+   "e": 591.42,
+   "t": "Bye."
+  },
+  {
+   "s": 591.52,
+   "e": 591.66,
+   "t": "Bye."
+  },
+  {
+   "s": 591.76,
+   "e": 592.08,
+   "t": "Bye."
+  },
+  {
+   "s": 592.3,
+   "e": 592.66,
+   "t": "Bye."
+  },
+  {
+   "s": 592.86,
+   "e": 593.34,
+   "t": "Bye."
+  },
+  {
+   "s": 593.46,
+   "e": 593.72,
+   "t": "Bye."
+  },
+  {
+   "s": 593.82,
+   "e": 594.2,
+   "t": "Bye."
+  },
+  {
+   "s": 594.38,
+   "e": 594.9,
+   "t": "Bye."
+  },
+  {
+   "s": 595.0,
+   "e": 595.56,
+   "t": "Bye."
+  },
+  {
+   "s": 595.64,
+   "e": 596.26,
+   "t": "Bye."
+  },
+  {
+   "s": 596.44,
+   "e": 597.12,
+   "t": "Bye."
+  },
+  {
+   "s": 597.24,
+   "e": 597.68,
+   "t": "Bye."
+  },
+  {
+   "s": 597.76,
+   "e": 598.28,
+   "t": "Bye."
+  },
+  {
+   "s": 598.38,
+   "e": 598.84,
+   "t": "Bye."
+  },
+  {
+   "s": 598.98,
+   "e": 599.46,
+   "t": "Bye."
+  }
+ ]
+}

@@ -1,0 +1,1075 @@
+{
+ "guid": "deephci.podbean.com/bf8913fb-8601-3cd4-adb3-c605cdf548d5",
+ "slug": "speech-is-silver-silence-is-golden-analyzing-micro-communication-strategies-between-visually-impaired-runners-and-their-guides",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "barbareschi2024speech.mp3",
+  "version": 1
+ },
+ "duration": 578,
+ "word_count": 1765,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 10.7,
+   "t": "Ever imagine running blindfolded through a crowded park and not just like a casual jog, but really moving, trusting someone else to be your eyes at a runner's pace."
+  },
+  {
+   "s": 10.7,
+   "e": 15.04,
+   "t": "Yeah, it's a whole different thing when you're relying on someone else for that kind of sensory input."
+  },
+  {
+   "s": 15.18,
+   "e": 15.64,
+   "t": "That's for sure."
+  },
+  {
+   "s": 15.74,
+   "e": 16.72,
+   "t": "It really is, isn't it?"
+  },
+  {
+   "s": 16.76,
+   "e": 19.8,
+   "t": "That level of trust, the way two people have to move as one."
+  },
+  {
+   "s": 20.32,
+   "e": 27.2,
+   "t": "And that's exactly what we're diving into today, that fascinating communication between visually impaired runners and their guides."
+  },
+  {
+   "s": 27.2,
+   "e": 31.66,
+   "t": "Yeah, and when I say communication, we're not just talking about your basic instructions."
+  },
+  {
+   "s": 31.86,
+   "e": 34.16,
+   "t": "No, no, we're going way beyond turn left here."
+  },
+  {
+   "s": 34.28,
+   "e": 36.86,
+   "t": "We're talking about a whole silent language that develops."
+  },
+  {
+   "s": 36.98,
+   "e": 40.6,
+   "t": "It's like a symphony of cues that keep these runners in sync."
+  },
+  {
+   "s": 40.88,
+   "e": 50.84,
+   "t": "And to really get into how it all works, we're tapping into some research done, these folks over at the CHI conference, on human factors and computing systems."
+  },
+  {
+   "s": 50.84,
+   "e": 54.22,
+   "t": "They studied six pairs of runners and guides in Tokyo."
+  },
+  {
+   "s": 54.64,
+   "e": 57.5,
+   "t": "And get this, they didn't just interview them."
+  },
+  {
+   "s": 58.08,
+   "e": 62.34,
+   "t": "They analyze hours of footage of these pairs actually running."
+  },
+  {
+   "s": 62.54,
+   "e": 64.54,
+   "t": "Wow, talk about getting into the nitty gritty."
+  },
+  {
+   "s": 64.96,
+   "e": 65.48,
+   "t": "That's amazing."
+  },
+  {
+   "s": 65.8,
+   "e": 73.68,
+   "t": "And it really challenges, I think, how we usually think about running, you know, because we picture this solo effort."
+  },
+  {
+   "s": 73.92,
+   "e": 74.2,
+   "t": "Right."
+  },
+  {
+   "s": 74.3,
+   "e": 77.98,
+   "t": "Like all about, you know, personal bests and pushing your own limits."
+  },
+  {
+   "s": 77.98,
+   "e": 79.06,
+   "t": "Right, yeah, exactly."
+  },
+  {
+   "s": 79.22,
+   "e": 82.38,
+   "t": "But in this case, it's the partnership that really takes center stage, you know."
+  },
+  {
+   "s": 82.46,
+   "e": 82.6,
+   "t": "Right."
+  },
+  {
+   "s": 82.72,
+   "e": 87.76,
+   "t": "It's about shared goals, that trust, and this incredible back and forth that determines success."
+  },
+  {
+   "s": 88.24,
+   "e": 88.86,
+   "t": "Yeah, absolutely."
+  },
+  {
+   "s": 89.0,
+   "e": 91.64,
+   "t": "Okay, so let's break down this communication dance that you were talking about."
+  },
+  {
+   "s": 91.68,
+   "e": 91.84,
+   "t": "Sure."
+  },
+  {
+   "s": 92.1,
+   "e": 94.6,
+   "t": "The research, it highlights these three main layers."
+  },
+  {
+   "s": 94.78,
+   "e": 95.0,
+   "t": "Okay."
+  },
+  {
+   "s": 95.34,
+   "e": 99.04,
+   "t": "Vocal cues, physical, or I call it corporeal cues."
+  },
+  {
+   "s": 99.18,
+   "e": 99.36,
+   "t": "Right."
+  },
+  {
+   "s": 99.52,
+   "e": 101.02,
+   "t": "And wait for it, silence."
+  },
+  {
+   "s": 101.56,
+   "e": 102.54,
+   "t": "It's a big one, yeah."
+  },
+  {
+   "s": 102.82,
+   "e": 103.4,
+   "t": "Yeah, right."
+  },
+  {
+   "s": 103.4,
+   "e": 109.22,
+   "t": "Like even when we can see perfectly well, think about how much we rely on those nonverbal cues."
+  },
+  {
+   "s": 109.66,
+   "e": 109.88,
+   "t": "Absolutely."
+  },
+  {
+   "s": 110.02,
+   "e": 115.06,
+   "t": "But here, those signals, those unspoken signals, become absolutely essential."
+  },
+  {
+   "s": 115.18,
+   "e": 115.62,
+   "t": "They do."
+  },
+  {
+   "s": 115.76,
+   "e": 123.32,
+   "t": "And the researchers found that even something as simple as casual conversation takes on a whole new meaning for these runners."
+  },
+  {
+   "s": 123.72,
+   "e": 126.3,
+   "t": "Because it's not just about, you know, shooting the breeze, right?"
+  },
+  {
+   "s": 126.3,
+   "e": 126.5,
+   "t": "Right."
+  },
+  {
+   "s": 126.72,
+   "e": 130.68,
+   "t": "There are actually these hidden layers of information being exchanged."
+  },
+  {
+   "s": 130.68,
+   "e": 131.16,
+   "t": "Exactly."
+  },
+  {
+   "s": 131.62,
+   "e": 140.3,
+   "t": "Because for the runner, every word, every inflection, even every breath the guide takes, it all helps paint this picture of their surroundings."
+  },
+  {
+   "s": 140.8,
+   "e": 141.08,
+   "t": "Wow."
+  },
+  {
+   "s": 141.18,
+   "e": 143.0,
+   "t": "So they're literally listening for their location."
+  },
+  {
+   "s": 143.22,
+   "e": 144.28,
+   "t": "In a way, yes."
+  },
+  {
+   "s": 144.52,
+   "e": 149.38,
+   "t": "One runner even mentioned that they could always tell where their guide was just based on the sound of their voice."
+  },
+  {
+   "s": 149.62,
+   "e": 150.0,
+   "t": "Wow."
+  },
+  {
+   "s": 150.34,
+   "e": 153.66,
+   "t": "So it becomes like this constant subconscious wayfinding tool."
+  },
+  {
+   "s": 153.88,
+   "e": 154.58,
+   "t": "That's wild."
+  },
+  {
+   "s": 154.68,
+   "e": 156.68,
+   "t": "It's like echolocation but with words."
+  },
+  {
+   "s": 156.9,
+   "e": 157.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 157.42,
+   "e": 158.6,
+   "t": "Yeah, it's a great analogy."
+  },
+  {
+   "s": 158.6,
+   "e": 163.68,
+   "t": "It really shows how tuned in these runners are to, like, every little nuance."
+  },
+  {
+   "s": 163.86,
+   "e": 163.98,
+   "t": "Okay."
+  },
+  {
+   "s": 164.06,
+   "e": 168.4,
+   "t": "So we've got these vocal cues, this constant auditory map being created."
+  },
+  {
+   "s": 168.72,
+   "e": 168.86,
+   "t": "Right."
+  },
+  {
+   "s": 168.88,
+   "e": 174.4,
+   "t": "But then there's that whole physical connection, too, which, let's be real, it's mission critical when you can't rely on sight."
+  },
+  {
+   "s": 174.68,
+   "e": 175.26,
+   "t": "Oh, absolutely."
+  },
+  {
+   "s": 175.38,
+   "e": 177.52,
+   "t": "And this is where things get even more interesting, I think."
+  },
+  {
+   "s": 177.52,
+   "e": 177.88,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 178.0,
+   "e": 184.98,
+   "t": "Because those physical cues, or as we call it corporeal communication, it could be either intentional or unintentional."
+  },
+  {
+   "s": 184.98,
+   "e": 185.14,
+   "t": "Okay."
+  },
+  {
+   "s": 185.2,
+   "e": 185.58,
+   "t": "I'm hooked."
+  },
+  {
+   "s": 185.72,
+   "e": 186.6,
+   "t": "Break that down for us."
+  },
+  {
+   "s": 186.66,
+   "e": 187.32,
+   "t": "What's the difference?"
+  },
+  {
+   "s": 187.32,
+   "e": 189.86,
+   "t": "So intentional cues are pretty straightforward, right?"
+  },
+  {
+   "s": 189.98,
+   "e": 194.78,
+   "t": "It's the guide using touch very deliberately to communicate something."
+  },
+  {
+   "s": 194.78,
+   "e": 195.0,
+   "t": "It's not."
+  },
+  {
+   "s": 195.3,
+   "e": 202.28,
+   "t": "Like a tug on the tether to signal a turn or, you know, a gentle nudge to kind of steer the runner clear of an obstacle, that sort of thing."
+  },
+  {
+   "s": 202.4,
+   "e": 208.36,
+   "t": "So it's like a physical extension of those vocal cues, like you said, turn left, becomes a slight pull on the tether."
+  },
+  {
+   "s": 208.36,
+   "e": 208.92,
+   "t": "Exactly."
+  },
+  {
+   "s": 209.3,
+   "e": 215.56,
+   "t": "It's direct, it's efficient, and it really speaks to the level of trust between, you know, the runner and the guide."
+  },
+  {
+   "s": 215.9,
+   "e": 219.3,
+   "t": "Especially when you're flying down a path at a good clip, I imagine."
+  },
+  {
+   "s": 219.58,
+   "e": 220.4,
+   "t": "Yeah, for sure."
+  },
+  {
+   "s": 220.66,
+   "e": 222.68,
+   "t": "Now, what about those unintentional cues?"
+  },
+  {
+   "s": 222.68,
+   "e": 227.3,
+   "t": "Those sound like they could be a recipe for disaster if you're not careful."
+  },
+  {
+   "s": 228.02,
+   "e": 228.88,
+   "t": "Yeah, they can be."
+  },
+  {
+   "s": 228.96,
+   "e": 229.72,
+   "t": "They can be tricky."
+  },
+  {
+   "s": 230.88,
+   "e": 231.12,
+   "t": "Yeah."
+  },
+  {
+   "s": 231.12,
+   "e": 236.5,
+   "t": "Imagine, like, a guide who's maybe a little green, you know, maybe a little nervous."
+  },
+  {
+   "s": 236.64,
+   "e": 238.4,
+   "t": "They might tense up without even realizing it."
+  },
+  {
+   "s": 238.46,
+   "e": 241.94,
+   "t": "You know, their arm skiffens up, their stride gets a little off, and suddenly..."
+  },
+  {
+   "s": 241.94,
+   "e": 244.66,
+   "t": "The runner picks up on that anxiety like a tuning fork."
+  },
+  {
+   "s": 245.08,
+   "e": 245.88,
+   "t": "Precisely, yeah."
+  },
+  {
+   "s": 246.14,
+   "e": 253.24,
+   "t": "One runner in the study even talked about feeling their guide's anxiety through the tether, which is pretty incredible when you think about it."
+  },
+  {
+   "s": 253.24,
+   "e": 254.96,
+   "t": "Wow, that's heavy."
+  },
+  {
+   "s": 255.56,
+   "e": 260.16,
+   "t": "You know, I mean, for most of us, you know, a little stumble during a run is no big deal."
+  },
+  {
+   "s": 260.34,
+   "e": 260.6,
+   "t": "Right."
+  },
+  {
+   "s": 260.72,
+   "e": 263.66,
+   "t": "But here, it takes on a whole new level of significance."
+  },
+  {
+   "s": 264.02,
+   "e": 264.5,
+   "t": "It does, yeah."
+  },
+  {
+   "s": 264.54,
+   "e": 271.16,
+   "t": "It really underscores how finely tuned runners become, like, these subtle shifts in their guide's movements."
+  },
+  {
+   "s": 271.32,
+   "e": 271.64,
+   "t": "Wow."
+  },
+  {
+   "s": 271.84,
+   "e": 279.2,
+   "t": "And what's even more interesting is that, you know, the researchers found that as these pairs, as they gained more experience..."
+  },
+  {
+   "s": 279.2,
+   "e": 279.46,
+   "t": "Okay."
+  },
+  {
+   "s": 279.46,
+   "e": 285.54,
+   "t": "...they actually relied more on those intentional, you know, those deliberate cues and less on those unintentional ones."
+  },
+  {
+   "s": 285.68,
+   "e": 290.72,
+   "t": "Which makes sense as they build that trust and that, you know, shared understanding of what each movement means."
+  },
+  {
+   "s": 290.78,
+   "e": 290.98,
+   "t": "Right."
+  },
+  {
+   "s": 290.98,
+   "e": 294.36,
+   "t": "They can start to strip away some of those extra layers of communication."
+  },
+  {
+   "s": 295.38,
+   "e": 298.62,
+   "t": "And that brings us to the, I think, most intriguing layer of all."
+  },
+  {
+   "s": 299.38,
+   "e": 299.82,
+   "t": "Silence."
+  },
+  {
+   "s": 300.0,
+   "e": 300.74,
+   "t": "Yes, yes."
+  },
+  {
+   "s": 300.78,
+   "e": 302.22,
+   "t": "The sound of shared understanding."
+  },
+  {
+   "s": 302.58,
+   "e": 305.82,
+   "t": "But, okay, seriously, how do you even begin to study something like that?"
+  },
+  {
+   "s": 305.92,
+   "e": 306.12,
+   "t": "Right."
+  },
+  {
+   "s": 306.58,
+   "e": 309.24,
+   "t": "Silence, by definition, it's the abseys of something."
+  },
+  {
+   "s": 309.24,
+   "e": 311.16,
+   "t": "How can it be a form of communication?"
+  },
+  {
+   "s": 311.98,
+   "e": 312.92,
+   "t": "It's a great question."
+  },
+  {
+   "s": 313.24,
+   "e": 317.32,
+   "t": "And, you know, the researchers really wrestled with this idea."
+  },
+  {
+   "s": 317.6,
+   "e": 317.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 317.88,
+   "e": 323.38,
+   "t": "They realized that in this context, silence, it wasn't just about the lack of sound."
+  },
+  {
+   "s": 323.48,
+   "e": 323.72,
+   "t": "Okay."
+  },
+  {
+   "s": 323.86,
+   "e": 327.52,
+   "t": "It represented this really deep sense of being in sync."
+  },
+  {
+   "s": 327.98,
+   "e": 335.5,
+   "t": "Like, moving together seamlessly without needing those constant verbal cues or even physical cues."
+  },
+  {
+   "s": 335.5,
+   "e": 339.02,
+   "t": "So it's like their bodies are speaking to each other even when their voices are quiet."
+  },
+  {
+   "s": 339.24,
+   "e": 339.72,
+   "t": "Exactly."
+  },
+  {
+   "s": 340.26,
+   "e": 340.86,
+   "t": "And get this."
+  },
+  {
+   "s": 340.94,
+   "e": 344.62,
+   "t": "They actually found a way to kind of measure this feeling of being in sync."
+  },
+  {
+   "s": 344.74,
+   "e": 345.02,
+   "t": "Okay."
+  },
+  {
+   "s": 345.16,
+   "e": 349.06,
+   "t": "They outfitted the runners and guides with wristbands."
+  },
+  {
+   "s": 349.16,
+   "e": 349.42,
+   "t": "Okay."
+  },
+  {
+   "s": 349.56,
+   "e": 353.56,
+   "t": "That track not only their movements, but also their physiological responses, like their heart rate."
+  },
+  {
+   "s": 353.88,
+   "e": 354.52,
+   "t": "Wait, hold on."
+  },
+  {
+   "s": 354.56,
+   "e": 357.84,
+   "t": "So they could actually measure that feeling of being in sync?"
+  },
+  {
+   "s": 358.08,
+   "e": 358.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 358.3,
+   "e": 359.46,
+   "t": "How is that even possible?"
+  },
+  {
+   "s": 359.68,
+   "e": 360.04,
+   "t": "Amazing."
+  },
+  {
+   "s": 360.16,
+   "e": 360.28,
+   "t": "Right."
+  },
+  {
+   "s": 360.56,
+   "e": 366.04,
+   "t": "They were looking for those moments when the runner and guide were quite literally on the"
+  },
+  {
+   "s": 366.04,
+   "e": 368.36,
+   "t": "same wavelength, you know, moving and feeling as one."
+  },
+  {
+   "s": 368.56,
+   "e": 368.96,
+   "t": "Wow."
+  },
+  {
+   "s": 369.06,
+   "e": 370.46,
+   "t": "And what they found was incredible."
+  },
+  {
+   "s": 370.66,
+   "e": 370.9,
+   "t": "Okay."
+  },
+  {
+   "s": 370.9,
+   "e": 374.86,
+   "t": "The pair that had been running together the longest, the ones who had that, you know, deep"
+  },
+  {
+   "s": 374.86,
+   "e": 380.44,
+   "t": "well of shared experience, they showed remarkably similar heart rate patterns throughout the entire"
+  },
+  {
+   "s": 380.44,
+   "e": 380.78,
+   "t": "run."
+  },
+  {
+   "s": 381.2,
+   "e": 381.98,
+   "t": "No way."
+  },
+  {
+   "s": 382.1,
+   "e": 386.94,
+   "t": "So even their bodies were in sync, like some kind of unspoken conversation happening beneath"
+  },
+  {
+   "s": 386.94,
+   "e": 387.5,
+   "t": "the surface."
+  },
+  {
+   "s": 387.5,
+   "e": 387.9,
+   "t": "Yeah."
+  },
+  {
+   "s": 388.04,
+   "e": 389.98,
+   "t": "It's really, it's really quite remarkable."
+  },
+  {
+   "s": 389.98,
+   "e": 396.08,
+   "t": "And, and while this was, you know, just one study, it opens up, uh, I think a whole new"
+  },
+  {
+   "s": 396.08,
+   "e": 401.4,
+   "t": "world of questions about, you know, the nature of connection, nonverbal communication, and that"
+  },
+  {
+   "s": 401.4,
+   "e": 407.5,
+   "t": "incredible potential of, uh, the human body to kind of understand and adapt to another's."
+  },
+  {
+   "s": 407.74,
+   "e": 414.22,
+   "t": "It really is makes you wonder, like, could we actually use technology to, you know, tap into"
+  },
+  {
+   "s": 414.22,
+   "e": 416.7,
+   "t": "that, that connection to make it even stronger."
+  },
+  {
+   "s": 416.7,
+   "e": 418.28,
+   "t": "It's a fascinating thought."
+  },
+  {
+   "s": 418.36,
+   "e": 422.12,
+   "t": "And the researchers did actually highlight some, some really interesting possibilities"
+  },
+  {
+   "s": 422.12,
+   "e": 422.84,
+   "t": "when it comes to that."
+  },
+  {
+   "s": 423.08,
+   "e": 423.12,
+   "t": "Okay."
+  },
+  {
+   "s": 423.18,
+   "e": 423.6,
+   "t": "Hit me with it."
+  },
+  {
+   "s": 423.62,
+   "e": 424.94,
+   "t": "Are we talking robot guides?"
+  },
+  {
+   "s": 425.38,
+   "e": 427.94,
+   "t": "Because I got to say, that's, that's a little too black mirror for me."
+  },
+  {
+   "s": 428.04,
+   "e": 429.86,
+   "t": "Not quite robots, but, uh, how about this?"
+  },
+  {
+   "s": 430.08,
+   "e": 431.54,
+   "t": "VR training for guides."
+  },
+  {
+   "s": 431.8,
+   "e": 432.16,
+   "t": "Ooh."
+  },
+  {
+   "s": 432.36,
+   "e": 432.58,
+   "t": "Okay."
+  },
+  {
+   "s": 432.66,
+   "e": 433.48,
+   "t": "I like where this is going."
+  },
+  {
+   "s": 433.56,
+   "e": 436.5,
+   "t": "So like a flight simulator, but for, you know, for guiding runners."
+  },
+  {
+   "s": 436.94,
+   "e": 437.3,
+   "t": "Exactly."
+  },
+  {
+   "s": 437.4,
+   "e": 437.6,
+   "t": "Yeah."
+  },
+  {
+   "s": 437.92,
+   "e": 442.46,
+   "t": "Guides could practice different communication styles, get a feel for the runner's pace, even, you"
+  },
+  {
+   "s": 442.46,
+   "e": 446.44,
+   "t": "know, simulate those, those challenging situations, like, like crowded streets or,"
+  },
+  {
+   "s": 446.44,
+   "e": 447.84,
+   "t": "you know, sudden obstacles."
+  },
+  {
+   "s": 447.84,
+   "e": 449.62,
+   "t": "And it's all in a safe and controlled environment."
+  },
+  {
+   "s": 450.1,
+   "e": 450.74,
+   "t": "That's incredible."
+  },
+  {
+   "s": 451.12,
+   "e": 454.78,
+   "t": "Talk about, you know, building confidence and empathy before you even hit the pavement."
+  },
+  {
+   "s": 454.78,
+   "e": 455.8,
+   "t": "That could be revolutionary."
+  },
+  {
+   "s": 456.4,
+   "e": 456.54,
+   "t": "Right."
+  },
+  {
+   "s": 456.84,
+   "e": 457.5,
+   "t": "What else?"
+  },
+  {
+   "s": 457.56,
+   "e": 458.84,
+   "t": "Are we thinking smart tethers?"
+  },
+  {
+   "s": 459.08,
+   "e": 460.48,
+   "t": "I bet we could soup those up."
+  },
+  {
+   "s": 460.8,
+   "e": 461.62,
+   "t": "Oh yeah, definitely."
+  },
+  {
+   "s": 462.02,
+   "e": 467.82,
+   "t": "Imagine a tether with like built-in haptic feedback, you know, giving the runner these subtle"
+  },
+  {
+   "s": 467.82,
+   "e": 473.48,
+   "t": "cues about, about upcoming turns or changes in the terrain, almost like a second language flowing"
+  },
+  {
+   "s": 473.48,
+   "e": 474.24,
+   "t": "through their fingertips."
+  },
+  {
+   "s": 474.36,
+   "e": 478.2,
+   "t": "It'd be like having a built-in co-pilot for running, like feeding them just the right info"
+  },
+  {
+   "s": 478.2,
+   "e": 481.26,
+   "t": "at the right time without, you know, overloading their senses."
+  },
+  {
+   "s": 481.5,
+   "e": 481.7,
+   "t": "Right."
+  },
+  {
+   "s": 481.92,
+   "e": 482.12,
+   "t": "Right."
+  },
+  {
+   "s": 482.28,
+   "e": 486.6,
+   "t": "And hey, while, while we're dreaming big here, what about, you know, devices that could"
+  },
+  {
+   "s": 486.6,
+   "e": 492.64,
+   "t": "maybe help both runners and guides become more aware of, of their own communication patterns."
+  },
+  {
+   "s": 492.7,
+   "e": 494.6,
+   "t": "Now you're talking, imagine a guide, right?"
+  },
+  {
+   "s": 494.9,
+   "e": 496.82,
+   "t": "And they get like real time feedback."
+  },
+  {
+   "s": 496.82,
+   "e": 502.58,
+   "t": "If, if they start maybe unintentionally, you know, conveying stress through the tether."
+  },
+  {
+   "s": 502.72,
+   "e": 503.06,
+   "t": "Yeah."
+  },
+  {
+   "s": 503.22,
+   "e": 507.58,
+   "t": "It could help them self-correct and create a much smoother, more intuitive experience for,"
+  },
+  {
+   "s": 507.74,
+   "e": 508.46,
+   "t": "you know, for both of them."
+  },
+  {
+   "s": 508.68,
+   "e": 509.14,
+   "t": "Whoa."
+  },
+  {
+   "s": 509.26,
+   "e": 515.78,
+   "t": "We've gone from this almost mystical idea of, of silent communication to like some really tangible"
+  },
+  {
+   "s": 515.78,
+   "e": 521.18,
+   "t": "ways that, that technology could actually like enhance that connection even further."
+  },
+  {
+   "s": 521.36,
+   "e": 521.62,
+   "t": "Right."
+  },
+  {
+   "s": 521.7,
+   "e": 522.9,
+   "t": "It's incredible to think about."
+  },
+  {
+   "s": 522.98,
+   "e": 523.22,
+   "t": "It is."
+  },
+  {
+   "s": 523.22,
+   "e": 528.36,
+   "t": "It really highlights how technology, you know, at its best, it can really enhance and deepen"
+  },
+  {
+   "s": 528.36,
+   "e": 531.32,
+   "t": "our human experiences, not, you know, not replace them."
+  },
+  {
+   "s": 531.62,
+   "e": 531.78,
+   "t": "Yeah."
+  },
+  {
+   "s": 531.84,
+   "e": 534.56,
+   "t": "It makes you wonder like, where, where do we draw the line?"
+  },
+  {
+   "s": 534.68,
+   "e": 539.2,
+   "t": "Will these advancements, will they help us achieve, you know, a level of partnership that,"
+  },
+  {
+   "s": 539.32,
+   "e": 540.58,
+   "t": "that we never even thought possible?"
+  },
+  {
+   "s": 540.58,
+   "e": 545.7,
+   "t": "Or is there something, you know, kind of secret about that, that un-augmented human connection,"
+  },
+  {
+   "s": 546.18,
+   "e": 551.32,
+   "t": "something about feeling another person's heartbeat through, you know, just a simple piece of rope"
+  },
+  {
+   "s": 551.32,
+   "e": 553.28,
+   "t": "as you navigate the world together?"
+  },
+  {
+   "s": 553.5,
+   "e": 554.78,
+   "t": "It's really something to think about."
+  },
+  {
+   "s": 554.94,
+   "e": 559.84,
+   "t": "It really is something to ponder on your next run, whether you're, you know, the guide, the runner,"
+  },
+  {
+   "s": 560.04,
+   "e": 563.24,
+   "t": "or, or just out there enjoying the rhythm of your own two feet."
+  },
+  {
+   "s": 563.78,
+   "e": 564.24,
+   "t": "Well said."
+  },
+  {
+   "s": 564.32,
+   "e": 564.46,
+   "t": "Yeah."
+  },
+  {
+   "s": 564.56,
+   "e": 568.24,
+   "t": "And on that note, maybe it's time for us to, to wrap up this deep dive."
+  },
+  {
+   "s": 568.24,
+   "e": 573.26,
+   "t": "It's been a real pleasure kind of exploring this, this fascinating world with you."
+  },
+  {
+   "s": 573.6,
+   "e": 574.64,
+   "t": "Thanks for joining us."
+  },
+  {
+   "s": 574.72,
+   "e": 578.5,
+   "t": "We'll catch you next time for another deep dive into the surprising world around us."
+  }
+ ]
+}

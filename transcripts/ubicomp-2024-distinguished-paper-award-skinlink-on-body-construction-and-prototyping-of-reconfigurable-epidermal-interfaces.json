@@ -1,0 +1,1185 @@
+{
+ "guid": "deephci.podbean.com/2a25d57c-4d3b-3ae2-8b7c-9707b0223c32",
+ "slug": "ubicomp-2024-distinguished-paper-award-skinlink-on-body-construction-and-prototyping-of-reconfigurable-epidermal-interfaces",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3596241.mp3",
+  "version": 1
+ },
+ "duration": 787,
+ "word_count": 2389,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 3.82,
+   "t": "Okay, so get this. Today we're diving into wearable tech."
+  },
+  {
+   "s": 4.18,
+   "e": 4.9,
+   "t": "Wearable tech."
+  },
+  {
+   "s": 4.96,
+   "e": 7.96,
+   "t": "Yeah, but not like your smartwatch or fitness tracker."
+  },
+  {
+   "s": 8.02,
+   "e": 8.66,
+   "t": "Even better."
+  },
+  {
+   "s": 9.02,
+   "e": 10.56,
+   "t": "Way better. This is like next level."
+  },
+  {
+   "s": 10.6,
+   "e": 11.4,
+   "t": "Okay, I'm intrigued."
+  },
+  {
+   "s": 11.4,
+   "e": 16.94,
+   "t": "We're talking circuits, but so thin and flexible, they can go right on your skin."
+  },
+  {
+   "s": 17.72,
+   "e": 27.7,
+   "t": "We're diving into SkinLink. You send over that research paper. SkinLink. On-body construction and prototyping of reconfigurable epidermal interfaces."
+  },
+  {
+   "s": 27.7,
+   "e": 30.12,
+   "t": "Oh, yeah. That's a fascinating one."
+  },
+  {
+   "s": 30.22,
+   "e": 32.18,
+   "t": "Right. Let's break down why it's so cool."
+  },
+  {
+   "s": 32.22,
+   "e": 37.28,
+   "t": "It really is cool. And not just cool. I mean, this tech is a game changer. Think flexibility."
+  },
+  {
+   "s": 37.6,
+   "e": 38.2,
+   "t": "Oh, okay."
+  },
+  {
+   "s": 38.86,
+   "e": 44.56,
+   "t": "Stretchability, too. And the customization. It's going to be so much more comfortable and adaptable than anything we've seen."
+  },
+  {
+   "s": 44.7,
+   "e": 48.16,
+   "t": "Seriously, when I was reading that paper, it was like snap together Legos."
+  },
+  {
+   "s": 48.34,
+   "e": 49.28,
+   "t": "Lego circuitry."
+  },
+  {
+   "s": 49.4,
+   "e": 53.08,
+   "t": "Exactly. But instead of a spaceship, it's a circuit board on your arm."
+  },
+  {
+   "s": 53.18,
+   "e": 54.12,
+   "t": "That's wild."
+  },
+  {
+   "s": 54.24,
+   "e": 55.68,
+   "t": "Right. So how does it actually work?"
+  },
+  {
+   "s": 55.68,
+   "e": 58.68,
+   "t": "Okay, so imagine, you know those bulky circuit boards?"
+  },
+  {
+   "s": 58.9,
+   "e": 59.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 59.06,
+   "e": 60.7,
+   "t": "Now picture if you could like break them down."
+  },
+  {
+   "s": 60.72,
+   "e": 61.3,
+   "t": "Break them down."
+  },
+  {
+   "s": 61.4,
+   "e": 62.9,
+   "t": "Yeah, into all these tiny little pieces."
+  },
+  {
+   "s": 63.32,
+   "e": 66.16,
+   "t": "Almost like electronic islands spread all over your body."
+  },
+  {
+   "s": 66.48,
+   "e": 66.74,
+   "t": "Okay."
+  },
+  {
+   "s": 66.84,
+   "e": 70.26,
+   "t": "That's what SkinLink is doing, basically. Those are their PCB islands."
+  },
+  {
+   "s": 70.34,
+   "e": 71.12,
+   "t": "PCB islands."
+  },
+  {
+   "s": 71.22,
+   "e": 77.0,
+   "t": "They replace all that rigid circuitry with adaptable components that move with your body."
+  },
+  {
+   "s": 77.36,
+   "e": 83.88,
+   "t": "Like the difference between, huh, what's a good analogy? A stiff cast versus a flexible bandage."
+  },
+  {
+   "s": 83.88,
+   "e": 84.9,
+   "t": "Oh, I like that."
+  },
+  {
+   "s": 85.12,
+   "e": 86.42,
+   "t": "Both can get the job done."
+  },
+  {
+   "s": 86.5,
+   "e": 86.9,
+   "t": "You're sure."
+  },
+  {
+   "s": 87.16,
+   "e": 91.08,
+   "t": "But one is way more comfortable and adaptable to your body."
+  },
+  {
+   "s": 91.3,
+   "e": 93.68,
+   "t": "Absolutely. And you know what else is great about SkinLink?"
+  },
+  {
+   "s": 94.14,
+   "e": 94.56,
+   "t": "What's that?"
+  },
+  {
+   "s": 94.62,
+   "e": 96.66,
+   "t": "You don't need an engineering degree to use it."
+  },
+  {
+   "s": 96.72,
+   "e": 99.38,
+   "t": "Really? Because that sounds pretty complicated."
+  },
+  {
+   "s": 99.64,
+   "e": 101.34,
+   "t": "It's surprisingly user-friendly."
+  },
+  {
+   "s": 101.7,
+   "e": 102.28,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 102.54,
+   "e": 103.56,
+   "t": "Three steps. That's it."
+  },
+  {
+   "s": 103.68,
+   "e": 104.52,
+   "t": "Three steps. Okay."
+  },
+  {
+   "s": 104.66,
+   "e": 104.72,
+   "t": "Yeah."
+  },
+  {
+   "s": 104.84,
+   "e": 106.98,
+   "t": "So first you got to, what, choose your weapon?"
+  },
+  {
+   "s": 107.2,
+   "e": 108.94,
+   "t": "Kind of. First you choose your modules."
+  },
+  {
+   "s": 109.06,
+   "e": 109.76,
+   "t": "Modules, all right."
+  },
+  {
+   "s": 109.78,
+   "e": 112.2,
+   "t": "Which is essentially picking out your tech arsenal."
+  },
+  {
+   "s": 112.2,
+   "e": 113.02,
+   "t": "Oh, cool."
+  },
+  {
+   "s": 113.26,
+   "e": 119.12,
+   "t": "You want motion tracking, grab an IMU sensor module, feeling flashy, slap on some LEDs."
+  },
+  {
+   "s": 119.54,
+   "e": 121.82,
+   "t": "The possibilities are pretty much endless."
+  },
+  {
+   "s": 122.0,
+   "e": 122.92,
+   "t": "So many options."
+  },
+  {
+   "s": 123.32,
+   "e": 127.02,
+   "t": "Right. And that brings us to step two, the attaching and adjusting."
+  },
+  {
+   "s": 127.24,
+   "e": 128.66,
+   "t": "And this is where it gets really cool."
+  },
+  {
+   "s": 128.88,
+   "e": 130.2,
+   "t": "They use this special silicone."
+  },
+  {
+   "s": 131.26,
+   "e": 131.2,
+   "t": "Silicone?"
+  },
+  {
+   "s": 131.84,
+   "e": 133.32,
+   "t": "Yeah, like they use for movie makeup."
+  },
+  {
+   "s": 133.42,
+   "e": 133.68,
+   "t": "Okay."
+  },
+  {
+   "s": 134.02,
+   "e": 139.28,
+   "t": "So it's super pliable, meaning you can mold the circuitry right onto your skin and then it sets."
+  },
+  {
+   "s": 139.28,
+   "e": 142.22,
+   "t": "Hold on. You're telling me you can sculpt this stuff."
+  },
+  {
+   "s": 142.5,
+   "e": 145.34,
+   "t": "Exactly. It's like molding tech right onto your body."
+  },
+  {
+   "s": 145.46,
+   "e": 146.26,
+   "t": "That's wild."
+  },
+  {
+   "s": 146.36,
+   "e": 146.52,
+   "t": "Right."
+  },
+  {
+   "s": 146.82,
+   "e": 149.96,
+   "t": "And once it sets, you've got a secure, flexible bond."
+  },
+  {
+   "s": 150.32,
+   "e": 150.92,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 151.0,
+   "e": 152.24,
+   "t": "But it gets even better."
+  },
+  {
+   "s": 152.34,
+   "e": 153.74,
+   "t": "Good. And then sculpting it onto your skin."
+  },
+  {
+   "s": 153.96,
+   "e": 161.12,
+   "t": "Well, in terms of making it your own, they wanted to make sure this tech could be as expressive as it is functional."
+  },
+  {
+   "s": 161.32,
+   "e": 162.76,
+   "t": "Okay. I'm liking where this is going."
+  },
+  {
+   "s": 162.76,
+   "e": 168.76,
+   "t": "So step three is all about personalization. Want that futuristic vibe with circuitry exposed."
+  },
+  {
+   "s": 169.46,
+   "e": 170.46,
+   "t": "I mean, that's pretty cool."
+  },
+  {
+   "s": 170.54,
+   "e": 177.2,
+   "t": "Or maybe you want to blend it in, go for a subtler look. SkinLink can do that too. You can even incorporate it into body art."
+  },
+  {
+   "s": 177.34,
+   "e": 181.38,
+   "t": "Oh, wow. That's incredible. So it's like high tech meets high fashion."
+  },
+  {
+   "s": 181.64,
+   "e": 182.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 182.26,
+   "e": 182.74,
+   "t": "I love it."
+  },
+  {
+   "s": 182.84,
+   "e": 186.86,
+   "t": "And to make that happen, they developed four different trace modules."
+  },
+  {
+   "s": 187.34,
+   "e": 187.96,
+   "t": "Trace modules."
+  },
+  {
+   "s": 187.96,
+   "e": 194.32,
+   "t": "Think of them as the wires that connect all the components, and each one is designed for a specific area of the body."
+  },
+  {
+   "s": 194.54,
+   "e": 198.06,
+   "t": "Hold on. Four different types of wires. Why so many?"
+  },
+  {
+   "s": 198.32,
+   "e": 204.24,
+   "t": "Because our bodies are constantly moving, bending, flexing. SkinLink needed a way to keep up."
+  },
+  {
+   "s": 204.38,
+   "e": 205.14,
+   "t": "Oh, that makes sense."
+  },
+  {
+   "s": 205.4,
+   "e": 213.98,
+   "t": "So for areas that don't move much, like your chest, they have a moldable trace module. But for your arms and legs, those need to move more freely."
+  },
+  {
+   "s": 214.12,
+   "e": 214.78,
+   "t": "Right. Totally."
+  },
+  {
+   "s": 214.78,
+   "e": 218.92,
+   "t": "They created a flexible trace module that can, you know, bend and twist."
+  },
+  {
+   "s": 219.08,
+   "e": 219.82,
+   "t": "Oh, breaking."
+  },
+  {
+   "s": 220.06,
+   "e": 220.62,
+   "t": "No breaking."
+  },
+  {
+   "s": 220.82,
+   "e": 221.08,
+   "t": "He's smart."
+  },
+  {
+   "s": 221.32,
+   "e": 223.58,
+   "t": "Right. It's like a custom fitted tech."
+  },
+  {
+   "s": 223.72,
+   "e": 227.16,
+   "t": "That already sounds way more advanced than any wearable I've ever tried."
+  },
+  {
+   "s": 227.32,
+   "e": 232.08,
+   "t": "Oh, yeah. And what about comfort? I mean, you don't want this stuff to be itchy or irritating."
+  },
+  {
+   "s": 232.28,
+   "e": 233.72,
+   "t": "Especially if it's going on your skin."
+  },
+  {
+   "s": 233.92,
+   "e": 243.4,
+   "t": "Exactly. So for your neck or your face, they've got the coated flexible trace module. It's coated in super smooth silicone, really comfortable against the skin."
+  },
+  {
+   "s": 243.4,
+   "e": 250.76,
+   "t": "Okay. They really thought of everything. But what about, like, my elbow or my knee? Those are constantly bending and stretching."
+  },
+  {
+   "s": 250.96,
+   "e": 257.04,
+   "t": "They've got you covered. They have a stretchable trace module. It can actually extend to twice its length."
+  },
+  {
+   "s": 257.2,
+   "e": 257.76,
+   "t": "No way."
+  },
+  {
+   "s": 258.06,
+   "e": 262.76,
+   "t": "Elbows, knees, fingers, doesn't matter. The circuitry can handle it."
+  },
+  {
+   "s": 262.92,
+   "e": 269.02,
+   "t": "Wow. So what's the secret? How do they make these trace modules? Don't tell me super secret futuristic tech."
+  },
+  {
+   "s": 269.24,
+   "e": 271.32,
+   "t": "Not quite. They're actually using braiding."
+  },
+  {
+   "s": 271.32,
+   "e": 272.96,
+   "t": "Braiding. Like hair."
+  },
+  {
+   "s": 273.12,
+   "e": 283.44,
+   "t": "Yeah. It's surprisingly low-tech. They weave together conductive copper wires with things like TPU nylon, cotton yarn, even more copper wire for strength."
+  },
+  {
+   "s": 283.72,
+   "e": 287.94,
+   "t": "So low-tech solutions for high-tech functionality. I kind of love that."
+  },
+  {
+   "s": 288.22,
+   "e": 289.26,
+   "t": "It's pretty ingenious."
+  },
+  {
+   "s": 289.38,
+   "e": 292.52,
+   "t": "It is. But how does it compare to other tech out there?"
+  },
+  {
+   "s": 292.76,
+   "e": 297.32,
+   "t": "That's a great question. They actually put it head-to-head with another system called SkinKit."
+  },
+  {
+   "s": 297.46,
+   "e": 298.26,
+   "t": "SkinKit. Okay."
+  },
+  {
+   "s": 298.26,
+   "e": 301.48,
+   "t": "And you know what? People found SkinLink to be so much better."
+  },
+  {
+   "s": 301.66,
+   "e": 305.4,
+   "t": "Oh, come on. You can't just leave it at that. Tell me more. What made it better?"
+  },
+  {
+   "s": 305.62,
+   "e": 307.8,
+   "t": "Well, for starters, SkinLink was way more comfortable."
+  },
+  {
+   "s": 307.92,
+   "e": 308.62,
+   "t": "Way more comfortable."
+  },
+  {
+   "s": 308.88,
+   "e": 310.12,
+   "t": "Yeah. And smaller, too."
+  },
+  {
+   "s": 310.28,
+   "e": 310.7,
+   "t": "Smaller."
+  },
+  {
+   "s": 310.8,
+   "e": 314.12,
+   "t": "Much smaller. Remember those tiny PCB islands we were talking about?"
+  },
+  {
+   "s": 314.16,
+   "e": 314.68,
+   "t": "Yeah, they're tiny."
+  },
+  {
+   "s": 314.96,
+   "e": 319.94,
+   "t": "They make all the difference. Plus, that whole thing about molding the circuitry right onto you. Game changer."
+  },
+  {
+   "s": 319.94,
+   "e": 325.3,
+   "t": "It's like, you know the difference between wearing a clunky smartwatch versus a sleek fitness tracker."
+  },
+  {
+   "s": 325.54,
+   "e": 325.86,
+   "t": "Exactly."
+  },
+  {
+   "s": 326.16,
+   "e": 329.32,
+   "t": "It's not just about function. It's about how well it works with your body."
+  },
+  {
+   "s": 329.5,
+   "e": 334.44,
+   "t": "Totally. And that's what makes this so exciting. This isn't just some gadget. This is like an extension of ourselves."
+  },
+  {
+   "s": 334.56,
+   "e": 335.78,
+   "t": "Okay. I like where you're going with this."
+  },
+  {
+   "s": 335.8,
+   "e": 340.98,
+   "t": "Right. So to see just how far they could push it, they brought in some serious design experts."
+  },
+  {
+   "s": 341.24,
+   "e": 342.76,
+   "t": "Design experts. Like fashion people."
+  },
+  {
+   "s": 342.76,
+   "e": 344.76,
+   "t": "Yeah. A film makeup artist."
+  },
+  {
+   "s": 344.94,
+   "e": 345.28,
+   "t": "Cool."
+  },
+  {
+   "s": 345.58,
+   "e": 349.78,
+   "t": "Two beauty makeup artists and a wearable computing designer."
+  },
+  {
+   "s": 349.98,
+   "e": 352.42,
+   "t": "Oh, wow. That's a dream team. What did they come up with?"
+  },
+  {
+   "s": 352.58,
+   "e": 359.66,
+   "t": "Okay. So many cool ideas, but Victoria, the film makeup artist, her work really stood out."
+  },
+  {
+   "s": 359.78,
+   "e": 360.66,
+   "t": "Okay. Tell me everything."
+  },
+  {
+   "s": 360.88,
+   "e": 370.54,
+   "t": "So she used SkinLink's moldable trace modules, and on the model's face, she created this intricate design, like glowing vines."
+  },
+  {
+   "s": 370.6,
+   "e": 372.5,
+   "t": "Glowing vines. Was it subtle?"
+  },
+  {
+   "s": 373.48,
+   "e": 374.62,
+   "t": "Or like over the top?"
+  },
+  {
+   "s": 374.8,
+   "e": 376.9,
+   "t": "Really delicate. You almost didn't notice it."
+  },
+  {
+   "s": 376.98,
+   "e": 379.62,
+   "t": "But then she added a time of flight sensor."
+  },
+  {
+   "s": 380.0,
+   "e": 381.14,
+   "t": "Okay. And that does what?"
+  },
+  {
+   "s": 381.42,
+   "e": 382.26,
+   "t": "And a haptic driver."
+  },
+  {
+   "s": 382.36,
+   "e": 383.22,
+   "t": "Okay. You're losing me."
+  },
+  {
+   "s": 383.38,
+   "e": 390.28,
+   "t": "So basically, whenever anyone got too close, the circuitry would vibrate just on her cheek."
+  },
+  {
+   "s": 390.38,
+   "e": 390.9,
+   "t": "Hold on."
+  },
+  {
+   "s": 391.0,
+   "e": 391.18,
+   "t": "Yeah."
+  },
+  {
+   "s": 391.36,
+   "e": 396.12,
+   "t": "You're saying it was like a personal space indicator, but built into this makeup."
+  },
+  {
+   "s": 396.74,
+   "e": 397.18,
+   "t": "Exactly."
+  },
+  {
+   "s": 397.42,
+   "e": 398.02,
+   "t": "That's brilliant."
+  },
+  {
+   "s": 398.24,
+   "e": 401.68,
+   "t": "Right. That's what I'm saying. It just completely blends art and technology."
+  },
+  {
+   "s": 401.68,
+   "e": 405.12,
+   "t": "Totally. Okay. I need to hear more. What about the other makeup artists?"
+  },
+  {
+   "s": 405.7,
+   "e": 409.02,
+   "t": "So, Madison, she wanted to do something with the collarbone."
+  },
+  {
+   "s": 409.24,
+   "e": 409.68,
+   "t": "Collarbone."
+  },
+  {
+   "s": 409.8,
+   "e": 411.48,
+   "t": "Yeah. She said it's often overlooked."
+  },
+  {
+   "s": 411.64,
+   "e": 412.3,
+   "t": "Okay. Interesting."
+  },
+  {
+   "s": 412.3,
+   "e": 417.52,
+   "t": "And she created this design with LEDs that would light up when the model moved."
+  },
+  {
+   "s": 417.64,
+   "e": 420.7,
+   "t": "Oh, wow. So, it's like your body becomes part of the art, you know?"
+  },
+  {
+   "s": 420.8,
+   "e": 421.16,
+   "t": "Interactive."
+  },
+  {
+   "s": 421.36,
+   "e": 423.98,
+   "t": "Totally. I love it. Okay. What about the other one? What'd she do?"
+  },
+  {
+   "s": 423.98,
+   "e": 428.54,
+   "t": "Ivy. She went bold. Like, full-on futuristic."
+  },
+  {
+   "s": 429.02,
+   "e": 429.32,
+   "t": "Nice."
+  },
+  {
+   "s": 429.44,
+   "e": 435.88,
+   "t": "She embraced the exposed circuitry, even woven additional copper wires. It looked like metallic"
+  },
+  {
+   "s": 435.88,
+   "e": 437.28,
+   "t": "lace on the model's chest."
+  },
+  {
+   "s": 437.4,
+   "e": 441.02,
+   "t": "They all had such different approaches. That's so cool. Okay. What about the wearable computing"
+  },
+  {
+   "s": 441.02,
+   "e": 442.72,
+   "t": "designer? Did they go a little more practical?"
+  },
+  {
+   "s": 443.18,
+   "e": 449.72,
+   "t": "Yeah. Riley was all about the practicality. She was interested in using SkinLink for, get this,"
+  },
+  {
+   "s": 449.98,
+   "e": 450.74,
+   "t": "strength training."
+  },
+  {
+   "s": 450.84,
+   "e": 452.5,
+   "t": "Strength training. Okay. Now I'm really curious."
+  },
+  {
+   "s": 452.5,
+   "e": 456.36,
+   "t": "She wanted to make something that could analyze your posture while you work out."
+  },
+  {
+   "s": 456.66,
+   "e": 459.9,
+   "t": "Oh, wow. It's like having a personal trainer right there on your skin."
+  },
+  {
+   "s": 460.1,
+   "e": 466.4,
+   "t": "Right. So, she used a Bluetooth module, an IMU sensor, and a proximity sensor."
+  },
+  {
+   "s": 466.54,
+   "e": 467.56,
+   "t": "To track all the movements."
+  },
+  {
+   "s": 467.66,
+   "e": 472.58,
+   "t": "All the movements. Even added some LEDs for good measure. They'd light up after a successful rep."
+  },
+  {
+   "s": 472.9,
+   "e": 477.18,
+   "t": "Talk about motivation. You're telling me your clothes can tell you, good job."
+  },
+  {
+   "s": 477.8,
+   "e": 478.52,
+   "t": "Pretty much."
+  },
+  {
+   "s": 478.58,
+   "e": 481.88,
+   "t": "I love it. But this is bigger than just fashion or working out, isn't it?"
+  },
+  {
+   "s": 481.88,
+   "e": 487.58,
+   "t": "Oh, absolutely. We're just scratching the surface here. This is a whole new era for wearable tech."
+  },
+  {
+   "s": 487.7,
+   "e": 490.66,
+   "t": "Because it's not just about wearing tech anymore. It's about integrating it."
+  },
+  {
+   "s": 491.06,
+   "e": 491.46,
+   "t": "Exactly."
+  },
+  {
+   "s": 491.68,
+   "e": 494.52,
+   "t": "It could be as commonplace as getting a piercing or a tattoo."
+  },
+  {
+   "s": 495.0,
+   "e": 497.16,
+   "t": "Imagine you could design your own SkinLink."
+  },
+  {
+   "s": 497.56,
+   "e": 498.54,
+   "t": "Okay. That'd be amazing."
+  },
+  {
+   "s": 498.72,
+   "e": 501.38,
+   "t": "It's true. It could be the next evolution of self-expression."
+  },
+  {
+   "s": 501.38,
+   "e": 501.94,
+   "t": "Expression."
+  },
+  {
+   "s": 502.3,
+   "e": 508.7,
+   "t": "But, like, we've got to be practical, too. How is this going to change things for us day-to-day?"
+  },
+  {
+   "s": 509.04,
+   "e": 515.16,
+   "t": "Exactly. We can't forget about the practical side. So, we've talked fashion. We've talked fitness. But what about healthcare?"
+  },
+  {
+   "s": 515.68,
+   "e": 516.24,
+   "t": "Okay, yeah."
+  },
+  {
+   "s": 516.5,
+   "e": 520.96,
+   "t": "Think about it. One of the biggest challenges is getting people to stick to their treatments, right?"
+  },
+  {
+   "s": 520.96,
+   "e": 523.36,
+   "t": "That's true. I'm terrible at remembering to take my vitamins."
+  },
+  {
+   "s": 523.36,
+   "e": 531.28,
+   "t": "Exactly. But what if we could create sensors that are so comfy you forget you're even wearing them?"
+  },
+  {
+   "s": 531.44,
+   "e": 534.5,
+   "t": "Yeah. No more strapping on a clunky device every time you leave the house."
+  },
+  {
+   "s": 534.68,
+   "e": 542.96,
+   "t": "And it's all thanks to that modular design. We could create custom systems for tracking, like, anything. Heart rate, blood pressure, skin temperature."
+  },
+  {
+   "s": 543.2,
+   "e": 545.28,
+   "t": "You basically have a health dashboard right there."
+  },
+  {
+   "s": 545.36,
+   "e": 546.16,
+   "t": "That's the idea."
+  },
+  {
+   "s": 546.32,
+   "e": 548.06,
+   "t": "And this is all possible right now."
+  },
+  {
+   "s": 548.32,
+   "e": 552.98,
+   "t": "It's more than possible. They're already looking into it. They're talking about using it for targeted drug delivery."
+  },
+  {
+   "s": 552.98,
+   "e": 558.1,
+   "t": "Hold on. Are you saying we could deliver meds through our skin, but only to the area that needs it?"
+  },
+  {
+   "s": 558.2,
+   "e": 560.86,
+   "t": "You got it. Fewer side effects, more effective treatments."
+  },
+  {
+   "s": 561.34,
+   "e": 567.34,
+   "t": "This is starting to sound like a sci-fi movie. Okay, but seriously, this is huge. This could change everything about healthcare."
+  },
+  {
+   "s": 567.48,
+   "e": 571.66,
+   "t": "It really could. But we got to be realistic. There are challenges, too."
+  },
+  {
+   "s": 571.92,
+   "e": 573.16,
+   "t": "Oh, right. Like what?"
+  },
+  {
+   "s": 573.42,
+   "e": 580.54,
+   "t": "Well, if we're talking about this level of personalized tech, data privacy is huge. We're talking about a lot of personal information."
+  },
+  {
+   "s": 580.54,
+   "e": 583.22,
+   "t": "That's true. It's not like your phone. This is your body."
+  },
+  {
+   "s": 583.4,
+   "e": 592.62,
+   "t": "Right. We're going to need some serious security measures in place, clear guidelines, regulations, who owns that data, who has access."
+  },
+  {
+   "s": 592.76,
+   "e": 594.52,
+   "t": "It's a whole new level of concern, isn't it?"
+  },
+  {
+   "s": 594.76,
+   "e": 602.56,
+   "t": "Exactly. And we can't forget about accessibility, either. This tech needs to be available for everyone, not just a select few."
+  },
+  {
+   "s": 602.7,
+   "e": 604.54,
+   "t": "Oh, absolutely. Can't leave anyone behind."
+  },
+  {
+   "s": 604.54,
+   "e": 611.4,
+   "t": "And even then, there's the manufacturing. These components are tiny and complex, but producing them on a large scale is going to be a challenge."
+  },
+  {
+   "s": 611.58,
+   "e": 614.72,
+   "t": "So it's not just about inventing it. It's about making it affordable, too, right?"
+  },
+  {
+   "s": 614.88,
+   "e": 619.48,
+   "t": "Exactly. But they're already working on that, exploring ways to automate the manufacturing."
+  },
+  {
+   "s": 619.98,
+   "e": 627.96,
+   "t": "It's amazing how one little invention can bring up so many big questions, you know, data privacy, accessibility, manufacturing."
+  },
+  {
+   "s": 627.96,
+   "e": 636.2,
+   "t": "It's pushing boundaries on every level. But that's the thing about innovation, isn't it? It forces us to confront these challenges head on."
+  },
+  {
+   "s": 636.28,
+   "e": 638.14,
+   "t": "And hopefully come up with some solutions, too."
+  },
+  {
+   "s": 638.36,
+   "e": 650.38,
+   "t": "For sure. But with all that being said, we can't forget how incredible this is. We're talking about changing the way we interact with tech, maybe even changing the way we understand our own bodies."
+  },
+  {
+   "s": 650.38,
+   "e": 657.22,
+   "t": "You know, it's been wild, this deep dive. We've gone from makeup to the future of health care. And this is just the beginning."
+  },
+  {
+   "s": 657.38,
+   "e": 666.12,
+   "t": "Right. And the best part, we're just getting started. There's so much more to explore, which is, I think, what makes these deep dives so fascinating. They spark our curiosity."
+  },
+  {
+   "s": 666.46,
+   "e": 668.26,
+   "t": "Yeah. It's not about having all the answers."
+  },
+  {
+   "s": 668.38,
+   "e": 670.88,
+   "t": "It's about being open to the possibilities."
+  },
+  {
+   "s": 671.0,
+   "e": 671.94,
+   "t": "And asking the questions."
+  },
+  {
+   "s": 672.14,
+   "e": 674.92,
+   "t": "Exactly. So here's a question for all of you listening."
+  },
+  {
+   "s": 675.1,
+   "e": 675.7,
+   "t": "I like this."
+  },
+  {
+   "s": 675.7,
+   "e": 682.08,
+   "t": "If you could design your own skin link creation, what would it be? What would you solve? What statement would you make?"
+  },
+  {
+   "s": 682.44,
+   "e": 693.52,
+   "t": "What a question. Let those imaginations run wild. Because this tech, it's not just something we'll wear. It could be something we become. It really makes you think, you know, where's the line?"
+  },
+  {
+   "s": 693.74,
+   "e": 701.2,
+   "t": "Exactly. And it's not just about augmenting what we can do. It's about, like, fundamentally changing what it means to be human."
+  },
+  {
+   "s": 701.52,
+   "e": 705.5,
+   "t": "So are we on the road to becoming cyborgs? That's a big question."
+  },
+  {
+   "s": 705.7,
+   "e": 714.58,
+   "t": "It's a question we have to ask. I mean, we already rely on tech for almost everything. Communication, directions, even just remembering things."
+  },
+  {
+   "s": 714.6,
+   "e": 716.5,
+   "t": "Now we're talking about literally wearing it."
+  },
+  {
+   "s": 716.7,
+   "e": 719.96,
+   "t": "Weaving it into ourselves. It's like sci-fi becoming reality."
+  },
+  {
+   "s": 720.06,
+   "e": 725.28,
+   "t": "Right. Like, we're not plugging chips into your brains. Not yet, anyway. But this feels like a step in that direction."
+  },
+  {
+   "s": 725.28,
+   "e": 734.3,
+   "t": "It's an evolution, that's for sure. And as we go further down this road, we can't avoid the big conversations, the ethical stuff, what it means for society, all of it."
+  },
+  {
+   "s": 734.3,
+   "e": 738.22,
+   "t": "It's not just about, oh, cool gadget. This has the potential to change everything."
+  },
+  {
+   "s": 738.4,
+   "e": 747.52,
+   "t": "Totally. How we see the world, how we connect with each other. But the good news is we have a say in this. We're the ones who will shape how SkinLink develops, how it gets used."
+  },
+  {
+   "s": 747.52,
+   "e": 749.88,
+   "t": "It's both exciting and a little daunting, you know."
+  },
+  {
+   "s": 749.92,
+   "e": 753.82,
+   "t": "Oh, absolutely. Big responsibility, huge potential for good."
+  },
+  {
+   "s": 754.06,
+   "e": 755.78,
+   "t": "Well, that's a perfect place to wrap up, I think."
+  },
+  {
+   "s": 755.86,
+   "e": 756.08,
+   "t": "Yeah."
+  },
+  {
+   "s": 756.22,
+   "e": 762.26,
+   "t": "From glowing makeup to, like, the future of humanity, this deep dive has been incredible."
+  },
+  {
+   "s": 762.34,
+   "e": 763.36,
+   "t": "We've covered a lot of ground."
+  },
+  {
+   "s": 763.7,
+   "e": 766.52,
+   "t": "To say the least. And huge thanks to you. This has been fascinating."
+  },
+  {
+   "s": 767.4,
+   "e": 769.42,
+   "t": "Always a pleasure to geek out with you about this stuff."
+  },
+  {
+   "s": 769.46,
+   "e": 777.04,
+   "t": "And for everyone listening, keep those questions coming. What excites you about this? What worries you? Let's keep the conversation going."
+  },
+  {
+   "s": 777.04,
+   "e": 779.3,
+   "t": "Head over to our social media. Tell us what you think."
+  },
+  {
+   "s": 779.64,
+   "e": 784.28,
+   "t": "Because the future of tech, it's not just about the inventors. It's about all of us."
+  },
+  {
+   "s": 784.32,
+   "e": 786.52,
+   "t": "We'll catch you on the next deep dive."
+  }
+ ]
+}

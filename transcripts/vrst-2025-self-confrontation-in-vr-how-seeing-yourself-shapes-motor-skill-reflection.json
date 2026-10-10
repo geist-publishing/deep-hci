@@ -1,0 +1,1180 @@
+{
+ "guid": "deephci.podbean.com/26236708-d6ec-5d37-bac7-5bad5daa1635",
+ "slug": "vrst-2025-self-confrontation-in-vr-how-seeing-yourself-shapes-motor-skill-reflection",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "Self-Confrontation_Drives_VR_Skill_Learning.m4a",
+  "version": 1
+ },
+ "duration": 866,
+ "word_count": 2492,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 5.02,
+   "t": "Welcome to the Deep Dive. Today we're immersing ourselves in the cognitive science of learning."
+  },
+  {
+   "s": 5.34,
+   "e": 11.7,
+   "t": "We're focusing on how we master complex motor skills when, well, when the teacher, the critic,"
+  },
+  {
+   "s": 11.84,
+   "e": 16.08,
+   "t": "and the subject are all the same person, all inside virtual reality."
+  },
+  {
+   "s": 16.28,
+   "e": 17.58,
+   "t": "It's a fascinating area."
+  },
+  {
+   "s": 18.0,
+   "e": 21.82,
+   "t": "And effective self-reflection is just so critical for skill mastery, isn't it?"
+  },
+  {
+   "s": 22.04,
+   "e": 26.78,
+   "t": "It's the engine that drives that whole cycle of what we call self-regulated learning."
+  },
+  {
+   "s": 26.78,
+   "e": 31.48,
+   "t": "It is. And that engine often stalls with the traditional methods we use."
+  },
+  {
+   "s": 31.56,
+   "e": 31.96,
+   "t": "Oh, how?"
+  },
+  {
+   "s": 32.16,
+   "e": 38.76,
+   "t": "Well, if you think about how we usually do self-observation, say, analyzing your performance on a standard 2D video,"
+  },
+  {
+   "s": 39.16,
+   "e": 40.92,
+   "t": "there are significant drawbacks."
+  },
+  {
+   "s": 41.1,
+   "e": 41.3,
+   "t": "Okay."
+  },
+  {
+   "s": 41.52,
+   "e": 46.76,
+   "t": "They struggle to diagnose the subtle three-dimensional posture errors you find in complex movements."
+  },
+  {
+   "s": 46.96,
+   "e": 50.48,
+   "t": "And crucially, they enforce a kind of fundamental disembodiment."
+  },
+  {
+   "s": 50.68,
+   "e": 54.4,
+   "t": "They separate you, the observer, from the performance you're supposed to be reviewing."
+  },
+  {
+   "s": 54.4,
+   "e": 57.78,
+   "t": "I see. So there's a disconnect. Let's unpack that challenge then."
+  },
+  {
+   "s": 58.44,
+   "e": 63.14,
+   "t": "The mission for this deep dive is to examine a study that proposes a genuine paradigm shift."
+  },
+  {
+   "s": 63.46,
+   "e": 69.06,
+   "t": "It does. Moving from that passive, flat self-observation to something active."
+  },
+  {
+   "s": 69.46,
+   "e": 72.3,
+   "t": "Embodied self-evaluation, all within a virtual environment."
+  },
+  {
+   "s": 72.52,
+   "e": 77.52,
+   "t": "And the core goal is to investigate precisely how that combination of visual appearance,"
+  },
+  {
+   "s": 78.0,
+   "e": 81.22,
+   "t": "seeing yourself and observed movement, seeing your own performance,"
+  },
+  {
+   "s": 81.22,
+   "e": 86.26,
+   "t": "how that alters a user's sense itself, and of course, the quality of their reflection."
+  },
+  {
+   "s": 87.06,
+   "e": 90.34,
+   "t": "This research touches on some profound psychological territory."
+  },
+  {
+   "s": 90.7,
+   "e": 96.82,
+   "t": "It examines the emergence of a complex psychological duality, a role conflict, as the paper calls it."
+  },
+  {
+   "s": 96.96,
+   "e": 97.66,
+   "t": "A role conflict."
+  },
+  {
+   "s": 97.82,
+   "e": 103.1,
+   "t": "It's what surfaces when you are simultaneously the subject acting as the trainer providing critique"
+  },
+  {
+   "s": 103.1,
+   "e": 107.98,
+   "t": "and the object acting as the trainee being evaluated, all in the same virtual space."
+  },
+  {
+   "s": 108.06,
+   "e": 113.66,
+   "t": "So how on earth did the researchers design an experiment to isolate those kinds of psychological forces?"
+  },
+  {
+   "s": 113.8,
+   "e": 116.8,
+   "t": "They developed a custom VR application. It was called copycata."
+  },
+  {
+   "s": 116.98,
+   "e": 117.48,
+   "t": "Copycata."
+  },
+  {
+   "s": 117.68,
+   "e": 121.5,
+   "t": "And it was centered around a foundational karate sequence, something suitable for novices."
+  },
+  {
+   "s": 122.0,
+   "e": 126.04,
+   "t": "The genius of the study was in its very clean experimental design."
+  },
+  {
+   "s": 126.04,
+   "e": 130.7,
+   "t": "A two-by-two matrix that systematically varied two independent variables."
+  },
+  {
+   "s": 131.34,
+   "e": 137.2,
+   "t": "In all conditions, participants were embodied as a generic first-person trainer avatar."
+  },
+  {
+   "s": 137.52,
+   "e": 143.72,
+   "t": "And their task was to give verbal feedback to a trainee avatar that they saw in front of them."
+  },
+  {
+   "s": 143.82,
+   "e": 145.52,
+   "t": "Exactly. Continuous feedback."
+  },
+  {
+   "s": 145.68,
+   "e": 149.44,
+   "t": "So let's isolate those two variables. They seem to define the core conflict here."
+  },
+  {
+   "s": 150.0,
+   "e": 151.26,
+   "t": "What was variable number one?"
+  },
+  {
+   "s": 151.34,
+   "e": 152.64,
+   "t": "That was the avatar appearance."
+  },
+  {
+   "s": 152.64,
+   "e": 159.96,
+   "t": "In the self-avatar conditions, the trainee they were criticizing was a personalized, photorealistic 3D scan of the participant."
+  },
+  {
+   "s": 160.08,
+   "e": 160.5,
+   "t": "Of themselves."
+  },
+  {
+   "s": 160.68,
+   "e": 161.4,
+   "t": "Of themselves, yes."
+  },
+  {
+   "s": 161.62,
+   "e": 166.16,
+   "t": "And in the other avatar conditions, the trainee was a generic avatar of the opposite gender,"
+  },
+  {
+   "s": 166.4,
+   "e": 168.8,
+   "t": "just to ensure a clear visual distinction."
+  },
+  {
+   "s": 169.0,
+   "e": 171.88,
+   "t": "Okay, so that isolates the impact of just visual recognition."
+  },
+  {
+   "s": 172.4,
+   "e": 176.12,
+   "t": "And variable number two, manipulating the source of the performance."
+  },
+  {
+   "s": 176.26,
+   "e": 177.48,
+   "t": "That was the observed movement."
+  },
+  {
+   "s": 177.96,
+   "e": 180.06,
+   "t": "Participants either evaluated their own movement."
+  },
+  {
+   "s": 180.06,
+   "e": 182.32,
+   "t": "The ones they'd recorded earlier, flaws and all."
+  },
+  {
+   "s": 182.64,
+   "e": 183.32,
+   "t": "The very same."
+  },
+  {
+   "s": 183.96,
+   "e": 187.84,
+   "t": "Pre-recorded actions from an initial imperfect training session."
+  },
+  {
+   "s": 188.12,
+   "e": 190.64,
+   "t": "Or they evaluated other movements."
+  },
+  {
+   "s": 191.08,
+   "e": 196.64,
+   "t": "These were expert movements pre-recorded by a martial arts master, representing, you know, peak proficiency."
+  },
+  {
+   "s": 196.64,
+   "e": 199.96,
+   "t": "And that isolates the impact of motor congruence."
+  },
+  {
+   "s": 200.22,
+   "e": 202.58,
+   "t": "Whether the movement feels like your own."
+  },
+  {
+   "s": 202.66,
+   "e": 202.88,
+   "t": "Correct."
+  },
+  {
+   "s": 202.88,
+   "e": 207.08,
+   "t": "So combining these creates four very distinct psychological scenarios."
+  },
+  {
+   "s": 207.48,
+   "e": 210.48,
+   "t": "And these become critical reference points for the entire discussion."
+  },
+  {
+   "s": 210.72,
+   "e": 210.94,
+   "t": "Indeed."
+  },
+  {
+   "s": 211.36,
+   "e": 213.24,
+   "t": "First, we have what they call dissonance."
+  },
+  {
+   "s": 213.58,
+   "e": 216.6,
+   "t": "That's the other avatar performing the participant's own movements."
+  },
+  {
+   "s": 216.92,
+   "e": 218.94,
+   "t": "You see your own motor skills in a foreign body."
+  },
+  {
+   "s": 219.08,
+   "e": 219.62,
+   "t": "I can imagine."
+  },
+  {
+   "s": 219.72,
+   "e": 220.78,
+   "t": "That's quite strange."
+  },
+  {
+   "s": 220.88,
+   "e": 224.2,
+   "t": "Then you have what is maybe the most psychologically intense condition."
+  },
+  {
+   "s": 224.94,
+   "e": 225.96,
+   "t": "Direct confrontation."
+  },
+  {
+   "s": 225.96,
+   "e": 228.96,
+   "t": "That's the self-avatar performing their own movements."
+  },
+  {
+   "s": 229.24,
+   "e": 232.48,
+   "t": "An unfiltered, ego-involved self-assessment."
+  },
+  {
+   "s": 232.68,
+   "e": 233.96,
+   "t": "No escaping yourself there."
+  },
+  {
+   "s": 234.08,
+   "e": 234.56,
+   "t": "None at all."
+  },
+  {
+   "s": 235.0,
+   "e": 236.4,
+   "t": "Thur is the ideal self."
+  },
+  {
+   "s": 236.78,
+   "e": 239.38,
+   "t": "This is the self-avatar performing the expert's other movements."
+  },
+  {
+   "s": 239.74,
+   "e": 242.1,
+   "t": "You see your own appearance achieving peak performance."
+  },
+  {
+   "s": 242.28,
+   "e": 243.36,
+   "t": "A glimpse of your potential."
+  },
+  {
+   "s": 243.66,
+   "e": 244.42,
+   "t": "In a way, yes."
+  },
+  {
+   "s": 244.9,
+   "e": 246.4,
+   "t": "And finally, you have the baseline."
+  },
+  {
+   "s": 246.4,
+   "e": 249.26,
+   "t": "The other avatar performing the other movements."
+  },
+  {
+   "s": 249.26,
+   "e": 252.48,
+   "t": "This serves as the detached control condition."
+  },
+  {
+   "s": 253.06,
+   "e": 255.92,
+   "t": "Just evaluating a stranger's expert performance."
+  },
+  {
+   "s": 256.34,
+   "e": 257.54,
+   "t": "That gives us a clear framework."
+  },
+  {
+   "s": 258.1,
+   "e": 261.96,
+   "t": "So before this VR confrontation even begins, we have to establish the starting line."
+  },
+  {
+   "s": 262.72,
+   "e": 266.9,
+   "t": "When a novice, someone lacking expertise, approaches a critique task like this."
+  },
+  {
+   "s": 267.78,
+   "e": 270.32,
+   "t": "What is their inherent reflective baseline?"
+  },
+  {
+   "s": 270.64,
+   "e": 272.6,
+   "t": "The data paints a very clear picture here."
+  },
+  {
+   "s": 273.06,
+   "e": 275.14,
+   "t": "Novices adopt a coping strategy."
+  },
+  {
+   "s": 275.36,
+   "e": 276.22,
+   "t": "The coping strategy."
+  },
+  {
+   "s": 276.22,
+   "e": 281.74,
+   "t": "Because they lack the deep internal schema of an expert, they can't diagnose subtle timing"
+  },
+  {
+   "s": 281.74,
+   "e": 283.24,
+   "t": "or weight distribution issues."
+  },
+  {
+   "s": 283.4,
+   "e": 287.2,
+   "t": "They focus almost entirely on visually obvious concrete details."
+  },
+  {
+   "s": 287.42,
+   "e": 287.52,
+   "t": "Ah."
+  },
+  {
+   "s": 287.84,
+   "e": 291.72,
+   "t": "So they can't offer nuanced feedback on the quality of the movement, so they focus on the"
+  },
+  {
+   "s": 291.72,
+   "e": 292.38,
+   "t": "presence of it."
+  },
+  {
+   "s": 292.64,
+   "e": 295.78,
+   "t": "They gravitate toward tangible things they can just verify with their eyes."
+  },
+  {
+   "s": 295.84,
+   "e": 296.22,
+   "t": "Exactly."
+  },
+  {
+   "s": 296.74,
+   "e": 298.74,
+   "t": "This results in what's called descriptive reflection."
+  },
+  {
+   "s": 299.04,
+   "e": 303.6,
+   "t": "It corresponds to the R0 or R1 levels in the Fleck and Fitzpatrick reflection framework."
+  },
+  {
+   "s": 303.6,
+   "e": 307.0,
+   "t": "And for context, R0 and R1 is just simple description."
+  },
+  {
+   "s": 307.24,
+   "e": 308.56,
+   "t": "What you see or naming an action."
+  },
+  {
+   "s": 308.9,
+   "e": 309.24,
+   "t": "That's it."
+  },
+  {
+   "s": 309.64,
+   "e": 314.9,
+   "t": "And the goal is to guide users toward R3, which is transformative reflection, understanding"
+  },
+  {
+   "s": 314.9,
+   "e": 319.5,
+   "t": "why an error occurred, and then formulating a detailed strategy for corrective action."
+  },
+  {
+   "s": 319.94,
+   "e": 323.18,
+   "t": "And their verbal feedback actually reflected this descriptive baseline."
+  },
+  {
+   "s": 323.52,
+   "e": 323.96,
+   "t": "It did."
+  },
+  {
+   "s": 323.96,
+   "e": 329.46,
+   "t": "The verbal data was dominated by high instances of body part focus and movement focus."
+  },
+  {
+   "s": 330.06,
+   "e": 334.6,
+   "t": "They confidently used concrete nouns, descriptive words like kick and punch."
+  },
+  {
+   "s": 335.16,
+   "e": 341.42,
+   "t": "But the moment they had to shift to true evaluation or diagnosis, they frequently used hedge words."
+  },
+  {
+   "s": 341.68,
+   "e": 343.74,
+   "t": "Things like, I think, or maybe."
+  },
+  {
+   "s": 344.1,
+   "e": 347.74,
+   "t": "It expresses their fundamental uncertainty about the quality of what they were seeing."
+  },
+  {
+   "s": 347.9,
+   "e": 349.62,
+   "t": "They knew what they saw, but not what it meant."
+  },
+  {
+   "s": 349.8,
+   "e": 350.24,
+   "t": "Precisely."
+  },
+  {
+   "s": 350.24,
+   "e": 355.16,
+   "t": "So this detached descriptive baseline is the setup for the psychological shift."
+  },
+  {
+   "s": 355.7,
+   "e": 360.42,
+   "t": "When you introduce the self-avatar, when objective evaluation becomes an ego-involved self-assessment,"
+  },
+  {
+   "s": 360.82,
+   "e": 363.54,
+   "t": "what's the force that breaks through this descriptive detachment?"
+  },
+  {
+   "s": 363.82,
+   "e": 367.9,
+   "t": "The visual presence of the self-avatar acts as a significant psychological catalyst."
+  },
+  {
+   "s": 368.5,
+   "e": 370.3,
+   "t": "The past is immediately transformed."
+  },
+  {
+   "s": 370.48,
+   "e": 376.16,
+   "t": "It moves away from just technical analysis into this emotionally charged process of self-assessment."
+  },
+  {
+   "s": 376.16,
+   "e": 384.5,
+   "t": "It elicited strong feelings that participants described as spanning from embarrassing and ashamed or disappointed to,"
+  },
+  {
+   "s": 384.66,
+   "e": 387.72,
+   "t": "well, to simply finding it funny how poorly they performed."
+  },
+  {
+   "s": 387.98,
+   "e": 390.1,
+   "t": "That's a profound emotional fallout."
+  },
+  {
+   "s": 390.14,
+   "e": 394.1,
+   "t": "And just from seeing a virtual copy of yourself doing a novice action,"
+  },
+  {
+   "s": 394.78,
+   "e": 399.32,
+   "t": "why is a self-avatar so much more potent than just watching a 2D video of the same performance?"
+  },
+  {
+   "s": 399.72,
+   "e": 401.54,
+   "t": "It's the immediacy of the confrontation."
+  },
+  {
+   "s": 402.24,
+   "e": 404.98,
+   "t": "And this emotional shift is evident linguistically, too."
+  },
+  {
+   "s": 404.98,
+   "e": 409.1,
+   "t": "In the other avatar conditions, speech was dominated by foreign reference."
+  },
+  {
+   "s": 409.16,
+   "e": 410.62,
+   "t": "Meaning they spoke about the avatar."
+  },
+  {
+   "s": 410.8,
+   "e": 411.08,
+   "t": "Yes."
+  },
+  {
+   "s": 411.7,
+   "e": 414.54,
+   "t": "The trainee needs to lift its leg higher, that kind of thing."
+  },
+  {
+   "s": 414.76,
+   "e": 418.26,
+   "t": "But this pattern completely inverted in the self-avatar conditions."
+  },
+  {
+   "s": 418.6,
+   "e": 420.84,
+   "t": "The use of self-reference increased substantially."
+  },
+  {
+   "s": 421.14,
+   "e": 426.6,
+   "t": "So they shifted from saying it seems to lack power to saying I should have put more power into my kick."
+  },
+  {
+   "s": 426.8,
+   "e": 427.84,
+   "t": "That is exactly it."
+  },
+  {
+   "s": 428.08,
+   "e": 430.5,
+   "t": "They began talking to themselves or about themselves."
+  },
+  {
+   "s": 430.5,
+   "e": 434.42,
+   "t": "They turned the external critique into an internal critical dialogue."
+  },
+  {
+   "s": 435.22,
+   "e": 437.62,
+   "t": "This is the engine of that role conflict we mentioned."
+  },
+  {
+   "s": 438.04,
+   "e": 440.86,
+   "t": "The battle between the observing self and the observed self."
+  },
+  {
+   "s": 441.28,
+   "e": 443.32,
+   "t": "How did the researchers quantify this feeling?"
+  },
+  {
+   "s": 443.56,
+   "e": 445.24,
+   "t": "The sense of being two people at once."
+  },
+  {
+   "s": 445.78,
+   "e": 448.7,
+   "t": "They looked at metrics that measured perceived role."
+  },
+  {
+   "s": 448.7,
+   "e": 460.1,
+   "t": "The visual presence of the self-avatar, maybe unsurprisingly, significantly increased the participants' sense of ownership over the trainer body, the avatar they inhabited in first person."
+  },
+  {
+   "s": 460.2,
+   "e": 461.86,
+   "t": "That looks like me, so I own this role."
+  },
+  {
+   "s": 462.06,
+   "e": 467.18,
+   "t": "But, and this is the pivotal finding, they were simultaneously feeling like the person being critiqued."
+  },
+  {
+   "s": 467.42,
+   "e": 467.7,
+   "t": "Ah."
+  },
+  {
+   "s": 467.7,
+   "e": 474.88,
+   "t": "Even as their sense of trainer ownership went up, participants reported feeling significantly more trainee, the individual being observed."
+  },
+  {
+   "s": 475.62,
+   "e": 482.48,
+   "t": "This confirms that the internal critical dialogue with the self, that ego-involved force, was psychologically superior."
+  },
+  {
+   "s": 483.1,
+   "e": 487.64,
+   "t": "It superseded the avatar's external appearance or the first person perspective they were in."
+  },
+  {
+   "s": 487.94,
+   "e": 490.46,
+   "t": "Their mind identified with the flawed performer."
+  },
+  {
+   "s": 490.52,
+   "e": 491.32,
+   "t": "Their mind did."
+  },
+  {
+   "s": 491.32,
+   "e": 503.32,
+   "t": "So, if the user's mind is rejecting the body they inhabit and identifying with the avatar they're criticizing, that forces us to redefine what we even mean by embodiment in a VR setting."
+  },
+  {
+   "s": 503.5,
+   "e": 506.9,
+   "t": "It forces us to challenge the simple binary view of embodiment."
+  },
+  {
+   "s": 507.32,
+   "e": 507.62,
+   "t": "Yes."
+  },
+  {
+   "s": 508.14,
+   "e": 512.76,
+   "t": "The intensive self-evaluation didn't lead to a simple feeling of identification or detachment."
+  },
+  {
+   "s": 513.36,
+   "e": 519.68,
+   "t": "Instead, it led to a fluid, multifaceted sense of self that was constantly oscillating between the two roles."
+  },
+  {
+   "s": 519.68,
+   "e": 526.42,
+   "t": "And the quantitative data shows that this multifaceted embodiment is driven by two distinct separable factors."
+  },
+  {
+   "s": 527.02,
+   "e": 529.48,
+   "t": "This is where it gets highly specific for system design."
+  },
+  {
+   "s": 529.64,
+   "e": 530.0,
+   "t": "It is."
+  },
+  {
+   "s": 530.2,
+   "e": 534.32,
+   "t": "The analysis of their avatar embodiment questionnaire showed two independent influences."
+  },
+  {
+   "s": 534.8,
+   "e": 538.74,
+   "t": "First, avatar appearance was the significant factor driving the sense of ownership."
+  },
+  {
+   "s": 538.88,
+   "e": 540.08,
+   "t": "Which is the cognitive connection."
+  },
+  {
+   "s": 540.22,
+   "e": 542.82,
+   "t": "That looks like me, therefore I accept this as my body."
+  },
+  {
+   "s": 542.92,
+   "e": 544.2,
+   "t": "The cognitive connection, correct."
+  },
+  {
+   "s": 544.2,
+   "e": 549.32,
+   "t": "So, appearance drives the visual, ego-driven side of self-identification."
+  },
+  {
+   "s": 549.32,
+   "e": 551.72,
+   "t": "What drives the physical sensory side?"
+  },
+  {
+   "s": 552.04,
+   "e": 553.08,
+   "t": "The observed movement."
+  },
+  {
+   "s": 553.7,
+   "e": 558.4,
+   "t": "That was the significant factor driving the multi-sensory subscale of the embodiment questionnaire."
+  },
+  {
+   "s": 558.9,
+   "e": 568.86,
+   "t": "This means whether or not they were watching their own movements, the motor congruence, that was the key to physical and sensory integration, regardless of who the avatar looked like."
+  },
+  {
+   "s": 568.98,
+   "e": 570.94,
+   "t": "So, it's a kinesthetic integration."
+  },
+  {
+   "s": 571.46,
+   "e": 574.96,
+   "t": "The movement feels correct, even if the body looks wrong."
+  },
+  {
+   "s": 575.0,
+   "e": 575.74,
+   "t": "Got it."
+  },
+  {
+   "s": 575.74,
+   "e": 578.84,
+   "t": "Let's connect these two drivers back to those specific scenarios."
+  },
+  {
+   "s": 579.2,
+   "e": 588.82,
+   "t": "In the direct confrontation condition, seeing your own face perform your own novice movements, is that where the mind fractures, and we see this split embodiment."
+  },
+  {
+   "s": 588.9,
+   "e": 590.78,
+   "t": "That is the pinnacle of the role conflict."
+  },
+  {
+   "s": 591.36,
+   "e": 598.24,
+   "t": "Participants reported feeling a sense of bilocation, physically present as the trainer, but mentally and critically identified with the trainee."
+  },
+  {
+   "s": 598.82,
+   "e": 602.28,
+   "t": "Their consciousness was effectively inhabiting both roles at the same time."
+  },
+  {
+   "s": 602.28,
+   "e": 604.98,
+   "t": "It's an incredibly intense state of self-assessment."
+  },
+  {
+   "s": 605.3,
+   "e": 606.94,
+   "t": "Okay, now consider the dissonance condition."
+  },
+  {
+   "s": 607.26,
+   "e": 607.66,
+   "t": "The opposite."
+  },
+  {
+   "s": 608.16,
+   "e": 612.62,
+   "t": "They saw their own movements, but performed by a foreign opposite-gender avatar."
+  },
+  {
+   "s": 613.12,
+   "e": 615.62,
+   "t": "This challenges that visual first assumption of VR."
+  },
+  {
+   "s": 616.12,
+   "e": 618.18,
+   "t": "What psychological phenomenon emerged there?"
+  },
+  {
+   "s": 618.4,
+   "e": 620.24,
+   "t": "That's where the Puppet Master effect came out."
+  },
+  {
+   "s": 621.1,
+   "e": 625.42,
+   "t": "Participants experienced a state of detached control over that foreign avatar."
+  },
+  {
+   "s": 625.68,
+   "e": 626.38,
+   "t": "Detached control."
+  },
+  {
+   "s": 626.38,
+   "e": 637.46,
+   "t": "They knew intellectually it was not their body, but the motor congruence, the fact that the movements matched their prior effort, it created a sensory integration strong enough to drive high multisensory scores."
+  },
+  {
+   "s": 637.88,
+   "e": 641.16,
+   "t": "So, motor congruence can override visual discrepancy."
+  },
+  {
+   "s": 641.56,
+   "e": 651.0,
+   "t": "It demonstrates that the feeling of, this movement belongs to me, creates a form of sensory integration, even without the visual confirmation of a self-avatar."
+  },
+  {
+   "s": 651.0,
+   "e": 654.96,
+   "t": "Did some participants just try to bypass this whole intense experience?"
+  },
+  {
+   "s": 654.96,
+   "e": 659.82,
+   "t": "They did. We saw reports of participants comparing the experience to watching a 2D video of themselves."
+  },
+  {
+   "s": 660.42,
+   "e": 663.58,
+   "t": "This highlights a cognitive strategy, externalization."
+  },
+  {
+   "s": 664.08,
+   "e": 670.64,
+   "t": "They were attempting to transform the confrontational 3D VR experience into a more objective, detached view."
+  },
+  {
+   "s": 670.72,
+   "e": 675.8,
+   "t": "Trying to return to that R0 or R1 descriptive baseline, just to cope with the emotional intensity."
+  },
+  {
+   "s": 675.82,
+   "e": 676.1,
+   "t": "Exactly."
+  },
+  {
+   "s": 676.1,
+   "e": 680.04,
+   "t": "This fragmented and fluid sense of self is perhaps the biggest takeaway then."
+  },
+  {
+   "s": 680.72,
+   "e": 685.96,
+   "t": "Embodiment is a dynamic construct, shaped independently by visual identity and mode of performance."
+  },
+  {
+   "s": 686.78,
+   "e": 690.24,
+   "t": "This knowledge isn't just descriptive, it has to be prescriptive."
+  },
+  {
+   "s": 690.24,
+   "e": 701.08,
+   "t": "How do we translate these deep psychological findings into concrete guidance for system designers, for people seeking to guide users toward that R3 transformative reflection?"
+  },
+  {
+   "s": 701.4,
+   "e": 708.8,
+   "t": "Well, first we have to overcome the foundational hurdle of novice uncertainty, their reliance on that R0, R1 descriptive feedback."
+  },
+  {
+   "s": 709.58,
+   "e": 715.46,
+   "t": "Systems need to provide structured guidance and, importantly, display expert movements in parallel to the learners."
+  },
+  {
+   "s": 715.46,
+   "e": 721.36,
+   "t": "This offers a concrete ground truth for comparison. It moves the user beyond simple description."
+  },
+  {
+   "s": 721.68,
+   "e": 728.16,
+   "t": "That gives the novice an immediate benchmark. It moves them past, I think the kick was weak, to the expert's leg rotation is clearly different from mine."
+  },
+  {
+   "s": 728.68,
+   "e": 732.92,
+   "t": "What about leveraging the emotional power of the self-avatar without overwhelming the user?"
+  },
+  {
+   "s": 733.14,
+   "e": 742.06,
+   "t": "Since the self-avatar is such a potent psychological catalyst, but also emotionally challenging, the trainee representation must be a configurable parameter."
+  },
+  {
+   "s": 742.16,
+   "e": 743.26,
+   "t": "A setting they can change?"
+  },
+  {
+   "s": 743.26,
+   "e": 749.78,
+   "t": "Designers should enable users to consciously select an other avatar for objective, detached, technical comparison."
+  },
+  {
+   "s": 750.26,
+   "e": 755.88,
+   "t": "Or, they can choose the self-avatar when they're prepared for that deeper, ego-involved self-assessment."
+  },
+  {
+   "s": 756.36,
+   "e": 758.78,
+   "t": "They must be able to choose their psychological dosage."
+  },
+  {
+   "s": 758.96,
+   "e": 761.18,
+   "t": "And finally, applying the embodiment findings."
+  },
+  {
+   "s": 761.98,
+   "e": 768.56,
+   "t": "How do we use this duality of ownership and multisensory integration to refine the learning process itself?"
+  },
+  {
+   "s": 768.94,
+   "e": 772.84,
+   "t": "Designers now possess distinct controllers for embodiment, based on this data."
+  },
+  {
+   "s": 773.26,
+   "e": 779.52,
+   "t": "Visual appearance controls the sense of ownership, that emotional connection and acceptance of the avatar as oneself."
+  },
+  {
+   "s": 780.36,
+   "e": 784.64,
+   "t": "But motor congruence controls multisensory integration, which enhances the sense of agency."
+  },
+  {
+   "s": 785.22,
+   "e": 790.72,
+   "t": "This means, if you want a user to feel physically present in the system and feel the corrective actions are relevant, that's agency,"
+  },
+  {
+   "s": 791.3,
+   "e": 794.44,
+   "t": "you focus design efforts on ensuring motor accuracy and low latency."
+  },
+  {
+   "s": 794.94,
+   "e": 797.94,
+   "t": "And if you want them to feel emotionally compelled to critique and change."
+  },
+  {
+   "s": 798.34,
+   "e": 801.26,
+   "t": "Then you focus on the photorealistic scan. You focus on ownership."
+  },
+  {
+   "s": 801.26,
+   "e": 808.26,
+   "t": "So what we have established is that this confrontation with oneself in VR is far more than a high-fidelity viewing experience."
+  },
+  {
+   "s": 808.9,
+   "e": 809.04,
+   "t": "Yeah."
+  },
+  {
+   "s": 809.16,
+   "e": 812.92,
+   "t": "It's a profound, two-pronged psychological event."
+  },
+  {
+   "s": 813.12,
+   "e": 815.32,
+   "t": "It reveals a core psychological duality."
+  },
+  {
+   "s": 815.82,
+   "e": 823.5,
+   "t": "It confirms that the sense of self in a virtual environment is dynamic, constantly shaped separately by visual recognition and motor congruence."
+  },
+  {
+   "s": 823.5,
+   "e": 828.78,
+   "t": "This study focused on motor skill acquisition, using a karate sequence."
+  },
+  {
+   "s": 829.14,
+   "e": 839.56,
+   "t": "But the methodology externalizing our internal self-talk through a virtual self avatar to facilitate deep evaluation, that's not limited to physical movement, is it?"
+  },
+  {
+   "s": 839.62,
+   "e": 840.08,
+   "t": "Not at all."
+  },
+  {
+   "s": 840.4,
+   "e": 846.4,
+   "t": "If creating an embodied dialogue with our virtual self is effective for analyzing and refining complex motor skills,"
+  },
+  {
+   "s": 846.4,
+   "e": 850.64,
+   "t": "think about the new possibilities this opens up for emotional and psychological growth."
+  },
+  {
+   "s": 851.16,
+   "e": 855.48,
+   "t": "This methodology offers compelling avenues for therapeutic interventions or for self-counseling."
+  },
+  {
+   "s": 855.58,
+   "e": 860.04,
+   "t": "If the visible psychological shift from subject to object can motivate better physical performance,"
+  },
+  {
+   "s": 860.26,
+   "e": 863.34,
+   "t": "what could it do for achieving emotional insight and personal transformation?"
+  },
+  {
+   "s": 863.72,
+   "e": 865.94,
+   "t": "It gives us a tangible way to talk to our own thoughts."
+  },
+  {
+   "s": 865.94,
+   "e": 872.7,
+   "t": "Then we'll start about thinking about development and environmental 99's work to ensure that we don't understand what works to document as well."
+  },
+  {
+   "s": 872.94,
+   "e": 873.68,
+   "t": "Thank you."
+  },
+  {
+   "s": 873.9,
+   "e": 876.5,
+   "t": "For those kind of African American movements with respect to gender expectations."
+  },
+  {
+   "s": 876.9,
+   "e": 880.86,
+   "t": "For those kind of African language models to ensure that we need to increase our raw DNA both recent movements and anti-eeee and examples of relative väρο滑 products and ancient Britain's planning as well."
+  },
+  {
+   "s": 881.06,
+   "e": 883.8,
+   "t": "Ones here we now look at the streets of 480 million devices that are highly discriminated bypyrod shoulderные combat degrees of wearing Downups to ensure our combined MassDe wave Smarios bestأ ."
+  },
+  {
+   "s": 884.28,
+   "e": 888.24,
+   "t": "Ones here we would begin with which there are finally series of examples of non-cor emissions with yesterday's guidance on anything like which our stackings are fully qualified career goals in which are extremely busy climate changes that are designed on par models of natural environmental figured meet our expectations of negative"
+  }
+ ]
+}

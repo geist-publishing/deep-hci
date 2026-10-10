@@ -1,0 +1,1085 @@
+{
+ "guid": "deephci.podbean.com/40b362dd-6523-3157-a20c-82a800a8f2e1",
+ "slug": "mobilehci-2024-shock-me-the-way-directional-electrotactile-feedback-under-the-smartwatch-as-a-navigation-aid-for-cyclists",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3676521.mp3",
+  "version": 1
+ },
+ "duration": 727,
+ "word_count": 2058,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 9.42,
+   "t": "Welcome back. In this deep dive, we're exploring a new approach to cycling navigation, one that aims to tackle the ever-present issue of information overload."
+  },
+  {
+   "s": 9.42,
+   "e": 10.08,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 10.64,
+   "e": 10.84,
+   "t": "So."
+  },
+  {
+   "s": 11.6,
+   "e": 26.64,
+   "t": "This research paper titled, Shock Me The Way, Directional Electro-Tactile Feedback Under the Smartwatch as a Navigation Aid for Cyclists, proposes a pretty compelling solution to a challenge faced by many cyclists, especially in urban areas."
+  },
+  {
+   "s": 26.76,
+   "e": 27.22,
+   "t": "That's promising."
+  },
+  {
+   "s": 27.62,
+   "e": 27.74,
+   "t": "Yeah."
+  },
+  {
+   "s": 27.74,
+   "e": 29.58,
+   "t": "So what's the main problem they're trying to fix?"
+  },
+  {
+   "s": 29.58,
+   "e": 33.44,
+   "t": "Well, imagine trying to navigate through a busy city on your bike."
+  },
+  {
+   "s": 33.58,
+   "e": 33.68,
+   "t": "Right."
+  },
+  {
+   "s": 33.78,
+   "e": 39.88,
+   "t": "You're surrounded by visual and auditory stimuli, you know, traffic lights, pedestrians, car horns, all demanding your attention."
+  },
+  {
+   "s": 40.58,
+   "e": 49.58,
+   "t": "And traditional navigation systems, with their visual maps or auditory instructions, can actually make the sensory overload worse, potentially leading to dangerous distractions."
+  },
+  {
+   "s": 50.26,
+   "e": 54.1,
+   "t": "I see, yeah. So how does this research propose to solve this problem?"
+  },
+  {
+   "s": 54.52,
+   "e": 58.8,
+   "t": "Well, the researchers have developed a system that uses something called electro-tactile feedback."
+  },
+  {
+   "s": 58.8,
+   "e": 65.4,
+   "t": "Essentially, it involves delivering targeted, very small sensations to the cyclist's skin."
+  },
+  {
+   "s": 66.04,
+   "e": 72.7,
+   "t": "These sensations act as directional cues, guiding them without the need to look away from the road or listen to instructions."
+  },
+  {
+   "s": 73.1,
+   "e": 74.78,
+   "t": "I'm having a hard time picturing this."
+  },
+  {
+   "s": 74.84,
+   "e": 75.08,
+   "t": "Okay."
+  },
+  {
+   "s": 75.08,
+   "e": 78.96,
+   "t": "Can you kind of walk us through how this system works, practically?"
+  },
+  {
+   "s": 78.96,
+   "e": 91.84,
+   "t": "Yes, sir. So picture this. You've got your smartwatch on. In this study, they used a Samsung Galaxy Watch 4, but underneath it, right against your skin, is a grid of nine electrodes."
+  },
+  {
+   "s": 91.84,
+   "e": 98.54,
+   "t": "This grid is connected to a control unit, and together they communicate with an app on your phone through Bluetooth."
+  },
+  {
+   "s": 98.84,
+   "e": 100.44,
+   "t": "Okay, so the app is still involved."
+  },
+  {
+   "s": 100.56,
+   "e": 100.86,
+   "t": "Yes."
+  },
+  {
+   "s": 101.02,
+   "e": 103.3,
+   "t": "But it's not giving visual or auditory directions."
+  },
+  {
+   "s": 103.46,
+   "e": 107.54,
+   "t": "That's right. The app's only job is to figure out your location and the route to where you want to go."
+  },
+  {
+   "s": 107.92,
+   "e": 112.98,
+   "t": "Then it sends this info to the control unit, which in turn activates the right electrodes on the grid."
+  },
+  {
+   "s": 112.98,
+   "e": 116.92,
+   "t": "And that creates a sensation on your wrist, telling you which way to turn."
+  },
+  {
+   "s": 117.16,
+   "e": 120.42,
+   "t": "So, for example, let's say I need to make a left turn at the next intersection."
+  },
+  {
+   "s": 120.48,
+   "e": 120.8,
+   "t": "Okay."
+  },
+  {
+   "s": 121.0,
+   "e": 121.36,
+   "t": "What would happen?"
+  },
+  {
+   "s": 121.4,
+   "e": 129.68,
+   "t": "In that case, the electrodes on the left side of the grid would activate. You'd feel a kind of tingling on that part of your wrist, prompting you to turn left."
+  },
+  {
+   "s": 129.8,
+   "e": 135.14,
+   "t": "So instead of looking at a map or listening for directions, you're essentially feeling your way through the route."
+  },
+  {
+   "s": 135.6,
+   "e": 135.96,
+   "t": "Exactly."
+  },
+  {
+   "s": 136.7,
+   "e": 139.44,
+   "t": "That's pretty remarkable. Though I imagine it takes some getting used to."
+  },
+  {
+   "s": 139.44,
+   "e": 144.24,
+   "t": "It does. The researchers definitely acknowledge that and stress the importance of user training."
+  },
+  {
+   "s": 144.8,
+   "e": 154.32,
+   "t": "In their study, they found that calibrating the intensity of the electrical stimulation for each person was really key to making sure it was comfortable and worked well."
+  },
+  {
+   "s": 155.06,
+   "e": 160.86,
+   "t": "But one interesting thing they found was that this calibration process is actually simpler than you might think."
+  },
+  {
+   "s": 160.94,
+   "e": 161.24,
+   "t": "Okay."
+  },
+  {
+   "s": 161.52,
+   "e": 169.2,
+   "t": "They realized that once they calibrated the current for one pair of electrodes, they could apply those settings to the rest."
+  },
+  {
+   "s": 169.2,
+   "e": 169.84,
+   "t": "That makes sense."
+  },
+  {
+   "s": 169.9,
+   "e": 170.16,
+   "t": "Yeah."
+  },
+  {
+   "s": 170.38,
+   "e": 173.34,
+   "t": "So you're not having to calibrate every single one."
+  },
+  {
+   "s": 173.64,
+   "e": 174.04,
+   "t": "Exactly."
+  },
+  {
+   "s": 174.28,
+   "e": 182.5,
+   "t": "That's good to know. I can't imagine anyone wanting to experience discomfort while cycling, especially if they're trying to navigate a new route."
+  },
+  {
+   "s": 182.62,
+   "e": 182.78,
+   "t": "Right."
+  },
+  {
+   "s": 182.78,
+   "e": 187.56,
+   "t": "But how accurate and reliable is this system, you know, out in the real world?"
+  },
+  {
+   "s": 187.58,
+   "e": 187.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 188.02,
+   "e": 189.26,
+   "t": "Because that's the real test, right?"
+  },
+  {
+   "s": 189.26,
+   "e": 192.86,
+   "t": "Yeah, for sure. And that is exactly what the researchers wanted to figure out with their field test."
+  },
+  {
+   "s": 192.9,
+   "e": 193.14,
+   "t": "Okay."
+  },
+  {
+   "s": 193.14,
+   "e": 206.52,
+   "t": "They designed a route through a park and they made sure to include various challenges that cyclists face in real world situations, things uneven, surfaces, intersections, pedestrians, even other cyclists."
+  },
+  {
+   "s": 206.52,
+   "e": 209.68,
+   "t": "So it sounds, they tried to make it as realistic as they could."
+  },
+  {
+   "s": 209.78,
+   "e": 210.08,
+   "t": "Yes."
+  },
+  {
+   "s": 210.26,
+   "e": 212.04,
+   "t": "Did the participants know the route beforehand?"
+  },
+  {
+   "s": 212.3,
+   "e": 227.9,
+   "t": "No, they didn't. The researchers really wanted to see how well the system could guide cyclists through an unfamiliar environment. So none of the eight participants, who, by the way, had no previous experience with electrotactile feedback, had any idea where they were going."
+  },
+  {
+   "s": 228.04,
+   "e": 228.24,
+   "t": "Why?"
+  },
+  {
+   "s": 228.24,
+   "e": 230.68,
+   "t": "They were just given the system and sent on their way."
+  },
+  {
+   "s": 230.8,
+   "e": 235.2,
+   "t": "That's a bold approach. It definitely shows that the researchers had confidence in their technology."
+  },
+  {
+   "s": 235.34,
+   "e": 235.68,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 236.2,
+   "e": 245.7,
+   "t": "So how did the participants do? Were they able to navigate this complex course successfully just using these tactile cues?"
+  },
+  {
+   "s": 246.1,
+   "e": 252.9,
+   "t": "The results were actually pretty impressive. The participants successfully navigated the course with a 98.8% accuracy rate."
+  },
+  {
+   "s": 253.18,
+   "e": 256.2,
+   "t": "98.8% accuracy. Wow, that's amazing."
+  },
+  {
+   "s": 256.38,
+   "e": 257.32,
+   "t": "Yeah, it's really good."
+  },
+  {
+   "s": 257.32,
+   "e": 262.72,
+   "t": "I know I've definitely missed turns before, even with my GPS. What do you think contributes to such a high success rate?"
+  },
+  {
+   "s": 263.52,
+   "e": 272.84,
+   "t": "One key factor is that unlike traditional methods, this technology doesn't rely on visual maps or auditory commands. Those can be mentally demanding."
+  },
+  {
+   "s": 273.68,
+   "e": 281.28,
+   "t": "This feedback is purely directional, allowing cyclists to really stay present in the moment and focused on the road and their surroundings."
+  },
+  {
+   "s": 281.74,
+   "e": 284.24,
+   "t": "They're not trying to process a bunch of extra information."
+  },
+  {
+   "s": 284.48,
+   "e": 284.72,
+   "t": "Right."
+  },
+  {
+   "s": 284.72,
+   "e": 286.34,
+   "t": "They can just feel their way through."
+  },
+  {
+   "s": 286.34,
+   "e": 291.74,
+   "t": "This is incredible. But I do wonder, are there any downsides to this technology?"
+  },
+  {
+   "s": 291.74,
+   "e": 292.24,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 292.24,
+   "e": 295.6,
+   "t": "Or limitations? There always seem to be trade-offs with these new innovations."
+  },
+  {
+   "s": 295.88,
+   "e": 301.44,
+   "t": "You're right, there are. One limitation that stands out has to do with the spatial resolution of the tactile feedback."
+  },
+  {
+   "s": 301.58,
+   "e": 301.78,
+   "t": "Okay."
+  },
+  {
+   "s": 301.78,
+   "e": 313.52,
+   "t": "While the system could theoretically handle navigation with as many as 16 distinct directions, the researchers found that in practice, people had trouble reliably distinguishing between that many sensations."
+  },
+  {
+   "s": 314.08,
+   "e": 320.86,
+   "t": "So navigating with this system wouldn't be as intuitive as, say, using a compass with clearly marked directions."
+  },
+  {
+   "s": 320.86,
+   "e": 327.46,
+   "t": "Not exactly. They discovered that sticking to four main directions, forward, back, left, and right worked best."
+  },
+  {
+   "s": 327.46,
+   "e": 328.62,
+   "t": "Yeah, that makes sense."
+  },
+  {
+   "s": 328.72,
+   "e": 332.8,
+   "t": "The current grid design, coupled with how our skin's receptive fields work."
+  },
+  {
+   "s": 332.84,
+   "e": 333.08,
+   "t": "Sure."
+  },
+  {
+   "s": 333.08,
+   "e": 337.78,
+   "t": "It makes it difficult to create really fine-grained tactile feedback."
+  },
+  {
+   "s": 338.38,
+   "e": 346.08,
+   "t": "That's understandable. What about user comfort? I imagine that not everyone enjoys the sensation of electrical impulses, even if they're mild."
+  },
+  {
+   "s": 346.08,
+   "e": 354.56,
+   "t": "That's a good point. Even though the researchers took care to calibrate the intensity of the stimulation for each person, individual preferences can vary widely."
+  },
+  {
+   "s": 355.16,
+   "e": 359.28,
+   "t": "Some people might find the sensation unpleasant, especially if they're using the system for a while."
+  },
+  {
+   "s": 359.72,
+   "e": 371.0,
+   "t": "Are there any other challenges they encounter? For example, how well does the system deal with situations where a cyclist needs to make, say, a quick U-turn or a series of turns in rapid succession?"
+  },
+  {
+   "s": 371.0,
+   "e": 379.36,
+   "t": "That's something they're still exploring. The researchers acknowledge that the current setup is better suited for giving guidance at more gradual intervals."
+  },
+  {
+   "s": 379.52,
+   "e": 379.84,
+   "t": "I see."
+  },
+  {
+   "s": 380.02,
+   "e": 386.22,
+   "t": "That level of precision you're talking about for those quick, complex maneuvers, that's something they're still working on."
+  },
+  {
+   "s": 386.44,
+   "e": 397.44,
+   "t": "They believe future designs could look at different electrode layouts or even explore different stimulation patterns to improve how accurately the directional cues are conveyed, especially at higher speeds."
+  },
+  {
+   "s": 397.44,
+   "e": 403.62,
+   "t": "So there's definitely potential for this technology to evolve and become even more sophisticated."
+  },
+  {
+   "s": 403.98,
+   "e": 411.42,
+   "t": "Absolutely. This research is a really important first step in exploring what electrotactile feedback can do for navigation."
+  },
+  {
+   "s": 411.76,
+   "e": 411.86,
+   "t": "Right."
+  },
+  {
+   "s": 412.08,
+   "e": 419.82,
+   "t": "But as with any new technology, it needs more refinement, more development to overcome these limitations and really reach its full potential."
+  },
+  {
+   "s": 420.3,
+   "e": 423.9,
+   "t": "Beyond the technical stuff, I'm curious about the bigger implications of this research."
+  },
+  {
+   "s": 423.9,
+   "e": 431.24,
+   "t": "If electrotactile feedback does prove successful for cyclists, where else could we see this technology applied?"
+  },
+  {
+   "s": 431.62,
+   "e": 436.96,
+   "t": "The possibilities are pretty exciting. Imagine getting a notification on your smartwatch."
+  },
+  {
+   "s": 437.26,
+   "e": 437.5,
+   "t": "Oh?"
+  },
+  {
+   "s": 437.5,
+   "e": 441.5,
+   "t": "But instead of hearing a ringtone, you just feel a gentle pulse on your wrist."
+  },
+  {
+   "s": 442.14,
+   "e": 446.48,
+   "t": "That could be so useful in places where you need to be quiet professional settings, for example."
+  },
+  {
+   "s": 446.8,
+   "e": 451.94,
+   "t": "That would certainly make meetings a lot less disruptive. No more jarring ringtones interrupting the flow."
+  },
+  {
+   "s": 451.94,
+   "e": 454.38,
+   "t": "Exactly. And it's not just about notifications."
+  },
+  {
+   "s": 454.8,
+   "e": 457.62,
+   "t": "This technology could be huge for people with disabilities."
+  },
+  {
+   "s": 458.1,
+   "e": 461.52,
+   "t": "Think about the possibilities for people who are visually impaired."
+  },
+  {
+   "s": 462.64,
+   "e": 469.72,
+   "t": "Electrotactile feedback could translate things like sounds alarms, approaching cars, into tangible sensations."
+  },
+  {
+   "s": 470.14,
+   "e": 474.26,
+   "t": "That could really increase their awareness and independence in so many ways."
+  },
+  {
+   "s": 474.26,
+   "e": 480.72,
+   "t": "It's like this research is tapping into a whole other way for us to interact with the world at a different sense entirely."
+  },
+  {
+   "s": 480.72,
+   "e": 485.48,
+   "t": "It really makes you rethink our assumptions about how we experience the digital world."
+  },
+  {
+   "s": 486.02,
+   "e": 494.2,
+   "t": "Electrotactile feedback is a great example of how sensory augmentation can really enhance our lives and our capabilities in meaningful ways."
+  },
+  {
+   "s": 494.36,
+   "e": 498.9,
+   "t": "Speaking of enhancing experiences, let's go back to those cyclists who did the field test."
+  },
+  {
+   "s": 499.0,
+   "e": 499.36,
+   "t": "Okay."
+  },
+  {
+   "s": 499.36,
+   "e": 506.22,
+   "t": "Did the researchers get any feedback from them on what it was actually to navigate using this system?"
+  },
+  {
+   "s": 506.6,
+   "e": 507.06,
+   "t": "They did."
+  },
+  {
+   "s": 507.52,
+   "e": 514.64,
+   "t": "One interesting thing they noticed was that participants tended to ride more slowly than usual, especially as they approached intersections."
+  },
+  {
+   "s": 514.94,
+   "e": 515.44,
+   "t": "That's interesting."
+  },
+  {
+   "s": 515.64,
+   "e": 523.94,
+   "t": "It suggests that even though they were navigating accurately, people were still being extra cautious because they were relying on this unfamiliar sensory input."
+  },
+  {
+   "s": 523.94,
+   "e": 524.96,
+   "t": "That makes sense."
+  },
+  {
+   "s": 525.22,
+   "e": 530.2,
+   "t": "It takes time to trust a new system, especially when it comes to something as important as navigation."
+  },
+  {
+   "s": 530.44,
+   "e": 530.88,
+   "t": "Absolutely."
+  },
+  {
+   "s": 531.34,
+   "e": 540.38,
+   "t": "And the researchers think that over time, as cyclists use it more and become familiar with it, they'd gain more confidence and naturally start to pick up their speed."
+  },
+  {
+   "s": 540.58,
+   "e": 543.42,
+   "t": "It highlights an important point about any new technology."
+  },
+  {
+   "s": 544.06,
+   "e": 545.8,
+   "t": "People need time to adapt."
+  },
+  {
+   "s": 546.06,
+   "e": 546.36,
+   "t": "For sure."
+  },
+  {
+   "s": 546.44,
+   "e": 549.32,
+   "t": "And we can't expect widespread adoption to happen overnight."
+  },
+  {
+   "s": 549.52,
+   "e": 552.0,
+   "t": "It's more about giving people options, wouldn't you say?"
+  },
+  {
+   "s": 552.12,
+   "e": 552.48,
+   "t": "Definitely."
+  },
+  {
+   "s": 552.48,
+   "e": 556.56,
+   "t": "Providing more choices rather than trying to replace existing methods altogether."
+  },
+  {
+   "s": 557.3,
+   "e": 559.14,
+   "t": "Some people might love this technology."
+  },
+  {
+   "s": 559.34,
+   "e": 559.56,
+   "t": "Right."
+  },
+  {
+   "s": 559.72,
+   "e": 563.0,
+   "t": "While others might prefer to stick with more traditional navigation tools."
+  },
+  {
+   "s": 563.12,
+   "e": 563.54,
+   "t": "Exactly."
+  },
+  {
+   "s": 563.72,
+   "e": 564.96,
+   "t": "And there's nothing wrong with that."
+  },
+  {
+   "s": 565.36,
+   "e": 569.98,
+   "t": "The great thing about this technology is its potential to accommodate those different needs and preferences."
+  },
+  {
+   "s": 570.44,
+   "e": 575.08,
+   "t": "For some, it could be a game changer, making cycling safer and more enjoyable."
+  },
+  {
+   "s": 575.28,
+   "e": 575.48,
+   "t": "Right."
+  },
+  {
+   "s": 575.48,
+   "e": 578.02,
+   "t": "For others, it might not be the right fit."
+  },
+  {
+   "s": 578.36,
+   "e": 579.22,
+   "t": "And that's okay, too."
+  },
+  {
+   "s": 579.56,
+   "e": 582.04,
+   "t": "It seems we're always navigating these days."
+  },
+  {
+   "s": 582.04,
+   "e": 582.58,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 582.58,
+   "e": 583.82,
+   "t": "And not just physical roads."
+  },
+  {
+   "s": 584.04,
+   "e": 586.44,
+   "t": "It's information overload everywhere you turn."
+  },
+  {
+   "s": 586.5,
+   "e": 586.66,
+   "t": "Yeah."
+  },
+  {
+   "s": 586.82,
+   "e": 592.14,
+   "t": "And this technology makes you think that in the future, we might be experiencing a real shift."
+  },
+  {
+   "s": 592.38,
+   "e": 592.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 592.82,
+   "e": 595.1,
+   "t": "In how we receive and process all that input."
+  },
+  {
+   "s": 595.38,
+   "e": 595.84,
+   "t": "Absolutely."
+  },
+  {
+   "s": 596.08,
+   "e": 599.58,
+   "t": "A future where technology, instead of fighting for our attention."
+  },
+  {
+   "s": 599.82,
+   "e": 600.02,
+   "t": "Right."
+  },
+  {
+   "s": 600.02,
+   "e": 606.2,
+   "t": "Actually integrates with our senses to change how we experience the world around us."
+  },
+  {
+   "s": 606.2,
+   "e": 610.52,
+   "t": "It's really interesting to think about the potential applications beyond cycling."
+  },
+  {
+   "s": 611.06,
+   "e": 611.26,
+   "t": "Yeah."
+  },
+  {
+   "s": 611.36,
+   "e": 617.3,
+   "t": "The researchers mentioned a couple, like getting discrete notifications through tactile feedback on your smartwatch."
+  },
+  {
+   "s": 617.42,
+   "e": 617.64,
+   "t": "Right."
+  },
+  {
+   "s": 617.64,
+   "e": 622.24,
+   "t": "What other areas could you see this technology having an impact on?"
+  },
+  {
+   "s": 622.92,
+   "e": 625.82,
+   "t": "Well, assistive technology is a big one, I think."
+  },
+  {
+   "s": 625.98,
+   "e": 628.86,
+   "t": "Imagine the possibilities for people with hearing impairments."
+  },
+  {
+   "s": 628.86,
+   "e": 638.1,
+   "t": "You could translate auditory cues, things like alarms, porching vehicles into physical sensations using this electro-tactile feedback."
+  },
+  {
+   "s": 638.1,
+   "e": 638.6,
+   "t": "Right."
+  },
+  {
+   "s": 638.6,
+   "e": 642.32,
+   "t": "And that could significantly increase their awareness and independence."
+  },
+  {
+   "s": 642.7,
+   "e": 646.56,
+   "t": "So we're talking about a world where those kinds of sensory limitations."
+  },
+  {
+   "s": 646.86,
+   "e": 647.02,
+   "t": "Yeah."
+  },
+  {
+   "s": 647.34,
+   "e": 651.22,
+   "t": "Don't necessarily have to be the same barriers they are now."
+  },
+  {
+   "s": 651.4,
+   "e": 651.78,
+   "t": "Right."
+  },
+  {
+   "s": 652.1,
+   "e": 653.36,
+   "t": "That's amazing to think about."
+  },
+  {
+   "s": 653.44,
+   "e": 654.38,
+   "t": "It is."
+  },
+  {
+   "s": 654.42,
+   "e": 655.56,
+   "t": "What about virtual reality?"
+  },
+  {
+   "s": 655.66,
+   "e": 656.22,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 656.42,
+   "e": 656.78,
+   "t": "Gaming."
+  },
+  {
+   "s": 656.98,
+   "e": 658.08,
+   "t": "Huge potential there."
+  },
+  {
+   "s": 658.64,
+   "e": 661.94,
+   "t": "Imagine feeling the texture of a virtual object."
+  },
+  {
+   "s": 662.18,
+   "e": 662.46,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 662.46,
+   "e": 666.82,
+   "t": "Or the impact of a game character's movements through tactile feedback."
+  },
+  {
+   "s": 667.24,
+   "e": 667.58,
+   "t": "Wow."
+  },
+  {
+   "s": 667.58,
+   "e": 670.62,
+   "t": "It could add a whole new level of realism and immersion."
+  },
+  {
+   "s": 670.94,
+   "e": 673.06,
+   "t": "It's like we're on the verge of a sensory revolution."
+  },
+  {
+   "s": 673.36,
+   "e": 673.62,
+   "t": "Yeah."
+  },
+  {
+   "s": 673.66,
+   "e": 675.64,
+   "t": "It's not just about what we see and hear anymore."
+  },
+  {
+   "s": 675.7,
+   "e": 678.6,
+   "t": "It's about feeling the digital world."
+  },
+  {
+   "s": 678.92,
+   "e": 679.36,
+   "t": "Exactly."
+  },
+  {
+   "s": 679.5,
+   "e": 679.76,
+   "t": "Yeah."
+  },
+  {
+   "s": 679.76,
+   "e": 684.22,
+   "t": "And this research paper has really given us a glimpse into what that future could look."
+  },
+  {
+   "s": 684.44,
+   "e": 684.94,
+   "t": "It has."
+  },
+  {
+   "s": 684.98,
+   "e": 687.46,
+   "t": "Where technology blends seamlessly with our senses."
+  },
+  {
+   "s": 687.82,
+   "e": 688.14,
+   "t": "Yeah."
+  },
+  {
+   "s": 688.72,
+   "e": 692.24,
+   "t": "Enhances our capabilities, expands how we experience the world."
+  },
+  {
+   "s": 692.36,
+   "e": 697.18,
+   "t": "It really does make you realize that innovation often comes from thinking outside the box."
+  },
+  {
+   "s": 697.18,
+   "e": 697.8,
+   "t": "For sure."
+  },
+  {
+   "s": 697.9,
+   "e": 700.72,
+   "t": "From exploring those unconventional solutions."
+  },
+  {
+   "s": 701.0,
+   "e": 701.34,
+   "t": "Absolutely."
+  },
+  {
+   "s": 701.46,
+   "e": 703.28,
+   "t": "To real world problems."
+  },
+  {
+   "s": 703.38,
+   "e": 704.28,
+   "t": "And it makes you wonder."
+  },
+  {
+   "s": 704.58,
+   "e": 704.9,
+   "t": "Yeah."
+  },
+  {
+   "s": 705.08,
+   "e": 707.36,
+   "t": "What other senses might we be able to harness."
+  },
+  {
+   "s": 707.6,
+   "e": 707.96,
+   "t": "Right."
+  },
+  {
+   "s": 708.1,
+   "e": 710.06,
+   "t": "To interact with the world around us in new ways."
+  },
+  {
+   "s": 710.16,
+   "e": 710.98,
+   "t": "It's an exciting thought."
+  },
+  {
+   "s": 711.22,
+   "e": 711.86,
+   "t": "It really is."
+  },
+  {
+   "s": 712.4,
+   "e": 718.56,
+   "t": "Well, thank you for joining us today for this fascinating look at electrotactile navigation and all of its potential."
+  },
+  {
+   "s": 718.8,
+   "e": 719.28,
+   "t": "My pleasure."
+  },
+  {
+   "s": 719.38,
+   "e": 721.06,
+   "t": "It's been a really thought-provoking discussion."
+  },
+  {
+   "s": 721.16,
+   "e": 721.62,
+   "t": "I agree."
+  },
+  {
+   "s": 721.62,
+   "e": 724.38,
+   "t": "And to our listeners, thank you for joining us as well."
+  },
+  {
+   "s": 724.48,
+   "e": 724.8,
+   "t": "Yes."
+  },
+  {
+   "s": 724.96,
+   "e": 725.48,
+   "t": "Thank you."
+  },
+  {
+   "s": 725.64,
+   "e": 727.54,
+   "t": "We'll see you next time for another Deep Dive."
+  },
+  {
+   "s": 727.54,
+   "e": 728.3,
+   "t": "Here we have."
+  },
+  {
+   "s": 728.36,
+   "e": 729.4,
+   "t": "."
+  },
+  {
+   "s": 729.4,
+   "e": 732.42,
+   "t": "."
+  },
+  {
+   "s": 732.42,
+   "e": 736.0,
+   "t": "."
+  },
+  {
+   "s": 736.0,
+   "e": 739.04,
+   "t": "."
+  },
+  {
+   "s": 739.04,
+   "e": 741.46,
+   "t": "."
+  },
+  {
+   "s": 741.46,
+   "e": 744.5,
+   "t": "."
+  },
+  {
+   "s": 744.5,
+   "e": 747.04,
+   "t": "."
+  },
+  {
+   "s": 747.04,
+   "e": 749.7,
+   "t": "."
+  },
+  {
+   "s": 749.7,
+   "e": 751.42,
+   "t": "."
+  },
+  {
+   "s": 751.42,
+   "e": 752.54,
+   "t": "."
+  }
+ ]
+}

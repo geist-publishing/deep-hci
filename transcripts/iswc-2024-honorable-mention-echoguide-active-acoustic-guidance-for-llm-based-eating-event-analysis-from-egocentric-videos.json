@@ -1,0 +1,1440 @@
+{
+ "guid": "deephci.podbean.com/54416f58-0737-3ca2-ab70-b25931299edc",
+ "slug": "iswc-2024-honorable-mention-echoguide-active-acoustic-guidance-for-llm-based-eating-event-analysis-from-egocentric-videos",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "10-1145-3675095-3676611.mp3",
+  "version": 1
+ },
+ "duration": 768,
+ "word_count": 2444,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 6.8,
+   "t": "What if, and just hear me out on this, what if tracking your meals was as easy as just putting on a pair of glasses?"
+  },
+  {
+   "s": 7.0,
+   "e": 9.46,
+   "t": "Like no more food journals or apps."
+  },
+  {
+   "s": 9.64,
+   "e": 10.04,
+   "t": "Exactly."
+  },
+  {
+   "s": 10.16,
+   "e": 15.42,
+   "t": "Imagine like total food freedom, but you're still totally on top of your nutrition."
+  },
+  {
+   "s": 15.96,
+   "e": 18.12,
+   "t": "That's what today's deep dive is all about."
+  },
+  {
+   "s": 18.12,
+   "e": 27.46,
+   "t": "We're diving into some cutting edge research from, let me get this right, the 2024 ACM International Symposium on Wearable Computers."
+  },
+  {
+   "s": 27.84,
+   "e": 28.44,
+   "t": "Catchy, right?"
+  },
+  {
+   "s": 28.44,
+   "e": 30.4,
+   "t": "Definitely rolls right off the tongue."
+  },
+  {
+   "s": 30.5,
+   "e": 32.48,
+   "t": "But seriously, they're doing some really cool stuff."
+  },
+  {
+   "s": 32.74,
+   "e": 36.4,
+   "t": "And the paper we're looking at today is about this system called EmboGuide."
+  },
+  {
+   "s": 36.68,
+   "e": 37.94,
+   "t": "Ecoguide. I'm intrigued."
+  },
+  {
+   "s": 38.1,
+   "e": 41.4,
+   "t": "It's some pretty wild tech, but don't worry, we're going to break it all down for you."
+  },
+  {
+   "s": 41.48,
+   "e": 45.66,
+   "t": "Yeah, because let's be real, we could all use a little less tech jargon in our lives."
+  },
+  {
+   "s": 45.92,
+   "e": 46.36,
+   "t": "100%."
+  },
+  {
+   "s": 46.36,
+   "e": 50.78,
+   "t": "But before we get too deep into Ecoguide, let's talk about why this whole thing even matters."
+  },
+  {
+   "s": 50.96,
+   "e": 53.74,
+   "t": "Like, why go to all this trouble to track what we eat?"
+  },
+  {
+   "s": 54.04,
+   "e": 58.1,
+   "t": "Right, because at the end of the day, it's all about, well, the food, right?"
+  },
+  {
+   "s": 58.1,
+   "e": 58.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 58.98,
+   "e": 59.42,
+   "t": "Exactly."
+  },
+  {
+   "s": 59.94,
+   "e": 62.5,
+   "t": "Tracking what we eat can be a game changer for our health."
+  },
+  {
+   "s": 62.84,
+   "e": 68.94,
+   "t": "But let's be honest, the ways we do it now are, well, a little clunky, to put it mildly."
+  },
+  {
+   "s": 69.0,
+   "e": 74.5,
+   "t": "Yeah, who actually enjoys meticulously logging every single bite into an app."
+  },
+  {
+   "s": 74.74,
+   "e": 75.82,
+   "t": "It's like a part-time job."
+  },
+  {
+   "s": 76.18,
+   "e": 80.14,
+   "t": "And let's not even talk about those moments when you completely forget what you ate for lunch."
+  },
+  {
+   "s": 80.28,
+   "e": 81.38,
+   "t": "Oh, tell me about it."
+  },
+  {
+   "s": 81.48,
+   "e": 82.38,
+   "t": "Was it a salad?"
+  },
+  {
+   "s": 83.04,
+   "e": 83.64,
+   "t": "A sandwich?"
+  },
+  {
+   "s": 83.92,
+   "e": 84.96,
+   "t": "Did I even eat lunch?"
+  },
+  {
+   "s": 84.96,
+   "e": 85.9,
+   "t": "It's the worst."
+  },
+  {
+   "s": 85.9,
+   "e": 91.38,
+   "t": "And even when you do remember, you're probably underestimating portions or forgetting key ingredients."
+  },
+  {
+   "s": 91.54,
+   "e": 92.74,
+   "t": "It's so easy to do."
+  },
+  {
+   "s": 92.94,
+   "e": 95.34,
+   "t": "And that's where technology should come in to save the day."
+  },
+  {
+   "s": 95.5,
+   "e": 98.58,
+   "t": "And there are some smart glasses out there that try to do just that."
+  },
+  {
+   "s": 98.68,
+   "e": 100.02,
+   "t": "They can actually tell when you're eating."
+  },
+  {
+   "s": 100.34,
+   "e": 101.3,
+   "t": "Okay, that's cool, I guess."
+  },
+  {
+   "s": 101.38,
+   "e": 101.58,
+   "t": "Yeah."
+  },
+  {
+   "s": 101.9,
+   "e": 103.78,
+   "t": "But do they actually tell you what you're eating?"
+  },
+  {
+   "s": 103.94,
+   "e": 105.46,
+   "t": "Because that seems like the important part."
+  },
+  {
+   "s": 105.64,
+   "e": 107.04,
+   "t": "That's the million-dollar question."
+  },
+  {
+   "s": 107.22,
+   "e": 109.2,
+   "t": "And unfortunately, most of them don't."
+  },
+  {
+   "s": 109.24,
+   "e": 113.08,
+   "t": "They miss the what, which, let's be real, is a pretty big oversight."
+  },
+  {
+   "s": 113.08,
+   "e": 114.84,
+   "t": "It's like they skipped a step or something."
+  },
+  {
+   "s": 115.04,
+   "e": 115.24,
+   "t": "Right."
+  },
+  {
+   "s": 115.68,
+   "e": 119.12,
+   "t": "Plus, and this is another biggie, having cameras record constantly."
+  },
+  {
+   "s": 119.56,
+   "e": 121.62,
+   "t": "Talk about draining your battery life."
+  },
+  {
+   "s": 121.96,
+   "e": 124.24,
+   "t": "Yeah, nobody wants to be tethered to a charger all day."
+  },
+  {
+   "s": 124.48,
+   "e": 124.92,
+   "t": "Exactly."
+  },
+  {
+   "s": 125.38,
+   "e": 129.22,
+   "t": "So researchers have been trying to come up with, like, smarter ways to capture that eating data"
+  },
+  {
+   "s": 129.22,
+   "e": 131.64,
+   "t": "without needing to record 24-7."
+  },
+  {
+   "s": 132.18,
+   "e": 132.72,
+   "t": "Makes sense."
+  },
+  {
+   "s": 133.02,
+   "e": 134.22,
+   "t": "So what have they come up with?"
+  },
+  {
+   "s": 134.24,
+   "e": 134.86,
+   "t": "What are the alternatives?"
+  },
+  {
+   "s": 135.48,
+   "e": 138.86,
+   "t": "Well, some have been looking at using EMG sensors."
+  },
+  {
+   "s": 139.04,
+   "e": 139.5,
+   "t": "EMG."
+  },
+  {
+   "s": 140.08,
+   "e": 140.6,
+   "t": "For food."
+  },
+  {
+   "s": 140.6,
+   "e": 143.86,
+   "t": "Yeah, so EMG measures muscle activity, right."
+  },
+  {
+   "s": 144.1,
+   "e": 148.4,
+   "t": "So they're basically trying to pick up on the signals your muscles send when you chew."
+  },
+  {
+   "s": 148.66,
+   "e": 149.04,
+   "t": "Wow."
+  },
+  {
+   "s": 149.62,
+   "e": 150.76,
+   "t": "Okay, I never thought about it like that."
+  },
+  {
+   "s": 150.8,
+   "e": 153.0,
+   "t": "So it's like eavesdropping on your jaw muscles or something."
+  },
+  {
+   "s": 153.08,
+   "e": 153.48,
+   "t": "Exactly."
+  },
+  {
+   "s": 153.9,
+   "e": 154.92,
+   "t": "And there's more."
+  },
+  {
+   "s": 155.24,
+   "e": 157.52,
+   "t": "Some are even using piezoelectric sensors."
+  },
+  {
+   "s": 157.96,
+   "e": 158.78,
+   "t": "Geza what now?"
+  },
+  {
+   "s": 158.96,
+   "e": 161.24,
+   "t": "I know, it sounds complicated, but it's actually pretty cool."
+  },
+  {
+   "s": 161.32,
+   "e": 163.76,
+   "t": "There are these tiny sensors that pick up on vibrations."
+  },
+  {
+   "s": 163.86,
+   "e": 168.3,
+   "t": "So when you chew, they can detect those tiny vibrations from your teeth and jaw bone."
+  },
+  {
+   "s": 168.66,
+   "e": 169.48,
+   "t": "That's wild."
+  },
+  {
+   "s": 169.48,
+   "e": 173.5,
+   "t": "So we've got muscle signals, vibrations, anything else."
+  },
+  {
+   "s": 173.56,
+   "e": 174.0,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 174.16,
+   "e": 177.34,
+   "t": "They're even using microphones to analyze the sounds of eating."
+  },
+  {
+   "s": 177.58,
+   "e": 178.02,
+   "t": "Seriously."
+  },
+  {
+   "s": 178.34,
+   "e": 178.56,
+   "t": "Yeah."
+  },
+  {
+   "s": 178.66,
+   "e": 180.72,
+   "t": "Like the crunch of a chip or the slurp of a smoothie."
+  },
+  {
+   "s": 180.98,
+   "e": 181.42,
+   "t": "Exactly."
+  },
+  {
+   "s": 181.6,
+   "e": 183.34,
+   "t": "It sounds kind of crazy, but it makes sense, right?"
+  },
+  {
+   "s": 183.58,
+   "e": 184.84,
+   "t": "It does, actually."
+  },
+  {
+   "s": 185.34,
+   "e": 190.24,
+   "t": "But I have to ask, even with all of that, they're still not telling you what you're actually eating, right?"
+  },
+  {
+   "s": 190.54,
+   "e": 191.42,
+   "t": "You're exactly right."
+  },
+  {
+   "s": 191.56,
+   "e": 197.6,
+   "t": "They can tell that you're eating, but they don't capture those crucial details about the food itself."
+  },
+  {
+   "s": 197.6,
+   "e": 198.56,
+   "t": "So what's the point?"
+  },
+  {
+   "s": 198.7,
+   "e": 202.44,
+   "t": "What good is knowing when you ate if you don't know what you ate?"
+  },
+  {
+   "s": 202.54,
+   "e": 203.44,
+   "t": "I know, right?"
+  },
+  {
+   "s": 203.62,
+   "e": 207.44,
+   "t": "It's like a detective showing up to a crime scene after all the evidence is gone."
+  },
+  {
+   "s": 207.7,
+   "e": 212.98,
+   "t": "It's the information we need to understand our eating habits and maybe even make some positive changes."
+  },
+  {
+   "s": 213.22,
+   "e": 213.46,
+   "t": "Totally."
+  },
+  {
+   "s": 213.68,
+   "e": 215.36,
+   "t": "So is that where Echo Guide comes in?"
+  },
+  {
+   "s": 216.08,
+   "e": 217.42,
+   "t": "Does it finally crack the code?"
+  },
+  {
+   "s": 217.66,
+   "e": 218.94,
+   "t": "That's where Echo Guide steps in."
+  },
+  {
+   "s": 219.04,
+   "e": 220.36,
+   "t": "It's like food tracking 2.0."
+  },
+  {
+   "s": 220.42,
+   "e": 224.76,
+   "t": "It goes way beyond just telling you when you ate to actually figuring out what you're eating."
+  },
+  {
+   "s": 224.92,
+   "e": 225.2,
+   "t": "Okay."
+  },
+  {
+   "s": 225.4,
+   "e": 226.04,
+   "t": "Now you're talking."
+  },
+  {
+   "s": 226.04,
+   "e": 227.28,
+   "t": "Finally, some answers."
+  },
+  {
+   "s": 227.46,
+   "e": 227.82,
+   "t": "Get this."
+  },
+  {
+   "s": 227.92,
+   "e": 232.34,
+   "t": "It uses a really clever combination of sound and artificial intelligence."
+  },
+  {
+   "s": 232.56,
+   "e": 233.66,
+   "t": "Sound and AI."
+  },
+  {
+   "s": 233.98,
+   "e": 235.66,
+   "t": "Now that's a combo I haven't heard before."
+  },
+  {
+   "s": 235.96,
+   "e": 237.68,
+   "t": "This is where things get really interesting, right?"
+  },
+  {
+   "s": 237.78,
+   "e": 239.24,
+   "t": "This is where it gets really, really cool."
+  },
+  {
+   "s": 239.44,
+   "e": 241.46,
+   "t": "So you're wearing these glasses, right?"
+  },
+  {
+   "s": 241.64,
+   "e": 241.96,
+   "t": "Okay."
+  },
+  {
+   "s": 242.06,
+   "e": 245.52,
+   "t": "I'm picturing myself in some sleek, futuristic frames."
+  },
+  {
+   "s": 246.28,
+   "e": 246.76,
+   "t": "Exactly."
+  },
+  {
+   "s": 247.24,
+   "e": 252.92,
+   "t": "But hidden inside these glasses, there are these tiny speakers and microphones, like seriously tiny."
+  },
+  {
+   "s": 253.06,
+   "e": 253.64,
+   "t": "Hidden tech."
+  },
+  {
+   "s": 253.86,
+   "e": 254.56,
+   "t": "I'm all about it."
+  },
+  {
+   "s": 254.56,
+   "e": 255.18,
+   "t": "So what do they do?"
+  },
+  {
+   "s": 255.18,
+   "e": 259.66,
+   "t": "Well, they work together to send out sound waves and listen for the echoes that bounce back."
+  },
+  {
+   "s": 259.8,
+   "e": 260.0,
+   "t": "Wait."
+  },
+  {
+   "s": 260.12,
+   "e": 261.7,
+   "t": "So like sonar, but for your food."
+  },
+  {
+   "s": 262.14,
+   "e": 262.58,
+   "t": "Exactly."
+  },
+  {
+   "s": 262.86,
+   "e": 263.58,
+   "t": "That is brilliant."
+  },
+  {
+   "s": 263.66,
+   "e": 264.38,
+   "t": "I know, right?"
+  },
+  {
+   "s": 264.96,
+   "e": 269.5,
+   "t": "It's using sound to see what you're eating, even when the camera isn't recording."
+  },
+  {
+   "s": 269.64,
+   "e": 269.84,
+   "t": "Okay."
+  },
+  {
+   "s": 269.88,
+   "e": 270.96,
+   "t": "That's seriously cool."
+  },
+  {
+   "s": 271.18,
+   "e": 273.3,
+   "t": "But how does it know what those echoes even mean?"
+  },
+  {
+   "s": 273.3,
+   "e": 275.12,
+   "t": "Well, that's where the AI comes in."
+  },
+  {
+   "s": 275.26,
+   "e": 286.92,
+   "t": "All of that acoustic data is being analyzed in real time by these super sophisticated AI models that have been trained to recognize the subtle sounds of eating."
+  },
+  {
+   "s": 287.36,
+   "e": 290.6,
+   "t": "All of the sounds of eating, what, like the clinking of a fork or something?"
+  },
+  {
+   "s": 290.6,
+   "e": 290.92,
+   "t": "Yeah."
+  },
+  {
+   "s": 291.28,
+   "e": 296.48,
+   "t": "Like bringing a fork to your mouth, cheering, taking a sip of a drink, even just picking up a piece of food."
+  },
+  {
+   "s": 296.98,
+   "e": 301.72,
+   "t": "All of those motions make distinct sound patterns that the AI can pick up on."
+  },
+  {
+   "s": 301.84,
+   "e": 302.8,
+   "t": "That is wild."
+  },
+  {
+   "s": 303.26,
+   "e": 305.12,
+   "t": "They can tell what you're doing just by the sound."
+  },
+  {
+   "s": 305.18,
+   "e": 305.66,
+   "t": "Pretty much."
+  },
+  {
+   "s": 305.7,
+   "e": 307.38,
+   "t": "It's like having a sixth sense for food."
+  },
+  {
+   "s": 307.38,
+   "e": 309.36,
+   "t": "So I'm going to ask the tough questions here."
+  },
+  {
+   "s": 310.42,
+   "e": 316.22,
+   "t": "Doesn't having all of that going on constantly, like, absolutely kill the battery life?"
+  },
+  {
+   "s": 316.34,
+   "e": 319.78,
+   "t": "That's a great question, and it's something the researchers definitely thought about."
+  },
+  {
+   "s": 320.04,
+   "e": 322.76,
+   "t": "And this is where Echo Guide gets really, really smart."
+  },
+  {
+   "s": 323.22,
+   "e": 330.3,
+   "t": "Instead of recording video constantly, it only activates the camera when it detects those eating motions we were just talking about."
+  },
+  {
+   "s": 330.4,
+   "e": 334.26,
+   "t": "So it's like it knows when to pay attention and when it can take a break."
+  },
+  {
+   "s": 334.54,
+   "e": 335.2,
+   "t": "That's really clever."
+  },
+  {
+   "s": 335.2,
+   "e": 339.86,
+   "t": "It's super efficient, and it saves a ton of power compared to always-on recording."
+  },
+  {
+   "s": 340.1,
+   "e": 342.12,
+   "t": "They call this targeted recording."
+  },
+  {
+   "s": 342.44,
+   "e": 343.28,
+   "t": "Targeted recording."
+  },
+  {
+   "s": 343.44,
+   "e": 343.92,
+   "t": "I like it."
+  },
+  {
+   "s": 344.1,
+   "e": 350.38,
+   "t": "It's like having a super-focused camera operator who only hits record at the exact moment something interesting happens."
+  },
+  {
+   "s": 350.46,
+   "e": 350.84,
+   "t": "Precisely."
+  },
+  {
+   "s": 350.96,
+   "e": 355.62,
+   "t": "So now you've got these short little video clips of, like, key eating moments."
+  },
+  {
+   "s": 355.74,
+   "e": 356.18,
+   "t": "Okay, great."
+  },
+  {
+   "s": 356.48,
+   "e": 359.82,
+   "t": "But how do we get from those clips to actually knowing what's on the plate?"
+  },
+  {
+   "s": 360.2,
+   "e": 361.92,
+   "t": "All right, so this is where things get even cooler."
+  },
+  {
+   "s": 362.42,
+   "e": 363.96,
+   "t": "All right, so this is where things get even cooler."
+  },
+  {
+   "s": 363.96,
+   "e": 372.52,
+   "t": "We've got these short little video clips of, like, key eating moments, but there's a lot more to it than that."
+  },
+  {
+   "s": 373.02,
+   "e": 380.68,
+   "t": "They actually use a really powerful type of AI called a, get this, video captioning model to analyze those clips."
+  },
+  {
+   "s": 380.92,
+   "e": 381.7,
+   "t": "Video captioning."
+  },
+  {
+   "s": 381.7,
+   "e": 384.62,
+   "t": "So it's like adding subtitles to the video, but for food."
+  },
+  {
+   "s": 384.74,
+   "e": 387.22,
+   "t": "It's kind of like that, but way more advanced."
+  },
+  {
+   "s": 387.22,
+   "e": 391.5,
+   "t": "The model they use is called, and I hope I'm pronouncing this right, Lavila's narrator."
+  },
+  {
+   "s": 391.76,
+   "e": 392.46,
+   "t": "Lavila's narrator."
+  },
+  {
+   "s": 392.6,
+   "e": 396.34,
+   "t": "It sounds like a storyteller from, like, a mythical land of food or something."
+  },
+  {
+   "s": 396.34,
+   "e": 403.48,
+   "t": "Right, but seriously, this model is really good at watching those videos and describing what's happening, almost like a person narrating a scene."
+  },
+  {
+   "s": 403.72,
+   "e": 408.68,
+   "t": "And from those descriptions, it can identify specific foods and even actions."
+  },
+  {
+   "s": 409.0,
+   "e": 410.1,
+   "t": "So it's not just recording."
+  },
+  {
+   "s": 410.22,
+   "e": 413.7,
+   "t": "It's watching and understanding, like a foodie AI or something."
+  },
+  {
+   "s": 413.8,
+   "e": 414.26,
+   "t": "Exactly."
+  },
+  {
+   "s": 414.4,
+   "e": 416.26,
+   "t": "They've really tapped into something special here."
+  },
+  {
+   "s": 416.26,
+   "e": 417.56,
+   "t": "So walk me through this."
+  },
+  {
+   "s": 417.64,
+   "e": 421.8,
+   "t": "Let's say I'm part of this study, wearing these high-tech glasses, enjoying my lunch."
+  },
+  {
+   "s": 422.18,
+   "e": 422.96,
+   "t": "What happens next?"
+  },
+  {
+   "s": 423.34,
+   "e": 428.58,
+   "t": "So Echo Guide is busy capturing those key moments, those little video snippets of you eating."
+  },
+  {
+   "s": 428.94,
+   "e": 436.62,
+   "t": "And then Lavila's narrator steps in, analyzes those clips, and creates these really detailed descriptions of everything that's going on."
+  },
+  {
+   "s": 436.9,
+   "e": 439.46,
+   "t": "The researchers call these activity records."
+  },
+  {
+   "s": 439.74,
+   "e": 440.54,
+   "t": "Activity records."
+  },
+  {
+   "s": 440.54,
+   "e": 442.8,
+   "t": "It's like a food diary that writes itself."
+  },
+  {
+   "s": 443.34,
+   "e": 444.28,
+   "t": "Sign me up."
+  },
+  {
+   "s": 444.28,
+   "e": 447.28,
+   "t": "This is way better than me trying to remember what I ate for breakfast."
+  },
+  {
+   "s": 447.5,
+   "e": 447.76,
+   "t": "Right."
+  },
+  {
+   "s": 448.0,
+   "e": 449.36,
+   "t": "No more guessing games."
+  },
+  {
+   "s": 449.5,
+   "e": 451.74,
+   "t": "No more relying on those vague food memories."
+  },
+  {
+   "s": 452.06,
+   "e": 456.96,
+   "t": "So we've got the glasses, the targeted recording, and these super detailed activity records."
+  },
+  {
+   "s": 457.56,
+   "e": 459.16,
+   "t": "But did it actually work?"
+  },
+  {
+   "s": 459.52,
+   "e": 459.82,
+   "t": "Yeah."
+  },
+  {
+   "s": 459.82,
+   "e": 460.82,
+   "t": "Did it really capture everything?"
+  },
+  {
+   "s": 461.04,
+   "e": 462.68,
+   "t": "That's the million-dollar question, right."
+  },
+  {
+   "s": 463.34,
+   "e": 469.34,
+   "t": "And to find out, the researchers had nine participants wear the Echo Guide prototype while they went about their daily lives."
+  },
+  {
+   "s": 469.42,
+   "e": 469.68,
+   "t": "Hold on."
+  },
+  {
+   "s": 469.76,
+   "e": 470.16,
+   "t": "Prototypes."
+  },
+  {
+   "s": 470.26,
+   "e": 473.02,
+   "t": "So are we talking like a clunky early version here?"
+  },
+  {
+   "s": 473.02,
+   "e": 473.3,
+   "t": "Yeah."
+  },
+  {
+   "s": 473.38,
+   "e": 476.78,
+   "t": "So for this study, they were still using a GoPro for the video recording."
+  },
+  {
+   "s": 476.92,
+   "e": 477.64,
+   "t": "So picture this."
+  },
+  {
+   "s": 478.12,
+   "e": 482.44,
+   "t": "Nine people going about their day eating meals with a GoPro strapped to their glasses."
+  },
+  {
+   "s": 482.54,
+   "e": 483.02,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 483.46,
+   "e": 485.06,
+   "t": "I bet those participants got some looks."
+  },
+  {
+   "s": 485.64,
+   "e": 486.88,
+   "t": "But hey, for the sake of science."
+  },
+  {
+   "s": 487.3,
+   "e": 487.74,
+   "t": "Exactly."
+  },
+  {
+   "s": 487.94,
+   "e": 491.78,
+   "t": "But in all seriousness, they really wanted to put Echo Guide to the test in a real-world setting."
+  },
+  {
+   "s": 492.12,
+   "e": 495.38,
+   "t": "And to measure how well it worked, they looked at two main things."
+  },
+  {
+   "s": 495.38,
+   "e": 502.0,
+   "t": "First, they wanted to see how much data Echo Guide actually saved compared to recording video constantly."
+  },
+  {
+   "s": 502.2,
+   "e": 502.4,
+   "t": "Right."
+  },
+  {
+   "s": 502.5,
+   "e": 504.28,
+   "t": "Because battery life is still a thing."
+  },
+  {
+   "s": 504.42,
+   "e": 505.9,
+   "t": "So how did it stack up?"
+  },
+  {
+   "s": 505.98,
+   "e": 506.82,
+   "t": "Well, get this."
+  },
+  {
+   "s": 507.14,
+   "e": 514.28,
+   "t": "On average, Echo Guide reduced the amount of video data recorded by a whopping 68% compared to continuous recording."
+  },
+  {
+   "s": 514.28,
+   "e": 518.28,
+   "t": "And some participants even saw reductions of up to 95%."
+  },
+  {
+   "s": 518.8,
+   "e": 519.72,
+   "t": "95%."
+  },
+  {
+   "s": 519.72,
+   "e": 520.5,
+   "t": "That's incredible."
+  },
+  {
+   "s": 520.84,
+   "e": 526.76,
+   "t": "It's like they're basically squeezing an entire movie's worth of data into like a five-minute short film."
+  },
+  {
+   "s": 526.92,
+   "e": 527.24,
+   "t": "Exactly."
+  },
+  {
+   "s": 527.5,
+   "e": 529.4,
+   "t": "And it all comes down to that targeted recording."
+  },
+  {
+   "s": 529.64,
+   "e": 532.12,
+   "t": "They're only capturing what they need when they need it."
+  },
+  {
+   "s": 532.36,
+   "e": 532.6,
+   "t": "Smart."
+  },
+  {
+   "s": 532.8,
+   "e": 534.4,
+   "t": "So less is definitely more in this case."
+  },
+  {
+   "s": 534.56,
+   "e": 535.02,
+   "t": "But hold on."
+  },
+  {
+   "s": 535.12,
+   "e": 538.26,
+   "t": "A summary is only useful if you can actually find the information you need, right?"
+  },
+  {
+   "s": 538.26,
+   "e": 544.66,
+   "t": "Were they expecting people to read through pages and pages of descriptions like person eating pasta, person taking a bite?"
+  },
+  {
+   "s": 544.88,
+   "e": 547.18,
+   "t": "That's where the second part of their evaluation comes in."
+  },
+  {
+   "s": 547.74,
+   "e": 552.8,
+   "t": "They also wanted to see if Echo Guide could actually answer specific questions about those recorded meals."
+  },
+  {
+   "s": 553.14,
+   "e": 554.58,
+   "t": "Like what did they eat?"
+  },
+  {
+   "s": 554.96,
+   "e": 556.42,
+   "t": "What utensils did they use?"
+  },
+  {
+   "s": 556.92,
+   "e": 557.58,
+   "t": "Things like that."
+  },
+  {
+   "s": 557.68,
+   "e": 562.32,
+   "t": "So it's like having a food detective who can go back and analyze those activity records for clues."
+  },
+  {
+   "s": 562.88,
+   "e": 563.46,
+   "t": "Exactly."
+  },
+  {
+   "s": 563.46,
+   "e": 568.36,
+   "t": "And to do this, they used some pretty advanced AI techniques."
+  },
+  {
+   "s": 568.52,
+   "e": 578.46,
+   "t": "I won't go into all the technical details, but they essentially created a way to search those activity records and pull out the precise pieces of information needed to answer those targeted questions."
+  },
+  {
+   "s": 579.18,
+   "e": 579.72,
+   "t": "Okay, that's cool."
+  },
+  {
+   "s": 579.8,
+   "e": 583.86,
+   "t": "So they have these super detailed summaries, and they have a way to actually make sense of them."
+  },
+  {
+   "s": 583.94,
+   "e": 584.14,
+   "t": "Hmm."
+  },
+  {
+   "s": 584.98,
+   "e": 585.82,
+   "t": "But did it work?"
+  },
+  {
+   "s": 586.2,
+   "e": 587.32,
+   "t": "Was it actually accurate?"
+  },
+  {
+   "s": 587.62,
+   "e": 588.8,
+   "t": "That's the big question."
+  },
+  {
+   "s": 588.9,
+   "e": 591.84,
+   "t": "And the short answer is yes, it actually worked really well."
+  },
+  {
+   "s": 591.84,
+   "e": 592.14,
+   "t": "Really?"
+  },
+  {
+   "s": 592.14,
+   "e": 597.96,
+   "t": "It could accurately answer questions about what people were eating just from analyzing those little video snippets."
+  },
+  {
+   "s": 598.14,
+   "e": 598.54,
+   "t": "It did."
+  },
+  {
+   "s": 598.66,
+   "e": 602.22,
+   "t": "They were able to identify specific foods, utensils, you name it."
+  },
+  {
+   "s": 602.26,
+   "e": 602.94,
+   "t": "That's amazing."
+  },
+  {
+   "s": 603.12,
+   "e": 604.7,
+   "t": "It really lived up to its promise."
+  },
+  {
+   "s": 605.06,
+   "e": 605.76,
+   "t": "That's amazing."
+  },
+  {
+   "s": 606.08,
+   "e": 607.44,
+   "t": "It really lived up to its promise."
+  },
+  {
+   "s": 608.48,
+   "e": 615.9,
+   "t": "But like with all cool new tech, I'm sure there are still some things they need to figure out before this becomes like an everyday thing, right?"
+  },
+  {
+   "s": 615.92,
+   "e": 616.58,
+   "t": "Oh, absolutely."
+  },
+  {
+   "s": 617.14,
+   "e": 619.24,
+   "t": "Especially when you're talking about something people are going to wear."
+  },
+  {
+   "s": 619.84,
+   "e": 621.0,
+   "t": "Comfort and style."
+  },
+  {
+   "s": 621.0,
+   "e": 621.06,
+   "t": "Comfort and style."
+  },
+  {
+   "s": 621.28,
+   "e": 622.46,
+   "t": "Those are biggies."
+  },
+  {
+   "s": 622.98,
+   "e": 628.44,
+   "t": "And I got to say, that whole GoPro strapped to your face thing, not exactly the most fashionable look."
+  },
+  {
+   "s": 628.66,
+   "e": 631.32,
+   "t": "Yeah, not exactly what I picture when I think wearable tech."
+  },
+  {
+   "s": 631.46,
+   "e": 631.64,
+   "t": "Right."
+  },
+  {
+   "s": 632.0,
+   "e": 637.16,
+   "t": "And, you know, the participants in the study actually mentioned that the prototype wasn't exactly comfortable to wear either."
+  },
+  {
+   "s": 637.34,
+   "e": 638.26,
+   "t": "Yeah, I can imagine."
+  },
+  {
+   "s": 638.52,
+   "e": 643.36,
+   "t": "So not quite ready for its close up, but hopefully they'll get the comfort and style figured out soon."
+  },
+  {
+   "s": 643.36,
+   "e": 644.14,
+   "t": "Oh, definitely."
+  },
+  {
+   "s": 644.46,
+   "e": 648.72,
+   "t": "And it's just a matter of time before we see more sleek, integrated designs."
+  },
+  {
+   "s": 649.28,
+   "e": 653.82,
+   "t": "Like, imagine Echo Guide built into a stylish pair of sunglasses."
+  },
+  {
+   "s": 654.64,
+   "e": 658.32,
+   "t": "Maybe even something like those Meta Ray-Bans, but with even better battery life."
+  },
+  {
+   "s": 658.58,
+   "e": 659.36,
+   "t": "Okay, now you're talking."
+  },
+  {
+   "s": 659.58,
+   "e": 661.68,
+   "t": "Fashionable, A&D, functional, count me in."
+  },
+  {
+   "s": 661.86,
+   "e": 663.34,
+   "t": "But what about the software side of things?"
+  },
+  {
+   "s": 663.36,
+   "e": 664.34,
+   "t": "Are there any hurdles there?"
+  },
+  {
+   "s": 664.68,
+   "e": 665.28,
+   "t": "Yeah, for sure."
+  },
+  {
+   "s": 665.6,
+   "e": 667.48,
+   "t": "One of the big ones is processing speed."
+  },
+  {
+   "s": 667.48,
+   "e": 673.06,
+   "t": "Like, for Echo Guide to be really seamless, they've got to get those video snippets analyzed in real time."
+  },
+  {
+   "s": 673.5,
+   "e": 682.38,
+   "t": "Right now, there's still a bit of a lag, but as AI chips get more powerful and, like, internet speeds improve, I think that lag's going to become less and less noticeable."
+  },
+  {
+   "s": 682.74,
+   "e": 686.62,
+   "t": "So it's all about smaller, faster, smarter, right?"
+  },
+  {
+   "s": 687.36,
+   "e": 688.52,
+   "t": "Sounds like the story of tech."
+  },
+  {
+   "s": 688.68,
+   "e": 689.18,
+   "t": "Pretty much."
+  },
+  {
+   "s": 689.56,
+   "e": 691.4,
+   "t": "But here's what I think is super interesting."
+  },
+  {
+   "s": 691.4,
+   "e": 701.44,
+   "t": "As this technology gets better and better, it starts to raise some pretty big questions about how we view food, our health, and even technology itself."
+  },
+  {
+   "s": 701.8,
+   "e": 706.04,
+   "t": "Like, imagine a world where tracking everything you eat is just something everyone does."
+  },
+  {
+   "s": 706.58,
+   "e": 707.94,
+   "t": "It's definitely something to think about."
+  },
+  {
+   "s": 708.26,
+   "e": 711.84,
+   "t": "I mean, on the one hand, easier tracking could lead to healthier choices."
+  },
+  {
+   "s": 712.34,
+   "e": 715.36,
+   "t": "Maybe it could even help prevent chronic diseases, which would be huge."
+  },
+  {
+   "s": 715.4,
+   "e": 715.58,
+   "t": "Right."
+  },
+  {
+   "s": 715.88,
+   "e": 718.28,
+   "t": "But on the other hand, it could start to feel kind of intrusive."
+  },
+  {
+   "s": 718.54,
+   "e": 720.86,
+   "t": "Like, is Big Brother watching every bite I take?"
+  },
+  {
+   "s": 720.86,
+   "e": 721.34,
+   "t": "Exactly."
+  },
+  {
+   "s": 721.8,
+   "e": 727.64,
+   "t": "And will we become too reliant on technology to make decisions for us, even about something as basic as eating?"
+  },
+  {
+   "s": 727.96,
+   "e": 728.14,
+   "t": "Yeah."
+  },
+  {
+   "s": 728.24,
+   "e": 733.6,
+   "t": "Will we lose touch with our own internal cues, those natural feelings of hunger and fullness?"
+  },
+  {
+   "s": 734.26,
+   "e": 738.78,
+   "t": "These are questions we're all going to have to grapple with as this tech becomes more commonplace."
+  },
+  {
+   "s": 739.28,
+   "e": 739.74,
+   "t": "It's true."
+  },
+  {
+   "s": 739.84,
+   "e": 742.08,
+   "t": "Every advancement brings new questions and challenges."
+  },
+  {
+   "s": 742.6,
+   "e": 747.7,
+   "t": "Well, a huge thank you to the researchers behind Echo Guide for giving us a glimpse into the future."
+  },
+  {
+   "s": 747.7,
+   "e": 754.88,
+   "t": "It seems like we're on the verge of a real revolution in wearable tech and how it can help us live healthier, more informed lives."
+  },
+  {
+   "s": 755.04,
+   "e": 757.12,
+   "t": "It's exciting to see where it all goes, right?"
+  },
+  {
+   "s": 757.26,
+   "e": 758.64,
+   "t": "Who knows what they'll come up with next?"
+  },
+  {
+   "s": 758.7,
+   "e": 759.88,
+   "t": "I can't wait to find out."
+  },
+  {
+   "s": 761.12,
+   "e": 765.46,
+   "t": "That's it for today's deep dive into the world of Echo Guide and the future of food tracking."
+  },
+  {
+   "s": 766.04,
+   "e": 768.08,
+   "t": "Thanks for joining us, and we'll catch you next time."
+  },
+  {
+   "s": 768.08,
+   "e": 798.06,
+   "t": "Thank you."
+  }
+ ]
+}

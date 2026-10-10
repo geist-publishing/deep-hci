@@ -1,0 +1,795 @@
+{
+ "guid": "deephci.podbean.com/25422595-2c07-388a-b7b8-4830e5117101",
+ "slug": "seeing-our-blind-spots-smart-glasses-based-simulation-to-increase-design-students-awareness-of-visual-impairment",
+ "version": 1,
+ "model": "mlx-community/whisper-large-v3-turbo-q4",
+ "language": "en",
+ "src": {
+  "audio": "zhang2022seeing.mp3",
+  "version": 1
+ },
+ "duration": 419,
+ "word_count": 1317,
+ "segments": [
+  {
+   "s": 0.0,
+   "e": 4.34,
+   "t": "Ever find yourself wondering what it would be like to see the world differently?"
+  },
+  {
+   "s": 4.72,
+   "e": 6.04,
+   "t": "I mean, like, really differently."
+  },
+  {
+   "s": 6.44,
+   "e": 8.04,
+   "t": "It's something most of us take for granted."
+  },
+  {
+   "s": 8.34,
+   "e": 8.72,
+   "t": "Totally."
+  },
+  {
+   "s": 9.2,
+   "e": 12.26,
+   "t": "But for a lot of people, vision loss is a daily reality."
+  },
+  {
+   "s": 12.56,
+   "e": 13.0,
+   "t": "That's right."
+  },
+  {
+   "s": 13.24,
+   "e": 16.1,
+   "t": "And it's only becoming more common as the population ages."
+  },
+  {
+   "s": 16.2,
+   "e": 16.72,
+   "t": "Makes sense."
+  },
+  {
+   "s": 16.84,
+   "e": 19.14,
+   "t": "And it makes accessibility even more important."
+  },
+  {
+   "s": 19.52,
+   "e": 21.22,
+   "t": "Which brings us to today's Deep Dive."
+  },
+  {
+   "s": 21.22,
+   "e": 26.68,
+   "t": "We're talking about some seriously cool technology that could change how we think about accessibility."
+  },
+  {
+   "s": 26.68,
+   "e": 31.82,
+   "t": "We're going to dive into these new smart glasses that can simulate visual impairments."
+  },
+  {
+   "s": 32.04,
+   "e": 35.72,
+   "t": "And trust me, these aren't anything like those clunky goggles you might be picturing."
+  },
+  {
+   "s": 35.76,
+   "e": 36.12,
+   "t": "Oh, good."
+  },
+  {
+   "s": 36.14,
+   "e": 37.54,
+   "t": "Because those things were awful."
+  },
+  {
+   "s": 37.7,
+   "e": 40.02,
+   "t": "Like trying to see through a pinhole and a piece of cardboard."
+  },
+  {
+   "s": 40.2,
+   "e": 40.68,
+   "t": "Exactly."
+  },
+  {
+   "s": 40.86,
+   "e": 42.66,
+   "t": "This is light years ahead of that."
+  },
+  {
+   "s": 42.76,
+   "e": 44.24,
+   "t": "We're talking LCD lenses."
+  },
+  {
+   "s": 44.62,
+   "e": 47.34,
+   "t": "Kind of like those old 3D glasses, but way more advanced."
+  },
+  {
+   "s": 47.42,
+   "e": 47.9,
+   "t": "Okay."
+  },
+  {
+   "s": 48.0,
+   "e": 50.4,
+   "t": "So these lenses are actually changing what you're seeing."
+  },
+  {
+   "s": 50.6,
+   "e": 50.72,
+   "t": "Yep."
+  },
+  {
+   "s": 50.88,
+   "e": 56.46,
+   "t": "They're connected to an eye tracker and a microcontroller, which work together to adjust the image in real time."
+  },
+  {
+   "s": 56.68,
+   "e": 59.84,
+   "t": "So as my eyes move around, the glasses are changing what I'm seeing."
+  },
+  {
+   "s": 59.96,
+   "e": 60.62,
+   "t": "That's wild."
+  },
+  {
+   "s": 60.78,
+   "e": 61.32,
+   "t": "You got it."
+  },
+  {
+   "s": 61.96,
+   "e": 68.76,
+   "t": "When the eye tracker detects your gaze, it tells those lenses to adjust how much light they let through."
+  },
+  {
+   "s": 69.28,
+   "e": 69.66,
+   "t": "Whoa."
+  },
+  {
+   "s": 69.98,
+   "e": 75.38,
+   "t": "So it's like experiencing those impairments firsthand, but obviously without any permanent effects."
+  },
+  {
+   "s": 75.56,
+   "e": 76.02,
+   "t": "Precisely."
+  },
+  {
+   "s": 76.2,
+   "e": 82.1,
+   "t": "And this real-world experience is what gives this tech a real edge over older simulation methods."
+  },
+  {
+   "s": 82.1,
+   "e": 86.92,
+   "t": "You get a much wider and more natural field of view than you would with something like a VR headset."
+  },
+  {
+   "s": 87.26,
+   "e": 87.56,
+   "t": "Oh, yeah."
+  },
+  {
+   "s": 87.7,
+   "e": 87.98,
+   "t": "For sure."
+  },
+  {
+   "s": 88.08,
+   "e": 91.58,
+   "t": "I've tried those VR headsets a few times, and they always leave me feeling kind of weird."
+  },
+  {
+   "s": 91.68,
+   "e": 94.38,
+   "t": "Like my brain can't quite process what my eyes are seeing."
+  },
+  {
+   "s": 94.76,
+   "e": 97.84,
+   "t": "You're describing what we call vergence-accommodation conflict."
+  },
+  {
+   "s": 98.6,
+   "e": 103.7,
+   "t": "Basically, it means your eyes are trying to focus on something far away, or your brain knows you're in a confined space."
+  },
+  {
+   "s": 103.8,
+   "e": 104.14,
+   "t": "Uh-huh."
+  },
+  {
+   "s": 104.14,
+   "e": 108.1,
+   "t": "So I'm guessing these smart glasses don't cause that problem."
+  },
+  {
+   "s": 108.32,
+   "e": 108.54,
+   "t": "Nope."
+  },
+  {
+   "s": 108.92,
+   "e": 113.42,
+   "t": "Because they have that more natural field of view, they eliminate that conflict."
+  },
+  {
+   "s": 113.88,
+   "e": 117.2,
+   "t": "You can wear them way longer without getting eye strain or headaches."
+  },
+  {
+   "s": 117.3,
+   "e": 120.22,
+   "t": "Which I imagine really lets you get immersed in the experience."
+  },
+  {
+   "s": 120.4,
+   "e": 120.76,
+   "t": "Exactly."
+  },
+  {
+   "s": 121.1,
+   "e": 125.52,
+   "t": "And that's key, because a more realistic simulation has a much bigger impact."
+  },
+  {
+   "s": 125.76,
+   "e": 126.52,
+   "t": "I bet."
+  },
+  {
+   "s": 126.82,
+   "e": 133.5,
+   "t": "Reading about visual impairments is one thing, but to actually experience them even briefly, that's got to be powerful."
+  },
+  {
+   "s": 133.5,
+   "e": 133.98,
+   "t": "Absolutely."
+  },
+  {
+   "s": 134.68,
+   "e": 136.46,
+   "t": "And that's what makes this tech so groundbreaking."
+  },
+  {
+   "s": 136.98,
+   "e": 139.2,
+   "t": "It's not just about the technical side of vision loss."
+  },
+  {
+   "s": 139.36,
+   "e": 141.28,
+   "t": "It's about fostering genuine empathy."
+  },
+  {
+   "s": 141.56,
+   "e": 143.18,
+   "t": "So how did they test these glasses out?"
+  },
+  {
+   "s": 143.26,
+   "e": 144.94,
+   "t": "Like, what did they actually have people do?"
+  },
+  {
+   "s": 145.24,
+   "e": 149.16,
+   "t": "So they had design students wear these glasses while they did everyday tasks."
+  },
+  {
+   "s": 149.34,
+   "e": 150.16,
+   "t": "Design students."
+  },
+  {
+   "s": 150.3,
+   "e": 150.82,
+   "t": "Makes sense."
+  },
+  {
+   "s": 150.94,
+   "e": 153.52,
+   "t": "They're the ones who will be creating the products and environments of the future."
+  },
+  {
+   "s": 153.66,
+   "e": 154.08,
+   "t": "Exactly."
+  },
+  {
+   "s": 154.62,
+   "e": 156.98,
+   "t": "Get them thinking about accessibility right from the start."
+  },
+  {
+   "s": 157.4,
+   "e": 161.64,
+   "t": "And for this study, one of the tasks was finding a hidden phone in a room."
+  },
+  {
+   "s": 161.86,
+   "e": 162.3,
+   "t": "Okay."
+  },
+  {
+   "s": 162.3,
+   "e": 163.72,
+   "t": "Sounds pretty straightforward."
+  },
+  {
+   "s": 164.0,
+   "e": 164.2,
+   "t": "Right."
+  },
+  {
+   "s": 164.48,
+   "e": 165.58,
+   "t": "But they had to do it twice."
+  },
+  {
+   "s": 166.38,
+   "e": 171.04,
+   "t": "First with their normal vision, and then again wearing the glasses with different simulated impairments."
+  },
+  {
+   "s": 171.2,
+   "e": 173.32,
+   "t": "I bet that second round was a lot trickier."
+  },
+  {
+   "s": 173.58,
+   "e": 174.36,
+   "t": "You bet it was."
+  },
+  {
+   "s": 174.92,
+   "e": 176.8,
+   "t": "And the results were fascinating."
+  },
+  {
+   "s": 177.16,
+   "e": 181.42,
+   "t": "Just like you'd expect, the glasses made a huge difference in how well they could see."
+  },
+  {
+   "s": 181.82,
+   "e": 185.0,
+   "t": "So they actually confirmed that the glasses worked the way they were supposed to."
+  },
+  {
+   "s": 185.08,
+   "e": 185.48,
+   "t": "They did."
+  },
+  {
+   "s": 185.48,
+   "e": 191.58,
+   "t": "They were able to measure how much the glasses reduced visual acuity and peripheral vision."
+  },
+  {
+   "s": 192.48,
+   "e": 194.92,
+   "t": "It really replicated the experience in a measurable way."
+  },
+  {
+   "s": 195.26,
+   "e": 195.88,
+   "t": "That's incredible."
+  },
+  {
+   "s": 196.18,
+   "e": 200.3,
+   "t": "But I'm even more interested in how it affected the participants on a personal level."
+  },
+  {
+   "s": 200.7,
+   "e": 202.28,
+   "t": "Yeah, that's where it gets really interesting."
+  },
+  {
+   "s": 202.76,
+   "e": 206.9,
+   "t": "People reported a much deeper understanding of what it's like to live with a visual impairment."
+  },
+  {
+   "s": 206.9,
+   "e": 211.9,
+   "t": "It must have been eye-opening for them to actually experience those challenges, even for a short time."
+  },
+  {
+   "s": 212.42,
+   "e": 214.8,
+   "t": "Did the researchers share any specific stories?"
+  },
+  {
+   "s": 215.5,
+   "e": 216.06,
+   "t": "They did."
+  },
+  {
+   "s": 216.26,
+   "e": 216.54,
+   "t": "Yeah."
+  },
+  {
+   "s": 216.54,
+   "e": 221.64,
+   "t": "One participant talked about how different it felt to navigate a familiar room with the glasses on."
+  },
+  {
+   "s": 222.64,
+   "e": 224.78,
+   "t": "Even simple things became a lot more challenging."
+  },
+  {
+   "s": 224.96,
+   "e": 227.78,
+   "t": "It really makes you realize how much we take our vision for granted."
+  },
+  {
+   "s": 228.1,
+   "e": 228.5,
+   "t": "Absolutely."
+  },
+  {
+   "s": 229.06,
+   "e": 232.94,
+   "t": "And that's why the researchers think these glasses could be revolutionary for inclusive design."
+  },
+  {
+   "s": 233.6,
+   "e": 238.8,
+   "t": "Instead of just imagining what it's like, designers could actually experience those challenges firsthand."
+  },
+  {
+   "s": 239.32,
+   "e": 239.72,
+   "t": "Exactly."
+  },
+  {
+   "s": 240.0,
+   "e": 243.76,
+   "t": "And that could lead to products and environments that are truly accessible to everyone."
+  },
+  {
+   "s": 243.76,
+   "e": 247.84,
+   "t": "By incorporating these experiences into the design process from the very beginning."
+  },
+  {
+   "s": 248.24,
+   "e": 249.96,
+   "t": "It's a whole new way of thinking about accessibility."
+  },
+  {
+   "s": 250.62,
+   "e": 256.5,
+   "t": "It's not just about designing asterisk for asterisk people with disabilities, but designing asterisk with asterisk them."
+  },
+  {
+   "s": 256.68,
+   "e": 257.32,
+   "t": "You got it."
+  },
+  {
+   "s": 257.42,
+   "e": 257.56,
+   "t": "Yeah."
+  },
+  {
+   "s": 257.76,
+   "e": 262.42,
+   "t": "And that kind of collaboration has the potential to lead to some amazing innovations."
+  },
+  {
+   "s": 262.92,
+   "e": 267.4,
+   "t": "Imagine a world where accessibility is just a given in everything we create."
+  },
+  {
+   "s": 267.48,
+   "e": 269.1,
+   "t": "Okay, now I'm getting excited about the future."
+  },
+  {
+   "s": 269.86,
+   "e": 272.74,
+   "t": "But this tech, it's not as limited to design, is it?"
+  },
+  {
+   "s": 272.74,
+   "e": 277.08,
+   "t": "I mean, it seems like this could be huge for feels like healthcare or education, too."
+  },
+  {
+   "s": 277.2,
+   "e": 277.4,
+   "t": "Right."
+  },
+  {
+   "s": 277.58,
+   "e": 278.02,
+   "t": "Absolutely."
+  },
+  {
+   "s": 278.22,
+   "e": 278.8,
+   "t": "Think about it."
+  },
+  {
+   "s": 279.14,
+   "e": 283.52,
+   "t": "Medical students could use these glasses to understand what it's like to have a visual impairment."
+  },
+  {
+   "s": 283.9,
+   "e": 287.7,
+   "t": "It could make them more empathetic, better prepared to treat those patients."
+  },
+  {
+   "s": 288.06,
+   "e": 288.54,
+   "t": "Oh, wow."
+  },
+  {
+   "s": 288.78,
+   "e": 289.0,
+   "t": "Yeah."
+  },
+  {
+   "s": 289.14,
+   "e": 295.14,
+   "t": "And architects could design buildings and spaces that are truly accessible to everyone, regardless of their vision."
+  },
+  {
+   "s": 295.36,
+   "e": 295.74,
+   "t": "Exactly."
+  },
+  {
+   "s": 296.1,
+   "e": 300.32,
+   "t": "Creating a world where accessibility is built into the very fabric of our lives."
+  },
+  {
+   "s": 300.76,
+   "e": 301.32,
+   "t": "That's the goal."
+  },
+  {
+   "s": 301.32,
+   "e": 302.2,
+   "t": "That's amazing."
+  },
+  {
+   "s": 302.72,
+   "e": 304.12,
+   "t": "And this is just the start, right?"
+  },
+  {
+   "s": 304.38,
+   "e": 308.56,
+   "t": "The researchers mentioned that this tech could be adapted to simulate other disabilities, too."
+  },
+  {
+   "s": 308.76,
+   "e": 309.24,
+   "t": "That's right."
+  },
+  {
+   "s": 309.48,
+   "e": 317.62,
+   "t": "We've been focused on vision, but imagine experiencing the world from the perspective of someone with hearing loss or mobility challenges."
+  },
+  {
+   "s": 317.86,
+   "e": 318.2,
+   "t": "Wow."
+  },
+  {
+   "s": 318.34,
+   "e": 320.78,
+   "t": "It could revolutionize how we approach design in those areas, too."
+  },
+  {
+   "s": 320.94,
+   "e": 321.36,
+   "t": "Absolutely."
+  },
+  {
+   "s": 321.6,
+   "e": 321.74,
+   "t": "Yeah."
+  },
+  {
+   "s": 321.74,
+   "e": 326.54,
+   "t": "It's all about challenging our assumptions and broadening our understanding of the human experience."
+  },
+  {
+   "s": 326.54,
+   "e": 329.64,
+   "t": "This deep dive has definitely given me a lot to think about."
+  },
+  {
+   "s": 329.94,
+   "e": 333.98,
+   "t": "But before we wrap up, I have to ask, are there any downsides to this technology?"
+  },
+  {
+   "s": 334.22,
+   "e": 335.18,
+   "t": "Nothing's perfect, right?"
+  },
+  {
+   "s": 335.48,
+   "e": 335.98,
+   "t": "That's true."
+  },
+  {
+   "s": 336.62,
+   "e": 337.96,
+   "t": "There are a few limitations."
+  },
+  {
+   "s": 338.76,
+   "e": 347.78,
+   "t": "For one thing, even though these glasses have a wider field of view than VR headsets, they still can't capture everything a person sees, especially in the far periphery."
+  },
+  {
+   "s": 347.78,
+   "e": 350.46,
+   "t": "So there are still some blind spots."
+  },
+  {
+   "s": 350.56,
+   "e": 351.2,
+   "t": "You could say that."
+  },
+  {
+   "s": 351.44,
+   "e": 351.72,
+   "t": "Mm-hmm."
+  },
+  {
+   "s": 351.92,
+   "e": 352.84,
+   "t": "And then there's the weight."
+  },
+  {
+   "s": 353.2,
+   "e": 355.1,
+   "t": "They're lighter than VR headsets, for sure."
+  },
+  {
+   "s": 355.56,
+   "e": 357.66,
+   "t": "But they're still heavier than regular eyeglasses."
+  },
+  {
+   "s": 358.46,
+   "e": 361.06,
+   "t": "So that could be a factor if you're wearing them for a long time."
+  },
+  {
+   "s": 361.24,
+   "e": 361.44,
+   "t": "Yeah."
+  },
+  {
+   "s": 361.56,
+   "e": 365.42,
+   "t": "Comfort is important if you want people to really engage with the experience."
+  },
+  {
+   "s": 365.66,
+   "e": 366.04,
+   "t": "What else?"
+  },
+  {
+   "s": 366.04,
+   "e": 374.5,
+   "t": "Well, this is getting a bit technical, but the refresh rate of the LCD lenses and the sampling rate of the eye tracker aren't quite as fast as our natural eye movements."
+  },
+  {
+   "s": 374.7,
+   "e": 376.66,
+   "t": "So there's a slight delay when you move your eyes."
+  },
+  {
+   "s": 376.88,
+   "e": 377.28,
+   "t": "Exactly."
+  },
+  {
+   "s": 377.8,
+   "e": 378.68,
+   "t": "There's a tiny lag."
+  },
+  {
+   "s": 379.18,
+   "e": 380.04,
+   "t": "Maybe 100 milliseconds."
+  },
+  {
+   "s": 380.26,
+   "e": 381.62,
+   "t": "Most people probably wouldn't even notice it."
+  },
+  {
+   "s": 382.06,
+   "e": 385.36,
+   "t": "But it's something to keep in mind as the technology continues to improve."
+  },
+  {
+   "s": 385.62,
+   "e": 386.14,
+   "t": "Makes sense."
+  },
+  {
+   "s": 386.26,
+   "e": 387.24,
+   "t": "There's always room to grow."
+  },
+  {
+   "s": 387.98,
+   "e": 392.42,
+   "t": "But it sounds like the potential benefits of these smart glasses really outweigh any limitations."
+  },
+  {
+   "s": 392.92,
+   "e": 393.58,
+   "t": "I'd say so."
+  },
+  {
+   "s": 393.58,
+   "e": 401.88,
+   "t": "So it's pretty exciting to think about how this tech could impact so many different fields, not just design, but also healthcare education and beyond."
+  },
+  {
+   "s": 402.62,
+   "e": 407.28,
+   "t": "It reminds us that sometimes all it takes is a new perspective to change the world."
+  },
+  {
+   "s": 407.76,
+   "e": 408.5,
+   "t": "So true."
+  },
+  {
+   "s": 408.84,
+   "e": 410.52,
+   "t": "Well, on that note, we'll leave you with this thought."
+  },
+  {
+   "s": 411.04,
+   "e": 415.82,
+   "t": "If you could experience the world through someone else's eyes, whose perspective would you choose and why?"
+  },
+  {
+   "s": 416.32,
+   "e": 417.78,
+   "t": "Thanks for joining us for another deep dive."
+  },
+  {
+   "s": 417.96,
+   "e": 418.72,
+   "t": "We'll see you next time."
+  }
+ ]
+}
