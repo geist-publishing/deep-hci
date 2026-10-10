@@ -59,3 +59,18 @@ def release_tag(episode: dict) -> str:
 
 def audio_path(episode: dict) -> Path:
     return ROOT / "audio" / episode["published"][:4] / episode["audio_file"]
+
+
+def transcript_path(slug: str) -> Path:
+    return ROOT / "transcripts" / f"{slug}.json"
+
+
+def load_transcript(slug: str) -> dict | None:
+    """None when an episode hasn't been transcribed; every caller degrades."""
+    path = transcript_path(slug)
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except json.JSONDecodeError:
+        return None

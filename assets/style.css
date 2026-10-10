@@ -591,6 +591,109 @@ a { color: inherit; }
 
 .download { display: inline-block; margin-top: 1rem; color: var(--muted); font-size: 0.875rem; }
 
+/* ---------------------------------------------------------------- transcript */
+
+.transcript {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.25rem;
+}
+
+.transcript summary {
+  cursor: pointer;
+  font-size: 0.9375rem;
+  font-weight: 450;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.transcript summary::-webkit-details-marker { display: none; }
+
+.transcript summary::before {
+  content: "▸";
+  color: var(--accent);
+  transition: transform 0.2s var(--ease);
+  display: inline-block;
+}
+
+.transcript[open] summary::before { transform: rotate(90deg); }
+.transcript summary span { color: var(--muted); font-size: 0.8125rem; }
+
+.cues {
+  margin-top: 1.25rem;
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.68;
+}
+
+.cues p {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: 0.75rem;
+  margin: 0 0 0.9em;
+  border-radius: 6px;
+  transition: background 0.3s var(--ease);
+}
+
+.cues p.is-current { background: color-mix(in oklab, var(--accent) 14%, transparent); }
+
+.t-cue {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  padding: 0.25rem 0;
+  text-align: left;
+  cursor: pointer;
+  align-self: start;
+}
+
+.t-cue:hover { color: var(--accent); }
+
+/* ---------------------------------------------------------------- venues */
+
+.crumbs {
+  padding-top: clamp(1.5rem, 4vw, 2.5rem);
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.crumbs a { text-decoration: none; }
+.crumbs a:hover { color: var(--accent); }
+.crumbs span { margin: 0 0.4rem; opacity: 0.6; }
+
+.masthead .meta { display: flex; gap: 1rem; color: var(--muted); font-size: 0.875rem; }
+.venue-link { margin-top: 0.75rem; font-size: 0.875rem; }
+
+.venue-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+}
+
+.venue-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.venue-list a { text-decoration: none; font-weight: 450; }
+.venue-list a:hover { color: var(--accent); }
+.venue-list span { color: var(--muted); font-size: 0.8125rem; }
+
+a.venue-tag { text-decoration: none; transition: background 0.2s var(--ease); }
+a.venue-tag:hover { background: color-mix(in oklab, var(--accent) 34%, transparent); }
+
 footer {
   border-top: 1px solid var(--line);
   margin-top: 4rem;

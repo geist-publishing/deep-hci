@@ -86,6 +86,24 @@
 
   /* ---------------------------------------------------------- painting */
 
+  // Transcript cues, sorted by start time, for the "currently speaking" highlight
+  const cues = [...document.querySelectorAll(".t-cue")];
+  const cueTimes = cues.map((c) => Number(c.dataset.t));
+  let currentCue = -1;
+
+  const markCue = (t) => {
+    if (!cues.length) return;
+    let lo = 0, hi = cueTimes.length - 1, found = -1;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1;
+      if (cueTimes[mid] <= t) { found = mid; lo = mid + 1; } else { hi = mid - 1; }
+    }
+    if (found === currentCue) return;
+    cues[currentCue]?.parentElement.classList.remove("is-current");
+    cues[found]?.parentElement.classList.add("is-current");
+    currentCue = found;
+  };
+
   const paint = () => {
     if (!active) return;
     const total = audio.duration || Number(active.dataset.duration) || 0;
@@ -96,6 +114,7 @@
     miniTime.textContent = fmt(audio.currentTime);
     const now = hostOf(active)?.querySelector(".now");
     if (now) now.textContent = fmt(audio.currentTime);
+    markCue(audio.currentTime);
   };
 
   const setState = (wave, playing) => {
@@ -181,6 +200,18 @@
   /* ---------------------------------------------------------- interaction */
 
   document.addEventListener("click", (e) => {
+    // Transcript timestamps drive the episode player
+    const cue = e.target.closest(".t-cue");
+    if (cue) {
+      e.preventDefault();
+      const wave = document.querySelector(".player .wave");
+      if (wave) {
+        if (active !== wave) bind(wave);
+        seekTo(Number(cue.dataset.t));
+        audio.play();
+      }
+      return;
+    }
     if (e.target.closest(".mini-play")) {
       if (active) toggle(active);
       return;

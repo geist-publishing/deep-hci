@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{title}}</title>
 <meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
 <link rel="alternate" type="application/rss+xml" title="{{show}}" href="{{feed_path}}">
 <link rel="icon" href="/img/{{logo}}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,14 +14,21 @@
 <link rel="stylesheet" href="/style.css">
 <meta property="og:title" content="{{title}}">
 <meta property="og:description" content="{{description}}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{og_type}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:site_name" content="{{show}}">
 <meta property="og:image" content="{{og_image}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{og_image}}">
+{{head}}
 </head>
 <body>
 <div class="wrap">
 {{body}}
 <footer>
-  <p>{{show}} — {{author}}. <a href="{{feed_path}}">RSS</a></p>
+  <p>{{show}} — {{author}}. <a href="{{feed_path}}">RSS</a> · <a href="/venues/">Venues</a></p>
 </footer>
 </div>
 <script src="/player.js" defer></script>
